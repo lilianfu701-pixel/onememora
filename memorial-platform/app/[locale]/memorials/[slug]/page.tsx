@@ -1,8 +1,11 @@
+import { asc, eq } from "drizzle-orm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { cache } from "react";
 import type { Metadata } from "next";
+import { db } from "@/db/client";
+import { memorialRelatives } from "@/db/schema";
 import { env } from "@/lib/env";
 import { normalizeLocale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
@@ -16,6 +19,14 @@ import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
 import { OfferRitual } from "./offer-ritual";
 import { PublishPanel } from "./publish-panel";
+
+function desensitizeName(name: string): string {
+  const trimmed = name.trim();
+  if (trimmed.length <= 1) return trimmed;
+  const chars = [...trimmed];
+  if (chars.length === 2) return chars[0] + "*";
+  return chars[0] + "*".repeat(chars.length - 2) + chars[chars.length - 1];
+}
 
 export const dynamic = "force-dynamic";
 
@@ -116,11 +127,22 @@ export default async function MemorialPage(props: {
   const { detail } = result;
   const span = lifeSpan(detail);
 
-  const [biography, stories, rituals, gallery] = await Promise.all([
+  const [biography, stories, rituals, gallery, relatives] = await Promise.all([
     publishedBiography(detail.memorialId),
     publicVisitorStories(detail.memorialId),
     offerableRituals(detail.memorialId, normalizeLocale(locale)),
     memorialGallery(detail.memorialId),
+    db()
+      .select({
+        id: memorialRelatives.id,
+        name: memorialRelatives.name,
+        relationshipToDeceased: memorialRelatives.relationshipToDeceased,
+        showFullName: memorialRelatives.showFullName,
+        displayOrder: memorialRelatives.displayOrder,
+      })
+      .from(memorialRelatives)
+      .where(eq(memorialRelatives.memorialId, detail.memorialId))
+      .orderBy(asc(memorialRelatives.displayOrder)),
   ]);
 
   /*
@@ -200,6 +222,24 @@ export default async function MemorialPage(props: {
             </p>
           ) : null}
         </header>
+
+        {relatives.length > 0 ? (
+          <section className="stack">
+            <h2 className="eyebrow">{t("relativesLabel")}</h2>
+            <dl className="relativesList">
+              {relatives.map((rel) => (
+                <div key={rel.id} className="relativesItem">
+                  <dt>{t(`relativeRole_${rel.relationshipToDeceased}`)}</dt>
+                  <dd>
+                    {rel.showFullName
+                      ? rel.name
+                      : desensitizeName(rel.name)}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ) : null}
 
         {gallery.length > 0 ? (
           <section className="photoGallery">

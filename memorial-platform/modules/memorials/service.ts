@@ -6,6 +6,7 @@ import {
   memorialLocations,
   memorialMembers,
   memorialNames,
+  memorialRelatives,
   memorials,
   outboxEvents,
   relationshipClaims,
@@ -18,7 +19,21 @@ import { buildMemorialSlug } from "./slug";
 /** The wording of the responsibility statement the creator accepted. */
 export const RELATIONSHIP_STATEMENT_VERSION = "2026-07-29.v1";
 
-export type Relationship = "spouse" | "parent" | "child" | "sibling";
+export type Relationship =
+  | "spouse"
+  | "parent"
+  | "child"
+  | "sibling"
+  | "husband"
+  | "wife"
+  | "father"
+  | "mother"
+  | "son"
+  | "daughter"
+  | "older_sister"
+  | "older_brother"
+  | "younger_brother"
+  | "younger_sister";
 
 export type DatePrecision = "day" | "month" | "year" | "approximate" | "unknown";
 
@@ -51,6 +66,18 @@ export type CreateMemorialInput = {
         city?: string | undefined;
       }[]
     | undefined;
+  ancestralHometown?: string | undefined;
+  faith?: string | undefined;
+  causeOfDeath?: string | undefined;
+  relatives?:
+    | {
+        name: string;
+        relationshipToDeceased: string;
+        isDeceased: boolean;
+        showFullName?: boolean | undefined;
+      }[]
+    | undefined;
+  coCreatorEmails?: string[] | undefined;
   visibility?: "public" | "unlisted" | "invite_only" | undefined;
   searchEngineIndexable?: boolean | undefined;
 };
@@ -66,7 +93,12 @@ const ELIGIBLE_RELATIONSHIPS: readonly Relationship[] = [
   "spouse",
   "parent",
   "child",
-  "sibling",
+  "husband",
+  "wife",
+  "father",
+  "mother",
+  "son",
+  "daughter",
 ];
 
 /**
@@ -133,6 +165,9 @@ export async function createMemorial(
         birthDatePrecision: input.birthDate?.precision ?? "unknown",
         deathDate: input.deathDate?.value ?? null,
         deathDatePrecision: input.deathDate?.precision ?? "unknown",
+        ancestralHometown: input.ancestralHometown?.trim() || null,
+        faith: input.faith?.trim() || null,
+        causeOfDeath: input.causeOfDeath?.trim() || null,
       })
       .returning({ id: deceasedPeople.id });
 
@@ -187,6 +222,20 @@ export async function createMemorial(
         country: location.country ?? null,
         region: location.region ?? null,
         city: location.city ?? null,
+      });
+    }
+
+    for (let i = 0; i < (input.relatives ?? []).length; i++) {
+      const rel = input.relatives![i]!;
+      const relName = rel.name.trim();
+      if (relName.length === 0) continue;
+      await tx.insert(memorialRelatives).values({
+        memorialId: memorial.id,
+        name: relName,
+        relationshipToDeceased: rel.relationshipToDeceased,
+        isDeceased: rel.isDeceased,
+        showFullName: rel.showFullName ?? rel.isDeceased,
+        displayOrder: i,
       });
     }
 

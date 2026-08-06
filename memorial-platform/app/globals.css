@@ -304,6 +304,20 @@ img {
   background: #26402f;
 }
 
+.buttonPrimary:disabled,
+.buttonPrimary[disabled] {
+  background: var(--line-strong);
+  color: var(--ink-muted);
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.buttonQuiet:disabled,
+.buttonQuiet[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 .buttonQuiet {
   background: transparent;
   border-color: var(--line-strong);
@@ -413,6 +427,154 @@ img {
   margin-block-end: var(--space-4);
 }
 
+/* ---------- Memorial create form ---------- */
+
+.createForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.formSection {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-block-start: 1px solid var(--line);
+  padding-block-start: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.formSection > legend {
+  padding: 0;
+  margin-block-end: var(--space-2);
+}
+
+.relationshipGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: var(--space-3);
+}
+
+.buttonCompact {
+  min-height: 38px;
+  padding-inline: var(--space-4);
+  font-size: var(--text-sm);
+}
+
+.aliasRow {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: var(--space-3);
+  align-items: end;
+}
+
+.aliasName {
+  min-width: 0;
+}
+
+.aliasType {
+  min-width: 8rem;
+}
+
+.aliasRemove {
+  min-height: 44px;
+  padding-inline: var(--space-3);
+  align-self: end;
+}
+
+.dateRow {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  align-items: end;
+}
+
+.placeRow {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: auto 1fr 1fr;
+  align-items: end;
+}
+
+.placeRow > :first-child {
+  max-width: 5rem;
+}
+
+.relativeRow {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto auto;
+  gap: var(--space-3);
+  align-items: end;
+  padding-block: var(--space-2);
+  border-block-end: 1px solid var(--line);
+}
+
+.relativeName {
+  min-width: 0;
+}
+
+.relativeRelation {
+  min-width: 6rem;
+}
+
+.relativeStatus {
+  min-width: 5rem;
+}
+
+.relativePreview {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 5rem;
+}
+
+.relativePreviewName {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.relativesActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .relativeRow {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .relativeName {
+    grid-column: 1 / -1;
+  }
+
+  .relativePreview {
+    grid-column: 1 / -1;
+  }
+
+  .placeRow {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .placeRow > :first-child {
+    max-width: none;
+  }
+
+  .aliasRow {
+    grid-template-columns: 1fr auto;
+  }
+
+  .aliasType {
+    grid-column: 1;
+  }
+}
+
 /* The whole row is the label, so the hit target is the sentence and not just
    the 13px box beside it. */
 .choiceRow {
@@ -519,6 +681,32 @@ img {
     --line: rgba(37, 48, 39, 0.3);
     --line-strong: rgba(37, 48, 39, 0.5);
   }
+}
+
+/* ---------- Relatives list (public memorial page) ---------- */
+
+.relativesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-6);
+  margin: 0;
+}
+
+.relativesItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 8rem;
+}
+
+.relativesItem dt {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.relativesItem dd {
+  margin: 0;
+  font-weight: 500;
 }
 
 /* ---------- Photo gallery & manager ---------- */

@@ -1,3 +1,4 @@
+import { after } from "next/server";
 import { z } from "zod";
 import {
   correlationIdFrom,
@@ -6,7 +7,9 @@ import {
   jsonUnprocessable,
   readJson,
 } from "@/lib/api";
+import { logger } from "@/lib/logger";
 import { currentActor } from "@/modules/auth/current-user";
+import { inviteMember } from "@/modules/memorials/invitations";
 import { createMemorial } from "@/modules/memorials/service";
 import type { CreateMemorialError } from "@/modules/memorials/service";
 import { drainOutboxAfterResponse } from "@/modules/outbox/drain-after";
@@ -25,9 +28,20 @@ const nameSchema = z.object({
 });
 
 const schema = z.object({
-  relationship: z.enum(["spouse", "parent", "child", "sibling"], {
-    error: "Choose your relationship to them.",
-  }),
+  relationship: z.enum(
+    [
+      "spouse",
+      "parent",
+      "child",
+      "husband",
+      "wife",
+      "father",
+      "mother",
+      "son",
+      "daughter",
+    ],
+    { error: "Choose your relationship to them." },
+  ),
   relationshipStatementAccepted: z.boolean(),
   primaryName: nameSchema,
   aliases: z
@@ -54,6 +68,21 @@ const schema = z.object({
     )
     .max(10)
     .optional(),
+  ancestralHometown: z.string().max(200).optional(),
+  faith: z.string().max(200).optional(),
+  causeOfDeath: z.string().max(500).optional(),
+  relatives: z
+    .array(
+      z.object({
+        name: z.string().trim().min(1).max(200),
+        relationshipToDeceased: z.string().trim().min(1).max(60),
+        isDeceased: z.boolean(),
+        showFullName: z.boolean().optional(),
+      }),
+    )
+    .max(30)
+    .optional(),
+  coCreatorEmails: z.array(z.string().email().max(320)).max(5).optional(),
   visibility: z.enum(["public", "unlisted", "invite_only"]).optional(),
   searchEngineIndexable: z.boolean().optional(),
 });
@@ -69,7 +98,7 @@ const FIELD_FOR_ERROR: Record<CreateMemorialError, string> = {
 const MESSAGE_FOR_ERROR: Record<CreateMemorialError, string> = {
   AUTH_REQUIRED: "Please sign in to continue.",
   RELATIONSHIP_NOT_ELIGIBLE:
-    "Only a spouse, parent, child or sibling can create a memorial.",
+    "Only a direct family member can create a memorial.",
   STATEMENT_NOT_ACCEPTED:
     "Please confirm the information is true and accept responsibility for this memorial.",
   INVALID_NAME: "Enter the name of the person being remembered.",
@@ -126,6 +155,23 @@ export async function POST(request: Request): Promise<Response> {
   // already drained by the request that did.
   if (result.value.created) {
     drainOutboxAfterResponse(correlationId);
+
+    const emails = body.value.coCreatorEmails ?? [];
+    if (emails.length > 0) {
+      const log = logger("memorials");
+      after(async () => {
+        for (const email of emails) {
+          try {
+            await inviteMember(actor, result.value.memorialId, {
+              email,
+              role: "admin",
+            }, correlationId);
+          } catch (e: unknown) {
+            log.warn("co-creator invitation failed", { email, memorialId: result.value.memorialId });
+          }
+        }
+      });
+    }
   }
 
   return jsonSuccess(

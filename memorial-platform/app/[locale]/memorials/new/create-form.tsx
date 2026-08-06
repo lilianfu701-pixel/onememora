@@ -865,6 +865,12 @@ export function CreateMemorialForm(props: { locale: string }) {
           </button>
         </div>
 
+        {!canSubmit && !sending ? (
+          <p className="muted" style={{ fontSize: "var(--text-sm)" }}>
+            {t("submitHint")}
+          </p>
+        ) : null}
+
         {failure ? (
           <p className="fieldError" role="alert">
             {failure === "DUPLICATE_CANDIDATE_FOUND"
