@@ -491,51 +491,97 @@ img {
   align-items: end;
 }
 
+/* Death place keeps city; birth place stops at province/state (two columns). */
 .placeRow {
   display: grid;
   gap: var(--space-3);
-  grid-template-columns: auto 1fr 1fr;
+  grid-template-columns: minmax(9rem, 14rem) 1fr 1fr;
   align-items: end;
 }
 
-.placeRow > :first-child {
-  max-width: 5rem;
+.placeRowBirth {
+  grid-template-columns: minmax(9rem, 14rem) 1fr;
+}
+
+/* A shorter control for the dense relatives / co-creator tables. */
+.inputSm {
+  min-height: 40px;
+  padding-block: var(--space-1);
+}
+
+/*
+ * Relatives and co-creators are entered as compact tables: labels appear once
+ * in a header row, and each person is a single tight row rather than a stack of
+ * full-width labelled fields. A two-character name no longer claims a whole row.
+ */
+.relativesTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.relativesHead {
+  display: grid;
+  grid-template-columns: 10rem 12rem 7.5rem 3rem 1fr 2.25rem;
+  gap: var(--space-3);
+  align-items: end;
+  padding-block-end: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--muted);
 }
 
 .relativeRow {
   display: grid;
-  grid-template-columns: 1fr auto auto auto auto;
+  grid-template-columns: 10rem 12rem 7.5rem 3rem 1fr 2.25rem;
   gap: var(--space-3);
-  align-items: end;
+  align-items: center;
   padding-block: var(--space-2);
-  border-block-end: 1px solid var(--line);
+  border-block-start: 1px solid var(--line);
 }
 
-.relativeName {
-  min-width: 0;
-}
-
-.relativeRelation {
-  min-width: 6rem;
-}
-
-.relativeStatus {
-  min-width: 5rem;
-}
-
-.relativePreview {
+.relativeShow {
   display: flex;
-  flex-direction: column;
-  gap: var(--space-1);
-  min-width: 5rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
 }
 
 .relativePreviewName {
   font-size: var(--text-sm);
   color: var(--muted);
-  min-height: 44px;
   display: flex;
   align-items: center;
+  min-height: 40px;
+  overflow-wrap: anywhere;
+}
+
+.coCreatorHead {
+  display: grid;
+  grid-template-columns: 12rem 1fr 2.25rem;
+  gap: var(--space-3);
+  align-items: end;
+  padding-block-end: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.coCreatorRow {
+  display: grid;
+  grid-template-columns: 12rem 1fr 2.25rem;
+  gap: var(--space-3);
+  align-items: center;
+  padding-block: var(--space-2);
+  border-block-start: 1px solid var(--line);
+}
+
+/* A tight square remove control that lines up with the 40px row inputs. */
+.rowRemove {
+  min-height: 40px;
+  min-width: 2.25rem;
+  padding-inline: 0;
+  font-size: var(--text-lg);
+  line-height: 1;
 }
 
 .relativesActions {
@@ -543,27 +589,40 @@ img {
   align-items: center;
   gap: var(--space-6);
   flex-wrap: wrap;
+  margin-block-start: var(--space-3);
 }
 
 @media (max-width: 640px) {
-  .relativeRow {
+  /* Header labels are desktop-only; on a phone each row wraps and the inputs
+     carry their own placeholders / aria-labels instead. */
+  .relativesHead,
+  .coCreatorHead {
+    display: none;
+  }
+
+  .relativeRow,
+  .coCreatorRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+    padding-block: var(--space-3);
+  }
+
+  .relativeRow > .input,
+  .coCreatorRow > .input {
+    flex: 1 1 8rem;
+    min-width: 0;
+  }
+
+  .relativePreviewName {
+    flex-basis: 100%;
+    min-height: 0;
+  }
+
+  .placeRow,
+  .placeRowBirth {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .relativeName {
-    grid-column: 1 / -1;
-  }
-
-  .relativePreview {
-    grid-column: 1 / -1;
-  }
-
-  .placeRow {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .placeRow > :first-child {
-    max-width: none;
   }
 
   .aliasRow {

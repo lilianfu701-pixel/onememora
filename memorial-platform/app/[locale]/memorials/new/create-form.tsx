@@ -2,13 +2,18 @@
 
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { countryOptions } from "@/lib/countries";
 
 type Relationship =
   | "husband"
   | "wife"
   | "father"
   | "mother"
+  | "paternal_grandfather"
+  | "paternal_grandmother"
+  | "maternal_grandfather"
+  | "maternal_grandmother"
   | "son"
   | "daughter"
   | "older_sister"
@@ -20,7 +25,11 @@ type Precision = "unknown" | "year" | "approximate" | "month" | "day";
 type Visibility = "public" | "unlisted" | "invite_only";
 type NameType = "former" | "native" | "transliteration" | "alias";
 
+/** Death date: a single precision plus a raw value (kept from the original form). */
 type PartialDateInput = { precision: Precision; raw: string };
+
+/** Birth date: year is required; month and day may each be left "not sure". */
+type DateParts = { year: string; month: string; day: string };
 
 type AliasEntry = { value: string; type: NameType };
 
@@ -31,11 +40,20 @@ type RelativeEntry = {
   showFullName: boolean;
 };
 
+type CoCreatorEntry = {
+  name: string;
+  relationshipToDeceased: string;
+};
+
 const RELATIONSHIPS: Relationship[] = [
   "husband",
   "wife",
   "father",
   "mother",
+  "paternal_grandfather",
+  "paternal_grandmother",
+  "maternal_grandfather",
+  "maternal_grandmother",
   "son",
   "daughter",
 ];
@@ -81,7 +99,14 @@ const MAX_ONE: ReadonlySet<string> = new Set([
 ]);
 
 const EMPTY_DATE: PartialDateInput = { precision: "unknown", raw: "" };
+const EMPTY_PARTS: DateParts = { year: "", month: "", day: "" };
 
+const MONTHS = Array.from({ length: 12 }, (_, i) =>
+  String(i + 1).padStart(2, "0"),
+);
+const DAYS = Array.from({ length: 31 }, (_, i) => String(i + 1).padStart(2, "0"));
+
+/** Death date → API shape. */
 function toPartialDate(
   input: PartialDateInput,
 ): { value: string; precision: Precision } | undefined {
@@ -96,6 +121,25 @@ function toPartialDate(
   }
   const year = input.raw.padStart(4, "0").slice(0, 4);
   return { value: `${year}-01-01`, precision: input.precision };
+}
+
+/**
+ * Birth date → API shape. Year alone yields year precision; adding a month
+ * narrows to month; adding a day narrows to day. No year means no date.
+ */
+function partsToDate(
+  parts: DateParts,
+): { value: string; precision: Precision } | undefined {
+  const year = parts.year.trim();
+  if (year === "") return undefined;
+  const yyyy = year.padStart(4, "0").slice(0, 4);
+  if (parts.month === "") {
+    return { value: `${yyyy}-01-01`, precision: "year" };
+  }
+  if (parts.day === "") {
+    return { value: `${yyyy}-${parts.month}-01`, precision: "month" };
+  }
+  return { value: `${yyyy}-${parts.month}-${parts.day}`, precision: "day" };
 }
 
 function desensitizeName(name: string): string {
@@ -114,15 +158,19 @@ export function CreateMemorialForm(props: { locale: string }) {
   const home = useTranslations("home");
   const router = useRouter();
 
+  const countries = useMemo(
+    () => countryOptions(props.locale),
+    [props.locale],
+  );
+
   const [relationship, setRelationship] = useState<Relationship | null>(null);
   const [name, setName] = useState("");
   const [aliases, setAliases] = useState<AliasEntry[]>([]);
-  const [birth, setBirth] = useState<PartialDateInput>(EMPTY_DATE);
+  const [birth, setBirth] = useState<DateParts>(EMPTY_PARTS);
   const [death, setDeath] = useState<PartialDateInput>(EMPTY_DATE);
 
   const [birthCountry, setBirthCountry] = useState("");
   const [birthRegion, setBirthRegion] = useState("");
-  const [birthCity, setBirthCity] = useState("");
 
   const [deathCountry, setDeathCountry] = useState("");
   const [deathRegion, setDeathRegion] = useState("");
@@ -139,7 +187,7 @@ export function CreateMemorialForm(props: { locale: string }) {
   const [indexable, setIndexable] = useState(true);
   const [publicAcknowledged, setPublicAcknowledged] = useState(false);
   const [coCreate, setCoCreate] = useState(false);
-  const [coCreatorEmails, setCoCreatorEmails] = useState<string[]>([]);
+  const [coCreators, setCoCreators] = useState<CoCreatorEntry[]>([]);
 
   const [declared, setDeclared] = useState(false);
 
@@ -177,15 +225,17 @@ export function CreateMemorialForm(props: { locale: string }) {
   }
 
   function addCoCreator(): void {
-    setCoCreatorEmails([...coCreatorEmails, ""]);
+    setCoCreators([...coCreators, { name: "", relationshipToDeceased: "" }]);
   }
 
-  function updateCoCreator(idx: number, value: string): void {
-    setCoCreatorEmails(coCreatorEmails.map((e, i) => (i === idx ? value : e)));
+  function updateCoCreator(idx: number, patch: Partial<CoCreatorEntry>): void {
+    setCoCreators(
+      coCreators.map((c, i) => (i === idx ? { ...c, ...patch } : c)),
+    );
   }
 
   function removeCoCreator(idx: number): void {
-    setCoCreatorEmails(coCreatorEmails.filter((_, i) => i !== idx));
+    setCoCreators(coCreators.filter((_, i) => i !== idx));
   }
 
   function relativeUsedCounts(): Map<string, number> {
@@ -251,23 +301,19 @@ export function CreateMemorialForm(props: { locale: string }) {
       city?: string;
     }[] = [];
 
-    if (birthCountry.trim() || birthRegion.trim() || birthCity.trim()) {
+    // Birthplace is detailed only to the province/state level.
+    if (birthCountry.trim() || birthRegion.trim()) {
       locations.push({
         kind: "birth",
-        ...(birthCountry.trim()
-          ? { country: birthCountry.trim().toUpperCase().slice(0, 2) }
-          : {}),
+        ...(birthCountry.trim() ? { country: birthCountry.trim() } : {}),
         ...(birthRegion.trim() ? { region: birthRegion.trim() } : {}),
-        ...(birthCity.trim() ? { city: birthCity.trim() } : {}),
       });
     }
 
     if (deathCountry.trim() || deathRegion.trim() || deathCity.trim()) {
       locations.push({
         kind: "death",
-        ...(deathCountry.trim()
-          ? { country: deathCountry.trim().toUpperCase().slice(0, 2) }
-          : {}),
+        ...(deathCountry.trim() ? { country: deathCountry.trim() } : {}),
         ...(deathRegion.trim() ? { region: deathRegion.trim() } : {}),
         ...(deathCity.trim() ? { city: deathCity.trim() } : {}),
       });
@@ -286,13 +332,25 @@ export function CreateMemorialForm(props: { locale: string }) {
         showFullName: showAllNames || r.showFullName,
       }));
 
+    const validCoCreators = coCreators
+      .filter(
+        (c) => c.name.trim().length > 0 && c.relationshipToDeceased !== "",
+      )
+      .map((c) => ({
+        name: c.name.trim(),
+        relationshipToDeceased: c.relationshipToDeceased,
+      }));
+
+    const birthDate = partsToDate(birth);
+    const deathDate = toPartialDate(death);
+
     const body = {
       relationship,
       relationshipStatementAccepted: declared,
       primaryName: { value: name.trim() },
       ...(validAliases.length > 0 ? { aliases: validAliases } : {}),
-      ...(toPartialDate(birth) ? { birthDate: toPartialDate(birth) } : {}),
-      ...(toPartialDate(death) ? { deathDate: toPartialDate(death) } : {}),
+      ...(birthDate ? { birthDate } : {}),
+      ...(deathDate ? { deathDate } : {}),
       ...(locations.length > 0 ? { locations } : {}),
       ...(ancestralHometown.trim()
         ? { ancestralHometown: ancestralHometown.trim() }
@@ -300,8 +358,8 @@ export function CreateMemorialForm(props: { locale: string }) {
       ...(faith.trim() ? { faith: faith.trim() } : {}),
       ...(causeOfDeath.trim() ? { causeOfDeath: causeOfDeath.trim() } : {}),
       ...(validRelatives.length > 0 ? { relatives: validRelatives } : {}),
-      ...(coCreate && coCreatorEmails.filter((e) => e.trim()).length > 0
-        ? { coCreatorEmails: coCreatorEmails.filter((e) => e.trim()).map((e) => e.trim()) }
+      ...(coCreate && validCoCreators.length > 0
+        ? { coCreators: validCoCreators }
         : {}),
       visibility,
       searchEngineIndexable: visibility === "public" ? indexable : false,
@@ -341,6 +399,8 @@ export function CreateMemorialForm(props: { locale: string }) {
   function errorFor(field: string): string | null {
     return fieldErrors[field]?.[0] ?? null;
   }
+
+  const relativeCounts = relativeUsedCounts();
 
   return (
     <form className="createForm" onSubmit={submit} noValidate>
@@ -439,58 +499,85 @@ export function CreateMemorialForm(props: { locale: string }) {
       {/* ── Birth info ── */}
       <fieldset className="formSection">
         <legend className="eyebrow">{t("birthInfoLabel")}</legend>
+        {/*
+         * Year is required to record a birth date at all; month and day may each
+         * be left "not sure". This drops the whole-date "unknown" option a family
+         * never needed once they knew the year.
+         */}
         <div className="dateRow">
           <label className="field">
-            <span className="fieldLabel">{t("datePrecisionLabel")}</span>
+            <span className="fieldLabel">{t("yearLabel")}</span>
+            <input
+              className="input"
+              type="number"
+              inputMode="numeric"
+              min={1583}
+              max={2200}
+              placeholder="1931"
+              value={birth.year}
+              onChange={(e) =>
+                setBirth(
+                  e.target.value.trim() === ""
+                    ? EMPTY_PARTS
+                    : { ...birth, year: e.target.value },
+                )
+              }
+            />
+          </label>
+          <label className="field">
+            <span className="fieldLabel">{t("monthLabel")}</span>
             <select
               className="input"
-              value={birth.precision}
+              value={birth.month}
+              disabled={birth.year.trim() === ""}
               onChange={(e) =>
-                setBirth({ precision: e.target.value as Precision, raw: "" })
+                setBirth({
+                  ...birth,
+                  month: e.target.value,
+                  ...(e.target.value === "" ? { day: "" } : {}),
+                })
               }
             >
-              {PRECISIONS.map((p) => (
-                <option value={p} key={p}>
-                  {t(
-                    `datePrecision${p.charAt(0).toUpperCase()}${p.slice(1)}`,
-                  )}
+              <option value="">{t("dateUnclear")}</option>
+              {MONTHS.map((m) => (
+                <option value={m} key={m}>
+                  {Number(m)}
                 </option>
               ))}
             </select>
           </label>
-          {birth.precision !== "unknown" ? (
-            <label className="field">
-              <span className="fieldLabel">{t("birthDateLabel")}</span>
-              <input
-                className="input"
-                type={
-                  birth.precision === "day"
-                    ? "date"
-                    : birth.precision === "month"
-                      ? "month"
-                      : "number"
-                }
-                {...(birth.precision === "year" ||
-                birth.precision === "approximate"
-                  ? { min: 1583, max: 2200, placeholder: "1931" }
-                  : {})}
-                value={birth.raw}
-                onChange={(e) => setBirth({ ...birth, raw: e.target.value })}
-              />
-            </label>
-          ) : null}
+          <label className="field">
+            <span className="fieldLabel">{t("dayLabel")}</span>
+            <select
+              className="input"
+              value={birth.day}
+              disabled={birth.month === ""}
+              onChange={(e) => setBirth({ ...birth, day: e.target.value })}
+            >
+              <option value="">{t("dateUnclear")}</option>
+              {DAYS.map((d) => (
+                <option value={d} key={d}>
+                  {Number(d)}
+                </option>
+              ))}
+            </select>
+          </label>
         </div>
-        <div className="placeRow">
+        <div className="placeRow placeRowBirth">
           <label className="field">
             <span className="fieldLabel">{t("countryLabel")}</span>
-            <input
+            <select
               className="input"
-              type="text"
-              maxLength={2}
-              placeholder="CN"
               value={birthCountry}
               onChange={(e) => setBirthCountry(e.target.value)}
-            />
+            >
+              <option value="">—</option>
+              {countries.map((c) => (
+                <option value={c.code} key={c.code}>
+                  {c.name}
+                </option>
+              ))}
+            </select>
           </label>
           <label className="field">
             <span className="fieldLabel">{t("regionLabel")}</span>
@@ -500,16 +587,6 @@ export function CreateMemorialForm(props: { locale: string }) {
               maxLength={120}
               value={birthRegion}
               onChange={(e) => setBirthRegion(e.target.value)}
-            />
-          </label>
-          <label className="field">
-            <span className="fieldLabel">{t("cityLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={120}
-              value={birthCity}
-              onChange={(e) => setBirthCity(e.target.value)}
             />
           </label>
         </div>
@@ -567,14 +644,18 @@ export function CreateMemorialForm(props: { locale: string }) {
         <div className="placeRow">
           <label className="field">
             <span className="fieldLabel">{t("countryLabel")}</span>
-            <input
+            <select
               className="input"
-              type="text"
-              maxLength={2}
-              placeholder="CN"
               value={deathCountry}
               onChange={(e) => setDeathCountry(e.target.value)}
-            />
+            >
+              <option value="">—</option>
+              {countries.map((c) => (
+                <option value={c.code} key={c.code}>
+                  {c.name}
+                </option>
+              ))}
+            </select>
           </label>
           <label className="field">
             <span className="fieldLabel">{t("regionLabel")}</span>
@@ -641,83 +722,98 @@ export function CreateMemorialForm(props: { locale: string }) {
           {t("relativesHelp")}
         </p>
 
-        {relatives.map((rel, i) => {
-          const counts = relativeUsedCounts();
-          return (
-          <div className="relativeRow" key={i}>
-            <label className="field relativeName">
-              <span className="fieldLabel">{t("relativeNameLabel")}</span>
-              <input
-                className="input"
-                type="text"
-                maxLength={200}
-                value={rel.name}
-                onChange={(e) =>
-                  updateRelative(i, { name: e.target.value })
-                }
-              />
-            </label>
-            <label className="field relativeRelation">
-              <span className="fieldLabel">{t("relativeRelationLabel")}</span>
-              <select
-                className="input"
-                value={rel.relationshipToDeceased}
-                onChange={(e) =>
-                  updateRelative(i, {
-                    relationshipToDeceased: e.target.value,
-                  })
-                }
-              >
-                {RELATIVE_RELATIONSHIPS.map((rr) => (
-                  <option
-                    value={rr}
-                    key={rr}
-                    disabled={
-                      rr !== rel.relationshipToDeceased &&
-                      isRelMaxedOut(rr, counts)
+        {relatives.length > 0 ? (
+          <div className="relativesTable">
+            <div className="relativesHead" aria-hidden="true">
+              <span>{t("relativeRelationLabel")}</span>
+              <span>{t("relativeNameLabel")}</span>
+              <span>{t("relativeStatusLabel")}</span>
+              <span>{t("showFullNameShort")}</span>
+              <span>{t("displayPreview")}</span>
+              <span />
+            </div>
+            {relatives.map((rel, i) => {
+              const shown = showAllNames || rel.showFullName;
+              return (
+                <div className="relativeRow" key={i}>
+                  <select
+                    className="input inputSm"
+                    aria-label={t("relativeRelationLabel")}
+                    value={rel.relationshipToDeceased}
+                    onChange={(e) =>
+                      updateRelative(i, {
+                        relationshipToDeceased: e.target.value,
+                      })
                     }
                   >
-                    {t(`relativeRole_${rr}`)}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="field relativeStatus">
-              <span className="fieldLabel">{t("relativeStatusLabel")}</span>
-              <select
-                className="input"
-                value={rel.isDeceased ? "deceased" : "living"}
-                onChange={(e) =>
-                  updateRelative(i, {
-                    isDeceased: e.target.value === "deceased",
-                  })
-                }
-              >
-                <option value="living">{t("statusLiving")}</option>
-                <option value="deceased">{t("statusDeceased")}</option>
-              </select>
-            </label>
-            <div className="relativePreview">
-              <span className="fieldLabel">{t("displayPreview")}</span>
-              <span className="relativePreviewName">
-                {showAllNames || rel.showFullName
-                  ? rel.name || "—"
-                  : rel.name
-                    ? desensitizeName(rel.name)
-                    : "—"}
-              </span>
-            </div>
-            <button
-              type="button"
-              className="button buttonQuiet buttonCompact aliasRemove"
-              onClick={() => removeRelative(i)}
-              aria-label={common("remove")}
-            >
-              ×
-            </button>
+                    {RELATIVE_RELATIONSHIPS.map((rr) => (
+                      <option
+                        value={rr}
+                        key={rr}
+                        disabled={
+                          rr !== rel.relationshipToDeceased &&
+                          isRelMaxedOut(rr, relativeCounts)
+                        }
+                      >
+                        {t(`relativeRole_${rr}`)}
+                      </option>
+                    ))}
+                  </select>
+                  <input
+                    className="input inputSm"
+                    type="text"
+                    maxLength={200}
+                    aria-label={t("relativeNameLabel")}
+                    placeholder={t("relativeNameLabel")}
+                    value={rel.name}
+                    onChange={(e) =>
+                      updateRelative(i, { name: e.target.value })
+                    }
+                  />
+                  <select
+                    className="input inputSm"
+                    aria-label={t("relativeStatusLabel")}
+                    value={rel.isDeceased ? "deceased" : "living"}
+                    onChange={(e) =>
+                      updateRelative(i, {
+                        isDeceased: e.target.value === "deceased",
+                      })
+                    }
+                  >
+                    <option value="living">{t("statusLiving")}</option>
+                    <option value="deceased">{t("statusDeceased")}</option>
+                  </select>
+                  <label className="relativeShow">
+                    <input
+                      type="checkbox"
+                      aria-label={t("showFullNameShort")}
+                      checked={shown}
+                      disabled={showAllNames}
+                      onChange={(e) =>
+                        updateRelative(i, { showFullName: e.target.checked })
+                      }
+                    />
+                  </label>
+                  <span className="relativePreviewName">
+                    {rel.name
+                      ? shown
+                        ? rel.name
+                        : desensitizeName(rel.name)
+                      : "—"}
+                  </span>
+                  <button
+                    type="button"
+                    className="button buttonQuiet rowRemove"
+                    onClick={() => removeRelative(i)}
+                    aria-label={common("remove")}
+                  >
+                    ×
+                  </button>
+                </div>
+              );
+            })}
           </div>
-          );
-        })}
+        ) : null}
 
         <div className="relativesActions">
           <button type="button" className="linkButton" onClick={addRelative}>
@@ -745,7 +841,7 @@ export function CreateMemorialForm(props: { locale: string }) {
             checked={coCreate}
             onChange={(e) => {
               setCoCreate(e.target.checked);
-              if (!e.target.checked) setCoCreatorEmails([]);
+              if (!e.target.checked) setCoCreators([]);
             }}
           />
           <span>{t("coCreateToggle")}</span>
@@ -755,29 +851,55 @@ export function CreateMemorialForm(props: { locale: string }) {
             <p className="muted" style={{ fontSize: "var(--text-sm)" }}>
               {t("coCreateHelp")}
             </p>
-            {coCreatorEmails.map((email, i) => (
-              <div className="aliasRow" key={i}>
-                <label className="field aliasName">
-                  <span className="fieldLabel">{t("coCreatorEmailLabel")}</span>
-                  <input
-                    className="input"
-                    type="email"
-                    maxLength={320}
-                    placeholder="relative@example.com"
-                    value={email}
-                    onChange={(e) => updateCoCreator(i, e.target.value)}
-                  />
-                </label>
-                <button
-                  type="button"
-                  className="button buttonQuiet buttonCompact aliasRemove"
-                  onClick={() => removeCoCreator(i)}
-                  aria-label={common("remove")}
-                >
-                  ×
-                </button>
+            {coCreators.length > 0 ? (
+              <div className="relativesTable">
+                <div className="coCreatorHead" aria-hidden="true">
+                  <span>{t("relativeRelationLabel")}</span>
+                  <span>{t("relativeNameLabel")}</span>
+                  <span />
+                </div>
+                {coCreators.map((co, i) => (
+                  <div className="coCreatorRow" key={i}>
+                    <select
+                      className="input inputSm"
+                      aria-label={t("relativeRelationLabel")}
+                      value={co.relationshipToDeceased}
+                      onChange={(e) =>
+                        updateCoCreator(i, {
+                          relationshipToDeceased: e.target.value,
+                        })
+                      }
+                    >
+                      <option value="">—</option>
+                      {RELATIVE_RELATIONSHIPS.map((rr) => (
+                        <option value={rr} key={rr}>
+                          {t(`relativeRole_${rr}`)}
+                        </option>
+                      ))}
+                    </select>
+                    <input
+                      className="input inputSm"
+                      type="text"
+                      maxLength={200}
+                      aria-label={t("relativeNameLabel")}
+                      placeholder={t("relativeNameLabel")}
+                      value={co.name}
+                      onChange={(e) =>
+                        updateCoCreator(i, { name: e.target.value })
+                      }
+                    />
+                    <button
+                      type="button"
+                      className="button buttonQuiet rowRemove"
+                      onClick={() => removeCoCreator(i)}
+                      aria-label={common("remove")}
+                    >
+                      ×
+                    </button>
+                  </div>
+                ))}
               </div>
-            ))}
+            ) : null}
             <button type="button" className="linkButton" onClick={addCoCreator}>
               + {t("addCoCreator")}
             </button>

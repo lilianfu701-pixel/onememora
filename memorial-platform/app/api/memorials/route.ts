@@ -1,4 +1,3 @@
-import { after } from "next/server";
 import { z } from "zod";
 import {
   correlationIdFrom,
@@ -7,9 +6,7 @@ import {
   jsonUnprocessable,
   readJson,
 } from "@/lib/api";
-import { logger } from "@/lib/logger";
 import { currentActor } from "@/modules/auth/current-user";
-import { inviteMember } from "@/modules/memorials/invitations";
 import { createMemorial } from "@/modules/memorials/service";
 import type { CreateMemorialError } from "@/modules/memorials/service";
 import { drainOutboxAfterResponse } from "@/modules/outbox/drain-after";
@@ -37,6 +34,10 @@ const schema = z.object({
       "wife",
       "father",
       "mother",
+      "paternal_grandfather",
+      "paternal_grandmother",
+      "maternal_grandfather",
+      "maternal_grandmother",
       "son",
       "daughter",
     ],
@@ -82,7 +83,15 @@ const schema = z.object({
     )
     .max(30)
     .optional(),
-  coCreatorEmails: z.array(z.string().email().max(320)).max(5).optional(),
+  coCreators: z
+    .array(
+      z.object({
+        name: z.string().trim().min(1).max(200),
+        relationshipToDeceased: z.string().trim().min(1).max(60),
+      }),
+    )
+    .max(10)
+    .optional(),
   visibility: z.enum(["public", "unlisted", "invite_only"]).optional(),
   searchEngineIndexable: z.boolean().optional(),
 });
@@ -152,26 +161,11 @@ export async function POST(request: Request): Promise<Response> {
   }
 
   // Only on a first creation. A replay changed nothing, and its events were
-  // already drained by the request that did.
+  // already drained by the request that did. Co-creators are persisted with the
+  // memorial (as relative rows) inside createMemorial, so there is no email
+  // invitation to send here.
   if (result.value.created) {
     drainOutboxAfterResponse(correlationId);
-
-    const emails = body.value.coCreatorEmails ?? [];
-    if (emails.length > 0) {
-      const log = logger("memorials");
-      after(async () => {
-        for (const email of emails) {
-          try {
-            await inviteMember(actor, result.value.memorialId, {
-              email,
-              role: "admin",
-            }, correlationId);
-          } catch (e: unknown) {
-            log.warn("co-creator invitation failed", { email, memorialId: result.value.memorialId });
-          }
-        }
-      });
-    }
   }
 
   return jsonSuccess(

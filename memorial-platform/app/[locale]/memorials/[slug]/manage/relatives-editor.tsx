@@ -176,81 +176,97 @@ export function RelativesEditor(props: {
         </p>
       ) : null}
 
-      {relatives.map((rel, i) => {
-        const counts = usedCounts();
-        return (
-        <div className="relativeRow" key={i}>
-          <label className="field relativeName">
-            <span className="fieldLabel">{t("relativeNameLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={200}
-              value={rel.name}
-              onChange={(e) => updateRelative(i, { name: e.target.value })}
-            />
-          </label>
-          <label className="field relativeRelation">
-            <span className="fieldLabel">{t("relativeRelationLabel")}</span>
-            <select
-              className="input"
-              value={rel.relationshipToDeceased}
-              onChange={(e) =>
-                updateRelative(i, {
-                  relationshipToDeceased: e.target.value,
-                })
-              }
-            >
-              {RELATIVE_RELATIONSHIPS.map((rr) => (
-                <option
-                  value={rr}
-                  key={rr}
-                  disabled={
-                    rr !== rel.relationshipToDeceased &&
-                    isMaxedOut(rr, counts)
+      {relatives.length > 0 ? (
+        <div className="relativesTable">
+          <div className="relativesHead" aria-hidden="true">
+            <span>{t("relativeRelationLabel")}</span>
+            <span>{t("relativeNameLabel")}</span>
+            <span>{t("relativeStatusLabel")}</span>
+            <span>{t("showFullNameShort")}</span>
+            <span>{t("displayPreview")}</span>
+            <span />
+          </div>
+          {relatives.map((rel, i) => {
+            const counts = usedCounts();
+            const shown = showAllNames || rel.showFullName;
+            return (
+              <div className="relativeRow" key={i}>
+                <select
+                  className="input inputSm"
+                  aria-label={t("relativeRelationLabel")}
+                  value={rel.relationshipToDeceased}
+                  onChange={(e) =>
+                    updateRelative(i, {
+                      relationshipToDeceased: e.target.value,
+                    })
                   }
                 >
-                  {t(`relativeRole_${rr}`)}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="field relativeStatus">
-            <span className="fieldLabel">{t("relativeStatusLabel")}</span>
-            <select
-              className="input"
-              value={rel.isDeceased ? "deceased" : "living"}
-              onChange={(e) =>
-                updateRelative(i, {
-                  isDeceased: e.target.value === "deceased",
-                })
-              }
-            >
-              <option value="living">{t("statusLiving")}</option>
-              <option value="deceased">{t("statusDeceased")}</option>
-            </select>
-          </label>
-          <div className="relativePreview">
-            <span className="fieldLabel">{t("displayPreview")}</span>
-            <span className="relativePreviewName">
-              {showAllNames || rel.showFullName
-                ? rel.name || "—"
-                : rel.name
-                  ? desensitizeName(rel.name)
-                  : "—"}
-            </span>
-          </div>
-          <button
-            type="button"
-            className="button buttonQuiet buttonCompact aliasRemove"
-            onClick={() => removeRelative(i)}
-            aria-label={common("remove")}
-          >
-            ×
-          </button>
+                  {RELATIVE_RELATIONSHIPS.map((rr) => (
+                    <option
+                      value={rr}
+                      key={rr}
+                      disabled={
+                        rr !== rel.relationshipToDeceased &&
+                        isMaxedOut(rr, counts)
+                      }
+                    >
+                      {t(`relativeRole_${rr}`)}
+                    </option>
+                  ))}
+                </select>
+                <input
+                  className="input inputSm"
+                  type="text"
+                  maxLength={200}
+                  aria-label={t("relativeNameLabel")}
+                  placeholder={t("relativeNameLabel")}
+                  value={rel.name}
+                  onChange={(e) => updateRelative(i, { name: e.target.value })}
+                />
+                <select
+                  className="input inputSm"
+                  aria-label={t("relativeStatusLabel")}
+                  value={rel.isDeceased ? "deceased" : "living"}
+                  onChange={(e) =>
+                    updateRelative(i, {
+                      isDeceased: e.target.value === "deceased",
+                    })
+                  }
+                >
+                  <option value="living">{t("statusLiving")}</option>
+                  <option value="deceased">{t("statusDeceased")}</option>
+                </select>
+                <label className="relativeShow">
+                  <input
+                    type="checkbox"
+                    aria-label={t("showFullNameShort")}
+                    checked={shown}
+                    disabled={showAllNames}
+                    onChange={(e) =>
+                      updateRelative(i, { showFullName: e.target.checked })
+                    }
+                  />
+                </label>
+                <span className="relativePreviewName">
+                  {rel.name
+                    ? shown
+                      ? rel.name
+                      : desensitizeName(rel.name)
+                    : "—"}
+                </span>
+                <button
+                  type="button"
+                  className="button buttonQuiet rowRemove"
+                  onClick={() => removeRelative(i)}
+                  aria-label={common("remove")}
+                >
+                  ×
+                </button>
+              </div>
+            );
+          })}
         </div>
-        );
-      })}
+      ) : null}
 
       <div className="relativesActions">
         <button type="button" className="linkButton" onClick={addRelative}>

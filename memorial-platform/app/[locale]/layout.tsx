@@ -58,7 +58,6 @@ export default async function LocaleLayout(props: {
 
   setRequestLocale(locale);
   const messages = await getMessages();
-  const common = await getTranslations("common");
   const nav = await getTranslations("nav");
   const a11y = await getTranslations("a11y");
   const actor = await currentActor();
