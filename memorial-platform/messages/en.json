@@ -223,7 +223,8 @@
     "creatorRole_child": "child",
     "creatorRole_parent": "parent",
     "creatorRole_grandchild": "grandchild",
-    "creatorRole_sibling": "sibling"
+    "creatorRole_sibling": "sibling",
+    "viewMemorial": "View memorial page"
   },
   "privacy": {
     "title": "Who can see this memorial",

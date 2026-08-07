@@ -223,7 +223,8 @@
     "creatorRole_child": "ребёнок",
     "creatorRole_parent": "родитель",
     "creatorRole_grandchild": "внук/внучка",
-    "creatorRole_sibling": "брат/сестра"
+    "creatorRole_sibling": "брат/сестра",
+    "viewMemorial": "Открыть страницу памяти"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

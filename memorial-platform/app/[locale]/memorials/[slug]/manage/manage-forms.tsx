@@ -172,7 +172,12 @@ export function ManageForms(props: {
         <p className="notice">{t("lifeStorySaved")}</p>
       ) : null}
       {notice.kind === "published" ? (
-        <p className="notice">{t("lifeStoryPublished")}</p>
+        <p className="notice">
+          {t("lifeStoryPublished")}{" "}
+          <Link href={`/${props.locale}/memorials/${props.slug}`}>
+            {t("viewMemorial")} →
+          </Link>
+        </p>
       ) : null}
       {notice.kind === "error" ? (
         <p className="fieldError" role="alert">
