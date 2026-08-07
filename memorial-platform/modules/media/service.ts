@@ -1,5 +1,5 @@
 import { randomUUID } from "node:crypto";
-import { and, asc, desc, eq, isNull } from "drizzle-orm";
+import { and, asc, eq, isNull } from "drizzle-orm";
 import { db } from "@/db/client";
 import { auditLogs, mediaAssets, memorials, outboxEvents } from "@/db/schema";
 import { err, ok } from "@/lib/result";
@@ -504,7 +504,9 @@ export async function manageableMedia(
         isNull(mediaAssets.deletedAt),
       ),
     )
-    .orderBy(desc(mediaAssets.createdAt));
+    // Oldest first so a newly uploaded photo lands at the end, matching the
+    // public gallery order.
+    .orderBy(asc(mediaAssets.createdAt));
 
   const storage = mediaStorage();
   const photos: ManageablePhoto[] = [];

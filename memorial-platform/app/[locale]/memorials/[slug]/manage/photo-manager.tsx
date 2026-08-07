@@ -154,7 +154,7 @@ export function PhotoManager(props: {
         status: "scanning",
         url: null,
       };
-      setPhotos((current) => [optimisticPhoto, ...current]);
+      setPhotos((current) => [...current, optimisticPhoto]);
 
       // 4. Poll for ready
       setUpload({
