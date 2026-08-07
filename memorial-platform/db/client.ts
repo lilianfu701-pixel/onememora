@@ -26,7 +26,11 @@ export function getPool(): Pool {
     connectionString,
     connectionTimeoutMillis: 5_000,
     idleTimeoutMillis: 30_000,
-    max: 10,
+    // Small on purpose: on serverless every warm instance keeps its own pool,
+    // and DATABASE_URL points at Supabase's transaction pooler (port 6543),
+    // which multiplexes many short connections. A large per-instance max is
+    // what exhausts the upstream pool; a handful per instance is plenty.
+    max: 5,
     ...(usesSsl ? { ssl: { rejectUnauthorized: false } } : {}),
   });
   return pool;
