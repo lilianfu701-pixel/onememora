@@ -215,7 +215,15 @@
     "cause_war": "战争",
     "cause_accident": "意外",
     "cause_disaster": "自然灾害",
-    "cause_other": "其他"
+    "cause_other": "其他",
+    "createdByRelative": "本主页由逝者的{relation}建立并管理。",
+    "creatorRole_spouse": "配偶",
+    "creatorRole_husband": "丈夫",
+    "creatorRole_wife": "妻子",
+    "creatorRole_child": "子女",
+    "creatorRole_parent": "父母",
+    "creatorRole_grandchild": "孙辈",
+    "creatorRole_sibling": "兄弟姐妹"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

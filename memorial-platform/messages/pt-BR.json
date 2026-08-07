@@ -215,7 +215,15 @@
     "cause_war": "Guerra",
     "cause_accident": "Acidente",
     "cause_disaster": "Desastre natural",
-    "cause_other": "Outra"
+    "cause_other": "Outra",
+    "createdByRelative": "Memorial mantido por {relation} do falecido.",
+    "creatorRole_spouse": "cônjuge",
+    "creatorRole_husband": "marido",
+    "creatorRole_wife": "esposa",
+    "creatorRole_child": "filho(a)",
+    "creatorRole_parent": "pai/mãe",
+    "creatorRole_grandchild": "neto(a)",
+    "creatorRole_sibling": "irmão(ã)"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

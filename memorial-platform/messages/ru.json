@@ -215,7 +215,15 @@
     "cause_war": "Война",
     "cause_accident": "Несчастный случай",
     "cause_disaster": "Стихийное бедствие",
-    "cause_other": "Другое"
+    "cause_other": "Другое",
+    "createdByRelative": "Эту страницу памяти ведёт {relation} усопшего.",
+    "creatorRole_spouse": "супруг(а)",
+    "creatorRole_husband": "муж",
+    "creatorRole_wife": "жена",
+    "creatorRole_child": "ребёнок",
+    "creatorRole_parent": "родитель",
+    "creatorRole_grandchild": "внук/внучка",
+    "creatorRole_sibling": "брат/сестра"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

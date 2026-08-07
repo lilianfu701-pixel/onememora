@@ -215,7 +215,15 @@
     "cause_war": "Krieg",
     "cause_accident": "Unfall",
     "cause_disaster": "Naturkatastrophe",
-    "cause_other": "Andere"
+    "cause_other": "Andere",
+    "createdByRelative": "Diese Gedenkseite wird von {relation} des Verstorbenen betreut.",
+    "creatorRole_spouse": "Ehepartner",
+    "creatorRole_husband": "Ehemann",
+    "creatorRole_wife": "Ehefrau",
+    "creatorRole_child": "Kind",
+    "creatorRole_parent": "Elternteil",
+    "creatorRole_grandchild": "Enkelkind",
+    "creatorRole_sibling": "Geschwister"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

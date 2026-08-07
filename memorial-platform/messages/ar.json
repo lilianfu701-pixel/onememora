@@ -215,7 +215,15 @@
     "cause_war": "حرب",
     "cause_accident": "حادث",
     "cause_disaster": "كارثة طبيعية",
-    "cause_other": "أخرى"
+    "cause_other": "أخرى",
+    "createdByRelative": "تُدار هذه الصفحة التذكارية من قبل {relation} المتوفى.",
+    "creatorRole_spouse": "الزوج/الزوجة",
+    "creatorRole_husband": "الزوج",
+    "creatorRole_wife": "الزوجة",
+    "creatorRole_child": "الابن/الابنة",
+    "creatorRole_parent": "أحد الوالدين",
+    "creatorRole_grandchild": "الحفيد/الحفيدة",
+    "creatorRole_sibling": "الأخ/الأخت"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

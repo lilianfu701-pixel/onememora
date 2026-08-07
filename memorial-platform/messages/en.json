@@ -215,7 +215,15 @@
     "cause_war": "War",
     "cause_accident": "Accident",
     "cause_disaster": "Natural disaster",
-    "cause_other": "Other"
+    "cause_other": "Other",
+    "createdByRelative": "This memorial is maintained by the deceased's {relation}.",
+    "creatorRole_spouse": "spouse",
+    "creatorRole_husband": "husband",
+    "creatorRole_wife": "wife",
+    "creatorRole_child": "child",
+    "creatorRole_parent": "parent",
+    "creatorRole_grandchild": "grandchild",
+    "creatorRole_sibling": "sibling"
   },
   "privacy": {
     "title": "Who can see this memorial",

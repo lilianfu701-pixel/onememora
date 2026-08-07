@@ -215,7 +215,15 @@
     "cause_war": "Chiến tranh",
     "cause_accident": "Tai nạn",
     "cause_disaster": "Thiên tai",
-    "cause_other": "Khác"
+    "cause_other": "Khác",
+    "createdByRelative": "Trang tưởng niệm này do {relation} của người đã mất quản lý.",
+    "creatorRole_spouse": "vợ/chồng",
+    "creatorRole_husband": "chồng",
+    "creatorRole_wife": "vợ",
+    "creatorRole_child": "con",
+    "creatorRole_parent": "cha/mẹ",
+    "creatorRole_grandchild": "cháu",
+    "creatorRole_sibling": "anh/chị/em"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

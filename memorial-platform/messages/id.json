@@ -215,7 +215,15 @@
     "cause_war": "Perang",
     "cause_accident": "Kecelakaan",
     "cause_disaster": "Bencana alam",
-    "cause_other": "Lainnya"
+    "cause_other": "Lainnya",
+    "createdByRelative": "Memorial ini dikelola oleh {relation} almarhum.",
+    "creatorRole_spouse": "pasangan",
+    "creatorRole_husband": "suami",
+    "creatorRole_wife": "istri",
+    "creatorRole_child": "anak",
+    "creatorRole_parent": "orang tua",
+    "creatorRole_grandchild": "cucu",
+    "creatorRole_sibling": "saudara"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

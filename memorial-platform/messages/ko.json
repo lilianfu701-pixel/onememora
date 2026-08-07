@@ -215,7 +215,15 @@
     "cause_war": "전쟁",
     "cause_accident": "사고",
     "cause_disaster": "자연재해",
-    "cause_other": "기타"
+    "cause_other": "기타",
+    "createdByRelative": "이 추모 페이지는 고인의 {relation}이(가) 관리합니다.",
+    "creatorRole_spouse": "배우자",
+    "creatorRole_husband": "남편",
+    "creatorRole_wife": "아내",
+    "creatorRole_child": "자녀",
+    "creatorRole_parent": "부모",
+    "creatorRole_grandchild": "손주",
+    "creatorRole_sibling": "형제자매"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

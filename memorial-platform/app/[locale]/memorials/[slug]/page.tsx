@@ -5,7 +5,7 @@ import { notFound, redirect } from "next/navigation";
 import { cache } from "react";
 import type { Metadata } from "next";
 import { db } from "@/db/client";
-import { memorialRelatives } from "@/db/schema";
+import { memorialRelatives, relationshipClaims } from "@/db/schema";
 import { env } from "@/lib/env";
 import { normalizeLocale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
@@ -27,6 +27,30 @@ function desensitizeName(name: string): string {
   if (chars.length === 2) return chars[0] + "*";
   return chars[0] + "*".repeat(chars.length - 2) + chars[chars.length - 1];
 }
+
+/*
+ * The creator declared the deceased's relationship to *them* ("the deceased is
+ * your father/son/…"). The public line reads the other way — the creator's
+ * relationship to the deceased — so each declared role maps to its inverse.
+ * Genderless where the inverse is ambiguous (a father's memorial is kept by a
+ * "child", not necessarily a son). No name is shown, only the relationship.
+ */
+const CREATOR_ROLE: Record<string, string> = {
+  husband: "wife",
+  wife: "husband",
+  spouse: "spouse",
+  father: "child",
+  mother: "child",
+  parent: "child",
+  son: "parent",
+  daughter: "parent",
+  child: "parent",
+  paternal_grandfather: "grandchild",
+  paternal_grandmother: "grandchild",
+  maternal_grandfather: "grandchild",
+  maternal_grandmother: "grandchild",
+  sibling: "sibling",
+};
 
 export const dynamic = "force-dynamic";
 
@@ -127,23 +151,36 @@ export default async function MemorialPage(props: {
   const { detail } = result;
   const span = lifeSpan(detail);
 
-  const [biography, stories, rituals, gallery, relatives] = await Promise.all([
-    publishedBiography(detail.memorialId),
-    publicVisitorStories(detail.memorialId),
-    offerableRituals(detail.memorialId, normalizeLocale(locale)),
-    memorialGallery(detail.memorialId),
-    db()
-      .select({
-        id: memorialRelatives.id,
-        name: memorialRelatives.name,
-        relationshipToDeceased: memorialRelatives.relationshipToDeceased,
-        showFullName: memorialRelatives.showFullName,
-        displayOrder: memorialRelatives.displayOrder,
-      })
-      .from(memorialRelatives)
-      .where(eq(memorialRelatives.memorialId, detail.memorialId))
-      .orderBy(asc(memorialRelatives.displayOrder)),
-  ]);
+  const [biography, stories, rituals, gallery, relatives, creatorClaim] =
+    await Promise.all([
+      publishedBiography(detail.memorialId),
+      publicVisitorStories(detail.memorialId),
+      offerableRituals(detail.memorialId, normalizeLocale(locale)),
+      memorialGallery(detail.memorialId),
+      db()
+        .select({
+          id: memorialRelatives.id,
+          name: memorialRelatives.name,
+          relationshipToDeceased: memorialRelatives.relationshipToDeceased,
+          showFullName: memorialRelatives.showFullName,
+          displayOrder: memorialRelatives.displayOrder,
+        })
+        .from(memorialRelatives)
+        .where(eq(memorialRelatives.memorialId, detail.memorialId))
+        .orderBy(asc(memorialRelatives.displayOrder)),
+      // The creator's original declaration — the earliest claim on this
+      // memorial. Only the relationship is read; the claimant is never shown.
+      db()
+        .select({ relationship: relationshipClaims.relationship })
+        .from(relationshipClaims)
+        .where(eq(relationshipClaims.memorialId, detail.memorialId))
+        .orderBy(asc(relationshipClaims.createdAt))
+        .limit(1),
+    ]);
+
+  const creatorRoleKey = creatorClaim[0]
+    ? CREATOR_ROLE[creatorClaim[0].relationship]
+    : undefined;
 
   /*
    * An observance with no reviewed wording in this language is not offered.
@@ -219,6 +256,14 @@ export default async function MemorialPage(props: {
             <p className="muted">
               <span className="eyebrow">{t("alsoKnownAs")}</span>{" "}
               {detail.alternateNames.map((name) => name.value).join(" · ")}
+            </p>
+          ) : null}
+
+          {creatorRoleKey ? (
+            <p className="muted">
+              {t("createdByRelative", {
+                relation: t(`creatorRole_${creatorRoleKey}`),
+              })}
             </p>
           ) : null}
         </header>

@@ -215,7 +215,15 @@
     "cause_war": "戦争",
     "cause_accident": "事故",
     "cause_disaster": "自然災害",
-    "cause_other": "その他"
+    "cause_other": "その他",
+    "createdByRelative": "この追悼ページは故人の{relation}が管理しています。",
+    "creatorRole_spouse": "配偶者",
+    "creatorRole_husband": "夫",
+    "creatorRole_wife": "妻",
+    "creatorRole_child": "子",
+    "creatorRole_parent": "親",
+    "creatorRole_grandchild": "孫",
+    "creatorRole_sibling": "きょうだい"
   },
   "privacy": {
     "title": "このページを見られる範囲",
