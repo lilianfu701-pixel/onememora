@@ -224,7 +224,9 @@
     "creatorRole_parent": "orang tua",
     "creatorRole_grandchild": "cucu",
     "creatorRole_sibling": "saudara",
-    "viewMemorial": "Lihat halaman memorial"
+    "viewMemorial": "Lihat halaman memorial",
+    "photoPrevious": "Foto sebelumnya",
+    "photoNext": "Foto berikutnya"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

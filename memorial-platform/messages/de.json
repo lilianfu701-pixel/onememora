@@ -224,7 +224,9 @@
     "creatorRole_parent": "Elternteil",
     "creatorRole_grandchild": "Enkelkind",
     "creatorRole_sibling": "Geschwister",
-    "viewMemorial": "Gedenkseite ansehen"
+    "viewMemorial": "Gedenkseite ansehen",
+    "photoPrevious": "Vorheriges Foto",
+    "photoNext": "Nächstes Foto"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

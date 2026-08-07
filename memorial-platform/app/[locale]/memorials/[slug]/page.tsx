@@ -18,6 +18,7 @@ import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
 import { OfferRitual } from "./offer-ritual";
+import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
 
 function desensitizeName(name: string): string {
@@ -189,49 +190,72 @@ export default async function MemorialPage(props: {
    */
   const offerable = rituals.filter((ritual) => ritual.name !== null);
 
+  const slides = gallery.map((photo) => ({
+    id: photo.id,
+    url: photo.url,
+    alt: photo.altText ?? t("photoAltOf", { name: detail.primaryName }),
+  }));
+
+  const showOwnerBar =
+    (detail.viewerRole !== "public_visitor" &&
+      detail.viewerRole !== "invited_visitor") ||
+    detail.status === "draft" ||
+    (detail.status === "published" && detail.visibility === "unlisted");
+
   return (
     <main id="main">
-      <article className="container section stack-lg">
-        <header className="stack">
-          {/*
-           * Offered only to someone who can act on it. A visitor seeing a
-           * "manage" link they cannot use would be told the family's roles
-           * exist, and would waste a click finding out they are not one.
-           */}
-          {detail.viewerRole !== "public_visitor" &&
-          detail.viewerRole !== "invited_visitor" ? (
-            <p>
+      <article className="container section memorialView">
+        {showOwnerBar ? (
+          <div className="memorialOwnerBar">
+            {/*
+             * Offered only to someone who can act on it. A visitor seeing a
+             * "manage" link they cannot use would be told the family's roles
+             * exist, and would waste a click finding out they are not one.
+             */}
+            {detail.viewerRole !== "public_visitor" &&
+            detail.viewerRole !== "invited_visitor" ? (
               <Link
-                className="button buttonQuiet"
+                className="button buttonQuiet buttonCompact"
                 href={`/${locale}/memorials/${detail.slug}/manage`}
               >
                 {t("manageLink")}
               </Link>
-            </p>
-          ) : null}
+            ) : null}
 
-          {/*
-           * A draft is only ever reachable by the family, so this panel does
-           * not need its own permission check — but publishing does, and the
-           * endpoint it posts to keeps that with the owner.
-           */}
-          {detail.status === "draft" ? (
-            <PublishPanel
-              memorialId={detail.memorialId}
-              willBeIndexed={
-                detail.visibility === "public" && detail.searchEngineIndexable
-              }
-            />
-          ) : null}
+            {/*
+             * A draft is only ever reachable by the family, so this panel does
+             * not need its own permission check — but publishing does, and the
+             * endpoint it posts to keeps that with the owner.
+             */}
+            {detail.status === "draft" ? (
+              <PublishPanel
+                memorialId={detail.memorialId}
+                willBeIndexed={
+                  detail.visibility === "public" &&
+                  detail.searchEngineIndexable
+                }
+              />
+            ) : null}
 
-          {detail.status === "published" && detail.visibility === "unlisted" ? (
-            <p className="notice">{t("privateNotice")}</p>
-          ) : null}
+            {detail.status === "published" &&
+            detail.visibility === "unlisted" ? (
+              <p className="notice">{t("privateNotice")}</p>
+            ) : null}
+          </div>
+        ) : null}
 
-          <h1>{detail.primaryName}</h1>
+        {/* Photographs lead the page, as a slideshow. */}
+        <PhotoSlideshow
+          photos={slides}
+          prevLabel={t("photoPrevious")}
+          nextLabel={t("photoNext")}
+        />
+
+        <header className="memorialHead">
+          <h1 className="memorialName">{detail.primaryName}</h1>
 
           {span.birth || span.death ? (
-            <p className="lede">
+            <p className="memorialDates">
               {span.birth ? (
                 <span>
                   <span className="visuallyHidden">{t("bornLabel")} </span>
@@ -253,14 +277,14 @@ export default async function MemorialPage(props: {
           ) : null}
 
           {detail.alternateNames.length > 0 ? (
-            <p className="muted">
+            <p className="memorialAka">
               <span className="eyebrow">{t("alsoKnownAs")}</span>{" "}
               {detail.alternateNames.map((name) => name.value).join(" · ")}
             </p>
           ) : null}
 
           {creatorRoleKey ? (
-            <p className="muted">
+            <p className="memorialCreator">
               {t("createdByRelative", {
                 relation: t(`creatorRole_${creatorRoleKey}`),
               })}
@@ -268,97 +292,83 @@ export default async function MemorialPage(props: {
           ) : null}
         </header>
 
-        {relatives.length > 0 ? (
-          <section className="stack">
-            <h2 className="eyebrow">{t("relativesLabel")}</h2>
-            <dl className="relativesList">
-              {relatives.map((rel) => (
-                <div key={rel.id} className="relativesItem">
-                  <dt>{t(`relativeRole_${rel.relationshipToDeceased}`)}</dt>
-                  <dd>
-                    {rel.showFullName
-                      ? rel.name
-                      : desensitizeName(rel.name)}
-                  </dd>
+        <div className="memorialGrid">
+          <div className="memorialMain">
+            <section className="stack">
+              <h2>{t("lifeStory")}</h2>
+              {biography ? (
+                <div className="stack">
+                  {biography.title ? <h3>{biography.title}</h3> : null}
+                  {/*
+                   * Split into paragraphs rather than injected as markup. A
+                   * family writes prose here, and nothing a visitor or an
+                   * editor typed may become HTML on a page other people open.
+                   */}
+                  {biography.body
+                    .split(/\n{2,}/)
+                    .map((paragraph) => paragraph.trim())
+                    .filter((paragraph) => paragraph.length > 0)
+                    .map((paragraph, index) => (
+                      <p key={`${biography.versionId}-${index}`}>
+                        {paragraph}
+                      </p>
+                    ))}
                 </div>
-              ))}
-            </dl>
-          </section>
-        ) : null}
+              ) : (
+                <p className="muted">{t("noLifeStoryYet")}</p>
+              )}
+            </section>
 
-        {gallery.length > 0 ? (
-          <section className="photoGallery">
-            {gallery.map((photo) => (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                key={photo.id}
-                className="photoThumb"
-                src={photo.url}
-                alt={
-                  photo.altText ??
-                  t("photoAltOf", { name: detail.primaryName })
-                }
-                loading="lazy"
-                width={320}
-                height={320}
-              />
-            ))}
-          </section>
-        ) : null}
+            <section className="stack">
+              <h2>{t("waysToRemember")}</h2>
+              {offerable.length > 0 ? (
+                <OfferRitual
+                  memorialId={detail.memorialId}
+                  locale={normalizeLocale(locale)}
+                  rituals={offerable.map((ritual) => ({
+                    ritualVersionId: ritual.ritualVersionId,
+                    name: ritual.name,
+                    allowAnonymous: ritual.allowAnonymous,
+                    allowMessage: ritual.allowMessage,
+                    moderationMode: ritual.moderationMode,
+                  }))}
+                />
+              ) : (
+                <p className="muted">{t("noRitualsOffered")}</p>
+              )}
+            </section>
 
-        <section className="stack measure">
-          <h2>{t("lifeStory")}</h2>
-          {biography ? (
-            <div className="stack">
-              {biography.title ? <h3>{biography.title}</h3> : null}
-              {/*
-               * Split into paragraphs rather than injected as markup. A family
-               * writes prose here, and nothing a visitor or an editor typed may
-               * become HTML on a page other people open.
-               */}
-              {biography.body
-                .split(/\n{2,}/)
-                .map((paragraph) => paragraph.trim())
-                .filter((paragraph) => paragraph.length > 0)
-                .map((paragraph, index) => (
-                  <p key={`${biography.versionId}-${index}`}>{paragraph}</p>
+            {stories.length > 0 ? (
+              <section className="stack">
+                <h2>{t("storiesFromVisitors")}</h2>
+                {stories.map((story) => (
+                  <div className="card stack" key={story.id}>
+                    {story.title ? <h3>{story.title}</h3> : null}
+                    <p>{story.body}</p>
+                  </div>
                 ))}
-            </div>
-          ) : (
-            <p className="muted">{t("noLifeStoryYet")}</p>
-          )}
-        </section>
+              </section>
+            ) : null}
+          </div>
 
-        <section className="stack">
-          <h2>{t("waysToRemember")}</h2>
-          {offerable.length > 0 ? (
-            <OfferRitual
-              memorialId={detail.memorialId}
-              locale={normalizeLocale(locale)}
-              rituals={offerable.map((ritual) => ({
-                ritualVersionId: ritual.ritualVersionId,
-                name: ritual.name,
-                allowAnonymous: ritual.allowAnonymous,
-                allowMessage: ritual.allowMessage,
-                moderationMode: ritual.moderationMode,
-              }))}
-            />
-          ) : (
-            <p className="muted">{t("noRitualsOffered")}</p>
-          )}
-        </section>
-
-        {stories.length > 0 ? (
-          <section className="stack measure">
-            <h2>{t("storiesFromVisitors")}</h2>
-            {stories.map((story) => (
-              <div className="card stack" key={story.id}>
-                {story.title ? <h3>{story.title}</h3> : null}
-                <p>{story.body}</p>
-              </div>
-            ))}
-          </section>
-        ) : null}
+          {relatives.length > 0 ? (
+            <aside className="memorialAside">
+              <h2 className="memorialAsideHeading">{t("relativesLabel")}</h2>
+              <ul className="relativesSidebar">
+                {relatives.map((rel) => (
+                  <li key={rel.id}>
+                    <span className="relativesSidebarRole">
+                      {t(`relativeRole_${rel.relationshipToDeceased}`)}
+                    </span>
+                    <span className="relativesSidebarName">
+                      {rel.showFullName ? rel.name : desensitizeName(rel.name)}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          ) : null}
+        </div>
       </article>
     </main>
   );

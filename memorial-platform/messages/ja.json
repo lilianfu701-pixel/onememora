@@ -224,7 +224,9 @@
     "creatorRole_parent": "親",
     "creatorRole_grandchild": "孫",
     "creatorRole_sibling": "きょうだい",
-    "viewMemorial": "追悼ページを見る"
+    "viewMemorial": "追悼ページを見る",
+    "photoPrevious": "前の写真",
+    "photoNext": "次の写真"
   },
   "privacy": {
     "title": "このページを見られる範囲",

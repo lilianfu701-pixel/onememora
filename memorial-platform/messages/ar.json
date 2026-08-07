@@ -224,7 +224,9 @@
     "creatorRole_parent": "أحد الوالدين",
     "creatorRole_grandchild": "الحفيد/الحفيدة",
     "creatorRole_sibling": "الأخ/الأخت",
-    "viewMemorial": "عرض صفحة التذكار"
+    "viewMemorial": "عرض صفحة التذكار",
+    "photoPrevious": "الصورة السابقة",
+    "photoNext": "الصورة التالية"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

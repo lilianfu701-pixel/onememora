@@ -224,7 +224,9 @@
     "creatorRole_parent": "父母",
     "creatorRole_grandchild": "孫輩",
     "creatorRole_sibling": "兄弟姊妹",
-    "viewMemorial": "查看追思主頁"
+    "viewMemorial": "查看追思主頁",
+    "photoPrevious": "上一張",
+    "photoNext": "下一張"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",

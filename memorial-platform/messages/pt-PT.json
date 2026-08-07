@@ -224,7 +224,9 @@
     "creatorRole_parent": "pai/mãe",
     "creatorRole_grandchild": "neto(a)",
     "creatorRole_sibling": "irmão(ã)",
-    "viewMemorial": "Ver a página do memorial"
+    "viewMemorial": "Ver a página do memorial",
+    "photoPrevious": "Foto anterior",
+    "photoNext": "Foto seguinte"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",
