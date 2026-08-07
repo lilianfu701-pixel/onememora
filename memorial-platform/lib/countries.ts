@@ -45,6 +45,20 @@ export type CountryOption = { code: string; name: string };
  * engine, or a code it does not recognize), so the select never renders a blank
  * row.
  */
+/**
+ * The localized name for one ISO country code, or the code itself when the
+ * runtime cannot name it. Used server-side to display a stored country code.
+ */
+export function countryName(code: string, locale: string): string {
+  const trimmed = code.trim();
+  if (trimmed === "") return "";
+  try {
+    return new Intl.DisplayNames([locale], { type: "region" }).of(trimmed) ?? trimmed;
+  } catch {
+    return trimmed;
+  }
+}
+
 export function countryOptions(locale: string): CountryOption[] {
   let display: Intl.DisplayNames | null = null;
   try {

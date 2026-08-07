@@ -5,7 +5,12 @@ import { notFound, redirect } from "next/navigation";
 import { cache } from "react";
 import type { Metadata } from "next";
 import { db } from "@/db/client";
-import { memorialRelatives, relationshipClaims } from "@/db/schema";
+import {
+  memorialLocations,
+  memorialRelatives,
+  relationshipClaims,
+} from "@/db/schema";
+import { countryName } from "@/lib/countries";
 import { env } from "@/lib/env";
 import { normalizeLocale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
@@ -36,6 +41,35 @@ function desensitizeName(name: string): string {
  * Genderless where the inverse is ambiguous (a father's memorial is kept by a
  * "child", not necessarily a son). No name is shown, only the relationship.
  */
+/*
+ * The order relatives are listed in, regardless of entry order: spouse first,
+ * then parents, then children, then the rest. A memorial reads as a family when
+ * the closest bonds lead.
+ */
+const RELATIVE_ORDER: readonly string[] = [
+  "husband",
+  "wife",
+  "father",
+  "mother",
+  "son",
+  "daughter",
+  "paternal_grandfather",
+  "paternal_grandmother",
+  "maternal_grandfather",
+  "maternal_grandmother",
+  "older_brother",
+  "older_sister",
+  "younger_brother",
+  "younger_sister",
+  "ex_husband",
+  "ex_wife",
+];
+
+function relativeRank(relationship: string): number {
+  const index = RELATIVE_ORDER.indexOf(relationship);
+  return index === -1 ? RELATIVE_ORDER.length : index;
+}
+
 const CREATOR_ROLE: Record<string, string> = {
   husband: "wife",
   wife: "husband",
@@ -152,8 +186,15 @@ export default async function MemorialPage(props: {
   const { detail } = result;
   const span = lifeSpan(detail);
 
-  const [biography, stories, rituals, gallery, relatives, creatorClaim] =
-    await Promise.all([
+  const [
+    biography,
+    stories,
+    rituals,
+    gallery,
+    relatives,
+    creatorClaim,
+    locations,
+  ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId),
       offerableRituals(detail.memorialId, normalizeLocale(locale)),
@@ -163,12 +204,12 @@ export default async function MemorialPage(props: {
           id: memorialRelatives.id,
           name: memorialRelatives.name,
           relationshipToDeceased: memorialRelatives.relationshipToDeceased,
+          isDeceased: memorialRelatives.isDeceased,
           showFullName: memorialRelatives.showFullName,
           displayOrder: memorialRelatives.displayOrder,
         })
         .from(memorialRelatives)
-        .where(eq(memorialRelatives.memorialId, detail.memorialId))
-        .orderBy(asc(memorialRelatives.displayOrder)),
+        .where(eq(memorialRelatives.memorialId, detail.memorialId)),
       // The creator's original declaration — the earliest claim on this
       // memorial. Only the relationship is read; the claimant is never shown.
       db()
@@ -177,11 +218,38 @@ export default async function MemorialPage(props: {
         .where(eq(relationshipClaims.memorialId, detail.memorialId))
         .orderBy(asc(relationshipClaims.createdAt))
         .limit(1),
+      db()
+        .select({
+          kind: memorialLocations.kind,
+          country: memorialLocations.country,
+          region: memorialLocations.region,
+        })
+        .from(memorialLocations)
+        .where(eq(memorialLocations.memorialId, detail.memorialId)),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
     ? CREATOR_ROLE[creatorClaim[0].relationship]
     : undefined;
+
+  // Fixed family order: spouse, parents, children, then the rest.
+  const orderedRelatives = [...relatives].sort(
+    (a, b) =>
+      relativeRank(a.relationshipToDeceased) -
+        relativeRank(b.relationshipToDeceased) ||
+      a.displayOrder - b.displayOrder,
+  );
+
+  const formatPlace = (loc: { country: string | null; region: string | null }) =>
+    [loc.region, loc.country ? countryName(loc.country, locale) : ""]
+      .map((part) => part?.trim())
+      .filter((part) => part && part.length > 0)
+      .join(" · ");
+
+  const birthPlace = locations.find((loc) => loc.kind === "birth");
+  const deathPlace = locations.find((loc) => loc.kind === "death");
+  const birthPlaceText = birthPlace ? formatPlace(birthPlace) : "";
+  const deathPlaceText = deathPlace ? formatPlace(deathPlace) : "";
 
   /*
    * An observance with no reviewed wording in this language is not offered.
@@ -276,12 +344,31 @@ export default async function MemorialPage(props: {
             </p>
           ) : null}
 
-          {detail.alternateNames.length > 0 ? (
+          {birthPlaceText ? (
             <p className="memorialAka">
-              <span className="eyebrow">{t("alsoKnownAs")}</span>{" "}
-              {detail.alternateNames.map((name) => name.value).join(" · ")}
+              <span className="eyebrow">{t("birthPlaceLabel")}</span>{" "}
+              {birthPlaceText}
             </p>
           ) : null}
+
+          {deathPlaceText ? (
+            <p className="memorialAka">
+              <span className="eyebrow">{t("deathPlaceLabel")}</span>{" "}
+              {deathPlaceText}
+            </p>
+          ) : null}
+
+          {/*
+           * Each recorded name is labelled with the exact kind it was entered
+           * as — former name, alias, transliteration, native — never a generic
+           * "also known as".
+           */}
+          {detail.alternateNames.map((name, index) => (
+            <p className="memorialAka" key={`${name.type}-${index}`}>
+              <span className="eyebrow">{t(`nameType_${name.type}`)}</span>{" "}
+              {name.value}
+            </p>
+          ))}
 
           {creatorRoleKey ? (
             <p className="memorialCreator">
@@ -351,17 +438,26 @@ export default async function MemorialPage(props: {
             ) : null}
           </div>
 
-          {relatives.length > 0 ? (
+          {orderedRelatives.length > 0 ? (
             <aside className="memorialAside">
               <h2 className="memorialAsideHeading">{t("relativesLabel")}</h2>
               <ul className="relativesSidebar">
-                {relatives.map((rel) => (
+                {orderedRelatives.map((rel) => (
                   <li key={rel.id}>
                     <span className="relativesSidebarRole">
                       {t(`relativeRole_${rel.relationshipToDeceased}`)}
                     </span>
                     <span className="relativesSidebarName">
                       {rel.showFullName ? rel.name : desensitizeName(rel.name)}
+                      <span
+                        className={
+                          rel.isDeceased
+                            ? "relativesSidebarStatus relativesSidebarStatusDeceased"
+                            : "relativesSidebarStatus"
+                        }
+                      >
+                        {rel.isDeceased ? t("statusDeceased") : t("statusLiving")}
+                      </span>
                     </span>
                   </li>
                 ))}

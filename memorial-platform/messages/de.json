@@ -226,7 +226,9 @@
     "creatorRole_sibling": "Geschwister",
     "viewMemorial": "Gedenkseite ansehen",
     "photoPrevious": "Vorheriges Foto",
-    "photoNext": "Nächstes Foto"
+    "photoNext": "Nächstes Foto",
+    "birthPlaceLabel": "Geburtsort",
+    "deathPlaceLabel": "Sterbeort"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

@@ -226,7 +226,9 @@
     "creatorRole_sibling": "брат/сестра",
     "viewMemorial": "Открыть страницу памяти",
     "photoPrevious": "Предыдущее фото",
-    "photoNext": "Следующее фото"
+    "photoNext": "Следующее фото",
+    "birthPlaceLabel": "Место рождения",
+    "deathPlaceLabel": "Место смерти"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

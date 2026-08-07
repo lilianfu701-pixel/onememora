@@ -226,7 +226,9 @@
     "creatorRole_sibling": "le frère ou la sœur",
     "viewMemorial": "Voir la page du mémorial",
     "photoPrevious": "Photo précédente",
-    "photoNext": "Photo suivante"
+    "photoNext": "Photo suivante",
+    "birthPlaceLabel": "Lieu de naissance",
+    "deathPlaceLabel": "Lieu de décès"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

@@ -226,7 +226,9 @@
     "creatorRole_sibling": "兄弟姐妹",
     "viewMemorial": "查看追思主页",
     "photoPrevious": "上一张",
-    "photoNext": "下一张"
+    "photoNext": "下一张",
+    "birthPlaceLabel": "出生地",
+    "deathPlaceLabel": "逝世地"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

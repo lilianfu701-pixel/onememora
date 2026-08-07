@@ -226,7 +226,9 @@
     "creatorRole_sibling": "الأخ/الأخت",
     "viewMemorial": "عرض صفحة التذكار",
     "photoPrevious": "الصورة السابقة",
-    "photoNext": "الصورة التالية"
+    "photoNext": "الصورة التالية",
+    "birthPlaceLabel": "مكان الميلاد",
+    "deathPlaceLabel": "مكان الوفاة"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

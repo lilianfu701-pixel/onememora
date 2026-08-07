@@ -226,7 +226,9 @@
     "creatorRole_sibling": "sibling",
     "viewMemorial": "View memorial page",
     "photoPrevious": "Previous photo",
-    "photoNext": "Next photo"
+    "photoNext": "Next photo",
+    "birthPlaceLabel": "Birthplace",
+    "deathPlaceLabel": "Place of death"
   },
   "privacy": {
     "title": "Who can see this memorial",
