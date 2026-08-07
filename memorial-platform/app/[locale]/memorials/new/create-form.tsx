@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useMemo, useRef, useState } from "react";
 import { countryOptions } from "@/lib/countries";
+import { regionsFor } from "@/lib/regions";
 
 type Relationship =
   | "husband"
@@ -25,10 +26,7 @@ type Precision = "unknown" | "year" | "approximate" | "month" | "day";
 type Visibility = "public" | "unlisted" | "invite_only";
 type NameType = "former" | "native" | "transliteration" | "alias";
 
-/** Death date: a single precision plus a raw value (kept from the original form). */
-type PartialDateInput = { precision: Precision; raw: string };
-
-/** Birth date: year is required; month and day may each be left "not sure". */
+/** A partial date entered as separate year / month / day fields. */
 type DateParts = { year: string; month: string; day: string };
 
 type AliasEntry = { value: string; type: NameType };
@@ -58,15 +56,32 @@ const RELATIONSHIPS: Relationship[] = [
   "daughter",
 ];
 
-const PRECISIONS: Precision[] = [
-  "day",
-  "month",
-  "year",
-  "approximate",
-  "unknown",
-];
-
 const NAME_TYPES: NameType[] = ["alias", "former", "native", "transliteration"];
+
+/** Faith / belief options; the value stored is the slug, displayed via i18n. */
+const FAITH_OPTIONS = [
+  "none",
+  "buddhism",
+  "taoism",
+  "christianity",
+  "catholicism",
+  "islam",
+  "hinduism",
+  "judaism",
+  "folk",
+  "other",
+] as const;
+
+/** Cause-of-death options; stored as a slug, displayed via i18n. */
+const CAUSE_OPTIONS = [
+  "natural",
+  "illness",
+  "premature",
+  "war",
+  "accident",
+  "disaster",
+  "other",
+] as const;
 
 const RELATIVE_RELATIONSHIPS = [
   "father",
@@ -98,7 +113,6 @@ const MAX_ONE: ReadonlySet<string> = new Set([
   "wife",
 ]);
 
-const EMPTY_DATE: PartialDateInput = { precision: "unknown", raw: "" };
 const EMPTY_PARTS: DateParts = { year: "", month: "", day: "" };
 
 const MONTHS = Array.from({ length: 12 }, (_, i) =>
@@ -106,25 +120,8 @@ const MONTHS = Array.from({ length: 12 }, (_, i) =>
 );
 const DAYS = Array.from({ length: 31 }, (_, i) => String(i + 1).padStart(2, "0"));
 
-/** Death date → API shape. */
-function toPartialDate(
-  input: PartialDateInput,
-): { value: string; precision: Precision } | undefined {
-  if (input.precision === "unknown" || input.raw.trim() === "") {
-    return undefined;
-  }
-  if (input.precision === "day") {
-    return { value: input.raw, precision: "day" };
-  }
-  if (input.precision === "month") {
-    return { value: `${input.raw}-01`, precision: "month" };
-  }
-  const year = input.raw.padStart(4, "0").slice(0, 4);
-  return { value: `${year}-01-01`, precision: input.precision };
-}
-
 /**
- * Birth date → API shape. Year alone yields year precision; adding a month
+ * A date → API shape. Year alone yields year precision; adding a month
  * narrows to month; adding a day narrows to day. No year means no date.
  */
 function partsToDate(
@@ -150,6 +147,124 @@ function desensitizeName(name: string): string {
   return chars[0] + "*".repeat(chars.length - 2) + chars[chars.length - 1];
 }
 
+/**
+ * Year / month / day fields. Year is a number; month and day are dropdowns.
+ * The empty month/day option reads `emptyLabel` — "not sure" for a birth date,
+ * a neutral dash for a death date (a death is usually known precisely).
+ */
+function DateFields(props: {
+  parts: DateParts;
+  onChange: (parts: DateParts) => void;
+  yearLabel: string;
+  monthLabel: string;
+  dayLabel: string;
+  emptyLabel: string;
+  yearPlaceholder: string;
+}) {
+  const { parts, onChange } = props;
+  return (
+    <div className="dateRow">
+      <label className="field">
+        <span className="fieldLabel">{props.yearLabel}</span>
+        <input
+          className="input"
+          type="number"
+          inputMode="numeric"
+          min={1583}
+          max={2200}
+          placeholder={props.yearPlaceholder}
+          value={parts.year}
+          onChange={(e) =>
+            onChange(
+              e.target.value.trim() === ""
+                ? EMPTY_PARTS
+                : { ...parts, year: e.target.value },
+            )
+          }
+        />
+      </label>
+      <label className="field">
+        <span className="fieldLabel">{props.monthLabel}</span>
+        <select
+          className="input"
+          value={parts.month}
+          disabled={parts.year.trim() === ""}
+          onChange={(e) =>
+            onChange({
+              ...parts,
+              month: e.target.value,
+              ...(e.target.value === "" ? { day: "" } : {}),
+            })
+          }
+        >
+          <option value="">{props.emptyLabel}</option>
+          {MONTHS.map((m) => (
+            <option value={m} key={m}>
+              {Number(m)}
+            </option>
+          ))}
+        </select>
+      </label>
+      <label className="field">
+        <span className="fieldLabel">{props.dayLabel}</span>
+        <select
+          className="input"
+          value={parts.day}
+          disabled={parts.month === ""}
+          onChange={(e) => onChange({ ...parts, day: e.target.value })}
+        >
+          <option value="">{props.emptyLabel}</option>
+          {DAYS.map((d) => (
+            <option value={d} key={d}>
+              {Number(d)}
+            </option>
+          ))}
+        </select>
+      </label>
+    </div>
+  );
+}
+
+/**
+ * Region field: a province/state dropdown when the chosen country has a seeded
+ * list, otherwise a free-text input so any place can still be recorded.
+ */
+function RegionField(props: {
+  label: string;
+  country: string;
+  value: string;
+  onChange: (value: string) => void;
+}) {
+  const regions = regionsFor(props.country);
+  return (
+    <label className="field">
+      <span className="fieldLabel">{props.label}</span>
+      {regions.length > 0 ? (
+        <select
+          className="input"
+          value={props.value}
+          onChange={(e) => props.onChange(e.target.value)}
+        >
+          <option value="">—</option>
+          {regions.map((r) => (
+            <option value={r} key={r}>
+              {r}
+            </option>
+          ))}
+        </select>
+      ) : (
+        <input
+          className="input"
+          type="text"
+          maxLength={120}
+          value={props.value}
+          onChange={(e) => props.onChange(e.target.value)}
+        />
+      )}
+    </label>
+  );
+}
+
 export function CreateMemorialForm(props: { locale: string }) {
   const t = useTranslations("memorial");
   const privacy = useTranslations("privacy");
@@ -167,14 +282,13 @@ export function CreateMemorialForm(props: { locale: string }) {
   const [name, setName] = useState("");
   const [aliases, setAliases] = useState<AliasEntry[]>([]);
   const [birth, setBirth] = useState<DateParts>(EMPTY_PARTS);
-  const [death, setDeath] = useState<PartialDateInput>(EMPTY_DATE);
+  const [death, setDeath] = useState<DateParts>(EMPTY_PARTS);
 
   const [birthCountry, setBirthCountry] = useState("");
   const [birthRegion, setBirthRegion] = useState("");
 
   const [deathCountry, setDeathCountry] = useState("");
   const [deathRegion, setDeathRegion] = useState("");
-  const [deathCity, setDeathCity] = useState("");
 
   const [ancestralHometown, setAncestralHometown] = useState("");
   const [faith, setFaith] = useState("");
@@ -294,14 +408,13 @@ export function CreateMemorialForm(props: { locale: string }) {
     event.preventDefault();
     if (!relationship || !canSubmit) return;
 
+    // Places are detailed only to the province/state level (no city).
     const locations: {
       kind: "birth" | "death";
       country?: string;
       region?: string;
-      city?: string;
     }[] = [];
 
-    // Birthplace is detailed only to the province/state level.
     if (birthCountry.trim() || birthRegion.trim()) {
       locations.push({
         kind: "birth",
@@ -310,12 +423,11 @@ export function CreateMemorialForm(props: { locale: string }) {
       });
     }
 
-    if (deathCountry.trim() || deathRegion.trim() || deathCity.trim()) {
+    if (deathCountry.trim() || deathRegion.trim()) {
       locations.push({
         kind: "death",
         ...(deathCountry.trim() ? { country: deathCountry.trim() } : {}),
         ...(deathRegion.trim() ? { region: deathRegion.trim() } : {}),
-        ...(deathCity.trim() ? { city: deathCity.trim() } : {}),
       });
     }
 
@@ -342,7 +454,7 @@ export function CreateMemorialForm(props: { locale: string }) {
       }));
 
     const birthDate = partsToDate(birth);
-    const deathDate = toPartialDate(death);
+    const deathDate = partsToDate(death);
 
     const body = {
       relationship,
@@ -501,75 +613,27 @@ export function CreateMemorialForm(props: { locale: string }) {
         <legend className="eyebrow">{t("birthInfoLabel")}</legend>
         {/*
          * Year is required to record a birth date at all; month and day may each
-         * be left "not sure". This drops the whole-date "unknown" option a family
-         * never needed once they knew the year.
+         * be left "not sure".
          */}
-        <div className="dateRow">
-          <label className="field">
-            <span className="fieldLabel">{t("yearLabel")}</span>
-            <input
-              className="input"
-              type="number"
-              inputMode="numeric"
-              min={1583}
-              max={2200}
-              placeholder="1931"
-              value={birth.year}
-              onChange={(e) =>
-                setBirth(
-                  e.target.value.trim() === ""
-                    ? EMPTY_PARTS
-                    : { ...birth, year: e.target.value },
-                )
-              }
-            />
-          </label>
-          <label className="field">
-            <span className="fieldLabel">{t("monthLabel")}</span>
-            <select
-              className="input"
-              value={birth.month}
-              disabled={birth.year.trim() === ""}
-              onChange={(e) =>
-                setBirth({
-                  ...birth,
-                  month: e.target.value,
-                  ...(e.target.value === "" ? { day: "" } : {}),
-                })
-              }
-            >
-              <option value="">{t("dateUnclear")}</option>
-              {MONTHS.map((m) => (
-                <option value={m} key={m}>
-                  {Number(m)}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="field">
-            <span className="fieldLabel">{t("dayLabel")}</span>
-            <select
-              className="input"
-              value={birth.day}
-              disabled={birth.month === ""}
-              onChange={(e) => setBirth({ ...birth, day: e.target.value })}
-            >
-              <option value="">{t("dateUnclear")}</option>
-              {DAYS.map((d) => (
-                <option value={d} key={d}>
-                  {Number(d)}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
+        <DateFields
+          parts={birth}
+          onChange={setBirth}
+          yearLabel={t("yearLabel")}
+          monthLabel={t("monthLabel")}
+          dayLabel={t("dayLabel")}
+          emptyLabel={t("dateUnclear")}
+          yearPlaceholder="1931"
+        />
         <div className="placeRow placeRowBirth">
           <label className="field">
             <span className="fieldLabel">{t("countryLabel")}</span>
             <select
               className="input"
               value={birthCountry}
-              onChange={(e) => setBirthCountry(e.target.value)}
+              onChange={(e) => {
+                setBirthCountry(e.target.value);
+                setBirthRegion("");
+              }}
             >
               <option value="">—</option>
               {countries.map((c) => (
@@ -579,75 +643,45 @@ export function CreateMemorialForm(props: { locale: string }) {
               ))}
             </select>
           </label>
-          <label className="field">
-            <span className="fieldLabel">{t("regionLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={120}
-              value={birthRegion}
-              onChange={(e) => setBirthRegion(e.target.value)}
-            />
-          </label>
+          <RegionField
+            label={t("regionLabel")}
+            country={birthCountry}
+            value={birthRegion}
+            onChange={setBirthRegion}
+          />
         </div>
       </fieldset>
 
       {/* ── Death info ── */}
       <fieldset className="formSection">
         <legend className="eyebrow">{t("deathInfoLabel")}</legend>
-        <div className="dateRow">
-          <label className="field">
-            <span className="fieldLabel">{t("datePrecisionLabel")}</span>
-            <select
-              className="input"
-              value={death.precision}
-              onChange={(e) =>
-                setDeath({ precision: e.target.value as Precision, raw: "" })
-              }
-            >
-              {PRECISIONS.map((p) => (
-                <option value={p} key={p}>
-                  {t(
-                    `datePrecision${p.charAt(0).toUpperCase()}${p.slice(1)}`,
-                  )}
-                </option>
-              ))}
-            </select>
-          </label>
-          {death.precision !== "unknown" ? (
-            <label className="field">
-              <span className="fieldLabel">{t("deathDateLabel")}</span>
-              <input
-                className="input"
-                type={
-                  death.precision === "day"
-                    ? "date"
-                    : death.precision === "month"
-                      ? "month"
-                      : "number"
-                }
-                {...(death.precision === "year" ||
-                death.precision === "approximate"
-                  ? { min: 1583, max: 2200, placeholder: "2024" }
-                  : {})}
-                value={death.raw}
-                onChange={(e) => setDeath({ ...death, raw: e.target.value })}
-              />
-            </label>
-          ) : null}
-        </div>
+        {/* Same year/month/day fields as birth, but a death is usually known
+            precisely — the empty month/day option is a neutral dash, not "not
+            sure". */}
+        <DateFields
+          parts={death}
+          onChange={setDeath}
+          yearLabel={t("yearLabel")}
+          monthLabel={t("monthLabel")}
+          dayLabel={t("dayLabel")}
+          emptyLabel="—"
+          yearPlaceholder="2024"
+        />
         {errorFor("deathDate") ? (
           <p className="fieldError" role="alert">
             {errorFor("deathDate")}
           </p>
         ) : null}
-        <div className="placeRow">
+        <div className="placeRow placeRowBirth">
           <label className="field">
             <span className="fieldLabel">{t("countryLabel")}</span>
             <select
               className="input"
               value={deathCountry}
-              onChange={(e) => setDeathCountry(e.target.value)}
+              onChange={(e) => {
+                setDeathCountry(e.target.value);
+                setDeathRegion("");
+              }}
             >
               <option value="">—</option>
               {countries.map((c) => (
@@ -657,26 +691,12 @@ export function CreateMemorialForm(props: { locale: string }) {
               ))}
             </select>
           </label>
-          <label className="field">
-            <span className="fieldLabel">{t("regionLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={120}
-              value={deathRegion}
-              onChange={(e) => setDeathRegion(e.target.value)}
-            />
-          </label>
-          <label className="field">
-            <span className="fieldLabel">{t("cityLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={120}
-              value={deathCity}
-              onChange={(e) => setDeathCity(e.target.value)}
-            />
-          </label>
+          <RegionField
+            label={t("regionLabel")}
+            country={deathCountry}
+            value={deathRegion}
+            onChange={setDeathRegion}
+          />
         </div>
       </fieldset>
 
@@ -695,23 +715,33 @@ export function CreateMemorialForm(props: { locale: string }) {
         </label>
         <label className="field">
           <span className="fieldLabel">{t("faithLabel")}</span>
-          <input
+          <select
             className="input"
-            type="text"
-            maxLength={200}
             value={faith}
             onChange={(e) => setFaith(e.target.value)}
-          />
+          >
+            <option value="">—</option>
+            {FAITH_OPTIONS.map((f) => (
+              <option value={f} key={f}>
+                {t(`faith_${f}`)}
+              </option>
+            ))}
+          </select>
         </label>
         <label className="field">
           <span className="fieldLabel">{t("causeOfDeathLabel")}</span>
-          <input
+          <select
             className="input"
-            type="text"
-            maxLength={500}
             value={causeOfDeath}
             onChange={(e) => setCauseOfDeath(e.target.value)}
-          />
+          >
+            <option value="">—</option>
+            {CAUSE_OPTIONS.map((c) => (
+              <option value={c} key={c}>
+                {t(`cause_${c}`)}
+              </option>
+            ))}
+          </select>
         </label>
       </fieldset>
 
