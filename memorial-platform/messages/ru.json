@@ -232,7 +232,14 @@
     "enterMemorial": "Открыть страницу памяти",
     "myMemorialsEmpty": "Вы ещё не создали ни одной страницы памяти.",
     "statusDraft": "Черновик",
-    "statusPublished": "Опубликовано"
+    "statusPublished": "Опубликовано",
+    "leaveMessage": "Оставить сообщение",
+    "yourNameOptional": "Ваше имя (необязательно)",
+    "messagePlaceholder": "Поделитесь воспоминанием или словами…",
+    "sendMessage": "Отправить",
+    "messageThanks": "Спасибо за ваше сообщение.",
+    "removeMessage": "Удалить",
+    "noMessagesYet": "Пока нет сообщений. Будьте первым."
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

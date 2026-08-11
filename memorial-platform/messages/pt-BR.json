@@ -232,7 +232,14 @@
     "enterMemorial": "Abrir memorial",
     "myMemorialsEmpty": "Você ainda não criou nenhum memorial.",
     "statusDraft": "Rascunho",
-    "statusPublished": "Publicado"
+    "statusPublished": "Publicado",
+    "leaveMessage": "Deixe uma mensagem",
+    "yourNameOptional": "Seu nome (opcional)",
+    "messagePlaceholder": "Compartilhe uma lembrança ou palavras…",
+    "sendMessage": "Enviar",
+    "messageThanks": "Obrigado pela sua mensagem.",
+    "removeMessage": "Remover",
+    "noMessagesYet": "Ainda não há mensagens. Seja o primeiro."
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

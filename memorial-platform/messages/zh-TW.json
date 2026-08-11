@@ -232,7 +232,14 @@
     "enterMemorial": "進入追思頁",
     "myMemorialsEmpty": "您還沒有建立追思主頁。",
     "statusDraft": "草稿",
-    "statusPublished": "已發布"
+    "statusPublished": "已發布",
+    "leaveMessage": "寫下留言",
+    "yourNameOptional": "您的名字（可選）",
+    "messagePlaceholder": "寫下您的追思或回憶……",
+    "sendMessage": "發送",
+    "messageThanks": "謝謝您的留言。",
+    "removeMessage": "移除",
+    "noMessagesYet": "還沒有留言，來寫下第一條吧。"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",

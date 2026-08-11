@@ -232,7 +232,14 @@
     "enterMemorial": "Buka halaman memorial",
     "myMemorialsEmpty": "Anda belum membuat memorial apa pun.",
     "statusDraft": "Draf",
-    "statusPublished": "Diterbitkan"
+    "statusPublished": "Diterbitkan",
+    "leaveMessage": "Tinggalkan pesan",
+    "yourNameOptional": "Nama Anda (opsional)",
+    "messagePlaceholder": "Bagikan kenangan atau kata perpisahan…",
+    "sendMessage": "Kirim",
+    "messageThanks": "Terima kasih atas pesan Anda.",
+    "removeMessage": "Hapus",
+    "noMessagesYet": "Belum ada pesan. Jadilah yang pertama."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

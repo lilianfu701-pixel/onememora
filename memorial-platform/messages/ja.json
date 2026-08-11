@@ -232,7 +232,14 @@
     "enterMemorial": "追悼ページを開く",
     "myMemorialsEmpty": "まだ追悼ページを作成していません。",
     "statusDraft": "下書き",
-    "statusPublished": "公開済み"
+    "statusPublished": "公開済み",
+    "leaveMessage": "メッセージを残す",
+    "yourNameOptional": "お名前（任意）",
+    "messagePlaceholder": "思い出や追悼の言葉を…",
+    "sendMessage": "送信",
+    "messageThanks": "メッセージをありがとうございます。",
+    "removeMessage": "削除",
+    "noMessagesYet": "まだメッセージがありません。最初の一人になりましょう。"
   },
   "privacy": {
     "title": "このページを見られる範囲",

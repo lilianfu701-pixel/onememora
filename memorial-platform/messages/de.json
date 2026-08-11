@@ -232,7 +232,14 @@
     "enterMemorial": "Gedenkseite öffnen",
     "myMemorialsEmpty": "Sie haben noch keine Gedenkseite erstellt.",
     "statusDraft": "Entwurf",
-    "statusPublished": "Veröffentlicht"
+    "statusPublished": "Veröffentlicht",
+    "leaveMessage": "Nachricht hinterlassen",
+    "yourNameOptional": "Ihr Name (optional)",
+    "messagePlaceholder": "Teilen Sie eine Erinnerung oder ein Wort…",
+    "sendMessage": "Senden",
+    "messageThanks": "Danke für Ihre Nachricht.",
+    "removeMessage": "Entfernen",
+    "noMessagesYet": "Noch keine Nachrichten. Seien Sie der Erste."
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

@@ -1317,6 +1317,24 @@ img {
   background: rgba(197, 163, 95, 0.14);
 }
 
+/* ---------- Guestbook (visitor messages) ---------- */
+
+.guestbookList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.guestbookRemove {
+  align-self: flex-start;
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.guestbookForm {
+  margin-block-start: var(--space-4);
+}
+
 @media (max-width: 820px) {
   .memorialGrid {
     grid-template-columns: 1fr;

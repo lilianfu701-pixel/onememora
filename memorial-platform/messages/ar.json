@@ -232,7 +232,14 @@
     "enterMemorial": "فتح صفحة التذكار",
     "myMemorialsEmpty": "لم تنشئ أي صفحة تذكارية بعد.",
     "statusDraft": "مسودة",
-    "statusPublished": "منشور"
+    "statusPublished": "منشور",
+    "leaveMessage": "اترك رسالة",
+    "yourNameOptional": "اسمك (اختياري)",
+    "messagePlaceholder": "شارك ذكرى أو كلمة تأبين…",
+    "sendMessage": "إرسال",
+    "messageThanks": "شكرًا على رسالتك.",
+    "removeMessage": "إزالة",
+    "noMessagesYet": "لا رسائل بعد. كن أول من يترك رسالة."
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

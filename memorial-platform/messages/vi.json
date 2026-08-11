@@ -232,7 +232,14 @@
     "enterMemorial": "Mở trang tưởng niệm",
     "myMemorialsEmpty": "Bạn chưa tạo trang tưởng niệm nào.",
     "statusDraft": "Bản nháp",
-    "statusPublished": "Đã xuất bản"
+    "statusPublished": "Đã xuất bản",
+    "leaveMessage": "Để lại lời nhắn",
+    "yourNameOptional": "Tên của bạn (tùy chọn)",
+    "messagePlaceholder": "Chia sẻ một kỷ niệm hay lời tưởng nhớ…",
+    "sendMessage": "Gửi",
+    "messageThanks": "Cảm ơn lời nhắn của bạn.",
+    "removeMessage": "Xóa",
+    "noMessagesYet": "Chưa có lời nhắn nào. Hãy là người đầu tiên."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

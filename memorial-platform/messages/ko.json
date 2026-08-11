@@ -232,7 +232,14 @@
     "enterMemorial": "추모 페이지 열기",
     "myMemorialsEmpty": "아직 만든 추모 페이지가 없습니다.",
     "statusDraft": "초안",
-    "statusPublished": "게시됨"
+    "statusPublished": "게시됨",
+    "leaveMessage": "메시지 남기기",
+    "yourNameOptional": "이름 (선택)",
+    "messagePlaceholder": "추억이나 추모의 말을 남겨 주세요…",
+    "sendMessage": "보내기",
+    "messageThanks": "메시지를 남겨 주셔서 감사합니다.",
+    "removeMessage": "삭제",
+    "noMessagesYet": "아직 메시지가 없습니다. 첫 메시지를 남겨 보세요."
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

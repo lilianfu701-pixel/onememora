@@ -22,6 +22,7 @@ import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
 import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
+import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
@@ -424,17 +425,16 @@ export default async function MemorialPage(props: {
               )}
             </section>
 
-            {stories.length > 0 ? (
-              <section className="stack">
-                <h2>{t("storiesFromVisitors")}</h2>
-                {stories.map((story) => (
-                  <div className="card stack" key={story.id}>
-                    {story.title ? <h3>{story.title}</h3> : null}
-                    <p>{story.body}</p>
-                  </div>
-                ))}
-              </section>
-            ) : null}
+            <Guestbook
+              memorialId={detail.memorialId}
+              locale={locale}
+              initial={stories.map((story) => ({
+                id: story.id,
+                title: story.title,
+                body: story.body,
+              }))}
+              canModerate={canManage}
+            />
           </div>
 
           {orderedRelatives.length > 0 ? (

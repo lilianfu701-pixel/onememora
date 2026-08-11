@@ -232,7 +232,14 @@
     "enterMemorial": "Open memorial page",
     "myMemorialsEmpty": "You have not created any memorials yet.",
     "statusDraft": "Draft",
-    "statusPublished": "Published"
+    "statusPublished": "Published",
+    "leaveMessage": "Leave a message",
+    "yourNameOptional": "Your name (optional)",
+    "messagePlaceholder": "Share a memory or a word of remembrance…",
+    "sendMessage": "Send",
+    "messageThanks": "Thank you for your message.",
+    "removeMessage": "Remove",
+    "noMessagesYet": "No messages yet — be the first to leave one."
   },
   "privacy": {
     "title": "Who can see this memorial",
