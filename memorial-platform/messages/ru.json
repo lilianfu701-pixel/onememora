@@ -239,7 +239,11 @@
     "sendMessage": "Отправить",
     "messageThanks": "Спасибо за ваше сообщение.",
     "removeMessage": "Удалить",
-    "noMessagesYet": "Пока нет сообщений. Будьте первым."
+    "noMessagesYet": "Пока нет сообщений. Будьте первым.",
+    "audienceLabel": "Кто может видеть",
+    "audiencePublic": "Все",
+    "audienceFamily": "Семья",
+    "audiencePrivate": "Только я"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

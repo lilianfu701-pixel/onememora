@@ -3,13 +3,22 @@
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 
-type Story = { id: string; title: string | null; body: string };
+type Audience = "public" | "family" | "private";
+
+type Story = {
+  id: string;
+  title: string | null;
+  body: string;
+  audience: Audience;
+  isOwn: boolean;
+};
 
 export function Guestbook(props: {
   memorialId: string;
   locale: string;
   initial: Story[];
   canModerate: boolean;
+  isLoggedIn: boolean;
 }) {
   const t = useTranslations("memorial");
   const errors = useTranslations("errors");
@@ -17,9 +26,16 @@ export function Guestbook(props: {
   const [stories, setStories] = useState<Story[]>(props.initial);
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [audience, setAudience] = useState<Audience>("public");
   const [sending, setSending] = useState(false);
   const [thanked, setThanked] = useState(false);
   const [failed, setFailed] = useState(false);
+
+  function audienceLabel(value: Audience): string {
+    if (value === "family") return t("audienceFamily");
+    if (value === "private") return t("audiencePrivate");
+    return t("audiencePublic");
+  }
 
   async function submit(event: React.FormEvent): Promise<void> {
     event.preventDefault();
@@ -37,6 +53,7 @@ export function Guestbook(props: {
             name: name.trim() || undefined,
             message: message.trim(),
             locale: props.locale,
+            audience,
           }),
         },
       );
@@ -51,6 +68,8 @@ export function Guestbook(props: {
           id: payload.data.id,
           title: payload.data.title ?? null,
           body: payload.data.body,
+          audience: payload.data.audience ?? "public",
+          isOwn: true,
         },
       ]);
       setName("");
@@ -85,7 +104,14 @@ export function Guestbook(props: {
         <div className="guestbookList">
           {stories.map((story) => (
             <div className="card stack guestbookItem" key={story.id}>
-              {story.title ? <h3>{story.title}</h3> : null}
+              <div className="guestbookItemHead">
+                {story.title ? <h3>{story.title}</h3> : <span />}
+                {story.audience !== "public" ? (
+                  <span className="guestbookBadge">
+                    {audienceLabel(story.audience)}
+                  </span>
+                ) : null}
+              </div>
               <p>{story.body}</p>
               {props.canModerate ? (
                 <button
@@ -128,6 +154,20 @@ export function Guestbook(props: {
               setThanked(false);
             }}
           />
+        </label>
+        <label className="field">
+          <span className="fieldLabel">{t("audienceLabel")}</span>
+          <select
+            className="input"
+            value={audience}
+            onChange={(e) => setAudience(e.target.value as Audience)}
+          >
+            <option value="public">{t("audiencePublic")}</option>
+            <option value="family">{t("audienceFamily")}</option>
+            {props.isLoggedIn ? (
+              <option value="private">{t("audiencePrivate")}</option>
+            ) : null}
+          </select>
         </label>
         <div>
           <button

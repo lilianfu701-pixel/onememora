@@ -239,7 +239,11 @@
     "sendMessage": "보내기",
     "messageThanks": "메시지를 남겨 주셔서 감사합니다.",
     "removeMessage": "삭제",
-    "noMessagesYet": "아직 메시지가 없습니다. 첫 메시지를 남겨 보세요."
+    "noMessagesYet": "아직 메시지가 없습니다. 첫 메시지를 남겨 보세요.",
+    "audienceLabel": "공개 범위",
+    "audiencePublic": "모두",
+    "audienceFamily": "가족",
+    "audiencePrivate": "나만"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

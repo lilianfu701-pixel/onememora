@@ -239,7 +239,11 @@
     "sendMessage": "发送",
     "messageThanks": "谢谢您的留言。",
     "removeMessage": "移除",
-    "noMessagesYet": "还没有留言，来写下第一条吧。"
+    "noMessagesYet": "还没有留言，来写下第一条吧。",
+    "audienceLabel": "谁可以看到",
+    "audiencePublic": "所有人",
+    "audienceFamily": "家属",
+    "audiencePrivate": "只有自己和逝者"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

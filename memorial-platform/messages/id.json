@@ -239,7 +239,11 @@
     "sendMessage": "Kirim",
     "messageThanks": "Terima kasih atas pesan Anda.",
     "removeMessage": "Hapus",
-    "noMessagesYet": "Belum ada pesan. Jadilah yang pertama."
+    "noMessagesYet": "Belum ada pesan. Jadilah yang pertama.",
+    "audienceLabel": "Siapa yang dapat melihat",
+    "audiencePublic": "Semua orang",
+    "audienceFamily": "Keluarga",
+    "audiencePrivate": "Hanya saya"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

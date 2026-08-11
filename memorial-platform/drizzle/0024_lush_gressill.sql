@@ -1,0 +1,2 @@
+CREATE TYPE "public"."visitor_message_audience" AS ENUM('public', 'family', 'private');--> statement-breakpoint
+ALTER TABLE "visitor_submissions" ADD COLUMN "audience" "visitor_message_audience" DEFAULT 'public' NOT NULL;

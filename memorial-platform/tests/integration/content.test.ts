@@ -335,7 +335,7 @@ describe("visitor submissions", () => {
     );
     expect(submitted.ok).toBe(true);
 
-    expect(await publicVisitorStories(memorialId)).toHaveLength(0);
+    expect(await publicVisitorStories(memorialId, { userId: null, isFamily: false })).toHaveLength(0);
   });
 
   it("appears once the family accepts it", async () => {
@@ -353,7 +353,7 @@ describe("visitor submissions", () => {
 
     await moderateSubmission(owner, submitted.value.submissionId, "published", "r2");
 
-    const stories = await publicVisitorStories(memorialId);
+    const stories = await publicVisitorStories(memorialId, { userId: null, isFamily: false });
     expect(stories).toHaveLength(1);
     expect(stories[0]?.body).toBe("A kind memory.");
   });
@@ -374,7 +374,7 @@ describe("visitor submissions", () => {
 
     await moderateSubmission(owner, submitted.value.submissionId, "rejected", "r2");
 
-    expect(await publicVisitorStories(memorialId)).toHaveLength(0);
+    expect(await publicVisitorStories(memorialId, { userId: null, isFamily: false })).toHaveLength(0);
 
     const [row] = await db()
       .select()

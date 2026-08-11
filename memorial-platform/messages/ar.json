@@ -239,7 +239,11 @@
     "sendMessage": "إرسال",
     "messageThanks": "شكرًا على رسالتك.",
     "removeMessage": "إزالة",
-    "noMessagesYet": "لا رسائل بعد. كن أول من يترك رسالة."
+    "noMessagesYet": "لا رسائل بعد. كن أول من يترك رسالة.",
+    "audienceLabel": "من يمكنه رؤية هذا",
+    "audiencePublic": "الجميع",
+    "audienceFamily": "العائلة",
+    "audiencePrivate": "أنا فقط"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

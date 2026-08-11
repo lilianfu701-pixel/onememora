@@ -41,6 +41,18 @@ export const translationStatus = pgEnum("translation_status", [
 export const submissionKind = pgEnum("submission_kind", ["story", "photo"]);
 
 /**
+ * Who a visitor's guestbook message is for:
+ * - `public`  — everyone who can see the memorial
+ * - `family`  — only members of this memorial
+ * - `private` — only the author (kept between them and the deceased)
+ */
+export const visitorMessageAudience = pgEnum("visitor_message_audience", [
+  "public",
+  "family",
+  "private",
+]);
+
+/**
  * The immutable record of what was written, and by whom.
  *
  * Rows here are never updated. An edit appends a new version and moves the
@@ -210,6 +222,8 @@ export const visitorSubmissions = pgTable(
     body: text("body").notNull(),
     sourceLocale: text("source_locale").notNull(),
     status: contentStatus("status").default("pending_review").notNull(),
+    /** Who may see this message: everyone, only family, or only the author. */
+    audience: visitorMessageAudience("audience").default("public").notNull(),
     moderatedByUserId: uuid("moderated_by_user_id").references(() => users.id, {
       onDelete: "set null",
     }),

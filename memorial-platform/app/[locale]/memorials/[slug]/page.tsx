@@ -187,6 +187,12 @@ export default async function MemorialPage(props: {
   const { detail } = result;
   const span = lifeSpan(detail);
 
+  // A member of this memorial: sees family-scoped messages and moderates.
+  const isFamily =
+    detail.viewerRole !== "public_visitor" &&
+    detail.viewerRole !== "invited_visitor";
+  const viewer = await currentActor();
+
   const [
     biography,
     stories,
@@ -197,7 +203,10 @@ export default async function MemorialPage(props: {
     locations,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
-      publicVisitorStories(detail.memorialId),
+      publicVisitorStories(detail.memorialId, {
+        userId: viewer.userId,
+        isFamily,
+      }),
       offerableRituals(detail.memorialId, normalizeLocale(locale)),
       memorialGallery(detail.memorialId),
       db()
@@ -265,9 +274,7 @@ export default async function MemorialPage(props: {
     alt: photo.altText ?? t("photoAltOf", { name: detail.primaryName }),
   }));
 
-  const canManage =
-    detail.viewerRole !== "public_visitor" &&
-    detail.viewerRole !== "invited_visitor";
+  const canManage = isFamily;
   const showOwnerBar =
     detail.status === "draft" ||
     (detail.status === "published" && detail.visibility === "unlisted");
@@ -428,12 +435,9 @@ export default async function MemorialPage(props: {
             <Guestbook
               memorialId={detail.memorialId}
               locale={locale}
-              initial={stories.map((story) => ({
-                id: story.id,
-                title: story.title,
-                body: story.body,
-              }))}
+              initial={stories}
               canModerate={canManage}
+              isLoggedIn={viewer.userId !== null}
             />
           </div>
 

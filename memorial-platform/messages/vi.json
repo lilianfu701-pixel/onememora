@@ -239,7 +239,11 @@
     "sendMessage": "Gửi",
     "messageThanks": "Cảm ơn lời nhắn của bạn.",
     "removeMessage": "Xóa",
-    "noMessagesYet": "Chưa có lời nhắn nào. Hãy là người đầu tiên."
+    "noMessagesYet": "Chưa có lời nhắn nào. Hãy là người đầu tiên.",
+    "audienceLabel": "Ai có thể xem",
+    "audiencePublic": "Mọi người",
+    "audienceFamily": "Gia đình",
+    "audiencePrivate": "Chỉ mình tôi"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

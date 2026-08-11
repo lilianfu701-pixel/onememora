@@ -239,7 +239,11 @@
     "sendMessage": "Send",
     "messageThanks": "Thank you for your message.",
     "removeMessage": "Remove",
-    "noMessagesYet": "No messages yet — be the first to leave one."
+    "noMessagesYet": "No messages yet — be the first to leave one.",
+    "audienceLabel": "Who can see this",
+    "audiencePublic": "Everyone",
+    "audienceFamily": "Family",
+    "audiencePrivate": "Only me"
   },
   "privacy": {
     "title": "Who can see this memorial",

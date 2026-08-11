@@ -1,4 +1,4 @@
-import { and, eq, isNull, sql } from "drizzle-orm";
+import { and, asc, eq, isNull, or, sql } from "drizzle-orm";
 import { db } from "@/db/client";
 import {
   auditLogs,
@@ -312,23 +312,56 @@ export async function moderateSubmission(
  * application code, so a later caller cannot forget it. See doc 04 section 7
  * for the same rule applied to search.
  */
-export async function publicVisitorStories(memorialId: string): Promise<
-  { id: string; title: string | null; body: string; sourceLocale: string }[]
-> {
-  return db()
+export type VisitorStory = {
+  id: string;
+  title: string | null;
+  body: string;
+  audience: "public" | "family" | "private";
+  isOwn: boolean;
+};
+
+/**
+ * Visitor messages this viewer is allowed to see: every public message, family
+ * messages when the viewer is a member, and the viewer's own private messages.
+ * Hidden (moderated) messages are never returned.
+ */
+export async function publicVisitorStories(
+  memorialId: string,
+  viewer: { userId: string | null; isFamily: boolean },
+): Promise<VisitorStory[]> {
+  const audiences = [eq(visitorSubmissions.audience, "public")];
+  if (viewer.isFamily) {
+    audiences.push(eq(visitorSubmissions.audience, "family"));
+  }
+  if (viewer.userId) {
+    audiences.push(eq(visitorSubmissions.submitterUserId, viewer.userId));
+  }
+
+  const rows = await db()
     .select({
       id: visitorSubmissions.id,
       title: visitorSubmissions.title,
       body: visitorSubmissions.body,
-      sourceLocale: visitorSubmissions.sourceLocale,
+      audience: visitorSubmissions.audience,
+      submitterUserId: visitorSubmissions.submitterUserId,
     })
     .from(visitorSubmissions)
     .where(
       and(
         eq(visitorSubmissions.memorialId, memorialId),
         eq(visitorSubmissions.status, "published"),
+        or(...audiences),
       ),
-    );
+    )
+    .orderBy(asc(visitorSubmissions.createdAt));
+
+  return rows.map((row) => ({
+    id: row.id,
+    title: row.title,
+    body: row.body,
+    audience: row.audience,
+    isOwn: viewer.userId !== null && row.submitterUserId === viewer.userId,
+  }));
 }
 
 /** Submissions still waiting for the family. */

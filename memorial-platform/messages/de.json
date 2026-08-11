@@ -239,7 +239,11 @@
     "sendMessage": "Senden",
     "messageThanks": "Danke für Ihre Nachricht.",
     "removeMessage": "Entfernen",
-    "noMessagesYet": "Noch keine Nachrichten. Seien Sie der Erste."
+    "noMessagesYet": "Noch keine Nachrichten. Seien Sie der Erste.",
+    "audienceLabel": "Wer kann das sehen",
+    "audiencePublic": "Alle",
+    "audienceFamily": "Familie",
+    "audiencePrivate": "Nur ich"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

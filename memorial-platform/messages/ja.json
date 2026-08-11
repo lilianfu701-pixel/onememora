@@ -239,7 +239,11 @@
     "sendMessage": "送信",
     "messageThanks": "メッセージをありがとうございます。",
     "removeMessage": "削除",
-    "noMessagesYet": "まだメッセージがありません。最初の一人になりましょう。"
+    "noMessagesYet": "まだメッセージがありません。最初の一人になりましょう。",
+    "audienceLabel": "公開範囲",
+    "audiencePublic": "全員",
+    "audienceFamily": "家族",
+    "audiencePrivate": "自分のみ"
   },
   "privacy": {
     "title": "このページを見られる範囲",

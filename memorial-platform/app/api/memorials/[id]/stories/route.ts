@@ -16,6 +16,7 @@ const schema = z.object({
   name: z.string().trim().max(60).optional(),
   message: z.string().trim().min(1).max(2000),
   locale: z.string().min(2).max(10).default("en"),
+  audience: z.enum(["public", "family", "private"]).default("public"),
 });
 
 /**
@@ -51,6 +52,13 @@ export async function POST(
   }
 
   const actor = await currentActor();
+
+  // A private message is kept for its author, so it only makes sense once we
+  // know who that is.
+  if (body.value.audience === "private" && !actor.userId) {
+    return jsonError("AUTH_REQUIRED", correlationId);
+  }
+
   const name = body.value.name?.trim() || null;
   const message = body.value.message.trim();
 
@@ -64,11 +72,18 @@ export async function POST(
       body: message,
       sourceLocale: body.value.locale,
       status: "published",
+      audience: body.value.audience,
     })
     .returning({ id: visitorSubmissions.id });
 
   return jsonSuccess(
-    { id: row?.id, title: name, body: message },
+    {
+      id: row?.id,
+      title: name,
+      body: message,
+      audience: body.value.audience,
+      isOwn: true,
+    },
     correlationId,
     201,
   );
