@@ -264,32 +264,31 @@ export default async function MemorialPage(props: {
     alt: photo.altText ?? t("photoAltOf", { name: detail.primaryName }),
   }));
 
+  const canManage =
+    detail.viewerRole !== "public_visitor" &&
+    detail.viewerRole !== "invited_visitor";
   const showOwnerBar =
-    (detail.viewerRole !== "public_visitor" &&
-      detail.viewerRole !== "invited_visitor") ||
     detail.status === "draft" ||
     (detail.status === "published" && detail.visibility === "unlisted");
 
   return (
     <main id="main">
+      {/*
+       * Owner-only, floated into a corner so it never sits on top of the
+       * memorial itself. A visitor never sees it, so it confirms no roles.
+       */}
+      {canManage ? (
+        <Link
+          className="button buttonPrimary buttonCompact memorialManageFloat"
+          href={`/${locale}/memorials/${detail.slug}/manage`}
+        >
+          {t("manageLink")}
+        </Link>
+      ) : null}
+
       <article className="container section memorialView">
         {showOwnerBar ? (
           <div className="memorialOwnerBar">
-            {/*
-             * Offered only to someone who can act on it. A visitor seeing a
-             * "manage" link they cannot use would be told the family's roles
-             * exist, and would waste a click finding out they are not one.
-             */}
-            {detail.viewerRole !== "public_visitor" &&
-            detail.viewerRole !== "invited_visitor" ? (
-              <Link
-                className="button buttonQuiet buttonCompact"
-                href={`/${locale}/memorials/${detail.slug}/manage`}
-              >
-                {t("manageLink")}
-              </Link>
-            ) : null}
-
             {/*
              * A draft is only ever reachable by the family, so this panel does
              * not need its own permission check — but publishing does, and the
@@ -448,14 +447,18 @@ export default async function MemorialPage(props: {
                       {t(`relativeRole_${rel.relationshipToDeceased}`)}
                     </span>
                     <span className="relativesSidebarName">
-                      {rel.showFullName ? rel.name : desensitizeName(rel.name)}
                       <span
                         className={
                           rel.isDeceased
-                            ? "relativesSidebarStatus relativesSidebarStatusDeceased"
-                            : "relativesSidebarStatus"
+                            ? "relativeNameTag relativeNameTagDeceased"
+                            : "relativeNameTag"
                         }
                       >
+                        {rel.showFullName
+                          ? rel.name
+                          : desensitizeName(rel.name)}
+                      </span>
+                      <span className="relativesSidebarStatus">
                         {rel.isDeceased ? t("statusDeceased") : t("statusLiving")}
                       </span>
                     </span>
