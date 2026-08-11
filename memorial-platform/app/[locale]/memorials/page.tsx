@@ -10,6 +10,7 @@ import {
   memorials,
 } from "@/db/schema";
 import { currentActor } from "@/modules/auth/current-user";
+import { DeleteMemorialButton } from "./delete-memorial-button";
 
 export const dynamic = "force-dynamic";
 
@@ -56,6 +57,7 @@ export default async function MyMemorialsPage(props: {
   // name and life years for the card.
   const rows = await db()
     .select({
+      id: memorials.id,
       slug: memorials.slug,
       status: memorials.status,
       name: memorialNames.value,
@@ -79,6 +81,8 @@ export default async function MyMemorialsPage(props: {
       and(
         eq(memorialMembers.userId, actor.userId),
         isNull(memorialMembers.revokedAt),
+        // A memorial the owner asked to delete drops off the list at once.
+        isNull(memorials.deletionRequestedAt),
       ),
     )
     .orderBy(desc(memorials.createdAt));
@@ -137,6 +141,7 @@ export default async function MyMemorialsPage(props: {
                   >
                     {t("manageLink")}
                   </Link>
+                  <DeleteMemorialButton memorialId={row.id} />
                 </div>
               </li>
             );

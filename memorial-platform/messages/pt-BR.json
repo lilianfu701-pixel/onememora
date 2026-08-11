@@ -26,7 +26,7 @@
     "language": "Idioma"
   },
   "home": {
-    "title": "Um lugar para lembrar",
+    "title": "Toda vida merece ser lembrada.",
     "subtitle": "Guarde a história de uma vida e permita que familiares e amigos a encontrem.",
     "createMemorial": "Criar um memorial",
     "findMemorial": "Encontrar um memorial",
@@ -252,7 +252,8 @@
     "share": "Compartilhar",
     "copyLink": "Copiar link",
     "linkCopied": "Copiado",
-    "scanToOpen": "Escaneie para abrir"
+    "scanToOpen": "Escaneie para abrir",
+    "deleteConfirmQuestion": "Excluir este memorial? Você tem 30 dias para restaurá-lo."
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

@@ -26,7 +26,7 @@
     "language": "言語"
   },
   "home": {
-    "title": "偲ぶための場所",
+    "title": "すべての命は、記憶される価値がある。",
     "subtitle": "故人の歩みを残し、ご家族やご友人が訪れられるようにします。",
     "createMemorial": "追悼ページを作成する",
     "findMemorial": "追悼ページをさがす",
@@ -252,7 +252,8 @@
     "share": "共有",
     "copyLink": "リンクをコピー",
     "linkCopied": "コピーしました",
-    "scanToOpen": "スキャンして開く"
+    "scanToOpen": "スキャンして開く",
+    "deleteConfirmQuestion": "この追悼ページを削除しますか？30日以内なら復元できます。"
   },
   "privacy": {
     "title": "このページを見られる範囲",

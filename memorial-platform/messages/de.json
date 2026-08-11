@@ -26,7 +26,7 @@
     "language": "Sprache"
   },
   "home": {
-    "title": "Ein Ort für die Erinnerung",
+    "title": "Jedes Leben verdient es, in Erinnerung zu bleiben.",
     "subtitle": "Bewahren Sie ein Leben in Erinnerung und lassen Sie Familie und Freunde es finden.",
     "createMemorial": "Gedenkseite erstellen",
     "findMemorial": "Gedenkseite suchen",
@@ -252,7 +252,8 @@
     "share": "Teilen",
     "copyLink": "Link kopieren",
     "linkCopied": "Kopiert",
-    "scanToOpen": "Zum Öffnen scannen"
+    "scanToOpen": "Zum Öffnen scannen",
+    "deleteConfirmQuestion": "Diese Gedenkseite löschen? Sie haben 30 Tage, um sie wiederherzustellen."
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

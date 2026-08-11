@@ -26,7 +26,7 @@
     "language": "語言"
   },
   "home": {
-    "title": "留一個懷念的地方",
+    "title": "每一個生命都值得被紀念。",
     "subtitle": "為先人留下生平記錄，讓親友能夠找到這裡。",
     "createMemorial": "建立思念頁",
     "findMemorial": "尋找思念頁",
@@ -252,7 +252,8 @@
     "share": "分享",
     "copyLink": "複製連結",
     "linkCopied": "已複製",
-    "scanToOpen": "掃碼開啟"
+    "scanToOpen": "掃碼開啟",
+    "deleteConfirmQuestion": "確定刪除這個追思主頁嗎？（30 天內可恢復）"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

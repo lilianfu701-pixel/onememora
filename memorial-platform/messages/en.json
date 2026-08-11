@@ -26,7 +26,7 @@
     "language": "Language"
   },
   "home": {
-    "title": "A place to remember",
+    "title": "Every life deserves to be remembered.",
     "subtitle": "Keep a life recorded, and let family and friends find it.",
     "createMemorial": "Create a memorial",
     "findMemorial": "Find a memorial",
@@ -252,7 +252,8 @@
     "share": "Share",
     "copyLink": "Copy link",
     "linkCopied": "Copied",
-    "scanToOpen": "Scan to open"
+    "scanToOpen": "Scan to open",
+    "deleteConfirmQuestion": "Delete this memorial? You have 30 days to restore it."
   },
   "privacy": {
     "title": "Who can see this memorial",

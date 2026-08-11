@@ -26,7 +26,7 @@
     "language": "Ngôn ngữ"
   },
   "home": {
-    "title": "Một nơi để tưởng nhớ",
+    "title": "Mỗi cuộc đời đều xứng đáng được tưởng nhớ.",
     "subtitle": "Lưu giữ cuộc đời của một người, để gia đình và bạn bè có thể tìm về.",
     "createMemorial": "Tạo trang tưởng niệm",
     "findMemorial": "Tìm trang tưởng niệm",
@@ -252,7 +252,8 @@
     "share": "Chia sẻ",
     "copyLink": "Sao chép liên kết",
     "linkCopied": "Đã sao chép",
-    "scanToOpen": "Quét để mở"
+    "scanToOpen": "Quét để mở",
+    "deleteConfirmQuestion": "Xóa trang tưởng niệm này? Bạn có 30 ngày để khôi phục."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

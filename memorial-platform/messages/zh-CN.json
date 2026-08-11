@@ -26,7 +26,7 @@
     "language": "语言"
   },
   "home": {
-    "title": "留一处思念的地方",
+    "title": "每一个生命都值得被纪念。",
     "subtitle": "为逝者留下生平记录，让亲友能够找到这里。",
     "createMemorial": "创建追思主页",
     "findMemorial": "查找追思主页",
@@ -252,7 +252,8 @@
     "share": "分享",
     "copyLink": "复制链接",
     "linkCopied": "已复制",
-    "scanToOpen": "扫码打开"
+    "scanToOpen": "扫码打开",
+    "deleteConfirmQuestion": "确定删除这个追思主页吗？（30 天内可恢复）"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

@@ -26,7 +26,7 @@
     "language": "Langue"
   },
   "home": {
-    "title": "Un lieu pour se souvenir",
+    "title": "Chaque vie mérite qu’on s’en souvienne.",
     "subtitle": "Conservez le récit d'une vie et permettez à ses proches de le retrouver.",
     "createMemorial": "Créer un mémorial",
     "findMemorial": "Rechercher un mémorial",
@@ -252,7 +252,8 @@
     "share": "Partager",
     "copyLink": "Copier le lien",
     "linkCopied": "Copié",
-    "scanToOpen": "Scanner pour ouvrir"
+    "scanToOpen": "Scanner pour ouvrir",
+    "deleteConfirmQuestion": "Supprimer ce mémorial ? Vous avez 30 jours pour le restaurer."
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

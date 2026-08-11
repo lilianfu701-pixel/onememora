@@ -26,7 +26,7 @@
     "language": "Bahasa"
   },
   "home": {
-    "title": "Tempat untuk mengenang",
+    "title": "Setiap kehidupan layak untuk dikenang.",
     "subtitle": "Simpan catatan perjalanan hidup seseorang agar keluarga dan sahabat dapat menemukannya.",
     "createMemorial": "Buat halaman kenangan",
     "findMemorial": "Cari halaman kenangan",
@@ -252,7 +252,8 @@
     "share": "Bagikan",
     "copyLink": "Salin tautan",
     "linkCopied": "Tersalin",
-    "scanToOpen": "Pindai untuk membuka"
+    "scanToOpen": "Pindai untuk membuka",
+    "deleteConfirmQuestion": "Hapus memorial ini? Anda punya 30 hari untuk memulihkannya."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

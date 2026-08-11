@@ -1402,8 +1402,26 @@ img {
 
 .memorialCardActions {
   display: flex;
+  align-items: center;
   gap: var(--space-2);
   flex-wrap: wrap;
+}
+
+.memorialCardDelete {
+  color: #8c3b32;
+  font-size: var(--text-sm);
+}
+
+.memorialCardConfirm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.memorialCardConfirmText {
+  font-size: var(--text-sm);
+  color: var(--muted);
 }
 
 .statusPill {
