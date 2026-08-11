@@ -19,7 +19,7 @@
   "nav": {
     "home": "首页",
     "search": "查找",
-    "myMemorials": "我管理的主页",
+    "myMemorials": "我的追思主页",
     "signIn": "登录",
     "signOut": "退出登录",
     "help": "帮助",
@@ -228,7 +228,11 @@
     "photoPrevious": "上一张",
     "photoNext": "下一张",
     "birthPlaceLabel": "出生地",
-    "deathPlaceLabel": "逝世地"
+    "deathPlaceLabel": "逝世地",
+    "enterMemorial": "进入追思页",
+    "myMemorialsEmpty": "您还没有创建追思主页。",
+    "statusDraft": "草稿",
+    "statusPublished": "已发布"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

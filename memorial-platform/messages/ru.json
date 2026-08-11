@@ -228,7 +228,11 @@
     "photoPrevious": "Предыдущее фото",
     "photoNext": "Следующее фото",
     "birthPlaceLabel": "Место рождения",
-    "deathPlaceLabel": "Место смерти"
+    "deathPlaceLabel": "Место смерти",
+    "enterMemorial": "Открыть страницу памяти",
+    "myMemorialsEmpty": "Вы ещё не создали ни одной страницы памяти.",
+    "statusDraft": "Черновик",
+    "statusPublished": "Опубликовано"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

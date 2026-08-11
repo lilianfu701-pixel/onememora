@@ -228,7 +228,11 @@
     "photoPrevious": "الصورة السابقة",
     "photoNext": "الصورة التالية",
     "birthPlaceLabel": "مكان الميلاد",
-    "deathPlaceLabel": "مكان الوفاة"
+    "deathPlaceLabel": "مكان الوفاة",
+    "enterMemorial": "فتح صفحة التذكار",
+    "myMemorialsEmpty": "لم تنشئ أي صفحة تذكارية بعد.",
+    "statusDraft": "مسودة",
+    "statusPublished": "منشور"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

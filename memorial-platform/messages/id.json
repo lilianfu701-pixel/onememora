@@ -228,7 +228,11 @@
     "photoPrevious": "Foto sebelumnya",
     "photoNext": "Foto berikutnya",
     "birthPlaceLabel": "Tempat lahir",
-    "deathPlaceLabel": "Tempat wafat"
+    "deathPlaceLabel": "Tempat wafat",
+    "enterMemorial": "Buka halaman memorial",
+    "myMemorialsEmpty": "Anda belum membuat memorial apa pun.",
+    "statusDraft": "Draf",
+    "statusPublished": "Diterbitkan"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

@@ -228,7 +228,11 @@
     "photoPrevious": "Vorheriges Foto",
     "photoNext": "Nächstes Foto",
     "birthPlaceLabel": "Geburtsort",
-    "deathPlaceLabel": "Sterbeort"
+    "deathPlaceLabel": "Sterbeort",
+    "enterMemorial": "Gedenkseite öffnen",
+    "myMemorialsEmpty": "Sie haben noch keine Gedenkseite erstellt.",
+    "statusDraft": "Entwurf",
+    "statusPublished": "Veröffentlicht"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

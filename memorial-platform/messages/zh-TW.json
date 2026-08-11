@@ -19,7 +19,7 @@
   "nav": {
     "home": "首頁",
     "search": "搜尋",
-    "myMemorials": "我管理的追思頁",
+    "myMemorials": "我的追思主頁",
     "signIn": "登入",
     "signOut": "登出",
     "help": "說明",
@@ -228,7 +228,11 @@
     "photoPrevious": "上一張",
     "photoNext": "下一張",
     "birthPlaceLabel": "出生地",
-    "deathPlaceLabel": "逝世地"
+    "deathPlaceLabel": "逝世地",
+    "enterMemorial": "進入追思頁",
+    "myMemorialsEmpty": "您還沒有建立追思主頁。",
+    "statusDraft": "草稿",
+    "statusPublished": "已發布"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",

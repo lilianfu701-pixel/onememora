@@ -228,7 +228,11 @@
     "photoPrevious": "Ảnh trước",
     "photoNext": "Ảnh tiếp theo",
     "birthPlaceLabel": "Nơi sinh",
-    "deathPlaceLabel": "Nơi mất"
+    "deathPlaceLabel": "Nơi mất",
+    "enterMemorial": "Mở trang tưởng niệm",
+    "myMemorialsEmpty": "Bạn chưa tạo trang tưởng niệm nào.",
+    "statusDraft": "Bản nháp",
+    "statusPublished": "Đã xuất bản"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

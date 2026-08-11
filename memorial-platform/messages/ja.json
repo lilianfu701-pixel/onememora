@@ -228,7 +228,11 @@
     "photoPrevious": "前の写真",
     "photoNext": "次の写真",
     "birthPlaceLabel": "出生地",
-    "deathPlaceLabel": "逝去地"
+    "deathPlaceLabel": "逝去地",
+    "enterMemorial": "追悼ページを開く",
+    "myMemorialsEmpty": "まだ追悼ページを作成していません。",
+    "statusDraft": "下書き",
+    "statusPublished": "公開済み"
   },
   "privacy": {
     "title": "このページを見られる範囲",

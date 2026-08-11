@@ -228,7 +228,11 @@
     "photoPrevious": "Previous photo",
     "photoNext": "Next photo",
     "birthPlaceLabel": "Birthplace",
-    "deathPlaceLabel": "Place of death"
+    "deathPlaceLabel": "Place of death",
+    "enterMemorial": "Open memorial page",
+    "myMemorialsEmpty": "You have not created any memorials yet.",
+    "statusDraft": "Draft",
+    "statusPublished": "Published"
   },
   "privacy": {
     "title": "Who can see this memorial",

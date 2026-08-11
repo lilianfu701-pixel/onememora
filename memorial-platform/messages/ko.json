@@ -228,7 +228,11 @@
     "photoPrevious": "이전 사진",
     "photoNext": "다음 사진",
     "birthPlaceLabel": "출생지",
-    "deathPlaceLabel": "별세 장소"
+    "deathPlaceLabel": "별세 장소",
+    "enterMemorial": "추모 페이지 열기",
+    "myMemorialsEmpty": "아직 만든 추모 페이지가 없습니다.",
+    "statusDraft": "초안",
+    "statusPublished": "게시됨"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

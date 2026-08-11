@@ -93,7 +93,7 @@ export default async function ManageMemorialPage(props: {
             className="button buttonQuiet buttonCompact"
             href={`/${locale}/memorials/${detail.slug}`}
           >
-            {t("viewMemorial")} →
+            {t("enterMemorial")} →
           </Link>
         </p>
       </header>

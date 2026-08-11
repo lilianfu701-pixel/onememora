@@ -89,7 +89,12 @@ export default async function LocaleLayout(props: {
               <nav className="siteNav" aria-label={a11y("mainNavigation")}>
                 <Link href={`/${locale}/search`}>{nav("search")}</Link>
                 {actor.userId ? (
-                  <SignOutButton locale={locale} />
+                  <>
+                    <Link href={`/${locale}/memorials`}>
+                      {nav("myMemorials")}
+                    </Link>
+                    <SignOutButton locale={locale} />
+                  </>
                 ) : (
                   <Link href={`/${locale}/sign-in`}>{nav("signIn")}</Link>
                 )}

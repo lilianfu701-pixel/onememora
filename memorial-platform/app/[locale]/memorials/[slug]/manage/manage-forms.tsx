@@ -284,7 +284,7 @@ export function ManageForms(props: {
           className="button buttonQuiet"
           href={`/${props.locale}/memorials/${props.slug}`}
         >
-          {common("back")}
+          {t("enterMemorial")} →
         </Link>
       </div>
     </div>
