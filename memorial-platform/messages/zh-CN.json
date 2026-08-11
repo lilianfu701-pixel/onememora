@@ -248,7 +248,11 @@
     "lightCandle": "点烛",
     "offerFlower": "献花",
     "candleDone": "已点烛",
-    "flowerDone": "已献花"
+    "flowerDone": "已献花",
+    "share": "分享",
+    "copyLink": "复制链接",
+    "linkCopied": "已复制",
+    "scanToOpen": "扫码打开"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

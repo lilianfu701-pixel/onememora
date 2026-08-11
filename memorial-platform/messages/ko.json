@@ -248,7 +248,11 @@
     "lightCandle": "촛불 켜기",
     "offerFlower": "헌화하기",
     "candleDone": "촛불을 켰습니다",
-    "flowerDone": "헌화했습니다"
+    "flowerDone": "헌화했습니다",
+    "share": "공유",
+    "copyLink": "링크 복사",
+    "linkCopied": "복사됨",
+    "scanToOpen": "스캔하여 열기"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

@@ -248,7 +248,11 @@
     "lightCandle": "أشعل شمعة",
     "offerFlower": "قدّم الزهور",
     "candleDone": "أُشعلت الشمعة",
-    "flowerDone": "قُدّمت الزهور"
+    "flowerDone": "قُدّمت الزهور",
+    "share": "مشاركة",
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم النسخ",
+    "scanToOpen": "امسح للفتح"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

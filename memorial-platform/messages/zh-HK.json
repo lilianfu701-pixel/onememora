@@ -248,7 +248,11 @@
     "lightCandle": "點燭",
     "offerFlower": "獻花",
     "candleDone": "已點燭",
-    "flowerDone": "已獻花"
+    "flowerDone": "已獻花",
+    "share": "分享",
+    "copyLink": "複製連結",
+    "linkCopied": "已複製",
+    "scanToOpen": "掃碼開啟"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

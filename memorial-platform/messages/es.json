@@ -248,7 +248,11 @@
     "lightCandle": "Encender una vela",
     "offerFlower": "Ofrecer flores",
     "candleDone": "Vela encendida",
-    "flowerDone": "Flores ofrecidas"
+    "flowerDone": "Flores ofrecidas",
+    "share": "Compartir",
+    "copyLink": "Copiar enlace",
+    "linkCopied": "Copiado",
+    "scanToOpen": "Escanea para abrir"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

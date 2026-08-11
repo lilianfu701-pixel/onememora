@@ -248,7 +248,11 @@
     "lightCandle": "Allumer une bougie",
     "offerFlower": "Déposer des fleurs",
     "candleDone": "Bougie allumée",
-    "flowerDone": "Fleurs déposées"
+    "flowerDone": "Fleurs déposées",
+    "share": "Partager",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Copié",
+    "scanToOpen": "Scanner pour ouvrir"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

@@ -248,7 +248,11 @@
     "lightCandle": "ろうそくを灯す",
     "offerFlower": "献花する",
     "candleDone": "ろうそくを灯しました",
-    "flowerDone": "献花しました"
+    "flowerDone": "献花しました",
+    "share": "共有",
+    "copyLink": "リンクをコピー",
+    "linkCopied": "コピーしました",
+    "scanToOpen": "スキャンして開く"
   },
   "privacy": {
     "title": "このページを見られる範囲",

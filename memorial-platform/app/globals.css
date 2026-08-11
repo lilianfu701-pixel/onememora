@@ -1175,6 +1175,54 @@ img {
   text-align: center;
 }
 
+/* Tribute + share row */
+.tributeBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.shareWrap {
+  position: relative;
+}
+
+.sharePanel {
+  position: absolute;
+  top: calc(100% + var(--space-2));
+  inset-inline-start: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  width: min(20rem, 88vw);
+  align-items: center;
+  box-shadow: 0 8px 30px rgba(37, 48, 39, 0.18);
+}
+
+.shareQr {
+  padding: var(--space-3);
+  background: #fff;
+  border-radius: var(--radius-sm);
+  line-height: 0;
+}
+
+.shareScanHint {
+  font-size: var(--text-sm);
+  text-align: center;
+}
+
+.shareLinkRow {
+  display: flex;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.shareLinkRow .input {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--text-sm);
+}
+
 /* Name block -------------------------------------------------------------- */
 
 .memorialHead {

@@ -27,6 +27,7 @@ import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
+import { Share } from "./share";
 import { Tributes } from "./tributes";
 
 function desensitizeName(name: string): string {
@@ -390,11 +391,21 @@ export default async function MemorialPage(props: {
           ) : null}
         </header>
 
-        <Tributes
-          memorialId={detail.memorialId}
-          candle={tributes.candle}
-          flower={tributes.flower}
-        />
+        <div className="tributeBar">
+          <Tributes
+            memorialId={detail.memorialId}
+            candle={tributes.candle}
+            flower={tributes.flower}
+          />
+          <Share
+            url={memorialUrl({
+              appUrl: env().APP_URL,
+              locale,
+              slug: detail.slug,
+            })}
+            title={detail.primaryName}
+          />
+        </div>
 
         <div className="memorialGrid">
           <div className="memorialMain">

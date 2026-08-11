@@ -248,7 +248,11 @@
     "lightCandle": "Light a candle",
     "offerFlower": "Offer flowers",
     "candleDone": "Candle lit",
-    "flowerDone": "Flowers offered"
+    "flowerDone": "Flowers offered",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Copied",
+    "scanToOpen": "Scan to open"
   },
   "privacy": {
     "title": "Who can see this memorial",
