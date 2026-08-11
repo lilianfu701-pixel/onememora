@@ -243,7 +243,12 @@
     "audienceLabel": "公開範囲",
     "audiencePublic": "全員",
     "audienceFamily": "家族",
-    "audiencePrivate": "自分のみ"
+    "audiencePrivate": "自分のみ",
+    "tributeHeading": "追悼",
+    "lightCandle": "ろうそくを灯す",
+    "offerFlower": "献花する",
+    "candleDone": "ろうそくを灯しました",
+    "flowerDone": "献花しました"
   },
   "privacy": {
     "title": "このページを見られる範囲",

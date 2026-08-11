@@ -243,7 +243,12 @@
     "audienceLabel": "Siapa yang dapat melihat",
     "audiencePublic": "Semua orang",
     "audienceFamily": "Keluarga",
-    "audiencePrivate": "Hanya saya"
+    "audiencePrivate": "Hanya saya",
+    "tributeHeading": "Beri penghormatan",
+    "lightCandle": "Nyalakan lilin",
+    "offerFlower": "Persembahkan bunga",
+    "candleDone": "Lilin dinyalakan",
+    "flowerDone": "Bunga dipersembahkan"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

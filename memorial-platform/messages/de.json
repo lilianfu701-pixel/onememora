@@ -243,7 +243,12 @@
     "audienceLabel": "Wer kann das sehen",
     "audiencePublic": "Alle",
     "audienceFamily": "Familie",
-    "audiencePrivate": "Nur ich"
+    "audiencePrivate": "Nur ich",
+    "tributeHeading": "Gedenken",
+    "lightCandle": "Kerze anzünden",
+    "offerFlower": "Blumen niederlegen",
+    "candleDone": "Kerze angezündet",
+    "flowerDone": "Blumen niedergelegt"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

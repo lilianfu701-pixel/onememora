@@ -243,7 +243,12 @@
     "audienceLabel": "Quién puede verlo",
     "audiencePublic": "Todos",
     "audienceFamily": "Familia",
-    "audiencePrivate": "Solo yo"
+    "audiencePrivate": "Solo yo",
+    "tributeHeading": "Rinde homenaje",
+    "lightCandle": "Encender una vela",
+    "offerFlower": "Ofrecer flores",
+    "candleDone": "Vela encendida",
+    "flowerDone": "Flores ofrecidas"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

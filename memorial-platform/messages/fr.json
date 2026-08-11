@@ -243,7 +243,12 @@
     "audienceLabel": "Qui peut le voir",
     "audiencePublic": "Tout le monde",
     "audienceFamily": "La famille",
-    "audiencePrivate": "Moi seul"
+    "audiencePrivate": "Moi seul",
+    "tributeHeading": "Rendez hommage",
+    "lightCandle": "Allumer une bougie",
+    "offerFlower": "Déposer des fleurs",
+    "candleDone": "Bougie allumée",
+    "flowerDone": "Fleurs déposées"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

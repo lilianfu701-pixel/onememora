@@ -22,10 +22,12 @@ import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
 import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
+import { tributeCounts } from "@/modules/commemorations/tributes";
 import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
+import { Tributes } from "./tributes";
 
 function desensitizeName(name: string): string {
   const trimmed = name.trim();
@@ -201,6 +203,7 @@ export default async function MemorialPage(props: {
     relatives,
     creatorClaim,
     locations,
+    tributes,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
@@ -236,6 +239,7 @@ export default async function MemorialPage(props: {
         })
         .from(memorialLocations)
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
+      tributeCounts(detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -385,6 +389,12 @@ export default async function MemorialPage(props: {
             </p>
           ) : null}
         </header>
+
+        <Tributes
+          memorialId={detail.memorialId}
+          candle={tributes.candle}
+          flower={tributes.flower}
+        />
 
         <div className="memorialGrid">
           <div className="memorialMain">

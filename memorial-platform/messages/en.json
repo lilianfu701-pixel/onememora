@@ -243,7 +243,12 @@
     "audienceLabel": "Who can see this",
     "audiencePublic": "Everyone",
     "audienceFamily": "Family",
-    "audiencePrivate": "Only me"
+    "audiencePrivate": "Only me",
+    "tributeHeading": "Pay your respects",
+    "lightCandle": "Light a candle",
+    "offerFlower": "Offer flowers",
+    "candleDone": "Candle lit",
+    "flowerDone": "Flowers offered"
   },
   "privacy": {
     "title": "Who can see this memorial",

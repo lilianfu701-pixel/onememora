@@ -232,3 +232,31 @@ export type MemorialRitualSetting = typeof memorialRitualSettings.$inferSelect;
 export type Commemoration = typeof commemorations.$inferSelect;
 export type CommemorationMessage = typeof commemorationMessages.$inferSelect;
 export type AnniversaryReminder = typeof anniversaryReminders.$inferSelect;
+
+export const tributeType = pgEnum("tribute_type", ["candle", "flower"]);
+
+/**
+ * A quick act of remembrance — lighting a candle or offering flowers. One row
+ * per act; the page shows the running counts. No sign-in required.
+ */
+export const memorialTributes = pgTable(
+  "memorial_tributes",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    memorialId: uuid("memorial_id")
+      .notNull()
+      .references(() => memorials.id, { onDelete: "cascade" }),
+    type: tributeType("type").notNull(),
+    actorUserId: uuid("actor_user_id").references(() => users.id, {
+      onDelete: "set null",
+    }),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+  },
+  (table) => [
+    index("memorial_tributes_memorial_idx").on(table.memorialId, table.type),
+  ],
+);
+
+export type MemorialTribute = typeof memorialTributes.$inferSelect;

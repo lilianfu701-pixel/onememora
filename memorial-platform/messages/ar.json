@@ -243,7 +243,12 @@
     "audienceLabel": "من يمكنه رؤية هذا",
     "audiencePublic": "الجميع",
     "audienceFamily": "العائلة",
-    "audiencePrivate": "أنا فقط"
+    "audiencePrivate": "أنا فقط",
+    "tributeHeading": "قدّم تعازيك",
+    "lightCandle": "أشعل شمعة",
+    "offerFlower": "قدّم الزهور",
+    "candleDone": "أُشعلت الشمعة",
+    "flowerDone": "قُدّمت الزهور"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

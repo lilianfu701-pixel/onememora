@@ -243,7 +243,12 @@
     "audienceLabel": "Ai có thể xem",
     "audiencePublic": "Mọi người",
     "audienceFamily": "Gia đình",
-    "audiencePrivate": "Chỉ mình tôi"
+    "audiencePrivate": "Chỉ mình tôi",
+    "tributeHeading": "Tưởng niệm",
+    "lightCandle": "Thắp nến",
+    "offerFlower": "Dâng hoa",
+    "candleDone": "Đã thắp nến",
+    "flowerDone": "Đã dâng hoa"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

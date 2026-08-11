@@ -243,7 +243,12 @@
     "audienceLabel": "공개 범위",
     "audiencePublic": "모두",
     "audienceFamily": "가족",
-    "audiencePrivate": "나만"
+    "audiencePrivate": "나만",
+    "tributeHeading": "추모",
+    "lightCandle": "촛불 켜기",
+    "offerFlower": "헌화하기",
+    "candleDone": "촛불을 켰습니다",
+    "flowerDone": "헌화했습니다"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

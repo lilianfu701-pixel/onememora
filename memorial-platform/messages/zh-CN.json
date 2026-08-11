@@ -243,7 +243,12 @@
     "audienceLabel": "谁可以看到",
     "audiencePublic": "所有人",
     "audienceFamily": "家属",
-    "audiencePrivate": "只有自己和逝者"
+    "audiencePrivate": "只有自己和逝者",
+    "tributeHeading": "悼念",
+    "lightCandle": "点烛",
+    "offerFlower": "献花",
+    "candleDone": "已点烛",
+    "flowerDone": "已献花"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

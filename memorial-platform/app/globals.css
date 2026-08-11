@@ -1120,6 +1120,61 @@ img {
   background: var(--ink);
 }
 
+/* Tributes (candle / flower) ---------------------------------------------- */
+
+.tributes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  justify-content: center;
+}
+
+.tributeButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-6);
+  background: var(--paper-raised);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition:
+    border-color 150ms ease,
+    background 150ms ease;
+}
+
+.tributeButton:hover:not(:disabled) {
+  border-color: var(--gold);
+  background: rgba(197, 163, 95, 0.1);
+}
+
+.tributeButton:disabled {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.tributeIcon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.tributeLabel {
+  font-weight: 500;
+}
+
+.tributeCount {
+  min-width: 1.5rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: var(--radius-pill);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  font-size: var(--text-sm);
+  color: var(--muted);
+  text-align: center;
+}
+
 /* Name block -------------------------------------------------------------- */
 
 .memorialHead {

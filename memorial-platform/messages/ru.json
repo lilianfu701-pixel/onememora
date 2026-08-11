@@ -243,7 +243,12 @@
     "audienceLabel": "Кто может видеть",
     "audiencePublic": "Все",
     "audienceFamily": "Семья",
-    "audiencePrivate": "Только я"
+    "audiencePrivate": "Только я",
+    "tributeHeading": "Почтить память",
+    "lightCandle": "Зажечь свечу",
+    "offerFlower": "Возложить цветы",
+    "candleDone": "Свеча зажжена",
+    "flowerDone": "Цветы возложены"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",
