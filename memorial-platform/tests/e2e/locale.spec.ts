@@ -26,9 +26,9 @@ test.describe("locale routing", () => {
 
   test("serves each launch locale in its own language", async ({ page }) => {
     const expected: Record<string, string> = {
-      en: "A place to remember",
-      "zh-CN": "留一处思念的地方",
-      es: "Un lugar para recordar",
+      en: "Every life deserves to be remembered.",
+      "zh-CN": "每一个生命都值得被纪念。",
+      es: "Cada vida merece ser recordada.",
     };
 
     for (const [locale, heading] of Object.entries(expected)) {

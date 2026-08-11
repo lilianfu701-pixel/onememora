@@ -6,21 +6,21 @@ import { currentActor } from "@/modules/auth/current-user";
 import { HomeSignIn } from "./home-sign-in";
 
 const languageGreetings = [
-  { locale: "en", label: "English", text: "A place to remember" },
-  { locale: "zh-CN", label: "简体中文", text: "留一处思念的地方" },
-  { locale: "zh-TW", label: "繁體中文", text: "留一處思念的地方" },
-  { locale: "zh-HK", label: "粵語", text: "留一個懷念的地方" },
-  { locale: "es", label: "Español", text: "Un lugar para recordar" },
-  { locale: "pt-BR", label: "Português (BR)", text: "Um lugar para lembrar" },
-  { locale: "pt-PT", label: "Português (PT)", text: "Um lugar para recordar" },
-  { locale: "fr", label: "Français", text: "Un lieu pour se souvenir" },
-  { locale: "de", label: "Deutsch", text: "Ein Ort für die Erinnerung" },
-  { locale: "ar", label: "العربية", text: "مكان للذكرى" },
-  { locale: "ja", label: "日本語", text: "偲ぶための場所" },
-  { locale: "ru", label: "Русский", text: "Место, где помнят" },
-  { locale: "id", label: "Indonesia", text: "Tempat untuk mengenang" },
-  { locale: "vi", label: "Tiếng Việt", text: "Một nơi để tưởng nhớ" },
-  { locale: "ko", label: "한국어", text: "기억할 수 있는 자리" },
+  { locale: "en", label: "English", text: "Every life deserves to be remembered." },
+  { locale: "zh-CN", label: "简体中文", text: "每一个生命都值得被纪念。" },
+  { locale: "zh-TW", label: "繁體中文", text: "每一個生命都值得被紀念。" },
+  { locale: "zh-HK", label: "粵語", text: "每一個生命都值得被紀念。" },
+  { locale: "es", label: "Español", text: "Cada vida merece ser recordada." },
+  { locale: "pt-BR", label: "Português (BR)", text: "Toda vida merece ser lembrada." },
+  { locale: "pt-PT", label: "Português (PT)", text: "Cada vida merece ser recordada." },
+  { locale: "fr", label: "Français", text: "Chaque vie mérite qu’on s’en souvienne." },
+  { locale: "de", label: "Deutsch", text: "Jedes Leben verdient es, in Erinnerung zu bleiben." },
+  { locale: "ar", label: "العربية", text: "كل حياة تستحق أن تُذكر." },
+  { locale: "ja", label: "日本語", text: "すべての命は、記憶される価値がある。" },
+  { locale: "ru", label: "Русский", text: "Каждая жизнь достойна памяти." },
+  { locale: "id", label: "Indonesia", text: "Setiap kehidupan layak untuk dikenang." },
+  { locale: "vi", label: "Tiếng Việt", text: "Mỗi cuộc đời đều xứng đáng được tưởng nhớ." },
+  { locale: "ko", label: "한국어", text: "모든 삶은 기억될 가치가 있습니다." },
 ];
 
 export default async function HomePage(props: {
