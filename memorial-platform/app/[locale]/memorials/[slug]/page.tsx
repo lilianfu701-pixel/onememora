@@ -23,8 +23,7 @@ import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
 import { tributeCounts } from "@/modules/commemorations/tributes";
-import { readTreeForMemorial } from "@/modules/genealogy/tree";
-import { kinshipFromMemorial } from "@/modules/genealogy/kinship";
+import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
@@ -208,8 +207,6 @@ export default async function MemorialPage(props: {
     creatorClaim,
     locations,
     tributes,
-    familyTree,
-    kinship,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
@@ -246,8 +243,6 @@ export default async function MemorialPage(props: {
         .from(memorialLocations)
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
       tributeCounts(detail.memorialId),
-      readTreeForMemorial(viewer, detail.memorialId),
-      kinshipFromMemorial(detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -260,6 +255,24 @@ export default async function MemorialPage(props: {
       relativeRank(a.relationshipToDeceased) -
         relativeRank(b.relationshipToDeceased) ||
       a.displayOrder - b.displayOrder,
+  );
+
+  // The family tree, assembled from the registered relatives and any confirmed
+  // links to other memorials. A year is only used when the date is real, not a
+  // placeholder standing in for an unknown precision.
+  const rootYear = (
+    date: string | null,
+    precision: (typeof detail)["birthDatePrecision"],
+  ): number | null =>
+    date && precision !== "unknown" ? Number.parseInt(date.slice(0, 4), 10) : null;
+  const familyView = await familyViewForMemorial(
+    detail.memorialId,
+    {
+      name: detail.primaryName,
+      birthYear: rootYear(detail.birthDate, detail.birthDatePrecision),
+      deathYear: rootYear(detail.deathDate, detail.deathDatePrecision),
+    },
+    relatives,
   );
 
   const formatPlace = (loc: { country: string | null; region: string | null }) =>
@@ -441,12 +454,12 @@ export default async function MemorialPage(props: {
               )}
             </section>
 
-            {familyTree.ok ? (
+            {familyView ? (
               <FamilyTree
-                tree={familyTree.value}
+                tree={familyView.tree}
                 locale={locale}
                 heading={t("familyTreeHeading")}
-                kinship={kinship}
+                kinship={familyView.kinship}
               />
             ) : null}
 
