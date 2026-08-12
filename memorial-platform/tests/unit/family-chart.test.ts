@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { assembleFamilyView } from "@/modules/genealogy/family-view";
 import type { RelativeRow } from "@/modules/genealogy/family-view";
 import { buildFamilyChart } from "@/modules/genealogy/family-chart";
-import type { ChartUnion } from "@/modules/genealogy/family-chart";
+import type { ChartPerson, ChartUnion } from "@/modules/genealogy/family-chart";
 
 const root = { name: "本人", birthYear: 1960, deathYear: 2020 };
 
@@ -10,84 +10,96 @@ function rel(
   id: string,
   relationshipToDeceased: string,
   name: string,
+  coParentId?: string,
 ): RelativeRow {
-  return { id, name, relationshipToDeceased, isDeceased: false, showFullName: true };
+  return {
+    id,
+    name,
+    relationshipToDeceased,
+    isDeceased: false,
+    showFullName: true,
+    coParentId: coParentId ?? null,
+  };
 }
 
-function chartFrom(relatives: RelativeRow[]): ChartUnion[] {
+function chart(relatives: RelativeRow[]): ChartUnion[] {
   const view = assembleFamilyView({ root, relatives, linked: [] });
-  if (!view) return [];
-  return buildFamilyChart(view.tree, view.kinship);
+  return view ? buildFamilyChart(view.tree) : [];
 }
 
-function names(u: ChartUnion): string[] {
-  return u.partners.map((p) => (p.withheld ? "···" : p.name));
-}
+const nameOf = (p: ChartPerson): string => (p.withheld ? "···" : p.name);
 
 describe("buildFamilyChart — couples and descent", () => {
-  it("groups father and mother into one couple with the root beneath them", () => {
-    const forest = chartFrom([
-      rel("f", "father", "父"),
-      rel("m", "mother", "母"),
-    ]);
-    // One top union: the parents' couple.
-    expect(forest.length).toBe(1);
-    const top = forest[0]!;
-    expect(new Set(names(top))).toEqual(new Set(["父", "母"]));
-    // The root descends from that couple.
-    expect(top.children.length).toBe(1);
-    expect(top.children[0]!.partners.some((p) => p.isRoot)).toBe(true);
+  it("makes the parents one couple with the root descending from them", () => {
+    const [top] = chart([rel("f", "father", "父"), rel("m", "mother", "母")]);
+    expect(top).toBeDefined();
+    // Anchored on one parent, married to the other.
+    expect(new Set([nameOf(top!.anchor), nameOf(top!.marriages[0]!.spouse!)])).toEqual(
+      new Set(["父", "母"]),
+    );
+    expect(top!.marriages).toHaveLength(1);
+    expect(top!.marriages[0]!.children.some((u) => u.anchor.isRoot)).toBe(true);
   });
 
-  it("keeps the root and spouse as a couple, children below them", () => {
-    const forest = chartFrom([
-      rel("f", "father", "父"),
+  it("keeps the root's own marriage with its children beneath it", () => {
+    const [top] = chart([
       rel("w", "wife", "妻"),
       rel("s", "son", "子"),
       rel("d", "daughter", "女"),
     ]);
-    const top = forest[0]!; // father (single parent) at the top
-    expect(names(top)).toContain("父");
-    const rootUnion = top.children[0]!;
-    // Root couple = root + wife.
-    expect(rootUnion.partners.map((p) => p.name)).toContain("妻");
-    expect(rootUnion.partners.some((p) => p.isRoot)).toBe(true);
-    // Two children descend from the root couple.
-    expect(rootUnion.children.length).toBe(2);
+    expect(top!.anchor.isRoot).toBe(true);
+    expect(top!.marriages).toHaveLength(1);
+    expect(nameOf(top!.marriages[0]!.spouse!)).toBe("妻");
+    expect(top!.marriages[0]!.children).toHaveLength(2);
   });
 
-  it("places siblings under the shared parents, not beside the root", () => {
-    const forest = chartFrom([
+  it("groups a sibling under the shared parents, beside the root", () => {
+    const [top] = chart([
       rel("f", "father", "父"),
       rel("m", "mother", "母"),
       rel("ob", "older_brother", "兄"),
     ]);
-    const parents = forest[0]!;
-    // Root and the brother are both children of the parents couple.
-    expect(parents.children.length).toBe(2);
-    const kids = parents.children.flatMap(names);
+    const kids = top!.marriages[0]!.children.map((u) => nameOf(u.anchor));
     expect(kids).toContain("兄");
+    expect(top!.marriages[0]!.children.some((u) => u.anchor.isRoot)).toBe(true);
+  });
+});
+
+describe("buildFamilyChart — remarriage (ex-spouse)", () => {
+  it("splits children between the current and the ended marriage", () => {
+    const [top] = chart([
+      rel("w", "wife", "现妻"),
+      rel("ex", "ex_wife", "前妻"),
+      rel("s", "son", "长子", "w"),
+      rel("d", "daughter", "小女", "ex"),
+    ]);
+    expect(top!.anchor.isRoot).toBe(true);
+    expect(top!.marriages).toHaveLength(2);
+
+    const current = top!.marriages.find((m) => !m.dissolved);
+    const ended = top!.marriages.find((m) => m.dissolved);
+    expect(nameOf(current!.spouse!)).toBe("现妻");
+    expect(current!.children.map((u) => nameOf(u.anchor))).toEqual(["长子"]);
+    expect(nameOf(ended!.spouse!)).toBe("前妻");
+    expect(ended!.children.map((u) => nameOf(u.anchor))).toEqual(["小女"]);
   });
 
-  it("marks the married-in spouse distinctly from blood kin", () => {
-    const forest = chartFrom([rel("w", "wife", "妻"), rel("s", "son", "子")]);
-    const rootUnion = forest[0]!;
-    const wife = rootUnion.partners.find((p) => p.name === "妻");
-    const rootPerson = rootUnion.partners.find((p) => p.isRoot);
-    expect(wife?.marriedIn).toBe(true);
-    expect(rootPerson?.marriedIn).toBe(false);
+  it("puts the current marriage before the ended one", () => {
+    const [top] = chart([
+      rel("ex", "ex_wife", "前妻"),
+      rel("w", "wife", "现妻"),
+    ]);
+    expect(top!.marriages[0]!.dissolved).toBe(false);
+    expect(top!.marriages[1]!.dissolved).toBe(true);
   });
 });
 
 describe("buildFamilyChart — withheld anchor", () => {
-  it("shows an unshown parent generation between grandparent and root", () => {
-    const forest = chartFrom([rel("pgf", "paternal_grandfather", "祖")]);
-    // Grandfather at top; his child is the withheld father anchor.
-    const gp = forest[0]!;
-    expect(names(gp)).toContain("祖");
-    const anchorUnion = gp.children[0]!;
-    expect(anchorUnion.partners.some((p) => p.withheld)).toBe(true);
-    // The root descends from the anchor.
-    expect(anchorUnion.children[0]!.partners.some((p) => p.isRoot)).toBe(true);
+  it("threads an unshown parent between a grandfather and the root", () => {
+    const [top] = chart([rel("pgf", "paternal_grandfather", "祖")]);
+    expect(nameOf(top!.anchor)).toBe("祖");
+    const fatherUnion = top!.marriages[0]!.children[0]!;
+    expect(fatherUnion.anchor.withheld).toBe(true);
+    expect(fatherUnion.marriages[0]!.children[0]!.anchor.isRoot).toBe(true);
   });
 });

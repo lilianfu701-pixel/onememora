@@ -265,7 +265,9 @@
     "familyNoOthers": "Sie haben noch keine anderen Gedenkseiten zum Verknüpfen.",
     "familyLinkedHeading": "Verknüpfte Familie",
     "familyTreeHeading": "Familie",
-    "familyRemoveLink": "Entfernen"
+    "familyRemoveLink": "Entfernen",
+    "relativeCoParentLabel": "Anderer Elternteil",
+    "relativeCoParentNone": "Nicht angegeben"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

@@ -265,7 +265,9 @@
     "familyNoOthers": "Anda belum punya memorial lain untuk dihubungkan.",
     "familyLinkedHeading": "Keluarga terhubung",
     "familyTreeHeading": "Hubungan keluarga",
-    "familyRemoveLink": "Hapus"
+    "familyRemoveLink": "Hapus",
+    "relativeCoParentLabel": "Orang tua lainnya",
+    "relativeCoParentNone": "Tidak ditentukan"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

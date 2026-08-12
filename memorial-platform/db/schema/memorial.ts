@@ -283,6 +283,13 @@ export const memorialRelatives = pgTable(
     isDeceased: boolean("is_deceased").default(false).notNull(),
     showFullName: boolean("show_full_name").default(false).notNull(),
     displayOrder: integer("display_order").default(0).notNull(),
+    /**
+     * For a child, which other relative is the co-parent — the spouse (or
+     * ex-spouse) this child was born to. Lets the family chart place a child
+     * under the right marriage. Self-referential and kept application-side (no
+     * FK) so the delete-and-replace save stays a single flat statement.
+     */
+    coParentId: uuid("co_parent_id"),
     createdAt: timestamp("created_at", { withTimezone: true })
       .defaultNow()
       .notNull(),

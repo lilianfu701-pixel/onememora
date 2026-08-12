@@ -16,6 +16,18 @@ export function kinshipLabel(kin: Kinship, locale: string): string | null {
   return chinese ? zh(kin) : en(kin);
 }
 
+/** An ended marriage — named apart from a current spouse. */
+export function exSpouseLabel(gender: Gender, locale: string): string {
+  if (locale.startsWith("zh")) {
+    return gender === "male" ? "前夫" : gender === "female" ? "前妻" : "前配偶";
+  }
+  return gender === "male"
+    ? "Ex-husband"
+    : gender === "female"
+      ? "Ex-wife"
+      : "Ex-spouse";
+}
+
 // ── Chinese ──────────────────────────────────────────────────────────────
 
 function zh(kin: Kinship): string | null {

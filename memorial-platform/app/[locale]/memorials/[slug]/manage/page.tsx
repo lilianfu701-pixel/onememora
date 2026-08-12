@@ -82,10 +82,12 @@ export default async function ManageMemorialPage(props: {
     mayEditStory
       ? db()
           .select({
+            id: memorialRelatives.id,
             name: memorialRelatives.name,
             relationshipToDeceased: memorialRelatives.relationshipToDeceased,
             isDeceased: memorialRelatives.isDeceased,
             showFullName: memorialRelatives.showFullName,
+            coParentId: memorialRelatives.coParentId,
           })
           .from(memorialRelatives)
           .where(eq(memorialRelatives.memorialId, detail.memorialId))

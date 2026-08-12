@@ -31,6 +31,8 @@ export type RelativeRow = {
   relationshipToDeceased: string;
   isDeceased: boolean;
   showFullName: boolean;
+  /** Which spouse-relative this child was born to, if the family said so. */
+  coParentId?: string | null;
 };
 
 export type LinkedMemorial = {
@@ -105,6 +107,7 @@ function desensitize(name: string): string {
 const PARENT_TYPES = new Set(["father", "mother", "parent"]);
 const CHILD_TYPES = new Set(["son", "daughter", "child"]);
 const PARTNER_TYPES = new Set(["husband", "wife", "spouse"]);
+const EX_PARTNER_TYPES = new Set(["ex_husband", "ex_wife"]);
 const SIBLING_TYPES = new Set([
   "older_brother",
   "younger_brother",
@@ -135,7 +138,9 @@ export function assembleFamilyView(input: {
     { id: ROOT_ID, gender: "unknown", birthYear: input.seniorityRoot ?? 2 },
   ];
   const parentEdges: { parentId: string; childId: string }[] = [];
-  const partnerEdges: { aId: string; bId: string }[] = [];
+  const partnerEdges: { aId: string; bId: string; dissolved: boolean }[] = [];
+  /** Child relative id → co-parent relative id, deferred until both exist. */
+  const coParentOf = new Map<string, string>();
   const display = new Map<string, DisplayNode>([
     [
       ROOT_ID,
@@ -194,7 +199,6 @@ export function assembleFamilyView(input: {
 
   for (const rel of ordered) {
     const type = rel.relationshipToDeceased;
-    if (type === "ex_husband" || type === "ex_wife") continue; // out of scope for V1
     const id = `rel:${rel.id}`;
     const gender = genderOfType(type);
     const name = rel.showFullName ? rel.name : desensitize(rel.name);
@@ -208,12 +212,18 @@ export function assembleFamilyView(input: {
     } else if (CHILD_TYPES.has(type)) {
       addGraphNode(id, gender, null);
       parentEdges.push({ parentId: ROOT_ID, childId: id });
+      if (rel.coParentId) coParentOf.set(id, `rel:${rel.coParentId}`);
     } else if (PARTNER_TYPES.has(type)) {
       addGraphNode(id, gender, null);
-      partnerEdges.push({ aId: ROOT_ID, bId: id });
+      partnerEdges.push({ aId: ROOT_ID, bId: id, dissolved: false });
+    } else if (EX_PARTNER_TYPES.has(type)) {
+      addGraphNode(id, gender, null);
+      partnerEdges.push({ aId: ROOT_ID, bId: id, dissolved: true });
     } else if (SIBLING_TYPES.has(type)) {
       addGraphNode(id, gender, birthYearForSeniority(type));
+      // Share both parents with the root so siblings sit together beneath them.
       parentEdges.push({ parentId: fatherAnchor(), childId: id });
+      if (motherId) parentEdges.push({ parentId: motherId, childId: id });
     } else if (PATERNAL_GP.has(type)) {
       addGraphNode(id, gender, null);
       parentEdges.push({ parentId: id, childId: fatherAnchor() });
@@ -226,6 +236,14 @@ export function assembleFamilyView(input: {
 
     addDisplay(id, { id, name, slug: null, birthYear: null, deathYear: null, lifeStatus });
     byRawName.set(rel.name.trim(), id);
+  }
+
+  // A child born to a specific spouse shares that spouse as a parent, which is
+  // what puts it under the right marriage in the chart.
+  for (const [childId, coParentId] of coParentOf) {
+    if (display.has(coParentId) && display.has(childId)) {
+      parentEdges.push({ parentId: coParentId, childId });
+    }
   }
 
   // Fold confirmed memorial links in: merge onto the relative that names the
@@ -249,7 +267,7 @@ export function assembleFamilyView(input: {
     addGraphNode(id, link.gender, link.birthYear);
     if (link.role === "parent") parentEdges.push({ parentId: id, childId: ROOT_ID });
     else if (link.role === "child") parentEdges.push({ parentId: ROOT_ID, childId: id });
-    else partnerEdges.push({ aId: ROOT_ID, bId: id });
+    else partnerEdges.push({ aId: ROOT_ID, bId: id, dissolved: false });
     addDisplay(id, {
       id,
       name: link.name,
@@ -279,6 +297,7 @@ export function assembleFamilyView(input: {
       birthYear: d?.birthYear ?? null,
       deathYear: d?.deathYear ?? null,
       memorialSlug: d?.slug ?? null,
+      gender: node.gender,
     };
   });
 
@@ -292,10 +311,16 @@ export function assembleFamilyView(input: {
       kind: "partner" as const,
       fromRef: refOf.get(edge.aId) ?? 0,
       toRef: refOf.get(edge.bId) ?? 0,
+      ...(edge.dissolved ? { dissolved: true } : {}),
     })),
   ];
 
-  const graph = buildGraph({ nodes: graphNodes, parentEdges, partnerEdges });
+  // Kinship ignores ended marriages — an ex-spouse's family is not kin.
+  const graph = buildGraph({
+    nodes: graphNodes,
+    parentEdges,
+    partnerEdges: partnerEdges.filter((edge) => !edge.dissolved),
+  });
   const kinship = new Map<string, Kinship>();
   for (const node of graphNodes) {
     if (withheld.has(node.id) || node.id === ROOT_ID) continue;

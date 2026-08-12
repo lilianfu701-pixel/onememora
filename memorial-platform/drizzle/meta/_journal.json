@@ -183,6 +183,13 @@
       "when": 1786473683960,
       "tag": "0025_odd_epoch",
       "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1786571627238,
+      "tag": "0026_sticky_domino",
+      "breakpoints": true
     }
   ]
 }

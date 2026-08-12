@@ -1,22 +1,19 @@
 import type { Tree, TreeNode } from "./tree";
-import type { Gender, Kinship } from "./kinship";
+import type { Gender } from "./kinship";
 
 /**
  * Turns the flat family graph into the nested shape a genealogical chart is
- * actually drawn from: a forest of {@link ChartUnion}s.
+ * drawn from: a forest of {@link ChartUnion}s.
  *
- * A *union* is a couple (or a single parent) plus the children that descend
- * from them — the unit that makes a family chart read as families rather than a
- * pile of people in rows. Two people are one union when they are partners or
- * share a child (co-parents), so a "father" and a "mother" listed separately
- * still resolve to one couple with a marriage line, and their children hang off
- * that couple by a single descent line. Married-in spouses attach to their
- * partner's union instead of starting a lineage of their own.
+ * Each union is centred on an *anchor* — the person on the line of descent —
+ * and lists that person's *marriages*. A marriage carries its spouse, whether
+ * it has ended (an ex-spouse), and the children born to it. Modelling
+ * marriages rather than one flat couple is what lets a person hold two
+ * marriages at once and keeps each set of children under the right one.
  *
- * Conventions follow standard genealogical drawing: parents above children,
- * each generation on a row, siblings joined under their own parents, a marriage
- * line between partners, a descent line to the children. See the component that
- * renders this for the lines themselves.
+ * Two people count as a marriage when they are partners or share a child, so a
+ * "father" and "mother" entered separately still resolve to one couple. A
+ * child with no stated other-parent falls to the anchor's current marriage.
  */
 
 export type ChartPerson = {
@@ -27,16 +24,21 @@ export type ChartPerson = {
   memorialSlug: string | null;
   gender: Gender;
   isRoot: boolean;
-  /** A partner who married in, drawn distinctly from blood kin. */
-  marriedIn: boolean;
   /** Someone whose identity is withheld — an unshown connecting generation. */
   withheld: boolean;
 };
 
+export type ChartMarriage = {
+  spouse: ChartPerson | null;
+  /** The marriage has ended: the spouse is an ex-spouse. */
+  dissolved: boolean;
+  children: ChartUnion[];
+};
+
 export type ChartUnion = {
   key: string;
-  partners: ChartPerson[];
-  children: ChartUnion[];
+  anchor: ChartPerson;
+  marriages: ChartMarriage[];
 };
 
 function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
@@ -45,53 +47,34 @@ function push<K, V>(map: Map<K, V[]>, key: K, value: V): void {
   else map.set(key, [value]);
 }
 
-export function buildFamilyChart(
-  tree: Tree,
-  kinship: Map<string, Kinship>,
-): ChartUnion[] {
+export function buildFamilyChart(tree: Tree): ChartUnion[] {
   const nodeByRef = new Map<number, TreeNode>();
   for (const node of tree.nodes) nodeByRef.set(node.ref, node);
 
   const parentsByChild = new Map<number, number[]>();
   const childrenByParent = new Map<number, number[]>();
+  /** ref → (partner ref → whether that marriage has ended). */
+  const partnerInfo = new Map<number, Map<number, boolean>>();
   for (const edge of tree.edges) {
     if (edge.kind === "parent") {
       push(parentsByChild, edge.toRef, edge.fromRef);
       push(childrenByParent, edge.fromRef, edge.toRef);
+    } else {
+      const dissolved = edge.dissolved === true;
+      const a = partnerInfo.get(edge.fromRef) ?? new Map<number, boolean>();
+      a.set(edge.toRef, dissolved);
+      partnerInfo.set(edge.fromRef, a);
+      const b = partnerInfo.get(edge.toRef) ?? new Map<number, boolean>();
+      b.set(edge.fromRef, dissolved);
+      partnerInfo.set(edge.toRef, b);
     }
   }
 
-  // Union-find joins partners and co-parents into one couple.
-  const rep = new Map<number, number>();
-  for (const node of tree.nodes) rep.set(node.ref, node.ref);
-  const find = (x: number): number => {
-    let root = x;
-    while (rep.get(root) !== root) root = rep.get(root) ?? root;
-    let cur = x;
-    while (rep.get(cur) !== root) {
-      const next = rep.get(cur) ?? root;
-      rep.set(cur, root);
-      cur = next;
-    }
-    return root;
+  const genderOf = (ref: number): Gender => {
+    const node = nodeByRef.get(ref);
+    if (node && node.visible !== false && node.gender) return node.gender;
+    return "unknown";
   };
-  const join = (a: number, b: number): void => {
-    rep.set(find(a), find(b));
-  };
-  for (const edge of tree.edges) {
-    if (edge.kind === "partner") join(edge.fromRef, edge.toRef);
-  }
-  for (const parents of parentsByChild.values()) {
-    for (let i = 1; i < parents.length; i += 1) {
-      join(parents[0] as number, parents[i] as number);
-    }
-  }
-
-  const members = new Map<number, number[]>();
-  for (const node of tree.nodes) push(members, find(node.ref), node.ref);
-
-  const hasParent = (ref: number): boolean =>
-    (parentsByChild.get(ref)?.length ?? 0) > 0;
 
   const toPerson = (ref: number): ChartPerson => {
     const node = nodeByRef.get(ref);
@@ -105,11 +88,9 @@ export function buildFamilyChart(
         memorialSlug: null,
         gender: "unknown",
         isRoot,
-        marriedIn: false,
         withheld: true,
       };
     }
-    const kin = kinship.get(node.personId);
     const years = [node.birthYear, node.deathYear]
       .filter((year) => year !== null)
       .join("–");
@@ -119,58 +100,106 @@ export function buildFamilyChart(
       name: node.name,
       years: years.length > 0 ? years : null,
       memorialSlug: node.memorialSlug,
-      gender: kin && "gender" in kin ? kin.gender : "unknown",
+      gender: genderOf(ref),
       isRoot,
-      marriedIn: kin?.kind === "spouse" || kin?.kind === "affinal",
       withheld: false,
     };
   };
 
-  // Blood/lineage member first, then male before female, then by ref, so a
-  // couple reads consistently and the descent drops from between them.
-  const orderPartners = (a: ChartPerson, b: ChartPerson): number => {
-    if (a.marriedIn !== b.marriedIn) return a.marriedIn ? 1 : -1;
-    const rank = (g: Gender) => (g === "male" ? 0 : g === "female" ? 1 : 2);
-    return rank(a.gender) - rank(b.gender) || a.ref - b.ref;
+  // Walk up from the root to the top of its line — the anchor to draw from.
+  // At a fork, follow the parent with deeper ancestry, then the father.
+  const chooseParent = (ref: number): number | null => {
+    const parents = parentsByChild.get(ref) ?? [];
+    if (parents.length === 0) return null;
+    return [...parents].sort((a, b) => {
+      const da = (parentsByChild.get(a)?.length ?? 0) > 0 ? 0 : 1;
+      const db = (parentsByChild.get(b)?.length ?? 0) > 0 ? 0 : 1;
+      if (da !== db) return da - db;
+      const ga = genderOf(a) === "male" ? 0 : 1;
+      const gb = genderOf(b) === "male" ? 0 : 1;
+      return ga - gb || a - b;
+    })[0] as number;
   };
 
-  const childRepsOf = (unionRep: number): number[] => {
-    const seen = new Set<number>();
-    for (const member of members.get(unionRep) ?? []) {
-      for (const child of childrenByParent.get(member) ?? []) {
-        seen.add(find(child));
-      }
-    }
-    return [...seen];
-  };
+  let top = tree.rootRef;
+  const climbed = new Set<number>([top]);
+  for (;;) {
+    const next = chooseParent(top);
+    if (next === null || climbed.has(next)) break;
+    climbed.add(next);
+    top = next;
+  }
 
   const visited = new Set<number>();
-  const build = (unionRep: number): ChartUnion | null => {
-    if (visited.has(unionRep)) return null;
-    visited.add(unionRep);
-    const partners = (members.get(unionRep) ?? [])
-      .map(toPerson)
-      .sort(orderPartners);
-    const children = childRepsOf(unionRep)
-      .map(build)
-      .filter((u): u is ChartUnion => u !== null)
-      .sort(unionOrder);
-    return { key: `u${unionRep}`, partners, children };
+
+  const unionOrder = (a: ChartUnion, b: ChartUnion): number =>
+    a.anchor.ref - b.anchor.ref;
+
+  const marriagesOf = (anchorRef: number): ChartMarriage[] => {
+    const kids = childrenByParent.get(anchorRef) ?? [];
+    const byCoParent = new Map<number | null, number[]>();
+    for (const child of kids) {
+      const others = (parentsByChild.get(child) ?? []).filter(
+        (p) => p !== anchorRef,
+      );
+      push(byCoParent, others.length > 0 ? (others[0] as number) : null, child);
+    }
+
+    const partners = partnerInfo.get(anchorRef) ?? new Map<number, boolean>();
+    const nonEnded = [...partners.entries()]
+      .filter(([, dissolved]) => !dissolved)
+      .map(([ref]) => ref);
+
+    // Children with no stated other-parent join the anchor's current marriage.
+    const orphanKids = byCoParent.get(null) ?? [];
+    const primary = orphanKids.length > 0 ? nonEnded[0] ?? null : null;
+
+    const spouseRefs = new Set<number>();
+    for (const co of byCoParent.keys()) if (co !== null) spouseRefs.add(co);
+    for (const partner of partners.keys()) spouseRefs.add(partner);
+    if (primary !== null) spouseRefs.add(primary);
+
+    const asChildren = (refs: number[]): ChartUnion[] =>
+      refs
+        .filter((ref) => !visited.has(ref))
+        .map(buildUnion)
+        .sort(unionOrder);
+
+    const marriages: ChartMarriage[] = [];
+    for (const spouseRef of spouseRefs) {
+      const own = [...(byCoParent.get(spouseRef) ?? [])];
+      if (spouseRef === primary) own.push(...orphanKids);
+      marriages.push({
+        spouse: toPerson(spouseRef),
+        dissolved: partners.get(spouseRef) ?? false,
+        children: asChildren(own),
+      });
+    }
+    if (primary === null && orphanKids.length > 0) {
+      marriages.push({
+        spouse: null,
+        dissolved: false,
+        children: asChildren(orphanKids),
+      });
+    }
+
+    // Current marriages first, then ended ones.
+    marriages.sort(
+      (a, b) =>
+        (a.dissolved ? 1 : 0) - (b.dissolved ? 1 : 0) ||
+        (a.spouse?.ref ?? 0) - (b.spouse?.ref ?? 0),
+    );
+    return marriages;
   };
 
-  const topReps = [...members.keys()].filter((unionRep) =>
-    (members.get(unionRep) ?? []).every((member) => !hasParent(member)),
-  );
+  function buildUnion(anchorRef: number): ChartUnion {
+    visited.add(anchorRef);
+    return {
+      key: `u${anchorRef}`,
+      anchor: toPerson(anchorRef),
+      marriages: marriagesOf(anchorRef),
+    };
+  }
 
-  return topReps
-    .map(build)
-    .filter((u): u is ChartUnion => u !== null)
-    .sort(unionOrder);
-}
-
-/** Older families and members first; a stable, birth-order-ish ordering. */
-function unionOrder(a: ChartUnion, b: ChartUnion): number {
-  const key = (u: ChartUnion): number =>
-    Math.min(...u.partners.map((p) => p.ref));
-  return key(a) - key(b);
+  return [buildUnion(top)];
 }

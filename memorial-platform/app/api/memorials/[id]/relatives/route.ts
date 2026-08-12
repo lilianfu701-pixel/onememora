@@ -55,6 +55,8 @@ const relativeSchema = z.object({
   relationshipToDeceased: z.string().trim().min(1).max(100),
   isDeceased: z.boolean(),
   showFullName: z.boolean().optional(),
+  /** Index (within this array) of the spouse this child was born to. */
+  coParentIndex: z.number().int().min(0).max(49).optional(),
 });
 
 const putSchema = z.object({
@@ -120,16 +122,36 @@ export async function PUT(
       .delete(memorialRelatives)
       .where(eq(memorialRelatives.memorialId, id));
 
+    // Insert first to mint ids, then link each child to its co-parent — the
+    // reference is within the same batch, so it needs the ids to exist.
+    const ids: string[] = [];
     for (let i = 0; i < relatives.length; i++) {
       const rel = relatives[i]!;
-      await tx.insert(memorialRelatives).values({
-        memorialId: id,
-        name: rel.name,
-        relationshipToDeceased: rel.relationshipToDeceased,
-        isDeceased: rel.isDeceased,
-        showFullName: rel.showFullName ?? rel.isDeceased,
-        displayOrder: i,
-      });
+      const [row] = await tx
+        .insert(memorialRelatives)
+        .values({
+          memorialId: id,
+          name: rel.name,
+          relationshipToDeceased: rel.relationshipToDeceased,
+          isDeceased: rel.isDeceased,
+          showFullName: rel.showFullName ?? rel.isDeceased,
+          displayOrder: i,
+        })
+        .returning({ id: memorialRelatives.id });
+      ids.push(row!.id);
+    }
+
+    for (let i = 0; i < relatives.length; i++) {
+      const rel = relatives[i]!;
+      const coIndex = rel.coParentIndex;
+      // Ignore a stale or self-referential index rather than fail the save.
+      if (coIndex === undefined || coIndex === i || coIndex >= ids.length) {
+        continue;
+      }
+      await tx
+        .update(memorialRelatives)
+        .set({ coParentId: ids[coIndex] })
+        .where(eq(memorialRelatives.id, ids[i]!));
     }
   });
 

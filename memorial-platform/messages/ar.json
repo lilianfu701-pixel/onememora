@@ -265,7 +265,9 @@
     "familyNoOthers": "ليس لديك صفحات تذكارية أخرى للربط بعد.",
     "familyLinkedHeading": "العائلة المرتبطة",
     "familyTreeHeading": "العلاقات العائلية",
-    "familyRemoveLink": "إزالة"
+    "familyRemoveLink": "إزالة",
+    "relativeCoParentLabel": "الوالد الآخر",
+    "relativeCoParentNone": "غير محدد"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

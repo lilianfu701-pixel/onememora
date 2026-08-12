@@ -265,7 +265,9 @@
     "familyNoOthers": "你還沒有其他追思主頁可以關聯。",
     "familyLinkedHeading": "已關聯的家人",
     "familyTreeHeading": "親屬關係",
-    "familyRemoveLink": "解除"
+    "familyRemoveLink": "解除",
+    "relativeCoParentLabel": "生母／生父",
+    "relativeCoParentNone": "未指定"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

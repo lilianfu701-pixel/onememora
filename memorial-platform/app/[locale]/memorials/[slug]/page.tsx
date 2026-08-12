@@ -186,6 +186,7 @@ export default async function MemorialPage(props: {
           isDeceased: memorialRelatives.isDeceased,
           showFullName: memorialRelatives.showFullName,
           displayOrder: memorialRelatives.displayOrder,
+          coParentId: memorialRelatives.coParentId,
         })
         .from(memorialRelatives)
         .where(eq(memorialRelatives.memorialId, detail.memorialId)),
@@ -220,6 +221,11 @@ export default async function MemorialPage(props: {
     precision: (typeof detail)["birthDatePrecision"],
   ): number | null =>
     date && precision !== "unknown" ? Number.parseInt(date.slice(0, 4), 10) : null;
+  // The page shows three generations — parents, this person's own, children.
+  // Grandparents and beyond live on the full genealogy view.
+  const compactRelatives = relatives.filter(
+    (r) => !r.relationshipToDeceased.includes("grand"),
+  );
   const familyView = await familyViewForMemorial(
     detail.memorialId,
     {
@@ -227,7 +233,7 @@ export default async function MemorialPage(props: {
       birthYear: rootYear(detail.birthDate, detail.birthDatePrecision),
       deathYear: rootYear(detail.deathDate, detail.deathDatePrecision),
     },
-    relatives,
+    compactRelatives,
   );
 
   const formatPlace = (loc: { country: string | null; region: string | null }) =>

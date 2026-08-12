@@ -265,7 +265,9 @@
     "familyNoOthers": "Bạn chưa có trang tưởng niệm khác để kết nối.",
     "familyLinkedHeading": "Gia đình đã kết nối",
     "familyTreeHeading": "Quan hệ họ hàng",
-    "familyRemoveLink": "Gỡ"
+    "familyRemoveLink": "Gỡ",
+    "relativeCoParentLabel": "Cha/mẹ còn lại",
+    "relativeCoParentNone": "Chưa xác định"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

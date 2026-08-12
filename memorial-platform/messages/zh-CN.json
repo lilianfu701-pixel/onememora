@@ -265,7 +265,9 @@
     "familyNoOthers": "你还没有其他追思主页可以关联。",
     "familyLinkedHeading": "已关联的家人",
     "familyTreeHeading": "亲属关系",
-    "familyRemoveLink": "解除"
+    "familyRemoveLink": "解除",
+    "relativeCoParentLabel": "生母／生父",
+    "relativeCoParentNone": "未指定"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

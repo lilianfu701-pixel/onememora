@@ -265,7 +265,9 @@
     "familyNoOthers": "まだ関連づけできる他の追悼ページがありません。",
     "familyLinkedHeading": "つながっている家族",
     "familyTreeHeading": "親族関係",
-    "familyRemoveLink": "解除"
+    "familyRemoveLink": "解除",
+    "relativeCoParentLabel": "もう一方の親",
+    "relativeCoParentNone": "未指定"
   },
   "privacy": {
     "title": "このページを見られる範囲",

@@ -265,7 +265,9 @@
     "familyNoOthers": "아직 연결할 다른 추모 페이지가 없습니다.",
     "familyLinkedHeading": "연결된 가족",
     "familyTreeHeading": "친족 관계",
-    "familyRemoveLink": "해제"
+    "familyRemoveLink": "해제",
+    "relativeCoParentLabel": "다른 부모",
+    "relativeCoParentNone": "지정 안 함"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

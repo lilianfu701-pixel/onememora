@@ -265,7 +265,9 @@
     "familyNoOthers": "Aún no tienes otros memoriales para vincular.",
     "familyLinkedHeading": "Familia vinculada",
     "familyTreeHeading": "Familia",
-    "familyRemoveLink": "Quitar"
+    "familyRemoveLink": "Quitar",
+    "relativeCoParentLabel": "Otro progenitor",
+    "relativeCoParentNone": "Sin especificar"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

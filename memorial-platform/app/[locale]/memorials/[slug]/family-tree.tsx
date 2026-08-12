@@ -2,14 +2,19 @@ import Link from "next/link";
 import type { Tree } from "@/modules/genealogy/tree";
 import type { Kinship } from "@/modules/genealogy/kinship";
 import { buildFamilyChart } from "@/modules/genealogy/family-chart";
-import type { ChartPerson, ChartUnion } from "@/modules/genealogy/family-chart";
-import { kinshipLabel } from "@/modules/genealogy/kinship-terms";
+import type {
+  ChartMarriage,
+  ChartPerson,
+  ChartUnion,
+} from "@/modules/genealogy/family-chart";
+import { exSpouseLabel, kinshipLabel } from "@/modules/genealogy/kinship-terms";
 
 /**
- * A genealogical family chart: couples joined by a marriage line, a descent
- * line dropping to each couple's children, siblings sharing one parent bar.
- * Generations sit on rows, oldest at the top. The connectors are CSS — see
- * `.famChart` in globals.css — so the whole thing renders on the server.
+ * A genealogical family chart. Couples are joined by a marriage line (dashed
+ * for an ended marriage), a descent line drops to each marriage's children, and
+ * a person with more than one marriage keeps each set of children under the
+ * right spouse. Connectors are CSS — see `.famChart` in globals.css — so the
+ * whole chart renders on the server.
  */
 export function FamilyTree(props: {
   tree: Tree;
@@ -18,7 +23,7 @@ export function FamilyTree(props: {
   kinship: Map<string, Kinship>;
 }) {
   if (props.tree.nodes.length <= 1) return null;
-  const forest = buildFamilyChart(props.tree, props.kinship);
+  const forest = buildFamilyChart(props.tree);
   if (forest.length === 0) return null;
 
   return (
@@ -45,51 +50,68 @@ function UnionNode(props: {
   locale: string;
   kinship: Map<string, Kinship>;
 }) {
-  const { partners, children } = props.union;
+  const { anchor, marriages } = props.union;
+  const shared = { locale: props.locale, kinship: props.kinship };
+
+  // Anchor first, then each spouse (current before ended); broods follow the
+  // same order so a spouse and their children line up.
+  const spouses = marriages.filter((m) => m.spouse);
+  const broods = marriages.filter((m) => m.children.length > 0);
+  const labelBroods = broods.length > 1;
 
   return (
     <li className="famUnion">
       <div className="famCouple">
-        {partners.map((person, index) => (
-          <PersonJoin
-            person={person}
-            first={index === 0}
-            locale={props.locale}
-            kinship={props.kinship}
-            key={person.ref}
-          />
+        <PersonCard person={anchor} {...shared} />
+        {spouses.map((marriage) => (
+          <SpouseCard marriage={marriage} {...shared} key={marriage.spouse?.ref} />
         ))}
       </div>
-      {children.length > 0 ? (
-        <ul className="famChildren">
-          {children.map((child) => (
-            <UnionNode
-              union={child}
-              locale={props.locale}
-              kinship={props.kinship}
-              key={child.key}
-            />
+
+      {broods.length > 0 ? (
+        <div className="famBroodRow">
+          {broods.map((marriage, index) => (
+            <div className="famBrood" key={marriage.spouse?.ref ?? `b${index}`}>
+              {labelBroods ? (
+                <span className="famBroodCaption">
+                  {broodCaption(marriage, props.locale)}
+                </span>
+              ) : null}
+              <ul className="famChildren">
+                {marriage.children.map((child) => (
+                  <UnionNode union={child} {...shared} key={child.key} />
+                ))}
+              </ul>
+            </div>
           ))}
-        </ul>
+        </div>
       ) : null}
     </li>
   );
 }
 
-/** A person card, preceded by a marriage line when they follow a partner. */
-function PersonJoin(props: {
-  person: ChartPerson;
-  first: boolean;
+function SpouseCard(props: {
+  marriage: ChartMarriage;
   locale: string;
   kinship: Map<string, Kinship>;
 }) {
+  const { spouse, dissolved } = props.marriage;
+  if (!spouse) return null;
+
   return (
     <>
-      {!props.first ? <span className="famMarriage" aria-hidden="true" /> : null}
+      <span
+        className={dissolved ? "famMarriage famMarriageEnded" : "famMarriage"}
+        aria-hidden="true"
+      />
       <PersonCard
-        person={props.person}
+        person={spouse}
         locale={props.locale}
         kinship={props.kinship}
+        marriedIn
+        overrideLabel={
+          dissolved ? exSpouseLabel(spouse.gender, props.locale) : null
+        }
       />
     </>
   );
@@ -99,6 +121,8 @@ function PersonCard(props: {
   person: ChartPerson;
   locale: string;
   kinship: Map<string, Kinship>;
+  marriedIn?: boolean;
+  overrideLabel?: string | null;
 }) {
   const { person } = props;
 
@@ -112,12 +136,13 @@ function PersonCard(props: {
 
   const kin = person.personId ? props.kinship.get(person.personId) : undefined;
   const relation =
-    person.isRoot || !kin ? null : kinshipLabel(kin, props.locale);
+    props.overrideLabel ??
+    (person.isRoot || !kin ? null : kinshipLabel(kin, props.locale));
 
   const className = [
     "famCard",
     person.isRoot ? "famCardRoot" : "",
-    person.marriedIn ? "famCardMarriedIn" : "",
+    props.marriedIn ? "famCardMarriedIn" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -147,4 +172,14 @@ function PersonCard(props: {
   }
 
   return <span className={className}>{body}</span>;
+}
+
+/** "与前妻" / "与现任妻子" — whose children a brood holds, when it's ambiguous. */
+function broodCaption(marriage: ChartMarriage, locale: string): string {
+  const zh = locale.startsWith("zh");
+  if (!marriage.spouse) return zh ? "子女" : "Children";
+  const g = marriage.spouse.gender;
+  if (marriage.dissolved) return exSpouseLabel(g, locale);
+  if (zh) return g === "male" ? "丈夫" : g === "female" ? "妻子" : "配偶";
+  return g === "male" ? "Husband" : g === "female" ? "Wife" : "Spouse";
 }

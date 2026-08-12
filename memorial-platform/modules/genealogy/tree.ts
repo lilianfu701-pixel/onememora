@@ -33,6 +33,8 @@ export type VisibleNode = {
   birthYear: number | null;
   deathYear: number | null;
   memorialSlug: string | null;
+  /** Set by the read-time family view; the graph tree leaves it unset. */
+  gender?: "male" | "female" | "unknown";
 };
 
 /**
@@ -60,6 +62,8 @@ export type TreeEdge = {
   /** For `parent`, the parent's ref. */
   fromRef: number;
   toRef: number;
+  /** A `partner` edge for a marriage that has ended (an ex-spouse). */
+  dissolved?: boolean;
 };
 
 export type Tree = {

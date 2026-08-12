@@ -265,7 +265,9 @@
     "familyNoOthers": "У вас пока нет других страниц памяти для связи.",
     "familyLinkedHeading": "Связанные родственники",
     "familyTreeHeading": "Родственные связи",
-    "familyRemoveLink": "Удалить"
+    "familyRemoveLink": "Удалить",
+    "relativeCoParentLabel": "Другой родитель",
+    "relativeCoParentNone": "Не указано"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

@@ -4,11 +4,33 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 type RelativeEntry = {
+  /** Stable within this editing session: the DB id for existing rows, a fresh
+   *  uuid for rows added here. Used to point a child at its co-parent. */
+  rid: string;
   name: string;
   relationshipToDeceased: string;
   isDeceased: boolean;
   showFullName: boolean;
+  /** The rid of the spouse this child was born to, if the family said so. */
+  coParentRid: string | null;
 };
+
+type InitialRelative = {
+  id: string;
+  name: string;
+  relationshipToDeceased: string;
+  isDeceased: boolean;
+  showFullName: boolean;
+  coParentId: string | null;
+};
+
+const SPOUSE_TYPES: ReadonlySet<string> = new Set([
+  "husband",
+  "wife",
+  "ex_husband",
+  "ex_wife",
+]);
+const CHILD_TYPES: ReadonlySet<string> = new Set(["son", "daughter"]);
 
 type Notice =
   | { kind: "none" }
@@ -55,13 +77,22 @@ function desensitizeName(name: string): string {
 
 export function RelativesEditor(props: {
   memorialId: string;
-  initial: RelativeEntry[];
+  initial: InitialRelative[];
 }) {
   const t = useTranslations("memorial");
   const errors = useTranslations("errors");
   const common = useTranslations("common");
 
-  const [relatives, setRelatives] = useState<RelativeEntry[]>(props.initial);
+  const [relatives, setRelatives] = useState<RelativeEntry[]>(() =>
+    props.initial.map((r) => ({
+      rid: r.id,
+      name: r.name,
+      relationshipToDeceased: r.relationshipToDeceased,
+      isDeceased: r.isDeceased,
+      showFullName: r.showFullName,
+      coParentRid: r.coParentId,
+    })),
+  );
   const [showAllNames, setShowAllNames] = useState(false);
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState<Notice>({ kind: "none" });
@@ -93,10 +124,12 @@ export function RelativesEditor(props: {
     setRelatives([
       ...relatives,
       {
+        rid: crypto.randomUUID(),
         name: "",
         relationshipToDeceased: firstAvailableRelationship(),
         isDeceased: false,
         showFullName: false,
+        coParentRid: null,
       },
     ]);
   }
@@ -109,9 +142,28 @@ export function RelativesEditor(props: {
         if ("isDeceased" in patch) {
           updated.showFullName = patch.isDeceased ?? false;
         }
+        // A co-parent only means something for a child.
+        if (
+          "relationshipToDeceased" in patch &&
+          !CHILD_TYPES.has(updated.relationshipToDeceased)
+        ) {
+          updated.coParentRid = null;
+        }
         return updated;
       }),
     );
+  }
+
+  /** Spouse rows a child can be attributed to, by rid. */
+  function spouseOptions(): { rid: string; label: string }[] {
+    return relatives
+      .filter(
+        (r) => SPOUSE_TYPES.has(r.relationshipToDeceased) && r.name.trim().length > 0,
+      )
+      .map((r) => ({
+        rid: r.rid,
+        label: `${t(`relativeRole_${r.relationshipToDeceased}`)} · ${r.name.trim()}`,
+      }));
   }
 
   function removeRelative(idx: number): void {
@@ -122,14 +174,21 @@ export function RelativesEditor(props: {
     setSaving(true);
     setNotice({ kind: "none" });
 
-    const validRelatives = relatives
-      .filter((r) => r.name.trim().length > 0)
-      .map((r) => ({
+    const kept = relatives.filter((r) => r.name.trim().length > 0);
+    const indexByRid = new Map(kept.map((r, i) => [r.rid, i]));
+    const validRelatives = kept.map((r) => {
+      const coParentIndex =
+        CHILD_TYPES.has(r.relationshipToDeceased) && r.coParentRid
+          ? indexByRid.get(r.coParentRid)
+          : undefined;
+      return {
         name: r.name.trim(),
         relationshipToDeceased: r.relationshipToDeceased,
         isDeceased: r.isDeceased,
         showFullName: showAllNames || r.showFullName,
-      }));
+        ...(coParentIndex !== undefined ? { coParentIndex } : {}),
+      };
+    });
 
     try {
       const response = await fetch(
@@ -189,8 +248,12 @@ export function RelativesEditor(props: {
           {relatives.map((rel, i) => {
             const counts = usedCounts();
             const shown = showAllNames || rel.showFullName;
+            const spouses = spouseOptions().filter((s) => s.rid !== rel.rid);
+            const showCoParent =
+              CHILD_TYPES.has(rel.relationshipToDeceased) && spouses.length > 0;
             return (
-              <div className="relativeRow" key={i}>
+              <div className="relativeEntry" key={rel.rid}>
+              <div className="relativeRow">
                 <select
                   className="input inputSm"
                   aria-label={t("relativeRelationLabel")}
@@ -262,6 +325,32 @@ export function RelativesEditor(props: {
                 >
                   ×
                 </button>
+              </div>
+              {showCoParent ? (
+                <div className="relativeCoParentRow">
+                  <label className="relativeCoParent">
+                    <span className="relativeCoParentLabel">
+                      {t("relativeCoParentLabel")}
+                    </span>
+                    <select
+                      className="input inputSm"
+                      value={rel.coParentRid ?? ""}
+                      onChange={(e) =>
+                        updateRelative(i, {
+                          coParentRid: e.target.value || null,
+                        })
+                      }
+                    >
+                      <option value="">{t("relativeCoParentNone")}</option>
+                      {spouses.map((s) => (
+                        <option value={s.rid} key={s.rid}>
+                          {s.label}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
+              ) : null}
               </div>
             );
           })}

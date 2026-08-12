@@ -1,0 +1,1 @@
+ALTER TABLE "memorial_relatives" ADD COLUMN "co_parent_id" uuid;
