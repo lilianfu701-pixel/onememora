@@ -148,3 +148,5 @@ export async function memorialFamilyLinks(
   }
   return resolved;
 }
+
+/* family graph: phase 1 (link own memorials); visual tree next */
