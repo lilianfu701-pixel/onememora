@@ -1551,6 +1551,13 @@ a.familyNode:focus-visible {
   background: color-mix(in oklab, var(--gold) 10%, var(--paper-raised));
 }
 
+.familyNodeRelation {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.03em;
+}
+
 .familyNodeName {
   font-size: var(--text-sm);
   font-weight: 600;

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import type { Tree, TreeNode } from "@/modules/genealogy/tree";
+import type { Kinship } from "@/modules/genealogy/kinship";
+import { kinshipLabel } from "@/modules/genealogy/kinship-terms";
 
 type Generation = { gen: number; nodes: TreeNode[] };
 
@@ -56,6 +58,7 @@ export function FamilyTree(props: {
   tree: Tree;
   locale: string;
   heading: string;
+  kinship: Map<string, Kinship>;
 }) {
   const generations = layout(props.tree);
 
@@ -84,8 +87,13 @@ export function FamilyTree(props: {
                 );
               }
               const isRoot = node.ref === props.tree.rootRef;
+              const kin = props.kinship.get(node.personId);
+              const relation = isRoot || !kin ? null : kinshipLabel(kin, props.locale);
               const inner = (
                 <>
+                  {relation ? (
+                    <span className="familyNodeRelation">{relation}</span>
+                  ) : null}
                   <span className="familyNodeName">{node.name}</span>
                   {years(node) ? (
                     <span className="familyNodeYears">{years(node)}</span>

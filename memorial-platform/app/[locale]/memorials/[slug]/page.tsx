@@ -24,6 +24,7 @@ import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
 import { tributeCounts } from "@/modules/commemorations/tributes";
 import { readTreeForMemorial } from "@/modules/genealogy/tree";
+import { kinshipFromMemorial } from "@/modules/genealogy/kinship";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
@@ -208,6 +209,7 @@ export default async function MemorialPage(props: {
     locations,
     tributes,
     familyTree,
+    kinship,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
@@ -245,6 +247,7 @@ export default async function MemorialPage(props: {
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
       tributeCounts(detail.memorialId),
       readTreeForMemorial(viewer, detail.memorialId),
+      kinshipFromMemorial(detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -443,6 +446,7 @@ export default async function MemorialPage(props: {
                 tree={familyTree.value}
                 locale={locale}
                 heading={t("familyTreeHeading")}
+                kinship={kinship}
               />
             ) : null}
 
