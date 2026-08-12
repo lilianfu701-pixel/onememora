@@ -107,7 +107,7 @@
     "placeKindLived": "Où il ou elle a vécu",
     "placeKindResting": "Lieu de repos",
     "manageTitle": "Gérer ce mémorial",
-    "manageLink": "Gérer",
+    "manageLink": "Gérer cette page",
     "lifeStoryTitleLabel": "Un titre, si vous le souhaitez",
     "lifeStoryBodyLabel": "Sa vie",
     "lifeStorySaved": "Brouillon enregistré. Personne ne le voit encore.",
@@ -264,7 +264,7 @@
     "familyAddLink": "Relier",
     "familyNoOthers": "Vous n’avez pas encore d’autre mémorial à relier.",
     "familyLinkedHeading": "Famille reliée",
-    "familyTreeHeading": "Arbre généalogique",
+    "familyTreeHeading": "Famille",
     "familyRemoveLink": "Retirer"
   },
   "privacy": {

@@ -32,14 +32,6 @@ import { PublishPanel } from "./publish-panel";
 import { Share } from "./share";
 import { Tributes } from "./tributes";
 
-function desensitizeName(name: string): string {
-  const trimmed = name.trim();
-  if (trimmed.length <= 1) return trimmed;
-  const chars = [...trimmed];
-  if (chars.length === 2) return chars[0] + "*";
-  return chars[0] + "*".repeat(chars.length - 2) + chars[chars.length - 1];
-}
-
 /*
  * The creator declared the deceased's relationship to *them* ("the deceased is
  * your father/son/…"). The public line reads the other way — the creator's
@@ -47,35 +39,6 @@ function desensitizeName(name: string): string {
  * Genderless where the inverse is ambiguous (a father's memorial is kept by a
  * "child", not necessarily a son). No name is shown, only the relationship.
  */
-/*
- * The order relatives are listed in, regardless of entry order: spouse first,
- * then parents, then children, then the rest. A memorial reads as a family when
- * the closest bonds lead.
- */
-const RELATIVE_ORDER: readonly string[] = [
-  "husband",
-  "wife",
-  "father",
-  "mother",
-  "son",
-  "daughter",
-  "paternal_grandfather",
-  "paternal_grandmother",
-  "maternal_grandfather",
-  "maternal_grandmother",
-  "older_brother",
-  "older_sister",
-  "younger_brother",
-  "younger_sister",
-  "ex_husband",
-  "ex_wife",
-];
-
-function relativeRank(relationship: string): number {
-  const index = RELATIVE_ORDER.indexOf(relationship);
-  return index === -1 ? RELATIVE_ORDER.length : index;
-}
-
 const CREATOR_ROLE: Record<string, string> = {
   husband: "wife",
   wife: "husband",
@@ -249,14 +212,6 @@ export default async function MemorialPage(props: {
     ? CREATOR_ROLE[creatorClaim[0].relationship]
     : undefined;
 
-  // Fixed family order: spouse, parents, children, then the rest.
-  const orderedRelatives = [...relatives].sort(
-    (a, b) =>
-      relativeRank(a.relationshipToDeceased) -
-        relativeRank(b.relationshipToDeceased) ||
-      a.displayOrder - b.displayOrder,
-  );
-
   // The family tree, assembled from the registered relatives and any confirmed
   // links to other memorials. A year is only used when the date is real, not a
   // placeholder standing in for an unknown precision.
@@ -312,7 +267,7 @@ export default async function MemorialPage(props: {
        */}
       {canManage ? (
         <Link
-          className="button buttonPrimary buttonCompact memorialManageFloat"
+          className="memorialManageLink"
           href={`/${locale}/memorials/${detail.slug}/manage`}
         >
           {t("manageLink")}
@@ -490,37 +445,6 @@ export default async function MemorialPage(props: {
               isLoggedIn={viewer.userId !== null}
             />
           </div>
-
-          {orderedRelatives.length > 0 ? (
-            <aside className="memorialAside">
-              <h2 className="memorialAsideHeading">{t("relativesLabel")}</h2>
-              <ul className="relativesSidebar">
-                {orderedRelatives.map((rel) => (
-                  <li key={rel.id}>
-                    <span className="relativesSidebarRole">
-                      {t(`relativeRole_${rel.relationshipToDeceased}`)}
-                    </span>
-                    <span className="relativesSidebarName">
-                      <span
-                        className={
-                          rel.isDeceased
-                            ? "relativeNameTag relativeNameTagDeceased"
-                            : "relativeNameTag"
-                        }
-                      >
-                        {rel.showFullName
-                          ? rel.name
-                          : desensitizeName(rel.name)}
-                      </span>
-                      <span className="relativesSidebarStatus">
-                        {rel.isDeceased ? t("statusDeceased") : t("statusLiving")}
-                      </span>
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </aside>
-          ) : null}
         </div>
       </article>
     </main>

@@ -118,7 +118,7 @@
     "placeKindLived": "生活过的地方",
     "placeKindResting": "安息之地",
     "manageTitle": "管理这个追思主页",
-    "manageLink": "管理",
+    "manageLink": "管理此页面",
     "lifeStoryTitleLabel": "标题（可不填）",
     "lifeStoryBodyLabel": "他/她的一生",
     "lifeStorySaved": "草稿已保存，暂时还没有人看得到。",
@@ -264,7 +264,7 @@
     "familyAddLink": "关联",
     "familyNoOthers": "你还没有其他追思主页可以关联。",
     "familyLinkedHeading": "已关联的家人",
-    "familyTreeHeading": "家谱",
+    "familyTreeHeading": "亲属关系",
     "familyRemoveLink": "解除"
   },
   "privacy": {

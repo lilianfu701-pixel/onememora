@@ -107,7 +107,7 @@
     "placeKindLived": "مكان الإقامة",
     "placeKindResting": "مثوى الراحة",
     "manageTitle": "إدارة هذه الصفحة",
-    "manageLink": "إدارة",
+    "manageLink": "إدارة هذه الصفحة",
     "lifeStoryTitleLabel": "عنوان، إن أردت",
     "lifeStoryBodyLabel": "حياته أو حياتها",
     "lifeStorySaved": "حُفظت المسودة. لا يراها أحد بعد.",
@@ -264,7 +264,7 @@
     "familyAddLink": "ربط",
     "familyNoOthers": "ليس لديك صفحات تذكارية أخرى للربط بعد.",
     "familyLinkedHeading": "العائلة المرتبطة",
-    "familyTreeHeading": "شجرة العائلة",
+    "familyTreeHeading": "العلاقات العائلية",
     "familyRemoveLink": "إزالة"
   },
   "privacy": {

@@ -107,7 +107,7 @@
     "placeKindLived": "お住まいだった場所",
     "placeKindResting": "ご安置の地",
     "manageTitle": "このページを管理する",
-    "manageLink": "管理",
+    "manageLink": "このページを管理",
     "lifeStoryTitleLabel": "見出し（任意）",
     "lifeStoryBodyLabel": "故人の歩み",
     "lifeStorySaved": "下書きを保存しました。まだどなたにも表示されません。",
@@ -264,7 +264,7 @@
     "familyAddLink": "つなぐ",
     "familyNoOthers": "まだ関連づけできる他の追悼ページがありません。",
     "familyLinkedHeading": "つながっている家族",
-    "familyTreeHeading": "家系図",
+    "familyTreeHeading": "親族関係",
     "familyRemoveLink": "解除"
   },
   "privacy": {

@@ -107,7 +107,7 @@
     "placeKindLived": "Где жил или жила",
     "placeKindResting": "Место упокоения",
     "manageTitle": "Управление страницей",
-    "manageLink": "Управление",
+    "manageLink": "Управлять этой страницей",
     "lifeStoryTitleLabel": "Заголовок, если хотите",
     "lifeStoryBodyLabel": "Его или её жизнь",
     "lifeStorySaved": "Черновик сохранён. Его пока никто не видит.",
@@ -264,7 +264,7 @@
     "familyAddLink": "Связать",
     "familyNoOthers": "У вас пока нет других страниц памяти для связи.",
     "familyLinkedHeading": "Связанные родственники",
-    "familyTreeHeading": "Семейное древо",
+    "familyTreeHeading": "Родственные связи",
     "familyRemoveLink": "Удалить"
   },
   "privacy": {

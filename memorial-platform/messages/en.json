@@ -118,7 +118,7 @@
     "placeKindLived": "Where they lived",
     "placeKindResting": "Resting place",
     "manageTitle": "Manage this memorial",
-    "manageLink": "Manage",
+    "manageLink": "Manage this page",
     "lifeStoryTitleLabel": "A title, if you would like one",
     "lifeStoryBodyLabel": "Their life",
     "lifeStorySaved": "Draft saved. It is not visible to anyone yet.",
@@ -264,7 +264,7 @@
     "familyAddLink": "Link",
     "familyNoOthers": "You have no other memorials to link yet.",
     "familyLinkedHeading": "Linked family",
-    "familyTreeHeading": "Family tree",
+    "familyTreeHeading": "Family",
     "familyRemoveLink": "Remove"
   },
   "privacy": {
