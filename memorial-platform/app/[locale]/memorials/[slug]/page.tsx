@@ -23,6 +23,8 @@ import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
 import { tributeCounts } from "@/modules/commemorations/tributes";
+import { readTreeForMemorial } from "@/modules/genealogy/tree";
+import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
 import { PhotoSlideshow } from "./photo-slideshow";
@@ -205,6 +207,7 @@ export default async function MemorialPage(props: {
     creatorClaim,
     locations,
     tributes,
+    familyTree,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
@@ -241,6 +244,7 @@ export default async function MemorialPage(props: {
         .from(memorialLocations)
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
       tributeCounts(detail.memorialId),
+      readTreeForMemorial(viewer, detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -433,6 +437,14 @@ export default async function MemorialPage(props: {
                 <p className="muted">{t("noLifeStoryYet")}</p>
               )}
             </section>
+
+            {familyTree.ok ? (
+              <FamilyTree
+                tree={familyTree.value}
+                locale={locale}
+                heading={t("familyTreeHeading")}
+              />
+            ) : null}
 
             <section className="stack">
               <h2>{t("waysToRemember")}</h2>
