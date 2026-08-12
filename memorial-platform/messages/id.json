@@ -254,7 +254,16 @@
     "linkCopied": "Tersalin",
     "scanToOpen": "Pindai untuk membuka",
     "deleteConfirmQuestion": "Hapus memorial ini? Anda punya 30 hari untuk memulihkannya.",
-    "privacySaved": "Privasi diperbarui."
+    "privacySaved": "Privasi diperbarui.",
+    "familyHeading": "Hubungan keluarga",
+    "familyHelp": "Hubungkan memorial Anda yang lain berdasarkan kekerabatan untuk membentuk pohon keluarga.",
+    "familyRelationParent": "Orang tua",
+    "familyRelationSpouse": "Pasangan",
+    "familyRelationChild": "Anak",
+    "familyPickMemorial": "Pilih memorial lain",
+    "familyAddLink": "Hubungkan",
+    "familyNoOthers": "Anda belum punya memorial lain untuk dihubungkan.",
+    "familyLinkedHeading": "Keluarga terhubung"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

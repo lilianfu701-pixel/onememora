@@ -254,7 +254,16 @@
     "linkCopied": "Đã sao chép",
     "scanToOpen": "Quét để mở",
     "deleteConfirmQuestion": "Xóa trang tưởng niệm này? Bạn có 30 ngày để khôi phục.",
-    "privacySaved": "Đã cập nhật quyền riêng tư."
+    "privacySaved": "Đã cập nhật quyền riêng tư.",
+    "familyHeading": "Quan hệ gia đình",
+    "familyHelp": "Kết nối các trang tưởng niệm khác của bạn theo quan hệ để tạo cây gia phả.",
+    "familyRelationParent": "Cha/mẹ (bậc trên)",
+    "familyRelationSpouse": "Vợ/chồng",
+    "familyRelationChild": "Con (bậc dưới)",
+    "familyPickMemorial": "Chọn trang tưởng niệm khác",
+    "familyAddLink": "Kết nối",
+    "familyNoOthers": "Bạn chưa có trang tưởng niệm khác để kết nối.",
+    "familyLinkedHeading": "Gia đình đã kết nối"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

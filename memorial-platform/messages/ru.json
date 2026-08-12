@@ -254,7 +254,16 @@
     "linkCopied": "Скопировано",
     "scanToOpen": "Сканируйте, чтобы открыть",
     "deleteConfirmQuestion": "Удалить эту страницу памяти? У вас есть 30 дней, чтобы восстановить её.",
-    "privacySaved": "Настройки приватности сохранены."
+    "privacySaved": "Настройки приватности сохранены.",
+    "familyHeading": "Семейные связи",
+    "familyHelp": "Свяжите ваши другие страницы памяти по родству, чтобы построить семейное древо.",
+    "familyRelationParent": "Родитель",
+    "familyRelationSpouse": "Супруг(а)",
+    "familyRelationChild": "Ребёнок",
+    "familyPickMemorial": "Выберите другую страницу памяти",
+    "familyAddLink": "Связать",
+    "familyNoOthers": "У вас пока нет других страниц памяти для связи.",
+    "familyLinkedHeading": "Связанные родственники"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

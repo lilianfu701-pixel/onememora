@@ -254,7 +254,16 @@
     "linkCopied": "Copiado",
     "scanToOpen": "Escaneie para abrir",
     "deleteConfirmQuestion": "Excluir este memorial? Você tem 30 dias para restaurá-lo.",
-    "privacySaved": "Privacidade atualizada."
+    "privacySaved": "Privacidade atualizada.",
+    "familyHeading": "Conexões familiares",
+    "familyHelp": "Conecte seus outros memoriais por parentesco para formar uma árvore genealógica.",
+    "familyRelationParent": "Ascendente",
+    "familyRelationSpouse": "Cônjuge",
+    "familyRelationChild": "Filho(a)",
+    "familyPickMemorial": "Escolha outro memorial",
+    "familyAddLink": "Vincular",
+    "familyNoOthers": "Você ainda não tem outros memoriais para vincular.",
+    "familyLinkedHeading": "Família vinculada"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

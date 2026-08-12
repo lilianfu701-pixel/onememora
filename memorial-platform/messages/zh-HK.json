@@ -254,7 +254,16 @@
     "linkCopied": "已複製",
     "scanToOpen": "掃碼開啟",
     "deleteConfirmQuestion": "確定刪除這個追思主頁嗎？（30 天內可恢復）",
-    "privacySaved": "隱私設定已儲存。"
+    "privacySaved": "隱私設定已儲存。",
+    "familyHeading": "家庭關係（族譜）",
+    "familyHelp": "把你建立的其他追思主頁按親屬關係連起來，形成家譜。",
+    "familyRelationParent": "父母（長輩）",
+    "familyRelationSpouse": "配偶",
+    "familyRelationChild": "子女（晚輩）",
+    "familyPickMemorial": "選擇另一個主頁",
+    "familyAddLink": "關聯",
+    "familyNoOthers": "你還沒有其他追思主頁可以關聯。",
+    "familyLinkedHeading": "已關聯的家人"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

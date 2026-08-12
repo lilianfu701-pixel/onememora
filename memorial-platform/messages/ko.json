@@ -254,7 +254,16 @@
     "linkCopied": "복사됨",
     "scanToOpen": "스캔하여 열기",
     "deleteConfirmQuestion": "이 추모 페이지를 삭제할까요? 30일 이내에 복원할 수 있습니다.",
-    "privacySaved": "공개 설정이 저장되었습니다."
+    "privacySaved": "공개 설정이 저장되었습니다.",
+    "familyHeading": "가족 관계",
+    "familyHelp": "만든 다른 추모 페이지를 관계로 연결해 가계도를 만듭니다.",
+    "familyRelationParent": "부모(윗세대)",
+    "familyRelationSpouse": "배우자",
+    "familyRelationChild": "자녀(아랫세대)",
+    "familyPickMemorial": "다른 추모 페이지 선택",
+    "familyAddLink": "연결",
+    "familyNoOthers": "아직 연결할 다른 추모 페이지가 없습니다.",
+    "familyLinkedHeading": "연결된 가족"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

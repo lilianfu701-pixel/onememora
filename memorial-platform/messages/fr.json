@@ -254,7 +254,16 @@
     "linkCopied": "Copié",
     "scanToOpen": "Scanner pour ouvrir",
     "deleteConfirmQuestion": "Supprimer ce mémorial ? Vous avez 30 jours pour le restaurer.",
-    "privacySaved": "Confidentialité mise à jour."
+    "privacySaved": "Confidentialité mise à jour.",
+    "familyHeading": "Liens familiaux",
+    "familyHelp": "Reliez vos autres mémoriaux par lien de parenté pour construire un arbre généalogique.",
+    "familyRelationParent": "Parent (aîné)",
+    "familyRelationSpouse": "Conjoint",
+    "familyRelationChild": "Enfant",
+    "familyPickMemorial": "Choisir un autre mémorial",
+    "familyAddLink": "Relier",
+    "familyNoOthers": "Vous n’avez pas encore d’autre mémorial à relier.",
+    "familyLinkedHeading": "Famille reliée"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

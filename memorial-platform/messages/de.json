@@ -254,7 +254,16 @@
     "linkCopied": "Kopiert",
     "scanToOpen": "Zum Öffnen scannen",
     "deleteConfirmQuestion": "Diese Gedenkseite löschen? Sie haben 30 Tage, um sie wiederherzustellen.",
-    "privacySaved": "Datenschutz aktualisiert."
+    "privacySaved": "Datenschutz aktualisiert.",
+    "familyHeading": "Familienverbindungen",
+    "familyHelp": "Verbinden Sie Ihre anderen Gedenkseiten nach Verwandtschaft zu einem Stammbaum.",
+    "familyRelationParent": "Elternteil",
+    "familyRelationSpouse": "Ehepartner",
+    "familyRelationChild": "Kind",
+    "familyPickMemorial": "Andere Gedenkseite wählen",
+    "familyAddLink": "Verknüpfen",
+    "familyNoOthers": "Sie haben noch keine anderen Gedenkseiten zum Verknüpfen.",
+    "familyLinkedHeading": "Verknüpfte Familie"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

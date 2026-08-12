@@ -1,10 +1,16 @@
-import { asc, eq } from "drizzle-orm";
+import { and, asc, desc, eq, isNull, ne } from "drizzle-orm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { db } from "@/db/client";
-import { memorialRelatives } from "@/db/schema";
+import {
+  memorialMembers,
+  memorialNames,
+  memorialRelatives,
+  memorials,
+} from "@/db/schema";
+import { memorialFamilyLinks } from "@/modules/genealogy/memorial-graph";
 import { normalizeLocale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
 import {
@@ -17,6 +23,7 @@ import { canOnMemorial } from "@/modules/permissions/policy";
 import { ritualChoices } from "@/modules/religion/memorial-settings";
 import { ManageForms } from "./manage-forms";
 import { PhotoManager } from "./photo-manager";
+import { FamilyEditor } from "./family-editor";
 import { PrivacyEditor } from "./privacy-editor";
 import { RelativesEditor } from "./relatives-editor";
 
@@ -59,26 +66,56 @@ export default async function ManageMemorialPage(props: {
 
   const normalized = normalizeLocale(locale);
 
-  const [published, draft, rituals, photos, existingRelatives] =
-    await Promise.all([
-      publishedBiography(detail.memorialId),
-      latestBiographyDraft(detail.memorialId),
-      mayConfigure ? ritualChoices(detail.memorialId, normalized) : [],
-      mayEditStory ? manageableMedia(detail.memorialId) : [],
-      mayEditStory
-        ? db()
-            .select({
-              name: memorialRelatives.name,
-              relationshipToDeceased:
-                memorialRelatives.relationshipToDeceased,
-              isDeceased: memorialRelatives.isDeceased,
-              showFullName: memorialRelatives.showFullName,
-            })
-            .from(memorialRelatives)
-            .where(eq(memorialRelatives.memorialId, detail.memorialId))
-            .orderBy(asc(memorialRelatives.displayOrder))
-        : [],
-    ]);
+  const [
+    published,
+    draft,
+    rituals,
+    photos,
+    existingRelatives,
+    familyLinks,
+    otherMemorials,
+  ] = await Promise.all([
+    publishedBiography(detail.memorialId),
+    latestBiographyDraft(detail.memorialId),
+    mayConfigure ? ritualChoices(detail.memorialId, normalized) : [],
+    mayEditStory ? manageableMedia(detail.memorialId) : [],
+    mayEditStory
+      ? db()
+          .select({
+            name: memorialRelatives.name,
+            relationshipToDeceased: memorialRelatives.relationshipToDeceased,
+            isDeceased: memorialRelatives.isDeceased,
+            showFullName: memorialRelatives.showFullName,
+          })
+          .from(memorialRelatives)
+          .where(eq(memorialRelatives.memorialId, detail.memorialId))
+          .orderBy(asc(memorialRelatives.displayOrder))
+      : [],
+    mayConfigure ? memorialFamilyLinks(detail.memorialId) : [],
+    // The owner's other memorials, offered as things to link this one to.
+    mayConfigure && actor.userId
+      ? db()
+          .select({ id: memorials.id, name: memorialNames.value })
+          .from(memorialMembers)
+          .innerJoin(memorials, eq(memorials.id, memorialMembers.memorialId))
+          .leftJoin(
+            memorialNames,
+            and(
+              eq(memorialNames.memorialId, memorials.id),
+              eq(memorialNames.type, "primary"),
+            ),
+          )
+          .where(
+            and(
+              eq(memorialMembers.userId, actor.userId),
+              isNull(memorialMembers.revokedAt),
+              isNull(memorials.deletionRequestedAt),
+              ne(memorials.id, detail.memorialId),
+            ),
+          )
+          .orderBy(desc(memorials.createdAt))
+      : [],
+  ]);
 
   // The draft is what they were last writing; the published version is what
   // visitors see. Editing continues from the draft when one is ahead.
@@ -133,6 +170,18 @@ export default async function ManageMemorialPage(props: {
             moderationMode: choice.moderationMode,
           }))}
       />
+
+      {mayConfigure ? (
+        <FamilyEditor
+          memorialId={detail.memorialId}
+          locale={locale}
+          initial={familyLinks}
+          others={otherMemorials.map((other) => ({
+            id: other.id,
+            name: other.name ?? "—",
+          }))}
+        />
+      ) : null}
 
       {mayConfigure ? (
         <PrivacyEditor

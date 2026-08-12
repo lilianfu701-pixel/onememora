@@ -254,7 +254,16 @@
     "linkCopied": "Copied",
     "scanToOpen": "Scan to open",
     "deleteConfirmQuestion": "Delete this memorial? You have 30 days to restore it.",
-    "privacySaved": "Privacy updated."
+    "privacySaved": "Privacy updated.",
+    "familyHeading": "Family connections",
+    "familyHelp": "Connect your other memorials by relationship to build a family tree.",
+    "familyRelationParent": "Parent (elder)",
+    "familyRelationSpouse": "Spouse",
+    "familyRelationChild": "Child (younger)",
+    "familyPickMemorial": "Choose another memorial",
+    "familyAddLink": "Link",
+    "familyNoOthers": "You have no other memorials to link yet.",
+    "familyLinkedHeading": "Linked family"
   },
   "privacy": {
     "title": "Who can see this memorial",
