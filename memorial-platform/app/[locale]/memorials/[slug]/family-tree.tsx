@@ -1,128 +1,150 @@
 import Link from "next/link";
-import type { Tree, TreeNode } from "@/modules/genealogy/tree";
+import type { Tree } from "@/modules/genealogy/tree";
 import type { Kinship } from "@/modules/genealogy/kinship";
+import { buildFamilyChart } from "@/modules/genealogy/family-chart";
+import type { ChartPerson, ChartUnion } from "@/modules/genealogy/family-chart";
 import { kinshipLabel } from "@/modules/genealogy/kinship-terms";
 
-type Generation = { gen: number; nodes: TreeNode[] };
-
 /**
- * Places each node on a generation relative to the root (0), parents above
- * (−1, −2…), children below (+1…), partners on the same row. Small graphs
- * settle in a couple of passes.
+ * A genealogical family chart: couples joined by a marriage line, a descent
+ * line dropping to each couple's children, siblings sharing one parent bar.
+ * Generations sit on rows, oldest at the top. The connectors are CSS — see
+ * `.famChart` in globals.css — so the whole thing renders on the server.
  */
-function layout(tree: Tree): Generation[] {
-  const genByRef = new Map<number, number>([[tree.rootRef, 0]]);
-
-  for (let pass = 0; pass <= tree.nodes.length; pass += 1) {
-    let changed = false;
-    for (const edge of tree.edges) {
-      const from = genByRef.get(edge.fromRef);
-      const to = genByRef.get(edge.toRef);
-      if (edge.kind === "partner") {
-        if (from !== undefined && to === undefined) {
-          genByRef.set(edge.toRef, from);
-          changed = true;
-        } else if (to !== undefined && from === undefined) {
-          genByRef.set(edge.fromRef, to);
-          changed = true;
-        }
-      } else {
-        // parent edge: fromRef is the parent (one generation older).
-        if (to !== undefined && from === undefined) {
-          genByRef.set(edge.fromRef, to - 1);
-          changed = true;
-        } else if (from !== undefined && to === undefined) {
-          genByRef.set(edge.toRef, from + 1);
-          changed = true;
-        }
-      }
-    }
-    if (!changed) break;
-  }
-
-  const groups = new Map<number, TreeNode[]>();
-  for (const node of tree.nodes) {
-    const gen = genByRef.get(node.ref);
-    if (gen === undefined) continue;
-    const bucket = groups.get(gen);
-    if (bucket) bucket.push(node);
-    else groups.set(gen, [node]);
-  }
-
-  return [...groups.entries()]
-    .sort((a, b) => a[0] - b[0])
-    .map(([gen, nodes]) => ({ gen, nodes }));
-}
-
 export function FamilyTree(props: {
   tree: Tree;
   locale: string;
   heading: string;
   kinship: Map<string, Kinship>;
 }) {
-  const generations = layout(props.tree);
-
-  // Nothing worth drawing until this person is actually connected to someone.
   if (props.tree.nodes.length <= 1) return null;
-
-  const years = (node: Extract<TreeNode, { visible: true }>): string =>
-    [node.birthYear, node.deathYear].filter((year) => year !== null).join("–");
+  const forest = buildFamilyChart(props.tree, props.kinship);
+  if (forest.length === 0) return null;
 
   return (
     <section className="stack">
       <h2>{props.heading}</h2>
-      <div className="familyTree">
-        {generations.map(({ gen, nodes }) => (
-          <div className="familyTreeGen" key={gen}>
-            {nodes.map((node) => {
-              if (!node.visible) {
-                return (
-                  <span
-                    className="familyNode familyNodeWithheld"
-                    key={node.ref}
-                    aria-hidden="true"
-                  >
-                    ···
-                  </span>
-                );
-              }
-              const isRoot = node.ref === props.tree.rootRef;
-              const kin = props.kinship.get(node.personId);
-              const relation = isRoot || !kin ? null : kinshipLabel(kin, props.locale);
-              const inner = (
-                <>
-                  {relation ? (
-                    <span className="familyNodeRelation">{relation}</span>
-                  ) : null}
-                  <span className="familyNodeName">{node.name}</span>
-                  {years(node) ? (
-                    <span className="familyNodeYears">{years(node)}</span>
-                  ) : null}
-                </>
-              );
-              if (!isRoot && node.memorialSlug) {
-                return (
-                  <Link
-                    className="familyNode"
-                    key={node.ref}
-                    href={`/${props.locale}/memorials/${node.memorialSlug}`}
-                  >
-                    {inner}
-                  </Link>
-                );
-              }
-              return (
-                <span
-                  className={isRoot ? "familyNode familyNodeRoot" : "familyNode"}
-                  key={node.ref}
-                >
-                  {inner}
-                </span>
-              );
-            })}
-          </div>
-        ))}
+      <div className="famChart">
+        <ul className="famForest">
+          {forest.map((union) => (
+            <UnionNode
+              union={union}
+              locale={props.locale}
+              kinship={props.kinship}
+              key={union.key}
+            />
+          ))}
+        </ul>
       </div>
     </section>
   );
+}
+
+function UnionNode(props: {
+  union: ChartUnion;
+  locale: string;
+  kinship: Map<string, Kinship>;
+}) {
+  const { partners, children } = props.union;
+
+  return (
+    <li className="famUnion">
+      <div className="famCouple">
+        {partners.map((person, index) => (
+          <PersonJoin
+            person={person}
+            first={index === 0}
+            locale={props.locale}
+            kinship={props.kinship}
+            key={person.ref}
+          />
+        ))}
+      </div>
+      {children.length > 0 ? (
+        <ul className="famChildren">
+          {children.map((child) => (
+            <UnionNode
+              union={child}
+              locale={props.locale}
+              kinship={props.kinship}
+              key={child.key}
+            />
+          ))}
+        </ul>
+      ) : null}
+    </li>
+  );
+}
+
+/** A person card, preceded by a marriage line when they follow a partner. */
+function PersonJoin(props: {
+  person: ChartPerson;
+  first: boolean;
+  locale: string;
+  kinship: Map<string, Kinship>;
+}) {
+  return (
+    <>
+      {!props.first ? <span className="famMarriage" aria-hidden="true" /> : null}
+      <PersonCard
+        person={props.person}
+        locale={props.locale}
+        kinship={props.kinship}
+      />
+    </>
+  );
+}
+
+function PersonCard(props: {
+  person: ChartPerson;
+  locale: string;
+  kinship: Map<string, Kinship>;
+}) {
+  const { person } = props;
+
+  if (person.withheld) {
+    return (
+      <span className="famCard famCardWithheld" aria-hidden="true">
+        ···
+      </span>
+    );
+  }
+
+  const kin = person.personId ? props.kinship.get(person.personId) : undefined;
+  const relation =
+    person.isRoot || !kin ? null : kinshipLabel(kin, props.locale);
+
+  const className = [
+    "famCard",
+    person.isRoot ? "famCardRoot" : "",
+    person.marriedIn ? "famCardMarriedIn" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  const body = (
+    <>
+      <span className={`famSex famSex-${person.gender}`} aria-hidden="true" />
+      <span className="famCardText">
+        {relation ? <span className="famCardRelation">{relation}</span> : null}
+        <span className="famCardName">{person.name}</span>
+        {person.years ? (
+          <span className="famCardYears">{person.years}</span>
+        ) : null}
+      </span>
+    </>
+  );
+
+  if (!person.isRoot && person.memorialSlug) {
+    return (
+      <Link
+        className={className}
+        href={`/${props.locale}/memorials/${person.memorialSlug}`}
+      >
+        {body}
+      </Link>
+    );
+  }
+
+  return <span className={className}>{body}</span>;
 }
