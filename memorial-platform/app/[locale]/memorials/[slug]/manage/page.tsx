@@ -17,6 +17,7 @@ import { canOnMemorial } from "@/modules/permissions/policy";
 import { ritualChoices } from "@/modules/religion/memorial-settings";
 import { ManageForms } from "./manage-forms";
 import { PhotoManager } from "./photo-manager";
+import { PrivacyEditor } from "./privacy-editor";
 import { RelativesEditor } from "./relatives-editor";
 
 export const dynamic = "force-dynamic";
@@ -132,6 +133,14 @@ export default async function ManageMemorialPage(props: {
             moderationMode: choice.moderationMode,
           }))}
       />
+
+      {mayConfigure ? (
+        <PrivacyEditor
+          memorialId={detail.memorialId}
+          initialVisibility={detail.visibility}
+          initialIndexable={detail.searchEngineIndexable}
+        />
+      ) : null}
     </main>
   );
 }

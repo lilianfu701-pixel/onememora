@@ -253,7 +253,8 @@
     "copyLink": "Copy link",
     "linkCopied": "Copied",
     "scanToOpen": "Scan to open",
-    "deleteConfirmQuestion": "Delete this memorial? You have 30 days to restore it."
+    "deleteConfirmQuestion": "Delete this memorial? You have 30 days to restore it.",
+    "privacySaved": "Privacy updated."
   },
   "privacy": {
     "title": "Who can see this memorial",
