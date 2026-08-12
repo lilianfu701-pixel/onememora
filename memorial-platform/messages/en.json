@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "Delete this memorial? You have 30 days to restore it.",
     "privacySaved": "Privacy updated.",
     "familyHeading": "Family connections",
-    "familyHelp": "Connect your other memorials by relationship to build a family tree.",
+    "familyHelp": "Connect your other memorials by relationship to build a family tree. The relationship you pick describes the other person relative to the person on this memorial (e.g. pick “Parent” if the other memorial is this person’s parent).",
     "familyRelationParent": "Parent (elder)",
     "familyRelationSpouse": "Spouse",
     "familyRelationChild": "Child (younger)",
@@ -264,7 +264,8 @@
     "familyAddLink": "Link",
     "familyNoOthers": "You have no other memorials to link yet.",
     "familyLinkedHeading": "Linked family",
-    "familyTreeHeading": "Family tree"
+    "familyTreeHeading": "Family tree",
+    "familyRemoveLink": "Remove"
   },
   "privacy": {
     "title": "Who can see this memorial",

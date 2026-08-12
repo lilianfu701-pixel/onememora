@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "Supprimer ce mémorial ? Vous avez 30 jours pour le restaurer.",
     "privacySaved": "Confidentialité mise à jour.",
     "familyHeading": "Liens familiaux",
-    "familyHelp": "Reliez vos autres mémoriaux par lien de parenté pour construire un arbre généalogique.",
+    "familyHelp": "Reliez vos autres mémoriaux par lien de parenté pour construire un arbre généalogique. La relation que vous choisissez décrit l’autre personne par rapport à la personne de ce mémorial (p. ex. « Parent » si l’autre mémorial est son parent).",
     "familyRelationParent": "Parent (aîné)",
     "familyRelationSpouse": "Conjoint",
     "familyRelationChild": "Enfant",
@@ -264,7 +264,8 @@
     "familyAddLink": "Relier",
     "familyNoOthers": "Vous n’avez pas encore d’autre mémorial à relier.",
     "familyLinkedHeading": "Famille reliée",
-    "familyTreeHeading": "Arbre généalogique"
+    "familyTreeHeading": "Arbre généalogique",
+    "familyRemoveLink": "Retirer"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

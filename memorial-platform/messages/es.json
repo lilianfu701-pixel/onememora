@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "¿Eliminar este memorial? Tienes 30 días para restaurarlo.",
     "privacySaved": "Privacidad actualizada.",
     "familyHeading": "Vínculos familiares",
-    "familyHelp": "Conecta tus otros memoriales por parentesco para formar un árbol genealógico.",
+    "familyHelp": "Conecta tus otros memoriales por parentesco para formar un árbol genealógico. La relación que elijas describe a la otra persona respecto a la persona de este memorial (p. ej., elige “Padre/Madre” si el otro memorial es su progenitor).",
     "familyRelationParent": "Progenitor",
     "familyRelationSpouse": "Cónyuge",
     "familyRelationChild": "Hijo/a",
@@ -264,7 +264,8 @@
     "familyAddLink": "Vincular",
     "familyNoOthers": "Aún no tienes otros memoriales para vincular.",
     "familyLinkedHeading": "Familia vinculada",
-    "familyTreeHeading": "Árbol genealógico"
+    "familyTreeHeading": "Árbol genealógico",
+    "familyRemoveLink": "Quitar"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

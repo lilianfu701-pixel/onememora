@@ -29,6 +29,7 @@ export function FamilyEditor(props: {
   const [relation, setRelation] = useState<Relation>("parent");
   const [saving, setSaving] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [removingId, setRemovingId] = useState<string | null>(null);
 
   function relLabel(value: Relation): string {
     if (value === "spouse") return t("familyRelationSpouse");
@@ -62,6 +63,27 @@ export function FamilyEditor(props: {
     }
   }
 
+  async function remove(linkId: string): Promise<void> {
+    if (removingId) return;
+    setRemovingId(linkId);
+    setFailed(false);
+    try {
+      const response = await fetch(
+        `/api/memorials/${props.memorialId}/family/link?linkId=${encodeURIComponent(linkId)}`,
+        { method: "DELETE" },
+      );
+      if (!response.ok) {
+        setFailed(true);
+        return;
+      }
+      router.refresh();
+    } catch {
+      setFailed(true);
+    } finally {
+      setRemovingId(null);
+    }
+  }
+
   return (
     <section className="stack measure">
       <h2>{t("familyHeading")}</h2>
@@ -79,6 +101,16 @@ export function FamilyEditor(props: {
                 <Link href={`/${props.locale}/memorials/${item.slug}`}>
                   {item.name} →
                 </Link>
+                <button
+                  type="button"
+                  className="familyLinkRemove"
+                  disabled={removingId === item.linkId}
+                  onClick={() => remove(item.linkId)}
+                >
+                  {removingId === item.linkId
+                    ? common("loading")
+                    : t("familyRemoveLink")}
+                </button>
               </li>
             ))}
           </ul>

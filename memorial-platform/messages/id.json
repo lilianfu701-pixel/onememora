@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "Hapus memorial ini? Anda punya 30 hari untuk memulihkannya.",
     "privacySaved": "Privasi diperbarui.",
     "familyHeading": "Hubungan keluarga",
-    "familyHelp": "Hubungkan memorial Anda yang lain berdasarkan kekerabatan untuk membentuk pohon keluarga.",
+    "familyHelp": "Hubungkan memorial Anda yang lain berdasarkan kekerabatan untuk membentuk pohon keluarga. Hubungan yang Anda pilih menggambarkan orang lain terhadap orang di memorial ini (mis. pilih “Orang tua” jika memorial lain adalah orang tuanya).",
     "familyRelationParent": "Orang tua",
     "familyRelationSpouse": "Pasangan",
     "familyRelationChild": "Anak",
@@ -264,7 +264,8 @@
     "familyAddLink": "Hubungkan",
     "familyNoOthers": "Anda belum punya memorial lain untuk dihubungkan.",
     "familyLinkedHeading": "Keluarga terhubung",
-    "familyTreeHeading": "Pohon keluarga"
+    "familyTreeHeading": "Pohon keluarga",
+    "familyRemoveLink": "Hapus"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

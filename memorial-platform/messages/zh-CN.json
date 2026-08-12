@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "确定删除这个追思主页吗？（30 天内可恢复）",
     "privacySaved": "隐私设置已保存。",
     "familyHeading": "家庭关系（族谱）",
-    "familyHelp": "把你建的其他追思主页按亲属关系连起来，形成家谱。",
+    "familyHelp": "把你建的其他追思主页按亲属关系连起来，形成家谱。 你选择的关系，是“对方”相对于本主页逝者的身份（例如：对方是本主页逝者的父亲，就选“父母（长辈）”）。",
     "familyRelationParent": "父母（长辈）",
     "familyRelationSpouse": "配偶",
     "familyRelationChild": "子女（晚辈）",
@@ -264,7 +264,8 @@
     "familyAddLink": "关联",
     "familyNoOthers": "你还没有其他追思主页可以关联。",
     "familyLinkedHeading": "已关联的家人",
-    "familyTreeHeading": "家谱"
+    "familyTreeHeading": "家谱",
+    "familyRemoveLink": "解除"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

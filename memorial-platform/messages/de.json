@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "Diese Gedenkseite löschen? Sie haben 30 Tage, um sie wiederherzustellen.",
     "privacySaved": "Datenschutz aktualisiert.",
     "familyHeading": "Familienverbindungen",
-    "familyHelp": "Verbinden Sie Ihre anderen Gedenkseiten nach Verwandtschaft zu einem Stammbaum.",
+    "familyHelp": "Verbinden Sie Ihre anderen Gedenkseiten nach Verwandtschaft zu einem Stammbaum. Die gewählte Beziehung beschreibt die andere Person im Verhältnis zur Person dieser Gedenkseite (z. B. „Elternteil“, wenn die andere Gedenkseite deren Elternteil ist).",
     "familyRelationParent": "Elternteil",
     "familyRelationSpouse": "Ehepartner",
     "familyRelationChild": "Kind",
@@ -264,7 +264,8 @@
     "familyAddLink": "Verknüpfen",
     "familyNoOthers": "Sie haben noch keine anderen Gedenkseiten zum Verknüpfen.",
     "familyLinkedHeading": "Verknüpfte Familie",
-    "familyTreeHeading": "Stammbaum"
+    "familyTreeHeading": "Stammbaum",
+    "familyRemoveLink": "Entfernen"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

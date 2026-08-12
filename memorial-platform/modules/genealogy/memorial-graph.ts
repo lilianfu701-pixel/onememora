@@ -9,7 +9,7 @@ import {
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import type { Actor } from "@/modules/permissions/types";
-import { immediateLinks, proposeLink } from "./links";
+import { immediateLinks, proposeLink, removeLink } from "./links";
 import type { LinkError } from "./links";
 import { addMemorialSubject } from "./people";
 import type { AddPersonError } from "./people";
@@ -69,6 +69,20 @@ export async function linkMemorials(
   if (!link.ok) return err(link.error);
 
   return ok(link.value);
+}
+
+/**
+ * Removes a family link between two of the owner's memorials. Thin wrapper over
+ * `removeLink` — the owner stewards both sides, so the edge is deleted outright,
+ * which also lets them relink the pair the other way round if they had the
+ * direction backwards.
+ */
+export async function unlinkMemorial(
+  actor: Actor,
+  linkId: string,
+  correlationId: string,
+): Promise<Result<{ linkId: string }, LinkError>> {
+  return removeLink(actor, linkId, correlationId);
 }
 
 export type MemorialFamilyLink = {

@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "Xóa trang tưởng niệm này? Bạn có 30 ngày để khôi phục.",
     "privacySaved": "Đã cập nhật quyền riêng tư.",
     "familyHeading": "Quan hệ gia đình",
-    "familyHelp": "Kết nối các trang tưởng niệm khác của bạn theo quan hệ để tạo cây gia phả.",
+    "familyHelp": "Kết nối các trang tưởng niệm khác của bạn theo quan hệ để tạo cây gia phả. Quan hệ bạn chọn mô tả người kia so với người trong trang tưởng niệm này (vd: chọn “Cha/Mẹ” nếu trang kia là cha mẹ của người này).",
     "familyRelationParent": "Cha/mẹ (bậc trên)",
     "familyRelationSpouse": "Vợ/chồng",
     "familyRelationChild": "Con (bậc dưới)",
@@ -264,7 +264,8 @@
     "familyAddLink": "Kết nối",
     "familyNoOthers": "Bạn chưa có trang tưởng niệm khác để kết nối.",
     "familyLinkedHeading": "Gia đình đã kết nối",
-    "familyTreeHeading": "Cây gia phả"
+    "familyTreeHeading": "Cây gia phả",
+    "familyRemoveLink": "Gỡ"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

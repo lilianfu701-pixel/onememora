@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "Excluir este memorial? Você tem 30 dias para restaurá-lo.",
     "privacySaved": "Privacidade atualizada.",
     "familyHeading": "Conexões familiares",
-    "familyHelp": "Conecte seus outros memoriais por parentesco para formar uma árvore genealógica.",
+    "familyHelp": "Conecte seus outros memoriais por parentesco para formar uma árvore genealógica. A relação que você escolhe descreve a outra pessoa em relação à pessoa deste memorial (ex.: escolha “Pai/Mãe” se o outro memorial for o progenitor dela).",
     "familyRelationParent": "Ascendente",
     "familyRelationSpouse": "Cônjuge",
     "familyRelationChild": "Filho(a)",
@@ -264,7 +264,8 @@
     "familyAddLink": "Vincular",
     "familyNoOthers": "Você ainda não tem outros memoriais para vincular.",
     "familyLinkedHeading": "Família vinculada",
-    "familyTreeHeading": "Árvore genealógica"
+    "familyTreeHeading": "Árvore genealógica",
+    "familyRemoveLink": "Remover"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

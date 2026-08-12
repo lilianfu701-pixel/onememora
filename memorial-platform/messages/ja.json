@@ -256,7 +256,7 @@
     "deleteConfirmQuestion": "この追悼ページを削除しますか？30日以内なら復元できます。",
     "privacySaved": "プライバシー設定を保存しました。",
     "familyHeading": "家族のつながり",
-    "familyHelp": "作成した他の追悼ページを続柄でつないで家系図を作ります。",
+    "familyHelp": "作成した他の追悼ページを続柄でつないで家系図を作ります。 選ぶ関係は、本ページの故人から見た「相手」の続柄です（例：相手が本ページの故人の親なら「親（目上）」を選択）。",
     "familyRelationParent": "親（目上）",
     "familyRelationSpouse": "配偶者",
     "familyRelationChild": "子（目下）",
@@ -264,7 +264,8 @@
     "familyAddLink": "つなぐ",
     "familyNoOthers": "まだ関連づけできる他の追悼ページがありません。",
     "familyLinkedHeading": "つながっている家族",
-    "familyTreeHeading": "家系図"
+    "familyTreeHeading": "家系図",
+    "familyRemoveLink": "解除"
   },
   "privacy": {
     "title": "このページを見られる範囲",

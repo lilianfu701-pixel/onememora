@@ -314,6 +314,61 @@ export async function rejectLink(
   return ok({ linkId });
 }
 
+/**
+ * Removes a link outright.
+ *
+ * Only for someone who speaks for both sides — the case of a person undoing a
+ * connection inside their own tree, where there is no other family whose
+ * agreement the edge stood on. Unlike a rejection, the row is deleted: it was
+ * never a negotiation, so nothing needs remembering, and a clean slate lets the
+ * same two people be relinked in the correct direction.
+ */
+export async function removeLink(
+  actor: Actor,
+  linkId: string,
+  correlationId: string,
+): Promise<Result<{ linkId: string }, LinkError>> {
+  if (!actor.userId) {
+    return err("AUTH_REQUIRED");
+  }
+
+  const [link] = await db()
+    .select()
+    .from(familyLinks)
+    .where(eq(familyLinks.id, linkId));
+
+  if (!link) {
+    return err("LINK_NOT_FOUND");
+  }
+
+  const speaksForA = await maySpeakFor(actor, link.personAId);
+  const speaksForB = await maySpeakFor(actor, link.personBId);
+
+  // Deleting an edge reshapes both families. Only someone who stands for both
+  // may do it without asking; anyone else must go through rejection, which
+  // leaves a record.
+  if (!speaksForA || !speaksForB) {
+    return err("NOT_YOUR_SIDE");
+  }
+
+  await db().delete(familyLinks).where(eq(familyLinks.id, linkId));
+
+  await db().insert(auditLogs).values({
+    actorUserId: actor.userId,
+    action: "family.link_removed",
+    resourceType: "family_link",
+    resourceId: linkId,
+    oldValue: {
+      kind: link.kind,
+      personAId: link.personAId,
+      personBId: link.personBId,
+    },
+    correlationId,
+  });
+
+  return ok({ linkId });
+}
+
 /** Links waiting on this person's answer. */
 export async function pendingForActor(
   actor: Actor,
