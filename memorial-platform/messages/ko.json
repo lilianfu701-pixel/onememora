@@ -279,7 +279,9 @@
     "myRelated": "나와 관련된",
     "myRelatedEmpty": "아직 나와 관련된 추모 페이지가 없습니다.",
     "moveUp": "위로",
-    "moveDown": "아래로"
+    "moveDown": "아래로",
+    "relativeRole_relative_spouse": "친척의 배우자",
+    "relativeSpouseOfLabel": "누구의 배우자"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

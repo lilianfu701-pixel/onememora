@@ -189,6 +189,7 @@ export default async function MemorialPage(props: {
           showFullName: memorialRelatives.showFullName,
           displayOrder: memorialRelatives.displayOrder,
           coParentId: memorialRelatives.coParentId,
+          spouseOfId: memorialRelatives.spouseOfId,
         })
         .from(memorialRelatives)
         .where(eq(memorialRelatives.memorialId, detail.memorialId))

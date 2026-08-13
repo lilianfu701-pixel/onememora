@@ -279,7 +279,9 @@
     "myRelated": "Relacionados conmigo",
     "myRelatedEmpty": "Todavía no hay memoriales compartidos contigo.",
     "moveUp": "Subir",
-    "moveDown": "Bajar"
+    "moveDown": "Bajar",
+    "relativeRole_relative_spouse": "Cónyuge de un familiar",
+    "relativeSpouseOfLabel": "Casado/a con"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

@@ -290,6 +290,12 @@ export const memorialRelatives = pgTable(
      * FK) so the delete-and-replace save stays a single flat statement.
      */
     coParentId: uuid("co_parent_id"),
+    /**
+     * For a collateral relative's spouse (a sibling's husband, a child's wife),
+     * which relative they married into the family. Same application-side
+     * self-reference as `coParentId`; the affinal term (姐夫, 儿媳) is derived.
+     */
+    spouseOfId: uuid("spouse_of_id"),
     createdAt: timestamp("created_at", { withTimezone: true })
       .defaultNow()
       .notNull(),

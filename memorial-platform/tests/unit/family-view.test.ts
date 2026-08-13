@@ -130,6 +130,33 @@ describe("assembleFamilyView — merging a confirmed link onto a relative", () =
   });
 });
 
+describe("assembleFamilyView — collateral spouse", () => {
+  it("names a sister's husband by the affinal term", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [
+        { id: "sis", relationshipToDeceased: "older_sister", name: "姐", isDeceased: false, showFullName: true },
+        { id: "bil", relationshipToDeceased: "relative_spouse", name: "姐夫", isDeceased: false, showFullName: true, spouseOfId: "sis" },
+      ],
+    })!;
+    // The sister's husband is her partner and reads as a sibling's spouse.
+    expect(labelOf(view, "bil")).toBe("姐夫／妹夫");
+  });
+
+  it("names a son's wife 儿媳", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [
+        { id: "son", relationshipToDeceased: "son", name: "子", isDeceased: false, showFullName: true },
+        { id: "dil", relationshipToDeceased: "relative_spouse", name: "媳", isDeceased: false, showFullName: true, spouseOfId: "son" },
+      ],
+    })!;
+    expect(labelOf(view, "dil")).toBe("儿媳");
+  });
+});
+
 describe("assembleFamilyView — nothing to draw", () => {
   it("returns null when the root has no relatives or links", () => {
     expect(assembleFamilyView({ root, relatives: [], linked: [] })).toBeNull();

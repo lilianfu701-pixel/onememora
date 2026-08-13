@@ -279,7 +279,9 @@
     "myRelated": "Связанные со мной",
     "myRelatedEmpty": "С вами пока не связаны страницы памяти.",
     "moveUp": "Вверх",
-    "moveDown": "Вниз"
+    "moveDown": "Вниз",
+    "relativeRole_relative_spouse": "Супруг(а) родственника",
+    "relativeSpouseOfLabel": "В браке с"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

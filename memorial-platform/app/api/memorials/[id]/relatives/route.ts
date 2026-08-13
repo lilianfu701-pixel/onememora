@@ -57,6 +57,8 @@ const relativeSchema = z.object({
   showFullName: z.boolean().optional(),
   /** Index (within this array) of the spouse this child was born to. */
   coParentIndex: z.number().int().min(0).max(49).optional(),
+  /** Index of the relative that a collateral spouse married. */
+  spouseOfIndex: z.number().int().min(0).max(49).optional(),
 });
 
 const putSchema = z.object({
@@ -143,14 +145,17 @@ export async function PUT(
 
     for (let i = 0; i < relatives.length; i++) {
       const rel = relatives[i]!;
+      const set: { coParentId?: string; spouseOfId?: string } = {};
       const coIndex = rel.coParentIndex;
-      // Ignore a stale or self-referential index rather than fail the save.
-      if (coIndex === undefined || coIndex === i || coIndex >= ids.length) {
-        continue;
-      }
+      const co = coIndex !== undefined && coIndex !== i ? ids[coIndex] : undefined;
+      if (co) set.coParentId = co;
+      const spIndex = rel.spouseOfIndex;
+      const sp = spIndex !== undefined && spIndex !== i ? ids[spIndex] : undefined;
+      if (sp) set.spouseOfId = sp;
+      if (!set.coParentId && !set.spouseOfId) continue;
       await tx
         .update(memorialRelatives)
-        .set({ coParentId: ids[coIndex] })
+        .set(set)
         .where(eq(memorialRelatives.id, ids[i]!));
     }
   });

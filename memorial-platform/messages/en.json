@@ -279,7 +279,9 @@
     "myRelated": "Related to me",
     "myRelatedEmpty": "No memorials are shared with you yet.",
     "moveUp": "Move up",
-    "moveDown": "Move down"
+    "moveDown": "Move down",
+    "relativeRole_relative_spouse": "In-law (relative’s spouse)",
+    "relativeSpouseOfLabel": "Married to"
   },
   "privacy": {
     "title": "Who can see this memorial",

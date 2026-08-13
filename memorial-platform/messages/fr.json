@@ -279,7 +279,9 @@
     "myRelated": "Qui me concernent",
     "myRelatedEmpty": "Aucun mémorial ne vous est encore associé.",
     "moveUp": "Monter",
-    "moveDown": "Descendre"
+    "moveDown": "Descendre",
+    "relativeRole_relative_spouse": "Conjoint d’un proche",
+    "relativeSpouseOfLabel": "Marié(e) à"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

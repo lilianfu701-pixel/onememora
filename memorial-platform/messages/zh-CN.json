@@ -279,7 +279,9 @@
     "myRelated": "和我有关的",
     "myRelatedEmpty": "还没有和你有关的追思主页。",
     "moveUp": "上移",
-    "moveDown": "下移"
+    "moveDown": "下移",
+    "relativeRole_relative_spouse": "亲属的配偶",
+    "relativeSpouseOfLabel": "是谁的配偶"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

@@ -88,6 +88,7 @@ export default async function ManageMemorialPage(props: {
             isDeceased: memorialRelatives.isDeceased,
             showFullName: memorialRelatives.showFullName,
             coParentId: memorialRelatives.coParentId,
+            spouseOfId: memorialRelatives.spouseOfId,
           })
           .from(memorialRelatives)
           .where(eq(memorialRelatives.memorialId, detail.memorialId))

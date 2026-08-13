@@ -13,6 +13,8 @@ type RelativeEntry = {
   showFullName: boolean;
   /** The rid of the spouse this child was born to, if the family said so. */
   coParentRid: string | null;
+  /** For a relative_spouse, the rid of the relative they married. */
+  spouseOfRid: string | null;
 };
 
 type InitialRelative = {
@@ -22,6 +24,7 @@ type InitialRelative = {
   isDeceased: boolean;
   showFullName: boolean;
   coParentId: string | null;
+  spouseOfId: string | null;
 };
 
 const SPOUSE_TYPES: ReadonlySet<string> = new Set([
@@ -54,7 +57,18 @@ const RELATIVE_RELATIONSHIPS = [
   "older_sister",
   "younger_brother",
   "younger_sister",
+  "relative_spouse",
 ] as const;
+
+/** Relatives that a `relative_spouse` row can be married to. */
+const SPOUSE_OF_TARGETS: ReadonlySet<string> = new Set([
+  "older_brother",
+  "younger_brother",
+  "older_sister",
+  "younger_sister",
+  "son",
+  "daughter",
+]);
 
 const MAX_ONE: ReadonlySet<string> = new Set([
   "father",
@@ -91,6 +105,7 @@ export function RelativesEditor(props: {
       isDeceased: r.isDeceased,
       showFullName: r.showFullName,
       coParentRid: r.coParentId,
+      spouseOfRid: r.spouseOfId,
     })),
   );
   const [showAllNames, setShowAllNames] = useState(false);
@@ -130,6 +145,7 @@ export function RelativesEditor(props: {
         isDeceased: false,
         showFullName: false,
         coParentRid: null,
+        spouseOfRid: null,
       },
     ]);
   }
@@ -142,12 +158,15 @@ export function RelativesEditor(props: {
         if ("isDeceased" in patch) {
           updated.showFullName = patch.isDeceased ?? false;
         }
-        // A co-parent only means something for a child.
-        if (
-          "relationshipToDeceased" in patch &&
-          !CHILD_TYPES.has(updated.relationshipToDeceased)
-        ) {
-          updated.coParentRid = null;
+        // A co-parent only means something for a child; a spouse-of link only
+        // for a relative_spouse.
+        if ("relationshipToDeceased" in patch) {
+          if (!CHILD_TYPES.has(updated.relationshipToDeceased)) {
+            updated.coParentRid = null;
+          }
+          if (updated.relationshipToDeceased !== "relative_spouse") {
+            updated.spouseOfRid = null;
+          }
         }
         return updated;
       }),
@@ -159,6 +178,20 @@ export function RelativesEditor(props: {
     return relatives
       .filter(
         (r) => SPOUSE_TYPES.has(r.relationshipToDeceased) && r.name.trim().length > 0,
+      )
+      .map((r) => ({
+        rid: r.rid,
+        label: `${t(`relativeRole_${r.relationshipToDeceased}`)} · ${r.name.trim()}`,
+      }));
+  }
+
+  /** Collateral relatives a spouse can be married to (a sibling, a child). */
+  function spouseOfOptions(): { rid: string; label: string }[] {
+    return relatives
+      .filter(
+        (r) =>
+          SPOUSE_OF_TARGETS.has(r.relationshipToDeceased) &&
+          r.name.trim().length > 0,
       )
       .map((r) => ({
         rid: r.rid,
@@ -194,12 +227,17 @@ export function RelativesEditor(props: {
         CHILD_TYPES.has(r.relationshipToDeceased) && r.coParentRid
           ? indexByRid.get(r.coParentRid)
           : undefined;
+      const spouseOfIndex =
+        r.relationshipToDeceased === "relative_spouse" && r.spouseOfRid
+          ? indexByRid.get(r.spouseOfRid)
+          : undefined;
       return {
         name: r.name.trim(),
         relationshipToDeceased: r.relationshipToDeceased,
         isDeceased: r.isDeceased,
         showFullName: showAllNames || r.showFullName,
         ...(coParentIndex !== undefined ? { coParentIndex } : {}),
+        ...(spouseOfIndex !== undefined ? { spouseOfIndex } : {}),
       };
     });
 
@@ -266,6 +304,10 @@ export function RelativesEditor(props: {
             // current spouse and an ex, say. One spouse and it's not a question.
             const showCoParent =
               CHILD_TYPES.has(rel.relationshipToDeceased) && spouses.length >= 2;
+            const spouseOfTargets = spouseOfOptions();
+            const showSpouseOf =
+              rel.relationshipToDeceased === "relative_spouse" &&
+              spouseOfTargets.length > 0;
             return (
               <div className="relativeEntry" key={rel.rid}>
               <div className="relativeRow">
@@ -378,6 +420,31 @@ export function RelativesEditor(props: {
                     >
                       <option value="">{t("relativeCoParentNone")}</option>
                       {spouses.map((s) => (
+                        <option value={s.rid} key={s.rid}>
+                          {s.label}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
+              ) : null}
+              {showSpouseOf ? (
+                <div className="relativeCoParentRow">
+                  <label className="relativeCoParent">
+                    <span className="relativeCoParentLabel">
+                      {t("relativeSpouseOfLabel")}
+                    </span>
+                    <select
+                      className="input inputSm"
+                      value={rel.spouseOfRid ?? ""}
+                      onChange={(e) =>
+                        updateRelative(i, {
+                          spouseOfRid: e.target.value || null,
+                        })
+                      }
+                    >
+                      <option value="">{t("relativeCoParentNone")}</option>
+                      {spouseOfTargets.map((s) => (
                         <option value={s.rid} key={s.rid}>
                           {s.label}
                         </option>

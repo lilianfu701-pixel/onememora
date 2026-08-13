@@ -1,0 +1,1 @@
+ALTER TABLE "memorial_relatives" ADD COLUMN "spouse_of_id" uuid;

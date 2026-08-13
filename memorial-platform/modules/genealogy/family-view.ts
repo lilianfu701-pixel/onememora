@@ -33,6 +33,8 @@ export type RelativeRow = {
   showFullName: boolean;
   /** Which spouse-relative this child was born to, if the family said so. */
   coParentId?: string | null;
+  /** For a collateral spouse, the relative they married into the family. */
+  spouseOfId?: string | null;
 };
 
 export type LinkedMemorial = {
@@ -108,6 +110,14 @@ const PARENT_TYPES = new Set(["father", "mother", "parent"]);
 const CHILD_TYPES = new Set(["son", "daughter", "child"]);
 const PARTNER_TYPES = new Set(["husband", "wife", "spouse"]);
 const EX_PARTNER_TYPES = new Set(["ex_husband", "ex_wife"]);
+/** A relative who married a collateral relative (a sibling's or child's spouse). */
+const RELATIVE_SPOUSE = "relative_spouse";
+
+function oppositeGender(gender: Gender | undefined): Gender {
+  if (gender === "male") return "female";
+  if (gender === "female") return "male";
+  return "unknown";
+}
 const SIBLING_TYPES = new Set([
   "older_brother",
   "younger_brother",
@@ -141,6 +151,8 @@ export function assembleFamilyView(input: {
   const partnerEdges: { aId: string; bId: string; dissolved: boolean }[] = [];
   /** Child relative id → co-parent relative id, deferred until both exist. */
   const coParentOf = new Map<string, string>();
+  /** Collateral-spouse node id → the relative id they married. */
+  const spouseOf = new Map<string, string>();
   const display = new Map<string, DisplayNode>([
     [
       ROOT_ID,
@@ -230,6 +242,11 @@ export function assembleFamilyView(input: {
     } else if (MATERNAL_GP.has(type)) {
       addGraphNode(id, gender, null);
       parentEdges.push({ parentId: id, childId: motherAnchor() });
+    } else if (type === RELATIVE_SPOUSE && rel.spouseOfId) {
+      // A collateral relative's spouse; gender is settled below from the
+      // relative they married, then joined by a partner edge.
+      addGraphNode(id, "unknown", null);
+      spouseOf.set(id, `rel:${rel.spouseOfId}`);
     } else {
       continue; // unknown relationship string — leave it out rather than guess
     }
@@ -244,6 +261,16 @@ export function assembleFamilyView(input: {
     if (display.has(coParentId) && display.has(childId)) {
       parentEdges.push({ parentId: coParentId, childId });
     }
+  }
+
+  // Join each collateral spouse to their partner; their gender is the opposite
+  // of that relative's, which is what makes the affinal term read 姐夫 vs 嫂子.
+  for (const [spouseId, relativeId] of spouseOf) {
+    if (!display.has(relativeId) || !display.has(spouseId)) continue;
+    partnerEdges.push({ aId: relativeId, bId: spouseId, dissolved: false });
+    const relativeNode = graphNodes.find((g) => g.id === relativeId);
+    const spouseNode = graphNodes.find((g) => g.id === spouseId);
+    if (spouseNode) spouseNode.gender = oppositeGender(relativeNode?.gender);
   }
 
   // Fold confirmed memorial links in: merge onto the relative that names the
