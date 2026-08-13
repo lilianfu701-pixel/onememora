@@ -1297,12 +1297,15 @@ img {
   cursor: default;
 }
 
+/* Right-aligned at the top of the memorial content, in the flow. */
+.memorialManageRow {
+  display: flex;
+  justify-content: flex-end;
+  margin-block-end: var(--space-2);
+}
+
 /* A quiet text link, not a button: same weight as the page around it. */
 .memorialManageLink {
-  position: fixed;
-  inset-block-start: var(--space-4);
-  inset-inline-end: var(--space-4);
-  z-index: 30;
   font-size: var(--text-sm);
   color: var(--muted);
   text-decoration: underline;
@@ -1545,148 +1548,53 @@ img {
 
 /* ---------- Family tree (genealogical chart) ----------
  *
- * A descendant chart: couples joined by a marriage line, a descent line down
- * to each couple's children, siblings sharing one parent bar. Connectors are
- * the classic pseudo-element method so it renders on the server and reflows on
- * any width. `--fam-line` is the connector colour; `--fam-gap` the vertical
- * room each connector run needs.
+ * Cards are placed at computed (x, y) positions and the connectors are real
+ * SVG lines, so a marriage line's descent drops from its exact midpoint and a
+ * sibling bar spans precisely from the first child to the last. See
+ * `modules/genealogy/family-layout.ts` for the geometry.
  */
 
 .famChart {
-  --fam-line: var(--line-strong);
-  --fam-gap: 22px;
   overflow-x: auto;
   padding-block: var(--space-3);
 }
 
-.famChart .famForest,
-.famChart .famChildren {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Centre when it fits, scroll from the left when it doesn't — plain
- * justify-content:center would strand the left edge past the scroll origin. */
-.famChart > .famForest {
-  width: max-content;
-  min-width: 100%;
+/* The positioned canvas; centred when it fits, scrolls when it doesn't. */
+.famStage {
+  position: relative;
   margin-inline: auto;
 }
 
-/* Broods sit in a row under the couple; each is one marriage's children. */
-.famChart .famBroodRow {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: var(--space-6);
-}
-
-.famChart .famBrood {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: var(--fam-gap);
-}
-
-/* Descent line: drops from the couple above into this brood. */
-.famChart .famBrood::before {
-  content: "";
+.famLines {
   position: absolute;
-  top: 0;
-  left: 50%;
-  height: var(--fam-gap);
-  border-left: 1.5px solid var(--fam-line);
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
 }
 
-.famChart .famBroodCaption {
-  font-size: var(--text-xs);
-  color: var(--muted);
-  margin-block-end: var(--space-1);
+.famSeg {
+  stroke: var(--line-strong);
+  stroke-width: 1.5;
+  fill: none;
 }
 
-.famChart .famUnion {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Every child carries half the sibling bar plus its own riser. */
-.famChart .famChildren > .famUnion {
-  padding-top: var(--fam-gap);
-  padding-inline: var(--space-3);
-}
-
-.famChart .famChildren > .famUnion::before,
-.famChart .famChildren > .famUnion::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: var(--fam-gap);
-  border-top: 1.5px solid var(--fam-line);
-}
-
-.famChart .famChildren > .famUnion::before {
-  right: 50%;
-}
-.famChart .famChildren > .famUnion::after {
-  left: 50%;
-  border-left: 1.5px solid var(--fam-line);
-}
-
-/* An only child needs just the riser, no horizontal bar. */
-.famChart .famChildren > .famUnion:only-child::before,
-.famChart .famChildren > .famUnion:only-child::after {
-  border-top: 0;
-}
-
-/* The bar stops at the centre of the first and last child. */
-.famChart .famChildren > .famUnion:first-child::before {
-  border: 0;
-}
-.famChart .famChildren > .famUnion:last-child::after {
-  border-left: 0;
-}
-.famChart .famChildren > .famUnion:last-child::before {
-  border-right: 1.5px solid var(--fam-line);
-}
-
-/* A couple: the two cards with a marriage line between them. */
-.famCouple {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
-
-.famMarriage {
-  align-self: center;
-  width: var(--space-4);
-  border-top: 1.5px solid var(--fam-line);
-}
-
-/* A marriage that ended: a broken line rather than a solid bond. */
-.famMarriageEnded {
-  border-top-style: dashed;
+.famSegDashed {
+  stroke-dasharray: 5 3;
 }
 
 .famCard {
+  position: absolute;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   gap: var(--space-2);
-  min-inline-size: 5.5rem;
-  max-inline-size: 9rem;
-  padding: var(--space-2) var(--space-3);
+  padding: var(--space-2);
   border: 1px solid var(--line-strong);
   border-radius: var(--radius-md);
   background: var(--paper-raised);
   text-decoration: none;
   color: var(--ink);
+  overflow: hidden;
 }
 
 a.famCard:hover,

@@ -191,7 +191,8 @@ export default async function MemorialPage(props: {
           coParentId: memorialRelatives.coParentId,
         })
         .from(memorialRelatives)
-        .where(eq(memorialRelatives.memorialId, detail.memorialId)),
+        .where(eq(memorialRelatives.memorialId, detail.memorialId))
+        .orderBy(asc(memorialRelatives.displayOrder)),
       // The creator's original declaration — the earliest claim on this
       // memorial. Only the relationship is read; the claimant is never shown.
       db()
@@ -284,20 +285,23 @@ export default async function MemorialPage(props: {
 
   return (
     <main id="main">
-      {/*
-       * Owner-only, floated into a corner so it never sits on top of the
-       * memorial itself. A visitor never sees it, so it confirms no roles.
-       */}
-      {canManage ? (
-        <Link
-          className="memorialManageLink"
-          href={`/${locale}/memorials/${detail.slug}/manage`}
-        >
-          {t("manageLink")}
-        </Link>
-      ) : null}
-
       <article className="container section memorialView">
+        {/*
+         * Owner-only, right-aligned at the top of the memorial itself so it sits
+         * in the content column rather than floating over the site header. A
+         * visitor never sees it, so it confirms no roles.
+         */}
+        {canManage ? (
+          <div className="memorialManageRow">
+            <Link
+              className="memorialManageLink"
+              href={`/${locale}/memorials/${detail.slug}/manage`}
+            >
+              {t("manageLink")}
+            </Link>
+          </div>
+        ) : null}
+
         {showOwnerBar ? (
           <div className="memorialOwnerBar">
             {/*
