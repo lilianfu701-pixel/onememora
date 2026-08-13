@@ -281,7 +281,10 @@
     "moveUp": "Monter",
     "moveDown": "Descendre",
     "relativeRole_relative_spouse": "Conjoint d’un proche",
-    "relativeSpouseOfLabel": "Marié(e) à"
+    "relativeSpouseOfLabel": "Marié(e) à",
+    "fullTreeTitle": "Arbre généalogique complet",
+    "fullTreeLink": "Voir l’arbre complet",
+    "fullTreeEmpty": "Aucune famille enregistrée."
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

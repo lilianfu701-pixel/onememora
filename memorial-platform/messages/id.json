@@ -281,7 +281,10 @@
     "moveUp": "Naik",
     "moveDown": "Turun",
     "relativeRole_relative_spouse": "Pasangan kerabat",
-    "relativeSpouseOfLabel": "Menikah dengan"
+    "relativeSpouseOfLabel": "Menikah dengan",
+    "fullTreeTitle": "Silsilah lengkap",
+    "fullTreeLink": "Lihat silsilah lengkap",
+    "fullTreeEmpty": "Belum ada keluarga tercatat."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

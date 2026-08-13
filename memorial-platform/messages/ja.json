@@ -281,7 +281,10 @@
     "moveUp": "上へ",
     "moveDown": "下へ",
     "relativeRole_relative_spouse": "親族の配偶者",
-    "relativeSpouseOfLabel": "配偶者（誰の）"
+    "relativeSpouseOfLabel": "配偶者（誰の）",
+    "fullTreeTitle": "家系図全体",
+    "fullTreeLink": "家系図全体を見る",
+    "fullTreeEmpty": "まだ家族の記録がありません。"
   },
   "privacy": {
     "title": "このページを見られる範囲",

@@ -281,7 +281,10 @@
     "moveUp": "上移",
     "moveDown": "下移",
     "relativeRole_relative_spouse": "親屬嘅配偶",
-    "relativeSpouseOfLabel": "係邊個嘅配偶"
+    "relativeSpouseOfLabel": "係邊個嘅配偶",
+    "fullTreeTitle": "完整族譜",
+    "fullTreeLink": "查看完整族譜",
+    "fullTreeEmpty": "重未有族譜資訊。"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

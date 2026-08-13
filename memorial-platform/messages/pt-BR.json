@@ -281,7 +281,10 @@
     "moveUp": "Mover para cima",
     "moveDown": "Mover para baixo",
     "relativeRole_relative_spouse": "Cônjuge de parente",
-    "relativeSpouseOfLabel": "Casado(a) com"
+    "relativeSpouseOfLabel": "Casado(a) com",
+    "fullTreeTitle": "Árvore genealógica completa",
+    "fullTreeLink": "Ver árvore completa",
+    "fullTreeEmpty": "Nenhuma família registrada ainda."
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

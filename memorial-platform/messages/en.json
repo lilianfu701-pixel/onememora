@@ -281,7 +281,10 @@
     "moveUp": "Move up",
     "moveDown": "Move down",
     "relativeRole_relative_spouse": "In-law (relative’s spouse)",
-    "relativeSpouseOfLabel": "Married to"
+    "relativeSpouseOfLabel": "Married to",
+    "fullTreeTitle": "Full family tree",
+    "fullTreeLink": "View full family tree",
+    "fullTreeEmpty": "No family recorded yet."
   },
   "privacy": {
     "title": "Who can see this memorial",

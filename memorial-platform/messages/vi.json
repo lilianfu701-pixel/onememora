@@ -281,7 +281,10 @@
     "moveUp": "Lên",
     "moveDown": "Xuống",
     "relativeRole_relative_spouse": "Vợ/chồng của người thân",
-    "relativeSpouseOfLabel": "Kết hôn với"
+    "relativeSpouseOfLabel": "Kết hôn với",
+    "fullTreeTitle": "Cây gia phả đầy đủ",
+    "fullTreeLink": "Xem cây gia phả đầy đủ",
+    "fullTreeEmpty": "Chưa có thông tin gia đình."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

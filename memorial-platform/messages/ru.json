@@ -281,7 +281,10 @@
     "moveUp": "Вверх",
     "moveDown": "Вниз",
     "relativeRole_relative_spouse": "Супруг(а) родственника",
-    "relativeSpouseOfLabel": "В браке с"
+    "relativeSpouseOfLabel": "В браке с",
+    "fullTreeTitle": "Полное родословное древо",
+    "fullTreeLink": "Смотреть полное древо",
+    "fullTreeEmpty": "Родные пока не добавлены."
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

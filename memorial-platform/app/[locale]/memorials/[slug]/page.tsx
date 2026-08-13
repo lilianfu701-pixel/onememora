@@ -454,6 +454,17 @@ export default async function MemorialPage(props: {
               />
             ) : null}
 
+            {familyView ? (
+              <p>
+                <Link
+                  className="linkButton"
+                  href={`/${locale}/memorials/${detail.slug}/family`}
+                >
+                  {t("fullTreeLink")} →
+                </Link>
+              </p>
+            ) : null}
+
             <section className="stack">
               <h2>{t("waysToRemember")}</h2>
               {offerable.length > 0 ? (

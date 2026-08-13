@@ -281,7 +281,10 @@
     "moveUp": "위로",
     "moveDown": "아래로",
     "relativeRole_relative_spouse": "친척의 배우자",
-    "relativeSpouseOfLabel": "누구의 배우자"
+    "relativeSpouseOfLabel": "누구의 배우자",
+    "fullTreeTitle": "전체 가계도",
+    "fullTreeLink": "전체 가계도 보기",
+    "fullTreeEmpty": "아직 가족 정보가 없습니다."
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

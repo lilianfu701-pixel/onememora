@@ -281,7 +281,10 @@
     "moveUp": "上移",
     "moveDown": "下移",
     "relativeRole_relative_spouse": "亲属的配偶",
-    "relativeSpouseOfLabel": "是谁的配偶"
+    "relativeSpouseOfLabel": "是谁的配偶",
+    "fullTreeTitle": "完整族谱",
+    "fullTreeLink": "查看完整族谱",
+    "fullTreeEmpty": "还没有族谱信息。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
