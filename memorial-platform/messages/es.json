@@ -23,7 +23,8 @@
     "signIn": "Iniciar sesión",
     "signOut": "Cerrar sesión",
     "help": "Ayuda",
-    "language": "Idioma"
+    "language": "Idioma",
+    "myProfile": "Mi perfil"
   },
   "home": {
     "title": "Cada vida merece ser recordada.",
@@ -367,5 +368,23 @@
     "more": "Ver más",
     "queryTooShort": "Escriba al menos dos letras de un nombre.",
     "showMore": "Ver más resultados"
+  },
+  "profile": {
+    "title": "Mi perfil",
+    "intro": "Tus datos, usados en tus memoriales.",
+    "gateBody": "Antes de crear un memorial para un familiar, completa tu perfil: nombre, género y fecha de nacimiento.",
+    "gateCta": "Completar mi perfil",
+    "signInFirst": "Inicia sesión para gestionar tu perfil.",
+    "fullNameLabel": "Nombre completo",
+    "genderLabel": "Género",
+    "genderChoose": "Seleccionar…",
+    "genderMale": "Hombre",
+    "genderFemale": "Mujer",
+    "genderOther": "Otro",
+    "birthDateLabel": "Fecha de nacimiento",
+    "regionLabel": "Región (opcional)",
+    "save": "Guardar",
+    "saved": "Perfil guardado.",
+    "requiredNote": "Nombre, género y fecha de nacimiento son obligatorios."
   }
 }

@@ -23,7 +23,8 @@
     "signIn": "Anmelden",
     "signOut": "Abmelden",
     "help": "Hilfe",
-    "language": "Sprache"
+    "language": "Sprache",
+    "myProfile": "Mein Profil"
   },
   "home": {
     "title": "Jedes Leben verdient es, in Erinnerung zu bleiben.",
@@ -367,5 +368,23 @@
     "more": "Mehr anzeigen",
     "queryTooShort": "Geben Sie mindestens zwei Buchstaben eines Namens ein.",
     "showMore": "Weitere Ergebnisse anzeigen"
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "intro": "Ihre Angaben, für Ihre Gedenkseiten.",
+    "gateBody": "Bevor Sie eine Gedenkseite für ein Familienmitglied erstellen, vervollständigen Sie Ihr Profil: Name, Geschlecht und Geburtsdatum.",
+    "gateCta": "Profil vervollständigen",
+    "signInFirst": "Melden Sie sich an, um Ihr Profil zu verwalten.",
+    "fullNameLabel": "Vollständiger Name",
+    "genderLabel": "Geschlecht",
+    "genderChoose": "Auswählen…",
+    "genderMale": "Männlich",
+    "genderFemale": "Weiblich",
+    "genderOther": "Andere",
+    "birthDateLabel": "Geburtsdatum",
+    "regionLabel": "Region (optional)",
+    "save": "Speichern",
+    "saved": "Profil gespeichert.",
+    "requiredNote": "Name, Geschlecht und Geburtsdatum sind erforderlich."
   }
 }

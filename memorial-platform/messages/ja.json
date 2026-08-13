@@ -23,7 +23,8 @@
     "signIn": "ログイン",
     "signOut": "ログアウト",
     "help": "ヘルプ",
-    "language": "言語"
+    "language": "言語",
+    "myProfile": "プロフィール"
   },
   "home": {
     "title": "すべての命は、記憶される価値がある。",
@@ -367,5 +368,23 @@
     "more": "さらに表示",
     "queryTooShort": "お名前を 2 文字以上ご入力ください。",
     "showMore": "さらに結果を表示"
+  },
+  "profile": {
+    "title": "プロフィール",
+    "intro": "あなたの情報。追悼ページで使用されます。",
+    "gateBody": "家族の追悼ページを作成する前に、プロフィール（氏名・性別・生年月日）をご記入ください。",
+    "gateCta": "プロフィールを入力",
+    "signInFirst": "プロフィールを管理するにはサインインしてください。",
+    "fullNameLabel": "氏名",
+    "genderLabel": "性別",
+    "genderChoose": "選択…",
+    "genderMale": "男性",
+    "genderFemale": "女性",
+    "genderOther": "その他",
+    "birthDateLabel": "生年月日",
+    "regionLabel": "地域（任意）",
+    "save": "保存",
+    "saved": "プロフィールを保存しました。",
+    "requiredNote": "氏名・性別・生年月日は必須です。"
   }
 }

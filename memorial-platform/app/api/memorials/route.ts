@@ -7,6 +7,7 @@ import {
   readJson,
 } from "@/lib/api";
 import { currentActor } from "@/modules/auth/current-user";
+import { isProfileComplete, loadProfile } from "@/modules/identity/profile";
 import { createMemorial } from "@/modules/memorials/service";
 import type { CreateMemorialError } from "@/modules/memorials/service";
 import { drainOutboxAfterResponse } from "@/modules/outbox/drain-after";
@@ -134,6 +135,13 @@ export async function POST(request: Request): Promise<Response> {
   const actor = await currentActor();
   if (!actor.userId) {
     return jsonError("AUTH_REQUIRED", correlationId);
+  }
+
+  // The account holder must have completed their own profile first.
+  if (!isProfileComplete(await loadProfile(actor.userId))) {
+    return jsonUnprocessable(correlationId, {
+      _: ["Complete your profile before creating a memorial."],
+    });
   }
 
   const body = await readJson(request, schema, correlationId);

@@ -23,7 +23,8 @@
     "signIn": "Sign in",
     "signOut": "Sign out",
     "help": "Help",
-    "language": "Language"
+    "language": "Language",
+    "myProfile": "My profile"
   },
   "home": {
     "title": "Every life deserves to be remembered.",
@@ -367,5 +368,23 @@
     "more": "Show more",
     "queryTooShort": "Enter at least two characters of a name.",
     "showMore": "Show more results"
+  },
+  "profile": {
+    "title": "My profile",
+    "intro": "Your details, used across your memorials.",
+    "gateBody": "Before creating a memorial for a family member, please complete your own profile: name, gender and birth date.",
+    "gateCta": "Complete my profile",
+    "signInFirst": "Sign in to manage your profile.",
+    "fullNameLabel": "Full name",
+    "genderLabel": "Gender",
+    "genderChoose": "Select…",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "genderOther": "Other",
+    "birthDateLabel": "Date of birth",
+    "regionLabel": "Region (optional)",
+    "save": "Save",
+    "saved": "Profile saved.",
+    "requiredNote": "Name, gender and date of birth are required."
   }
 }

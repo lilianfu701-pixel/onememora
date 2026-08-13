@@ -23,7 +23,8 @@
     "signIn": "Se connecter",
     "signOut": "Se déconnecter",
     "help": "Aide",
-    "language": "Langue"
+    "language": "Langue",
+    "myProfile": "Mon profil"
   },
   "home": {
     "title": "Chaque vie mérite qu’on s’en souvienne.",
@@ -367,5 +368,23 @@
     "more": "Afficher plus",
     "queryTooShort": "Saisissez au moins deux lettres d'un nom.",
     "showMore": "Voir plus de résultats"
+  },
+  "profile": {
+    "title": "Mon profil",
+    "intro": "Vos informations, utilisées sur vos mémoriaux.",
+    "gateBody": "Avant de créer un mémorial pour un proche, complétez votre profil : nom, genre et date de naissance.",
+    "gateCta": "Compléter mon profil",
+    "signInFirst": "Connectez-vous pour gérer votre profil.",
+    "fullNameLabel": "Nom complet",
+    "genderLabel": "Genre",
+    "genderChoose": "Sélectionner…",
+    "genderMale": "Homme",
+    "genderFemale": "Femme",
+    "genderOther": "Autre",
+    "birthDateLabel": "Date de naissance",
+    "regionLabel": "Région (facultatif)",
+    "save": "Enregistrer",
+    "saved": "Profil enregistré.",
+    "requiredNote": "Nom, genre et date de naissance sont obligatoires."
   }
 }

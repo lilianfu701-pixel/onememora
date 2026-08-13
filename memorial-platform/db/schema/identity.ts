@@ -1,5 +1,6 @@
 import {
   boolean,
+  date,
   index,
   integer,
   pgEnum,
@@ -42,6 +43,16 @@ export const platformRole = pgEnum("platform_role", [
 export const users = pgTable("users", {
   id: uuid("id").defaultRandom().primaryKey(),
   displayName: text("display_name"),
+  /**
+   * The account holder's own details. A memorial is created for a family
+   * member, so the platform asks who is doing the creating first: full name,
+   * gender and birth date together are what `profileComplete` checks before
+   * the create flow is unlocked. Region is kept but optional.
+   */
+  fullName: text("full_name"),
+  gender: text("gender"),
+  birthDate: date("birth_date", { mode: "string" }),
+  region: text("region"),
   preferredLocale: text("preferred_locale").default("en").notNull(),
   status: userStatus("status").default("active").notNull(),
   platformRole: platformRole("platform_role").default("user").notNull(),

@@ -23,7 +23,8 @@
     "signIn": "Đăng nhập",
     "signOut": "Đăng xuất",
     "help": "Trợ giúp",
-    "language": "Ngôn ngữ"
+    "language": "Ngôn ngữ",
+    "myProfile": "Hồ sơ"
   },
   "home": {
     "title": "Mỗi cuộc đời đều xứng đáng được tưởng nhớ.",
@@ -367,5 +368,23 @@
     "more": "Xem thêm",
     "queryTooShort": "Vui lòng nhập ít nhất hai ký tự của tên.",
     "showMore": "Xem thêm kết quả"
+  },
+  "profile": {
+    "title": "Hồ sơ của tôi",
+    "intro": "Thông tin của bạn, dùng trên các trang tưởng niệm của bạn.",
+    "gateBody": "Trước khi tạo trang tưởng niệm cho người thân, hãy hoàn thiện hồ sơ: tên, giới tính và ngày sinh.",
+    "gateCta": "Hoàn thiện hồ sơ",
+    "signInFirst": "Đăng nhập để quản lý hồ sơ.",
+    "fullNameLabel": "Họ và tên",
+    "genderLabel": "Giới tính",
+    "genderChoose": "Chọn…",
+    "genderMale": "Nam",
+    "genderFemale": "Nữ",
+    "genderOther": "Khác",
+    "birthDateLabel": "Ngày sinh",
+    "regionLabel": "Khu vực (tùy chọn)",
+    "save": "Lưu",
+    "saved": "Đã lưu hồ sơ.",
+    "requiredNote": "Tên, giới tính và ngày sinh là bắt buộc."
   }
 }

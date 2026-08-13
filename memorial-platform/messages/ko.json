@@ -23,7 +23,8 @@
     "signIn": "로그인",
     "signOut": "로그아웃",
     "help": "도움말",
-    "language": "언어"
+    "language": "언어",
+    "myProfile": "내 프로필"
   },
   "home": {
     "title": "모든 삶은 기억될 가치가 있습니다.",
@@ -367,5 +368,23 @@
     "more": "더 보기",
     "queryTooShort": "성함을 두 글자 이상 입력해 주세요.",
     "showMore": "결과 더 보기"
+  },
+  "profile": {
+    "title": "내 프로필",
+    "intro": "추모 페이지에서 사용되는 내 정보입니다.",
+    "gateBody": "가족의 추모 페이지를 만들기 전에 이름, 성별, 생년월일을 포함한 프로필을 완성해 주세요.",
+    "gateCta": "프로필 완성하기",
+    "signInFirst": "프로필을 관리하려면 로그인하세요.",
+    "fullNameLabel": "이름",
+    "genderLabel": "성별",
+    "genderChoose": "선택…",
+    "genderMale": "남성",
+    "genderFemale": "여성",
+    "genderOther": "기타",
+    "birthDateLabel": "생년월일",
+    "regionLabel": "지역(선택)",
+    "save": "저장",
+    "saved": "프로필이 저장되었습니다.",
+    "requiredNote": "이름, 성별, 생년월일은 필수입니다."
   }
 }

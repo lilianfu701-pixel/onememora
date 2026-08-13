@@ -23,7 +23,8 @@
     "signIn": "登入",
     "signOut": "登出",
     "help": "說明",
-    "language": "語言"
+    "language": "語言",
+    "myProfile": "我的資料"
   },
   "home": {
     "title": "每一個生命都值得被紀念。",
@@ -367,5 +368,23 @@
     "more": "顯示更多",
     "queryTooShort": "請至少輸入姓名中的兩個字。",
     "showMore": "顯示更多結果"
+  },
+  "profile": {
+    "title": "我的資料",
+    "intro": "你嘅個人資訊，會用喺你管理嘅追思主頁。",
+    "gateBody": "為家人建立追思主頁前，請先填好你嘅本人資訊：姓名、性別同出生日期。",
+    "gateCta": "去填資料",
+    "signInFirst": "請先登入以管理你嘅資料。",
+    "fullNameLabel": "姓名",
+    "genderLabel": "性別",
+    "genderChoose": "請揀",
+    "genderMale": "男",
+    "genderFemale": "女",
+    "genderOther": "其他",
+    "birthDateLabel": "出生日期",
+    "regionLabel": "所在地區（可選）",
+    "save": "儲存",
+    "saved": "資料已儲存。",
+    "requiredNote": "姓名、性別、出生日期必填。"
   }
 }

@@ -23,7 +23,8 @@
     "signIn": "Masuk",
     "signOut": "Keluar",
     "help": "Bantuan",
-    "language": "Bahasa"
+    "language": "Bahasa",
+    "myProfile": "Profil saya"
   },
   "home": {
     "title": "Setiap kehidupan layak untuk dikenang.",
@@ -367,5 +368,23 @@
     "more": "Tampilkan lebih banyak",
     "queryTooShort": "Masukkan setidaknya dua huruf dari sebuah nama.",
     "showMore": "Tampilkan lebih banyak hasil"
+  },
+  "profile": {
+    "title": "Profil saya",
+    "intro": "Data Anda, digunakan di memorial Anda.",
+    "gateBody": "Sebelum membuat memorial untuk anggota keluarga, lengkapi profil Anda: nama, jenis kelamin, dan tanggal lahir.",
+    "gateCta": "Lengkapi profil",
+    "signInFirst": "Masuk untuk mengelola profil Anda.",
+    "fullNameLabel": "Nama lengkap",
+    "genderLabel": "Jenis kelamin",
+    "genderChoose": "Pilih…",
+    "genderMale": "Laki-laki",
+    "genderFemale": "Perempuan",
+    "genderOther": "Lainnya",
+    "birthDateLabel": "Tanggal lahir",
+    "regionLabel": "Wilayah (opsional)",
+    "save": "Simpan",
+    "saved": "Profil disimpan.",
+    "requiredNote": "Nama, jenis kelamin, dan tanggal lahir wajib diisi."
   }
 }
