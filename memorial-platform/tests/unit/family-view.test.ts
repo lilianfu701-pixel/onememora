@@ -157,6 +157,35 @@ describe("assembleFamilyView — collateral spouse", () => {
   });
 });
 
+describe("assembleFamilyView — pulls a linked memorial's family", () => {
+  it("turns the father's brother into an uncle and his father into a grandfather", () => {
+    const view = assembleFamilyView({
+      root,
+      relatives: [
+        { id: "f", relationshipToDeceased: "father", name: "李存義", isDeceased: true, showFullName: true },
+      ],
+      linked: [
+        {
+          personId: "pf",
+          name: "李存義",
+          slug: "mem-f",
+          role: "parent",
+          gender: "male",
+          birthYear: 1930,
+          deathYear: 1990,
+          lifeStatus: "deceased",
+          relatives: [
+            { id: "u", relationshipToDeceased: "older_brother", name: "李伯", isDeceased: true, showFullName: true },
+            { id: "gf", relationshipToDeceased: "father", name: "李祖", isDeceased: true, showFullName: true },
+          ],
+        },
+      ],
+    })!;
+    expect(labelOf(view, "u")).toBe("伯父");
+    expect(labelOf(view, "gf")).toBe("祖父");
+  });
+});
+
 describe("assembleFamilyView — nothing to draw", () => {
   it("returns null when the root has no relatives or links", () => {
     expect(assembleFamilyView({ root, relatives: [], linked: [] })).toBeNull();

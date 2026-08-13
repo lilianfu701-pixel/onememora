@@ -61,6 +61,7 @@ export default async function FamilyTreePage(props: {
       deathYear: year(detail.deathDate, detail.deathDatePrecision),
     },
     relatives,
+    { recurse: true },
   );
 
   return (

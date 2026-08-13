@@ -1,6 +1,12 @@
-import { and, eq } from "drizzle-orm";
+import { and, asc, eq } from "drizzle-orm";
 import { db } from "@/db/client";
-import { deceasedPeople, familyPeople, memorials, memorialNames } from "@/db/schema";
+import {
+  deceasedPeople,
+  familyPeople,
+  memorials,
+  memorialNames,
+  memorialRelatives,
+} from "@/db/schema";
 import type { Tree, TreeEdge, TreeNode } from "./tree";
 import type { Gender, Kinship } from "./kinship";
 import { buildGraph, classifyKinship } from "./kinship";
@@ -46,6 +52,8 @@ export type LinkedMemorial = {
   birthYear: number | null;
   deathYear: number | null;
   lifeStatus: "living" | "deceased" | "unknown";
+  /** That memorial's own relatives, pulled in for the full family view. */
+  relatives?: RelativeRow[];
 };
 
 export type RootInfo = {
@@ -127,11 +135,6 @@ const SIBLING_TYPES = new Set([
 ]);
 const PATERNAL_GP = new Set(["paternal_grandfather", "paternal_grandmother"]);
 const MATERNAL_GP = new Set(["maternal_grandfather", "maternal_grandmother"]);
-const roleTypes: Record<LinkedMemorial["role"], Set<string>> = {
-  parent: PARENT_TYPES,
-  child: CHILD_TYPES,
-  partner: PARTNER_TYPES,
-};
 
 /**
  * Assembles the tree and the kinship of each node to the root. Pure: every
@@ -149,10 +152,6 @@ export function assembleFamilyView(input: {
   ];
   const parentEdges: { parentId: string; childId: string }[] = [];
   const partnerEdges: { aId: string; bId: string; dissolved: boolean }[] = [];
-  /** Child relative id → co-parent relative id, deferred until both exist. */
-  const coParentOf = new Map<string, string>();
-  /** Collateral-spouse node id → the relative id they married. */
-  const spouseOf = new Map<string, string>();
   const display = new Map<string, DisplayNode>([
     [
       ROOT_ID,
@@ -168,116 +167,167 @@ export function assembleFamilyView(input: {
   ]);
   const withheld = new Set<string>();
   /** Raw name → node id, so a linked memorial can find the relative it names. */
-  const byRawName = new Map<string, string>();
+  const byRawName = new Map<string, string>([[input.root.name.trim(), ROOT_ID]]);
+  /** Every edge already added, so pulling a linked family in never doubles one. */
+  const edgeKeys = new Set<string>();
+  /** A relative's own id → the node it resolved to (deduped by name). */
+  const relIdToNode = new Map<string, string>();
 
-  let fatherId: string | null = null;
-  let motherId: string | null = null;
   let anchorSeq = 0;
 
-  function addGraphNode(id: string, gender: Gender, birthYear: number | null): void {
-    graphNodes.push({ id, gender, birthYear });
+  function addParentEdge(parentId: string, childId: string): void {
+    if (parentId === childId) return;
+    const key = `p:${parentId}>${childId}`;
+    if (edgeKeys.has(key)) return;
+    edgeKeys.add(key);
+    parentEdges.push({ parentId, childId });
   }
 
-  function addDisplay(id: string, node: DisplayNode): void {
-    display.set(id, node);
+  function addPartnerEdge(aId: string, bId: string, dissolved: boolean): void {
+    if (aId === bId) return;
+    const [x, y] = aId < bId ? [aId, bId] : [bId, aId];
+    const key = `m:${x}-${y}`;
+    if (edgeKeys.has(key)) return;
+    edgeKeys.add(key);
+    partnerEdges.push({ aId, bId, dissolved });
   }
 
-  function anchor(gender: Gender): string {
-    const id = `anchor:${(anchorSeq += 1)}`;
-    addGraphNode(id, gender, null);
-    withheld.add(id);
-    parentEdges.push({ parentId: id, childId: ROOT_ID });
-    return id;
+  /** Reuses a node with the same name if there is one; otherwise makes it. */
+  function resolveNode(
+    rawName: string,
+    freshId: string,
+    gender: Gender,
+    birthYear: number | null,
+    lifeStatus: DisplayNode["lifeStatus"],
+    displayName: string,
+  ): string {
+    const key = rawName.trim();
+    const existing = byRawName.get(key);
+    if (existing) {
+      const node = graphNodes.find((g) => g.id === existing);
+      if (node && node.gender === "unknown" && gender !== "unknown") {
+        node.gender = gender;
+      }
+      return existing;
+    }
+    graphNodes.push({ id: freshId, gender, birthYear });
+    display.set(freshId, {
+      id: freshId,
+      name: displayName,
+      slug: null,
+      birthYear: null,
+      deathYear: null,
+      lifeStatus,
+    });
+    byRawName.set(key, freshId);
+    return freshId;
   }
 
-  function fatherAnchor(): string {
-    if (fatherId) return fatherId;
-    fatherId = anchor("male");
-    return fatherId;
-  }
-  function motherAnchor(): string {
-    if (motherId) return motherId;
-    motherId = anchor("female");
-    return motherId;
-  }
+  /**
+   * Adds one person's relatives around `centerId` — the same star the root
+   * gets, reused so a linked memorial contributes its parents (grandparents),
+   * siblings (aunts and uncles) and children into one shared graph, merging by
+   * name where the two families already name the same person.
+   */
+  function addStar(centerId: string, relatives: RelativeRow[]): void {
+    let starFather: string | null = null;
+    let starMother: string | null = null;
+    const anchorNode = (gender: Gender): string => {
+      const id = `anchor:${(anchorSeq += 1)}`;
+      graphNodes.push({ id, gender, birthYear: null });
+      withheld.add(id);
+      addParentEdge(id, centerId);
+      return id;
+    };
+    const starFatherAnchor = (): string => (starFather ??= anchorNode("male"));
+    const starMotherAnchor = (): string => (starMother ??= anchorNode("female"));
 
-  // Parents first, so siblings and grandparents attach to a named parent
-  // rather than minting an anchor that duplicates one listed later.
-  const ordered = [...input.relatives].sort((a, b) => {
-    const ap = PARENT_TYPES.has(a.relationshipToDeceased) ? 0 : 1;
-    const bp = PARENT_TYPES.has(b.relationshipToDeceased) ? 0 : 1;
-    return ap - bp;
-  });
+    const ordered = [...relatives].sort((a, b) => {
+      const ap = PARENT_TYPES.has(a.relationshipToDeceased) ? 0 : 1;
+      const bp = PARENT_TYPES.has(b.relationshipToDeceased) ? 0 : 1;
+      return ap - bp;
+    });
 
-  for (const rel of ordered) {
-    const type = rel.relationshipToDeceased;
-    const id = `rel:${rel.id}`;
-    const gender = genderOfType(type);
-    const name = rel.showFullName ? rel.name : desensitize(rel.name);
-    const lifeStatus = rel.isDeceased ? "deceased" : "living";
+    const coParents: { childNode: string; coParentRelId: string }[] = [];
+    const spouses: { spouseNode: string; relativeRelId: string }[] = [];
 
-    if (PARENT_TYPES.has(type)) {
-      addGraphNode(id, gender, null);
-      parentEdges.push({ parentId: id, childId: ROOT_ID });
-      if (type === "father") fatherId = id;
-      else if (type === "mother") motherId = id;
-    } else if (CHILD_TYPES.has(type)) {
-      addGraphNode(id, gender, null);
-      parentEdges.push({ parentId: ROOT_ID, childId: id });
-      if (rel.coParentId) coParentOf.set(id, `rel:${rel.coParentId}`);
-    } else if (PARTNER_TYPES.has(type)) {
-      addGraphNode(id, gender, null);
-      partnerEdges.push({ aId: ROOT_ID, bId: id, dissolved: false });
-    } else if (EX_PARTNER_TYPES.has(type)) {
-      addGraphNode(id, gender, null);
-      partnerEdges.push({ aId: ROOT_ID, bId: id, dissolved: true });
-    } else if (SIBLING_TYPES.has(type)) {
-      addGraphNode(id, gender, birthYearForSeniority(type));
-      // Share both parents with the root so siblings sit together beneath them.
-      parentEdges.push({ parentId: fatherAnchor(), childId: id });
-      if (motherId) parentEdges.push({ parentId: motherId, childId: id });
-    } else if (PATERNAL_GP.has(type)) {
-      addGraphNode(id, gender, null);
-      parentEdges.push({ parentId: id, childId: fatherAnchor() });
-    } else if (MATERNAL_GP.has(type)) {
-      addGraphNode(id, gender, null);
-      parentEdges.push({ parentId: id, childId: motherAnchor() });
-    } else if (type === RELATIVE_SPOUSE && rel.spouseOfId) {
-      // A collateral relative's spouse; gender is settled below from the
-      // relative they married, then joined by a partner edge.
-      addGraphNode(id, "unknown", null);
-      spouseOf.set(id, `rel:${rel.spouseOfId}`);
-    } else {
-      continue; // unknown relationship string — leave it out rather than guess
+    for (const rel of ordered) {
+      const type = rel.relationshipToDeceased;
+      const freshId = `rel:${rel.id}`;
+      const gender = genderOfType(type);
+      const displayName = rel.showFullName ? rel.name : desensitize(rel.name);
+      const lifeStatus = rel.isDeceased ? "deceased" : "living";
+      let nid: string;
+
+      if (PARENT_TYPES.has(type)) {
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        addParentEdge(nid, centerId);
+        if (type === "father") starFather = nid;
+        else if (type === "mother") starMother = nid;
+      } else if (CHILD_TYPES.has(type)) {
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        addParentEdge(centerId, nid);
+        if (rel.coParentId) {
+          coParents.push({ childNode: nid, coParentRelId: `rel:${rel.coParentId}` });
+        }
+      } else if (PARTNER_TYPES.has(type)) {
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        addPartnerEdge(centerId, nid, false);
+      } else if (EX_PARTNER_TYPES.has(type)) {
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        addPartnerEdge(centerId, nid, true);
+      } else if (SIBLING_TYPES.has(type)) {
+        nid = resolveNode(
+          rel.name,
+          freshId,
+          gender,
+          birthYearForSeniority(type),
+          lifeStatus,
+          displayName,
+        );
+        addParentEdge(starFatherAnchor(), nid);
+        if (starMother) addParentEdge(starMother, nid);
+      } else if (PATERNAL_GP.has(type)) {
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        addParentEdge(nid, starFatherAnchor());
+      } else if (MATERNAL_GP.has(type)) {
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        addParentEdge(nid, starMotherAnchor());
+      } else if (type === RELATIVE_SPOUSE && rel.spouseOfId) {
+        nid = resolveNode(rel.name, freshId, "unknown", null, lifeStatus, displayName);
+        spouses.push({ spouseNode: nid, relativeRelId: `rel:${rel.spouseOfId}` });
+      } else {
+        continue;
+      }
+      relIdToNode.set(freshId, nid);
     }
 
-    addDisplay(id, { id, name, slug: null, birthYear: null, deathYear: null, lifeStatus });
-    byRawName.set(rel.name.trim(), id);
-  }
-
-  // A child born to a specific spouse shares that spouse as a parent, which is
-  // what puts it under the right marriage in the chart.
-  for (const [childId, coParentId] of coParentOf) {
-    if (display.has(coParentId) && display.has(childId)) {
-      parentEdges.push({ parentId: coParentId, childId });
+    for (const { childNode, coParentRelId } of coParents) {
+      const co = relIdToNode.get(coParentRelId);
+      if (co && display.has(co)) addParentEdge(co, childNode);
+    }
+    for (const { spouseNode, relativeRelId } of spouses) {
+      const relNode = relIdToNode.get(relativeRelId);
+      if (!relNode) continue;
+      addPartnerEdge(relNode, spouseNode, false);
+      const relG = graphNodes.find((g) => g.id === relNode);
+      const spG = graphNodes.find((g) => g.id === spouseNode);
+      if (spG) spG.gender = oppositeGender(relG?.gender);
     }
   }
 
-  // Join each collateral spouse to their partner; their gender is the opposite
-  // of that relative's, which is what makes the affinal term read 姐夫 vs 嫂子.
-  for (const [spouseId, relativeId] of spouseOf) {
-    if (!display.has(relativeId) || !display.has(spouseId)) continue;
-    partnerEdges.push({ aId: relativeId, bId: spouseId, dissolved: false });
-    const relativeNode = graphNodes.find((g) => g.id === relativeId);
-    const spouseNode = graphNodes.find((g) => g.id === spouseId);
-    if (spouseNode) spouseNode.gender = oppositeGender(relativeNode?.gender);
-  }
+  // The root's own family.
+  addStar(ROOT_ID, input.relatives);
 
   // Fold confirmed memorial links in: merge onto the relative that names the
   // same person (giving it a clickable slug and real dates), else add fresh.
+  // When the link carries the other memorial's relatives, add them too, so an
+  // uncle or grandparent recorded on that memorial joins this tree.
   for (const link of input.linked) {
     const existingId = byRawName.get(link.name.trim());
-    if (existingId && roleTypes[link.role].has(displayType(existingId, ordered))) {
+    let memNode: string;
+    if (existingId) {
+      memNode = existingId;
       const node = display.get(existingId);
       if (node) {
         node.slug = link.slug;
@@ -286,23 +336,34 @@ export function assembleFamilyView(input: {
         node.lifeStatus = link.lifeStatus;
       }
       const gnode = graphNodes.find((g) => g.id === existingId);
-      if (gnode && gnode.gender === "unknown") gnode.gender = link.gender;
-      continue;
+      if (gnode) {
+        if (gnode.gender === "unknown") gnode.gender = link.gender;
+        // Its real birth year settles seniority (伯 vs 叔) for that side.
+        if (gnode.birthYear === null && link.birthYear !== null) {
+          gnode.birthYear = link.birthYear;
+        }
+      }
+    } else {
+      memNode = `mem:${link.personId}`;
+      graphNodes.push({ id: memNode, gender: link.gender, birthYear: link.birthYear });
+      display.set(memNode, {
+        id: memNode,
+        name: link.name,
+        slug: link.slug,
+        birthYear: link.birthYear,
+        deathYear: link.deathYear,
+        lifeStatus: link.lifeStatus,
+      });
+      byRawName.set(link.name.trim(), memNode);
     }
 
-    const id = `mem:${link.personId}`;
-    addGraphNode(id, link.gender, link.birthYear);
-    if (link.role === "parent") parentEdges.push({ parentId: id, childId: ROOT_ID });
-    else if (link.role === "child") parentEdges.push({ parentId: ROOT_ID, childId: id });
-    else partnerEdges.push({ aId: ROOT_ID, bId: id, dissolved: false });
-    addDisplay(id, {
-      id,
-      name: link.name,
-      slug: link.slug,
-      birthYear: link.birthYear,
-      deathYear: link.deathYear,
-      lifeStatus: link.lifeStatus,
-    });
+    if (link.role === "parent") addParentEdge(memNode, ROOT_ID);
+    else if (link.role === "child") addParentEdge(ROOT_ID, memNode);
+    else addPartnerEdge(ROOT_ID, memNode, false);
+
+    if (link.relatives && link.relatives.length > 0) {
+      addStar(memNode, link.relatives);
+    }
   }
 
   if (display.size <= 1) return null;
@@ -357,17 +418,18 @@ export function assembleFamilyView(input: {
   return { tree: { rootRef: refOf.get(ROOT_ID) ?? 0, nodes, edges }, kinship };
 }
 
-/** The relationship string a relative node was built from, for role matching. */
-function displayType(nodeId: string, relatives: RelativeRow[]): string {
-  const relId = nodeId.startsWith("rel:") ? nodeId.slice(4) : null;
-  return relatives.find((r) => r.id === relId)?.relationshipToDeceased ?? "";
-}
-
 /**
  * Loads the confirmed memorial links of the person behind `memorialId`,
- * resolved to name, slug, gender and years for the tree.
+ * resolved to name, slug, gender and years for the tree. When `recurse` is on,
+ * a linked memorial that is public and published also brings its own relatives,
+ * so the full family view can show aunts, uncles and grandparents. A private
+ * memorial's relatives are never pulled — that would leak what its own page
+ * keeps behind access control.
  */
-async function linkedMemorialsOf(memorialId: string): Promise<LinkedMemorial[]> {
+async function linkedMemorialsOf(
+  memorialId: string,
+  recurse: boolean,
+): Promise<LinkedMemorial[]> {
   const [memorial] = await db()
     .select({ deceasedPersonId: memorials.deceasedPersonId })
     .from(memorials)
@@ -385,7 +447,10 @@ async function linkedMemorialsOf(memorialId: string): Promise<LinkedMemorial[]> 
   for (const link of links) {
     const [row] = await db()
       .select({
+        id: memorials.id,
         slug: memorials.slug,
+        status: memorials.status,
+        visibility: memorials.visibility,
         name: memorialNames.value,
         gender: deceasedPeople.gender,
         birthDate: deceasedPeople.birthDate,
@@ -403,7 +468,8 @@ async function linkedMemorialsOf(memorialId: string): Promise<LinkedMemorial[]> 
       )
       .where(eq(familyPeople.id, link.otherPersonId));
     if (!row || !row.name) continue;
-    result.push({
+
+    const entry: LinkedMemorial = {
       personId: link.otherPersonId,
       name: row.name,
       slug: row.slug,
@@ -412,7 +478,25 @@ async function linkedMemorialsOf(memorialId: string): Promise<LinkedMemorial[]> 
       birthYear: yearOf(row.birthDate),
       deathYear: yearOf(row.deathDate),
       lifeStatus: row.deathDate ? "deceased" : "unknown",
-    });
+    };
+
+    if (recurse && row.status === "published" && row.visibility === "public") {
+      entry.relatives = await db()
+        .select({
+          id: memorialRelatives.id,
+          name: memorialRelatives.name,
+          relationshipToDeceased: memorialRelatives.relationshipToDeceased,
+          isDeceased: memorialRelatives.isDeceased,
+          showFullName: memorialRelatives.showFullName,
+          coParentId: memorialRelatives.coParentId,
+          spouseOfId: memorialRelatives.spouseOfId,
+        })
+        .from(memorialRelatives)
+        .where(eq(memorialRelatives.memorialId, row.id))
+        .orderBy(asc(memorialRelatives.displayOrder));
+    }
+
+    result.push(entry);
   }
   return result;
 }
@@ -428,7 +512,8 @@ export async function familyViewForMemorial(
   memorialId: string,
   root: RootInfo,
   relatives: RelativeRow[],
+  options?: { recurse?: boolean },
 ): Promise<{ tree: Tree; kinship: Map<string, Kinship> } | null> {
-  const linked = await linkedMemorialsOf(memorialId);
+  const linked = await linkedMemorialsOf(memorialId, options?.recurse ?? false);
   return assembleFamilyView({ root, relatives, linked });
 }
