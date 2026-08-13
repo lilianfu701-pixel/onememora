@@ -24,6 +24,10 @@ export type ChartPerson = {
   memorialSlug: string | null;
   gender: Gender;
   isRoot: boolean;
+  /** Known to have died — drawn with a mourning frame. */
+  deceased: boolean;
+  /** Whether life status is known at all (living/deceased vs unknown). */
+  lifeKnown: boolean;
   /** Someone whose identity is withheld — an unshown connecting generation. */
   withheld: boolean;
 };
@@ -88,6 +92,8 @@ export function buildFamilyChart(tree: Tree): ChartUnion[] {
         memorialSlug: null,
         gender: "unknown",
         isRoot,
+        deceased: false,
+        lifeKnown: false,
         withheld: true,
       };
     }
@@ -102,6 +108,8 @@ export function buildFamilyChart(tree: Tree): ChartUnion[] {
       memorialSlug: node.memorialSlug,
       gender: genderOf(ref),
       isRoot,
+      deceased: node.lifeStatus === "deceased",
+      lifeKnown: node.lifeStatus !== "unknown",
       withheld: false,
     };
   };

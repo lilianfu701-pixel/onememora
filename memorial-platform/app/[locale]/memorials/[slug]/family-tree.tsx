@@ -16,15 +16,32 @@ import { exSpouseLabel, kinshipLabel } from "@/modules/genealogy/kinship-terms";
  * right spouse. Connectors are CSS — see `.famChart` in globals.css — so the
  * whole chart renders on the server.
  */
+/** Everything the recursive nodes need beyond the union itself. */
+type ChartContext = {
+  locale: string;
+  kinship: Map<string, Kinship>;
+  statusLiving: string;
+  statusDeceased: string;
+};
+
 export function FamilyTree(props: {
   tree: Tree;
   locale: string;
   heading: string;
   kinship: Map<string, Kinship>;
+  statusLiving: string;
+  statusDeceased: string;
 }) {
   if (props.tree.nodes.length <= 1) return null;
   const forest = buildFamilyChart(props.tree);
   if (forest.length === 0) return null;
+
+  const ctx: ChartContext = {
+    locale: props.locale,
+    kinship: props.kinship,
+    statusLiving: props.statusLiving,
+    statusDeceased: props.statusDeceased,
+  };
 
   return (
     <section className="stack">
@@ -32,12 +49,7 @@ export function FamilyTree(props: {
       <div className="famChart">
         <ul className="famForest">
           {forest.map((union) => (
-            <UnionNode
-              union={union}
-              locale={props.locale}
-              kinship={props.kinship}
-              key={union.key}
-            />
+            <UnionNode union={union} ctx={ctx} key={union.key} />
           ))}
         </ul>
       </div>
@@ -45,13 +57,9 @@ export function FamilyTree(props: {
   );
 }
 
-function UnionNode(props: {
-  union: ChartUnion;
-  locale: string;
-  kinship: Map<string, Kinship>;
-}) {
+function UnionNode(props: { union: ChartUnion; ctx: ChartContext }) {
   const { anchor, marriages } = props.union;
-  const shared = { locale: props.locale, kinship: props.kinship };
+  const ctx = props.ctx;
 
   // Anchor first, then each spouse (current before ended); broods follow the
   // same order so a spouse and their children line up.
@@ -62,9 +70,9 @@ function UnionNode(props: {
   return (
     <li className="famUnion">
       <div className="famCouple">
-        <PersonCard person={anchor} {...shared} />
+        <PersonCard person={anchor} ctx={ctx} />
         {spouses.map((marriage) => (
-          <SpouseCard marriage={marriage} {...shared} key={marriage.spouse?.ref} />
+          <SpouseCard marriage={marriage} ctx={ctx} key={marriage.spouse?.ref} />
         ))}
       </div>
 
@@ -74,12 +82,12 @@ function UnionNode(props: {
             <div className="famBrood" key={marriage.spouse?.ref ?? `b${index}`}>
               {labelBroods ? (
                 <span className="famBroodCaption">
-                  {broodCaption(marriage, props.locale)}
+                  {broodCaption(marriage, ctx.locale)}
                 </span>
               ) : null}
               <ul className="famChildren">
                 {marriage.children.map((child) => (
-                  <UnionNode union={child} {...shared} key={child.key} />
+                  <UnionNode union={child} ctx={ctx} key={child.key} />
                 ))}
               </ul>
             </div>
@@ -90,11 +98,7 @@ function UnionNode(props: {
   );
 }
 
-function SpouseCard(props: {
-  marriage: ChartMarriage;
-  locale: string;
-  kinship: Map<string, Kinship>;
-}) {
+function SpouseCard(props: { marriage: ChartMarriage; ctx: ChartContext }) {
   const { spouse, dissolved } = props.marriage;
   if (!spouse) return null;
 
@@ -106,11 +110,10 @@ function SpouseCard(props: {
       />
       <PersonCard
         person={spouse}
-        locale={props.locale}
-        kinship={props.kinship}
+        ctx={props.ctx}
         marriedIn
         overrideLabel={
-          dissolved ? exSpouseLabel(spouse.gender, props.locale) : null
+          dissolved ? exSpouseLabel(spouse.gender, props.ctx.locale) : null
         }
       />
     </>
@@ -119,12 +122,11 @@ function SpouseCard(props: {
 
 function PersonCard(props: {
   person: ChartPerson;
-  locale: string;
-  kinship: Map<string, Kinship>;
+  ctx: ChartContext;
   marriedIn?: boolean;
   overrideLabel?: string | null;
 }) {
-  const { person } = props;
+  const { person, ctx } = props;
 
   if (person.withheld) {
     return (
@@ -134,15 +136,25 @@ function PersonCard(props: {
     );
   }
 
-  const kin = person.personId ? props.kinship.get(person.personId) : undefined;
+  const kin = person.personId ? ctx.kinship.get(person.personId) : undefined;
   const relation =
     props.overrideLabel ??
-    (person.isRoot || !kin ? null : kinshipLabel(kin, props.locale));
+    (person.isRoot || !kin ? null : kinshipLabel(kin, ctx.locale));
+
+  // Status shows on everyone but the memorial's own subject, who is plainly
+  // the person being remembered.
+  const status =
+    person.isRoot || !person.lifeKnown
+      ? null
+      : person.deceased
+        ? ctx.statusDeceased
+        : ctx.statusLiving;
 
   const className = [
     "famCard",
     person.isRoot ? "famCardRoot" : "",
     props.marriedIn ? "famCardMarriedIn" : "",
+    person.deceased && !person.isRoot ? "famCardDeceased" : "",
   ]
     .filter(Boolean)
     .join(" ");
@@ -156,6 +168,7 @@ function PersonCard(props: {
         {person.years ? (
           <span className="famCardYears">{person.years}</span>
         ) : null}
+        {status ? <span className="famCardStatus">{status}</span> : null}
       </span>
     </>
   );
@@ -164,7 +177,7 @@ function PersonCard(props: {
     return (
       <Link
         className={className}
-        href={`/${props.locale}/memorials/${person.memorialSlug}`}
+        href={`/${ctx.locale}/memorials/${person.memorialSlug}`}
       >
         {body}
       </Link>

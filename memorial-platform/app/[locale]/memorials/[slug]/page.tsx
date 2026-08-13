@@ -421,6 +421,8 @@ export default async function MemorialPage(props: {
                 locale={locale}
                 heading={t("familyTreeHeading")}
                 kinship={familyView.kinship}
+                statusLiving={t("statusLiving")}
+                statusDeceased={t("statusDeceased")}
               />
             ) : null}
 

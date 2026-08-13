@@ -1674,6 +1674,20 @@ a.famCard:focus-visible {
   background: color-mix(in oklab, var(--gold) 12%, var(--paper-raised));
 }
 
+/* A mourning frame: someone who has died. */
+.famCardDeceased {
+  border-color: var(--ink);
+}
+
+.famCardStatus {
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+
+.famCardDeceased .famCardStatus {
+  color: var(--ink);
+}
+
 /* Married-in, not blood: a dashed edge marks the join by marriage. */
 .famCardMarriedIn {
   border-style: dashed;

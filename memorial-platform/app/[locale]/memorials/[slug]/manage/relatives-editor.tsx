@@ -249,8 +249,10 @@ export function RelativesEditor(props: {
             const counts = usedCounts();
             const shown = showAllNames || rel.showFullName;
             const spouses = spouseOptions().filter((s) => s.rid !== rel.rid);
+            // Only worth asking when there's a real choice of parent — a
+            // current spouse and an ex, say. One spouse and it's not a question.
             const showCoParent =
-              CHILD_TYPES.has(rel.relationshipToDeceased) && spouses.length > 0;
+              CHILD_TYPES.has(rel.relationshipToDeceased) && spouses.length >= 2;
             return (
               <div className="relativeEntry" key={rel.rid}>
               <div className="relativeRow">
