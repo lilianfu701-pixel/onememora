@@ -1585,13 +1585,14 @@ img {
 }
 
 .famSeg {
-  stroke: var(--line-strong);
-  stroke-width: 1.5;
+  stroke: var(--ink);
+  stroke-width: 1.75;
   fill: none;
 }
 
 .famSegDashed {
-  stroke-dasharray: 5 3;
+  stroke: var(--muted);
+  stroke-dasharray: 5 4;
 }
 
 .famCard {
@@ -1600,8 +1601,8 @@ img {
   display: flex;
   align-items: center;
   gap: var(--space-2);
-  padding: var(--space-2);
-  border: 1px solid var(--line-strong);
+  padding: var(--space-2) var(--space-3);
+  border: 1.5px solid var(--line-strong);
   border-radius: var(--radius-md);
   background: var(--paper-raised);
   text-decoration: none;
@@ -1618,13 +1619,15 @@ a.famCard:focus-visible {
 /* The person a page is about. */
 .famCardRoot {
   border-color: var(--gold);
-  border-width: 2px;
-  background: color-mix(in oklab, var(--gold) 12%, var(--paper-raised));
+  border-width: 2.5px;
+  background: color-mix(in oklab, var(--gold) 14%, var(--paper-raised));
 }
 
-/* A mourning frame: someone who has died. */
+/* A mourning frame: someone who has died — a heavy black border. */
 .famCardDeceased {
-  border-color: var(--ink);
+  border-style: solid;
+  border-color: #15120c;
+  border-width: 3px;
 }
 
 .famCardStatus {
@@ -1634,6 +1637,7 @@ a.famCard:focus-visible {
 
 .famCardDeceased .famCardStatus {
   color: var(--ink);
+  font-weight: 600;
 }
 
 /* Married-in, not blood: a dashed edge marks the join by marriage. */
@@ -1645,43 +1649,48 @@ a.famCard:focus-visible {
 .famCardText {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 2px;
   min-width: 0;
   text-align: start;
 }
 
 .famCardRelation {
-  font-size: var(--text-xs);
-  font-weight: 600;
+  font-size: var(--text-sm);
+  font-weight: 700;
   color: var(--gold);
   letter-spacing: 0.02em;
+  line-height: 1.1;
 }
 
 .famCardName {
-  font-size: var(--text-sm);
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: var(--text-base);
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .famCardYears {
   font-size: var(--text-xs);
   color: var(--muted);
+  line-height: 1.1;
 }
 
 /* Sex marker: square male, circle female, diamond unknown — the standard. */
 .famSex {
   flex: none;
-  width: 9px;
-  height: 9px;
+  width: 11px;
+  height: 11px;
   background: var(--muted);
 }
 .famSex-male {
   border-radius: 2px;
-  background: oklch(60% 0.1 250);
+  background: oklch(55% 0.11 250);
 }
 .famSex-female {
   border-radius: 50%;
-  background: oklch(68% 0.12 10);
+  background: oklch(62% 0.14 10);
 }
 .famSex-unknown {
   transform: rotate(45deg);
@@ -1689,7 +1698,6 @@ a.famCard:focus-visible {
 }
 
 .famCardWithheld {
-  min-inline-size: 2.5rem;
   justify-content: center;
   color: var(--muted);
   letter-spacing: 0.15em;
