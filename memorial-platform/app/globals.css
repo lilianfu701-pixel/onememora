@@ -521,7 +521,7 @@ img {
 
 .relativesHead {
   display: grid;
-  grid-template-columns: 10rem 12rem 7.5rem 3rem 1fr 2.25rem;
+  grid-template-columns: 10rem 12rem 7.5rem 3rem 1fr auto;
   gap: var(--space-3);
   align-items: end;
   padding-block-end: var(--space-2);
@@ -532,7 +532,7 @@ img {
 
 .relativeRow {
   display: grid;
-  grid-template-columns: 10rem 12rem 7.5rem 3rem 1fr 2.25rem;
+  grid-template-columns: 10rem 12rem 7.5rem 3rem 1fr auto;
   gap: var(--space-3);
   align-items: center;
   padding-block: var(--space-2);
@@ -592,13 +592,25 @@ img {
   border-block-start: 1px solid var(--line);
 }
 
-/* A tight square remove control that lines up with the 40px row inputs. */
+/* Reorder + remove controls, lined up with the 40px row inputs. */
+.rowActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.rowMove,
 .rowRemove {
   min-height: 40px;
   min-width: 2.25rem;
   padding-inline: 0;
   font-size: var(--text-lg);
   line-height: 1;
+}
+
+.rowMove:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
 
 .relativesActions {

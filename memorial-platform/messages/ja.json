@@ -277,7 +277,9 @@
     "myBookmarked": "保存済み",
     "myBookmarkedEmpty": "まだ保存した追悼ページはありません。",
     "myRelated": "自分に関係する",
-    "myRelatedEmpty": "あなたに関係する追悼ページはまだありません。"
+    "myRelatedEmpty": "あなたに関係する追悼ページはまだありません。",
+    "moveUp": "上へ",
+    "moveDown": "下へ"
   },
   "privacy": {
     "title": "このページを見られる範囲",

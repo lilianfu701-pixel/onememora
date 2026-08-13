@@ -277,7 +277,9 @@
     "myBookmarked": "المحفوظة",
     "myBookmarkedEmpty": "لم تحفظ أي صفحة تذكارية بعد.",
     "myRelated": "المتعلقة بي",
-    "myRelatedEmpty": "لا توجد صفحات تذكارية مرتبطة بك بعد."
+    "myRelatedEmpty": "لا توجد صفحات تذكارية مرتبطة بك بعد.",
+    "moveUp": "تحريك لأعلى",
+    "moveDown": "تحريك لأسفل"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

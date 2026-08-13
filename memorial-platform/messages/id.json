@@ -277,7 +277,9 @@
     "myBookmarked": "Tersimpan",
     "myBookmarkedEmpty": "Anda belum menyimpan memorial apa pun.",
     "myRelated": "Terkait dengan saya",
-    "myRelatedEmpty": "Belum ada memorial yang terkait dengan Anda."
+    "myRelatedEmpty": "Belum ada memorial yang terkait dengan Anda.",
+    "moveUp": "Naik",
+    "moveDown": "Turun"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

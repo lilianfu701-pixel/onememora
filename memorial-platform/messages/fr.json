@@ -277,7 +277,9 @@
     "myBookmarked": "Enregistrés",
     "myBookmarkedEmpty": "Vous n'avez encore rien enregistré.",
     "myRelated": "Qui me concernent",
-    "myRelatedEmpty": "Aucun mémorial ne vous est encore associé."
+    "myRelatedEmpty": "Aucun mémorial ne vous est encore associé.",
+    "moveUp": "Monter",
+    "moveDown": "Descendre"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

@@ -277,7 +277,9 @@
     "myBookmarked": "Saved",
     "myBookmarkedEmpty": "You haven't saved any memorials yet.",
     "myRelated": "Related to me",
-    "myRelatedEmpty": "No memorials are shared with you yet."
+    "myRelatedEmpty": "No memorials are shared with you yet.",
+    "moveUp": "Move up",
+    "moveDown": "Move down"
   },
   "privacy": {
     "title": "Who can see this memorial",

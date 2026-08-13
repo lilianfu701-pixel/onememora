@@ -277,7 +277,9 @@
     "myBookmarked": "我收藏的",
     "myBookmarkedEmpty": "你还没有收藏的追思主页。",
     "myRelated": "和我有关的",
-    "myRelatedEmpty": "还没有和你有关的追思主页。"
+    "myRelatedEmpty": "还没有和你有关的追思主页。",
+    "moveUp": "上移",
+    "moveDown": "下移"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

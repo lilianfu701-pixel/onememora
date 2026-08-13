@@ -277,7 +277,9 @@
     "myBookmarked": "Gemerkt",
     "myBookmarkedEmpty": "Sie haben noch nichts gemerkt.",
     "myRelated": "Mit mir verbunden",
-    "myRelatedEmpty": "Es sind noch keine Gedenkseiten mit Ihnen verbunden."
+    "myRelatedEmpty": "Es sind noch keine Gedenkseiten mit Ihnen verbunden.",
+    "moveUp": "Nach oben",
+    "moveDown": "Nach unten"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

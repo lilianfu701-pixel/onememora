@@ -170,6 +170,19 @@ export function RelativesEditor(props: {
     setRelatives(relatives.filter((_, i) => i !== idx));
   }
 
+  /** Reorders a row; the saved order is what sets the children's order. */
+  function move(idx: number, dir: -1 | 1): void {
+    const to = idx + dir;
+    if (to < 0 || to >= relatives.length) return;
+    const next = [...relatives];
+    const a = next[idx];
+    const b = next[to];
+    if (!a || !b) return;
+    next[idx] = b;
+    next[to] = a;
+    setRelatives(next);
+  }
+
   async function save(): Promise<void> {
     setSaving(true);
     setNotice({ kind: "none" });
@@ -319,14 +332,34 @@ export function RelativesEditor(props: {
                       : desensitizeName(rel.name)
                     : "—"}
                 </span>
-                <button
-                  type="button"
-                  className="button buttonQuiet rowRemove"
-                  onClick={() => removeRelative(i)}
-                  aria-label={common("remove")}
-                >
-                  ×
-                </button>
+                <div className="rowActions">
+                  <button
+                    type="button"
+                    className="button buttonQuiet rowMove"
+                    onClick={() => move(i, -1)}
+                    disabled={i === 0}
+                    aria-label={t("moveUp")}
+                  >
+                    ↑
+                  </button>
+                  <button
+                    type="button"
+                    className="button buttonQuiet rowMove"
+                    onClick={() => move(i, 1)}
+                    disabled={i === relatives.length - 1}
+                    aria-label={t("moveDown")}
+                  >
+                    ↓
+                  </button>
+                  <button
+                    type="button"
+                    className="button buttonQuiet rowRemove"
+                    onClick={() => removeRelative(i)}
+                    aria-label={common("remove")}
+                  >
+                    ×
+                  </button>
+                </div>
               </div>
               {showCoParent ? (
                 <div className="relativeCoParentRow">

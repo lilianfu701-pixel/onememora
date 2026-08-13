@@ -277,7 +277,9 @@
     "myBookmarked": "저장한 페이지",
     "myBookmarkedEmpty": "아직 저장한 추모 페이지가 없습니다.",
     "myRelated": "나와 관련된",
-    "myRelatedEmpty": "아직 나와 관련된 추모 페이지가 없습니다."
+    "myRelatedEmpty": "아직 나와 관련된 추모 페이지가 없습니다.",
+    "moveUp": "위로",
+    "moveDown": "아래로"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",
