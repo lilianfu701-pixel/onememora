@@ -267,7 +267,16 @@
     "familyTreeHeading": "Родственные связи",
     "familyRemoveLink": "Удалить",
     "relativeCoParentLabel": "Другой родитель",
-    "relativeCoParentNone": "Не указано"
+    "relativeCoParentNone": "Не указано",
+    "bookmark": "Сохранить",
+    "bookmarked": "Сохранено",
+    "removeBookmark": "Убрать",
+    "myCreated": "Созданные мной",
+    "myCreatedEmpty": "Вы ещё не создали ни одной страницы памяти.",
+    "myBookmarked": "Сохранённые",
+    "myBookmarkedEmpty": "Вы пока ничего не сохранили.",
+    "myRelated": "Связанные со мной",
+    "myRelatedEmpty": "С вами пока не связаны страницы памяти."
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

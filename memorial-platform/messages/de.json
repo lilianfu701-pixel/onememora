@@ -267,7 +267,16 @@
     "familyTreeHeading": "Familie",
     "familyRemoveLink": "Entfernen",
     "relativeCoParentLabel": "Anderer Elternteil",
-    "relativeCoParentNone": "Nicht angegeben"
+    "relativeCoParentNone": "Nicht angegeben",
+    "bookmark": "Merken",
+    "bookmarked": "Gemerkt",
+    "removeBookmark": "Entfernen",
+    "myCreated": "Von mir erstellt",
+    "myCreatedEmpty": "Sie haben noch keine Gedenkseite erstellt.",
+    "myBookmarked": "Gemerkt",
+    "myBookmarkedEmpty": "Sie haben noch nichts gemerkt.",
+    "myRelated": "Mit mir verbunden",
+    "myRelatedEmpty": "Es sind noch keine Gedenkseiten mit Ihnen verbunden."
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

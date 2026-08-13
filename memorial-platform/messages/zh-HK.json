@@ -267,7 +267,16 @@
     "familyTreeHeading": "親屬關係",
     "familyRemoveLink": "解除",
     "relativeCoParentLabel": "生母／生父",
-    "relativeCoParentNone": "未指定"
+    "relativeCoParentNone": "未指定",
+    "bookmark": "收藏",
+    "bookmarked": "已收藏",
+    "removeBookmark": "取消收藏",
+    "myCreated": "我建立的",
+    "myCreatedEmpty": "你重未建立追思主頁。",
+    "myBookmarked": "我收藏的",
+    "myBookmarkedEmpty": "你重未收藏追思主頁。",
+    "myRelated": "同我有關嘅",
+    "myRelatedEmpty": "重未有同你有關嘅追思主頁。"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

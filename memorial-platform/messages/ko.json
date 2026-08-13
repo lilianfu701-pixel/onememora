@@ -267,7 +267,16 @@
     "familyTreeHeading": "친족 관계",
     "familyRemoveLink": "해제",
     "relativeCoParentLabel": "다른 부모",
-    "relativeCoParentNone": "지정 안 함"
+    "relativeCoParentNone": "지정 안 함",
+    "bookmark": "저장",
+    "bookmarked": "저장됨",
+    "removeBookmark": "삭제",
+    "myCreated": "내가 만든",
+    "myCreatedEmpty": "아직 만든 추모 페이지가 없습니다.",
+    "myBookmarked": "저장한 페이지",
+    "myBookmarkedEmpty": "아직 저장한 추모 페이지가 없습니다.",
+    "myRelated": "나와 관련된",
+    "myRelatedEmpty": "아직 나와 관련된 추모 페이지가 없습니다."
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

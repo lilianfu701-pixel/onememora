@@ -267,7 +267,16 @@
     "familyTreeHeading": "Famille",
     "familyRemoveLink": "Retirer",
     "relativeCoParentLabel": "Autre parent",
-    "relativeCoParentNone": "Non précisé"
+    "relativeCoParentNone": "Non précisé",
+    "bookmark": "Enregistrer",
+    "bookmarked": "Enregistré",
+    "removeBookmark": "Retirer",
+    "myCreated": "Créés par moi",
+    "myCreatedEmpty": "Vous n'avez pas encore créé de mémorial.",
+    "myBookmarked": "Enregistrés",
+    "myBookmarkedEmpty": "Vous n'avez encore rien enregistré.",
+    "myRelated": "Qui me concernent",
+    "myRelatedEmpty": "Aucun mémorial ne vous est encore associé."
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

@@ -267,7 +267,16 @@
     "familyTreeHeading": "Familia",
     "familyRemoveLink": "Quitar",
     "relativeCoParentLabel": "Otro progenitor",
-    "relativeCoParentNone": "Sin especificar"
+    "relativeCoParentNone": "Sin especificar",
+    "bookmark": "Guardar",
+    "bookmarked": "Guardado",
+    "removeBookmark": "Quitar",
+    "myCreated": "Creados por mí",
+    "myCreatedEmpty": "Aún no has creado ningún memorial.",
+    "myBookmarked": "Guardados",
+    "myBookmarkedEmpty": "Aún no has guardado ningún memorial.",
+    "myRelated": "Relacionados conmigo",
+    "myRelatedEmpty": "Todavía no hay memoriales compartidos contigo."
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

@@ -329,6 +329,30 @@ export const memorialMembers = pgTable(
 );
 
 /**
+ * A memorial someone chose to keep — their own private shortlist. Distinct
+ * from membership: bookmarking grants no access, it only remembers a page the
+ * person wants to find again. Kept to what they can already see.
+ */
+export const memorialBookmarks = pgTable(
+  "memorial_bookmarks",
+  {
+    userId: uuid("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    memorialId: uuid("memorial_id")
+      .notNull()
+      .references(() => memorials.id, { onDelete: "cascade" }),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+  },
+  (table) => [
+    primaryKey({ columns: [table.userId, table.memorialId] }),
+    index("memorial_bookmarks_user_idx").on(table.userId),
+  ],
+);
+
+/**
  * The relationship the creator declared, and the promise they accepted.
  *
  * `statementVersion` records which wording they agreed to, so a later dispute

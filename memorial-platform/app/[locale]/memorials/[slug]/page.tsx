@@ -1,4 +1,4 @@
-import { asc, eq } from "drizzle-orm";
+import { and, asc, eq } from "drizzle-orm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
@@ -6,6 +6,7 @@ import { cache } from "react";
 import type { Metadata } from "next";
 import { db } from "@/db/client";
 import {
+  memorialBookmarks,
   memorialLocations,
   memorialRelatives,
   relationshipClaims,
@@ -24,6 +25,7 @@ import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offerableRituals } from "@/modules/religion/memorial-settings";
 import { tributeCounts } from "@/modules/commemorations/tributes";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
+import { BookmarkButton } from "./bookmark-button";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferRitual } from "./offer-ritual";
@@ -236,6 +238,21 @@ export default async function MemorialPage(props: {
     compactRelatives,
   );
 
+  // Whether this viewer has already kept this memorial.
+  const viewerBookmarked = viewer.userId
+    ? (
+        await db()
+          .select({ memorialId: memorialBookmarks.memorialId })
+          .from(memorialBookmarks)
+          .where(
+            and(
+              eq(memorialBookmarks.userId, viewer.userId),
+              eq(memorialBookmarks.memorialId, detail.memorialId),
+            ),
+          )
+      ).length > 0
+    : false;
+
   const formatPlace = (loc: { country: string | null; region: string | null }) =>
     [loc.region, loc.country ? countryName(loc.country, locale) : ""]
       .map((part) => part?.trim())
@@ -386,6 +403,12 @@ export default async function MemorialPage(props: {
             })}
             title={detail.primaryName}
           />
+          {viewer.userId ? (
+            <BookmarkButton
+              memorialId={detail.memorialId}
+              initialBookmarked={viewerBookmarked}
+            />
+          ) : null}
         </div>
 
         <div className="memorialGrid">

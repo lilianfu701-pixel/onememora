@@ -1269,6 +1269,34 @@ img {
 }
 
 /* Owner-only manage button, floated into the top corner. */
+/* Bookmark toggle in the tribute bar. */
+.bookmarkButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--paper-raised);
+  color: var(--ink);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.bookmarkButton:hover:not(:disabled) {
+  border-color: var(--gold);
+}
+
+.bookmarkButtonOn {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.bookmarkButton:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
 /* A quiet text link, not a button: same weight as the page around it. */
 .memorialManageLink {
   position: fixed;

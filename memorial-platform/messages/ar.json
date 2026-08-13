@@ -267,7 +267,16 @@
     "familyTreeHeading": "العلاقات العائلية",
     "familyRemoveLink": "إزالة",
     "relativeCoParentLabel": "الوالد الآخر",
-    "relativeCoParentNone": "غير محدد"
+    "relativeCoParentNone": "غير محدد",
+    "bookmark": "حفظ",
+    "bookmarked": "محفوظ",
+    "removeBookmark": "إزالة",
+    "myCreated": "التي أنشأتها",
+    "myCreatedEmpty": "لم تُنشئ أي صفحة تذكارية بعد.",
+    "myBookmarked": "المحفوظة",
+    "myBookmarkedEmpty": "لم تحفظ أي صفحة تذكارية بعد.",
+    "myRelated": "المتعلقة بي",
+    "myRelatedEmpty": "لا توجد صفحات تذكارية مرتبطة بك بعد."
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

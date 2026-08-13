@@ -267,7 +267,16 @@
     "familyTreeHeading": "親族関係",
     "familyRemoveLink": "解除",
     "relativeCoParentLabel": "もう一方の親",
-    "relativeCoParentNone": "未指定"
+    "relativeCoParentNone": "未指定",
+    "bookmark": "保存",
+    "bookmarked": "保存済み",
+    "removeBookmark": "削除",
+    "myCreated": "自分が作成",
+    "myCreatedEmpty": "まだ追悼ページを作成していません。",
+    "myBookmarked": "保存済み",
+    "myBookmarkedEmpty": "まだ保存した追悼ページはありません。",
+    "myRelated": "自分に関係する",
+    "myRelatedEmpty": "あなたに関係する追悼ページはまだありません。"
   },
   "privacy": {
     "title": "このページを見られる範囲",

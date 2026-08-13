@@ -267,7 +267,16 @@
     "familyTreeHeading": "Quan hệ họ hàng",
     "familyRemoveLink": "Gỡ",
     "relativeCoParentLabel": "Cha/mẹ còn lại",
-    "relativeCoParentNone": "Chưa xác định"
+    "relativeCoParentNone": "Chưa xác định",
+    "bookmark": "Lưu",
+    "bookmarked": "Đã lưu",
+    "removeBookmark": "Bỏ lưu",
+    "myCreated": "Tôi tạo",
+    "myCreatedEmpty": "Bạn chưa tạo trang tưởng niệm nào.",
+    "myBookmarked": "Đã lưu",
+    "myBookmarkedEmpty": "Bạn chưa lưu trang tưởng niệm nào.",
+    "myRelated": "Liên quan đến tôi",
+    "myRelatedEmpty": "Chưa có trang tưởng niệm nào liên quan đến bạn."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

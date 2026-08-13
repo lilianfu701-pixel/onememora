@@ -267,7 +267,16 @@
     "familyTreeHeading": "Hubungan keluarga",
     "familyRemoveLink": "Hapus",
     "relativeCoParentLabel": "Orang tua lainnya",
-    "relativeCoParentNone": "Tidak ditentukan"
+    "relativeCoParentNone": "Tidak ditentukan",
+    "bookmark": "Simpan",
+    "bookmarked": "Tersimpan",
+    "removeBookmark": "Hapus",
+    "myCreated": "Dibuat oleh saya",
+    "myCreatedEmpty": "Anda belum membuat memorial apa pun.",
+    "myBookmarked": "Tersimpan",
+    "myBookmarkedEmpty": "Anda belum menyimpan memorial apa pun.",
+    "myRelated": "Terkait dengan saya",
+    "myRelatedEmpty": "Belum ada memorial yang terkait dengan Anda."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",
