@@ -53,6 +53,10 @@ const RELATIVE_RELATIONSHIPS = [
   "ex_wife",
   "son",
   "daughter",
+  "paternal_grandson",
+  "paternal_granddaughter",
+  "maternal_grandson",
+  "maternal_granddaughter",
   "older_brother",
   "older_sister",
   "younger_brother",
@@ -69,6 +73,15 @@ const SPOUSE_OF_TARGETS: ReadonlySet<string> = new Set([
   "son",
   "daughter",
 ]);
+
+/** Grandchildren, placed under whichever son or daughter is their parent. */
+const GRANDCHILD_TYPES: ReadonlySet<string> = new Set([
+  "paternal_grandson",
+  "paternal_granddaughter",
+  "maternal_grandson",
+  "maternal_granddaughter",
+]);
+const CHILD_PARENTS: ReadonlySet<string> = new Set(["son", "daughter"]);
 
 const MAX_ONE: ReadonlySet<string> = new Set([
   "father",
@@ -161,7 +174,10 @@ export function RelativesEditor(props: {
         // A co-parent only means something for a child; a spouse-of link only
         // for a relative_spouse.
         if ("relationshipToDeceased" in patch) {
-          if (!CHILD_TYPES.has(updated.relationshipToDeceased)) {
+          if (
+            !CHILD_TYPES.has(updated.relationshipToDeceased) &&
+            !GRANDCHILD_TYPES.has(updated.relationshipToDeceased)
+          ) {
             updated.coParentRid = null;
           }
           if (updated.relationshipToDeceased !== "relative_spouse") {
@@ -178,6 +194,18 @@ export function RelativesEditor(props: {
     return relatives
       .filter(
         (r) => SPOUSE_TYPES.has(r.relationshipToDeceased) && r.name.trim().length > 0,
+      )
+      .map((r) => ({
+        rid: r.rid,
+        label: `${t(`relativeRole_${r.relationshipToDeceased}`)} · ${r.name.trim()}`,
+      }));
+  }
+
+  /** The sons and daughters a grandchild can be placed under. */
+  function childOptions(): { rid: string; label: string }[] {
+    return relatives
+      .filter(
+        (r) => CHILD_PARENTS.has(r.relationshipToDeceased) && r.name.trim().length > 0,
       )
       .map((r) => ({
         rid: r.rid,
@@ -224,7 +252,9 @@ export function RelativesEditor(props: {
     const indexByRid = new Map(kept.map((r, i) => [r.rid, i]));
     const validRelatives = kept.map((r) => {
       const coParentIndex =
-        CHILD_TYPES.has(r.relationshipToDeceased) && r.coParentRid
+        (CHILD_TYPES.has(r.relationshipToDeceased) ||
+          GRANDCHILD_TYPES.has(r.relationshipToDeceased)) &&
+        r.coParentRid
           ? indexByRid.get(r.coParentRid)
           : undefined;
       const spouseOfIndex =
@@ -300,10 +330,17 @@ export function RelativesEditor(props: {
             const counts = usedCounts();
             const shown = showAllNames || rel.showFullName;
             const spouses = spouseOptions().filter((s) => s.rid !== rel.rid);
-            // Only worth asking when there's a real choice of parent — a
-            // current spouse and an ex, say. One spouse and it's not a question.
-            const showCoParent =
-              CHILD_TYPES.has(rel.relationshipToDeceased) && spouses.length >= 2;
+            const isGrandchild = GRANDCHILD_TYPES.has(rel.relationshipToDeceased);
+            // A grandchild is placed under a son/daughter; a child's co-parent
+            // only matters when there's a real choice (a spouse and an ex).
+            const coParentTargets = isGrandchild ? childOptions() : spouses;
+            const showCoParent = isGrandchild
+              ? coParentTargets.length >= 1
+              : CHILD_TYPES.has(rel.relationshipToDeceased) &&
+                coParentTargets.length >= 2;
+            const coParentLabel = isGrandchild
+              ? t("relativeParentLabel")
+              : t("relativeCoParentLabel");
             const spouseOfTargets = spouseOfOptions();
             const showSpouseOf =
               rel.relationshipToDeceased === "relative_spouse" &&
@@ -406,9 +443,7 @@ export function RelativesEditor(props: {
               {showCoParent ? (
                 <div className="relativeCoParentRow">
                   <label className="relativeCoParent">
-                    <span className="relativeCoParentLabel">
-                      {t("relativeCoParentLabel")}
-                    </span>
+                    <span className="relativeCoParentLabel">{coParentLabel}</span>
                     <select
                       className="input inputSm"
                       value={rel.coParentRid ?? ""}
@@ -419,7 +454,7 @@ export function RelativesEditor(props: {
                       }
                     >
                       <option value="">{t("relativeCoParentNone")}</option>
-                      {spouses.map((s) => (
+                      {coParentTargets.map((s) => (
                         <option value={s.rid} key={s.rid}>
                           {s.label}
                         </option>

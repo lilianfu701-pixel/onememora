@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "Marié(e) à",
     "fullTreeTitle": "Arbre généalogique complet",
     "fullTreeLink": "Voir l’arbre complet",
-    "fullTreeEmpty": "Aucune famille enregistrée."
+    "fullTreeEmpty": "Aucune famille enregistrée.",
+    "relativeRole_paternal_grandson": "Petit-fils (du fils)",
+    "relativeRole_paternal_granddaughter": "Petite-fille (du fils)",
+    "relativeRole_maternal_grandson": "Petit-fils (de la fille)",
+    "relativeRole_maternal_granddaughter": "Petite-fille (de la fille)",
+    "relativeParentLabel": "Son parent"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

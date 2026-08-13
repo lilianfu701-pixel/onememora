@@ -1208,9 +1208,9 @@ img {
 .tributeBar {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-4);
+  gap: var(--space-3);
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .shareWrap {
@@ -1269,44 +1269,28 @@ img {
 
 .memorialDates {
   margin: 0;
-  font-size: var(--text-xl);
-  color: var(--muted);
-}
-
-.memorialAka,
-.memorialCreator {
-  margin: 0;
-  font-size: var(--text-base);
-  color: var(--muted);
-}
-
-/* Owner-only manage button, floated into the top corner. */
-/* Bookmark toggle in the tribute bar. */
-.bookmarkButton {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-1);
-  padding: var(--space-1) var(--space-3);
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius-pill);
-  background: var(--paper-raised);
+  font-size: var(--text-2xl);
   color: var(--ink);
+}
+
+/* Places and former names — the recorded facts, given real weight. */
+.memorialAka {
+  margin: 0;
+  font-size: var(--text-lg);
+  color: var(--ink);
+}
+
+/* Who keeps the page — a quiet footnote, smaller than the facts above. */
+.memorialCreator {
+  margin: var(--space-1) 0 0;
   font-size: var(--text-sm);
-  cursor: pointer;
+  color: var(--muted);
 }
 
-.bookmarkButton:hover:not(:disabled) {
-  border-color: var(--gold);
-}
-
-.bookmarkButtonOn {
+/* The bookmark toggle reuses the Share button's shape; only colour differs. */
+.bookmarkOn {
   border-color: var(--gold);
   color: var(--gold);
-}
-
-.bookmarkButton:disabled {
-  opacity: 0.6;
-  cursor: default;
 }
 
 /* Right-aligned at the top of the memorial content, in the flow. */

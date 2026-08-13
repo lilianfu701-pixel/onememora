@@ -186,6 +186,20 @@ describe("assembleFamilyView — pulls a linked memorial's family", () => {
   });
 });
 
+describe("assembleFamilyView — grandchildren", () => {
+  it("places a grandchild under the named child and names it 孙子", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [
+        { id: "s", relationshipToDeceased: "son", name: "子", isDeceased: false, showFullName: true },
+        { id: "g", relationshipToDeceased: "paternal_grandson", name: "孙", isDeceased: false, showFullName: true, coParentId: "s" },
+      ],
+    })!;
+    expect(labelOf(view, "g")).toBe("孙子");
+  });
+});
+
 describe("assembleFamilyView — nothing to draw", () => {
   it("returns null when the root has no relatives or links", () => {
     expect(assembleFamilyView({ root, relatives: [], linked: [] })).toBeNull();

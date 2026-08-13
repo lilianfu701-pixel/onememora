@@ -157,6 +157,27 @@ export default async function MemorialPage(props: {
   const { detail } = result;
   const span = lifeSpan(detail);
 
+  // Dates shown to the precision the family actually recorded: a full date to
+  // the day when known, otherwise the year — never a placeholder day.
+  const fullDate = (
+    value: string | null,
+    precision: (typeof detail)["birthDatePrecision"],
+  ): string | null => {
+    if (!value || precision === "unknown") return null;
+    if (precision === "year" || precision === "approximate") {
+      return value.slice(0, 4);
+    }
+    const dt = new Date(`${value}T00:00:00`);
+    if (Number.isNaN(dt.getTime())) return value.slice(0, 4);
+    return new Intl.DateTimeFormat(locale, {
+      year: "numeric",
+      month: "long",
+      ...(precision === "day" ? { day: "numeric" } : {}),
+    }).format(dt);
+  };
+  const birthText = fullDate(detail.birthDate, detail.birthDatePrecision);
+  const deathText = fullDate(detail.deathDate, detail.deathDatePrecision);
+
   // A member of this memorial: sees family-scoped messages and moderates.
   const isFamily =
     detail.viewerRole !== "public_visitor" &&
@@ -337,23 +358,23 @@ export default async function MemorialPage(props: {
         <header className="memorialHead">
           <h1 className="memorialName">{detail.primaryName}</h1>
 
-          {span.birth || span.death ? (
+          {birthText || deathText ? (
             <p className="memorialDates">
-              {span.birth ? (
+              {birthText ? (
                 <span>
                   <span className="visuallyHidden">{t("bornLabel")} </span>
-                  {span.birth.approximate
-                    ? t("approximateYear", { year: span.birth.year })
-                    : span.birth.year}
+                  {span.birth?.approximate
+                    ? t("approximateYear", { year: birthText })
+                    : birthText}
                 </span>
               ) : null}
-              {span.birth && span.death ? " – " : null}
-              {span.death ? (
+              {birthText && deathText ? " – " : null}
+              {deathText ? (
                 <span>
                   <span className="visuallyHidden">{t("diedLabel")} </span>
-                  {span.death.approximate
-                    ? t("approximateYear", { year: span.death.year })
-                    : span.death.year}
+                  {span.death?.approximate
+                    ? t("approximateYear", { year: deathText })
+                    : deathText}
                 </span>
               ) : null}
             </p>
@@ -457,7 +478,7 @@ export default async function MemorialPage(props: {
             {familyView ? (
               <p>
                 <Link
-                  className="linkButton"
+                  className="button buttonQuiet buttonCompact"
                   href={`/${locale}/memorials/${detail.slug}/family`}
                 >
                   {t("fullTreeLink")} →

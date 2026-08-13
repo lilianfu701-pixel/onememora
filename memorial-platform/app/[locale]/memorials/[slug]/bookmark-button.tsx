@@ -35,12 +35,16 @@ export function BookmarkButton(props: {
   return (
     <button
       type="button"
-      className={bookmarked ? "bookmarkButton bookmarkButtonOn" : "bookmarkButton"}
+      className={
+        bookmarked
+          ? "button buttonQuiet buttonCompact bookmarkOn"
+          : "button buttonQuiet buttonCompact"
+      }
       onClick={toggle}
       disabled={saving}
       aria-pressed={bookmarked}
     >
-      <span aria-hidden="true">{bookmarked ? "★" : "☆"}</span>
+      <span aria-hidden="true">{bookmarked ? "★ " : "☆ "}</span>
       {bookmarked ? t("bookmarked") : t("bookmark")}
     </button>
   );

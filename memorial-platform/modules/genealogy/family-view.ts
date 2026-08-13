@@ -80,6 +80,8 @@ const MALE = new Set([
   "younger_brother",
   "paternal_grandfather",
   "maternal_grandfather",
+  "paternal_grandson",
+  "maternal_grandson",
 ]);
 const FEMALE = new Set([
   "mother",
@@ -90,6 +92,15 @@ const FEMALE = new Set([
   "younger_sister",
   "paternal_grandmother",
   "maternal_grandmother",
+  "paternal_granddaughter",
+  "maternal_granddaughter",
+]);
+/** Two generations down: a grandchild, placed under one of the children. */
+const GRANDCHILD_TYPES = new Set([
+  "paternal_grandson",
+  "paternal_granddaughter",
+  "maternal_grandson",
+  "maternal_granddaughter",
 ]);
 
 function genderOfType(type: string): Gender {
@@ -241,6 +252,18 @@ export function assembleFamilyView(input: {
     };
     const starFatherAnchor = (): string => (starFather ??= anchorNode("male"));
     const starMotherAnchor = (): string => (starMother ??= anchorNode("female"));
+    // A stand-in child, so a grandchild with no named parent still lands one
+    // generation below the children rather than beside them.
+    let starChild: string | null = null;
+    const starChildAnchor = (): string => {
+      if (starChild) return starChild;
+      const id = `anchor:${(anchorSeq += 1)}`;
+      graphNodes.push({ id, gender: "unknown", birthYear: null });
+      withheld.add(id);
+      addParentEdge(centerId, id);
+      starChild = id;
+      return id;
+    };
 
     const ordered = [...relatives].sort((a, b) => {
       const ap = PARENT_TYPES.has(a.relationshipToDeceased) ? 0 : 1;
@@ -293,6 +316,15 @@ export function assembleFamilyView(input: {
       } else if (MATERNAL_GP.has(type)) {
         nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
         addParentEdge(nid, starMotherAnchor());
+      } else if (GRANDCHILD_TYPES.has(type)) {
+        // A grandchild hangs under the child named as its parent (`coParentId`),
+        // or under a stand-in child when none was chosen.
+        nid = resolveNode(rel.name, freshId, gender, null, lifeStatus, displayName);
+        if (rel.coParentId) {
+          coParents.push({ childNode: nid, coParentRelId: `rel:${rel.coParentId}` });
+        } else {
+          addParentEdge(starChildAnchor(), nid);
+        }
       } else if (type === RELATIVE_SPOUSE && rel.spouseOfId) {
         nid = resolveNode(rel.name, freshId, "unknown", null, lifeStatus, displayName);
         spouses.push({ spouseNode: nid, relativeRelId: `rel:${rel.spouseOfId}` });

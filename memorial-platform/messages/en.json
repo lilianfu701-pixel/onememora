@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "Married to",
     "fullTreeTitle": "Full family tree",
     "fullTreeLink": "View full family tree",
-    "fullTreeEmpty": "No family recorded yet."
+    "fullTreeEmpty": "No family recorded yet.",
+    "relativeRole_paternal_grandson": "Grandson (son’s)",
+    "relativeRole_paternal_granddaughter": "Granddaughter (son’s)",
+    "relativeRole_maternal_grandson": "Grandson (daughter’s)",
+    "relativeRole_maternal_granddaughter": "Granddaughter (daughter’s)",
+    "relativeParentLabel": "Their parent"
   },
   "privacy": {
     "title": "Who can see this memorial",

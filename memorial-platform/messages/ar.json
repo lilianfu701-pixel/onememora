@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "متزوج من",
     "fullTreeTitle": "شجرة العائلة الكاملة",
     "fullTreeLink": "عرض شجرة العائلة الكاملة",
-    "fullTreeEmpty": "لم تُسجَّل عائلة بعد."
+    "fullTreeEmpty": "لم تُسجَّل عائلة بعد.",
+    "relativeRole_paternal_grandson": "حفيد (من الابن)",
+    "relativeRole_paternal_granddaughter": "حفيدة (من الابن)",
+    "relativeRole_maternal_grandson": "حفيد (من الابنة)",
+    "relativeRole_maternal_granddaughter": "حفيدة (من الابنة)",
+    "relativeParentLabel": "والده/والدته"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

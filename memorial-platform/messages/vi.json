@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "Kết hôn với",
     "fullTreeTitle": "Cây gia phả đầy đủ",
     "fullTreeLink": "Xem cây gia phả đầy đủ",
-    "fullTreeEmpty": "Chưa có thông tin gia đình."
+    "fullTreeEmpty": "Chưa có thông tin gia đình.",
+    "relativeRole_paternal_grandson": "Cháu trai (bên con trai)",
+    "relativeRole_paternal_granddaughter": "Cháu gái (bên con trai)",
+    "relativeRole_maternal_grandson": "Cháu trai (bên con gái)",
+    "relativeRole_maternal_granddaughter": "Cháu gái (bên con gái)",
+    "relativeParentLabel": "Cha/mẹ của họ"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

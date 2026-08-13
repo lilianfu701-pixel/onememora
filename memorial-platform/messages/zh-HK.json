@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "係邊個嘅配偶",
     "fullTreeTitle": "完整族譜",
     "fullTreeLink": "查看完整族譜",
-    "fullTreeEmpty": "重未有族譜資訊。"
+    "fullTreeEmpty": "重未有族譜資訊。",
+    "relativeRole_paternal_grandson": "孫子",
+    "relativeRole_paternal_granddaughter": "孫女",
+    "relativeRole_maternal_grandson": "外孫",
+    "relativeRole_maternal_granddaughter": "外孫女",
+    "relativeParentLabel": "父/母係邊個"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

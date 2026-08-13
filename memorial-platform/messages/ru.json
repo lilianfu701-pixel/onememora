@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "В браке с",
     "fullTreeTitle": "Полное родословное древо",
     "fullTreeLink": "Смотреть полное древо",
-    "fullTreeEmpty": "Родные пока не добавлены."
+    "fullTreeEmpty": "Родные пока не добавлены.",
+    "relativeRole_paternal_grandson": "Внук (по сыну)",
+    "relativeRole_paternal_granddaughter": "Внучка (по сыну)",
+    "relativeRole_maternal_grandson": "Внук (по дочери)",
+    "relativeRole_maternal_granddaughter": "Внучка (по дочери)",
+    "relativeParentLabel": "Их родитель"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

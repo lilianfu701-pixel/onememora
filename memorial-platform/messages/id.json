@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "Menikah dengan",
     "fullTreeTitle": "Silsilah lengkap",
     "fullTreeLink": "Lihat silsilah lengkap",
-    "fullTreeEmpty": "Belum ada keluarga tercatat."
+    "fullTreeEmpty": "Belum ada keluarga tercatat.",
+    "relativeRole_paternal_grandson": "Cucu (dari putra)",
+    "relativeRole_paternal_granddaughter": "Cucu perempuan (dari putra)",
+    "relativeRole_maternal_grandson": "Cucu (dari putri)",
+    "relativeRole_maternal_granddaughter": "Cucu perempuan (dari putri)",
+    "relativeParentLabel": "Orang tuanya"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

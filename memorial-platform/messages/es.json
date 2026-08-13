@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "Casado/a con",
     "fullTreeTitle": "Árbol genealógico completo",
     "fullTreeLink": "Ver árbol completo",
-    "fullTreeEmpty": "Aún no hay familia registrada."
+    "fullTreeEmpty": "Aún no hay familia registrada.",
+    "relativeRole_paternal_grandson": "Nieto (por hijo)",
+    "relativeRole_paternal_granddaughter": "Nieta (por hijo)",
+    "relativeRole_maternal_grandson": "Nieto (por hija)",
+    "relativeRole_maternal_granddaughter": "Nieta (por hija)",
+    "relativeParentLabel": "Su progenitor"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

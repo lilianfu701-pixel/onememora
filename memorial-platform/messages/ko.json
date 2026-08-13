@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "누구의 배우자",
     "fullTreeTitle": "전체 가계도",
     "fullTreeLink": "전체 가계도 보기",
-    "fullTreeEmpty": "아직 가족 정보가 없습니다."
+    "fullTreeEmpty": "아직 가족 정보가 없습니다.",
+    "relativeRole_paternal_grandson": "손자(아들의)",
+    "relativeRole_paternal_granddaughter": "손녀(아들의)",
+    "relativeRole_maternal_grandson": "외손자(딸의)",
+    "relativeRole_maternal_granddaughter": "외손녀(딸의)",
+    "relativeParentLabel": "부모(누구의)"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

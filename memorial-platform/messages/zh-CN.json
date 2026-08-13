@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "是谁的配偶",
     "fullTreeTitle": "完整族谱",
     "fullTreeLink": "查看完整族谱",
-    "fullTreeEmpty": "还没有族谱信息。"
+    "fullTreeEmpty": "还没有族谱信息。",
+    "relativeRole_paternal_grandson": "孙子",
+    "relativeRole_paternal_granddaughter": "孙女",
+    "relativeRole_maternal_grandson": "外孙",
+    "relativeRole_maternal_granddaughter": "外孙女",
+    "relativeParentLabel": "父/母是谁"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

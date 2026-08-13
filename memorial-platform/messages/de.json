@@ -284,7 +284,12 @@
     "relativeSpouseOfLabel": "Verheiratet mit",
     "fullTreeTitle": "Vollständiger Stammbaum",
     "fullTreeLink": "Vollständigen Stammbaum ansehen",
-    "fullTreeEmpty": "Noch keine Familie erfasst."
+    "fullTreeEmpty": "Noch keine Familie erfasst.",
+    "relativeRole_paternal_grandson": "Enkel (Sohn)",
+    "relativeRole_paternal_granddaughter": "Enkelin (Sohn)",
+    "relativeRole_maternal_grandson": "Enkel (Tochter)",
+    "relativeRole_maternal_granddaughter": "Enkelin (Tochter)",
+    "relativeParentLabel": "Elternteil"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",
