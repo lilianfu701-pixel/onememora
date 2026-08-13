@@ -379,7 +379,9 @@
     "startPrompt": "Introduzca un nombre para empezar.",
     "more": "Ver más",
     "queryTooShort": "Escriba al menos dos letras de un nombre.",
-    "showMore": "Ver más resultados"
+    "showMore": "Ver más resultados",
+    "countryAny": "Cualquiera",
+    "countryHint": "Coincide con cualquier lugar de la persona: nacimiento, residencia, fallecimiento o descanso."
   },
   "profile": {
     "title": "Mi perfil",

@@ -379,7 +379,9 @@
     "startPrompt": "請輸入姓名開始尋找。",
     "more": "顯示更多",
     "queryTooShort": "請至少輸入姓名中的兩個字。",
-    "showMore": "顯示更多結果"
+    "showMore": "顯示更多結果",
+    "countryAny": "不限",
+    "countryHint": "按同先人相關嘅任一地點篩選：出生地、居住地、逝世地或安葬地。"
   },
   "profile": {
     "title": "我的資料",

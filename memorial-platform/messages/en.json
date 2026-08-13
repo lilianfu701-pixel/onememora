@@ -379,7 +379,9 @@
     "startPrompt": "Enter a name to begin.",
     "more": "Show more",
     "queryTooShort": "Enter at least two characters of a name.",
-    "showMore": "Show more results"
+    "showMore": "Show more results",
+    "countryAny": "Any",
+    "countryHint": "Matches any place linked to the person — birth, home, death or resting place."
   },
   "profile": {
     "title": "My profile",

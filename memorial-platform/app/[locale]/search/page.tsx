@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { countryOptions } from "@/lib/countries";
 import { flags } from "@/lib/feature-flags";
 import { DEFAULT_LIMIT, searchMemorials } from "@/modules/search/query";
 
@@ -138,14 +139,15 @@ export default async function SearchPage(props: {
 
         <label className="field">
           <span className="fieldLabel">{t("countryLabel")}</span>
-          <input
-            className="input"
-            type="text"
-            name="country"
-            maxLength={2}
-            defaultValue={criteria.country ?? ""}
-            placeholder="US"
-          />
+          <select className="input" name="country" defaultValue={criteria.country ?? ""}>
+            <option value="">{t("countryAny")}</option>
+            {countryOptions(locale).map((option) => (
+              <option value={option.code} key={option.code}>
+                {option.name}
+              </option>
+            ))}
+          </select>
+          <span className="fieldHint">{t("countryHint")}</span>
         </label>
 
         <div>

@@ -358,6 +358,14 @@ img {
   color: var(--muted);
 }
 
+/* A quiet note under a field, explaining what it filters or expects. */
+.fieldHint {
+  display: block;
+  margin-block-start: var(--space-1);
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+
 .input {
   width: 100%;
   min-height: 44px;

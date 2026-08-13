@@ -379,7 +379,9 @@
     "startPrompt": "Masukkan nama untuk memulai.",
     "more": "Tampilkan lebih banyak",
     "queryTooShort": "Masukkan setidaknya dua huruf dari sebuah nama.",
-    "showMore": "Tampilkan lebih banyak hasil"
+    "showMore": "Tampilkan lebih banyak hasil",
+    "countryAny": "Semua",
+    "countryHint": "Cocok dengan tempat mana pun: kelahiran, tempat tinggal, wafat, atau pemakaman."
   },
   "profile": {
     "title": "Profil saya",

@@ -379,7 +379,9 @@
     "startPrompt": "성함을 입력해 주세요.",
     "more": "더 보기",
     "queryTooShort": "성함을 두 글자 이상 입력해 주세요.",
-    "showMore": "결과 더 보기"
+    "showMore": "결과 더 보기",
+    "countryAny": "전체",
+    "countryHint": "고인과 관련된 장소(출생·거주·별세·안장) 중 아무 곳으로 검색합니다."
   },
   "profile": {
     "title": "내 프로필",

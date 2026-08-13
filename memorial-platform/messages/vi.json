@@ -379,7 +379,9 @@
     "startPrompt": "Nhập tên để bắt đầu.",
     "more": "Xem thêm",
     "queryTooShort": "Vui lòng nhập ít nhất hai ký tự của tên.",
-    "showMore": "Xem thêm kết quả"
+    "showMore": "Xem thêm kết quả",
+    "countryAny": "Bất kỳ",
+    "countryHint": "Khớp với bất kỳ địa điểm nào của người đó: nơi sinh, nơi ở, nơi mất hoặc nơi an nghỉ."
   },
   "profile": {
     "title": "Hồ sơ của tôi",

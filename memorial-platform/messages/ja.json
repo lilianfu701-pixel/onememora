@@ -379,7 +379,9 @@
     "startPrompt": "お名前を入力してください。",
     "more": "さらに表示",
     "queryTooShort": "お名前を 2 文字以上ご入力ください。",
-    "showMore": "さらに結果を表示"
+    "showMore": "さらに結果を表示",
+    "countryAny": "指定なし",
+    "countryHint": "故人に関わるいずれかの場所（出生・居住・逝去・埋葬）で検索します。"
   },
   "profile": {
     "title": "プロフィール",

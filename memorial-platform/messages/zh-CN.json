@@ -379,7 +379,9 @@
     "startPrompt": "请输入姓名开始查找。",
     "more": "显示更多",
     "queryTooShort": "请至少输入姓名中的两个字。",
-    "showMore": "显示更多结果"
+    "showMore": "显示更多结果",
+    "countryAny": "不限",
+    "countryHint": "按与逝者相关的任一地点筛选：出生地、居住地、逝世地或安葬地。"
   },
   "profile": {
     "title": "我的资料",
