@@ -303,7 +303,13 @@
     "recognitionReviewHint": "Someone believes they are a relative of this person and has asked to join the family tree. Confirm or decline.",
     "recognitionClaimSummary": "{name} is claiming the “{relation}” identity",
     "recognitionConfirm": "Confirm",
-    "recognitionReject": "Decline"
+    "recognitionReject": "Decline",
+    "nameVisibilityShort": "Name shown to",
+    "nameVisibility_public": "Everyone",
+    "nameVisibility_family": "Signed-in only",
+    "nameVisibility_hidden": "Hidden",
+    "nameHiddenPlaceholder": "Family member",
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",
@@ -413,6 +419,12 @@
     "regionLabel": "Wilayah (opsional)",
     "save": "Simpan",
     "saved": "Profil disimpan.",
-    "requiredNote": "Nama, jenis kelamin, dan tanggal lahir wajib diisi."
+    "requiredNote": "Nama, jenis kelamin, dan tanggal lahir wajib diisi.",
+    "nameVisibilityLabel": "My name in others' family trees",
+    "nameVisibilityDefault": "Use each memorial's setting",
+    "nameVisibility_public": "Everyone",
+    "nameVisibility_family": "Signed-in viewers only",
+    "nameVisibility_hidden": "Hidden",
+    "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
   }
 }

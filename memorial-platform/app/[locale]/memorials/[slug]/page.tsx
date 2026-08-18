@@ -208,6 +208,7 @@ export default async function MemorialPage(props: {
           relationshipToDeceased: memorialRelatives.relationshipToDeceased,
           isDeceased: memorialRelatives.isDeceased,
           showFullName: memorialRelatives.showFullName,
+          nameVisibility: memorialRelatives.nameVisibility,
           displayOrder: memorialRelatives.displayOrder,
           coParentId: memorialRelatives.coParentId,
           spouseOfId: memorialRelatives.spouseOfId,
@@ -259,6 +260,7 @@ export default async function MemorialPage(props: {
       deathYear: rootYear(detail.deathDate, detail.deathDatePrecision),
     },
     compactRelatives,
+    { viewerLoggedIn: viewer.userId !== null, hiddenLabel: t("nameHiddenPlaceholder") },
   );
 
   // Whether this viewer has already kept this memorial.

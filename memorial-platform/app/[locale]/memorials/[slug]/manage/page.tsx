@@ -94,6 +94,7 @@ export default async function ManageMemorialPage(props: {
             relationshipToDeceased: memorialRelatives.relationshipToDeceased,
             isDeceased: memorialRelatives.isDeceased,
             showFullName: memorialRelatives.showFullName,
+            nameVisibility: memorialRelatives.nameVisibility,
             coParentId: memorialRelatives.coParentId,
             spouseOfId: memorialRelatives.spouseOfId,
           })

@@ -303,7 +303,13 @@
     "recognitionReviewHint": "Alguien cree ser familiar de esta persona y pide unirse al árbol genealógico. Confirma o rechaza.",
     "recognitionClaimSummary": "{name} reclama la identidad de «{relation}»",
     "recognitionConfirm": "Confirmar",
-    "recognitionReject": "Rechazar"
+    "recognitionReject": "Rechazar",
+    "nameVisibilityShort": "Quién ve el nombre",
+    "nameVisibility_public": "Todos",
+    "nameVisibility_family": "Solo registrados",
+    "nameVisibility_hidden": "Oculto",
+    "nameHiddenPlaceholder": "Familiar",
+    "nameVisibilityHelp": "Los familiares vivos solo son visibles para usuarios registrados; los visitantes anónimos ven el nombre enmascarado. Elige Oculto para no mostrarlo."
   },
   "privacy": {
     "title": "Quién puede ver este memorial",
@@ -413,6 +419,12 @@
     "regionLabel": "Región (opcional)",
     "save": "Guardar",
     "saved": "Perfil guardado.",
-    "requiredNote": "Nombre, género y fecha de nacimiento son obligatorios."
+    "requiredNote": "Nombre, género y fecha de nacimiento son obligatorios.",
+    "nameVisibilityLabel": "Mi nombre en los árboles de otras familias",
+    "nameVisibilityDefault": "Usar el ajuste de cada memorial",
+    "nameVisibility_public": "Todos",
+    "nameVisibility_family": "Solo usuarios registrados",
+    "nameVisibility_hidden": "Oculto",
+    "nameVisibilityHint": "Si se establece, prevalece sobre cómo los memoriales muestran tu nombre una vez confirmada tu identidad."
   }
 }

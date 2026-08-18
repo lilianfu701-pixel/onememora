@@ -17,6 +17,9 @@ export function ProfileForm(props: { initial: Profile; next: string | null }) {
   const [gender, setGender] = useState<string>(props.initial.gender ?? "");
   const [birthDate, setBirthDate] = useState(props.initial.birthDate ?? "");
   const [region, setRegion] = useState(props.initial.region ?? "");
+  const [nameVisibility, setNameVisibility] = useState<string>(
+    props.initial.nameVisibility ?? "",
+  );
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState<"none" | "saved" | "error" | "incomplete">(
     "none",
@@ -42,6 +45,7 @@ export function ProfileForm(props: { initial: Profile; next: string | null }) {
           gender: (gender || null) as Gender | null,
           birthDate: birthDate || null,
           region: region.trim() || null,
+          nameVisibility: nameVisibility || null,
         }),
       });
       if (!response.ok) {
@@ -119,6 +123,21 @@ export function ProfileForm(props: { initial: Profile; next: string | null }) {
           value={region}
           onChange={(e) => setRegion(e.target.value)}
         />
+      </label>
+
+      <label className="field">
+        <span className="fieldLabel">{t("nameVisibilityLabel")}</span>
+        <select
+          className="input"
+          value={nameVisibility}
+          onChange={(e) => setNameVisibility(e.target.value)}
+        >
+          <option value="">{t("nameVisibilityDefault")}</option>
+          <option value="public">{t("nameVisibility_public")}</option>
+          <option value="family">{t("nameVisibility_family")}</option>
+          <option value="hidden">{t("nameVisibility_hidden")}</option>
+        </select>
+        <span className="fieldHint">{t("nameVisibilityHint")}</span>
       </label>
 
       <p className="muted" style={{ fontSize: "var(--text-sm)" }}>

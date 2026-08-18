@@ -13,6 +13,7 @@ const schema = z.object({
     .regex(/^\d{4}-\d{2}-\d{2}$/)
     .nullable(),
   region: z.string().trim().max(120).nullable(),
+  nameVisibility: z.enum(["public", "family", "hidden"]).nullable().optional(),
 });
 
 /** Saves the signed-in person's own profile. */
@@ -34,6 +35,7 @@ export async function PUT(request: Request): Promise<Response> {
     gender: body.value.gender,
     birthDate: body.value.birthDate,
     region: body.value.region,
+    nameVisibility: body.value.nameVisibility ?? null,
   });
 
   return jsonSuccess({ saved: true }, correlationId);

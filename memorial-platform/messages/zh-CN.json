@@ -303,7 +303,13 @@
     "recognitionReviewHint": "有人认为自己是这位逝者的亲属，申请加入族谱。请确认或拒绝。",
     "recognitionClaimSummary": "{name} 申请认领「{relation}」的身份",
     "recognitionConfirm": "确认",
-    "recognitionReject": "拒绝"
+    "recognitionReject": "拒绝",
+    "nameVisibilityShort": "谁可见姓名",
+    "nameVisibility_public": "所有人",
+    "nameVisibility_family": "仅登录用户",
+    "nameVisibility_hidden": "完全隐藏",
+    "nameHiddenPlaceholder": "在世家属",
+    "nameVisibilityHelp": "在世亲属默认仅登录用户可见全名，匿名访客看到脱敏姓名；选“完全隐藏”则姓名完全不在页面显示。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -413,6 +419,12 @@
     "regionLabel": "所在地区（可选）",
     "save": "保存",
     "saved": "资料已保存。",
-    "requiredNote": "姓名、性别、出生日期为必填。"
+    "requiredNote": "姓名、性别、出生日期为必填。",
+    "nameVisibilityLabel": "我的姓名在他人族谱中的显示",
+    "nameVisibilityDefault": "由各主页自行设置",
+    "nameVisibility_public": "所有人",
+    "nameVisibility_family": "仅登录用户",
+    "nameVisibility_hidden": "完全隐藏",
+    "nameVisibilityHint": "设置后，一旦你的身份被确认，将覆盖各主页对你姓名的显示方式。"
   }
 }

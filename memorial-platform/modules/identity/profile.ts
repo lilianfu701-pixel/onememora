@@ -8,6 +8,13 @@ export type Profile = {
   gender: string | null;
   birthDate: string | null;
   region: string | null;
+  /**
+   * How the person's own name shows when a memorial lists them as a living
+   * relative: `public`, `family`, `hidden`, or null for "no preference". When
+   * set, it overrides the memorial's per-relative setting once a recognition
+   * claim ties this account to the listed name.
+   */
+  nameVisibility: string | null;
 };
 
 export async function loadProfile(userId: string): Promise<Profile | null> {
@@ -17,6 +24,7 @@ export async function loadProfile(userId: string): Promise<Profile | null> {
       gender: users.gender,
       birthDate: users.birthDate,
       region: users.region,
+      nameVisibility: users.nameVisibility,
     })
     .from(users)
     .where(eq(users.id, userId));
@@ -45,6 +53,12 @@ export async function saveProfile(
     const trimmed = value?.trim() ?? "";
     return trimmed.length > 0 ? trimmed : null;
   };
+  const visibility =
+    data.nameVisibility === "public" ||
+    data.nameVisibility === "family" ||
+    data.nameVisibility === "hidden"
+      ? data.nameVisibility
+      : null;
   await db()
     .update(users)
     .set({
@@ -52,6 +66,7 @@ export async function saveProfile(
       gender: clean(data.gender),
       birthDate: clean(data.birthDate),
       region: clean(data.region),
+      nameVisibility: visibility,
     })
     .where(eq(users.id, userId));
 }

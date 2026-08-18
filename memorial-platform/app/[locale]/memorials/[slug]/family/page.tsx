@@ -40,6 +40,7 @@ export default async function FamilyTreePage(props: {
       relationshipToDeceased: memorialRelatives.relationshipToDeceased,
       isDeceased: memorialRelatives.isDeceased,
       showFullName: memorialRelatives.showFullName,
+      nameVisibility: memorialRelatives.nameVisibility,
       coParentId: memorialRelatives.coParentId,
       spouseOfId: memorialRelatives.spouseOfId,
     })
@@ -61,7 +62,11 @@ export default async function FamilyTreePage(props: {
       deathYear: year(detail.deathDate, detail.deathDatePrecision),
     },
     relatives,
-    { recurse: true },
+    {
+      recurse: true,
+      viewerLoggedIn: actor.userId !== null,
+      hiddenLabel: t("nameHiddenPlaceholder"),
+    },
   );
 
   return (

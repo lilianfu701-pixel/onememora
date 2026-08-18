@@ -46,6 +46,7 @@ export default async function ProfilePage(props: {
     gender: null,
     birthDate: null,
     region: null,
+    nameVisibility: null,
   };
 
   // Only follow a same-site next, and only once the profile is worth unlocking.

@@ -200,6 +200,110 @@ describe("assembleFamilyView — grandchildren", () => {
   });
 });
 
+/** The name drawn for a relative id, or null if it was pruned. */
+function nameOf(
+  view: NonNullable<ReturnType<typeof assembleFamilyView>>,
+  relId: string,
+): string | null {
+  const node = view.tree.nodes.find(
+    (n) => n.visible && n.personId === `rel:${relId}`,
+  );
+  return node && node.visible ? node.name : null;
+}
+
+describe("assembleFamilyView — name visibility", () => {
+  const living = (visibility: string): RelativeRow => ({
+    id: "w",
+    name: "张三丰",
+    relationshipToDeceased: "wife",
+    isDeceased: false,
+    showFullName: false,
+    nameVisibility: visibility,
+  });
+
+  it("masks a family-only name for an anonymous viewer", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [living("family")],
+    })!;
+    expect(nameOf(view, "w")).toBe("张*丰");
+  });
+
+  it("shows a family-only name in full to a signed-in viewer", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [living("family")],
+      viewerLoggedIn: true,
+    })!;
+    expect(nameOf(view, "w")).toBe("张三丰");
+  });
+
+  it("shows a public name in full even to an anonymous viewer", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [living("public")],
+    })!;
+    expect(nameOf(view, "w")).toBe("张三丰");
+  });
+
+  it("replaces a hidden name with the placeholder but keeps the node", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [living("hidden")],
+      viewerLoggedIn: true,
+      hiddenLabel: "在世家属",
+    })!;
+    expect(nameOf(view, "w")).toBe("在世家属");
+    expect(labelOf(view, "w")).toBe("妻子");
+  });
+
+  it("lets a profile override beat the row's own setting", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [living("public")],
+      viewerLoggedIn: true,
+      hiddenLabel: "匿名",
+      nameOverrides: new Map([["张三丰", "hidden"]]),
+    })!;
+    expect(nameOf(view, "w")).toBe("匿名");
+  });
+});
+
+describe("assembleFamilyView — five-generation cap", () => {
+  it("keeps a grandfather but prunes a great-grandfather", () => {
+    const view = assembleFamilyView({
+      root,
+      relatives: [
+        { id: "f", relationshipToDeceased: "father", name: "父", isDeceased: true, showFullName: true },
+      ],
+      linked: [
+        {
+          personId: "pf",
+          name: "父",
+          slug: "mem-f",
+          role: "parent",
+          gender: "male",
+          birthYear: 1930,
+          deathYear: 1990,
+          lifeStatus: "deceased",
+          relatives: [
+            { id: "gf", relationshipToDeceased: "father", name: "祖", isDeceased: true, showFullName: true },
+            { id: "ggf", relationshipToDeceased: "paternal_grandfather", name: "曾祖", isDeceased: true, showFullName: true },
+          ],
+        },
+      ],
+    })!;
+    // Grandfather is two up (kept); great-grandfather is three up (pruned).
+    expect(view.tree.nodes.some((n) => n.visible && n.personId === "rel:gf")).toBe(true);
+    expect(view.tree.nodes.some((n) => n.visible && n.personId === "rel:ggf")).toBe(false);
+  });
+});
+
 describe("assembleFamilyView — nothing to draw", () => {
   it("returns null when the root has no relatives or links", () => {
     expect(assembleFamilyView({ root, relatives: [], linked: [] })).toBeNull();

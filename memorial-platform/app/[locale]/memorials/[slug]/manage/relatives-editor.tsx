@@ -10,7 +10,8 @@ type RelativeEntry = {
   name: string;
   relationshipToDeceased: string;
   isDeceased: boolean;
-  showFullName: boolean;
+  /** `public` / `family` / `hidden` — who may see this relative's full name. */
+  nameVisibility: string;
   /** The rid of the spouse this child was born to, if the family said so. */
   coParentRid: string | null;
   /** For a relative_spouse, the rid of the relative they married. */
@@ -22,10 +23,20 @@ type InitialRelative = {
   name: string;
   relationshipToDeceased: string;
   isDeceased: boolean;
-  showFullName: boolean;
+  nameVisibility: string | null;
   coParentId: string | null;
   spouseOfId: string | null;
 };
+
+const NAME_VISIBILITIES = ["public", "family", "hidden"] as const;
+
+/** Falls back to a safe default the way the server and tree do. */
+function normalizeVisibility(value: string | null, isDeceased: boolean): string {
+  if (value === "public" || value === "family" || value === "hidden") {
+    return value;
+  }
+  return isDeceased ? "public" : "family";
+}
 
 const SPOUSE_TYPES: ReadonlySet<string> = new Set([
   "husband",
@@ -116,12 +127,11 @@ export function RelativesEditor(props: {
       name: r.name,
       relationshipToDeceased: r.relationshipToDeceased,
       isDeceased: r.isDeceased,
-      showFullName: r.showFullName,
+      nameVisibility: normalizeVisibility(r.nameVisibility, r.isDeceased),
       coParentRid: r.coParentId,
       spouseOfRid: r.spouseOfId,
     })),
   );
-  const [showAllNames, setShowAllNames] = useState(false);
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState<Notice>({ kind: "none" });
 
@@ -156,7 +166,7 @@ export function RelativesEditor(props: {
         name: "",
         relationshipToDeceased: firstAvailableRelationship(),
         isDeceased: false,
-        showFullName: false,
+        nameVisibility: "family",
         coParentRid: null,
         spouseOfRid: null,
       },
@@ -168,8 +178,10 @@ export function RelativesEditor(props: {
       relatives.map((r, i) => {
         if (i !== idx) return r;
         const updated = { ...r, ...patch };
-        if ("isDeceased" in patch) {
-          updated.showFullName = patch.isDeceased ?? false;
+        // Living relatives default to family-only; the deceased to public. A
+        // manual choice of visibility is left alone.
+        if ("isDeceased" in patch && !("nameVisibility" in patch)) {
+          updated.nameVisibility = patch.isDeceased ? "public" : "family";
         }
         // A co-parent only means something for a child; a spouse-of link only
         // for a relative_spouse.
@@ -265,7 +277,7 @@ export function RelativesEditor(props: {
         name: r.name.trim(),
         relationshipToDeceased: r.relationshipToDeceased,
         isDeceased: r.isDeceased,
-        showFullName: showAllNames || r.showFullName,
+        nameVisibility: r.nameVisibility,
         ...(coParentIndex !== undefined ? { coParentIndex } : {}),
         ...(spouseOfIndex !== undefined ? { spouseOfIndex } : {}),
       };
@@ -322,13 +334,19 @@ export function RelativesEditor(props: {
             <span>{t("relativeRelationLabel")}</span>
             <span>{t("relativeNameLabel")}</span>
             <span>{t("relativeStatusLabel")}</span>
-            <span>{t("showFullNameShort")}</span>
+            <span>{t("nameVisibilityShort")}</span>
             <span>{t("displayPreview")}</span>
             <span />
           </div>
           {relatives.map((rel, i) => {
             const counts = usedCounts();
-            const shown = showAllNames || rel.showFullName;
+            // What an anonymous visitor would see — the privacy-relevant preview.
+            const publicName =
+              rel.nameVisibility === "public"
+                ? rel.name
+                : rel.nameVisibility === "hidden"
+                  ? t("nameHiddenPlaceholder")
+                  : desensitizeName(rel.name);
             const spouses = spouseOptions().filter((s) => s.rid !== rel.rid);
             const isGrandchild = GRANDCHILD_TYPES.has(rel.relationshipToDeceased);
             // A grandchild is placed under a son/daughter; a child's co-parent
@@ -393,23 +411,22 @@ export function RelativesEditor(props: {
                   <option value="living">{t("statusLiving")}</option>
                   <option value="deceased">{t("statusDeceased")}</option>
                 </select>
-                <label className="relativeShow">
-                  <input
-                    type="checkbox"
-                    aria-label={t("showFullNameShort")}
-                    checked={shown}
-                    disabled={showAllNames}
-                    onChange={(e) =>
-                      updateRelative(i, { showFullName: e.target.checked })
-                    }
-                  />
-                </label>
+                <select
+                  className="input inputSm"
+                  aria-label={t("nameVisibilityShort")}
+                  value={rel.nameVisibility}
+                  onChange={(e) =>
+                    updateRelative(i, { nameVisibility: e.target.value })
+                  }
+                >
+                  {NAME_VISIBILITIES.map((v) => (
+                    <option value={v} key={v}>
+                      {t(`nameVisibility_${v}`)}
+                    </option>
+                  ))}
+                </select>
                 <span className="relativePreviewName">
-                  {rel.name
-                    ? shown
-                      ? rel.name
-                      : desensitizeName(rel.name)
-                    : "—"}
+                  {rel.name ? publicName : "—"}
                 </span>
                 <div className="rowActions">
                   <button
@@ -498,17 +515,8 @@ export function RelativesEditor(props: {
         <button type="button" className="linkButton" onClick={addRelative}>
           + {t("addRelative")}
         </button>
-        {relatives.length > 0 ? (
-          <label className="choiceRow">
-            <input
-              type="checkbox"
-              checked={showAllNames}
-              onChange={(e) => setShowAllNames(e.target.checked)}
-            />
-            <span>{t("showAllNames")}</span>
-          </label>
-        ) : null}
       </div>
+      <p className="fieldHint">{t("nameVisibilityHelp")}</p>
 
       <div>
         <button

@@ -53,6 +53,15 @@ export const users = pgTable("users", {
   gender: text("gender"),
   birthDate: date("birth_date", { mode: "string" }),
   region: text("region"),
+  /**
+   * How this person's own name should show when a memorial lists them as a
+   * living relative: `public`, `family` (signed-in viewers only) or `hidden`.
+   * Null means "no preference" — the memorial's own per-relative setting stands.
+   * When set, it overrides that setting wherever a confirmed recognition claim
+   * ties this account to the listed name, so a living person has the final say
+   * over their own name.
+   */
+  nameVisibility: text("name_visibility"),
   preferredLocale: text("preferred_locale").default("en").notNull(),
   status: userStatus("status").default("active").notNull(),
   platformRole: platformRole("platform_role").default("user").notNull(),

@@ -211,6 +211,13 @@
       "when": 1786622453054,
       "tag": "0029_old_molly_hayes",
       "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1787027126564,
+      "tag": "0030_free_ikaris",
+      "breakpoints": true
     }
   ]
 }

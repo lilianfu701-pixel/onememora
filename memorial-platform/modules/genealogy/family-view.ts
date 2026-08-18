@@ -6,6 +6,8 @@ import {
   memorials,
   memorialNames,
   memorialRelatives,
+  recognitionClaims,
+  users,
 } from "@/db/schema";
 import type { Tree, TreeEdge, TreeNode } from "./tree";
 import type { Gender, Kinship } from "./kinship";
@@ -31,12 +33,22 @@ import { immediateLinks } from "./links";
 
 const ROOT_ID = "root";
 
+/** How much of a relative's name a given viewer may see. */
+export type NameVisibility = "public" | "family" | "hidden";
+
 export type RelativeRow = {
   id: string;
   name: string;
   relationshipToDeceased: string;
   isDeceased: boolean;
   showFullName: boolean;
+  /**
+   * `public` / `family` / `hidden`, straight from the text column. Optional and
+   * loosely typed so older callers still work and an unexpected value degrades
+   * safely: when absent or unrecognised it is derived from `showFullName` and
+   * `isDeceased`.
+   */
+  nameVisibility?: string | null;
   /** Which spouse-relative this child was born to, if the family said so. */
   coParentId?: string | null;
   /** For a collateral spouse, the relative they married into the family. */
@@ -125,6 +137,39 @@ function desensitize(name: string): string {
   return `${chars[0]}${"*".repeat(chars.length - 2)}${chars[chars.length - 1]}`;
 }
 
+/** How a viewer sees the name and what to draw, honouring the whole trilogy. */
+type NamePolicy = {
+  /** True when this viewer is signed in — the "family" audience. */
+  viewerLoggedIn: boolean;
+  /** Placeholder for a hidden living relative (localized by the caller). */
+  hiddenLabel: string;
+  /** A living person's own choice, keyed by raw name, overrides the row. */
+  overrides: Map<string, NameVisibility>;
+};
+
+/** The row's own setting, falling back to the pre-visibility columns. */
+function effectiveVisibility(rel: RelativeRow): NameVisibility {
+  const value = rel.nameVisibility;
+  if (value === "public" || value === "family" || value === "hidden") {
+    return value;
+  }
+  if (rel.showFullName) return "public";
+  return rel.isDeceased ? "public" : "family";
+}
+
+/**
+ * The name to draw for one relative under a policy. `public` shows the full
+ * name to everyone; `family` shows it to signed-in viewers and masks it for
+ * anonymous ones; `hidden` never shows it — the node stays, named only by the
+ * placeholder, so the shape of the family is kept without exposing the person.
+ */
+function nameForViewer(rel: RelativeRow, policy: NamePolicy): string {
+  const visibility = policy.overrides.get(rel.name.trim()) ?? effectiveVisibility(rel);
+  if (visibility === "public") return rel.name;
+  if (visibility === "hidden") return policy.hiddenLabel;
+  return policy.viewerLoggedIn ? rel.name : desensitize(rel.name);
+}
+
 const PARENT_TYPES = new Set(["father", "mother", "parent"]);
 const CHILD_TYPES = new Set(["son", "daughter", "child"]);
 const PARTNER_TYPES = new Set(["husband", "wife", "spouse"]);
@@ -157,12 +202,23 @@ export function assembleFamilyView(input: {
   relatives: RelativeRow[];
   linked: LinkedMemorial[];
   seniorityRoot?: number;
+  /** True when a signed-in person is looking. Defaults to the private view. */
+  viewerLoggedIn?: boolean;
+  /** What a hidden living relative is called instead of their name. */
+  hiddenLabel?: string;
+  /** Per-name visibility a living person set on their own profile. */
+  nameOverrides?: Map<string, NameVisibility>;
 }): { tree: Tree; kinship: Map<string, Kinship> } | null {
-  const graphNodes: { id: string; gender: Gender; birthYear: number | null }[] = [
+  const policy: NamePolicy = {
+    viewerLoggedIn: input.viewerLoggedIn ?? false,
+    hiddenLabel: input.hiddenLabel ?? "···",
+    overrides: input.nameOverrides ?? new Map(),
+  };
+  let graphNodes: { id: string; gender: Gender; birthYear: number | null }[] = [
     { id: ROOT_ID, gender: "unknown", birthYear: input.seniorityRoot ?? 2 },
   ];
-  const parentEdges: { parentId: string; childId: string }[] = [];
-  const partnerEdges: { aId: string; bId: string; dissolved: boolean }[] = [];
+  let parentEdges: { parentId: string; childId: string }[] = [];
+  let partnerEdges: { aId: string; bId: string; dissolved: boolean }[] = [];
   const display = new Map<string, DisplayNode>([
     [
       ROOT_ID,
@@ -278,7 +334,7 @@ export function assembleFamilyView(input: {
       const type = rel.relationshipToDeceased;
       const freshId = `rel:${rel.id}`;
       const gender = genderOfType(type);
-      const displayName = rel.showFullName ? rel.name : desensitize(rel.name);
+      const displayName = nameForViewer(rel, policy);
       const lifeStatus = rel.isDeceased ? "deceased" : "living";
       let nid: string;
 
@@ -396,6 +452,55 @@ export function assembleFamilyView(input: {
     if (link.relatives && link.relatives.length > 0) {
       addStar(memNode, link.relatives);
     }
+  }
+
+  // Keep the tree to two generations up and two down from the subject — the
+  // classic five-generation pivot. Cross-memorial recursion can otherwise reach
+  // great-grandparents through a parent's own memorial; anything past ±2 is
+  // pruned, along with the edges that dangle from it.
+  const MAX_GENERATION = 2;
+  const generation = new Map<string, number>([[ROOT_ID, 0]]);
+  const queue: string[] = [ROOT_ID];
+  while (queue.length > 0) {
+    const id = queue.shift() as string;
+    const g = generation.get(id) as number;
+    for (const edge of parentEdges) {
+      if (edge.parentId === id && !generation.has(edge.childId)) {
+        generation.set(edge.childId, g + 1);
+        queue.push(edge.childId);
+      }
+      if (edge.childId === id && !generation.has(edge.parentId)) {
+        generation.set(edge.parentId, g - 1);
+        queue.push(edge.parentId);
+      }
+    }
+    for (const edge of partnerEdges) {
+      if (edge.aId === id && !generation.has(edge.bId)) {
+        generation.set(edge.bId, g);
+        queue.push(edge.bId);
+      }
+      if (edge.bId === id && !generation.has(edge.aId)) {
+        generation.set(edge.aId, g);
+        queue.push(edge.aId);
+      }
+    }
+  }
+  const inRange = (id: string): boolean => {
+    const g = generation.get(id);
+    return g !== undefined && g >= -MAX_GENERATION && g <= MAX_GENERATION;
+  };
+  graphNodes = graphNodes.filter((node) => inRange(node.id));
+  parentEdges = parentEdges.filter(
+    (edge) => inRange(edge.parentId) && inRange(edge.childId),
+  );
+  partnerEdges = partnerEdges.filter(
+    (edge) => inRange(edge.aId) && inRange(edge.bId),
+  );
+  for (const id of [...display.keys()]) {
+    if (!inRange(id)) display.delete(id);
+  }
+  for (const id of [...withheld]) {
+    if (!inRange(id)) withheld.delete(id);
   }
 
   if (display.size <= 1) return null;
@@ -520,6 +625,7 @@ async function linkedMemorialsOf(
           relationshipToDeceased: memorialRelatives.relationshipToDeceased,
           isDeceased: memorialRelatives.isDeceased,
           showFullName: memorialRelatives.showFullName,
+          nameVisibility: memorialRelatives.nameVisibility,
           coParentId: memorialRelatives.coParentId,
           spouseOfId: memorialRelatives.spouseOfId,
         })
@@ -539,13 +645,67 @@ function yearOf(dateString: string | null): number | null {
   return Number.isFinite(year) ? year : null;
 }
 
+/**
+ * A living person's own name-visibility choice, keyed by the name a memorial
+ * recorded for them. Only a confirmed recognition claim ties an account to a
+ * listed name, and only a set (non-null) preference counts — so this is exactly
+ * the set of people who have both claimed their spot and chosen how their name
+ * should show. It overrides whatever the memorial's editor picked.
+ */
+async function nameOverridesForMemorial(
+  memorialId: string,
+): Promise<Map<string, NameVisibility>> {
+  const rows = await db()
+    .select({
+      claimedName: recognitionClaims.claimedName,
+      visibility: users.nameVisibility,
+    })
+    .from(recognitionClaims)
+    .innerJoin(users, eq(users.id, recognitionClaims.claimantUserId))
+    .where(
+      and(
+        eq(recognitionClaims.memorialId, memorialId),
+        eq(recognitionClaims.status, "confirmed"),
+      ),
+    );
+  const overrides = new Map<string, NameVisibility>();
+  for (const row of rows) {
+    if (
+      row.visibility === "public" ||
+      row.visibility === "family" ||
+      row.visibility === "hidden"
+    ) {
+      overrides.set(row.claimedName.trim(), row.visibility);
+    }
+  }
+  return overrides;
+}
+
 /** Reads the data the assembler needs, then builds the view for a memorial. */
 export async function familyViewForMemorial(
   memorialId: string,
   root: RootInfo,
   relatives: RelativeRow[],
-  options?: { recurse?: boolean },
+  options?: {
+    recurse?: boolean;
+    viewerLoggedIn?: boolean;
+    hiddenLabel?: string;
+  },
 ): Promise<{ tree: Tree; kinship: Map<string, Kinship> } | null> {
-  const linked = await linkedMemorialsOf(memorialId, options?.recurse ?? false);
-  return assembleFamilyView({ root, relatives, linked });
+  const [linked, nameOverrides] = await Promise.all([
+    linkedMemorialsOf(memorialId, options?.recurse ?? false),
+    nameOverridesForMemorial(memorialId),
+  ]);
+  return assembleFamilyView({
+    root,
+    relatives,
+    linked,
+    nameOverrides,
+    ...(options?.viewerLoggedIn !== undefined
+      ? { viewerLoggedIn: options.viewerLoggedIn }
+      : {}),
+    ...(options?.hiddenLabel !== undefined
+      ? { hiddenLabel: options.hiddenLabel }
+      : {}),
+  });
 }

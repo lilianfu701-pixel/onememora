@@ -41,6 +41,7 @@ export async function GET(
       relationshipToDeceased: memorialRelatives.relationshipToDeceased,
       isDeceased: memorialRelatives.isDeceased,
       showFullName: memorialRelatives.showFullName,
+      nameVisibility: memorialRelatives.nameVisibility,
       displayOrder: memorialRelatives.displayOrder,
     })
     .from(memorialRelatives)
@@ -55,6 +56,8 @@ const relativeSchema = z.object({
   relationshipToDeceased: z.string().trim().min(1).max(100),
   isDeceased: z.boolean(),
   showFullName: z.boolean().optional(),
+  /** `public` / `family` / `hidden`; controls who sees this person's name. */
+  nameVisibility: z.enum(["public", "family", "hidden"]).optional(),
   /** Index (within this array) of the spouse this child was born to. */
   coParentIndex: z.number().int().min(0).max(49).optional(),
   /** Index of the relative that a collateral spouse married. */
@@ -129,6 +132,10 @@ export async function PUT(
     const ids: string[] = [];
     for (let i = 0; i < relatives.length; i++) {
       const rel = relatives[i]!;
+      // The 3-state visibility is authoritative; the old boolean is kept in
+      // sync (public == "show the full name") for anything still reading it.
+      const visibility =
+        rel.nameVisibility ?? (rel.isDeceased ? "public" : "family");
       const [row] = await tx
         .insert(memorialRelatives)
         .values({
@@ -136,7 +143,8 @@ export async function PUT(
           name: rel.name,
           relationshipToDeceased: rel.relationshipToDeceased,
           isDeceased: rel.isDeceased,
-          showFullName: rel.showFullName ?? rel.isDeceased,
+          showFullName: rel.showFullName ?? visibility === "public",
+          nameVisibility: visibility,
           displayOrder: i,
         })
         .returning({ id: memorialRelatives.id });

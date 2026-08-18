@@ -282,6 +282,14 @@ export const memorialRelatives = pgTable(
     relationshipToDeceased: text("relationship_to_deceased").notNull(),
     isDeceased: boolean("is_deceased").default(false).notNull(),
     showFullName: boolean("show_full_name").default(false).notNull(),
+    /**
+     * Who may see this relative's full name: `public` (anyone), `family` (only
+     * signed-in viewers; anonymous visitors see it masked) or `hidden` (never
+     * shown — the tree keeps an anonymous placeholder). Living relatives default
+     * to `family`; the deceased are `public`. A living person can override this
+     * for themselves from their own profile — see `users.name_visibility`.
+     */
+    nameVisibility: text("name_visibility").default("family").notNull(),
     displayOrder: integer("display_order").default(0).notNull(),
     /**
      * For a child, which other relative is the co-parent — the spouse (or
