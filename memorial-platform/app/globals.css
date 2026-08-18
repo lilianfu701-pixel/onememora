@@ -1495,6 +1495,77 @@ img {
   background: rgba(197, 163, 95, 0.14);
 }
 
+/* ---------- Recognition (认领) ---------- */
+
+.claimAction {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.claimStatus {
+  font-size: var(--text-sm);
+  padding: 0.1rem 0.55rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line-strong);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.claimStatusPending {
+  border-color: var(--gold);
+  color: var(--ink);
+  background: rgba(197, 163, 95, 0.14);
+}
+
+.claimStatusConfirmed {
+  border-color: #3d6b4a;
+  color: #2f5238;
+  background: rgba(61, 107, 74, 0.12);
+}
+
+.claimStatusRejected,
+.claimStatusError {
+  border-color: #8c3b32;
+  color: #8c3b32;
+}
+
+.recognitionReview {
+  border-color: var(--gold);
+}
+
+.recognitionList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.recognitionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.recognitionSummary {
+  min-width: 0;
+}
+
+.recognitionActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
 /* ---------- Family links editor ---------- */
 
 .familyLinkList {

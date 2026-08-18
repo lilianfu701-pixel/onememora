@@ -289,7 +289,21 @@
     "relativeRole_paternal_granddaughter": "Granddaughter (son’s)",
     "relativeRole_maternal_grandson": "Grandson (daughter’s)",
     "relativeRole_maternal_granddaughter": "Granddaughter (daughter’s)",
-    "relativeParentLabel": "Their parent"
+    "relativeParentLabel": "Their parent",
+    "myMentions": "You may be listed here",
+    "myMentionsHint": "These public memorials list you as a relative. Once your claim is confirmed, you formally join that family's tree.",
+    "mentionListedAs": "Listed as: {relation}",
+    "claimThisIsMe": "This is me · Claim",
+    "claimSubmitting": "Submitting…",
+    "claimPending": "Claim awaiting confirmation",
+    "claimConfirmed": "Claim confirmed",
+    "claimRejected": "Claim declined",
+    "claimError": "Could not submit. Please try again.",
+    "recognitionReviewTitle": "Recognition requests",
+    "recognitionReviewHint": "Someone believes they are a relative of this person and has asked to join the family tree. Confirm or decline.",
+    "recognitionClaimSummary": "{name} is claiming the “{relation}” identity",
+    "recognitionConfirm": "Confirm",
+    "recognitionReject": "Decline"
   },
   "privacy": {
     "title": "Who can see this memorial",

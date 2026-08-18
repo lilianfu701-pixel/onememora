@@ -20,12 +20,14 @@ import {
 import { loadMemorialDetail } from "@/modules/memorials/detail";
 import { manageableMedia } from "@/modules/media/service";
 import { canOnMemorial } from "@/modules/permissions/policy";
+import { listPendingClaims } from "@/modules/memorials/recognition";
 import { ritualChoices } from "@/modules/religion/memorial-settings";
 import { ManageForms } from "./manage-forms";
 import { PhotoManager } from "./photo-manager";
 import { FamilyEditor } from "./family-editor";
 import { PrivacyEditor } from "./privacy-editor";
 import { RelativesEditor } from "./relatives-editor";
+import { RecognitionReview } from "./recognition-review";
 
 export const dynamic = "force-dynamic";
 
@@ -59,6 +61,11 @@ export default async function ManageMemorialPage(props: {
   const role = detail.viewerRole === "public_visitor" ? null : detail.viewerRole;
   const mayEditStory = canOnMemorial({ actor, role, action: "publish_content" });
   const mayConfigure = canOnMemorial({ actor, role, action: "configure_rituals" });
+  const mayManageFamily = canOnMemorial({
+    actor,
+    role,
+    action: "manage_family_links",
+  });
 
   if (!mayEditStory && !mayConfigure) {
     notFound();
@@ -124,6 +131,24 @@ export default async function ManageMemorialPage(props: {
   // visitors see. Editing continues from the draft when one is ahead.
   const editing = draft ?? published;
 
+  // People asking to be recognised as a relative of this person. Only someone
+  // trusted with the family links sees or answers them.
+  const roleLabel = (relationship: string): string => {
+    const key = `relativeRole_${relationship}`;
+    return t.has(key) ? t(key) : relationship;
+  };
+  const pendingClaims = mayManageFamily
+    ? await listPendingClaims(actor, detail.memorialId)
+    : null;
+  const recognitionClaims =
+    pendingClaims && pendingClaims.ok
+      ? pendingClaims.value.claims.map((claim) => ({
+          id: claim.id,
+          claimedName: claim.claimedName,
+          relationLabel: roleLabel(claim.claimedRelationship),
+        }))
+      : [];
+
   return (
     <main id="main" className="container section stack-lg">
       <header className="stack measure">
@@ -138,6 +163,13 @@ export default async function ManageMemorialPage(props: {
           </Link>
         </p>
       </header>
+
+      {mayManageFamily && recognitionClaims.length > 0 ? (
+        <RecognitionReview
+          memorialId={detail.memorialId}
+          initial={recognitionClaims}
+        />
+      ) : null}
 
       {mayEditStory ? (
         <PhotoManager memorialId={detail.memorialId} initial={photos} />

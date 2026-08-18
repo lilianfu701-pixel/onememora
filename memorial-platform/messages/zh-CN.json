@@ -289,7 +289,21 @@
     "relativeRole_paternal_granddaughter": "孙女",
     "relativeRole_maternal_grandson": "外孙",
     "relativeRole_maternal_granddaughter": "外孙女",
-    "relativeParentLabel": "父/母是谁"
+    "relativeParentLabel": "父/母是谁",
+    "myMentions": "有人提到我",
+    "myMentionsHint": "这些公开纪念主页把你列为亲属。经对方确认后，你就正式进入这个家族的族谱。",
+    "mentionListedAs": "被列为：{relation}",
+    "claimThisIsMe": "这是我 · 认领",
+    "claimSubmitting": "提交中…",
+    "claimPending": "认领待对方确认",
+    "claimConfirmed": "认领已确认",
+    "claimRejected": "认领被拒绝",
+    "claimError": "提交失败，请稍后重试。",
+    "recognitionReviewTitle": "认领申请",
+    "recognitionReviewHint": "有人认为自己是这位逝者的亲属，申请加入族谱。请确认或拒绝。",
+    "recognitionClaimSummary": "{name} 申请认领「{relation}」的身份",
+    "recognitionConfirm": "确认",
+    "recognitionReject": "拒绝"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

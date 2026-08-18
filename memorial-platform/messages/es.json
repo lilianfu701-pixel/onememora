@@ -289,7 +289,21 @@
     "relativeRole_paternal_granddaughter": "Nieta (por hijo)",
     "relativeRole_maternal_grandson": "Nieto (por hija)",
     "relativeRole_maternal_granddaughter": "Nieta (por hija)",
-    "relativeParentLabel": "Su progenitor"
+    "relativeParentLabel": "Su progenitor",
+    "myMentions": "Puede que aparezcas aquí",
+    "myMentionsHint": "Estos memoriales públicos te incluyen como familiar. Cuando se confirme tu solicitud, entrarás formalmente en el árbol de esa familia.",
+    "mentionListedAs": "Registrado como: {relation}",
+    "claimThisIsMe": "Soy yo · Reclamar",
+    "claimSubmitting": "Enviando…",
+    "claimPending": "Solicitud pendiente de confirmación",
+    "claimConfirmed": "Solicitud confirmada",
+    "claimRejected": "Solicitud rechazada",
+    "claimError": "No se pudo enviar. Inténtalo de nuevo.",
+    "recognitionReviewTitle": "Solicitudes de reconocimiento",
+    "recognitionReviewHint": "Alguien cree ser familiar de esta persona y pide unirse al árbol genealógico. Confirma o rechaza.",
+    "recognitionClaimSummary": "{name} reclama la identidad de «{relation}»",
+    "recognitionConfirm": "Confirmar",
+    "recognitionReject": "Rechazar"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

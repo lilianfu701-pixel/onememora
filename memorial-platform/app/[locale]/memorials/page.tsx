@@ -11,8 +11,11 @@ import {
   memorials,
 } from "@/db/schema";
 import { currentActor } from "@/modules/auth/current-user";
+import { loadProfile } from "@/modules/identity/profile";
+import { discoverMentions } from "@/modules/memorials/recognition-discovery";
 import { DeleteMemorialButton } from "./delete-memorial-button";
 import { RemoveBookmarkButton } from "./remove-bookmark-button";
+import { RecognitionClaimButton } from "./recognition-claim-button";
 
 export const dynamic = "force-dynamic";
 
@@ -126,11 +129,18 @@ export default async function MyMemorialsPage(props: {
     );
   }
 
-  const [created, related, bookmarked] = await Promise.all([
+  const profile = await loadProfile(actor.userId);
+  const [created, related, bookmarked, mentions] = await Promise.all([
     membershipMemorials(actor.userId, "owner"),
     membershipMemorials(actor.userId, "other"),
     bookmarkedMemorials(actor.userId),
+    discoverMentions(actor.userId, profile?.fullName ?? null),
   ]);
+
+  const roleLabel = (relationship: string): string => {
+    const key = `relativeRole_${relationship}`;
+    return t.has(key) ? t(key) : relationship;
+  };
 
   const card = (row: MemorialRow, variant: "created" | "related" | "bookmarked") => {
     const years = [yearOf(row.birthDate), yearOf(row.deathDate)]
@@ -212,6 +222,53 @@ export default async function MyMemorialsPage(props: {
           </Link>
         </div>
       </header>
+
+      {mentions.length > 0 ? (
+        <section className="stack">
+          <div className="stack">
+            <h2>{t("myMentions")}</h2>
+            <p className="muted">{t("myMentionsHint")}</p>
+          </div>
+          <ul className="memorialCardList">
+            {mentions.map((mention) => {
+              const years = [yearOf(mention.birthDate), yearOf(mention.deathDate)]
+                .filter(Boolean)
+                .join(" – ");
+              return (
+                <li className="memorialCard" key={`mention-${mention.memorialId}`}>
+                  <div className="memorialCardBody">
+                    <span className="memorialCardName">
+                      {mention.deceasedName ?? "—"}
+                    </span>
+                    <span className="memorialCardMeta">
+                      {years ? <span>{years}</span> : null}
+                      <span>
+                        {t("mentionListedAs", {
+                          relation: roleLabel(mention.relationship),
+                        })}
+                      </span>
+                    </span>
+                  </div>
+                  <div className="memorialCardActions">
+                    <Link
+                      className="button buttonQuiet buttonCompact"
+                      href={`/${locale}/memorials/${mention.slug}`}
+                    >
+                      {t("enterMemorial")}
+                    </Link>
+                    <RecognitionClaimButton
+                      memorialId={mention.memorialId}
+                      claimedName={mention.relativeName}
+                      claimedRelationship={mention.relationship}
+                      initialStatus={mention.claimStatus}
+                    />
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ) : null}
 
       {section(t("myCreated"), t("myCreatedEmpty"), created, "created")}
       {section(t("myBookmarked"), t("myBookmarkedEmpty"), bookmarked, "bookmarked")}
