@@ -137,7 +137,7 @@ export default async function SearchPage(props: {
           />
         </label>
 
-        <label className="field">
+        <label className="field fieldWide">
           <span className="fieldLabel">{t("countryLabel")}</span>
           <select className="input" name="country" defaultValue={criteria.country ?? ""}>
             <option value="">{t("countryAny")}</option>
