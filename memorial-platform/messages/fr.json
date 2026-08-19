@@ -43,7 +43,17 @@
     "ctaTitle": "Commencez quand vous êtes prêt",
     "ctaDesc": "Pas de date limite, pas de frais et pas de compte nécessaire pour visiter. Créer un mémorial prend quelques minutes.",
     "languagesTitle": "Dans chaque langue",
-    "signUpPrompt": "Connectez-vous ou créez un compte"
+    "signUpPrompt": "Connectez-vous ou créez un compte",
+    "imLabel": "En mémoire",
+    "keptLead": "Ici, un nom est préservé —",
+    "reassure": "Gratuit à créer, gratuit à visiter : aucun compte n’est nécessaire pour venir se souvenir.",
+    "holdTitle": "Comment une vie est préservée ici",
+    "step1Title": "Écrire la vie",
+    "step1Desc": "Son histoire, ses photographies, les dates et les lieux qui l’ont façonnée : écrits une fois, gardés pour toujours.",
+    "step2Title": "La rendre trouvable",
+    "step2Desc": "Partagez un lien, ou laissez la famille chercher par nom. Chacun peut venir — sans inscription, sans barrière.",
+    "step3Title": "L’entretenir ensemble",
+    "step3Desc": "Les visiteurs laissent un souvenir, allument une bougie, déposent une couronne. Se souvenir devient l’affaire de toute une famille."
   },
   "auth": {
     "signInTitle": "Se connecter",

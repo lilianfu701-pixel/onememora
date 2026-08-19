@@ -13,11 +13,11 @@ import type { ChartPerson } from "./family-chart";
  * spouses, each spouse's children hanging beneath the line that joins them.
  */
 
-export const CARD_W = 152;
-export const CARD_H = 94;
-const COUPLE_GAP = 36; // room for the marriage line between two cards
-const SIB_GAP = 44; // room between sibling subtrees, so couples don't crowd
-const GEN_GAP = 58; // vertical room between generations (couple row → children)
+export const CARD_W = 132;
+export const CARD_H = 82;
+const COUPLE_GAP = 22; // room for the marriage line between two cards
+const SIB_GAP = 30; // room between sibling subtrees, so couples don't crowd
+const GEN_GAP = 48; // vertical room between generations (couple row → children)
 
 export type LaidCard = ChartPerson & {
   x: number;

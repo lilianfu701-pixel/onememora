@@ -3,8 +3,14 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { flags } from "@/lib/feature-flags";
 import { currentActor } from "@/modules/auth/current-user";
+import { HomeInscription } from "./home-inscription";
 import { HomeSignIn } from "./home-sign-in";
 
+/**
+ * The same dedication, once per language: shown in its own script so the
+ * promise "in every language" is demonstrated, not asserted. Doubles as the
+ * language switcher.
+ */
 const languageGreetings = [
   { locale: "en", label: "English", text: "Every life deserves to be remembered." },
   { locale: "zh-CN", label: "简体中文", text: "每一个生命都值得被纪念。" },
@@ -23,181 +29,114 @@ const languageGreetings = [
   { locale: "ko", label: "한국어", text: "모든 삶은 기억될 가치가 있습니다." },
 ];
 
+const MOVEMENTS = [
+  { numeral: "I", titleKey: "step1Title", descKey: "step1Desc" },
+  { numeral: "II", titleKey: "step2Title", descKey: "step2Desc" },
+  { numeral: "III", titleKey: "step3Title", descKey: "step3Desc" },
+] as const;
+
 export default async function HomePage(props: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await props.params;
   setRequestLocale(locale);
   const t = await getTranslations("home");
-  const search = await getTranslations("search");
   const actor = await currentActor();
   const { oauthGoogleEnabled } = flags();
 
   return (
-    <main id="main">
-      <section className="heroSection">
-        <div className="container heroContent stack-lg">
-          <span className="eyebrow">{t("heroEyebrow")}</span>
-          <div className="stack measure">
-            <h1 style={{ fontSize: "var(--text-hero)" }}>{t("title")}</h1>
-            <p className="lede">{t("subtitle")}</p>
+    <main id="main" className="home">
+      {/* Dedication */}
+      <section className="homeHero">
+        <div className="container homeHeroInner">
+          <p className="homeLabel">{t("imLabel")}</p>
+          <h1 className="homeDedication">{t("title")}</h1>
+
+          <div className="homeInscription">
+            <span className="homeInscriptionRule" aria-hidden="true" />
+            <p className="homeKept">
+              <span className="homeKeptLead">{t("keptLead")}</span>
+              <span className="homeInscribed">
+                <HomeInscription />
+              </span>
+            </p>
           </div>
 
-          <form
-            className="searchForm"
-            method="get"
-            action={`/${locale}/search`}
-            role="search"
-          >
-            <label className="field fieldWide">
-              <span className="fieldLabel">{search("queryLabel")}</span>
-              <input
-                className="input"
-                type="search"
-                name="q"
-                placeholder={search("queryPlaceholder")}
-                maxLength={200}
-              />
-            </label>
-            <div>
-              <button className="button buttonPrimary" type="submit">
-                {search("submit")}
-              </button>
-            </div>
-          </form>
+          <p className="homeLede">{t("subtitle")}</p>
 
-          <nav className="heroActions" aria-label={t("createMemorial")}>
-            <Link
-              className="button buttonPrimary"
-              href={`/${locale}/memorials/new`}
-            >
+          <div className="homeActions">
+            <Link className="homeCreate" href={`/${locale}/memorials/new`}>
               {t("createMemorial")}
             </Link>
-            <Link className="button buttonQuiet" href={`/${locale}/search`}>
-              {t("findMemorial")}
+            <Link className="homeFind" href={`/${locale}/search`}>
+              {t("findMemorial")} →
             </Link>
-          </nav>
-        </div>
-
-        <div className="heroWave" aria-hidden="true">
-          <svg
-            viewBox="0 0 1440 80"
-            preserveAspectRatio="none"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0 40C240 65 480 15 720 40C960 65 1200 20 1440 35V80H0Z"
-              fill="var(--paper)"
-            />
-          </svg>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container stack-lg textCenter">
-          <h2>{t("featuresTitle")}</h2>
-          <div className="featureGrid">
-            <div className="featureCard">
-              <div className="featureIcon" aria-hidden="true">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M12 2C8 3 5 7 4 11c-1 4 1 8 4 10 1.5 1.2 3 2 4 2s2.5-.8 4-2c3-2 5-6 4-10-1-4-4-8-8-9z" />
-                  <path d="M12 6v14" />
-                  <path d="M8.5 10c1.5 1 2.5 2 3.5 2" />
-                  <path d="M15.5 10c-1.5 1-2.5 2-3.5 2" />
-                </svg>
-              </div>
-              <h3>{t("featureRememberTitle")}</h3>
-              <p>{t("featureRememberDesc")}</p>
-            </div>
-
-            <div className="featureCard">
-              <div className="featureIcon" aria-hidden="true">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M16.24 7.76l-2.12 6.36-6.36 2.12 2.12-6.36z" />
-                </svg>
-              </div>
-              <h3>{t("featureFindTitle")}</h3>
-              <p>{t("featureFindDesc")}</p>
-            </div>
-
-            <div className="featureCard">
-              <div className="featureIcon" aria-hidden="true">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="9" cy="7" r="3" />
-                  <path d="M3 21v-2a4 4 0 014-4h4a4 4 0 014 4v2" />
-                  <circle cx="17.5" cy="9" r="2.5" />
-                  <path d="M21 21v-1.5c0-1.4-.8-2.6-2-3.2" />
-                </svg>
-              </div>
-              <h3>{t("featureShareTitle")}</h3>
-              <p>{t("featureShareDesc")}</p>
-            </div>
           </div>
+
+          <p className="homeReassure">{t("reassure")}</p>
         </div>
       </section>
 
-      <section className="section">
-        <div className="container stack-lg textCenter">
-          <span className="eyebrow">{t("languagesTitle")}</span>
-          <div className="languageWall">
-            {languageGreetings.map((lang) => (
-              <Link
-                key={lang.locale}
-                className="languagePill"
-                href={`/${lang.locale}`}
-              >
-                <span className="languagePillName">{lang.label}</span>
-                <span className="muted">{lang.text}</span>
-              </Link>
+      {/* How a life is held here */}
+      <section className="homeSection">
+        <div className="container">
+          <h2 className="homeSectionTitle">{t("holdTitle")}</h2>
+          <ol className="homeMovements">
+            {MOVEMENTS.map((m) => (
+              <li className="homeMovement" key={m.numeral}>
+                <span className="homeMovementIndex" aria-hidden="true">
+                  {m.numeral}
+                </span>
+                <div className="homeMovementBody">
+                  <h3>{t(m.titleKey)}</h3>
+                  <p>{t(m.descKey)}</p>
+                </div>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
       </section>
 
-      <section className="ctaSection section">
-        <div className="container stack textCenter">
-          <h2>{t("ctaTitle")}</h2>
-          <p className="lede measure" style={{ marginInline: "auto" }}>
-            {t("ctaDesc")}
-          </p>
-          <div>
-            <Link
-              className="button buttonPrimary"
-              href={`/${locale}/memorials/new`}
-            >
-              {t("createMemorial")}
-            </Link>
-          </div>
+      {/* In every language */}
+      <section className="homeSection">
+        <div className="container">
+          <h2 className="homeSectionTitle">{t("languagesTitle")}</h2>
+          <ul className="homeLangList">
+            {languageGreetings.map((lang) => (
+              <li key={lang.locale}>
+                <Link
+                  className="homeLang"
+                  href={`/${lang.locale}`}
+                  data-current={lang.locale === locale ? "true" : "false"}
+                >
+                  <span className="homeLangName">{lang.label}</span>
+                  <span
+                    className="homeLangLine"
+                    lang={lang.locale}
+                    dir={lang.locale === "ar" ? "rtl" : "ltr"}
+                  >
+                    {lang.text}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Closing dedication */}
+      <section className="homeSection homeClose">
+        <div className="container homeHeroInner">
+          <p className="homeLabel">{t("imLabel")}</p>
+          <h2 className="homeCloseTitle">{t("ctaTitle")}</h2>
+          <p className="homeCloseLede">{t("ctaDesc")}</p>
+          <Link className="homeCreate" href={`/${locale}/memorials/new`}>
+            {t("createMemorial")}
+          </Link>
 
           {!actor.userId ? (
             <Suspense>
-              <HomeSignIn
-                locale={locale}
-                googleEnabled={oauthGoogleEnabled}
-              />
+              <HomeSignIn locale={locale} googleEnabled={oauthGoogleEnabled} />
             </Suspense>
           ) : null}
         </div>
