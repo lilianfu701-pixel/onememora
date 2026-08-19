@@ -24,7 +24,8 @@
     "signOut": "退出登录",
     "help": "帮助",
     "language": "语言",
-    "myProfile": "我的资料"
+    "myProfile": "我的资料",
+    "myAccount": "我的账户"
   },
   "home": {
     "title": "每一个生命都值得被纪念。",
@@ -80,7 +81,7 @@
     "relationship_older_sister": "姐姐",
     "relationship_younger_brother": "弟弟",
     "relationship_younger_sister": "妹妹",
-    "relationshipPrompt": "逝者是您的",
+    "relationshipPrompt": "为我的{relationship}建立追思主页",
     "relationshipHelp": "追思主页可由逝者的配偶、子女、孙子女或父母创建。",
     "truthDeclaration": "我确认以上信息属实，并愿意承担管理这个追思主页的责任。",
     "nameLabel": "逝者姓名",
@@ -157,8 +158,8 @@
     "ancestralHometownLabel": "祖籍",
     "faithLabel": "信仰",
     "causeOfDeathLabel": "逝世原因",
-    "relativesLabel": "直系亲属",
-    "relativesHelp": "列出逝者的直系亲属。在世亲属的姓名默认脱敏显示，以保护隐私。",
+    "relativesLabel": "逝者的：",
+    "relativesHelp": "逝者的：",
     "relativeNameLabel": "姓名",
     "relativeRelationLabel": "与逝者关系",
     "relativeStatusLabel": "状态",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "仅登录用户",
     "nameVisibility_hidden": "完全隐藏",
     "nameHiddenPlaceholder": "在世家属",
-    "nameVisibilityHelp": "在世亲属默认仅登录用户可见全名，匿名访客看到脱敏姓名；选“完全隐藏”则姓名完全不在页面显示。"
+    "nameVisibilityHelp": "在世亲属默认仅登录用户可见全名，匿名访客看到脱敏姓名；选“完全隐藏”则姓名完全不在页面显示。",
+    "shareMore": "更多分享方式…",
+    "bornIn": "，出生于{place}",
+    "diedIn": "，逝世于{place}",
+    "createdByNamed": "本主页由「{name}」的{relation}建立并管理"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "仅登录用户",
     "nameVisibility_hidden": "完全隐藏",
     "nameVisibilityHint": "设置后，一旦你的身份被确认，将覆盖各主页对你姓名的显示方式。"
+  },
+  "admin": {
+    "navLabel": "管理导航",
+    "title": "管理后台",
+    "dashboard": "概览",
+    "reports": "举报",
+    "disputes": "归属认领",
+    "rituals": "仪式审核",
+    "cases": "案件",
+    "users": "用户",
+    "offerings": "道具管理"
+  },
+  "offerings": {
+    "altarHeading": "祭品供奉",
+    "incenseCount": "已点燃 {count} 火香",
+    "offerIncense": "上香",
+    "offerCandle": "点蜡烛",
+    "offerWreath": "送花圈",
+    "donate": "捐款",
+    "free": "免费",
+    "noOfferingsYet": "成为第一个献上心意的人。",
+    "donorWallTitle": "捐款名录",
+    "donorWallTotal": "已筹集 ¥{amount}",
+    "anonymousDonor": "匿名",
+    "feeExplanation": "扣除20%平台手续费后，所有收入将转交给家属。"
   }
 }

@@ -24,7 +24,8 @@
     "signOut": "登出",
     "help": "說明",
     "language": "語言",
-    "myProfile": "我的資料"
+    "myProfile": "我的資料",
+    "myAccount": "我的帳戶"
   },
   "home": {
     "title": "每一個生命都值得被紀念。",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "祖籍",
     "faithLabel": "信仰",
     "causeOfDeathLabel": "逝世原因",
-    "relativesLabel": "直系親屬",
-    "relativesHelp": "列出逝者的直系親屬。在世親屬的姓名預設脫敏顯示，以保護隱私。",
+    "relativesLabel": "逝者的：",
+    "relativesHelp": "逝者的：",
     "relativeNameLabel": "姓名",
     "relativeRelationLabel": "與逝者關係",
     "relativeStatusLabel": "狀態",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "姐姐",
     "relativeRole_younger_brother": "弟弟",
     "relativeRole_younger_sister": "妹妹",
-    "relationshipPrompt": "逝者是您的",
+    "relationshipPrompt": "為我的{relationship}建立追思主頁",
     "coCreateLabel": "聯合創立",
     "coCreateToggle": "與其他家屬共同創立這個追思主頁",
     "coCreateHelp": "聯合創立人擁有相同的管理權限。只需填寫他們的姓名和與逝者的關係——當他們註冊時會自動配對。這可以避免日後在主頁管理和奠儀分配等方面產生糾紛。",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "僅登入用戶",
     "nameVisibility_hidden": "完全隱藏",
     "nameHiddenPlaceholder": "在世親屬",
-    "nameVisibilityHelp": "在世親屬預設僅登入用戶可見全名，匿名訪客看到去敏化姓名；選「完全隱藏」則姓名完全不在頁面顯示。"
+    "nameVisibilityHelp": "在世親屬預設僅登入用戶可見全名，匿名訪客看到去敏化姓名；選「完全隱藏」則姓名完全不在頁面顯示。",
+    "shareMore": "更多分享方式…",
+    "bornIn": "，出生於{place}",
+    "diedIn": "，逝世於{place}",
+    "createdByNamed": "本主頁由「{name}」的{relation}建立並管理"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "僅登入用戶",
     "nameVisibility_hidden": "完全隱藏",
     "nameVisibilityHint": "設定後，一旦你的身分被確認，將覆蓋各主頁對你姓名的顯示方式。"
+  },
+  "admin": {
+    "navLabel": "管理導覽",
+    "title": "管理後台",
+    "dashboard": "總覽",
+    "reports": "檢舉",
+    "disputes": "歸屬認領",
+    "rituals": "儀式審核",
+    "cases": "案件",
+    "users": "使用者",
+    "offerings": "道具管理"
+  },
+  "offerings": {
+    "altarHeading": "祭品供奉",
+    "incenseCount": "已點燃 {count} 火香",
+    "offerIncense": "上香",
+    "offerCandle": "點蠟燭",
+    "offerWreath": "送花圈",
+    "donate": "捐款",
+    "free": "免費",
+    "noOfferingsYet": "成為第一個獻上心意的人。",
+    "donorWallTitle": "捐款名錄",
+    "donorWallTotal": "已籌集 ¥{amount}",
+    "anonymousDonor": "匿名",
+    "feeExplanation": "扣除20%平台手續費後，所有收入将轉交給家屬。"
   }
 }

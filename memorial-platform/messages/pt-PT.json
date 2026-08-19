@@ -24,7 +24,8 @@
     "signOut": "Terminar sessão",
     "help": "Ajuda",
     "language": "Idioma",
-    "myProfile": "O meu perfil"
+    "myProfile": "O meu perfil",
+    "myAccount": "A minha conta"
   },
   "home": {
     "title": "Cada vida merece ser recordada.",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "Naturalidade ancestral",
     "faithLabel": "Fé ou religião",
     "causeOfDeathLabel": "Causa do falecimento",
-    "relativesLabel": "Familiares diretos",
-    "relativesHelp": "Indique os familiares diretos do falecido. Os nomes dos familiares vivos são parcialmente ocultados por defeito.",
+    "relativesLabel": "Família do falecido:",
+    "relativesHelp": "Família do falecido:",
     "relativeNameLabel": "Nome",
     "relativeRelationLabel": "Parentesco",
     "relativeStatusLabel": "Situação",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "Irmã mais velha",
     "relativeRole_younger_brother": "Irmão mais novo",
     "relativeRole_younger_sister": "Irmã mais nova",
-    "relationshipPrompt": "O/a falecido/a é o/a seu/sua",
+    "relationshipPrompt": "Criar memorial para o/a meu/minha {relationship}",
     "coCreateLabel": "Criação conjunta",
     "coCreateToggle": "Criar este memorial em conjunto com outros familiares",
     "coCreateHelp": "Os cocriadores partilham os mesmos direitos de gestão. Indique o nome e a relação com o falecido — quando se registarem, faremos a correspondência automaticamente. Assim evitam-se disputas sobre a gestão do memorial ou a divisão de oferendas.",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "Mais opções de partilha…",
+    "bornIn": ", nascido(a) em {place}",
+    "diedIn": ", falecido(a) em {place}",
+    "createdByNamed": "Esta página é mantida pelo(a) {relation} de {name}"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "Navegação admin",
+    "title": "Administração",
+    "dashboard": "Painel",
+    "reports": "Denúncias",
+    "disputes": "Reivindicações",
+    "rituals": "Revisões de rituais",
+    "cases": "Casos",
+    "users": "Utilizadores",
+    "offerings": "Oferendas"
+  },
+  "offerings": {
+    "altarHeading": "Oferendas",
+    "incenseCount": "{count} incensos acesos",
+    "offerIncense": "Acender incenso",
+    "offerCandle": "Acender uma vela",
+    "offerWreath": "Enviar coroa",
+    "donate": "Doar",
+    "free": "Grátis",
+    "noOfferingsYet": "Seja o primeiro a prestar homenagem com uma oferenda.",
+    "donorWallTitle": "Doadores",
+    "donorWallTotal": "¥{amount} angariados",
+    "anonymousDonor": "Anónimo",
+    "feeExplanation": "Após dedução de 20% de taxa da plataforma, todas as receitas são encaminhadas à família."
   }
 }

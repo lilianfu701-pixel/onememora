@@ -14,4 +14,5 @@ export * from "./commemoration";
 export * from "./governance";
 export * from "./search";
 export * from "./commerce";
+export * from "./offerings";
 export * from "./genealogy";

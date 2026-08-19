@@ -142,6 +142,13 @@ export const orders = pgTable(
     status: orderStatus("status").default("draft").notNull(),
     amountMinor: bigint("amount_minor", { mode: "number" }).notNull(),
     currency: text("currency").notNull(),
+    kind: text("kind"),
+    memorialId: uuid("memorial_id").references(() => memorials.id, {
+      onDelete: "set null",
+    }),
+    provider: text("provider"),
+    providerSessionId: text("provider_session_id"),
+    feeMinor: bigint("fee_minor", { mode: "number" }),
     createdAt: timestamp("created_at", { withTimezone: true })
       .defaultNow()
       .notNull(),

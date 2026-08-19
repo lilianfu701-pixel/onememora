@@ -93,7 +93,7 @@ export default async function LocaleLayout(props: {
                     <Link href={`/${locale}/memorials`}>
                       {nav("myMemorials")}
                     </Link>
-                    <Link href={`/${locale}/profile`}>{nav("myProfile")}</Link>
+                    <Link href={`/${locale}/account`}>{nav("myAccount")}</Link>
                     <SignOutButton locale={locale} />
                   </>
                 ) : (

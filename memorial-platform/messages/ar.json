@@ -24,7 +24,8 @@
     "signOut": "تسجيل الخروج",
     "help": "مساعدة",
     "language": "اللغة",
-    "myProfile": "ملفي"
+    "myProfile": "ملفي",
+    "myAccount": "حسابي"
   },
   "home": {
     "title": "كل حياة تستحق أن تُذكر.",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "الموطن الأصلي",
     "faithLabel": "الديانة",
     "causeOfDeathLabel": "سبب الوفاة",
-    "relativesLabel": "الأقارب المباشرون",
-    "relativesHelp": "أدرج أقارب المتوفى المباشرين. أسماء الأحياء مخفية جزئياً افتراضياً.",
+    "relativesLabel": "عائلة المتوفى:",
+    "relativesHelp": "عائلة المتوفى:",
     "relativeNameLabel": "الاسم",
     "relativeRelationLabel": "صلة القرابة",
     "relativeStatusLabel": "الحالة",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "أخت أكبر",
     "relativeRole_younger_brother": "أخ أصغر",
     "relativeRole_younger_sister": "أخت أصغر",
-    "relationshipPrompt": "المتوفى هو/هي",
+    "relationshipPrompt": "إنشاء صفحة تذكارية لـ{relationship}",
     "coCreateLabel": "إنشاء مشترك",
     "coCreateToggle": "إنشاء هذه الصفحة التذكارية مع أفراد آخرين من العائلة",
     "coCreateHelp": "يتمتع المشاركون في الإنشاء بنفس صلاحيات الإدارة. أدخل الاسم وصلة القرابة بالمتوفى — وعند تسجيلهم سنطابقهم تلقائيًا. هذا يتجنب النزاعات حول إدارة الصفحة التذكارية أو توزيع القرابين.",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "خيارات مشاركة إضافية…",
+    "bornIn": "، ولد في {place}",
+    "diedIn": "، توفي في {place}",
+    "createdByNamed": "هذه الصفحة يديرها {relation} {name}"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "التنقل الإداري",
+    "title": "الإدارة",
+    "dashboard": "لوحة التحكم",
+    "reports": "البلاغات",
+    "disputes": "مطالبات الملكية",
+    "rituals": "مراجعة الطقوس",
+    "cases": "الحالات",
+    "users": "المستخدمون",
+    "offerings": "القرابين"
+  },
+  "offerings": {
+    "altarHeading": "القرابين",
+    "incenseCount": "{count} عود بخور مشتعل",
+    "offerIncense": "إشعال البخور",
+    "offerCandle": "إضاءة شمعة",
+    "offerWreath": "إرسال إكليل",
+    "donate": "تبرع",
+    "free": "مجاني",
+    "noOfferingsYet": "كن أول من يقدم التحية بقربان.",
+    "donorWallTitle": "المتبرعون",
+    "donorWallTotal": "¥{amount} تم جمعها",
+    "anonymousDonor": "مجهول",
+    "feeExplanation": "بعد خصم 20% رسوم المنصة، يتم تحويل جميع العائدات إلى العائلة."
   }
 }

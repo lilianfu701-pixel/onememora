@@ -146,6 +146,11 @@ const envSchema = z.object({
    * before the copy and the opt-out have been reviewed.
    */
   ANNIVERSARY_NOTIFICATIONS_ENABLED: booleanFlag,
+
+  STRIPE_SECRET_KEY: optionalSecret,
+  STRIPE_WEBHOOK_SECRET: optionalSecret,
+  STRIPE_PUBLISHABLE_KEY: optionalSecret,
+  PLATFORM_FEE_PERCENT: z.coerce.number().min(0).max(100).default(10),
 });
 
 export type Env = z.infer<typeof envSchema>;

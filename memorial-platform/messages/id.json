@@ -24,7 +24,8 @@
     "signOut": "Keluar",
     "help": "Bantuan",
     "language": "Bahasa",
-    "myProfile": "Profil saya"
+    "myProfile": "Profil saya",
+    "myAccount": "Akun Saya"
   },
   "home": {
     "title": "Setiap kehidupan layak untuk dikenang.",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "Kampung halaman leluhur",
     "faithLabel": "Agama atau kepercayaan",
     "causeOfDeathLabel": "Penyebab kematian",
-    "relativesLabel": "Keluarga langsung",
-    "relativesHelp": "Daftar keluarga langsung almarhum. Nama anggota keluarga yang masih hidup disembunyikan sebagian secara default.",
+    "relativesLabel": "Keluarga almarhum:",
+    "relativesHelp": "Keluarga almarhum:",
     "relativeNameLabel": "Nama",
     "relativeRelationLabel": "Hubungan",
     "relativeStatusLabel": "Status",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "Kakak perempuan",
     "relativeRole_younger_brother": "Adik laki-laki",
     "relativeRole_younger_sister": "Adik perempuan",
-    "relationshipPrompt": "Almarhum adalah",
+    "relationshipPrompt": "Buat memorial untuk {relationship} saya",
     "coCreateLabel": "Pembuatan bersama",
     "coCreateToggle": "Buat memorial ini bersama anggota keluarga lainnya",
     "coCreateHelp": "Pembuat bersama memiliki hak pengelolaan yang sama. Masukkan nama dan hubungan dengan almarhum — saat mereka mendaftar, kami mencocokkannya secara otomatis. Ini menghindari perselisihan tentang pengelolaan memorial atau pembagian persembahan.",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "Opsi berbagi lainnya…",
+    "bornIn": ", lahir di {place}",
+    "diedIn": ", meninggal di {place}",
+    "createdByNamed": "Halaman ini dikelola oleh {relation} dari {name}"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "Navigasi admin",
+    "title": "Admin",
+    "dashboard": "Dasbor",
+    "reports": "Laporan",
+    "disputes": "Klaim Kepemilikan",
+    "rituals": "Revisi Ritual",
+    "cases": "Kasus",
+    "users": "Pengguna",
+    "offerings": "Persembahan"
+  },
+  "offerings": {
+    "altarHeading": "Persembahan",
+    "incenseCount": "{count} dupa telah dinyalakan",
+    "offerIncense": "Bakar Dupa",
+    "offerCandle": "Nyalakan Lilin",
+    "offerWreath": "Kirim Karangan Bunga",
+    "donate": "Donasi",
+    "free": "Gratis",
+    "noOfferingsYet": "Jadilah yang pertama memberikan penghormatan.",
+    "donorWallTitle": "Donatur",
+    "donorWallTotal": "¥{amount} terkumpul",
+    "anonymousDonor": "Anonim",
+    "feeExplanation": "Setelah dipotong biaya platform 20%, semua hasil diteruskan kepada keluarga."
   }
 }

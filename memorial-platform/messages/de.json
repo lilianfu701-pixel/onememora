@@ -24,7 +24,8 @@
     "signOut": "Abmelden",
     "help": "Hilfe",
     "language": "Sprache",
-    "myProfile": "Mein Profil"
+    "myProfile": "Mein Profil",
+    "myAccount": "Mein Konto"
   },
   "home": {
     "title": "Jedes Leben verdient es, in Erinnerung zu bleiben.",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "Herkunftsort",
     "faithLabel": "Glaube oder Religion",
     "causeOfDeathLabel": "Todesursache",
-    "relativesLabel": "Direkte Angehörige",
-    "relativesHelp": "Listen Sie die direkten Angehörigen des Verstorbenen auf. Namen lebender Angehöriger werden standardmäßig teilweise verborgen.",
+    "relativesLabel": "Angehörige des Verstorbenen:",
+    "relativesHelp": "Angehörige des Verstorbenen:",
     "relativeNameLabel": "Name",
     "relativeRelationLabel": "Verwandtschaft",
     "relativeStatusLabel": "Status",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "Ältere Schwester",
     "relativeRole_younger_brother": "Jüngerer Bruder",
     "relativeRole_younger_sister": "Jüngere Schwester",
-    "relationshipPrompt": "Der/die Verstorbene ist Ihr/e",
+    "relationshipPrompt": "Gedenkseite für meinen/meine {relationship} erstellen",
     "coCreateLabel": "Gemeinsame Erstellung",
     "coCreateToggle": "Diese Gedenkseite gemeinsam mit anderen Familienmitgliedern erstellen",
     "coCreateHelp": "Mitgestalter haben die gleichen Verwaltungsrechte. Geben Sie Namen und Beziehung zum Verstorbenen an – bei der Registrierung ordnen wir sie automatisch zu. Das vermeidet spätere Streitigkeiten über die Verwaltung der Gedenkseite oder die Aufteilung von Gaben.",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "Weitere Teilen-Optionen…",
+    "bornIn": ", geboren in {place}",
+    "diedIn": ", verstorben in {place}",
+    "createdByNamed": "Diese Seite wird vom {relation} von {name} gepflegt"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "Admin-Navigation",
+    "title": "Verwaltung",
+    "dashboard": "Übersicht",
+    "reports": "Meldungen",
+    "disputes": "Eigentümeransprüche",
+    "rituals": "Ritualprüfungen",
+    "cases": "Fälle",
+    "users": "Benutzer",
+    "offerings": "Gaben"
+  },
+  "offerings": {
+    "altarHeading": "Opfergaben",
+    "incenseCount": "{count} Räucherstäbchen angezündet",
+    "offerIncense": "Räucherstäbchen anzünden",
+    "offerCandle": "Kerze anzünden",
+    "offerWreath": "Kranz senden",
+    "donate": "Spenden",
+    "free": "Kostenlos",
+    "noOfferingsYet": "Seien Sie der Erste, der mit einer Opfergabe Respekt erweist.",
+    "donorWallTitle": "Spender",
+    "donorWallTotal": "¥{amount} gesammelt",
+    "anonymousDonor": "Anonym",
+    "feeExplanation": "Nach Abzug von 20% Plattformgebühr werden alle Einnahmen an die Familie weitergeleitet."
   }
 }

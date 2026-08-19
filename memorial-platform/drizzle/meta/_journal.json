@@ -218,6 +218,13 @@
       "when": 1787027126564,
       "tag": "0030_free_ikaris",
       "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1787091140368,
+      "tag": "0031_skinny_hydra",
+      "breakpoints": true
     }
   ]
 }

@@ -32,7 +32,7 @@ export function FamilyTree(props: {
 
   return (
     <section className="stack">
-      {props.heading ? <h2>{props.heading}</h2> : null}
+      {props.heading ? <h2 className="famHeading">{props.heading}</h2> : null}
       <div className="famChart">
         <div
           className="famStage"

@@ -24,7 +24,8 @@
     "signOut": "Выйти",
     "help": "Помощь",
     "language": "Язык",
-    "myProfile": "Профиль"
+    "myProfile": "Профиль",
+    "myAccount": "Мой аккаунт"
   },
   "home": {
     "title": "Каждая жизнь достойна памяти.",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "Малая родина",
     "faithLabel": "Вероисповедание",
     "causeOfDeathLabel": "Причина смерти",
-    "relativesLabel": "Ближайшие родственники",
-    "relativesHelp": "Укажите ближайших родственников умершего. Имена живых родственников частично скрыты по умолчанию.",
+    "relativesLabel": "Родственники умершего:",
+    "relativesHelp": "Родственники умершего:",
     "relativeNameLabel": "Имя",
     "relativeRelationLabel": "Родство",
     "relativeStatusLabel": "Статус",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "Старшая сестра",
     "relativeRole_younger_brother": "Младший брат",
     "relativeRole_younger_sister": "Младшая сестра",
-    "relationshipPrompt": "Умерший(ая) — ваш(а)",
+    "relationshipPrompt": "Создать страницу памяти для моего/моей {relationship}",
     "coCreateLabel": "Совместное создание",
     "coCreateToggle": "Создать эту страницу совместно с другими членами семьи",
     "coCreateHelp": "Соавторы имеют равные права управления. Укажите имя и родство с усопшим — при регистрации мы сопоставим их автоматически. Это позволяет избежать споров об управлении страницей памяти и распределении подношений.",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "Ещё варианты…",
+    "bornIn": ", родился(ась) в {place}",
+    "diedIn": ", скончался(ась) в {place}",
+    "createdByNamed": "Эту страницу ведут {relation} {name}"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "Навигация администратора",
+    "title": "Администрирование",
+    "dashboard": "Обзор",
+    "reports": "Жалобы",
+    "disputes": "Заявки на владение",
+    "rituals": "Ревизии обрядов",
+    "cases": "Дела",
+    "users": "Пользователи",
+    "offerings": "Подношения"
+  },
+  "offerings": {
+    "altarHeading": "Подношения",
+    "incenseCount": "Зажжено {count} благовоний",
+    "offerIncense": "Зажечь благовоние",
+    "offerCandle": "Зажечь свечу",
+    "offerWreath": "Отправить венок",
+    "donate": "Пожертвовать",
+    "free": "Бесплатно",
+    "noOfferingsYet": "Будьте первым, кто почтит память подношением.",
+    "donorWallTitle": "Жертвователи",
+    "donorWallTotal": "¥{amount} собрано",
+    "anonymousDonor": "Аноним",
+    "feeExplanation": "После вычета 20% комиссии платформы все средства передаются семье."
   }
 }

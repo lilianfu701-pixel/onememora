@@ -26,6 +26,9 @@ export const ERROR_CODES = [
   "EXPORT_IN_PROGRESS",
   "CALENDAR_NOT_CONFIGURED",
   "DEPENDENCY_UNAVAILABLE",
+  "OFFERING_NOT_FOUND",
+  "PRODUCT_NOT_FOUND",
+  "CHECKOUT_FAILED",
 ] as const;
 
 export type ErrorCode = (typeof ERROR_CODES)[number];
@@ -55,6 +58,9 @@ const HTTP_STATUS: Record<ErrorCode, number> = {
   EXPORT_IN_PROGRESS: 409,
   CALENDAR_NOT_CONFIGURED: 422,
   DEPENDENCY_UNAVAILABLE: 503,
+  OFFERING_NOT_FOUND: 404,
+  PRODUCT_NOT_FOUND: 404,
+  CHECKOUT_FAILED: 502,
 };
 
 const PUBLIC_MESSAGE: Record<ErrorCode, string> = {
@@ -82,6 +88,9 @@ const PUBLIC_MESSAGE: Record<ErrorCode, string> = {
   CALENDAR_NOT_CONFIGURED:
     "This calendar is not supported yet, so no date can be offered.",
   DEPENDENCY_UNAVAILABLE: "This service is temporarily unavailable. Please try again.",
+  OFFERING_NOT_FOUND: "This offering could not be found.",
+  PRODUCT_NOT_FOUND: "This product is not available.",
+  CHECKOUT_FAILED: "Payment could not be processed. Please try again.",
 };
 
 export type FieldErrors = Record<string, string[]>;

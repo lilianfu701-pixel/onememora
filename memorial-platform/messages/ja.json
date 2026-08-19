@@ -24,7 +24,8 @@
     "signOut": "ログアウト",
     "help": "ヘルプ",
     "language": "言語",
-    "myProfile": "プロフィール"
+    "myProfile": "プロフィール",
+    "myAccount": "マイアカウント"
   },
   "home": {
     "title": "すべての命は、記憶される価値がある。",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "出身地",
     "faithLabel": "信仰",
     "causeOfDeathLabel": "死因",
-    "relativesLabel": "直系親族",
-    "relativesHelp": "故人の直系親族を記入してください。存命の親族の名前はデフォルトで部分的に隠されます。",
+    "relativesLabel": "故人の：",
+    "relativesHelp": "故人の：",
     "relativeNameLabel": "名前",
     "relativeRelationLabel": "関係",
     "relativeStatusLabel": "状態",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "姉",
     "relativeRole_younger_brother": "弟",
     "relativeRole_younger_sister": "妹",
-    "relationshipPrompt": "故人はあなたの",
+    "relationshipPrompt": "私の{relationship}の追悼ページを作成",
     "coCreateLabel": "共同作成",
     "coCreateToggle": "他のご家族と一緒にこの追悼ページを作成する",
     "coCreateHelp": "共同作成者は同等の管理権限を持ちます。氏名と逝去された方との続柄を入力してください。登録時に自動的に照合します。これにより、追悼ページの管理やお供えの分配をめぐる後々のトラブルを防げます。",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "その他の共有方法…",
+    "bornIn": "、{place}生まれ",
+    "diedIn": "、{place}にて逝去",
+    "createdByNamed": "このページは{name}の{relation}が管理しています"
   },
   "privacy": {
     "title": "このページを見られる範囲",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "管理ナビゲーション",
+    "title": "管理画面",
+    "dashboard": "ダッシュボード",
+    "reports": "通報",
+    "disputes": "所有権申請",
+    "rituals": "儀式レビュー",
+    "cases": "ケース",
+    "users": "ユーザー",
+    "offerings": "お供え物"
+  },
+  "offerings": {
+    "altarHeading": "お供え",
+    "incenseCount": "{count}本のお線香",
+    "offerIncense": "お線香を上げる",
+    "offerCandle": "ろうそくを灯す",
+    "offerWreath": "花輪を贈る",
+    "donate": "寄付する",
+    "free": "無料",
+    "noOfferingsYet": "最初にお供えをする方になりませんか。",
+    "donorWallTitle": "寄付者一覧",
+    "donorWallTotal": "¥{amount} 集まりました",
+    "anonymousDonor": "匿名",
+    "feeExplanation": "プラットフォーム手数料20%を差し引いた後、すべての収益はご遺族に送られます。"
   }
 }

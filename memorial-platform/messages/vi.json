@@ -24,7 +24,8 @@
     "signOut": "Đăng xuất",
     "help": "Trợ giúp",
     "language": "Ngôn ngữ",
-    "myProfile": "Hồ sơ"
+    "myProfile": "Hồ sơ",
+    "myAccount": "Tài khoản"
   },
   "home": {
     "title": "Mỗi cuộc đời đều xứng đáng được tưởng nhớ.",
@@ -156,8 +157,8 @@
     "ancestralHometownLabel": "Quê quán",
     "faithLabel": "Tín ngưỡng",
     "causeOfDeathLabel": "Nguyên nhân mất",
-    "relativesLabel": "Gia đình trực hệ",
-    "relativesHelp": "Liệt kê thành viên gia đình trực hệ của người đã mất. Tên của người còn sống được ẩn một phần theo mặc định.",
+    "relativesLabel": "Gia đình người đã mất:",
+    "relativesHelp": "Gia đình người đã mất:",
     "relativeNameLabel": "Tên",
     "relativeRelationLabel": "Quan hệ",
     "relativeStatusLabel": "Trạng thái",
@@ -182,7 +183,7 @@
     "relativeRole_older_sister": "Chị gái",
     "relativeRole_younger_brother": "Em trai",
     "relativeRole_younger_sister": "Em gái",
-    "relationshipPrompt": "Người đã mất là",
+    "relationshipPrompt": "Tạo trang tưởng niệm cho {relationship} của tôi",
     "coCreateLabel": "Đồng sáng lập",
     "coCreateToggle": "Tạo trang tưởng niệm này cùng với thành viên gia đình khác",
     "coCreateHelp": "Người đồng tạo có quyền quản lý ngang nhau. Nhập tên và mối quan hệ với người đã mất — khi họ đăng ký, chúng tôi sẽ tự động ghép nối. Điều này tránh tranh chấp về việc quản lý trang tưởng niệm hay phân chia lễ vật.",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "Thêm tùy chọn chia sẻ…",
+    "bornIn": ", sinh tại {place}",
+    "diedIn": ", mất tại {place}",
+    "createdByNamed": "Trang này được quản lý bởi {relation} của {name}"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "Điều hướng quản trị",
+    "title": "Quản trị",
+    "dashboard": "Tổng quan",
+    "reports": "Báo cáo",
+    "disputes": "Yêu cầu sở hữu",
+    "rituals": "Xét duyệt nghi lễ",
+    "cases": "Vụ việc",
+    "users": "Người dùng",
+    "offerings": "Lễ vật"
+  },
+  "offerings": {
+    "altarHeading": "Lễ vật",
+    "incenseCount": "Đã thắp {count} nén nhang",
+    "offerIncense": "Thắp nhang",
+    "offerCandle": "Thắp nến",
+    "offerWreath": "Gửi vòng hoa",
+    "donate": "Quyên góp",
+    "free": "Miễn phí",
+    "noOfferingsYet": "Hãy là người đầu tiên dâng lễ vật tưởng nhớ.",
+    "donorWallTitle": "Danh sách quyên góp",
+    "donorWallTotal": "¥{amount} đã quyên góp",
+    "anonymousDonor": "Ẩn danh",
+    "feeExplanation": "Sau khi trừ 20% phí nền tảng, toàn bộ số tiền sẽ được chuyển cho gia đình."
   }
 }

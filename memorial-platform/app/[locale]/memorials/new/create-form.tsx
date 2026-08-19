@@ -518,7 +518,13 @@ export function CreateMemorialForm(props: { locale: string }) {
     <form className="createForm" onSubmit={submit} noValidate>
       {/* ── Relationship ── */}
       <fieldset className="formSection">
-        <legend className="eyebrow">{t("relationshipPrompt")}</legend>
+        <legend className="eyebrow">
+          {t("relationshipPrompt", {
+            relationship: relationship
+              ? t(`relationship_${relationship}`)
+              : "…",
+          })}
+        </legend>
         <div className="relationshipGrid">
           {RELATIONSHIPS.map((option) => (
             <button
@@ -545,20 +551,18 @@ export function CreateMemorialForm(props: { locale: string }) {
 
       {/* ── Name ── */}
       <fieldset className="formSection measure">
-        <legend className="eyebrow">{t("nameLabel")}</legend>
-        <label className="field">
-          <span className="fieldLabel">
-            {t("nameLabel")} <span aria-hidden="true">*</span>
-          </span>
-          <input
-            className="input"
-            type="text"
-            required
-            maxLength={200}
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </label>
+        <legend className="eyebrow">
+          {t("nameLabel")} <span aria-hidden="true">*</span>
+        </legend>
+        <input
+          className="input"
+          type="text"
+          required
+          aria-label={t("nameLabel")}
+          maxLength={200}
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
         {errorFor("primaryName") ? (
           <p className="fieldError" role="alert">
             {errorFor("primaryName")}
@@ -701,56 +705,55 @@ export function CreateMemorialForm(props: { locale: string }) {
       </fieldset>
 
       {/* ── Personal info ── */}
-      <fieldset className="formSection measure">
+      <fieldset className="formSection">
         <legend className="eyebrow">{t("personalInfoLabel")}</legend>
-        <label className="field">
-          <span className="fieldLabel">{t("ancestralHometownLabel")}</span>
-          <input
-            className="input"
-            type="text"
-            maxLength={200}
-            value={ancestralHometown}
-            onChange={(e) => setAncestralHometown(e.target.value)}
-          />
-        </label>
-        <label className="field">
-          <span className="fieldLabel">{t("faithLabel")}</span>
-          <select
-            className="input"
-            value={faith}
-            onChange={(e) => setFaith(e.target.value)}
-          >
-            <option value="">—</option>
-            {FAITH_OPTIONS.map((f) => (
-              <option value={f} key={f}>
-                {t(`faith_${f}`)}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="field">
-          <span className="fieldLabel">{t("causeOfDeathLabel")}</span>
-          <select
-            className="input"
-            value={causeOfDeath}
-            onChange={(e) => setCauseOfDeath(e.target.value)}
-          >
-            <option value="">—</option>
-            {CAUSE_OPTIONS.map((c) => (
-              <option value={c} key={c}>
-                {t(`cause_${c}`)}
-              </option>
-            ))}
-          </select>
-        </label>
+        <div className="personalInfoGrid">
+          <label className="field">
+            <span className="fieldLabel">{t("ancestralHometownLabel")}</span>
+            <input
+              className="input"
+              type="text"
+              maxLength={200}
+              value={ancestralHometown}
+              onChange={(e) => setAncestralHometown(e.target.value)}
+            />
+          </label>
+          <label className="field">
+            <span className="fieldLabel">{t("faithLabel")}</span>
+            <select
+              className="input"
+              value={faith}
+              onChange={(e) => setFaith(e.target.value)}
+            >
+              <option value="">—</option>
+              {FAITH_OPTIONS.map((f) => (
+                <option value={f} key={f}>
+                  {t(`faith_${f}`)}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="field">
+            <span className="fieldLabel">{t("causeOfDeathLabel")}</span>
+            <select
+              className="input"
+              value={causeOfDeath}
+              onChange={(e) => setCauseOfDeath(e.target.value)}
+            >
+              <option value="">—</option>
+              {CAUSE_OPTIONS.map((c) => (
+                <option value={c} key={c}>
+                  {t(`cause_${c}`)}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
       </fieldset>
 
       {/* ── Family members ── */}
       <fieldset className="formSection">
         <legend className="eyebrow">{t("relativesLabel")}</legend>
-        <p className="muted" style={{ fontSize: "var(--text-sm)" }}>
-          {t("relativesHelp")}
-        </p>
 
         {relatives.length > 0 ? (
           <div className="relativesTable">

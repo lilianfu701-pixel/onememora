@@ -24,7 +24,8 @@
     "signOut": "Sign out",
     "help": "Help",
     "language": "Language",
-    "myProfile": "My profile"
+    "myProfile": "My profile",
+    "myAccount": "My Account"
   },
   "home": {
     "title": "Every life deserves to be remembered.",
@@ -80,7 +81,7 @@
     "relationship_older_sister": "Older sister",
     "relationship_younger_brother": "Younger brother",
     "relationship_younger_sister": "Younger sister",
-    "relationshipPrompt": "The deceased is your",
+    "relationshipPrompt": "Create a memorial for my {relationship}",
     "relationshipHelp": "A memorial can be created by the deceased's spouse, child, grandchild, or parent.",
     "truthDeclaration": "I confirm this information is true and I accept responsibility for managing this memorial.",
     "nameLabel": "Their name",
@@ -157,8 +158,8 @@
     "ancestralHometownLabel": "Ancestral hometown",
     "faithLabel": "Faith or religion",
     "causeOfDeathLabel": "Cause of death",
-    "relativesLabel": "Immediate family",
-    "relativesHelp": "List the deceased's immediate family. Living relatives' names are partially hidden by default to protect their privacy.",
+    "relativesLabel": "Family of the deceased:",
+    "relativesHelp": "Family of the deceased:",
     "relativeNameLabel": "Name",
     "relativeRelationLabel": "Relationship",
     "relativeStatusLabel": "Status",
@@ -309,7 +310,11 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely."
+    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "shareMore": "More sharing options…",
+    "bornIn": ", born in {place}",
+    "diedIn": ", passed in {place}",
+    "createdByNamed": "This page is maintained by the {relation} of {name}"
   },
   "privacy": {
     "title": "Who can see this memorial",
@@ -426,5 +431,30 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+  },
+  "admin": {
+    "navLabel": "Admin navigation",
+    "title": "Admin",
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "disputes": "Ownership Claims",
+    "rituals": "Ritual Revisions",
+    "cases": "Cases",
+    "users": "Users",
+    "offerings": "Offerings"
+  },
+  "offerings": {
+    "altarHeading": "Offerings",
+    "incenseCount": "{count} incense sticks lit",
+    "offerIncense": "Light Incense",
+    "offerCandle": "Light a Candle",
+    "offerWreath": "Send Wreath",
+    "donate": "Donate",
+    "free": "Free",
+    "noOfferingsYet": "Be the first to pay respects with an offering.",
+    "donorWallTitle": "Donors",
+    "donorWallTotal": "¥{amount} raised",
+    "anonymousDonor": "Anonymous",
+    "feeExplanation": "After deducting a 20% platform fee, all proceeds are forwarded to the family."
   }
 }

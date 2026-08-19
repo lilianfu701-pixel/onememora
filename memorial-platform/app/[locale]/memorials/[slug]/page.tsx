@@ -13,7 +13,6 @@ import {
 } from "@/db/schema";
 import { countryName } from "@/lib/countries";
 import { env } from "@/lib/env";
-import { normalizeLocale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
 import {
   publicVisitorStories,
@@ -22,17 +21,15 @@ import {
 import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
 import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
-import { offerableRituals } from "@/modules/religion/memorial-settings";
-import { tributeCounts } from "@/modules/commemorations/tributes";
+import { offeringSummary } from "@/modules/offerings/display";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
-import { OfferRitual } from "./offer-ritual";
+import { OfferingsAltar } from "./offerings-altar";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
 import { Share } from "./share";
-import { Tributes } from "./tributes";
 
 /*
  * The creator declared the deceased's relationship to *them* ("the deceased is
@@ -187,19 +184,17 @@ export default async function MemorialPage(props: {
   const [
     biography,
     stories,
-    rituals,
     gallery,
     relatives,
     creatorClaim,
     locations,
-    tributes,
+    offerings,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
         userId: viewer.userId,
         isFamily,
       }),
-      offerableRituals(detail.memorialId, normalizeLocale(locale)),
       memorialGallery(detail.memorialId),
       db()
         .select({
@@ -216,8 +211,6 @@ export default async function MemorialPage(props: {
         .from(memorialRelatives)
         .where(eq(memorialRelatives.memorialId, detail.memorialId))
         .orderBy(asc(memorialRelatives.displayOrder)),
-      // The creator's original declaration — the earliest claim on this
-      // memorial. Only the relationship is read; the claimant is never shown.
       db()
         .select({ relationship: relationshipClaims.relationship })
         .from(relationshipClaims)
@@ -232,7 +225,7 @@ export default async function MemorialPage(props: {
         })
         .from(memorialLocations)
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
-      tributeCounts(detail.memorialId),
+      offeringSummary(detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -288,13 +281,6 @@ export default async function MemorialPage(props: {
   const deathPlace = locations.find((loc) => loc.kind === "death");
   const birthPlaceText = birthPlace ? formatPlace(birthPlace) : "";
   const deathPlaceText = deathPlace ? formatPlace(deathPlace) : "";
-
-  /*
-   * An observance with no reviewed wording in this language is not offered.
-   * Better to show one fewer control than to put an English ritual name on a
-   * page a family is reading in their own language.
-   */
-  const offerable = rituals.filter((ritual) => ritual.name !== null);
 
   const slides = gallery.map((photo) => ({
     id: photo.id,
@@ -360,57 +346,50 @@ export default async function MemorialPage(props: {
         <header className="memorialHead">
           <h1 className="memorialName">{detail.primaryName}</h1>
 
-          {birthText || deathText ? (
-            <p className="memorialDates">
-              {birthText ? (
-                <span>
-                  <span className="visuallyHidden">{t("bornLabel")} </span>
-                  {span.birth?.approximate
-                    ? t("approximateYear", { year: birthText })
-                    : birthText}
+          {detail.alternateNames.length > 0 ? (
+            <p className="memorialAliases">
+              {detail.alternateNames.map((name, index) => (
+                <span key={`${name.type}-${index}`} className="memorialAlias">
+                  <span className="memorialAliasType">{t(`nameType_${name.type}`)}</span>
+                  {name.value}
                 </span>
-              ) : null}
-              {birthText && deathText ? " – " : null}
-              {deathText ? (
-                <span>
-                  <span className="visuallyHidden">{t("diedLabel")} </span>
-                  {span.death?.approximate
-                    ? t("approximateYear", { year: deathText })
-                    : deathText}
-                </span>
-              ) : null}
+              ))}
             </p>
           ) : null}
 
-          {birthPlaceText ? (
-            <p className="memorialAka">
-              <span className="eyebrow">{t("birthPlaceLabel")}</span>{" "}
-              {birthPlaceText}
-            </p>
-          ) : null}
-
-          {deathPlaceText ? (
-            <p className="memorialAka">
-              <span className="eyebrow">{t("deathPlaceLabel")}</span>{" "}
-              {deathPlaceText}
-            </p>
-          ) : null}
-
-          {/*
-           * Each recorded name is labelled with the exact kind it was entered
-           * as — former name, alias, transliteration, native — never a generic
-           * "also known as".
-           */}
-          {detail.alternateNames.map((name, index) => (
-            <p className="memorialAka" key={`${name.type}-${index}`}>
-              <span className="eyebrow">{t(`nameType_${name.type}`)}</span>{" "}
-              {name.value}
-            </p>
-          ))}
+          <div className="memorialLifeline">
+            {birthText ? (
+              <p className="memorialLifelineEntry">
+                <span className="memorialLifelineMarker" aria-hidden="true">★</span>
+                {span.birth?.approximate
+                  ? t("approximateYear", { year: birthText })
+                  : birthText}
+                {birthPlaceText ? (
+                  <span className="memorialLifelinePlace">
+                    {t("bornIn", { place: birthPlaceText })}
+                  </span>
+                ) : null}
+              </p>
+            ) : null}
+            {deathText ? (
+              <p className="memorialLifelineEntry">
+                <span className="memorialLifelineMarker" aria-hidden="true">†</span>
+                {span.death?.approximate
+                  ? t("approximateYear", { year: deathText })
+                  : deathText}
+                {deathPlaceText ? (
+                  <span className="memorialLifelinePlace">
+                    {t("diedIn", { place: deathPlaceText })}
+                  </span>
+                ) : null}
+              </p>
+            ) : null}
+          </div>
 
           {creatorRoleKey ? (
             <p className="memorialCreator">
-              {t("createdByRelative", {
+              {t("createdByNamed", {
+                name: detail.primaryName,
                 relation: t(`creatorRole_${creatorRoleKey}`),
               })}
             </p>
@@ -418,11 +397,6 @@ export default async function MemorialPage(props: {
         </header>
 
         <div className="tributeBar">
-          <Tributes
-            memorialId={detail.memorialId}
-            candle={tributes.candle}
-            flower={tributes.flower}
-          />
           <Share
             url={memorialUrl({
               appUrl: env().APP_URL,
@@ -488,24 +462,11 @@ export default async function MemorialPage(props: {
               </p>
             ) : null}
 
-            <section className="stack">
-              <h2>{t("waysToRemember")}</h2>
-              {offerable.length > 0 ? (
-                <OfferRitual
-                  memorialId={detail.memorialId}
-                  locale={normalizeLocale(locale)}
-                  rituals={offerable.map((ritual) => ({
-                    ritualVersionId: ritual.ritualVersionId,
-                    name: ritual.name,
-                    allowAnonymous: ritual.allowAnonymous,
-                    allowMessage: ritual.allowMessage,
-                    moderationMode: ritual.moderationMode,
-                  }))}
-                />
-              ) : (
-                <p className="muted">{t("noRitualsOffered")}</p>
-              )}
-            </section>
+            <OfferingsAltar
+              memorialId={detail.memorialId}
+              summary={offerings}
+              isLoggedIn={viewer.userId !== null}
+            />
 
             <Guestbook
               memorialId={detail.memorialId}
