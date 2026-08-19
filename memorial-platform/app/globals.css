@@ -2139,12 +2139,15 @@ a.famCard:focus-visible {
 .altarSection {
   display: flex;
   flex-direction: column;
-  gap: var(--space-6);
+  gap: var(--space-8);
 }
 
 .altarHeading {
   font-size: var(--text-xl);
+  font-family: var(--font-display);
   margin: 0;
+  text-align: center;
+  letter-spacing: 0.08em;
 }
 
 .altarEmpty {
@@ -2171,12 +2174,22 @@ a.famCard:focus-visible {
 
 .meritBook {
   width: 100%;
-  background: linear-gradient(to bottom, #f8f0d8, #f5ead0);
-  border: 2px solid #c5a35f;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 2.15rem,
+      rgba(197, 163, 95, 0.1) 2.15rem,
+      rgba(197, 163, 95, 0.1) 2.2rem
+    ),
+    linear-gradient(170deg, #f8f0d8 0%, #f5ead0 50%, #f2e5c6 100%);
+  border: 2px solid var(--gold);
   border-radius: var(--radius-sm);
   box-shadow:
-    inset 0 0 24px rgba(197, 163, 95, 0.08),
-    0 4px 16px rgba(0, 0, 0, 0.06);
+    inset 0 0 30px rgba(197, 163, 95, 0.1),
+    inset 0 2px 4px rgba(255, 255, 255, 0.5),
+    0 2px 8px rgba(0, 0, 0, 0.04),
+    0 8px 24px rgba(0, 0, 0, 0.06);
   overflow: hidden;
 }
 
@@ -2185,26 +2198,27 @@ a.famCard:focus-visible {
   justify-content: space-between;
   align-items: center;
   padding: var(--space-3) var(--space-5);
-  background: linear-gradient(135deg, #c5a35f, #a08040);
+  background: linear-gradient(135deg, #8b6914 0%, var(--gold) 45%, #a08040 100%);
   color: #fff;
+  border-bottom: 1px solid rgba(139, 105, 20, 0.3);
 }
 
 .meritBookTitle {
   font-size: var(--text-lg);
   font-weight: 700;
   font-family: var(--font-display);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.2em;
 }
 
 .meritBookTotal {
   font-size: var(--text-sm);
-  opacity: 0.9;
+  opacity: 0.85;
   font-weight: 500;
 }
 
 .meritBookViewport {
   position: relative;
-  max-height: 12rem;
+  max-height: 13rem;
   overflow: hidden;
 }
 
@@ -2214,7 +2228,7 @@ a.famCard:focus-visible {
   position: absolute;
   left: 0;
   right: 0;
-  height: 1.5rem;
+  height: 2rem;
   z-index: 1;
   pointer-events: none;
 }
@@ -2226,7 +2240,7 @@ a.famCard:focus-visible {
 
 .meritBookViewport::after {
   bottom: 0;
-  background: linear-gradient(to top, #f5ead0, transparent);
+  background: linear-gradient(to top, #f2e5c6, transparent);
 }
 
 .meritBookTrack {
@@ -2252,12 +2266,13 @@ a.famCard:focus-visible {
   justify-content: space-between;
   align-items: center;
   padding: var(--space-2) var(--space-5);
-  border-bottom: 1px dashed rgba(197, 163, 95, 0.25);
+  border-bottom: 1px dashed rgba(197, 163, 95, 0.2);
 }
 
 .meritBookName {
   font-weight: 500;
-  color: #3a2a1a;
+  font-family: var(--font-display);
+  color: var(--ink);
 }
 
 .meritBookAmount {
@@ -2268,6 +2283,8 @@ a.famCard:focus-visible {
 .meritBookGold .meritBookAmount { color: #8b6914; }
 .meritBookSilver .meritBookAmount { color: #6a7d8a; }
 .meritBookBronze .meritBookAmount { color: #8a6b5a; }
+
+.meritBookGold .meritBookName { font-weight: 600; }
 
 /* ── 花圈 Wreaths ── */
 
@@ -2283,11 +2300,12 @@ a.famCard:focus-visible {
   flex-direction: column;
   align-items: center;
   gap: var(--space-3);
-  padding: var(--space-4);
-  background: var(--paper);
+  padding: var(--space-5) var(--space-4);
+  background: var(--paper-raised);
   border: 1px solid var(--line);
-  border-inline-start: 3px solid var(--gold);
+  border-top: 3px solid var(--gold);
   border-radius: var(--radius-sm);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
 .altarWreathEulogy {
@@ -2295,7 +2313,7 @@ a.famCard:focus-visible {
   font-family: var(--font-display);
   font-size: var(--text-base);
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--ink);
   text-align: center;
   display: -webkit-box;
@@ -2316,20 +2334,25 @@ a.famCard:focus-visible {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: var(--space-4);
-  padding: var(--space-6) var(--space-4);
+  gap: var(--space-6);
+  padding: var(--space-8) var(--space-6) var(--space-6);
   background:
-    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(197, 163, 95, 0.08), transparent),
+    radial-gradient(ellipse 90% 50% at 50% 100%, rgba(197, 163, 95, 0.06), transparent 70%),
     var(--paper-raised);
   border: 1px solid var(--line);
+  border-top: 3px solid rgba(197, 163, 95, 0.35);
   border-radius: var(--radius-md);
+  box-shadow:
+    inset 0 3px 6px -3px rgba(197, 163, 95, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.03);
+  position: relative;
 }
 
 .altarCenserWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-2);
 }
 
 .altarCenserSvg {
@@ -2341,6 +2364,8 @@ a.famCard:focus-visible {
   font-size: var(--text-sm);
   color: var(--muted);
   text-align: center;
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
 }
 
 .altarCandleSide {
@@ -2365,11 +2390,12 @@ a.famCard:focus-visible {
 .altarCandleName {
   font-size: 0.6875rem;
   color: var(--muted);
-  max-width: 4rem;
+  max-width: 4.5rem;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: var(--font-display);
 }
 
 /* ── Action buttons ── */
@@ -2395,17 +2421,25 @@ a.famCard:focus-visible {
   transition:
     border-color var(--duration-fast) ease,
     background var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease,
     transform var(--duration-fast) ease;
 }
 
 .altarActionBtn:hover {
   border-color: var(--gold);
-  background: rgba(197, 163, 95, 0.06);
+  background: rgba(197, 163, 95, 0.05);
+  box-shadow: 0 2px 8px rgba(197, 163, 95, 0.12);
   transform: translateY(-1px);
+}
+
+.altarActionBtn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
 }
 
 .altarActionBtn:active {
   transform: translateY(0);
+  box-shadow: none;
 }
 
 .altarActionBtn .altarItemSvg {
@@ -2434,12 +2468,16 @@ a.famCard:focus-visible {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--line);
 }
 
 .altarDonationTitle {
   font-size: var(--text-lg);
+  font-family: var(--font-display);
   font-weight: 600;
   margin: 0;
+  text-align: center;
 }
 
 .altarDonationGrid {
@@ -2463,17 +2501,25 @@ a.famCard:focus-visible {
   transition:
     border-color var(--duration-fast) ease,
     background var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease,
     transform var(--duration-fast) ease;
 }
 
 .altarDonationBtn:hover {
   border-color: var(--gold);
-  background: rgba(197, 163, 95, 0.06);
+  background: rgba(197, 163, 95, 0.05);
+  box-shadow: 0 2px 8px rgba(197, 163, 95, 0.12);
   transform: translateY(-1px);
+}
+
+.altarDonationBtn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
 }
 
 .altarDonationBtn:active {
   transform: translateY(0);
+  box-shadow: none;
 }
 
 .altarDonationAmount {
@@ -2500,6 +2546,9 @@ a.famCard:focus-visible {
 /* ── Responsive ── */
 
 @media (max-width: 640px) {
+  .altarSection {
+    gap: var(--space-6);
+  }
   .altarDonationGrid {
     grid-template-columns: 1fr;
   }
@@ -2511,6 +2560,11 @@ a.famCard:focus-visible {
   }
   .altarPlatform {
     flex-wrap: wrap;
+    gap: var(--space-4);
+    padding: var(--space-6) var(--space-4) var(--space-4);
+  }
+  .altarActionBtn {
+    padding: var(--space-3) var(--space-2);
   }
 }
 
