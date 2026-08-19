@@ -455,7 +455,11 @@
     "donorWallTitle": "Donors",
     "donorWallTotal": "¥{amount} raised",
     "anonymousDonor": "Anonymous",
-    "feeExplanation": "After deducting a 20% platform fee, all proceeds are forwarded to the family."
+    "feeExplanation": "After deducting a 20% platform fee, all proceeds are forwarded to the family.",
+    "donateTitle": "Support with a Donation",
+    "donate199": "Basic Support",
+    "donate999": "Heartfelt Tribute",
+    "donate1999": "Eternal Remembrance"
   },
   "account": {
     "title": "My Account",

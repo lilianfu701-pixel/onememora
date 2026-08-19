@@ -455,7 +455,11 @@
     "donorWallTitle": "Danh sách quyên góp",
     "donorWallTotal": "¥{amount} đã quyên góp",
     "anonymousDonor": "Ẩn danh",
-    "feeExplanation": "Sau khi trừ 20% phí nền tảng, toàn bộ số tiền sẽ được chuyển cho gia đình."
+    "feeExplanation": "Sau khi trừ 20% phí nền tảng, toàn bộ số tiền sẽ được chuyển cho gia đình.",
+    "donateTitle": "Ủng hộ bằng quyên góp",
+    "donate199": "Hỗ trợ cơ bản",
+    "donate999": "Tưởng niệm chân thành",
+    "donate1999": "Kỷ niệm vĩnh hằng"
   },
   "account": {
     "title": "Tài khoản của tôi",

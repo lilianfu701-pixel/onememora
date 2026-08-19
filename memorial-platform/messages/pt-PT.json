@@ -455,7 +455,11 @@
     "donorWallTitle": "Doadores",
     "donorWallTotal": "¥{amount} angariados",
     "anonymousDonor": "Anónimo",
-    "feeExplanation": "Após dedução de 20% de taxa da plataforma, todas as receitas são encaminhadas à família."
+    "feeExplanation": "Após dedução de 20% de taxa da plataforma, todas as receitas são encaminhadas à família.",
+    "donateTitle": "Apoiar com um donativo",
+    "donate199": "Apoio básico",
+    "donate999": "Tributo sentido",
+    "donate1999": "Lembrança eterna"
   },
   "account": {
     "title": "A minha conta",

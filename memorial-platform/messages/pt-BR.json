@@ -455,7 +455,11 @@
     "donorWallTitle": "Doadores",
     "donorWallTotal": "¥{amount} arrecadados",
     "anonymousDonor": "Anônimo",
-    "feeExplanation": "Após dedução de 20% de taxa da plataforma, toda a receita é repassada à família."
+    "feeExplanation": "Após dedução de 20% de taxa da plataforma, toda a receita é repassada à família.",
+    "donateTitle": "Apoiar com uma doação",
+    "donate199": "Apoio básico",
+    "donate999": "Tributo sincero",
+    "donate1999": "Lembrança eterna"
   },
   "account": {
     "title": "Minha conta",

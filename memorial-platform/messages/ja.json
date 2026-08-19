@@ -455,7 +455,11 @@
     "donorWallTitle": "寄付者一覧",
     "donorWallTotal": "¥{amount} 集まりました",
     "anonymousDonor": "匿名",
-    "feeExplanation": "プラットフォーム手数料20%を差し引いた後、すべての収益はご遺族に送られます。"
+    "feeExplanation": "プラットフォーム手数料20%を差し引いた後、すべての収益はご遺族に送られます。",
+    "donateTitle": "寄付で支援する",
+    "donate199": "基本サポート",
+    "donate999": "心からの追悼",
+    "donate1999": "永遠の記念"
   },
   "account": {
     "title": "マイアカウント",

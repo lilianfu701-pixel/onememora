@@ -455,7 +455,11 @@
     "donorWallTitle": "Donateurs",
     "donorWallTotal": "¥{amount} collectés",
     "anonymousDonor": "Anonyme",
-    "feeExplanation": "Après déduction de 20% de frais de plateforme, tous les revenus sont transmis à la famille."
+    "feeExplanation": "Après déduction de 20% de frais de plateforme, tous les revenus sont transmis à la famille.",
+    "donateTitle": "Soutenir par un don",
+    "donate199": "Soutien de base",
+    "donate999": "Hommage sincère",
+    "donate1999": "Souvenir éternel"
   },
   "account": {
     "title": "Mon compte",

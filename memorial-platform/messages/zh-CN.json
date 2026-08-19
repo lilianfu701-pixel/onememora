@@ -452,10 +452,14 @@
     "donate": "捐款",
     "free": "免费",
     "noOfferingsYet": "成为第一个献上心意的人。",
-    "donorWallTitle": "捐款名录",
+    "donorWallTitle": "功德簿",
     "donorWallTotal": "已筹集 ¥{amount}",
     "anonymousDonor": "匿名",
-    "feeExplanation": "扣除20%平台手续费后，所有收入将转交给家属。"
+    "feeExplanation": "扣除20%平台手续费后，所有收入将转交给家属。",
+    "donateTitle": "捐款支持",
+    "donate199": "基础支持",
+    "donate999": "深情纪念",
+    "donate1999": "永恒铭记"
   },
   "account": {
     "title": "我的账户",

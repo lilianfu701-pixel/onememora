@@ -455,7 +455,11 @@
     "donorWallTitle": "Spender",
     "donorWallTotal": "¥{amount} gesammelt",
     "anonymousDonor": "Anonym",
-    "feeExplanation": "Nach Abzug von 20% Plattformgebühr werden alle Einnahmen an die Familie weitergeleitet."
+    "feeExplanation": "Nach Abzug von 20% Plattformgebühr werden alle Einnahmen an die Familie weitergeleitet.",
+    "donateTitle": "Mit einer Spende unterstützen",
+    "donate199": "Grundlegende Unterstützung",
+    "donate999": "Herzliches Gedenken",
+    "donate1999": "Ewige Erinnerung"
   },
   "account": {
     "title": "Mein Konto",

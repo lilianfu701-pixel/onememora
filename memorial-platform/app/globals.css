@@ -2147,19 +2147,6 @@ a.famCard:focus-visible {
   margin: 0;
 }
 
-.altarStage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-8);
-  padding: var(--space-8) var(--space-4);
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(197, 163, 95, 0.08), transparent),
-    var(--paper-raised);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-}
-
 .altarEmpty {
   padding: var(--space-8) var(--space-4);
   text-align: center;
@@ -2167,116 +2154,212 @@ a.famCard:focus-visible {
   font-style: italic;
 }
 
-/* Incense ---------------------------------------------------------------- */
+/* SVG items shared ------------------------------------------------------- */
 
-.altarCenser {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-2);
+.altarItemSvg {
+  width: 48px;
+  height: 72px;
+  flex: none;
 }
 
-.altarIncenseCluster {
+.altarItemSvgWreath {
+  width: 64px;
+  height: 86px;
+}
+
+/* ── 功德簿 Merit Book ── */
+
+.meritBook {
+  width: 100%;
+  background: linear-gradient(to bottom, #f8f0d8, #f5ead0);
+  border: 2px solid #c5a35f;
+  border-radius: var(--radius-sm);
+  box-shadow:
+    inset 0 0 24px rgba(197, 163, 95, 0.08),
+    0 4px 16px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.meritBookHeader {
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 2px;
-  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-3) var(--space-5);
+  background: linear-gradient(135deg, #c5a35f, #a08040);
+  color: #fff;
+}
+
+.meritBookTitle {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  font-family: var(--font-display);
+  letter-spacing: 0.15em;
+}
+
+.meritBookTotal {
+  font-size: var(--text-sm);
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.meritBookViewport {
   position: relative;
+  max-height: 12rem;
+  overflow: hidden;
 }
 
-.altarIncenseStick {
+.meritBookViewport::before,
+.meritBookViewport::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.5rem;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.meritBookViewport::before {
+  top: 0;
+  background: linear-gradient(to bottom, #f8f0d8, transparent);
+}
+
+.meritBookViewport::after {
+  bottom: 0;
+  background: linear-gradient(to top, #f5ead0, transparent);
+}
+
+.meritBookTrack {
+  display: flex;
+  flex-direction: column;
+}
+
+.meritBookScrolling {
+  animation: meritScroll calc(var(--scroll-count, 10) * 3s) linear infinite;
+}
+
+.meritBookViewport:hover .meritBookScrolling {
+  animation-play-state: paused;
+}
+
+@keyframes meritScroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+.meritBookEntry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2) var(--space-5);
+  border-bottom: 1px dashed rgba(197, 163, 95, 0.25);
+}
+
+.meritBookName {
+  font-weight: 500;
+  color: #3a2a1a;
+}
+
+.meritBookAmount {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.meritBookGold .meritBookAmount { color: #8b6914; }
+.meritBookSilver .meritBookAmount { color: #6a7d8a; }
+.meritBookBronze .meritBookAmount { color: #8a6b5a; }
+
+/* ── 花圈 Wreaths ── */
+
+.altarWreathGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: var(--space-4);
+  width: 100%;
+}
+
+.altarWreathCard {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translateX(var(--stick-offset, 0));
-  animation: altarIncenseSway 4s ease-in-out infinite;
-  animation-delay: var(--stick-delay, 0s);
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--gold);
+  border-radius: var(--radius-sm);
 }
 
-.altarIncenseSmoke {
-  width: 3px;
-  height: 24px;
-  background: linear-gradient(to top, var(--muted), transparent);
-  opacity: 0.35;
-  border-radius: 2px;
-  animation: altarSmokeRise 2.5s ease-out infinite;
-  animation-delay: var(--stick-delay, 0s);
+.altarWreathEulogy {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--ink);
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.altarIncenseTip {
-  width: 4px;
-  height: 4px;
-  background: #e67e22;
-  border-radius: 50%;
-  box-shadow: 0 0 4px 1px rgba(230, 126, 34, 0.5);
-  animation: altarEmberGlow 1.8s ease-in-out infinite alternate;
-  animation-delay: var(--stick-delay, 0s);
-}
-
-.altarIncenseBody {
-  width: 2px;
-  height: 36px;
-  background: linear-gradient(to bottom, #b8860b, #8b6914);
-  border-radius: 0 0 1px 1px;
-}
-
-.altarIncenseCount {
+.altarWreathGiver {
   font-size: var(--text-sm);
   color: var(--muted);
+  text-align: center;
 }
 
-@keyframes altarSmokeRise {
-  0% { opacity: 0.35; transform: translateY(0) scaleX(1); }
-  50% { opacity: 0.18; transform: translateY(-8px) scaleX(1.3); }
-  100% { opacity: 0; transform: translateY(-18px) scaleX(0.6); }
-}
+/* ── 祭坛 Altar Platform ── */
 
-@keyframes altarEmberGlow {
-  0% { box-shadow: 0 0 3px 1px rgba(230, 126, 34, 0.4); }
-  100% { box-shadow: 0 0 6px 2px rgba(230, 126, 34, 0.7); }
-}
-
-@keyframes altarIncenseSway {
-  0%, 100% { transform: translateX(var(--stick-offset, 0)) rotate(0deg); }
-  50% { transform: translateX(var(--stick-offset, 0)) rotate(1.5deg); }
-}
-
-/* Candles ---------------------------------------------------------------- */
-
-.altarCandleRow {
+.altarPlatform {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-4);
   justify-content: center;
   align-items: flex-end;
+  gap: var(--space-4);
+  padding: var(--space-6) var(--space-4);
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(197, 163, 95, 0.08), transparent),
+    var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
 }
 
-.altarCandle {
+.altarCenserWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-1);
-  animation: altarCandleAppear 0.6s ease-out both;
-  animation-delay: var(--candle-delay, 0s);
 }
 
-.altarCandleFlame {
-  width: 8px;
-  height: 16px;
-  background: radial-gradient(ellipse at 50% 80%, #fbbf24, #f59e0b 40%, transparent 70%);
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  animation: altarFlameFlicker 0.8s ease-in-out infinite alternate;
-  animation-delay: var(--candle-delay, 0s);
-  filter: blur(0.3px);
+.altarCenserSvg {
+  width: 200px;
+  height: auto;
 }
 
-.altarCandleBody {
-  width: 14px;
-  height: 32px;
-  background: linear-gradient(135deg, #fef3c7, #fde68a 40%, #f5deb3);
-  border-radius: 2px 2px 3px 3px;
-  box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.06);
+.altarCenserCount {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  text-align: center;
+}
+
+.altarCandleSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.altarCandleUnit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.altarCandleUnit .altarItemSvg {
+  width: 32px;
+  height: 48px;
 }
 
 .altarCandleName {
@@ -2289,160 +2372,19 @@ a.famCard:focus-visible {
   white-space: nowrap;
 }
 
-.altarCandleMore {
-  align-self: center;
-  font-size: var(--text-sm);
-  color: var(--muted);
-  padding: var(--space-1) var(--space-2);
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-pill);
-}
-
-@keyframes altarFlameFlicker {
-  0% { transform: scaleY(1) scaleX(1); opacity: 0.9; }
-  25% { transform: scaleY(1.1) scaleX(0.95); }
-  50% { transform: scaleY(0.92) scaleX(1.05); }
-  75% { transform: scaleY(1.06) scaleX(0.98); }
-  100% { transform: scaleY(1) scaleX(1); opacity: 1; }
-}
-
-@keyframes altarCandleAppear {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Wreaths ---------------------------------------------------------------- */
-
-.altarWreathGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-  gap: var(--space-4);
-  width: 100%;
-}
-
-.altarWreathCard {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-  padding: var(--space-4);
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-inline-start: 3px solid var(--gold);
-  border-radius: var(--radius-sm);
-}
-
-.altarWreathIcon {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 50% 50%, transparent 40%, var(--olive) 42%, var(--olive) 52%, transparent 54%),
-    radial-gradient(circle at 50% 30%, #4a7a5e 0%, transparent 20%);
-  opacity: 0.6;
-}
-
-.altarWreathEulogy {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: var(--text-base);
-  font-style: italic;
-  line-height: 1.6;
-  color: var(--ink);
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.altarWreathGiver {
-  font-size: var(--text-sm);
-  color: var(--muted);
-  text-align: end;
-}
-
-/* Donor wall ------------------------------------------------------------- */
-
-.altarDonorWall {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
-  padding: var(--space-4);
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-}
-
-.altarDonorHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.altarDonorTitle {
-  font-weight: 600;
-  font-size: var(--text-base);
-  color: var(--ink);
-}
-
-.altarDonorTotal {
-  font-size: var(--text-sm);
-  color: var(--gold);
-  font-weight: 500;
-}
-
-.altarDonorList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-}
-
-.altarDonorChip {
-  display: inline-block;
-  padding: 0.15rem 0.55rem;
-  border-radius: var(--radius-pill);
-  font-size: var(--text-sm);
-  font-weight: 500;
-}
-
-.altarDonorGold {
-  background: linear-gradient(135deg, rgba(197, 163, 95, 0.2), rgba(197, 163, 95, 0.08));
-  border: 1px solid var(--gold);
-  color: #8b6914;
-}
-
-.altarDonorSilver {
-  background: rgba(141, 189, 209, 0.12);
-  border: 1px solid var(--sky);
-  color: var(--ink);
-}
-
-.altarDonorBronze {
-  background: rgba(183, 137, 130, 0.1);
-  border: 1px solid var(--line-strong);
-  color: var(--muted);
-}
-
-/* Action buttons --------------------------------------------------------- */
+/* ── Action buttons ── */
 
 .altarActions {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-3);
-}
-
-@media (max-width: 640px) {
-  .altarActions {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .altarActionBtn {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-2);
   padding: var(--space-4) var(--space-2);
   background: var(--paper-raised);
   border: 1px solid var(--line);
@@ -2466,19 +2408,85 @@ a.famCard:focus-visible {
   transform: translateY(0);
 }
 
-.altarActionIcon {
-  font-size: 1.6rem;
-  line-height: 1;
+.altarActionBtn .altarItemSvg {
+  width: 40px;
+  height: 56px;
+}
+
+.altarActionBtn .altarItemSvgWreath {
+  width: 48px;
+  height: 64px;
 }
 
 .altarActionLabel {
   font-size: var(--text-sm);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .altarActionPrice {
   font-size: var(--text-xs);
   color: var(--muted);
+}
+
+/* ── Donation tiers ── */
+
+.altarDonationTiers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.altarDonationTitle {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin: 0;
+}
+
+.altarDonationGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.altarDonationBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-5) var(--space-3);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition:
+    border-color var(--duration-fast) ease,
+    background var(--duration-fast) ease,
+    transform var(--duration-fast) ease;
+}
+
+.altarDonationBtn:hover {
+  border-color: var(--gold);
+  background: rgba(197, 163, 95, 0.06);
+  transform: translateY(-1px);
+}
+
+.altarDonationBtn:active {
+  transform: translateY(0);
+}
+
+.altarDonationAmount {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+
+.altarDonationDesc {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  text-align: center;
 }
 
 .altarFeeNote {
@@ -2489,14 +2497,25 @@ a.famCard:focus-visible {
   line-height: 1.5;
 }
 
-/* Reduced motion --------------------------------------------------------- */
+/* ── Responsive ── */
+
+@media (max-width: 640px) {
+  .altarDonationGrid {
+    grid-template-columns: 1fr;
+  }
+  .altarWreathGrid {
+    grid-template-columns: 1fr;
+  }
+  .altarCenserSvg {
+    width: 160px;
+  }
+  .altarPlatform {
+    flex-wrap: wrap;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
-  .altarIncenseSmoke,
-  .altarIncenseTip,
-  .altarIncenseStick,
-  .altarCandleFlame,
-  .altarCandle {
+  .meritBookScrolling {
     animation: none;
   }
 }

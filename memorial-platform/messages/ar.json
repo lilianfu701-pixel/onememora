@@ -455,7 +455,11 @@
     "donorWallTitle": "المتبرعون",
     "donorWallTotal": "¥{amount} تم جمعها",
     "anonymousDonor": "مجهول",
-    "feeExplanation": "بعد خصم 20% رسوم المنصة، يتم تحويل جميع العائدات إلى العائلة."
+    "feeExplanation": "بعد خصم 20% رسوم المنصة، يتم تحويل جميع العائدات إلى العائلة.",
+    "donateTitle": "ادعم بتبرع",
+    "donate199": "دعم أساسي",
+    "donate999": "تكريم صادق",
+    "donate1999": "ذكرى خالدة"
   },
   "account": {
     "title": "حسابي",

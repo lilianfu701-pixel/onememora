@@ -455,7 +455,11 @@
     "donorWallTitle": "Donatur",
     "donorWallTotal": "¥{amount} terkumpul",
     "anonymousDonor": "Anonim",
-    "feeExplanation": "Setelah dipotong biaya platform 20%, semua hasil diteruskan kepada keluarga."
+    "feeExplanation": "Setelah dipotong biaya platform 20%, semua hasil diteruskan kepada keluarga.",
+    "donateTitle": "Dukung dengan Donasi",
+    "donate199": "Dukungan Dasar",
+    "donate999": "Penghormatan Tulus",
+    "donate1999": "Kenangan Abadi"
   },
   "account": {
     "title": "Akun saya",

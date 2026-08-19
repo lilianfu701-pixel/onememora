@@ -455,7 +455,11 @@
     "donorWallTitle": "기부자 명단",
     "donorWallTotal": "¥{amount} 모금",
     "anonymousDonor": "익명",
-    "feeExplanation": "20% 플랫폼 수수료를 공제한 후 모든 수익은 유가족에게 전달됩니다."
+    "feeExplanation": "20% 플랫폼 수수료를 공제한 후 모든 수익은 유가족에게 전달됩니다.",
+    "donateTitle": "기부로 지원하기",
+    "donate199": "기본 지원",
+    "donate999": "진심 어린 추모",
+    "donate1999": "영원한 기억"
   },
   "account": {
     "title": "내 계정",

@@ -452,10 +452,14 @@
     "donate": "捐款",
     "free": "免費",
     "noOfferingsYet": "成為第一個獻上心意嘅人。",
-    "donorWallTitle": "捐款名錄",
+    "donorWallTitle": "功德簿",
     "donorWallTotal": "已籌集 ¥{amount}",
     "anonymousDonor": "匿名",
-    "feeExplanation": "扣除20%平台手續費後，所有收入将轉交畿家屬。"
+    "feeExplanation": "扣除20%平台手續費後，所有收入将轉交畿家屬。",
+    "donateTitle": "捐款支持",
+    "donate199": "基礎支持",
+    "donate999": "深情紀念",
+    "donate1999": "永恆銘記"
   },
   "account": {
     "title": "我嘅帳戶",
