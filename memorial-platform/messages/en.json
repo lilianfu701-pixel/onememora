@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} raised",
     "anonymousDonor": "Anonymous",
     "feeExplanation": "After deducting a 20% platform fee, all proceeds are forwarded to the family."
+  },
+  "account": {
+    "title": "My Account",
+    "accountInfoTitle": "Account Information",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "linkedAccounts": "Linked Accounts",
+    "joinedLabel": "Joined",
+    "loginMethodLabel": "Login Method",
+    "loginMethodOtp": "Email verification code",
+    "notSet": "Not set",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "Personal Information",
+    "securityTitle": "Security",
+    "signOutAllTitle": "Sign out all devices",
+    "signOutAllHelp": "This will sign you out on all devices and browsers.",
+    "signOutAllButton": "Sign out everywhere",
+    "signOutAllDone": "Done — redirecting…"
   }
 }

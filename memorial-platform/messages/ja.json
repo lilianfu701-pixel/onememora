@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} 集まりました",
     "anonymousDonor": "匿名",
     "feeExplanation": "プラットフォーム手数料20%を差し引いた後、すべての収益はご遺族に送られます。"
+  },
+  "account": {
+    "title": "マイアカウント",
+    "accountInfoTitle": "アカウント情報",
+    "emailLabel": "メールアドレス",
+    "phoneLabel": "電話番号",
+    "linkedAccounts": "連携アカウント",
+    "joinedLabel": "登録日",
+    "loginMethodLabel": "ログイン方法",
+    "loginMethodOtp": "メール認証コード",
+    "notSet": "未設定",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "プロフィール",
+    "securityTitle": "セキュリティ",
+    "signOutAllTitle": "すべての端末からログアウト",
+    "signOutAllHelp": "すべての端末とブラウザからログアウトします。",
+    "signOutAllButton": "すべてログアウト",
+    "signOutAllDone": "完了 — リダイレクト中…"
   }
 }

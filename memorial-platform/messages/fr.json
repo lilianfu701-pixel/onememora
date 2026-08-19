@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} collectés",
     "anonymousDonor": "Anonyme",
     "feeExplanation": "Après déduction de 20% de frais de plateforme, tous les revenus sont transmis à la famille."
+  },
+  "account": {
+    "title": "Mon compte",
+    "accountInfoTitle": "Informations du compte",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "linkedAccounts": "Comptes liés",
+    "joinedLabel": "Date d'inscription",
+    "loginMethodLabel": "Méthode de connexion",
+    "loginMethodOtp": "Code de vérification par e-mail",
+    "notSet": "Non défini",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "Informations personnelles",
+    "securityTitle": "Sécurité",
+    "signOutAllTitle": "Déconnexion de tous les appareils",
+    "signOutAllHelp": "Cela vous déconnectera sur tous les appareils et navigateurs.",
+    "signOutAllButton": "Tout déconnecter",
+    "signOutAllDone": "Terminé — redirection…"
   }
 }

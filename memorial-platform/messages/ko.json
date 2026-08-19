@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} 모금",
     "anonymousDonor": "익명",
     "feeExplanation": "20% 플랫폼 수수료를 공제한 후 모든 수익은 유가족에게 전달됩니다."
+  },
+  "account": {
+    "title": "내 계정",
+    "accountInfoTitle": "계정 정보",
+    "emailLabel": "이메일",
+    "phoneLabel": "전화번호",
+    "linkedAccounts": "연결된 계정",
+    "joinedLabel": "가입일",
+    "loginMethodLabel": "로그인 방법",
+    "loginMethodOtp": "이메일 인증 코드",
+    "notSet": "미설정",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "개인 정보",
+    "securityTitle": "보안",
+    "signOutAllTitle": "모든 기기에서 로그아웃",
+    "signOutAllHelp": "모든 기기와 브라우저에서 로그아웃됩니다.",
+    "signOutAllButton": "모든 기기 로그아웃",
+    "signOutAllDone": "완료 — 이동 중…"
   }
 }

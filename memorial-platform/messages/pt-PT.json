@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} angariados",
     "anonymousDonor": "Anónimo",
     "feeExplanation": "Após dedução de 20% de taxa da plataforma, todas as receitas são encaminhadas à família."
+  },
+  "account": {
+    "title": "A minha conta",
+    "accountInfoTitle": "Informações da conta",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefone",
+    "linkedAccounts": "Contas associadas",
+    "joinedLabel": "Data de registo",
+    "loginMethodLabel": "Método de início de sessão",
+    "loginMethodOtp": "Código de verificação por e-mail",
+    "notSet": "Não definido",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "Informações pessoais",
+    "securityTitle": "Segurança",
+    "signOutAllTitle": "Terminar sessão em todos os dispositivos",
+    "signOutAllHelp": "Isto terminará a sessão em todos os dispositivos e navegadores.",
+    "signOutAllButton": "Terminar todas as sessões",
+    "signOutAllDone": "Concluído — a redirecionar…"
   }
 }

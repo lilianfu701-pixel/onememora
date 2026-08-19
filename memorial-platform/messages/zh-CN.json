@@ -456,5 +456,24 @@
     "donorWallTotal": "已筹集 ¥{amount}",
     "anonymousDonor": "匿名",
     "feeExplanation": "扣除20%平台手续费后，所有收入将转交给家属。"
+  },
+  "account": {
+    "title": "我的账户",
+    "accountInfoTitle": "账户信息",
+    "emailLabel": "邮箱",
+    "phoneLabel": "手机号",
+    "linkedAccounts": "关联账户",
+    "joinedLabel": "注册时间",
+    "loginMethodLabel": "登录方式",
+    "loginMethodOtp": "邮箱验证码",
+    "notSet": "未设置",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "个人资料",
+    "securityTitle": "安全设置",
+    "signOutAllTitle": "退出所有设备",
+    "signOutAllHelp": "此操作将在所有设备和浏览器上退出登录。",
+    "signOutAllButton": "退出所有设备",
+    "signOutAllDone": "已退出，正在跳转…"
   }
 }

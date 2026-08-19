@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} terkumpul",
     "anonymousDonor": "Anonim",
     "feeExplanation": "Setelah dipotong biaya platform 20%, semua hasil diteruskan kepada keluarga."
+  },
+  "account": {
+    "title": "Akun saya",
+    "accountInfoTitle": "Informasi akun",
+    "emailLabel": "Email",
+    "phoneLabel": "Telepon",
+    "linkedAccounts": "Akun terhubung",
+    "joinedLabel": "Tanggal daftar",
+    "loginMethodLabel": "Metode login",
+    "loginMethodOtp": "Kode verifikasi email",
+    "notSet": "Belum diatur",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "Informasi pribadi",
+    "securityTitle": "Keamanan",
+    "signOutAllTitle": "Keluar dari semua perangkat",
+    "signOutAllHelp": "Ini akan mengeluarkan Anda dari semua perangkat dan browser.",
+    "signOutAllButton": "Keluar dari semua",
+    "signOutAllDone": "Selesai — mengalihkan…"
   }
 }

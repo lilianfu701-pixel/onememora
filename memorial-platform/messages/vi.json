@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} đã quyên góp",
     "anonymousDonor": "Ẩn danh",
     "feeExplanation": "Sau khi trừ 20% phí nền tảng, toàn bộ số tiền sẽ được chuyển cho gia đình."
+  },
+  "account": {
+    "title": "Tài khoản của tôi",
+    "accountInfoTitle": "Thông tin tài khoản",
+    "emailLabel": "Email",
+    "phoneLabel": "Điện thoại",
+    "linkedAccounts": "Tài khoản liên kết",
+    "joinedLabel": "Ngày đăng ký",
+    "loginMethodLabel": "Phương thức đăng nhập",
+    "loginMethodOtp": "Mã xác nhận qua email",
+    "notSet": "Chưa thiết lập",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "Thông tin cá nhân",
+    "securityTitle": "Bảo mật",
+    "signOutAllTitle": "Đăng xuất tất cả thiết bị",
+    "signOutAllHelp": "Thao tác này sẽ đăng xuất trên tất cả thiết bị và trình duyệt.",
+    "signOutAllButton": "Đăng xuất tất cả",
+    "signOutAllDone": "Xong — đang chuyển hướng…"
   }
 }

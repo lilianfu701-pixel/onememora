@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} تم جمعها",
     "anonymousDonor": "مجهول",
     "feeExplanation": "بعد خصم 20% رسوم المنصة، يتم تحويل جميع العائدات إلى العائلة."
+  },
+  "account": {
+    "title": "حسابي",
+    "accountInfoTitle": "معلومات الحساب",
+    "emailLabel": "البريد الإلكتروني",
+    "phoneLabel": "الهاتف",
+    "linkedAccounts": "الحسابات المرتبطة",
+    "joinedLabel": "تاريخ التسجيل",
+    "loginMethodLabel": "طريقة تسجيل الدخول",
+    "loginMethodOtp": "رمز التحقق عبر البريد",
+    "notSet": "غير محدد",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "المعلومات الشخصية",
+    "securityTitle": "الأمان",
+    "signOutAllTitle": "تسجيل الخروج من جميع الأجهزة",
+    "signOutAllHelp": "سيتم تسجيل خروجك من جميع الأجهزة والمتصفحات.",
+    "signOutAllButton": "تسجيل الخروج من الكل",
+    "signOutAllDone": "تم — جارٍ التحويل…"
   }
 }

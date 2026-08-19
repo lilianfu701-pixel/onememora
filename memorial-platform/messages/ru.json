@@ -456,5 +456,24 @@
     "donorWallTotal": "¥{amount} собрано",
     "anonymousDonor": "Аноним",
     "feeExplanation": "После вычета 20% комиссии платформы все средства передаются семье."
+  },
+  "account": {
+    "title": "Мой аккаунт",
+    "accountInfoTitle": "Информация об аккаунте",
+    "emailLabel": "Эл. почта",
+    "phoneLabel": "Телефон",
+    "linkedAccounts": "Привязанные аккаунты",
+    "joinedLabel": "Дата регистрации",
+    "loginMethodLabel": "Способ входа",
+    "loginMethodOtp": "Код подтверждения по почте",
+    "notSet": "Не указано",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "Личная информация",
+    "securityTitle": "Безопасность",
+    "signOutAllTitle": "Выйти на всех устройствах",
+    "signOutAllHelp": "Вы будете отключены на всех устройствах и в браузерах.",
+    "signOutAllButton": "Выйти везде",
+    "signOutAllDone": "Готово — перенаправление…"
   }
 }

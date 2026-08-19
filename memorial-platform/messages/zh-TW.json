@@ -456,5 +456,24 @@
     "donorWallTotal": "已籌集 ¥{amount}",
     "anonymousDonor": "匿名",
     "feeExplanation": "扣除20%平台手續費後，所有收入将轉交給家屬。"
+  },
+  "account": {
+    "title": "我的帳戶",
+    "accountInfoTitle": "帳戶資訊",
+    "emailLabel": "電子郵件",
+    "phoneLabel": "手機號碼",
+    "linkedAccounts": "關聯帳戶",
+    "joinedLabel": "註冊時間",
+    "loginMethodLabel": "登入方式",
+    "loginMethodOtp": "電子郵件驗證碼",
+    "notSet": "未設定",
+    "provider_google": "Google",
+    "provider_apple": "Apple",
+    "profileTitle": "個人資料",
+    "securityTitle": "安全設定",
+    "signOutAllTitle": "登出所有裝置",
+    "signOutAllHelp": "此操作將在所有裝置和瀏覽器上登出。",
+    "signOutAllButton": "登出所有裝置",
+    "signOutAllDone": "已登出，正在跳轉…"
   }
 }
