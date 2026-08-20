@@ -19,7 +19,15 @@ export type Readiness = {
   status: ReadinessStatus;
   /** Migrations the build expects, and how many the database has applied. */
   migrations: { expected: number; applied: number } | null;
+  /** The commit this build was made from, so a deploy can be identified. */
+  commit: string | null;
 };
+
+/** Short SHA of the running build, from Vercel's git metadata. */
+function buildCommit(): string | null {
+  const sha = process.env.VERCEL_GIT_COMMIT_SHA;
+  return sha ? sha.slice(0, 7) : null;
+}
 
 /** Counts the migrations this build ships, from drizzle's own journal. */
 export function expectedMigrationCount(
@@ -45,7 +53,11 @@ export async function checkReadiness(): Promise<Readiness> {
     );
     applied = Number(result.rows[0]?.count ?? 0);
   } catch {
-    return { status: "database_unavailable", migrations: null };
+    return {
+      status: "database_unavailable",
+      migrations: null,
+      commit: buildCommit(),
+    };
   }
 
   const expected = expectedMigrationCount();
@@ -54,8 +66,16 @@ export async function checkReadiness(): Promise<Readiness> {
   // deploy looks like halfway through, and refusing traffic then would take
   // the site down during every normal release.
   if (expected > 0 && applied < expected) {
-    return { status: "migrations_pending", migrations: { expected, applied } };
+    return {
+      status: "migrations_pending",
+      migrations: { expected, applied },
+      commit: buildCommit(),
+    };
   }
 
-  return { status: "ready", migrations: { expected, applied } };
+  return {
+    status: "ready",
+    migrations: { expected, applied },
+    commit: buildCommit(),
+  };
 }
