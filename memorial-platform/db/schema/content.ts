@@ -10,12 +10,14 @@ import {
   uuid,
 } from "drizzle-orm/pg-core";
 import { users } from "./identity";
+import { mediaAssets } from "./media";
 import { datePrecision, memorials } from "./memorial";
 
 export const contentType = pgEnum("content_type", [
   "biography",
   "timeline_event",
   "tribute",
+  "life_chapter",
 ]);
 
 export const contentStatus = pgEnum("content_status", [
@@ -201,6 +203,83 @@ export const tributes = pgTable(
 );
 
 /**
+ * One themed stage of a life — childhood, career, later years, and so on.
+ *
+ * A memorial's life story is broken into these chapters rather than told as one
+ * block. The chapter key comes from a curated template (or "custom"); the prose
+ * lives in `content_versions` under content type "life_chapter", so a chapter
+ * inherits the same versioning, translation and audit machinery as a biography.
+ */
+export const lifeChapters = pgTable(
+  "life_chapters",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    memorialId: uuid("memorial_id")
+      .notNull()
+      .references(() => memorials.id, { onDelete: "cascade" }),
+    /** Template key (e.g. "childhood") or "custom". Validated in code. */
+    chapterKey: text("chapter_key").notNull(),
+    /** A custom chapter's title, or an override of the template default. */
+    customTitle: text("custom_title"),
+    displayOrder: integer("display_order").default(0).notNull(),
+    status: contentStatus("status").default("draft").notNull(),
+    publishedVersionId: uuid("published_version_id").references(
+      () => contentVersions.id,
+      { onDelete: "set null" },
+    ),
+    latestVersion: integer("latest_version").default(0).notNull(),
+    coverMediaId: uuid("cover_media_id").references(() => mediaAssets.id, {
+      onDelete: "set null",
+    }),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }),
+    deletedAt: timestamp("deleted_at", { withTimezone: true }),
+  },
+  (table) => [
+    index("life_chapters_memorial_idx").on(table.memorialId, table.displayOrder),
+    // One template chapter of each kind per memorial; "custom" may repeat, so
+    // the uniqueness is enforced in the service rather than a partial index the
+    // ORM cannot express portably.
+  ],
+);
+
+/**
+ * A photograph attached to a piece of content (a life chapter, a contribution).
+ *
+ * Kept generic so several content kinds can carry an ordered gallery without a
+ * table each. `owner_type` is plain text — a new owner kind needs no enum
+ * migration. Public rendering must still gate on the owner being published and
+ * the asset being ready.
+ */
+export const contentMedia = pgTable(
+  "content_media",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    ownerType: text("owner_type").notNull(),
+    ownerId: uuid("owner_id").notNull(),
+    mediaId: uuid("media_id")
+      .notNull()
+      .references(() => mediaAssets.id, { onDelete: "cascade" }),
+    role: text("role").default("gallery").notNull(),
+    displayOrder: integer("display_order").default(0).notNull(),
+    caption: text("caption"),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+  },
+  (table) => [
+    index("content_media_owner_idx").on(table.ownerType, table.ownerId),
+    uniqueIndex("content_media_owner_media_key").on(
+      table.ownerType,
+      table.ownerId,
+      table.mediaId,
+    ),
+  ],
+);
+
+/**
  * Something a visitor offered: a story, or a photograph.
  *
  * Held apart from family content until someone with the authority to moderate
@@ -246,3 +325,5 @@ export type ContentVersion = typeof contentVersions.$inferSelect;
 export type ContentTranslation = typeof contentTranslations.$inferSelect;
 export type Biography = typeof biographies.$inferSelect;
 export type VisitorSubmission = typeof visitorSubmissions.$inferSelect;
+export type LifeChapter = typeof lifeChapters.$inferSelect;
+export type ContentMediaLink = typeof contentMedia.$inferSelect;

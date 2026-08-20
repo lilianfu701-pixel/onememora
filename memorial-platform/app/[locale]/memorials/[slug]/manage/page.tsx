@@ -30,6 +30,8 @@ import { RelativesEditor } from "./relatives-editor";
 import { RecognitionReview } from "./recognition-review";
 import { DonationsPanel } from "./donations-panel";
 import { listDonations } from "@/modules/offerings/donations";
+import { ChaptersEditor } from "./chapters-editor";
+import { listManageChapters } from "@/modules/memorials/life-chapters";
 
 export const dynamic = "force-dynamic";
 
@@ -140,6 +142,12 @@ export default async function ManageMemorialPage(props: {
     ? await listDonations(detail.memorialId)
     : null;
 
+  // The structured life story, broken into chapters. Editing is the same
+  // capability as editing the biography.
+  const chapters = mayEditStory
+    ? await listManageChapters(detail.memorialId)
+    : null;
+
   // People asking to be recognised as a relative of this person. Only someone
   // trusted with the family links sees or answers them.
   const roleLabel = (relationship: string): string => {
@@ -224,6 +232,14 @@ export default async function ManageMemorialPage(props: {
             id: other.id,
             name: other.name ?? "—",
           }))}
+        />
+      ) : null}
+
+      {chapters ? (
+        <ChaptersEditor
+          memorialId={detail.memorialId}
+          locale={normalized}
+          initial={chapters}
         />
       ) : null}
 

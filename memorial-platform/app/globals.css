@@ -2134,6 +2134,213 @@ a.famCard:focus-visible {
   }
 }
 
+/* ---------- Life chapters (public) ---------- */
+
+.lifeChapters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.lifeChaptersHeading {
+  font-size: var(--text-xl);
+  margin: 0;
+}
+
+.lifeChaptersList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.lifeChapter {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: var(--space-2) var(--space-4);
+  align-items: baseline;
+}
+
+.lifeChapterEyebrow {
+  grid-row: 1 / span 2;
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.15em;
+  border-top: 2px solid var(--gold);
+}
+
+.lifeChapterTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  letter-spacing: 0.02em;
+}
+
+.lifeChapterBody {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.lifeChapterBody p {
+  margin: 0;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .lifeChapter {
+    grid-template-columns: 1fr;
+  }
+  .lifeChapterEyebrow {
+    grid-row: auto;
+    border-top: none;
+    padding-top: 0;
+  }
+  .lifeChapterBody {
+    grid-column: 1;
+  }
+}
+
+/* ---------- Life chapters (manage editor) ---------- */
+
+.chaptersEditor .chaptersList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.chapterCard {
+  gap: var(--space-3);
+}
+
+.chapterCardHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.chapterCardTitleWrap {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex: 1 1 14rem;
+  min-width: 0;
+}
+
+.chapterCardTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+}
+
+.chapterTitleInput {
+  flex: 1 1 auto;
+  min-width: 8rem;
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: 600;
+}
+
+.chapterBadge {
+  flex: none;
+  font-size: var(--text-xs);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.chapterBadgePublished {
+  background: rgba(85, 116, 100, 0.12);
+  color: var(--olive-dark);
+}
+
+.chapterBadgeDraft {
+  background: rgba(37, 48, 39, 0.08);
+  color: var(--muted);
+}
+
+.chapterBadgeEdit {
+  background: rgba(197, 163, 95, 0.16);
+  color: #8b6914;
+}
+
+.chapterCardControls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: none;
+}
+
+.iconButton {
+  width: 1.9rem;
+  height: 1.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper-raised);
+  cursor: pointer;
+  font-size: var(--text-base);
+  color: var(--ink);
+}
+
+.iconButton:hover:not(:disabled) {
+  border-color: var(--gold);
+}
+
+.iconButton:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.chapterRemove {
+  color: var(--rose);
+}
+
+.chapterBodyInput {
+  width: 100%;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.chapterCardActions {
+  display: flex;
+  gap: var(--space-3);
+  justify-content: flex-end;
+}
+
+.chapterAddRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.chapterAddPick {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  flex: 1 1 18rem;
+}
+
+.chapterAddPick .input {
+  flex: 1 1 auto;
+}
+
+.chapterAllAdded {
+  margin: 0;
+  flex: 1 1 18rem;
+}
+
 /* ---------- Offerings altar ---------- */
 
 .altarSection {

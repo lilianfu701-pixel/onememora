@@ -22,11 +22,13 @@ import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
 import { memorialGallery } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
+import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferingsAltar } from "./offerings-altar";
+import { LifeChapters } from "./life-chapters";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
 import { Share } from "./share";
@@ -189,6 +191,7 @@ export default async function MemorialPage(props: {
     creatorClaim,
     locations,
     offerings,
+    chapters,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
@@ -226,6 +229,7 @@ export default async function MemorialPage(props: {
         .from(memorialLocations)
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
       offeringSummary(detail.memorialId),
+      listPublicChapters(detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -439,6 +443,8 @@ export default async function MemorialPage(props: {
                 <p className="muted">{t("noLifeStoryYet")}</p>
               )}
             </section>
+
+            <LifeChapters locale={locale} chapters={chapters} />
 
             {familyView ? (
               <FamilyTree

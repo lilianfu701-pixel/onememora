@@ -225,6 +225,13 @@
       "when": 1787091140368,
       "tag": "0031_skinny_hydra",
       "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1787242312198,
+      "tag": "0032_ordinary_starjammers",
+      "breakpoints": true
     }
   ]
 }
