@@ -316,7 +316,12 @@
     "diedIn": ", meninggal di {place}",
     "createdByNamed": "Halaman ini dikelola oleh {relation} dari {name}",
     "duplicateWarningLead": "Halaman peringatan untuk orang ini mungkin sudah ada:",
-    "duplicateWarningHint": "Jika orang yang sama, buka dan klaim tempat Anda di sana alih-alih membuat yang baru. Jika orang lain, lanjutkan saja."
+    "duplicateWarningHint": "Jika orang yang sama, buka dan klaim tempat Anda di sana alih-alih membuat yang baru. Jika orang lain, lanjutkan saja.",
+    "challengeIntro": "Untuk memastikan Anda keluarga, masukkan nama {relationship} orang ini.",
+    "challengePlaceholder": "Nama kerabat",
+    "challengeSubmit": "Kirim klaim",
+    "challengeSkip": "Lewati",
+    "claimKinshipVerified": "Kekerabatan terverifikasi"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

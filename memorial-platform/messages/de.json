@@ -316,7 +316,12 @@
     "diedIn": ", verstorben in {place}",
     "createdByNamed": "Diese Seite wird vom {relation} von {name} gepflegt",
     "duplicateWarningLead": "Für diese Person gibt es möglicherweise bereits eine Gedenkseite:",
-    "duplicateWarningHint": "Wenn es dieselbe Person ist, öffnen Sie sie und beanspruchen Sie dort Ihren Platz, statt eine neue zu erstellen. Andernfalls fahren Sie fort."
+    "duplicateWarningHint": "Wenn es dieselbe Person ist, öffnen Sie sie und beanspruchen Sie dort Ihren Platz, statt eine neue zu erstellen. Andernfalls fahren Sie fort.",
+    "challengeIntro": "Um zu bestätigen, dass Sie zur Familie gehören, geben Sie den Namen des/der {relationship} dieser Person an.",
+    "challengePlaceholder": "Name des Verwandten",
+    "challengeSubmit": "Anspruch senden",
+    "challengeSkip": "Überspringen",
+    "claimKinshipVerified": "Verwandtschaft bestätigt"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

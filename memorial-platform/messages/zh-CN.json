@@ -316,7 +316,12 @@
     "diedIn": "，逝世于{place}",
     "createdByNamed": "本主页由「{name}」的{relation}建立并管理",
     "duplicateWarningLead": "可能已经有这个人的纪念页了：",
-    "duplicateWarningHint": "如果是同一个人，可以打开去认领，而不必新建；若确实是不同的人，请继续。"
+    "duplicateWarningHint": "如果是同一个人，可以打开去认领，而不必新建；若确实是不同的人，请继续。",
+    "challengeIntro": "为确认你确实是家人，请填写这位逝者的{relationship}的名字。",
+    "challengePlaceholder": "亲属姓名",
+    "challengeSubmit": "提交认领",
+    "challengeSkip": "跳过验证",
+    "claimKinshipVerified": "已通过亲属验证"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

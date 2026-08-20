@@ -6,6 +6,7 @@ import type { Result } from "@/lib/result";
 import type { Actor } from "@/modules/permissions/types";
 import { memorialRoleFor } from "./membership";
 import { canOnMemorial } from "@/modules/permissions/policy";
+import { verifyKinshipAnswer } from "./kinship-challenge";
 
 export type RecognitionError =
   | "AUTH_REQUIRED"
@@ -24,9 +25,11 @@ export async function createRecognitionClaim(
     memorialId: string;
     claimedName: string;
     claimedRelationship: string;
+    /** An optional answer to a kinship challenge, verified server-side. */
+    challenge?: { relationship: string; answer: string };
   },
   correlationId: string,
-): Promise<Result<{ claimId: string }, RecognitionError>> {
+): Promise<Result<{ claimId: string; kinshipVerified: boolean }, RecognitionError>> {
   if (!actor.userId) {
     return err("AUTH_REQUIRED");
   }
@@ -59,6 +62,19 @@ export async function createRecognitionClaim(
     return err("ALREADY_CLAIMED");
   }
 
+  // The answer is checked here, never trusted from the client. A pass is only
+  // evidence for the owner; it does not confirm the claim.
+  let kinshipVerified = false;
+  let challengeRelationship: string | null = null;
+  if (input.challenge && input.challenge.answer.trim().length > 0) {
+    challengeRelationship = input.challenge.relationship;
+    kinshipVerified = await verifyKinshipAnswer(
+      input.memorialId,
+      input.challenge.relationship,
+      input.challenge.answer,
+    );
+  }
+
   const [row] = await db()
     .insert(recognitionClaims)
     .values({
@@ -66,6 +82,8 @@ export async function createRecognitionClaim(
       claimantUserId: actor.userId,
       claimedName: input.claimedName,
       claimedRelationship: input.claimedRelationship,
+      kinshipVerified,
+      kinshipChallengeRelationship: challengeRelationship,
     })
     .returning({ id: recognitionClaims.id });
 
@@ -78,11 +96,12 @@ export async function createRecognitionClaim(
       memorialId: input.memorialId,
       claimedName: input.claimedName,
       claimedRelationship: input.claimedRelationship,
+      kinshipVerified,
     },
     correlationId,
   });
 
-  return ok({ claimId: row!.id });
+  return ok({ claimId: row!.id, kinshipVerified });
 }
 
 export async function decideRecognitionClaim(

@@ -1,0 +1,2 @@
+ALTER TABLE "recognition_claims" ADD COLUMN "kinship_verified" boolean DEFAULT false NOT NULL;--> statement-breakpoint
+ALTER TABLE "recognition_claims" ADD COLUMN "kinship_challenge_relationship" text;

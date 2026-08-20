@@ -175,6 +175,7 @@ export default async function ManageMemorialPage(props: {
           id: claim.id,
           claimedName: claim.claimedName,
           relationLabel: roleLabel(claim.claimedRelationship),
+          kinshipVerified: claim.kinshipVerified,
         }))
       : [];
 

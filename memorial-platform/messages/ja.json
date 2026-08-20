@@ -316,7 +316,12 @@
     "diedIn": "、{place}にて逝去",
     "createdByNamed": "このページは{name}の{relation}が管理しています",
     "duplicateWarningLead": "この方の追悼ページはすでに存在するかもしれません：",
-    "duplicateWarningHint": "同じ方であれば、新しく作らずにそのページを開いて申請できます。別の方であればそのまま続けてください。"
+    "duplicateWarningHint": "同じ方であれば、新しく作らずにそのページを開いて申請できます。別の方であればそのまま続けてください。",
+    "challengeIntro": "ご家族であることを確認するため、この方の{relationship}の名前を入力してください。",
+    "challengePlaceholder": "親族の名前",
+    "challengeSubmit": "申請する",
+    "challengeSkip": "スキップ",
+    "claimKinshipVerified": "親族確認済み"
   },
   "privacy": {
     "title": "このページを見られる範囲",

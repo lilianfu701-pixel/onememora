@@ -2435,6 +2435,39 @@ a.famCard:focus-visible {
   flex: 1 1 18rem;
 }
 
+/* ---------- Kinship challenge (recognition claim) ---------- */
+
+.claimChallenge {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  max-width: 28rem;
+}
+
+.claimChallengeActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
+.recognitionVerified {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-inline-start: 0.5rem;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: #1c7a4f;
+  background: rgba(46, 160, 105, 0.14);
+  padding: 0.1rem 0.5rem;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
 /* ---------- Mention prompt (proactive recognition) ---------- */
 
 .mentionPrompt {

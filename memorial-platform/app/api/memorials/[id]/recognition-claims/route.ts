@@ -41,6 +41,8 @@ export async function GET(
 const postSchema = z.object({
   claimedName: z.string().trim().min(1).max(200),
   claimedRelationship: z.string().trim().min(1).max(100),
+  challengeRelationship: z.string().trim().min(1).max(100).optional(),
+  challengeAnswer: z.string().trim().max(200).optional(),
 });
 
 export async function POST(
@@ -60,12 +62,21 @@ export async function POST(
     return body.response;
   }
 
+  const challenge =
+    body.value.challengeRelationship && body.value.challengeAnswer
+      ? {
+          relationship: body.value.challengeRelationship,
+          answer: body.value.challengeAnswer,
+        }
+      : undefined;
+
   const result = await createRecognitionClaim(
     actor,
     {
       memorialId: id,
       claimedName: body.value.claimedName,
       claimedRelationship: body.value.claimedRelationship,
+      ...(challenge ? { challenge } : {}),
     },
     correlationId,
   );
@@ -90,5 +101,12 @@ export async function POST(
     return jsonError("MEMORIAL_FORBIDDEN", correlationId);
   }
 
-  return jsonSuccess({ claimId: result.value.claimId }, correlationId, 201);
+  return jsonSuccess(
+    {
+      claimId: result.value.claimId,
+      kinshipVerified: result.value.kinshipVerified,
+    },
+    correlationId,
+    201,
+  );
 }

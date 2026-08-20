@@ -316,7 +316,12 @@
     "diedIn": ", mất tại {place}",
     "createdByNamed": "Trang này được quản lý bởi {relation} của {name}",
     "duplicateWarningLead": "Có thể đã có trang tưởng niệm cho người này:",
-    "duplicateWarningHint": "Nếu là cùng một người, hãy mở trang đó và nhận vị trí của bạn thay vì tạo mới. Nếu là người khác, hãy tiếp tục."
+    "duplicateWarningHint": "Nếu là cùng một người, hãy mở trang đó và nhận vị trí của bạn thay vì tạo mới. Nếu là người khác, hãy tiếp tục.",
+    "challengeIntro": "Để xác nhận bạn là người thân, hãy nhập tên {relationship} của người này.",
+    "challengePlaceholder": "Tên người thân",
+    "challengeSubmit": "Gửi yêu cầu",
+    "challengeSkip": "Bỏ qua",
+    "claimKinshipVerified": "Đã xác minh quan hệ"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

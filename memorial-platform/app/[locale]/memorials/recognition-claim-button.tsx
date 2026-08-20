@@ -5,6 +5,8 @@ import { useState } from "react";
 
 type ClaimState =
   | "none"
+  | "checking"
+  | "challenge"
   | "submitting"
   | "pending"
   | "confirmed"
@@ -30,8 +32,9 @@ function initialState(status: string | null): ClaimState {
 
 /**
  * "This is me" — the account holder claims the relative a public memorial listed
- * under their name. One claim per memorial; the button reflects where the claim
- * stands and only offers the action again after a rejection or withdrawal.
+ * under their name. When the memorial has a hidden relative, a knowledge check
+ * ("name the deceased's …") is offered first: passing it is evidence for the
+ * owner, who still confirms. A claimant may skip it and go to manual review.
  */
 export function RecognitionClaimButton(props: {
   memorialId: string;
@@ -43,9 +46,15 @@ export function RecognitionClaimButton(props: {
   const [state, setState] = useState<ClaimState>(
     initialState(props.initialStatus),
   );
+  const [challengeRel, setChallengeRel] = useState<string | null>(null);
+  const [answer, setAnswer] = useState("");
 
-  async function claim(): Promise<void> {
-    if (state === "submitting") return;
+  const relLabel = (rel: string): string =>
+    t.has(`relationship_${rel}`) ? t(`relationship_${rel}`) : rel;
+
+  async function submitClaim(
+    challenge?: { relationship: string; answer: string },
+  ): Promise<void> {
     setState("submitting");
     try {
       const response = await fetch(
@@ -56,11 +65,15 @@ export function RecognitionClaimButton(props: {
           body: JSON.stringify({
             claimedName: props.claimedName,
             claimedRelationship: props.claimedRelationship,
+            ...(challenge
+              ? {
+                  challengeRelationship: challenge.relationship,
+                  challengeAnswer: challenge.answer,
+                }
+              : {}),
           }),
         },
       );
-      // 201 created, or 422 because a pending claim already exists — either way
-      // the honest state to show is "awaiting confirmation".
       if (response.ok || response.status === 422) {
         setState("pending");
       } else {
@@ -68,6 +81,33 @@ export function RecognitionClaimButton(props: {
       }
     } catch {
       setState("error");
+    }
+  }
+
+  async function startClaim(): Promise<void> {
+    if (state === "checking" || state === "submitting") return;
+    setState("checking");
+    try {
+      const res = await fetch(
+        `/api/memorials/${props.memorialId}/recognition-challenge`,
+        {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ claimedName: props.claimedName }),
+        },
+      );
+      const data = res.ok ? (await res.json())?.data : null;
+      if (data?.available && data.relationship) {
+        setChallengeRel(data.relationship);
+        setAnswer("");
+        setState("challenge");
+      } else {
+        // No challenge to offer — claim straight away, manual review as before.
+        await submitClaim();
+      }
+    } catch {
+      // A failed check should not block the claim.
+      await submitClaim();
     }
   }
 
@@ -80,7 +120,54 @@ export function RecognitionClaimButton(props: {
     );
   }
 
-  const canClaim = state === "none" || state === "rejected" || state === "withdrawn" || state === "error";
+  if (state === "challenge" && challengeRel) {
+    return (
+      <form
+        className="claimChallenge"
+        onSubmit={(e) => {
+          e.preventDefault();
+          submitClaim({ relationship: challengeRel, answer });
+        }}
+      >
+        <label className="field">
+          <span className="fieldLabel">
+            {t("challengeIntro", { relationship: relLabel(challengeRel) })}
+          </span>
+          <input
+            className="input"
+            type="text"
+            maxLength={200}
+            autoFocus
+            placeholder={t("challengePlaceholder")}
+            value={answer}
+            onChange={(e) => setAnswer(e.target.value)}
+          />
+        </label>
+        <div className="claimChallengeActions">
+          <button
+            type="button"
+            className="button buttonQuiet buttonCompact"
+            onClick={() => submitClaim()}
+          >
+            {t("challengeSkip")}
+          </button>
+          <button
+            type="submit"
+            className="button buttonPrimary buttonCompact"
+            disabled={answer.trim().length === 0}
+          >
+            {t("challengeSubmit")}
+          </button>
+        </div>
+      </form>
+    );
+  }
+
+  const canClaim =
+    state === "none" ||
+    state === "rejected" ||
+    state === "withdrawn" ||
+    state === "error";
 
   return (
     <div className="claimAction">
@@ -93,10 +180,12 @@ export function RecognitionClaimButton(props: {
       <button
         type="button"
         className="button buttonPrimary buttonCompact"
-        onClick={claim}
+        onClick={startClaim}
         disabled={!canClaim}
       >
-        {state === "submitting" ? t("claimSubmitting") : t("claimThisIsMe")}
+        {state === "checking" || state === "submitting"
+          ? t("claimSubmitting")
+          : t("claimThisIsMe")}
       </button>
     </div>
   );

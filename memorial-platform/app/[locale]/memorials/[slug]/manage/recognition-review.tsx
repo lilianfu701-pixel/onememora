@@ -8,6 +8,8 @@ type Claim = {
   claimedName: string;
   /** Already localized by the server. */
   relationLabel: string;
+  /** The claimant passed the kinship knowledge check. */
+  kinshipVerified: boolean;
 };
 
 /**
@@ -69,6 +71,11 @@ export function RecognitionReview(props: {
                 name: claim.claimedName,
                 relation: claim.relationLabel,
               })}
+              {claim.kinshipVerified ? (
+                <span className="recognitionVerified">
+                  ✓ {t("claimKinshipVerified")}
+                </span>
+              ) : null}
             </span>
             <div className="recognitionActions">
               <button

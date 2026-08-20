@@ -316,7 +316,12 @@
     "diedIn": ", falecido(a) em {place}",
     "createdByNamed": "Esta página é mantida pelo(a) {relation} de {name}",
     "duplicateWarningLead": "Pode já existir um memorial desta pessoa:",
-    "duplicateWarningHint": "Se for a mesma pessoa, abra-o e reivindique o seu lugar em vez de criar outro. Se for outra pessoa, continue."
+    "duplicateWarningHint": "Se for a mesma pessoa, abra-o e reivindique o seu lugar em vez de criar outro. Se for outra pessoa, continue.",
+    "challengeIntro": "Para confirmar que você é da família, informe o nome do/da {relationship} desta pessoa.",
+    "challengePlaceholder": "Nome do familiar",
+    "challengeSubmit": "Enviar pedido",
+    "challengeSkip": "Ignorar",
+    "claimKinshipVerified": "Parentesco verificado"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

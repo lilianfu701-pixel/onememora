@@ -316,7 +316,12 @@
     "diedIn": ", {place}에서 별세",
     "createdByNamed": "이 페이지는 {name}의 {relation}이(가) 관리합니다",
     "duplicateWarningLead": "이 분의 추모 페이지가 이미 있을 수 있습니다:",
-    "duplicateWarningHint": "같은 분이라면 새로 만들지 말고 해당 페이지를 열어 인정을 신청하세요. 다른 분이라면 계속 진행하세요."
+    "duplicateWarningHint": "같은 분이라면 새로 만들지 말고 해당 페이지를 열어 인정을 신청하세요. 다른 분이라면 계속 진행하세요.",
+    "challengeIntro": "가족임을 확인하기 위해 이 분의 {relationship} 이름을 입력하세요.",
+    "challengePlaceholder": "친척 이름",
+    "challengeSubmit": "신청 제출",
+    "challengeSkip": "건너뛰기",
+    "claimKinshipVerified": "친족 확인됨"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

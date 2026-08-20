@@ -316,7 +316,12 @@
     "diedIn": "، توفي في {place}",
     "createdByNamed": "هذه الصفحة يديرها {relation} {name}",
     "duplicateWarningLead": "قد تكون هناك صفحة تذكارية لهذا الشخص بالفعل:",
-    "duplicateWarningHint": "إذا كان الشخص نفسه، افتحها وطالب بمكانك فيها بدلاً من إنشاء صفحة جديدة. وإن كان شخصاً آخر، فتابع."
+    "duplicateWarningHint": "إذا كان الشخص نفسه، افتحها وطالب بمكانك فيها بدلاً من إنشاء صفحة جديدة. وإن كان شخصاً آخر، فتابع.",
+    "challengeIntro": "لتأكيد أنك من العائلة، اكتب اسم {relationship} هذا الشخص.",
+    "challengePlaceholder": "اسم القريب",
+    "challengeSubmit": "إرسال المطالبة",
+    "challengeSkip": "تخطٍّ",
+    "claimKinshipVerified": "تم التحقق من القرابة"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

@@ -477,6 +477,15 @@ export const recognitionClaims = pgTable(
       .references(() => users.id, { onDelete: "cascade" }),
     claimedName: text("claimed_name").notNull(),
     claimedRelationship: text("claimed_relationship").notNull(),
+    /**
+     * The claimant passed a kinship challenge: they named a relative whose name
+     * is hidden from the public page, which a real family member would know and
+     * an impostor could not read. Evidence for the owner, who still confirms —
+     * it never confirms a claim on its own. The relationship asked about is kept
+     * for the record. Set server-side only.
+     */
+    kinshipVerified: boolean("kinship_verified").default(false).notNull(),
+    kinshipChallengeRelationship: text("kinship_challenge_relationship"),
     status: recognitionClaimStatus("status").default("pending").notNull(),
     reminderCount: integer("reminder_count").default(0).notNull(),
     lastReminderAt: timestamp("last_reminder_at", { withTimezone: true }),

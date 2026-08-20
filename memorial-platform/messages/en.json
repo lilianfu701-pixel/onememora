@@ -316,7 +316,12 @@
     "diedIn": ", passed in {place}",
     "createdByNamed": "This page is maintained by the {relation} of {name}",
     "duplicateWarningLead": "A memorial for this person may already exist:",
-    "duplicateWarningHint": "If it's the same person, open it and claim your place there instead of creating a new one. If it's someone else, just continue."
+    "duplicateWarningHint": "If it's the same person, open it and claim your place there instead of creating a new one. If it's someone else, just continue.",
+    "challengeIntro": "To confirm you're family, enter the name of this person's {relationship}.",
+    "challengePlaceholder": "Relative's name",
+    "challengeSubmit": "Submit claim",
+    "challengeSkip": "Skip",
+    "claimKinshipVerified": "Kinship verified"
   },
   "privacy": {
     "title": "Who can see this memorial",
