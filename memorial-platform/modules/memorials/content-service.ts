@@ -350,6 +350,9 @@ export async function publicVisitorStories(
       and(
         eq(visitorSubmissions.memorialId, memorialId),
         eq(visitorSubmissions.status, "published"),
+        // Contributions ("亲友追忆") are a separate, moderated section, not
+        // short guestbook messages.
+        eq(visitorSubmissions.isContribution, false),
         or(...audiences),
       ),
     )
@@ -389,6 +392,8 @@ export async function pendingVisitorStories(
       and(
         eq(visitorSubmissions.memorialId, memorialId),
         eq(visitorSubmissions.status, "pending_review"),
+        // Contributions have their own review queue.
+        eq(visitorSubmissions.isContribution, false),
       ),
     );
 

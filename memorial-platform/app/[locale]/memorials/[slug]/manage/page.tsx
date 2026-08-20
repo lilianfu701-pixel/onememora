@@ -32,6 +32,8 @@ import { DonationsPanel } from "./donations-panel";
 import { listDonations } from "@/modules/offerings/donations";
 import { ChaptersEditor } from "./chapters-editor";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
+import { ContributionsReview } from "./contributions-review";
+import { listPendingContributions } from "@/modules/memorials/contributions";
 
 export const dynamic = "force-dynamic";
 
@@ -69,6 +71,11 @@ export default async function ManageMemorialPage(props: {
     actor,
     role,
     action: "manage_family_links",
+  });
+  const mayModerate = canOnMemorial({
+    actor,
+    role,
+    action: "moderate_submission",
   });
 
   if (!mayEditStory && !mayConfigure) {
@@ -148,6 +155,11 @@ export default async function ManageMemorialPage(props: {
     ? await listManageChapters(detail.memorialId)
     : null;
 
+  // Friend-and-family remembrances awaiting review.
+  const pendingContributions = mayModerate
+    ? await listPendingContributions(detail.memorialId)
+    : null;
+
   // People asking to be recognised as a relative of this person. Only someone
   // trusted with the family links sees or answers them.
   const roleLabel = (relationship: string): string => {
@@ -185,6 +197,14 @@ export default async function ManageMemorialPage(props: {
         <RecognitionReview
           memorialId={detail.memorialId}
           initial={recognitionClaims}
+        />
+      ) : null}
+
+      {pendingContributions && pendingContributions.length > 0 ? (
+        <ContributionsReview
+          memorialId={detail.memorialId}
+          locale={normalized}
+          initial={pendingContributions}
         />
       ) : null}
 

@@ -29,6 +29,8 @@ import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferingsAltar } from "./offerings-altar";
 import { LifeChapters } from "./life-chapters";
+import { Contributions } from "./contributions";
+import { listPublicContributions } from "@/modules/memorials/contributions";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
 import { Share } from "./share";
@@ -192,6 +194,7 @@ export default async function MemorialPage(props: {
     locations,
     offerings,
     chapters,
+    contributions,
   ] = await Promise.all([
       publishedBiography(detail.memorialId),
       publicVisitorStories(detail.memorialId, {
@@ -230,6 +233,7 @@ export default async function MemorialPage(props: {
         .where(eq(memorialLocations.memorialId, detail.memorialId)),
       offeringSummary(detail.memorialId),
       listPublicChapters(detail.memorialId),
+      listPublicContributions(detail.memorialId),
     ]);
 
   const creatorRoleKey = creatorClaim[0]
@@ -445,6 +449,17 @@ export default async function MemorialPage(props: {
             </section>
 
             <LifeChapters locale={locale} chapters={chapters} />
+
+            <Contributions
+              memorialId={detail.memorialId}
+              locale={locale}
+              initial={contributions}
+              chapters={chapters.map((chapter) => ({
+                id: chapter.id,
+                chapterKey: chapter.chapterKey,
+                customTitle: chapter.customTitle,
+              }))}
+            />
 
             {familyView ? (
               <FamilyTree

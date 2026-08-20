@@ -1,4 +1,5 @@
 import {
+  boolean,
   date,
   index,
   integer,
@@ -303,6 +304,21 @@ export const visitorSubmissions = pgTable(
     status: contentStatus("status").default("pending_review").notNull(),
     /** Who may see this message: everyone, only family, or only the author. */
     audience: visitorMessageAudience("audience").default("public").notNull(),
+    /**
+     * A richer "亲友追忆" contribution rather than a short guestbook message.
+     * Both live in this table; this flag is what keeps the two apart in the
+     * public sections and the review queue.
+     */
+    isContribution: boolean("is_contribution").default(false).notNull(),
+    /** The contributor's chosen display name and relationship to the deceased. */
+    contributorName: text("contributor_name"),
+    contributorRelation: text("contributor_relation"),
+    /** A contribution may be tied to one life chapter it enriches. */
+    chapterId: uuid("chapter_id").references(() => lifeChapters.id, {
+      onDelete: "set null",
+    }),
+    /** For rate-limiting guest contributions. Never shown. */
+    contributorIpHash: text("contributor_ip_hash"),
     moderatedByUserId: uuid("moderated_by_user_id").references(() => users.id, {
       onDelete: "set null",
     }),
@@ -316,6 +332,11 @@ export const visitorSubmissions = pgTable(
   (table) => [
     index("visitor_submissions_memorial_idx").on(
       table.memorialId,
+      table.status,
+    ),
+    index("visitor_submissions_contribution_idx").on(
+      table.memorialId,
+      table.isContribution,
       table.status,
     ),
   ],

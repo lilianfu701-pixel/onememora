@@ -2435,6 +2435,143 @@ a.famCard:focus-visible {
   flex: 1 1 18rem;
 }
 
+/* ---------- Contributions (亲友追忆) ---------- */
+
+.contributions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.contributionsHeading {
+  font-size: var(--text-xl);
+  margin: 0;
+}
+
+.contributionsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.contributionCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--sky);
+  border-radius: var(--radius-sm);
+}
+
+.contributionTag {
+  align-self: flex-start;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  background: rgba(141, 189, 209, 0.16);
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--radius-pill);
+}
+
+.contributionBody {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.contributionBody p {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.contributionByline {
+  margin: 0;
+  align-self: flex-end;
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--muted);
+  font-style: italic;
+}
+
+.contributionPhotos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: var(--space-2);
+}
+
+.contributionPhoto {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+}
+
+.contributionPhotoPending {
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+}
+
+.contributionForm {
+  gap: var(--space-3);
+}
+
+.contributionFormTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+}
+
+.contributionFormIntro {
+  margin: 0;
+}
+
+.contributionFormRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+@media (max-width: 640px) {
+  .contributionFormRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Contribution review (manage) */
+
+.contributionReviewHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.contributionReviewWho {
+  font-weight: 600;
+}
+
+.contributionReviewBody {
+  margin: 0;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.contributionReviewActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+}
+
 /* ---------- Offerings altar ---------- */
 
 .altarSection {

@@ -567,5 +567,29 @@
       "meaning": "What this life left behind, in the family's eyes…",
       "custom": "Write freely about this part of their life…"
     }
+  },
+  "contributions": {
+    "sectionTitle": "Remembrances",
+    "formTitle": "Share your story",
+    "formIntro": "Share a memory of the person you knew. It appears here once the family approves it.",
+    "nameLabel": "Your name (optional)",
+    "relationLabel": "Your relationship (optional)",
+    "relationPlaceholder": "e.g. friend, colleague, student",
+    "storyLabel": "Your story",
+    "storyPlaceholder": "Write a memory you shared…",
+    "chapterLabel": "Link to a life chapter (optional)",
+    "chapterNone": "No link",
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "thanks": "Submitted. It will appear once the family approves it. Thank you.",
+    "failed": "Something went wrong. Please try again.",
+    "rateLimited": "Too many submissions. Please try again later.",
+    "aboutChapter": "On “{title}”",
+    "anonymous": "Anonymous",
+    "reviewTitle": "Contributions to review",
+    "reviewEmpty": "No contributions waiting for review.",
+    "approve": "Approve",
+    "reject": "Decline",
+    "reviewFailed": "Something went wrong. Please try again."
   }
 }

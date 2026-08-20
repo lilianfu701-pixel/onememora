@@ -567,5 +567,29 @@
       "meaning": "家人眼中，這一生留下了什麼…",
       "custom": "自由書寫這一段人生…"
     }
+  },
+  "contributions": {
+    "sectionTitle": "親友追憶",
+    "formTitle": "補充你與TA的故事",
+    "formIntro": "分享你與逝者的故事或回憶，家屬審核通過後將顯示在這裡。",
+    "nameLabel": "你的稱呼（選填）",
+    "relationLabel": "與逝者的關係（選填）",
+    "relationPlaceholder": "如：摯友、同事、學生",
+    "storyLabel": "你的故事",
+    "storyPlaceholder": "寫下你與TA的一段回憶…",
+    "chapterLabel": "關聯到人生章節（選填）",
+    "chapterNone": "不關聯",
+    "submit": "提交",
+    "submitting": "提交中…",
+    "thanks": "已提交，家屬審核通過後將顯示。感謝你的心意。",
+    "failed": "提交失敗，請稍後再試。",
+    "rateLimited": "提交太頻繁，請稍後再試。",
+    "aboutChapter": "關於「{title}」",
+    "anonymous": "匿名",
+    "reviewTitle": "親友補充待審",
+    "reviewEmpty": "暫無待審的親友補充。",
+    "approve": "通過",
+    "reject": "拒絕",
+    "reviewFailed": "操作失敗，請重試。"
   }
 }
