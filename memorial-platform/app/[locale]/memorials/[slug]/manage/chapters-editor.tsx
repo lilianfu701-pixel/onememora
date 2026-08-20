@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { ManageChapter } from "@/modules/memorials/life-chapters";
 import {
   CUSTOM_CHAPTER_KEY,
@@ -10,6 +10,11 @@ import {
 } from "@/modules/memorials/life-chapter-catalog";
 
 type Edit = { body?: string; title?: string };
+
+const ACCEPTED_TYPES = "image/jpeg,image/png,image/webp";
+const MAX_BYTES = 15 * 1024 * 1024;
+const POLL_INTERVAL_MS = 900;
+const MAX_POLLS = 8;
 
 export function ChaptersEditor(props: {
   memorialId: string;
@@ -25,6 +30,9 @@ export function ChaptersEditor(props: {
     null,
   );
   const [addKey, setAddKey] = useState("");
+  const [uploadingFor, setUploadingFor] = useState<string | null>(null);
+  const fileRef = useRef<HTMLInputElement>(null);
+  const pickerFor = useRef<string | null>(null);
 
   const chapters = props.initial;
   const usedKeys = new Set(chapters.map((c) => c.chapterKey));
@@ -160,6 +168,95 @@ export function ChaptersEditor(props: {
     }
   }
 
+  function openPicker(chapterId: string): void {
+    if (pending || uploadingFor) return;
+    pickerFor.current = chapterId;
+    fileRef.current?.click();
+  }
+
+  async function pollReady(mediaId: string, remaining: number): Promise<void> {
+    if (remaining <= 0) return;
+    await new Promise((r) => setTimeout(r, POLL_INTERVAL_MS));
+    try {
+      const res = await fetch(`/api/media/${mediaId}`);
+      if (!res.ok) return;
+      const status = (await res.json())?.data?.status;
+      if (status === "ready" || status === "rejected") {
+        router.refresh();
+        return;
+      }
+      await pollReady(mediaId, remaining - 1);
+    } catch {
+      /* stop polling; a later refresh will pick up the final state */
+    }
+  }
+
+  async function uploadPhoto(chapterId: string, file: File): Promise<void> {
+    if (file.size === 0 || file.size > MAX_BYTES) {
+      setNotice("fail");
+      return;
+    }
+    setUploadingFor(chapterId);
+    setNotice(null);
+    try {
+      const signRes = await fetch("/api/media/sign", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          memorialId: props.memorialId,
+          fileName: file.name,
+          contentType: file.type,
+          size: file.size,
+        }),
+      });
+      if (!signRes.ok) throw new Error("sign");
+      const sign = (await signRes.json()).data;
+
+      const put = await fetch(sign.url, {
+        method: "PUT",
+        headers: sign.headers,
+        body: file,
+      });
+      if (!put.ok) throw new Error("put");
+
+      const complete = await fetch(
+        `/api/media/${sign.mediaAssetId}/complete`,
+        { method: "POST" },
+      );
+      if (!complete.ok) throw new Error("complete");
+
+      const attach = await fetch(
+        `/api/memorials/${props.memorialId}/chapters/${chapterId}/media`,
+        {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ mediaId: sign.mediaAssetId }),
+        },
+      );
+      if (!attach.ok) throw new Error("attach");
+
+      router.refresh();
+      await pollReady(sign.mediaAssetId, MAX_POLLS);
+    } catch {
+      setNotice("fail");
+    } finally {
+      setUploadingFor(null);
+    }
+  }
+
+  async function removePhoto(
+    chapterId: string,
+    mediaId: string,
+  ): Promise<void> {
+    if (pending || uploadingFor) return;
+    const ok = await call(
+      `/api/memorials/${props.memorialId}/chapters/${chapterId}/media/${mediaId}`,
+      "DELETE",
+    );
+    if (ok) router.refresh();
+    else setNotice("fail");
+  }
+
   function badge(c: ManageChapter): { label: string; cls: string } {
     if (c.hasUnpublishedEdit)
       return { label: t("unpublishedEdit"), cls: "chapterBadgeEdit" };
@@ -263,6 +360,54 @@ export function ChaptersEditor(props: {
                 }
               />
 
+              <div className="chapterPhotos">
+                <div className="chapterPhotosHead">
+                  <span className="chapterPhotosLabel">{t("photosLabel")}</span>
+                  <button
+                    type="button"
+                    className="button buttonQuiet buttonCompact"
+                    disabled={pending !== null || uploadingFor !== null}
+                    onClick={() => openPicker(c.id)}
+                  >
+                    {uploadingFor === c.id ? t("uploading") : `+ ${t("addPhoto")}`}
+                  </button>
+                </div>
+                {c.photos.length > 0 ? (
+                  <div className="chapterPhotoGrid">
+                    {c.photos.map((photo) => (
+                      <div className="chapterPhotoTile" key={photo.mediaId}>
+                        {photo.status === "ready" && photo.url ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            className="chapterPhotoThumb"
+                            src={photo.url}
+                            alt={photo.caption ?? ""}
+                            loading="lazy"
+                          />
+                        ) : (
+                          <div className="chapterPhotoPlaceholder">
+                            <span className="muted">
+                              {photo.status === "rejected"
+                                ? t("photoRejected")
+                                : t("photoProcessing")}
+                            </span>
+                          </div>
+                        )}
+                        <button
+                          type="button"
+                          className="chapterPhotoRemove"
+                          aria-label={t("removePhoto")}
+                          disabled={pending !== null || uploadingFor !== null}
+                          onClick={() => removePhoto(c.id, photo.mediaId)}
+                        >
+                          ×
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
+
               <div className="chapterCardActions">
                 <button
                   type="button"
@@ -322,6 +467,20 @@ export function ChaptersEditor(props: {
           + {t("customChapter")}
         </button>
       </div>
+
+      <input
+        ref={fileRef}
+        type="file"
+        accept={ACCEPTED_TYPES}
+        className="visuallyHidden"
+        onChange={(event) => {
+          const file = event.target.files?.[0];
+          const chapterId = pickerFor.current;
+          if (file && chapterId) uploadPhoto(chapterId, file);
+          pickerFor.current = null;
+          event.target.value = "";
+        }}
+      />
     </section>
   );
 }

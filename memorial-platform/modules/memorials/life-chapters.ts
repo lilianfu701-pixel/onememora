@@ -1,11 +1,24 @@
 import { and, asc, eq, isNull, sql } from "drizzle-orm";
 import { db } from "@/db/client";
-import { auditLogs, contentVersions, lifeChapters } from "@/db/schema";
+import {
+  auditLogs,
+  contentMedia,
+  contentVersions,
+  lifeChapters,
+  mediaAssets,
+} from "@/db/schema";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { canOnMemorial } from "@/modules/permissions/policy";
 import type { Actor } from "@/modules/permissions/types";
+import {
+  contentMediaPhotos,
+  softDeleteMedia,
+  type OwnerPhoto,
+} from "@/modules/media/service";
 import { memorialRoleFor } from "./membership";
+
+const CHAPTER_OWNER_TYPE = "life_chapter";
 import {
   CUSTOM_CHAPTER_KEY,
   isValidChapterKey,
@@ -20,7 +33,15 @@ export type ChapterError =
   | "INVALID_CHAPTER_KEY"
   | "DUPLICATE_CHAPTER"
   | "EMPTY_BODY"
-  | "NOTHING_TO_PUBLISH";
+  | "NOTHING_TO_PUBLISH"
+  | "MEDIA_NOT_FOUND";
+
+export type ChapterPhoto = {
+  mediaId: string;
+  url: string | null;
+  caption: string | null;
+  status: string;
+};
 
 type ChapterStatus =
   | "draft"
@@ -36,6 +57,7 @@ export type PublicChapter = {
   customTitle: string | null;
   body: string;
   displayOrder: number;
+  photos: ChapterPhoto[];
 };
 
 /** A chapter as the family edits it: latest draft plus publication state. */
@@ -50,7 +72,25 @@ export type ManageChapter = {
   /** Published, but a newer draft has been saved since. */
   hasUnpublishedEdit: boolean;
   draftBody: string;
+  photos: ChapterPhoto[];
 };
+
+function groupPhotos(
+  photos: OwnerPhoto[],
+): Map<string, ChapterPhoto[]> {
+  const map = new Map<string, ChapterPhoto[]>();
+  for (const p of photos) {
+    const list = map.get(p.ownerId) ?? [];
+    list.push({
+      mediaId: p.mediaId,
+      url: p.url,
+      caption: p.caption,
+      status: p.status,
+    });
+    map.set(p.ownerId, list);
+  }
+  return map;
+}
 
 async function authorize(
   actor: Actor,
@@ -109,12 +149,21 @@ export async function listPublicChapters(
     )
     .orderBy(asc(lifeChapters.displayOrder));
 
+  const photos = groupPhotos(
+    await contentMediaPhotos(
+      CHAPTER_OWNER_TYPE,
+      rows.map((r) => r.id),
+      { readyOnly: true },
+    ),
+  );
+
   return rows.map((r) => ({
     id: r.id,
     chapterKey: r.chapterKey,
     customTitle: r.customTitle,
     body: r.body,
     displayOrder: r.displayOrder,
+    photos: photos.get(r.id) ?? [],
   }));
 }
 
@@ -156,6 +205,14 @@ export async function listManageChapters(
     )
     .orderBy(asc(lifeChapters.displayOrder));
 
+  const photos = groupPhotos(
+    await contentMediaPhotos(
+      CHAPTER_OWNER_TYPE,
+      rows.map((r) => r.id),
+      { readyOnly: false },
+    ),
+  );
+
   return rows.map((r) => ({
     id: r.id,
     chapterKey: r.chapterKey,
@@ -169,6 +226,7 @@ export async function listManageChapters(
       r.latestVersionId !== null &&
       r.latestVersionId !== r.publishedVersionId,
     draftBody: r.body ?? "",
+    photos: photos.get(r.id) ?? [],
   }));
 }
 
@@ -442,4 +500,111 @@ export async function removeChapter(
   });
 
   return ok(true);
+}
+
+/**
+ * Attaches an uploaded photo to a chapter.
+ *
+ * The asset must already belong to this chapter's memorial — a link cannot
+ * borrow a photo from somewhere else. The link is what keeps the photo out of
+ * the general slideshow and inside the chapter.
+ */
+export async function attachChapterMedia(
+  actor: Actor,
+  chapterId: string,
+  mediaId: string,
+  correlationId: string,
+): Promise<Result<{ attached: true }, ChapterError>> {
+  const memorialId = await memorialIdOfChapter(chapterId);
+  if (!memorialId) return err("CHAPTER_NOT_FOUND");
+
+  const authorized = await authorize(actor, memorialId, "edit_profile");
+  if (!authorized.ok) return err(authorized.error);
+
+  const [asset] = await db()
+    .select({ id: mediaAssets.id })
+    .from(mediaAssets)
+    .where(
+      and(
+        eq(mediaAssets.id, mediaId),
+        eq(mediaAssets.memorialId, memorialId),
+        isNull(mediaAssets.deletedAt),
+      ),
+    );
+  if (!asset) return err("MEDIA_NOT_FOUND");
+
+  const [maxRow] = await db()
+    .select({
+      max: sql<number>`coalesce(max(${contentMedia.displayOrder}), -1)::int`,
+    })
+    .from(contentMedia)
+    .where(
+      and(
+        eq(contentMedia.ownerType, CHAPTER_OWNER_TYPE),
+        eq(contentMedia.ownerId, chapterId),
+      ),
+    );
+
+  await db()
+    .insert(contentMedia)
+    .values({
+      ownerType: CHAPTER_OWNER_TYPE,
+      ownerId: chapterId,
+      mediaId,
+      role: "gallery",
+      displayOrder: (maxRow?.max ?? -1) + 1,
+    })
+    .onConflictDoNothing({
+      target: [
+        contentMedia.ownerType,
+        contentMedia.ownerId,
+        contentMedia.mediaId,
+      ],
+    });
+
+  await db().insert(auditLogs).values({
+    actorUserId: actor.userId,
+    action: "life_chapter.media_attached",
+    resourceType: "life_chapter",
+    resourceId: chapterId,
+    newValue: { mediaId },
+    correlationId,
+  });
+
+  return ok({ attached: true });
+}
+
+/**
+ * Removes a photo from a chapter and deletes the underlying asset.
+ *
+ * A chapter photo is dedicated to that chapter, so detaching it is a delete —
+ * it does not fall back into the memorial's general gallery.
+ */
+export async function detachChapterMedia(
+  actor: Actor,
+  chapterId: string,
+  mediaId: string,
+  correlationId: string,
+): Promise<Result<{ detached: true }, ChapterError>> {
+  const memorialId = await memorialIdOfChapter(chapterId);
+  if (!memorialId) return err("CHAPTER_NOT_FOUND");
+
+  const authorized = await authorize(actor, memorialId, "edit_profile");
+  if (!authorized.ok) return err(authorized.error);
+
+  await db()
+    .delete(contentMedia)
+    .where(
+      and(
+        eq(contentMedia.ownerType, CHAPTER_OWNER_TYPE),
+        eq(contentMedia.ownerId, chapterId),
+        eq(contentMedia.mediaId, mediaId),
+      ),
+    );
+
+  // Best-effort: the link is already gone, so a failure here only leaves an
+  // orphaned asset, not a broken chapter.
+  await softDeleteMedia(actor, mediaId, correlationId);
+
+  return ok({ detached: true });
 }

@@ -17,6 +17,7 @@ export function refuseChapterError(
       return jsonError("AUTH_REQUIRED", correlationId);
     case "MEMORIAL_NOT_FOUND":
     case "CHAPTER_NOT_FOUND":
+    case "MEDIA_NOT_FOUND":
       return jsonError("MEMORIAL_NOT_FOUND", correlationId);
     case "MEMORIAL_FORBIDDEN":
       return jsonError("MEMORIAL_FORBIDDEN", correlationId);

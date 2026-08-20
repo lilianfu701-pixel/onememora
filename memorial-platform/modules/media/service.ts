@@ -1,7 +1,13 @@
 import { randomUUID } from "node:crypto";
-import { and, asc, eq, isNull } from "drizzle-orm";
+import { and, asc, eq, inArray, isNull, sql } from "drizzle-orm";
 import { db } from "@/db/client";
-import { auditLogs, mediaAssets, memorials, outboxEvents } from "@/db/schema";
+import {
+  auditLogs,
+  contentMedia,
+  mediaAssets,
+  memorials,
+  outboxEvents,
+} from "@/db/schema";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { memorialRoleFor } from "@/modules/memorials/membership";
@@ -454,6 +460,9 @@ export async function memorialGallery(
         eq(mediaAssets.kind, "image"),
         eq(mediaAssets.status, "ready"),
         isNull(mediaAssets.deletedAt),
+        // Photos attached to a chapter (or other content) belong there, not in
+        // the general slideshow.
+        sql`not exists (select 1 from ${contentMedia} where ${contentMedia.mediaId} = ${mediaAssets.id})`,
       ),
     )
     .orderBy(asc(mediaAssets.createdAt));
@@ -502,6 +511,8 @@ export async function manageableMedia(
         eq(mediaAssets.memorialId, memorialId),
         eq(mediaAssets.kind, "image"),
         isNull(mediaAssets.deletedAt),
+        // Chapter photos are managed inside the chapter editor, not here.
+        sql`not exists (select 1 from ${contentMedia} where ${contentMedia.mediaId} = ${mediaAssets.id})`,
       ),
     )
     // Oldest first so a newly uploaded photo lands at the end, matching the
@@ -528,6 +539,78 @@ export async function manageableMedia(
         url: null,
       });
     }
+  }
+
+  return photos;
+}
+
+export type OwnerPhoto = {
+  ownerId: string;
+  mediaId: string;
+  caption: string | null;
+  displayOrder: number;
+  status: string;
+  /** Null until the asset is ready (or when not publicly addressable). */
+  url: string | null;
+};
+
+/**
+ * Photos attached to content items (a life chapter, and later a contribution).
+ *
+ * One query for a batch of owners, so a page rendering many chapters resolves
+ * their galleries together. `readyOnly` is true for public rendering — a reader
+ * never sees a photo still in the pipeline — and false for the family's editor,
+ * which shows processing photos so they know an upload is in flight.
+ */
+export async function contentMediaPhotos(
+  ownerType: string,
+  ownerIds: string[],
+  options: { readyOnly: boolean },
+): Promise<OwnerPhoto[]> {
+  if (ownerIds.length === 0) return [];
+
+  const conditions = [
+    eq(contentMedia.ownerType, ownerType),
+    inArray(contentMedia.ownerId, ownerIds),
+    isNull(mediaAssets.deletedAt),
+  ];
+  if (options.readyOnly) {
+    conditions.push(eq(mediaAssets.status, "ready"));
+  }
+
+  const rows = await db()
+    .select({
+      ownerId: contentMedia.ownerId,
+      mediaId: contentMedia.mediaId,
+      caption: contentMedia.caption,
+      displayOrder: contentMedia.displayOrder,
+      status: mediaAssets.status,
+      readyObjectKey: mediaAssets.readyObjectKey,
+      visibility: memorials.visibility,
+    })
+    .from(contentMedia)
+    .innerJoin(mediaAssets, eq(mediaAssets.id, contentMedia.mediaId))
+    .innerJoin(memorials, eq(memorials.id, mediaAssets.memorialId))
+    .where(and(...conditions))
+    .orderBy(asc(contentMedia.ownerId), asc(contentMedia.displayOrder));
+
+  const storage = mediaStorage();
+  const photos: OwnerPhoto[] = [];
+
+  for (const row of rows) {
+    let url: string | null = null;
+    if (row.status === "ready" && row.readyObjectKey) {
+      const address = await addressForRow(storage, row);
+      url = address.kind !== "unavailable" ? address.url : null;
+    }
+    photos.push({
+      ownerId: row.ownerId,
+      mediaId: row.mediaId,
+      caption: row.caption,
+      displayOrder: row.displayOrder,
+      status: row.status,
+      url,
+    });
   }
 
   return photos;

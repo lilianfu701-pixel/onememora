@@ -51,6 +51,22 @@ export async function LifeChapters(props: {
                     ))}
                   </p>
                 ))}
+              {chapter.photos.length > 0 ? (
+                <div className="lifeChapterPhotos">
+                  {chapter.photos
+                    .filter((photo) => photo.url)
+                    .map((photo) => (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        key={photo.mediaId}
+                        className="lifeChapterPhoto"
+                        src={photo.url as string}
+                        alt={photo.caption ?? titleFor(chapter)}
+                        loading="lazy"
+                      />
+                    ))}
+                </div>
+              ) : null}
             </div>
           </article>
         ))}
