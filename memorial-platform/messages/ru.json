@@ -314,7 +314,9 @@
     "shareMore": "Ещё варианты…",
     "bornIn": ", родился(ась) в {place}",
     "diedIn": ", скончался(ась) в {place}",
-    "createdByNamed": "Эту страницу ведут {relation} {name}"
+    "createdByNamed": "Эту страницу ведут {relation} {name}",
+    "duplicateWarningLead": "Возможно, страница памяти этого человека уже существует:",
+    "duplicateWarningHint": "Если это тот же человек, откройте её и заявите о себе там, а не создавайте новую. Если это другой человек, продолжайте."
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "Место рождения"
+    "birthplaceLabel": "Место рождения",
+    "mentionPromptLead": "Возможно, вас упоминают страницы памяти: {count}",
+    "mentionPromptCta": "Посмотреть и заявить"
   },
   "admin": {
     "navLabel": "Навигация администратора",

@@ -314,7 +314,9 @@
     "shareMore": "その他の共有方法…",
     "bornIn": "、{place}生まれ",
     "diedIn": "、{place}にて逝去",
-    "createdByNamed": "このページは{name}の{relation}が管理しています"
+    "createdByNamed": "このページは{name}の{relation}が管理しています",
+    "duplicateWarningLead": "この方の追悼ページはすでに存在するかもしれません：",
+    "duplicateWarningHint": "同じ方であれば、新しく作らずにそのページを開いて申請できます。別の方であればそのまま続けてください。"
   },
   "privacy": {
     "title": "このページを見られる範囲",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "出生地"
+    "birthplaceLabel": "出生地",
+    "mentionPromptLead": "{count} 件の追悼ページがあなたに言及しているかもしれません",
+    "mentionPromptCta": "確認して申請"
   },
   "admin": {
     "navLabel": "管理ナビゲーション",

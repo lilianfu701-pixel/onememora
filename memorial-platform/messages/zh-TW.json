@@ -314,7 +314,9 @@
     "shareMore": "更多分享方式…",
     "bornIn": "，出生於{place}",
     "diedIn": "，逝世於{place}",
-    "createdByNamed": "本主頁由「{name}」的{relation}建立並管理"
+    "createdByNamed": "本主頁由「{name}」的{relation}建立並管理",
+    "duplicateWarningLead": "可能已經有這個人的紀念頁了：",
+    "duplicateWarningHint": "如果是同一個人，可以打開去認領，而不必新建；若確實是不同的人，請繼續。"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "僅登入用戶",
     "nameVisibility_hidden": "完全隱藏",
     "nameVisibilityHint": "設定後，一旦你的身分被確認，將覆蓋各主頁對你姓名的顯示方式。",
-    "birthplaceLabel": "出生地"
+    "birthplaceLabel": "出生地",
+    "mentionPromptLead": "有 {count} 個紀念頁可能提到了你",
+    "mentionPromptCta": "去認領"
   },
   "admin": {
     "navLabel": "管理導覽",

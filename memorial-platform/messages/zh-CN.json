@@ -314,7 +314,9 @@
     "shareMore": "更多分享方式…",
     "bornIn": "，出生于{place}",
     "diedIn": "，逝世于{place}",
-    "createdByNamed": "本主页由「{name}」的{relation}建立并管理"
+    "createdByNamed": "本主页由「{name}」的{relation}建立并管理",
+    "duplicateWarningLead": "可能已经有这个人的纪念页了：",
+    "duplicateWarningHint": "如果是同一个人，可以打开去认领，而不必新建；若确实是不同的人，请继续。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "仅登录用户",
     "nameVisibility_hidden": "完全隐藏",
     "nameVisibilityHint": "设置后，一旦你的身份被确认，将覆盖各主页对你姓名的显示方式。",
-    "birthplaceLabel": "出生地"
+    "birthplaceLabel": "出生地",
+    "mentionPromptLead": "有 {count} 个纪念页可能提到了你",
+    "mentionPromptCta": "去认领"
   },
   "admin": {
     "navLabel": "管理导航",

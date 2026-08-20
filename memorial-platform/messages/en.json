@@ -314,7 +314,9 @@
     "shareMore": "More sharing options…",
     "bornIn": ", born in {place}",
     "diedIn": ", passed in {place}",
-    "createdByNamed": "This page is maintained by the {relation} of {name}"
+    "createdByNamed": "This page is maintained by the {relation} of {name}",
+    "duplicateWarningLead": "A memorial for this person may already exist:",
+    "duplicateWarningHint": "If it's the same person, open it and claim your place there instead of creating a new one. If it's someone else, just continue."
   },
   "privacy": {
     "title": "Who can see this memorial",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "Birthplace"
+    "birthplaceLabel": "Birthplace",
+    "mentionPromptLead": "{count, plural, =1 {A memorial may mention you} other {# memorials may mention you}}",
+    "mentionPromptCta": "Review & claim"
   },
   "admin": {
     "navLabel": "Admin navigation",

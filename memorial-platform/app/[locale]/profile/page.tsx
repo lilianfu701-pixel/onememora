@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { currentActor } from "@/modules/auth/current-user";
 import { isProfileComplete, loadProfile } from "@/modules/identity/profile";
 import { ProfileForm } from "./profile-form";
+import { MentionPrompt } from "../mention-prompt";
 
 export const dynamic = "force-dynamic";
 
@@ -61,6 +62,12 @@ export default async function ProfilePage(props: {
           {isProfileComplete(profile) ? t("intro") : t("gateBody")}
         </p>
       </header>
+
+      <MentionPrompt
+        userId={actor.userId}
+        fullName={profile.fullName}
+        locale={locale}
+      />
 
       <ProfileForm initial={profile} next={safeNext} />
     </main>

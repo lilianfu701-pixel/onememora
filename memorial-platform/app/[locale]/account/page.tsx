@@ -5,6 +5,7 @@ import { currentActor } from "@/modules/auth/current-user";
 import { loadProfile } from "@/modules/identity/profile";
 import { loadAccountInfo } from "@/modules/identity/account";
 import { AccountPage } from "./account-page";
+import { MentionPrompt } from "../mention-prompt";
 
 export const dynamic = "force-dynamic";
 
@@ -54,6 +55,11 @@ export default async function AccountRoute(props: {
 
   return (
     <main id="main" className="container section stack-lg">
+      <MentionPrompt
+        userId={actor.userId}
+        fullName={safeProfile.fullName}
+        locale={locale}
+      />
       <AccountPage
         profile={safeProfile}
         email={accountInfo?.email ?? null}

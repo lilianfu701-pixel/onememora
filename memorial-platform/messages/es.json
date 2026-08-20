@@ -314,7 +314,9 @@
     "shareMore": "Más opciones para compartir…",
     "bornIn": ", nacido/a en {place}",
     "diedIn": ", fallecido/a en {place}",
-    "createdByNamed": "Esta página está mantenida por el/la {relation} de {name}"
+    "createdByNamed": "Esta página está mantenida por el/la {relation} de {name}",
+    "duplicateWarningLead": "Puede que ya exista una página conmemorativa de esta persona:",
+    "duplicateWarningHint": "Si es la misma persona, ábrela y reclama tu lugar allí en vez de crear otra. Si es otra persona, continúa."
   },
   "privacy": {
     "title": "Quién puede ver este memorial",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Solo usuarios registrados",
     "nameVisibility_hidden": "Oculto",
     "nameVisibilityHint": "Si se establece, prevalece sobre cómo los memoriales muestran tu nombre una vez confirmada tu identidad.",
-    "birthplaceLabel": "Lugar de nacimiento"
+    "birthplaceLabel": "Lugar de nacimiento",
+    "mentionPromptLead": "{count, plural, =1 {Un memorial podría mencionarte} other {# memoriales podrían mencionarte}}",
+    "mentionPromptCta": "Revisar y reclamar"
   },
   "admin": {
     "navLabel": "Navegación de administración",

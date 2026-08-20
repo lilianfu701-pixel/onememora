@@ -1,6 +1,11 @@
 import { and, eq, ne, sql } from "drizzle-orm";
 import { db } from "@/db/client";
-import { duplicateCandidates, memorials, searchDocuments } from "@/db/schema";
+import {
+  duplicateCandidates,
+  memorialNames,
+  memorials,
+  searchDocuments,
+} from "@/db/schema";
 import { normalizeForSearch } from "./normalize";
 
 /**
@@ -156,6 +161,96 @@ export async function findDuplicateCandidates(
   }
 
   return matches.sort((a, b) => b.score - a.score);
+}
+
+export type PublicDuplicate = {
+  memorialId: string;
+  slug: string;
+  primaryName: string | null;
+  birthYear: number | null;
+  deathYear: number | null;
+  score: number;
+};
+
+/**
+ * Finds PUBLIC memorials that may already describe the person someone is about
+ * to create a memorial for — before that memorial exists.
+ *
+ * Unlike findDuplicateCandidates (which compares two stored memorials and may
+ * surface private ones to family or a reviewer), this runs from raw form input
+ * for anyone, so it is restricted to published public memorials: it must never
+ * reveal that a private memorial exists. It only warns; it never blocks
+ * creation — a family making a second page in grief deserves to see the first,
+ * not be stopped.
+ */
+export async function findPublicDuplicatesForInput(input: {
+  name: string;
+  aliases?: readonly string[];
+  birthYear: number | null;
+  deathYear: number | null;
+  placeTokens?: readonly string[];
+}): Promise<PublicDuplicate[]> {
+  const subjectName = normalizeForSearch(input.name);
+  if (subjectName.length === 0) return [];
+
+  const rows = await db()
+    .select({
+      memorialId: searchDocuments.memorialId,
+      slug: memorials.slug,
+      normalizedText: searchDocuments.normalizedText,
+      aliases: searchDocuments.aliases,
+      placeTokens: searchDocuments.placeTokens,
+      birthYear: searchDocuments.birthYear,
+      deathYear: searchDocuments.deathYear,
+      primaryName: memorialNames.value,
+    })
+    .from(searchDocuments)
+    .innerJoin(memorials, eq(memorials.id, searchDocuments.memorialId))
+    .leftJoin(
+      memorialNames,
+      and(
+        eq(memorialNames.memorialId, memorials.id),
+        eq(memorialNames.type, "primary"),
+      ),
+    )
+    .where(
+      and(
+        eq(memorials.visibility, "public"),
+        eq(memorials.status, "published"),
+        sql`${memorials.deletionRequestedAt} is null`,
+      ),
+    );
+
+  const matches: PublicDuplicate[] = [];
+  for (const other of rows) {
+    const components: ComponentScores = {
+      name: nameSimilarity(subjectName, normalizeForSearch(other.normalizedText)),
+      alias: overlap(input.aliases ?? [], other.aliases ?? []),
+      dates: dateAgreement(
+        { birthYear: input.birthYear, deathYear: input.deathYear },
+        other,
+      ),
+      place: overlap(input.placeTokens ?? [], other.placeTokens ?? []),
+    };
+    const score =
+      components.name * WEIGHTS.name +
+      components.alias * WEIGHTS.alias +
+      components.dates * WEIGHTS.dates +
+      components.place * WEIGHTS.place;
+
+    if (score >= CANDIDATE_THRESHOLD) {
+      matches.push({
+        memorialId: other.memorialId,
+        slug: other.slug,
+        primaryName: other.primaryName,
+        birthYear: other.birthYear,
+        deathYear: other.deathYear,
+        score: Number(score.toFixed(4)),
+      });
+    }
+  }
+
+  return matches.sort((a, b) => b.score - a.score).slice(0, 5);
 }
 
 /**

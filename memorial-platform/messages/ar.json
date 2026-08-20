@@ -314,7 +314,9 @@
     "shareMore": "خيارات مشاركة إضافية…",
     "bornIn": "، ولد في {place}",
     "diedIn": "، توفي في {place}",
-    "createdByNamed": "هذه الصفحة يديرها {relation} {name}"
+    "createdByNamed": "هذه الصفحة يديرها {relation} {name}",
+    "duplicateWarningLead": "قد تكون هناك صفحة تذكارية لهذا الشخص بالفعل:",
+    "duplicateWarningHint": "إذا كان الشخص نفسه، افتحها وطالب بمكانك فيها بدلاً من إنشاء صفحة جديدة. وإن كان شخصاً آخر، فتابع."
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "مكان الميلاد"
+    "birthplaceLabel": "مكان الميلاد",
+    "mentionPromptLead": "قد تذكرك {count} صفحة تذكارية",
+    "mentionPromptCta": "المراجعة والمطالبة"
   },
   "admin": {
     "navLabel": "التنقل الإداري",

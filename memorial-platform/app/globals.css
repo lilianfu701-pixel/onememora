@@ -2435,6 +2435,66 @@ a.famCard:focus-visible {
   flex: 1 1 18rem;
 }
 
+/* ---------- Mention prompt (proactive recognition) ---------- */
+
+.mentionPrompt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid rgba(141, 189, 209, 0.4);
+  border-inline-start: 3px solid var(--sky, #8dbdd1);
+  border-radius: var(--radius-sm);
+  background: rgba(141, 189, 209, 0.12);
+}
+
+.mentionPromptLead {
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ---------- Duplicate-memorial warning (create flow) ---------- */
+
+.dupWarning {
+  margin-top: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid rgba(178, 128, 42, 0.35);
+  border-inline-start: 3px solid #b2802a;
+  border-radius: var(--radius-sm);
+  background: rgba(214, 173, 94, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.dupWarningLead {
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.dupWarningList {
+  margin: 0;
+  padding-inline-start: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.dupWarningList a {
+  color: var(--accent-strong, #7a4f1c);
+  text-decoration: underline;
+}
+
+.dupWarningHint {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
 /* ---------- Contributions (亲友追忆) ---------- */
 
 .contributions {

@@ -314,7 +314,9 @@
     "shareMore": "Weitere Teilen-Optionen…",
     "bornIn": ", geboren in {place}",
     "diedIn": ", verstorben in {place}",
-    "createdByNamed": "Diese Seite wird vom {relation} von {name} gepflegt"
+    "createdByNamed": "Diese Seite wird vom {relation} von {name} gepflegt",
+    "duplicateWarningLead": "Für diese Person gibt es möglicherweise bereits eine Gedenkseite:",
+    "duplicateWarningHint": "Wenn es dieselbe Person ist, öffnen Sie sie und beanspruchen Sie dort Ihren Platz, statt eine neue zu erstellen. Andernfalls fahren Sie fort."
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "Geburtsort"
+    "birthplaceLabel": "Geburtsort",
+    "mentionPromptLead": "{count, plural, =1 {Eine Gedenkseite erwähnt Sie möglicherweise} other {# Gedenkseiten erwähnen Sie möglicherweise}}",
+    "mentionPromptCta": "Ansehen & beanspruchen"
   },
   "admin": {
     "navLabel": "Admin-Navigation",

@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useMemo, useRef, useState } from "react";
 import { countryOptions } from "@/lib/countries";
 import { regionsFor } from "@/lib/regions";
+import { DuplicateWarning } from "./duplicate-warning";
 
 type Relationship =
   | "husband"
@@ -568,6 +569,13 @@ export function CreateMemorialForm(props: { locale: string }) {
             {errorFor("primaryName")}
           </p>
         ) : null}
+
+        <DuplicateWarning
+          locale={props.locale}
+          name={name}
+          birthDate={partsToDate(birth)?.value ?? null}
+          deathDate={partsToDate(death)?.value ?? null}
+        />
 
         {aliases.map((alias, i) => (
           <div className="aliasRow" key={i}>

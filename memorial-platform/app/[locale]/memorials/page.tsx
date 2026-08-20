@@ -224,7 +224,7 @@ export default async function MyMemorialsPage(props: {
       </header>
 
       {mentions.length > 0 ? (
-        <section className="stack">
+        <section className="stack" id="mentions">
           <div className="stack">
             <h2>{t("myMentions")}</h2>
             <p className="muted">{t("myMentionsHint")}</p>

@@ -314,7 +314,9 @@
     "shareMore": "Opsi berbagi lainnya…",
     "bornIn": ", lahir di {place}",
     "diedIn": ", meninggal di {place}",
-    "createdByNamed": "Halaman ini dikelola oleh {relation} dari {name}"
+    "createdByNamed": "Halaman ini dikelola oleh {relation} dari {name}",
+    "duplicateWarningLead": "Halaman peringatan untuk orang ini mungkin sudah ada:",
+    "duplicateWarningHint": "Jika orang yang sama, buka dan klaim tempat Anda di sana alih-alih membuat yang baru. Jika orang lain, lanjutkan saja."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "Tempat lahir"
+    "birthplaceLabel": "Tempat lahir",
+    "mentionPromptLead": "{count} halaman peringatan mungkin menyebut Anda",
+    "mentionPromptCta": "Tinjau & klaim"
   },
   "admin": {
     "navLabel": "Navigasi admin",

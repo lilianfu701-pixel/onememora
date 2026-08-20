@@ -314,7 +314,9 @@
     "shareMore": "Thêm tùy chọn chia sẻ…",
     "bornIn": ", sinh tại {place}",
     "diedIn": ", mất tại {place}",
-    "createdByNamed": "Trang này được quản lý bởi {relation} của {name}"
+    "createdByNamed": "Trang này được quản lý bởi {relation} của {name}",
+    "duplicateWarningLead": "Có thể đã có trang tưởng niệm cho người này:",
+    "duplicateWarningHint": "Nếu là cùng một người, hãy mở trang đó và nhận vị trí của bạn thay vì tạo mới. Nếu là người khác, hãy tiếp tục."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",
@@ -431,7 +433,9 @@
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
-    "birthplaceLabel": "Nơi sinh"
+    "birthplaceLabel": "Nơi sinh",
+    "mentionPromptLead": "{count} trang tưởng niệm có thể nhắc đến bạn",
+    "mentionPromptCta": "Xem và nhận"
   },
   "admin": {
     "navLabel": "Điều hướng quản trị",
