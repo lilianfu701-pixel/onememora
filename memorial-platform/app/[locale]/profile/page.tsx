@@ -45,7 +45,7 @@ export default async function ProfilePage(props: {
     fullName: null,
     gender: null,
     birthDate: null,
-    region: null,
+    birthplace: null,
     nameVisibility: null,
   };
 

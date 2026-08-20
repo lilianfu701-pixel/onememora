@@ -430,7 +430,8 @@
     "nameVisibility_public": "Everyone",
     "nameVisibility_family": "Signed-in viewers only",
     "nameVisibility_hidden": "Hidden",
-    "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed."
+    "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
+    "birthplaceLabel": "Место рождения"
   },
   "admin": {
     "navLabel": "Навигация администратора",

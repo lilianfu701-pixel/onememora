@@ -430,7 +430,8 @@
     "nameVisibility_public": "所有人",
     "nameVisibility_family": "仅登录用户",
     "nameVisibility_hidden": "完全隐藏",
-    "nameVisibilityHint": "设置后，一旦你的身份被确认，将覆盖各主页对你姓名的显示方式。"
+    "nameVisibilityHint": "设置后，一旦你的身份被确认，将覆盖各主页对你姓名的显示方式。",
+    "birthplaceLabel": "出生地"
   },
   "admin": {
     "navLabel": "管理导航",

@@ -52,6 +52,13 @@ export const users = pgTable("users", {
   fullName: text("full_name"),
   gender: text("gender"),
   birthDate: date("birth_date", { mode: "string" }),
+  /** Where the account holder was born — helps disambiguate people who share a
+   *  name during recognition. */
+  birthplace: text("birthplace"),
+  /**
+   * Legacy "current region" — no longer collected in the profile UI. Kept so
+   * existing values are not dropped; safe to remove in a later migration.
+   */
   region: text("region"),
   /**
    * How this person's own name should show when a memorial lists them as a

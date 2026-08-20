@@ -12,7 +12,7 @@ const schema = z.object({
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/)
     .nullable(),
-  region: z.string().trim().max(120).nullable(),
+  birthplace: z.string().trim().max(120).nullable(),
   nameVisibility: z.enum(["public", "family", "hidden"]).nullable().optional(),
 });
 
@@ -34,7 +34,7 @@ export async function PUT(request: Request): Promise<Response> {
     fullName: body.value.fullName,
     gender: body.value.gender,
     birthDate: body.value.birthDate,
-    region: body.value.region,
+    birthplace: body.value.birthplace,
     nameVisibility: body.value.nameVisibility ?? null,
   });
 

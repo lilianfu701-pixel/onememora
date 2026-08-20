@@ -430,7 +430,8 @@
     "nameVisibility_public": "Todos",
     "nameVisibility_family": "Solo usuarios registrados",
     "nameVisibility_hidden": "Oculto",
-    "nameVisibilityHint": "Si se establece, prevalece sobre cómo los memoriales muestran tu nombre una vez confirmada tu identidad."
+    "nameVisibilityHint": "Si se establece, prevalece sobre cómo los memoriales muestran tu nombre una vez confirmada tu identidad.",
+    "birthplaceLabel": "Lugar de nacimiento"
   },
   "admin": {
     "navLabel": "Navegación de administración",

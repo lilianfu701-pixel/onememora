@@ -16,7 +16,7 @@ export function ProfileForm(props: { initial: Profile; next: string | null }) {
   const [fullName, setFullName] = useState(props.initial.fullName ?? "");
   const [gender, setGender] = useState<string>(props.initial.gender ?? "");
   const [birthDate, setBirthDate] = useState(props.initial.birthDate ?? "");
-  const [region, setRegion] = useState(props.initial.region ?? "");
+  const [birthplace, setBirthplace] = useState(props.initial.birthplace ?? "");
   const [nameVisibility, setNameVisibility] = useState<string>(
     props.initial.nameVisibility ?? "",
   );
@@ -44,7 +44,7 @@ export function ProfileForm(props: { initial: Profile; next: string | null }) {
           fullName: fullName.trim(),
           gender: (gender || null) as Gender | null,
           birthDate: birthDate || null,
-          region: region.trim() || null,
+          birthplace: birthplace.trim() || null,
           nameVisibility: nameVisibility || null,
         }),
       });
@@ -115,13 +115,13 @@ export function ProfileForm(props: { initial: Profile; next: string | null }) {
       </label>
 
       <label className="field">
-        <span className="fieldLabel">{t("regionLabel")}</span>
+        <span className="fieldLabel">{t("birthplaceLabel")}</span>
         <input
           className="input"
           type="text"
           maxLength={120}
-          value={region}
-          onChange={(e) => setRegion(e.target.value)}
+          value={birthplace}
+          onChange={(e) => setBirthplace(e.target.value)}
         />
       </label>
 

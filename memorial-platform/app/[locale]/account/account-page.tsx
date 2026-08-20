@@ -24,7 +24,7 @@ export function AccountPage(props: {
   const [fullName, setFullName] = useState(props.profile.fullName ?? "");
   const [gender, setGender] = useState<string>(props.profile.gender ?? "");
   const [birthDate, setBirthDate] = useState(props.profile.birthDate ?? "");
-  const [region, setRegion] = useState(props.profile.region ?? "");
+  const [birthplace, setBirthplace] = useState(props.profile.birthplace ?? "");
   const [nameVisibility, setNameVisibility] = useState<string>(
     props.profile.nameVisibility ?? "",
   );
@@ -56,7 +56,7 @@ export function AccountPage(props: {
           fullName: fullName.trim(),
           gender: (gender || null) as Gender | null,
           birthDate: birthDate || null,
-          region: region.trim() || null,
+          birthplace: birthplace.trim() || null,
           nameVisibility: nameVisibility || null,
         }),
       });
@@ -196,13 +196,13 @@ export function AccountPage(props: {
           </label>
 
           <label className="field">
-            <span className="fieldLabel">{pt("regionLabel")}</span>
+            <span className="fieldLabel">{pt("birthplaceLabel")}</span>
             <input
               className="input"
               type="text"
               maxLength={120}
-              value={region}
-              onChange={(e) => setRegion(e.target.value)}
+              value={birthplace}
+              onChange={(e) => setBirthplace(e.target.value)}
             />
           </label>
         </div>

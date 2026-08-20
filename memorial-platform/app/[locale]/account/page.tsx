@@ -48,7 +48,7 @@ export default async function AccountRoute(props: {
     fullName: null,
     gender: null,
     birthDate: null,
-    region: null,
+    birthplace: null,
     nameVisibility: null,
   };
 

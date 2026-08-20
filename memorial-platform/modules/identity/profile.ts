@@ -7,7 +7,7 @@ export type Profile = {
   fullName: string | null;
   gender: string | null;
   birthDate: string | null;
-  region: string | null;
+  birthplace: string | null;
   /**
    * How the person's own name shows when a memorial lists them as a living
    * relative: `public`, `family`, `hidden`, or null for "no preference". When
@@ -23,7 +23,7 @@ export async function loadProfile(userId: string): Promise<Profile | null> {
       fullName: users.fullName,
       gender: users.gender,
       birthDate: users.birthDate,
-      region: users.region,
+      birthplace: users.birthplace,
       nameVisibility: users.nameVisibility,
     })
     .from(users)
@@ -33,7 +33,7 @@ export async function loadProfile(userId: string): Promise<Profile | null> {
 
 /**
  * Enough to create a memorial for a family member: who you are (name), your
- * gender and your birth date. Region stays optional.
+ * gender and your birth date. Birthplace stays optional.
  */
 export function isProfileComplete(profile: Profile | null): boolean {
   return Boolean(
@@ -65,7 +65,7 @@ export async function saveProfile(
       fullName: clean(data.fullName),
       gender: clean(data.gender),
       birthDate: clean(data.birthDate),
-      region: clean(data.region),
+      birthplace: clean(data.birthplace),
       nameVisibility: visibility,
     })
     .where(eq(users.id, userId));
