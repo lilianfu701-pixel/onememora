@@ -1,15 +1,11 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 import type { OfferingSummary } from "@/modules/offerings/display";
 
-function maskName(name: string): string {
-  if (name.length <= 1) return name;
-  if (name.length === 2) return name[0] + "*";
-  return name[0] + "*".repeat(name.length - 2) + name[name.length - 1];
-}
-
-/* ────────────── SVG icons (action buttons) ────────────── */
+/* ────────────── SVG icons ────────────── */
 
 function IncenseIcon() {
   return (
@@ -55,33 +51,62 @@ function IncenseIcon() {
   );
 }
 
+/** Lotus votive candle — a warm glass cup cradled in lotus petals. */
 function CandleIcon() {
   return (
     <svg
       className="altarItemSvg"
-      viewBox="0 0 40 100"
+      viewBox="0 0 48 100"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      <ellipse cx="20" cy="92" rx="14" ry="3" fill="#8b6914" opacity="0.12" />
-      <rect x="12" y="40" width="16" height="52" rx="2" fill="#c41e1e" />
-      <rect x="12" y="40" width="7" height="52" rx="2" fill="#d42a2a" opacity="0.25" />
-      <circle cx="14" cy="56" r="1.5" fill="#d42a2a" opacity="0.6" />
-      <circle cx="27" cy="64" r="1.2" fill="#d42a2a" opacity="0.5" />
-      <line x1="20" y1="40" x2="20" y2="28" stroke="#3a3a3a" strokeWidth="1" />
-      <ellipse cx="20" cy="24" rx="5" ry="10" fill="#fbbf24" opacity="0.9">
-        <animate attributeName="ry" values="10;11;9.5;10" dur="0.8s" repeatCount="indefinite" />
-      </ellipse>
-      <ellipse cx="20" cy="23" rx="3" ry="6" fill="#fef3c7" opacity="0.8" />
-      <circle cx="20" cy="24" r="12" fill="#fbbf24" opacity="0.08">
-        <animate attributeName="r" values="12;14;12" dur="1.5s" repeatCount="indefinite" />
+      {/* halo */}
+      <circle cx="24" cy="30" r="13" fill="#fcd34d" opacity="0.12">
+        <animate attributeName="r" values="13;16;13" dur="2s" repeatCount="indefinite" />
       </circle>
+      {/* flame */}
+      <ellipse cx="24" cy="30" rx="4.6" ry="10.5" fill="#f59e0b" opacity="0.92">
+        <animate attributeName="ry" values="10.5;12;9.8;10.5" dur="0.9s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="24" cy="31" rx="2.4" ry="5.8" fill="#fef3c7" opacity="0.9" />
+      <line x1="24" y1="41" x2="24" y2="34" stroke="#5b5147" strokeWidth="1" />
+      {/* candle body */}
+      <rect x="18" y="41" width="12" height="17" rx="1.5" fill="#fbe4c6" />
+      <rect x="18" y="41" width="4.5" height="17" fill="#ffffff" opacity="0.3" />
+      {/* glass cup */}
+      <path
+        d="M13 57 H35 L32.5 82 Q32 87 27 87 H21 Q16 87 15.5 82 Z"
+        fill="#fde68a"
+        opacity="0.22"
+        stroke="#e6c67a"
+        strokeWidth="1"
+      />
+      {/* lotus petals */}
+      <ellipse cx="24" cy="88" rx="18" ry="5" fill="#dda0aa" opacity="0.14" />
+      <path d="M24 90 C15 86 13 79 16 74 C21 79 24 83 24 90 Z" fill="#f7cdd4" />
+      <path d="M24 90 C33 86 35 79 32 74 C27 79 24 83 24 90 Z" fill="#f4bcc6" />
+      <path d="M24 91 C19 85 18 79 21 75 C24 80 25 84 24 91 Z" fill="#fbe0e4" />
+      <path d="M24 91 C29 85 30 79 27 75 C24 80 23 84 24 91 Z" fill="#fbe0e4" />
+      <path d="M24 92 C22 87 22 82 24 78 C26 82 26 87 24 92 Z" fill="#fff2f4" />
     </svg>
   );
 }
 
+/** Chrysanthemum funeral wreath on a stand, ribbons hanging. */
 function WreathIcon() {
+  const cx = 60;
+  const cy = 54;
+  const radius = 38;
+  const clusters = Array.from({ length: 16 }, (_, i) => {
+    const angle = (i / 16) * Math.PI * 2 - Math.PI / 2;
+    return {
+      x: cx + Math.cos(angle) * radius,
+      y: cy + Math.sin(angle) * radius,
+      pale: i % 2 === 0,
+    };
+  });
+
   return (
     <svg
       className="altarItemSvg altarItemSvgWreath"
@@ -90,29 +115,26 @@ function WreathIcon() {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      <line x1="60" y1="130" x2="40" y2="155" stroke="#7a6a4f" strokeWidth="2" />
-      <line x1="60" y1="130" x2="80" y2="155" stroke="#7a6a4f" strokeWidth="2" />
-      <line x1="60" y1="80" x2="60" y2="135" stroke="#7a6a4f" strokeWidth="2" />
-      <circle cx="60" cy="52" r="38" stroke="#3d6b3d" strokeWidth="14" fill="none" opacity="0.7" />
-      <circle cx="60" cy="52" r="38" stroke="#5a9a5a" strokeWidth="8" fill="none" opacity="0.5" />
-      <circle cx="60" cy="14" r="3" fill="#e8e0d0" opacity="0.7" />
-      <circle cx="32" cy="28" r="2.5" fill="#f5e6d0" opacity="0.6" />
-      <circle cx="88" cy="28" r="2.5" fill="#f5e6d0" opacity="0.6" />
-      <circle cx="26" cy="55" r="3" fill="#e8e0d0" opacity="0.7" />
-      <circle cx="94" cy="55" r="3" fill="#e8e0d0" opacity="0.7" />
-      <circle cx="35" cy="78" r="2.5" fill="#f5e6d0" opacity="0.6" />
-      <circle cx="85" cy="78" r="2.5" fill="#f5e6d0" opacity="0.6" />
-      <circle cx="60" cy="90" r="3" fill="#e8e0d0" opacity="0.7" />
-      <rect x="38" y="75" width="12" height="50" rx="1" fill="#f5f0e0" stroke="#c5a35f" strokeWidth="0.5" />
-      <text x="44" y="88" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">沉</text>
-      <text x="44" y="97" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">痛</text>
-      <text x="44" y="106" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">悼</text>
-      <text x="44" y="115" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">念</text>
-      <rect x="70" y="75" width="12" height="50" rx="1" fill="#f5f0e0" stroke="#c5a35f" strokeWidth="0.5" />
-      <text x="76" y="88" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">永</text>
-      <text x="76" y="97" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">垂</text>
-      <text x="76" y="106" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">不</text>
-      <text x="76" y="115" fontSize="7" fill="#3a3a3a" textAnchor="middle" fontFamily="serif">朽</text>
+      {/* stand */}
+      <line x1="60" y1="92" x2="40" y2="150" stroke="#8a7a5c" strokeWidth="2.5" />
+      <line x1="60" y1="92" x2="80" y2="150" stroke="#8a7a5c" strokeWidth="2.5" />
+      <line x1="40" y1="150" x2="80" y2="150" stroke="#8a7a5c" strokeWidth="2" />
+      {/* green ring */}
+      <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#4a7c4a" strokeWidth="13" opacity="0.55" />
+      <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#6aa06a" strokeWidth="7" opacity="0.4" />
+      {/* ribbons (挽联 text is shown below the card, so these stay decorative) */}
+      <rect x="47" y="50" width="11" height="62" rx="1" fill="#f7f2e4" stroke="#c5a35f" strokeWidth="0.6" />
+      <rect x="62" y="50" width="11" height="62" rx="1" fill="#f7f2e4" stroke="#c5a35f" strokeWidth="0.6" />
+      <line x1="52.5" y1="58" x2="52.5" y2="106" stroke="#c9b48a" strokeWidth="0.6" opacity="0.5" strokeDasharray="1 4" />
+      <line x1="67.5" y1="58" x2="67.5" y2="106" stroke="#c9b48a" strokeWidth="0.6" opacity="0.5" strokeDasharray="1 4" />
+      {/* chrysanthemum clusters */}
+      {clusters.map((c, i) => (
+        <g key={i}>
+          <circle cx={c.x} cy={c.y} r="6" fill={c.pale ? "#fbfaf3" : "#f3e2a0"} />
+          <circle cx={c.x} cy={c.y} r="5" fill="none" stroke={c.pale ? "#e9e2c8" : "#e0cd82"} strokeWidth="0.8" />
+          <circle cx={c.x} cy={c.y} r="1.8" fill="#d3ac47" />
+        </g>
+      ))}
     </svg>
   );
 }
@@ -146,7 +168,7 @@ function MeritBook(props: {
       className={`meritBookEntry ${tierOf(d.amountMinor)}`}
     >
       <span className="meritBookName">
-        {d.name ? maskName(d.name) : props.t("anonymousDonor")}
+        {d.name ? d.name : props.t("anonymousDonor")}
       </span>
       <span className="meritBookAmount">{formatAmount(d.amountMinor)}</span>
     </div>
@@ -223,76 +245,23 @@ function CenserSvg(props: { count: number }) {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      {/* Ground shadow */}
       <ellipse cx="120" cy="148" rx="72" ry="5" fill="#8b6914" opacity="0.1" />
-      {/* Three legs */}
       <rect x="80" y="130" width="5" height="12" rx="1" fill="#7a6035" />
       <rect x="118" y="130" width="5" height="12" rx="1" fill="#7a6035" />
       <rect x="156" y="130" width="5" height="12" rx="1" fill="#7a6035" />
-      {/* Body */}
-      <path
-        d="M58 88 Q58 130 82 130 L158 130 Q182 130 182 88"
-        fill="#a08040"
-      />
-      <rect
-        x="58"
-        y="88"
-        width="124"
-        height="4"
-        rx="0"
-        fill="rgba(255,255,255,0.08)"
-      />
-      {/* Decorative band */}
-      <rect
-        x="65"
-        y="105"
-        width="110"
-        height="3"
-        rx="1.5"
-        fill="#c5a35f"
-        opacity="0.35"
-      />
-      {/* Rim */}
+      <path d="M58 88 Q58 130 82 130 L158 130 Q182 130 182 88" fill="#a08040" />
+      <rect x="58" y="88" width="124" height="4" rx="0" fill="rgba(255,255,255,0.08)" />
+      <rect x="65" y="105" width="110" height="3" rx="1.5" fill="#c5a35f" opacity="0.35" />
       <ellipse cx="120" cy="88" rx="68" ry="10" fill="#c5a35f" />
       <ellipse cx="120" cy="86" rx="64" ry="8" fill="#b89840" />
-      {/* Ash bed */}
       <ellipse cx="120" cy="86" rx="56" ry="5" fill="#d4c8a0" />
-      {/* Handles */}
-      <circle
-        cx="46"
-        cy="104"
-        r="7"
-        stroke="#c5a35f"
-        strokeWidth="2"
-        fill="none"
-      />
-      <circle
-        cx="194"
-        cy="104"
-        r="7"
-        stroke="#c5a35f"
-        strokeWidth="2"
-        fill="none"
-      />
-      {/* Incense sticks */}
+      <circle cx="46" cy="104" r="7" stroke="#c5a35f" strokeWidth="2" fill="none" />
+      <circle cx="194" cy="104" r="7" stroke="#c5a35f" strokeWidth="2" fill="none" />
       {sticks.map((s, i) => (
         <g key={i}>
-          <line
-            x1={s.x}
-            y1={82}
-            x2={s.x}
-            y2={82 - s.h}
-            stroke="#8b6914"
-            strokeWidth="1.5"
-          />
+          <line x1={s.x} y1={82} x2={s.x} y2={82 - s.h} stroke="#8b6914" strokeWidth="1.5" />
           <circle cx={s.x} cy={82 - s.h} r="2" fill="#e67e22">
-            <animate
-              attributeName="r"
-              values="1.5;2.5;1.5"
-              dur="2s"
-              begin={s.delay}
-              repeatCount="indefinite"
-            />
+            <animate attributeName="r" values="1.5;2.5;1.5" dur="2s" begin={s.delay} repeatCount="indefinite" />
           </circle>
           <path
             d={`M${s.x} ${82 - s.h - 2}c${-2} ${-8} ${1} ${-14} ${-1} ${-20}`}
@@ -301,13 +270,7 @@ function CenserSvg(props: { count: number }) {
             opacity="0.2"
             fill="none"
           >
-            <animate
-              attributeName="opacity"
-              values="0.2;0.06;0.2"
-              dur="3s"
-              begin={s.delay}
-              repeatCount="indefinite"
-            />
+            <animate attributeName="opacity" values="0.2;0.06;0.2" dur="3s" begin={s.delay} repeatCount="indefinite" />
           </path>
         </g>
       ))}
@@ -326,9 +289,7 @@ function CandleGroup(props: {
       {props.candles.map((c, i) => (
         <div key={i} className="altarCandleUnit">
           <CandleIcon />
-          {c.name ? (
-            <span className="altarCandleName">{maskName(c.name)}</span>
-          ) : null}
+          {c.name ? <span className="altarCandleName">{c.name}</span> : null}
         </div>
       ))}
     </div>
@@ -338,11 +299,7 @@ function CandleGroup(props: {
 /* ────────────── Display: 花圈 ────────────── */
 
 function WreathGallery(props: {
-  wreaths: {
-    name: string | null;
-    message: string | null;
-    createdAt: Date;
-  }[];
+  wreaths: { name: string | null; message: string | null; createdAt: Date }[];
   total: number;
 }) {
   if (props.total === 0) return null;
@@ -351,19 +308,17 @@ function WreathGallery(props: {
       {props.wreaths.slice(0, 4).map((w, i) => (
         <div key={i} className="altarWreathCard">
           <WreathIcon />
-          {w.message ? (
-            <p className="altarWreathEulogy">{w.message}</p>
-          ) : null}
-          {w.name ? (
-            <span className="altarWreathGiver">—— {w.name}</span>
-          ) : null}
+          {w.message ? <p className="altarWreathEulogy">{w.message}</p> : null}
+          {w.name ? <span className="altarWreathGiver">—— {w.name}</span> : null}
         </div>
       ))}
     </div>
   );
 }
 
-/* ────────────── Main ────────────── */
+/* ────────────── Offering modal ────────────── */
+
+type OfferKind = "candle" | "wreath" | "donation";
 
 const DONATION_TIERS = [
   { amount: 199, key: "donate199" },
@@ -371,13 +326,24 @@ const DONATION_TIERS = [
   { amount: 1999, key: "donate1999" },
 ] as const;
 
+/* ────────────── Main ────────────── */
+
 export function OfferingsAltar(props: {
   memorialId: string;
   summary: OfferingSummary;
   isLoggedIn: boolean;
 }) {
   const t = useTranslations("offerings");
+  const router = useRouter();
   const { summary } = props;
+
+  const [modal, setModal] = useState<OfferKind | null>(null);
+  const [name, setName] = useState("");
+  const [masked, setMasked] = useState(true);
+  const [message, setMessage] = useState("");
+  const [amountYuan, setAmountYuan] = useState("199");
+  const [pending, setPending] = useState<string | null>(null);
+  const [notice, setNotice] = useState<"ok" | "fail" | null>(null);
 
   const hasAnything =
     summary.incense > 0 ||
@@ -389,13 +355,92 @@ export function OfferingsAltar(props: {
   const leftCandles = summary.recentCandles.slice(0, mid);
   const rightCandles = summary.recentCandles.slice(mid);
 
+  async function post(payload: Record<string, unknown>, tag: string): Promise<boolean> {
+    setPending(tag);
+    setNotice(null);
+    try {
+      const res = await fetch(`/api/memorials/${props.memorialId}/offerings`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        setNotice("fail");
+        return false;
+      }
+      setNotice("ok");
+      router.refresh();
+      return true;
+    } catch {
+      setNotice("fail");
+      return false;
+    } finally {
+      setPending(null);
+    }
+  }
+
+  function openModal(kind: OfferKind, presetAmount?: number): void {
+    setName("");
+    setMasked(true);
+    setMessage(kind === "wreath" ? t("eulogyDefault") : "");
+    if (kind === "donation") setAmountYuan(String(presetAmount ?? 199));
+    setNotice(null);
+    setModal(kind);
+  }
+
+  async function offerIncense(): Promise<void> {
+    await post({ slug: "incense" }, "incense");
+  }
+
+  async function submitModal(event: React.FormEvent): Promise<void> {
+    event.preventDefault();
+    if (!modal || pending) return;
+
+    if (modal === "candle") {
+      const ok = await post(
+        { slug: "candle", name: name.trim() || undefined, masked },
+        "candle",
+      );
+      if (ok) setModal(null);
+      return;
+    }
+    if (modal === "wreath") {
+      const ok = await post(
+        {
+          slug: "wreath",
+          name: name.trim() || undefined,
+          message: message.trim() || undefined,
+        },
+        "wreath",
+      );
+      if (ok) setModal(null);
+      return;
+    }
+    // donation
+    const yuan = Number(amountYuan);
+    if (!Number.isFinite(yuan) || yuan <= 0) {
+      setNotice("fail");
+      return;
+    }
+    const ok = await post(
+      {
+        slug: "donation",
+        name: name.trim() || undefined,
+        message: message.trim() || undefined,
+        masked,
+        amountMinor: Math.round(yuan * 100),
+      },
+      "donation",
+    );
+    if (ok) setModal(null);
+  }
+
   return (
     <section className="altarSection" aria-label={t("altarHeading")}>
       <h2 className="altarHeading">{t("altarHeading")}</h2>
 
       {hasAnything ? (
         <>
-          {/* 功德簿 — most prominent */}
           <MeritBook
             donors={summary.recentDonations}
             total={summary.donation}
@@ -403,13 +448,8 @@ export function OfferingsAltar(props: {
             t={t}
           />
 
-          {/* 花圈 with 挽联 */}
-          <WreathGallery
-            wreaths={summary.recentWreaths}
-            total={summary.wreath}
-          />
+          <WreathGallery wreaths={summary.recentWreaths} total={summary.wreath} />
 
-          {/* 祭坛: candles flanking the censer */}
           {(summary.incense > 0 || summary.candle > 0) && (
             <div className="altarPlatform">
               <CandleGroup candles={leftCandles} />
@@ -425,50 +465,54 @@ export function OfferingsAltar(props: {
             </div>
           )}
         </>
-      ) : (
-        <p className="altarEmpty">{t("noOfferingsYet")}</p>
-      )}
+      ) : null}
 
-      {/* Action buttons */}
+      {notice === "ok" ? (
+        <p className="altarNotice" role="status">
+          {t("offerThanks")}
+        </p>
+      ) : null}
+      {notice === "fail" ? (
+        <p className="altarNoticeFail" role="alert">
+          {t("offerFailed")}
+        </p>
+      ) : null}
+
+      {/* Offering actions */}
       <div className="altarActions">
         <button
           type="button"
           className="altarActionBtn"
-          onClick={() => {
-            /* TODO: offering purchase flow */
-          }}
+          onClick={offerIncense}
+          disabled={pending === "incense"}
         >
           <IncenseIcon />
           <span className="altarActionLabel">{t("offerIncense")}</span>
-          <span className="altarActionPrice">{t("free")}</span>
+          <span className="altarActionDesc">{t("descIncense")}</span>
         </button>
 
         <button
           type="button"
           className="altarActionBtn"
-          onClick={() => {
-            /* TODO: offering purchase flow */
-          }}
+          onClick={() => openModal("candle")}
         >
           <CandleIcon />
           <span className="altarActionLabel">{t("offerCandle")}</span>
-          <span className="altarActionPrice">¥9.9</span>
+          <span className="altarActionDesc">{t("descCandle")}</span>
         </button>
 
         <button
           type="button"
           className="altarActionBtn"
-          onClick={() => {
-            /* TODO: offering purchase flow */
-          }}
+          onClick={() => openModal("wreath")}
         >
           <WreathIcon />
           <span className="altarActionLabel">{t("offerWreath")}</span>
-          <span className="altarActionPrice">¥99</span>
+          <span className="altarActionDesc">{t("descWreath")}</span>
         </button>
       </div>
 
-      {/* Donation tiers */}
+      {/* Donation */}
       <div className="altarDonationTiers">
         <h3 className="altarDonationTitle">{t("donateTitle")}</h3>
         <div className="altarDonationGrid">
@@ -477,17 +521,155 @@ export function OfferingsAltar(props: {
               key={tier.amount}
               type="button"
               className="altarDonationBtn"
-              onClick={() => {
-                /* TODO: donation purchase flow */
-              }}
+              onClick={() => openModal("donation", tier.amount)}
             >
               <span className="altarDonationAmount">¥{tier.amount}</span>
               <span className="altarDonationDesc">{t(tier.key)}</span>
             </button>
           ))}
         </div>
-        <p className="altarFeeNote">{t("feeExplanation")}</p>
+        <button
+          type="button"
+          className="altarDonationCustom"
+          onClick={() => openModal("donation", 0)}
+        >
+          {t("donateCustom")}
+        </button>
+        <p className="altarFeeNote">{t("feeTransfer")}</p>
       </div>
+
+      {/* Modal */}
+      {modal ? (
+        <div
+          className="altarModalOverlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label={t(
+            modal === "candle"
+              ? "modalCandleTitle"
+              : modal === "wreath"
+                ? "modalWreathTitle"
+                : "modalDonateTitle",
+          )}
+          onClick={(e) => {
+            if (e.target === e.currentTarget && !pending) setModal(null);
+          }}
+        >
+          <form className="altarModalCard" onSubmit={submitModal}>
+            <div className="altarModalIcon">
+              {modal === "candle" ? <CandleIcon /> : null}
+              {modal === "wreath" ? <WreathIcon /> : null}
+            </div>
+            <h3 className="altarModalTitle">
+              {modal === "candle"
+                ? t("modalCandleTitle")
+                : modal === "wreath"
+                  ? t("modalWreathTitle")
+                  : t("modalDonateTitle")}
+            </h3>
+
+            {modal === "donation" ? (
+              <label className="altarField">
+                <span className="altarFieldLabel">{t("fieldAmount")}</span>
+                <input
+                  className="altarInput"
+                  type="number"
+                  min="1"
+                  step="1"
+                  inputMode="numeric"
+                  value={amountYuan}
+                  onChange={(e) => setAmountYuan(e.target.value)}
+                  required
+                  autoFocus
+                />
+              </label>
+            ) : null}
+
+            {modal === "wreath" ? (
+              <label className="altarField">
+                <span className="altarFieldLabel">{t("fieldEulogy")}</span>
+                <textarea
+                  className="altarInput"
+                  rows={2}
+                  maxLength={30}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  placeholder={t("eulogyDefault")}
+                  autoFocus
+                />
+                <span className="altarFieldHint">{message.length}/30</span>
+              </label>
+            ) : null}
+
+            <label className="altarField">
+              <span className="altarFieldLabel">
+                {modal === "candle" ? t("fieldNameLabel") : t("fieldNameOptional")}
+              </span>
+              <input
+                className="altarInput"
+                type="text"
+                maxLength={40}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </label>
+
+            {modal === "donation" ? (
+              <label className="altarField">
+                <span className="altarFieldLabel">{t("fieldBlessing")}</span>
+                <textarea
+                  className="altarInput"
+                  rows={2}
+                  maxLength={200}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
+              </label>
+            ) : null}
+
+            {modal !== "wreath" ? (
+              <label className="altarCheck">
+                <input
+                  type="checkbox"
+                  checked={masked}
+                  onChange={(e) => setMasked(e.target.checked)}
+                />
+                <span>{t("maskOption")}</span>
+              </label>
+            ) : null}
+
+            <p className="altarDevNote">{t("devSkipNote")}</p>
+
+            {notice === "fail" ? (
+              <p className="altarNoticeFail" role="alert">
+                {t("offerFailed")}
+              </p>
+            ) : null}
+
+            <div className="altarModalActions">
+              <button
+                type="button"
+                className="button buttonQuiet"
+                onClick={() => setModal(null)}
+                disabled={pending !== null}
+              >
+                {t("cancel")}
+              </button>
+              <button
+                type="submit"
+                className="button buttonPrimary"
+                disabled={pending !== null}
+              >
+                {pending
+                  ? t("lightingUp")
+                  : modal === "donation"
+                    ? t("submitDonate")
+                    : t("submitOffer")}
+              </button>
+            </div>
+          </form>
+        </div>
+      ) : null}
     </section>
   );
 }

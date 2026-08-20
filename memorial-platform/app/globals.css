@@ -2452,14 +2452,21 @@ a.famCard:focus-visible {
   height: 64px;
 }
 
+.altarActionBtn:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
 .altarActionLabel {
   font-size: var(--text-sm);
   font-weight: 600;
 }
 
-.altarActionPrice {
+.altarActionDesc {
   font-size: var(--text-xs);
   color: var(--muted);
+  text-align: center;
+  line-height: 1.4;
 }
 
 /* ── Donation tiers ── */
@@ -2535,12 +2542,220 @@ a.famCard:focus-visible {
   text-align: center;
 }
 
+.altarDonationCustom {
+  align-self: center;
+  background: none;
+  border: none;
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--olive);
+  cursor: pointer;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(85, 116, 100, 0.4);
+}
+
+.altarDonationCustom:hover {
+  color: var(--olive-dark);
+}
+
+.altarDonationCustom:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
 .altarFeeNote {
   margin: 0;
   font-size: var(--text-xs);
   color: var(--muted);
   text-align: center;
   line-height: 1.5;
+}
+
+/* ── Notices ── */
+
+.altarNotice,
+.altarNoticeFail {
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  text-align: center;
+}
+
+.altarNotice {
+  background: rgba(85, 116, 100, 0.1);
+  color: var(--olive-dark);
+  border: 1px solid rgba(85, 116, 100, 0.25);
+}
+
+.altarNoticeFail {
+  background: rgba(183, 137, 130, 0.12);
+  color: #8a5a52;
+  border: 1px solid rgba(183, 137, 130, 0.3);
+}
+
+/* ── Modal ── */
+
+.altarModalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: rgba(37, 48, 39, 0.42);
+  backdrop-filter: blur(2px);
+  animation: altarFade var(--duration-normal) var(--ease-out-expo);
+}
+
+@keyframes altarFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.altarModalCard {
+  width: min(26rem, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-8) var(--space-6) var(--space-6);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
+  animation: altarRise var(--duration-normal) var(--ease-out-expo);
+}
+
+@keyframes altarRise {
+  from { transform: translateY(12px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.altarModalIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.altarModalIcon .altarItemSvg {
+  width: 44px;
+  height: 62px;
+}
+
+.altarModalIcon .altarItemSvgWreath {
+  width: 58px;
+  height: 76px;
+}
+
+.altarModalTitle {
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  letter-spacing: 0.06em;
+}
+
+.altarField {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.altarFieldLabel {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.altarFieldHint {
+  align-self: flex-end;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.altarInput {
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  resize: vertical;
+}
+
+.altarInput:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+  border-color: var(--gold);
+}
+
+.altarCheck {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.altarCheck input {
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--gold);
+}
+
+.altarDevNote {
+  margin: 0;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  text-align: center;
+  font-style: italic;
+}
+
+.altarModalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+/* ── Family donations panel (manage) ── */
+
+.donationsPanelHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.donationsTableWrap {
+  overflow-x: auto;
+}
+
+.donationsTable {
+  width: 100%;
+}
+
+.donationsAmount {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+.donationsDate {
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: var(--text-sm);
 }
 
 /* ── Responsive ── */

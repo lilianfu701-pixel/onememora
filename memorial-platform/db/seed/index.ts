@@ -3,6 +3,7 @@ import { loadEnvFileIfPresent } from "@/lib/load-env-file";
 import { seedPlans } from "./plans";
 import { seedRelationshipTypes } from "./relationship-types";
 import { seedReligions } from "./religions";
+import { seedOfferings } from "./offerings";
 
 // Next.js loads .env.local for the application; a tsx script must do it itself.
 loadEnvFileIfPresent();
@@ -19,6 +20,7 @@ async function main(): Promise<void> {
   const counts = await seedReligions();
   const planCounts = await seedPlans();
   const relCounts = await seedRelationshipTypes();
+  const offeringCounts = await seedOfferings();
 
   process.stdout.write(
     [
@@ -31,6 +33,7 @@ async function main(): Promise<void> {
       `  plans:               ${planCounts.plans}`,
       `  paid plans:          ${planCounts.paidPlans}`,
       `  relationship types:  ${relCounts.relationshipTypes}`,
+      `  offering products:   ${offeringCounts.offeringProducts}`,
       "",
       "No paid plan exists, and nothing in this application creates an order.",
       "",

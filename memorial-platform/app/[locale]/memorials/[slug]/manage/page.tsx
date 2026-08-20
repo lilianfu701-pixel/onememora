@@ -28,6 +28,8 @@ import { FamilyEditor } from "./family-editor";
 import { PrivacyEditor } from "./privacy-editor";
 import { RelativesEditor } from "./relatives-editor";
 import { RecognitionReview } from "./recognition-review";
+import { DonationsPanel } from "./donations-panel";
+import { listDonations } from "@/modules/offerings/donations";
 
 export const dynamic = "force-dynamic";
 
@@ -132,6 +134,12 @@ export default async function ManageMemorialPage(props: {
   // visitors see. Editing continues from the draft when one is ahead.
   const editing = draft ?? published;
 
+  // The family's donation ledger — only someone who may edit the memorial (an
+  // owner or editor) sees who gave and how much.
+  const donations = mayEditStory
+    ? await listDonations(detail.memorialId)
+    : null;
+
   // People asking to be recognised as a relative of this person. Only someone
   // trusted with the family links sees or answers them.
   const roleLabel = (relationship: string): string => {
@@ -217,6 +225,10 @@ export default async function ManageMemorialPage(props: {
             name: other.name ?? "—",
           }))}
         />
+      ) : null}
+
+      {donations ? (
+        <DonationsPanel locale={normalized} ledger={donations} />
       ) : null}
 
       {mayConfigure ? (
