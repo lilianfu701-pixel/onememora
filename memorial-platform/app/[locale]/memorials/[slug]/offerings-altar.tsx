@@ -245,6 +245,11 @@ function CenserSvg(props: { count: number }) {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
+      <defs>
+        <filter id="censerSmoke" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="1.7" />
+        </filter>
+      </defs>
       <ellipse cx="120" cy="148" rx="72" ry="5" fill="#8b6914" opacity="0.1" />
       <rect x="80" y="130" width="5" height="12" rx="1" fill="#7a6035" />
       <rect x="118" y="130" width="5" height="12" rx="1" fill="#7a6035" />
@@ -263,15 +268,43 @@ function CenserSvg(props: { count: number }) {
           <circle cx={s.x} cy={82 - s.h} r="2" fill="#e67e22">
             <animate attributeName="r" values="1.5;2.5;1.5" dur="2s" begin={s.delay} repeatCount="indefinite" />
           </circle>
-          <path
-            d={`M${s.x} ${82 - s.h - 2}c${-2} ${-8} ${1} ${-14} ${-1} ${-20}`}
-            stroke="#9e9e8e"
-            strokeWidth="0.8"
-            opacity="0.2"
-            fill="none"
-          >
-            <animate attributeName="opacity" values="0.2;0.06;0.2" dur="3s" begin={s.delay} repeatCount="indefinite" />
-          </path>
+        </g>
+      ))}
+      {/* Smoke rising gently from the censer — soft, blurred wisps that drift
+          upward, sway a little and fade near the top. */}
+      {[
+        { x: 104, base: 72, begin: "0s", dur: "6.5s" },
+        { x: 121, base: 68, begin: "2.1s", dur: "7.4s" },
+        { x: 138, base: 73, begin: "4.3s", dur: "6.8s" },
+      ].map((w, i) => (
+        <g key={`smoke-${i}`} transform={`translate(${w.x} ${w.base})`}>
+          <g opacity="0">
+            <path
+              d="M0 0 q -6 -11 0 -22 q 6 -11 0 -22 q -5 -9 0 -18"
+              stroke="#cbc6bb"
+              strokeWidth="2.6"
+              strokeLinecap="round"
+              fill="none"
+              filter="url(#censerSmoke)"
+            />
+            <animateTransform
+              attributeName="transform"
+              type="translate"
+              values="0 0; -5 -34; 4 -70"
+              keyTimes="0;0.5;1"
+              dur={w.dur}
+              begin={w.begin}
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="opacity"
+              values="0;0.28;0.2;0"
+              keyTimes="0;0.28;0.7;1"
+              dur={w.dur}
+              begin={w.begin}
+              repeatCount="indefinite"
+            />
+          </g>
         </g>
       ))}
     </svg>
