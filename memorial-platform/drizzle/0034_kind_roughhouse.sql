@@ -1,0 +1,1 @@
+ALTER TABLE "visitor_submissions" ADD COLUMN "contributor_verified" boolean DEFAULT false NOT NULL;

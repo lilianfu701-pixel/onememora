@@ -30,7 +30,10 @@ import { Guestbook } from "./guestbook";
 import { OfferingsAltar } from "./offerings-altar";
 import { LifeChapters } from "./life-chapters";
 import { Contributions } from "./contributions";
-import { listPublicContributions } from "@/modules/memorials/contributions";
+import {
+  contributorStanding,
+  listPublicContributions,
+} from "@/modules/memorials/contributions";
 import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
 import { Share } from "./share";
@@ -264,6 +267,13 @@ export default async function MemorialPage(props: {
     { viewerLoggedIn: viewer.userId !== null, hiddenLabel: t("nameHiddenPlaceholder") },
   );
 
+  // Whether this viewer is a verified friend/relative, so the contribution
+  // form can invite them to post without review.
+  const viewerStanding = await contributorStanding(
+    viewer.userId,
+    detail.memorialId,
+  );
+
   // Whether this viewer has already kept this memorial.
   const viewerBookmarked = viewer.userId
     ? (
@@ -459,6 +469,11 @@ export default async function MemorialPage(props: {
                 chapterKey: chapter.chapterKey,
                 customTitle: chapter.customTitle,
               }))}
+              viewer={{
+                verified: viewerStanding.verified,
+                name: viewerStanding.name,
+                relation: viewerStanding.relation,
+              }}
             />
 
             {familyView ? (

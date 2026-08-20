@@ -3,7 +3,9 @@ import { db } from "@/db/client";
 import {
   auditLogs,
   lifeChapters,
+  memorialMembers,
   memorials,
+  recognitionClaims,
   visitorSubmissions,
 } from "@/db/schema";
 import { err, ok } from "@/lib/result";
@@ -38,11 +40,79 @@ export type PublicContribution = {
   chapterId: string | null;
   chapterKey: string | null;
   chapterCustomTitle: string | null;
+  /** The contributor's identity was confirmed — show the "已认证亲友" badge. */
+  verified: boolean;
   createdAt: Date;
   photos: ContributionPhoto[];
 };
 
 export type PendingContribution = PublicContribution;
+
+/**
+ * The identity standing of a signed-in person for this memorial.
+ *
+ * A confirmed recognition claim is the strong signal: the family has vouched
+ * that this account is the listed relative, so we can name them from the claim
+ * rather than trusting a free-text field. A member is trusted by their role.
+ */
+export type ContributorStanding = {
+  verified: boolean;
+  /** Authoritative name/relationship from a confirmed claim, when present. */
+  name: string | null;
+  relation: string | null;
+};
+
+export async function contributorStanding(
+  userId: string | null,
+  memorialId: string,
+): Promise<ContributorStanding> {
+  if (!userId) return { verified: false, name: null, relation: null };
+
+  const [claim] = await db()
+    .select({
+      name: recognitionClaims.claimedName,
+      relation: recognitionClaims.claimedRelationship,
+    })
+    .from(recognitionClaims)
+    .where(
+      and(
+        eq(recognitionClaims.memorialId, memorialId),
+        eq(recognitionClaims.claimantUserId, userId),
+        eq(recognitionClaims.status, "confirmed"),
+      ),
+    )
+    .orderBy(desc(recognitionClaims.decidedAt))
+    .limit(1);
+
+  if (claim) {
+    return { verified: true, name: claim.name, relation: claim.relation };
+  }
+
+  // The owner and any active member are trusted by their role. We have no
+  // relationship on record for them, so they keep whatever they type.
+  const [owner] = await db()
+    .select({ ownerUserId: memorials.ownerUserId })
+    .from(memorials)
+    .where(eq(memorials.id, memorialId))
+    .limit(1);
+  if (owner?.ownerUserId === userId) {
+    return { verified: true, name: null, relation: null };
+  }
+
+  const [member] = await db()
+    .select({ userId: memorialMembers.userId })
+    .from(memorialMembers)
+    .where(
+      and(
+        eq(memorialMembers.memorialId, memorialId),
+        eq(memorialMembers.userId, userId),
+        isNull(memorialMembers.revokedAt),
+      ),
+    )
+    .limit(1);
+
+  return { verified: Boolean(member), name: null, relation: null };
+}
 
 async function photosByOwner(
   ids: string[],
@@ -86,7 +156,12 @@ export async function submitContribution(
   },
   context: { requestIpHash: string | null },
   correlationId: string,
-): Promise<Result<{ submissionId: string }, ContributionError>> {
+): Promise<
+  Result<
+    { submissionId: string; status: "published" | "pending_review" },
+    ContributionError
+  >
+> {
   const [memorial] = await db()
     .select({ status: memorials.status })
     .from(memorials)
@@ -116,6 +191,15 @@ export async function submitContribution(
       return err("INVALID_CHAPTER");
     }
   }
+
+  // Identity standing decides the trust level: a verified contributor (a
+  // confirmed recognition claim, or a member) is named from the record and
+  // published without review; everyone else is a self-declared name held for
+  // the family to read first.
+  const standing = await contributorStanding(actor.userId, memorialId);
+  const verified = standing.verified;
+  const name = standing.name ?? (input.name?.trim() || null);
+  const relation = standing.relation ?? (input.relation?.trim() || null);
 
   // A guest — no account — is rate-limited by IP so an open door is not an open
   // floodgate. A signed-in contributor is accountable by their account instead.
@@ -147,13 +231,16 @@ export async function submitContribution(
       kind: "story",
       body,
       sourceLocale: input.sourceLocale,
-      status: "pending_review",
+      // A verified contributor is trusted enough to appear at once.
+      status: verified ? "published" : "pending_review",
       audience: "public",
       isContribution: true,
-      contributorName: input.name?.trim() || null,
-      contributorRelation: input.relation?.trim() || null,
+      contributorVerified: verified,
+      contributorName: name,
+      contributorRelation: relation,
       chapterId: input.chapterId ?? null,
       contributorIpHash: actor.userId ? null : context.requestIpHash,
+      ...(verified ? { moderatedAt: new Date() } : {}),
     })
     .returning({ id: visitorSubmissions.id });
 
@@ -166,11 +253,19 @@ export async function submitContribution(
     action: "contribution.created",
     resourceType: "visitor_submission",
     resourceId: row.id,
-    newValue: { memorialId, hasChapter: input.chapterId != null },
+    newValue: {
+      memorialId,
+      hasChapter: input.chapterId != null,
+      verified,
+      autoPublished: verified,
+    },
     correlationId,
   });
 
-  return ok({ submissionId: row.id });
+  return ok({
+    submissionId: row.id,
+    status: verified ? "published" : "pending_review",
+  });
 }
 
 function toPublic(
@@ -182,6 +277,7 @@ function toPublic(
     chapterId: string | null;
     chapterKey: string | null;
     chapterCustomTitle: string | null;
+    verified: boolean;
     createdAt: Date;
   }[],
   photos: Map<string, ContributionPhoto[]>,
@@ -194,6 +290,7 @@ function toPublic(
     chapterId: r.chapterId,
     chapterKey: r.chapterKey,
     chapterCustomTitle: r.chapterCustomTitle,
+    verified: r.verified,
     createdAt: r.createdAt,
     photos: photos.get(r.id) ?? [],
   }));
@@ -207,6 +304,7 @@ const selectShape = {
   chapterId: visitorSubmissions.chapterId,
   chapterKey: lifeChapters.chapterKey,
   chapterCustomTitle: lifeChapters.customTitle,
+  verified: visitorSubmissions.contributorVerified,
   createdAt: visitorSubmissions.createdAt,
 };
 

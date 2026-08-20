@@ -17,21 +17,39 @@ function paragraphs(body: string): string[] {
     .filter((p) => p.length > 0);
 }
 
+type Viewer = {
+  verified: boolean;
+  name: string | null;
+  relation: string | null;
+};
+
 export function Contributions(props: {
   memorialId: string;
   locale: string;
   initial: PublicContribution[];
   chapters: ChapterOption[];
+  viewer: Viewer;
 }) {
   const t = useTranslations("contributions");
   const tc = useTranslations("lifeChapters");
+
+  const verifiedViewer = props.viewer.verified;
 
   const [name, setName] = useState("");
   const [relation, setRelation] = useState("");
   const [body, setBody] = useState("");
   const [chapterId, setChapterId] = useState("");
   const [sending, setSending] = useState(false);
-  const [notice, setNotice] = useState<"ok" | "fail" | "rate" | null>(null);
+  const [notice, setNotice] = useState<
+    "ok" | "published" | "fail" | "rate" | null
+  >(null);
+
+  const viewerLabel = (): string => {
+    const who = props.viewer.name?.trim();
+    const rel = props.viewer.relation?.trim();
+    if (who && rel) return `${who}（${rel}）`;
+    return who || rel || "";
+  };
 
   const chapterTitle = (key: string, custom: string | null): string =>
     custom ?? (tc.has(`titles.${key}`) ? tc(`titles.${key}`) : tc("titles.custom"));
@@ -69,11 +87,13 @@ export function Contributions(props: {
         setNotice("fail");
         return;
       }
+      const published =
+        (await res.json().catch(() => null))?.data?.status === "published";
       setName("");
       setRelation("");
       setBody("");
       setChapterId("");
-      setNotice("ok");
+      setNotice(published ? "published" : "ok");
     } catch {
       setNotice("fail");
     } finally {
@@ -89,13 +109,20 @@ export function Contributions(props: {
         <div className="contributionsList">
           {props.initial.map((c) => (
             <article key={c.id} className="contributionCard">
-              {c.chapterKey ? (
-                <span className="contributionTag">
-                  {t("aboutChapter", {
-                    title: chapterTitle(c.chapterKey, c.chapterCustomTitle),
-                  })}
-                </span>
-              ) : null}
+              <div className="contributionCardTags">
+                {c.verified ? (
+                  <span className="contributionVerified" title={t("verifiedHint")}>
+                    ✓ {t("verifiedBadge")}
+                  </span>
+                ) : null}
+                {c.chapterKey ? (
+                  <span className="contributionTag">
+                    {t("aboutChapter", {
+                      title: chapterTitle(c.chapterKey, c.chapterCustomTitle),
+                    })}
+                  </span>
+                ) : null}
+              </div>
               <div className="contributionBody">
                 {paragraphs(c.body).map((para, i) => (
                   <p key={i}>{para}</p>
@@ -125,7 +152,16 @@ export function Contributions(props: {
 
       <form className="contributionForm card stack" onSubmit={submit}>
         <h3 className="contributionFormTitle">{t("formTitle")}</h3>
-        <p className="muted contributionFormIntro">{t("formIntro")}</p>
+        {verifiedViewer ? (
+          <p className="contributionVerifiedHint">
+            <span className="contributionVerified">✓ {t("verifiedBadge")}</span>{" "}
+            {viewerLabel()
+              ? t("verifiedAs", { who: viewerLabel() })
+              : t("verifiedHint")}
+          </p>
+        ) : (
+          <p className="muted contributionFormIntro">{t("formIntro")}</p>
+        )}
 
         <label className="field">
           <span className="fieldLabel">{t("storyLabel")}</span>
@@ -142,29 +178,33 @@ export function Contributions(props: {
           />
         </label>
 
-        <div className="contributionFormRow">
-          <label className="field">
-            <span className="fieldLabel">{t("nameLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={60}
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </label>
-          <label className="field">
-            <span className="fieldLabel">{t("relationLabel")}</span>
-            <input
-              className="input"
-              type="text"
-              maxLength={40}
-              placeholder={t("relationPlaceholder")}
-              value={relation}
-              onChange={(e) => setRelation(e.target.value)}
-            />
-          </label>
-        </div>
+        {/* A confirmed-claim viewer is named from the record; hide the inputs.
+            A member without a claim still types their own name. */}
+        {verifiedViewer && viewerLabel() ? null : (
+          <div className="contributionFormRow">
+            <label className="field">
+              <span className="fieldLabel">{t("nameLabel")}</span>
+              <input
+                className="input"
+                type="text"
+                maxLength={60}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </label>
+            <label className="field">
+              <span className="fieldLabel">{t("relationLabel")}</span>
+              <input
+                className="input"
+                type="text"
+                maxLength={40}
+                placeholder={t("relationPlaceholder")}
+                value={relation}
+                onChange={(e) => setRelation(e.target.value)}
+              />
+            </label>
+          </div>
+        )}
 
         {props.chapters.length > 0 ? (
           <label className="field">
@@ -197,6 +237,11 @@ export function Contributions(props: {
         {notice === "ok" ? (
           <p className="notice" role="status">
             {t("thanks")}
+          </p>
+        ) : null}
+        {notice === "published" ? (
+          <p className="notice" role="status">
+            {t("thanksPublished")}
           </p>
         ) : null}
         {notice === "rate" ? (

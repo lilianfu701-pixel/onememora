@@ -313,6 +313,16 @@ export const visitorSubmissions = pgTable(
     /** The contributor's chosen display name and relationship to the deceased. */
     contributorName: text("contributor_name"),
     contributorRelation: text("contributor_relation"),
+    /**
+     * The contributor's identity was verified at submission time — they hold a
+     * confirmed recognition claim on this memorial, or are a member of it. A
+     * verified contribution is trusted enough to publish without review and
+     * carries the "已认证亲友" badge. Never set from client input; the server
+     * re-derives it from the recognition and membership records.
+     */
+    contributorVerified: boolean("contributor_verified")
+      .default(false)
+      .notNull(),
     /** A contribution may be tied to one life chapter it enriches. */
     chapterId: uuid("chapter_id").references(() => lifeChapters.id, {
       onDelete: "set null",

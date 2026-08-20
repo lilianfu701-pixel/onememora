@@ -2465,6 +2465,13 @@ a.famCard:focus-visible {
   border-radius: var(--radius-sm);
 }
 
+.contributionCardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+}
+
 .contributionTag {
   align-self: flex-start;
   font-size: var(--text-xs);
@@ -2472,6 +2479,29 @@ a.famCard:focus-visible {
   background: rgba(141, 189, 209, 0.16);
   padding: 0.15rem 0.6rem;
   border-radius: var(--radius-pill);
+}
+
+.contributionVerified {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: #1c7a4f;
+  background: rgba(46, 160, 105, 0.14);
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.contributionVerifiedHint {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: var(--text-sm);
+  color: var(--muted);
 }
 
 .contributionBody {

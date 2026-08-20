@@ -78,7 +78,10 @@ export async function POST(
   }
 
   return jsonSuccess(
-    { submissionId: result.value.submissionId },
+    {
+      submissionId: result.value.submissionId,
+      status: result.value.status,
+    },
     correlationId,
     201,
   );

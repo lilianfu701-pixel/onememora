@@ -239,6 +239,13 @@
       "when": 1787249880817,
       "tag": "0033_narrow_kitty_pryde",
       "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1787259064390,
+      "tag": "0034_kind_roughhouse",
+      "breakpoints": true
     }
   ]
 }
