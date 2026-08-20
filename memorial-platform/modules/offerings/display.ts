@@ -51,10 +51,6 @@ export async function offeringSummary(
       .filter((r) => r.category === cat)
       .reduce((sum, r) => sum + r.n, 0);
 
-  const donationCount = rows
-    .filter((r) => r.slug.startsWith("donation"))
-    .reduce((sum, r) => sum + r.n, 0);
-
   const recentCandles = await db()
     .select({
       name: memorialOfferings.giverDisplayName,
@@ -119,9 +115,12 @@ export async function offeringSummary(
     .orderBy(desc(memorialOfferings.amountMinor))
     .limit(30);
 
+  // Donations never expire from the merit book, so — unlike the offering
+  // counts above — this tally does not filter on expiresAt.
   const donationTotalRow = await db()
     .select({
       total: sql<number>`coalesce(sum(${memorialOfferings.amountMinor}), 0)::int`,
+      count: sql<number>`count(*)::int`,
     })
     .from(memorialOfferings)
     .innerJoin(
@@ -140,7 +139,7 @@ export async function offeringSummary(
     incense: countOf("incense"),
     candle: countOf("candle"),
     wreath: countOf("wreath"),
-    donation: donationCount,
+    donation: donationTotalRow[0]?.count ?? 0,
     donationTotal: donationTotalRow[0]?.total ?? 0,
     recentCandles,
     recentWreaths,
