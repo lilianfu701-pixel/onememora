@@ -44,12 +44,12 @@
 
   --text-xs: 0.75rem;
   --text-sm: 0.8125rem;
-  --text-base: clamp(0.95rem, 0.9rem + 0.2vw, 1.0625rem);
-  --text-lg: clamp(1.05rem, 0.98rem + 0.35vw, 1.25rem);
-  --text-xl: clamp(1.3rem, 1.1rem + 0.9vw, 1.75rem);
-  --text-2xl: clamp(1.7rem, 1.3rem + 1.9vw, 2.75rem);
-  --text-3xl: clamp(2.2rem, 1.4rem + 3.6vw, 4rem);
-  --text-hero: clamp(2.6rem, 1.2rem + 6vw, 6.5rem);
+  --text-base: clamp(0.9rem, 0.87rem + 0.15vw, 1rem);
+  --text-lg: clamp(1rem, 0.95rem + 0.25vw, 1.15rem);
+  --text-xl: clamp(1.2rem, 1.05rem + 0.6vw, 1.45rem);
+  --text-2xl: clamp(1.4rem, 1.2rem + 1vw, 1.85rem);
+  --text-3xl: clamp(1.7rem, 1.4rem + 1.6vw, 2.4rem);
+  --text-hero: clamp(2.4rem, 1.2rem + 5vw, 5rem);
 
   /* Rhythm. Deliberately uneven — a section does not breathe like a field. */
   --space-1: 0.25rem;
@@ -59,7 +59,7 @@
   --space-6: 1.5rem;
   --space-8: 2rem;
   --space-12: 3rem;
-  --space-section: clamp(3.5rem, 2.5rem + 5vw, 8rem);
+  --space-section: clamp(1.75rem, 1.25rem + 2.5vw, 3.5rem);
   --gutter: clamp(1.25rem, 0.5rem + 4vw, 5rem);
 
   --radius-sm: 3px;
@@ -90,7 +90,7 @@ body {
   color: var(--ink);
   font-family: var(--font-body);
   font-size: var(--text-base);
-  line-height: 1.65;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -1416,7 +1416,7 @@ img {
 }
 
 .memorialMain p {
-  line-height: 1.75;
+  line-height: 1.6;
 }
 
 .memorialAside {
@@ -2188,7 +2188,7 @@ a.famCard:focus-visible {
 
 .lifeChapterBody p {
   margin: 0;
-  line-height: 1.75;
+  line-height: 1.6;
   color: var(--ink);
 }
 
@@ -2440,11 +2440,50 @@ a.famCard:focus-visible {
   font-size: var(--text-sm);
 }
 
+.portraitRow {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.portraitFrame {
+  flex: 0 0 auto;
+  width: 8.5rem;
+  aspect-ratio: 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.portraitImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portraitEmpty i {
+  font-size: 2rem;
+  color: var(--line-strong);
+  font-style: normal;
+}
+
+.portraitActions {
+  gap: var(--space-2);
+}
+
 /* ---------- Manage page: grouped card layout ---------- */
 
 .manageLayout {
   max-width: 46rem;
   margin-inline: auto;
+}
+
+.manageName {
+  font-size: var(--text-2xl);
 }
 
 .manageGroup {
@@ -2665,7 +2704,7 @@ a.famCard:focus-visible {
 
 .contributionBody p {
   margin: 0;
-  line-height: 1.7;
+  line-height: 1.6;
   color: var(--ink);
 }
 
@@ -2934,7 +2973,7 @@ a.famCard:focus-visible {
   font-family: var(--font-display);
   font-size: var(--text-base);
   font-style: italic;
-  line-height: 1.7;
+  line-height: 1.6;
   color: var(--ink);
   text-align: center;
   display: -webkit-box;

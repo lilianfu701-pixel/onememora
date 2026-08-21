@@ -12,7 +12,7 @@ import {
 type Edit = { body?: string; title?: string };
 
 const ACCEPTED_TYPES = "image/jpeg,image/png,image/webp";
-const MAX_BYTES = 15 * 1024 * 1024;
+const MAX_BYTES = 10 * 1024 * 1024;
 const POLL_INTERVAL_MS = 900;
 const MAX_POLLS = 8;
 
@@ -31,6 +31,7 @@ export function ChaptersEditor(props: {
   );
   const [addKey, setAddKey] = useState("");
   const [uploadingFor, setUploadingFor] = useState<string | null>(null);
+  const [photoError, setPhotoError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
   const pickerFor = useRef<string | null>(null);
 
@@ -180,8 +181,13 @@ export function ChaptersEditor(props: {
     try {
       const res = await fetch(`/api/media/${mediaId}`);
       if (!res.ok) return;
-      const status = (await res.json())?.data?.status;
-      if (status === "ready" || status === "rejected") {
+      const data = (await res.json())?.data;
+      if (data?.status === "rejected") {
+        setPhotoError(data.rejectionReason ?? "rejected");
+        router.refresh();
+        return;
+      }
+      if (data?.status === "ready") {
         router.refresh();
         return;
       }
@@ -198,6 +204,36 @@ export function ChaptersEditor(props: {
     }
     setUploadingFor(chapterId);
     setNotice(null);
+    setPhotoError(null);
+
+    // Persist any unsaved draft first, so the refresh that follows the upload
+    // can't discard the words the family just typed.
+    const chapter = chapters.find((c) => c.id === chapterId);
+    if (chapter && edits[chapterId]) {
+      const draft = bodyOf(chapter).trim();
+      if (draft.length > 0) {
+        const isCustom = chapter.chapterKey === CUSTOM_CHAPTER_KEY;
+        const saved = await call(
+          `/api/memorials/${props.memorialId}/chapters/${chapterId}`,
+          "PUT",
+          {
+            body: draft,
+            sourceLocale: props.locale,
+            ...(isCustom
+              ? { customTitle: customTitleOf(chapter).trim() }
+              : {}),
+          },
+        );
+        if (saved) {
+          setEdits((e) => {
+            const next = { ...e };
+            delete next[chapterId];
+            return next;
+          });
+        }
+      }
+    }
+
     try {
       const signRes = await fetch("/api/media/sign", {
         method: "POST",
@@ -282,6 +318,11 @@ export function ChaptersEditor(props: {
       {notice === "fail" ? (
         <p className="fieldError" role="alert">
           {t("failed")}
+        </p>
+      ) : null}
+      {photoError ? (
+        <p className="fieldError" role="alert">
+          {t("photoRejected")} ({photoError})
         </p>
       ) : null}
 

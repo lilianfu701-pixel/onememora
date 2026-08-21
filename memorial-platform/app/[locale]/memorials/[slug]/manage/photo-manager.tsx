@@ -22,25 +22,39 @@ type UploadState =
   | { phase: "uploading" }
   | { phase: "completing" }
   | { phase: "processing"; id: string; polls: number }
-  | { phase: "error"; code: string };
+  | { phase: "error"; code: string; reason?: string };
 
-export function PhotoManager(props: {
-  memorialId: string;
-  initial: Photo[];
-}) {
+/**
+ * The one portrait a memorial leads with — the 遗照. There is a single image,
+ * not a gallery; choosing a new one replaces the old. Richer, multi-photo
+ * galleries live inside the life chapters.
+ */
+export function PhotoManager(props: { memorialId: string; initial: Photo[] }) {
   const t = useTranslations("memorial");
   const errors = useTranslations("errors");
   const common = useTranslations("common");
   const router = useRouter();
   const fileRef = useRef<HTMLInputElement>(null);
 
-  const [photos, setPhotos] = useState<Photo[]>(props.initial);
+  // The portrait is the most recent photo; earlier ones are cleared on replace.
+  const [portrait, setPortrait] = useState<Photo | null>(
+    props.initial.length > 0 ? props.initial[props.initial.length - 1]! : null,
+  );
+  const supersededRef = useRef<string[]>([]);
   const [upload, setUpload] = useState<UploadState>({ phase: "idle" });
-  const [deletingId, setDeletingId] = useState<string | null>(null);
 
   function readError(payload: unknown): string {
-    const error = (payload as { error?: { code?: string } })?.error;
-    return error?.code ?? "unexpected";
+    return (
+      (payload as { error?: { code?: string } })?.error?.code ?? "unexpected"
+    );
+  }
+
+  async function deleteAsset(id: string): Promise<void> {
+    try {
+      await fetch(`/api/media/${id}`, { method: "DELETE" });
+    } catch {
+      /* best effort — an orphaned asset is not shown */
+    }
   }
 
   async function pollStatus(id: string, remaining: number): Promise<void> {
@@ -48,39 +62,35 @@ export function PhotoManager(props: {
       setUpload({ phase: "idle" });
       return;
     }
-
     await new Promise((resolve) => setTimeout(resolve, POLL_INTERVAL_MS));
-
     try {
       const response = await fetch(`/api/media/${id}`);
       if (!response.ok) {
         setUpload({ phase: "error", code: "uploadFailed" });
         return;
       }
-
       const body = await response.json();
       const status = body.data?.status;
 
       if (status === "ready") {
-        setPhotos((current) =>
-          current.map((photo) =>
-            photo.id === id
-              ? { ...photo, status: "ready", url: body.data.url }
-              : photo,
-          ),
-        );
+        setPortrait({ id, altText: null, status: "ready", url: body.data.url });
         setUpload({ phase: "idle" });
+        // Now that the new portrait is live, drop the ones it replaced.
+        const old = supersededRef.current;
+        supersededRef.current = [];
+        for (const oldId of old) await deleteAsset(oldId);
         router.refresh();
         return;
       }
-
       if (status === "rejected") {
-        setPhotos((current) => current.filter((photo) => photo.id !== id));
-        setUpload({ phase: "error", code: "imageRejected" });
+        setPortrait(null);
+        setUpload({
+          phase: "error",
+          code: "imageRejected",
+          reason: body.data?.rejectionReason ?? undefined,
+        });
         return;
       }
-
-      // Still processing — keep polling.
       setUpload({ phase: "processing", id, polls: MAX_POLLS - remaining + 1 });
       await pollStatus(id, remaining - 1);
     } catch {
@@ -93,13 +103,11 @@ export function PhotoManager(props: {
       setUpload({ phase: "error", code: "imageTooLarge" });
       return;
     }
-
     if (file.size === 0) {
       setUpload({ phase: "error", code: "imageEmpty" });
       return;
     }
 
-    // 1. Sign
     setUpload({ phase: "signing" });
     try {
       const signResponse = await fetch("/api/media/sign", {
@@ -112,147 +120,118 @@ export function PhotoManager(props: {
           size: file.size,
         }),
       });
-
       if (!signResponse.ok) {
-        const payload = await signResponse.json().catch(() => null);
-        setUpload({ phase: "error", code: readError(payload) });
+        setUpload({
+          phase: "error",
+          code: readError(await signResponse.json().catch(() => null)),
+        });
         return;
       }
-
       const signData = (await signResponse.json()).data;
 
-      // 2. Upload to storage
       setUpload({ phase: "uploading" });
       const putResponse = await fetch(signData.url, {
         method: "PUT",
         headers: signData.headers,
         body: file,
       });
-
       if (!putResponse.ok) {
         setUpload({ phase: "error", code: "uploadFailed" });
         return;
       }
 
-      // 3. Mark complete
       setUpload({ phase: "completing" });
       const completeResponse = await fetch(
         `/api/media/${signData.mediaAssetId}/complete`,
         { method: "POST" },
       );
-
       if (!completeResponse.ok) {
-        const payload = await completeResponse.json().catch(() => null);
-        setUpload({ phase: "error", code: readError(payload) });
+        setUpload({
+          phase: "error",
+          code: readError(await completeResponse.json().catch(() => null)),
+        });
         return;
       }
 
-      // Add an optimistic "scanning" card.
-      const optimisticPhoto: Photo = {
+      // Remember the current portrait so it can be removed once the new one is
+      // ready — never before, so a rejected upload leaves the old one intact.
+      supersededRef.current = portrait ? [portrait.id] : [];
+      setPortrait({
         id: signData.mediaAssetId,
         altText: null,
         status: "scanning",
         url: null,
-      };
-      setPhotos((current) => [...current, optimisticPhoto]);
-
-      // 4. Poll for ready
-      setUpload({
-        phase: "processing",
-        id: signData.mediaAssetId,
-        polls: 0,
       });
+      setUpload({ phase: "processing", id: signData.mediaAssetId, polls: 0 });
       await pollStatus(signData.mediaAssetId, MAX_POLLS);
     } catch {
       setUpload({ phase: "error", code: "uploadFailed" });
     }
   }
 
-  async function handleDelete(id: string): Promise<void> {
-    setDeletingId(id);
-    try {
-      const response = await fetch(`/api/media/${id}`, { method: "DELETE" });
-      if (response.ok) {
-        setPhotos((current) => current.filter((photo) => photo.id !== id));
-        router.refresh();
-      }
-    } catch {
-      // Silently fail — the photo remains in the list for a retry.
-    } finally {
-      setDeletingId(null);
-    }
-  }
-
-  const busy =
-    upload.phase !== "idle" && upload.phase !== "error";
+  const busy = upload.phase !== "idle" && upload.phase !== "error";
+  const ready = portrait?.status === "ready" && portrait.url;
 
   return (
-    <section className="stack measure">
+    <section className="stack measure portraitManager">
       {upload.phase === "error" ? (
         <p className="fieldError" role="alert">
-          {errors.has(upload.code) ? errors(upload.code) : t.has(upload.code) ? t(upload.code) : errors("unexpected")}
+          {errors.has(upload.code)
+            ? errors(upload.code)
+            : t.has(upload.code)
+              ? t(upload.code)
+              : errors("unexpected")}
+          {upload.reason ? ` (${upload.reason})` : ""}
         </p>
       ) : null}
 
-      <div>
-        <input
-          ref={fileRef}
-          type="file"
-          accept={ACCEPTED_TYPES}
-          className="visuallyHidden"
-          onChange={(event) => {
-            const file = event.target.files?.[0];
-            if (file) {
-              handleFile(file);
-            }
-            // Reset so the same file can be re-selected.
-            event.target.value = "";
-          }}
-        />
-        <button
-          type="button"
-          className="button buttonPrimary"
-          disabled={busy}
-          onClick={() => fileRef.current?.click()}
-        >
-          {busy ? common("loading") : t("addPhoto")}
-        </button>
-        <p className="muted photoFormatHint">{t("photosHelp")}</p>
-      </div>
-
-      {photos.length > 0 ? (
-        <div className="photoGrid">
-          {photos.map((photo) => (
-            <div className="photoTile" key={photo.id}>
-              {photo.status === "ready" && photo.url ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  className="photoThumb"
-                  src={photo.url}
-                  alt={photo.altText ?? t("photoAltFallback")}
-                  loading="lazy"
-                />
-              ) : (
-                <div className="photoPlaceholder">
-                  <span className="muted">
-                    {photo.status === "rejected"
-                      ? t("photoRejected")
-                      : t("photoProcessing")}
-                  </span>
-                </div>
-              )}
-              <button
-                type="button"
-                className="button buttonQuiet"
-                disabled={deletingId === photo.id}
-                onClick={() => handleDelete(photo.id)}
-              >
-                {deletingId === photo.id ? common("loading") : t("removePhoto")}
-              </button>
-            </div>
-          ))}
+      <div className="portraitRow">
+        <div className="portraitFrame">
+          {ready ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              className="portraitImage"
+              src={portrait!.url as string}
+              alt={portrait!.altText ?? t("photoAltFallback")}
+            />
+          ) : portrait ? (
+            <span className="muted">{t("photoProcessing")}</span>
+          ) : (
+            <span className="muted portraitEmpty">
+              <i aria-hidden="true">◲</i>
+            </span>
+          )}
         </div>
-      ) : null}
+
+        <div className="portraitActions stack">
+          <input
+            ref={fileRef}
+            type="file"
+            accept={ACCEPTED_TYPES}
+            className="visuallyHidden"
+            onChange={(event) => {
+              const file = event.target.files?.[0];
+              if (file) handleFile(file);
+              event.target.value = "";
+            }}
+          />
+          <div>
+            <button
+              type="button"
+              className="button buttonPrimary buttonCompact"
+              disabled={busy}
+              onClick={() => fileRef.current?.click()}
+            >
+              {busy
+                ? common("loading")
+                : portrait
+                  ? t("replacePortrait")
+                  : t("addPortrait")}
+            </button>
+          </div>
+          <p className="muted photoFormatHint">{t("photosHelp")}</p>
+        </div>
+      </div>
     </section>
   );
 }

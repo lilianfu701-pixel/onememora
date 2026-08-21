@@ -52,6 +52,7 @@ export async function GET(
       status: result.value.status,
       altText: result.value.altText,
       url: result.value.url,
+      rejectionReason: result.value.rejectionReason,
     },
     correlationId,
   );

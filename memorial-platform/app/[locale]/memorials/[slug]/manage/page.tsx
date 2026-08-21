@@ -185,9 +185,8 @@ export default async function ManageMemorialPage(props: {
   return (
     <main id="main" className="container section">
       <div className="manageLayout stack-lg">
-        <header className="stack">
-          <h1>{detail.primaryName}</h1>
-          <p className="muted">{t("manageTitle")}</p>
+        <header>
+          <h1 className="manageName">{detail.primaryName}</h1>
         </header>
 
         {hasReview ? (

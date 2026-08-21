@@ -620,6 +620,8 @@ export type FamilyMediaView = {
   status: string;
   altText: string | null;
   url: string | null;
+  /** Why processing rejected the asset, when status is "rejected". */
+  rejectionReason: string | null;
 };
 
 /**
@@ -636,6 +638,7 @@ export async function familyMediaView(
       readyObjectKey: mediaAssets.readyObjectKey,
       memorialId: mediaAssets.memorialId,
       visibility: memorials.visibility,
+      rejectionReason: mediaAssets.rejectionReason,
     })
     .from(mediaAssets)
     .innerJoin(memorials, eq(memorials.id, mediaAssets.memorialId))
@@ -660,7 +663,12 @@ export async function familyMediaView(
     url = address.kind !== "unavailable" ? address.url : null;
   }
 
-  return ok({ status: row.status, altText: row.altText, url });
+  return ok({
+    status: row.status,
+    altText: row.altText,
+    url,
+    rejectionReason: row.status === "rejected" ? row.rejectionReason : null,
+  });
 }
 
 /**
