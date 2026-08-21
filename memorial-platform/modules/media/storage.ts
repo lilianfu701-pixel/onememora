@@ -357,6 +357,94 @@ export interface ImageProcessor {
 }
 
 /**
+ * Pure-JavaScript image processor.
+ *
+ * Decodes the image to raw pixels and re-encodes it, which is what makes the
+ * output a genuinely new file: EXIF (GPS, device serial, timestamps), JPEG
+ * comments, trailing bytes and anything hidden in an ancillary chunk are gone,
+ * because none of it survives decode→encode. Same guarantee the sharp path
+ * gave, without a native binary — sharp's libvips cannot be relied on in this
+ * deployment, and a photograph that cannot be processed is a photograph the
+ * family loses.
+ *
+ * WebP has no pure-JS encoder here, so a WebP upload is transcoded to JPEG.
+ */
+export class PureJsImageProcessor implements ImageProcessor {
+  private static readonly DIMENSION_FOR: Record<string, number> = {
+    original: 2560,
+    large: 2048,
+    medium: 1024,
+    thumb: 320,
+  };
+
+  /** Nearest-neighbour box scale. Only ever downscales. */
+  private static scale(
+    src: { data: Uint8Array | Buffer; width: number; height: number },
+    max: number,
+  ): { data: Buffer; width: number; height: number } {
+    const { width, height } = src;
+    const factor = Math.min(1, max / Math.max(width, height));
+    const w = Math.max(1, Math.round(width * factor));
+    const h = Math.max(1, Math.round(height * factor));
+
+    if (w === width && h === height) {
+      return { data: Buffer.from(src.data), width, height };
+    }
+
+    const out = Buffer.allocUnsafe(w * h * 4);
+    for (let y = 0; y < h; y += 1) {
+      const sy = Math.min(height - 1, Math.floor((y * height) / h));
+      for (let x = 0; x < w; x += 1) {
+        const sx = Math.min(width - 1, Math.floor((x * width) / w));
+        const from = (sy * width + sx) * 4;
+        const to = (y * w + x) * 4;
+        out[to] = src.data[from] as number;
+        out[to + 1] = src.data[from + 1] as number;
+        out[to + 2] = src.data[from + 2] as number;
+        out[to + 3] = src.data[from + 3] as number;
+      }
+    }
+    return { data: out, width: w, height: h };
+  }
+
+  async stripMetadataAndResize(input: {
+    bytes: Uint8Array;
+    variant: "original" | "thumb" | "medium" | "large";
+  }): Promise<{ bytes: Uint8Array; contentType: string }> {
+    const max = PureJsImageProcessor.DIMENSION_FOR[input.variant] ?? 2560;
+    const buffer = Buffer.from(input.bytes);
+    const isPng =
+      buffer.length > 8 &&
+      buffer[0] === 0x89 &&
+      buffer[1] === 0x50 &&
+      buffer[2] === 0x4e &&
+      buffer[3] === 0x47;
+
+    if (isPng) {
+      const { PNG } = await import("pngjs");
+      const decoded = PNG.sync.read(buffer);
+      const scaled = PureJsImageProcessor.scale(decoded, max);
+      const png = new PNG({ width: scaled.width, height: scaled.height });
+      scaled.data.copy(png.data);
+      const out = PNG.sync.write(png, { deflateLevel: 9 });
+      return { bytes: new Uint8Array(out), contentType: "image/png" };
+    }
+
+    // JPEG, and WebP or anything else the browser accepted — decoded as JPEG
+    // and re-encoded to JPEG. A decode failure throws, which the caller turns
+    // into a rejection, so a file that is not really an image never passes.
+    const jpeg = await import("jpeg-js");
+    const decoded = jpeg.default.decode(buffer, { useTArray: true });
+    const scaled = PureJsImageProcessor.scale(decoded, max);
+    const encoded = jpeg.default.encode(
+      { data: scaled.data, width: scaled.width, height: scaled.height },
+      82,
+    );
+    return { bytes: new Uint8Array(encoded.data), contentType: "image/jpeg" };
+  }
+}
+
+/**
  * Sharp-backed image processor.
  *
  * `.rotate()` bakes the EXIF orientation into the pixels and then drops all
@@ -415,8 +503,57 @@ export class SharpImageProcessor implements ImageProcessor {
 
 let configuredProcessor: ImageProcessor | null = null;
 
+/**
+ * Sharp when its native library is actually usable, pure JavaScript otherwise.
+ *
+ * sharp gives better resampling and keeps WebP as WebP, so it stays first
+ * choice. But its libvips binary is not reliably present in this deployment,
+ * and when it is missing every upload fails — so a working processor takes
+ * priority over the better one. The decision is made per call and cached on
+ * the first success.
+ */
+class FallbackImageProcessor implements ImageProcessor {
+  private chosen: ImageProcessor | null = null;
+
+  async stripMetadataAndResize(input: {
+    bytes: Uint8Array;
+    variant: "original" | "thumb" | "medium" | "large";
+  }): Promise<{ bytes: Uint8Array; contentType: string }> {
+    if (this.chosen) {
+      return this.chosen.stripMetadataAndResize(input);
+    }
+
+    try {
+      const sharpProcessor = new SharpImageProcessor();
+      const result = await sharpProcessor.stripMetadataAndResize(input);
+      this.chosen = sharpProcessor;
+      return result;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      // Only a missing/broken native library justifies the fallback. A genuine
+      // decode failure must still reject, or a corrupt file would slip past.
+      const nativeMissing =
+        message.includes("ERR_DLOPEN_FAILED") ||
+        message.includes("Could not load the \"sharp\" module") ||
+        message.includes("libvips") ||
+        message.includes("Failed to load external module");
+
+      if (!nativeMissing) {
+        throw error;
+      }
+
+      // eslint-disable-next-line no-console
+      console.warn("[media] sharp unavailable, using pure-JS processor:", message);
+      const pure = new PureJsImageProcessor();
+      const result = await pure.stripMetadataAndResize(input);
+      this.chosen = pure;
+      return result;
+    }
+  }
+}
+
 export function mediaImageProcessor(): ImageProcessor {
-  configuredProcessor ??= new SharpImageProcessor();
+  configuredProcessor ??= new FallbackImageProcessor();
   return configuredProcessor;
 }
 
