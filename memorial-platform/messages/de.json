@@ -321,7 +321,13 @@
     "challengePlaceholder": "Name des Verwandten",
     "challengeSubmit": "Anspruch senden",
     "challengeSkip": "Überspringen",
-    "claimKinshipVerified": "Verwandtschaft bestätigt"
+    "claimKinshipVerified": "Verwandtschaft bestätigt",
+    "manageGroupAction": "Erfordert Aufmerksamkeit",
+    "manageGroupContent": "Leben und Inhalt",
+    "manageGroupFamily": "Familie und Stammbaum",
+    "manageGroupOfferings": "Gaben und Aufzeichnungen",
+    "manageGroupSettings": "Datenschutz und Verwaltung",
+    "relativesHeading": "Familienmitglieder"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

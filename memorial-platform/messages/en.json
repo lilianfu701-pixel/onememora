@@ -321,7 +321,13 @@
     "challengePlaceholder": "Relative's name",
     "challengeSubmit": "Submit claim",
     "challengeSkip": "Skip",
-    "claimKinshipVerified": "Kinship verified"
+    "claimKinshipVerified": "Kinship verified",
+    "manageGroupAction": "Needs your attention",
+    "manageGroupContent": "Life and content",
+    "manageGroupFamily": "Family and tree",
+    "manageGroupOfferings": "Offerings and records",
+    "manageGroupSettings": "Privacy and management",
+    "relativesHeading": "Family members"
   },
   "privacy": {
     "title": "Who can see this memorial",

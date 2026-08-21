@@ -2440,6 +2440,61 @@ a.famCard:focus-visible {
   font-size: var(--text-sm);
 }
 
+/* ---------- Manage page: grouped card layout ---------- */
+
+.manageLayout {
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+.manageGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.manageGroupLabel {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--olive);
+}
+
+.manageGroupLabel.isAction {
+  color: var(--rose);
+}
+
+.manageCard {
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: clamp(1.25rem, 1rem + 1.4vw, 1.75rem);
+}
+
+/* Cards already provide the frame and width; let their content fill them and
+   drop any nested card chrome so the manage page reads as one consistent set. */
+.manageCard > .measure,
+.manageCard .measure {
+  max-width: none;
+}
+
+.manageCard > .card {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* The first heading in a card is the card's title — tighten its top margin. */
+.manageCard > section > h2:first-child,
+.manageCard > div > h2:first-child,
+.manageCard > section > .stack:first-child > h2 {
+  margin-top: 0;
+}
+
 /* ---------- Kinship challenge (recognition claim) ---------- */
 
 .claimChallenge {

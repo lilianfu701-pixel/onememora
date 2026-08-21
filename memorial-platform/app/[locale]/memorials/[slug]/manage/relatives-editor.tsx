@@ -314,6 +314,7 @@ export function RelativesEditor(props: {
 
   return (
     <section className="stack measure">
+      <h2>{t("relativesHeading")}</h2>
       {notice.kind === "saved" ? (
         <p className="notice">{t("relativesSaved")}</p>
       ) : null}

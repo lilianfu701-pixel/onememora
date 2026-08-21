@@ -321,7 +321,13 @@
     "challengePlaceholder": "Nama kerabat",
     "challengeSubmit": "Kirim klaim",
     "challengeSkip": "Lewati",
-    "claimKinshipVerified": "Kekerabatan terverifikasi"
+    "claimKinshipVerified": "Kekerabatan terverifikasi",
+    "manageGroupAction": "Perlu perhatian Anda",
+    "manageGroupContent": "Kehidupan dan konten",
+    "manageGroupFamily": "Keluarga dan silsilah",
+    "manageGroupOfferings": "Persembahan dan catatan",
+    "manageGroupSettings": "Privasi dan pengelolaan",
+    "relativesHeading": "Anggota keluarga"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

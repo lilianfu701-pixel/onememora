@@ -321,7 +321,13 @@
     "challengePlaceholder": "Nombre del familiar",
     "challengeSubmit": "Enviar solicitud",
     "challengeSkip": "Omitir",
-    "claimKinshipVerified": "Parentesco verificado"
+    "claimKinshipVerified": "Parentesco verificado",
+    "manageGroupAction": "Requiere tu atención",
+    "manageGroupContent": "Vida y contenido",
+    "manageGroupFamily": "Familia y árbol",
+    "manageGroupOfferings": "Ofrendas y registros",
+    "manageGroupSettings": "Privacidad y gestión",
+    "relativesHeading": "Miembros de la familia"
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

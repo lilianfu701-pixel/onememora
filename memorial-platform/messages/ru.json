@@ -321,7 +321,13 @@
     "challengePlaceholder": "Имя родственника",
     "challengeSubmit": "Отправить заявку",
     "challengeSkip": "Пропустить",
-    "claimKinshipVerified": "Родство подтверждено"
+    "claimKinshipVerified": "Родство подтверждено",
+    "manageGroupAction": "Требует внимания",
+    "manageGroupContent": "Жизнь и содержание",
+    "manageGroupFamily": "Семья и древо",
+    "manageGroupOfferings": "Подношения и записи",
+    "manageGroupSettings": "Конфиденциальность и управление",
+    "relativesHeading": "Члены семьи"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

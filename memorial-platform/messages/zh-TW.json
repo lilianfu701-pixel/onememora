@@ -321,7 +321,13 @@
     "challengePlaceholder": "親屬姓名",
     "challengeSubmit": "提交認領",
     "challengeSkip": "跳過驗證",
-    "claimKinshipVerified": "已通過親屬驗證"
+    "claimKinshipVerified": "已通過親屬驗證",
+    "manageGroupAction": "需要你處理",
+    "manageGroupContent": "生平與內容",
+    "manageGroupFamily": "親友與家譜",
+    "manageGroupOfferings": "打賞與記錄",
+    "manageGroupSettings": "隱私與管理",
+    "relativesHeading": "家庭成員"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",

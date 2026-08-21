@@ -321,7 +321,13 @@
     "challengePlaceholder": "اسم القريب",
     "challengeSubmit": "إرسال المطالبة",
     "challengeSkip": "تخطٍّ",
-    "claimKinshipVerified": "تم التحقق من القرابة"
+    "claimKinshipVerified": "تم التحقق من القرابة",
+    "manageGroupAction": "يتطلب انتباهك",
+    "manageGroupContent": "الحياة والمحتوى",
+    "manageGroupFamily": "العائلة والشجرة",
+    "manageGroupOfferings": "القرابين والسجلات",
+    "manageGroupSettings": "الخصوصية والإدارة",
+    "relativesHeading": "أفراد العائلة"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

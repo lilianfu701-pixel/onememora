@@ -178,94 +178,141 @@ export default async function ManageMemorialPage(props: {
         }))
       : [];
 
+  const hasReview =
+    (mayManageFamily && recognitionClaims.length > 0) ||
+    Boolean(pendingContributions && pendingContributions.length > 0);
+
   return (
-    <main id="main" className="container section stack-lg">
-      <header className="stack measure">
-        <h1>{detail.primaryName}</h1>
-        <p className="muted">{t("manageTitle")}</p>
-      </header>
+    <main id="main" className="container section">
+      <div className="manageLayout stack-lg">
+        <header className="stack">
+          <h1>{detail.primaryName}</h1>
+          <p className="muted">{t("manageTitle")}</p>
+        </header>
 
-      {mayManageFamily && recognitionClaims.length > 0 ? (
-        <RecognitionReview
-          memorialId={detail.memorialId}
-          initial={recognitionClaims}
-        />
-      ) : null}
+        {hasReview ? (
+          <section className="manageGroup">
+            <p className="manageGroupLabel isAction">
+              {t("manageGroupAction")}
+            </p>
+            {mayManageFamily && recognitionClaims.length > 0 ? (
+              <div className="manageCard">
+                <RecognitionReview
+                  memorialId={detail.memorialId}
+                  initial={recognitionClaims}
+                />
+              </div>
+            ) : null}
+            {pendingContributions && pendingContributions.length > 0 ? (
+              <div className="manageCard">
+                <ContributionsReview
+                  memorialId={detail.memorialId}
+                  locale={normalized}
+                  initial={pendingContributions}
+                />
+              </div>
+            ) : null}
+          </section>
+        ) : null}
 
-      {pendingContributions && pendingContributions.length > 0 ? (
-        <ContributionsReview
-          memorialId={detail.memorialId}
-          locale={normalized}
-          initial={pendingContributions}
-        />
-      ) : null}
+        {mayEditStory || mayConfigure ? (
+          <section className="manageGroup">
+            <p className="manageGroupLabel">{t("manageGroupContent")}</p>
+            <div className="manageCard">
+              <ManageForms
+                memorialId={detail.memorialId}
+                locale={normalized}
+                slug={detail.slug}
+                mayEditStory={mayEditStory}
+                mayConfigure={mayConfigure}
+                initialTitle={editing?.title ?? ""}
+                initialBody={editing?.body ?? ""}
+                hasUnpublishedDraft={
+                  draft !== null &&
+                  draft.version !== (published?.version ?? -1)
+                }
+                rituals={rituals
+                  .filter((choice) => choice.name !== null)
+                  .map((choice) => ({
+                    ritualVersionId: choice.ritualVersionId,
+                    name: choice.name as string,
+                    description: choice.description,
+                    enabled: choice.enabled,
+                    allowAnonymous: choice.allowAnonymous,
+                    allowMessage: choice.allowMessage,
+                    moderationMode: choice.moderationMode,
+                  }))}
+              />
+            </div>
+            {chapters ? (
+              <div className="manageCard">
+                <ChaptersEditor
+                  memorialId={detail.memorialId}
+                  locale={normalized}
+                  initial={chapters}
+                />
+              </div>
+            ) : null}
+            {mayEditStory ? (
+              <div className="manageCard">
+                <PhotoManager
+                  memorialId={detail.memorialId}
+                  initial={photos}
+                />
+              </div>
+            ) : null}
+          </section>
+        ) : null}
 
-      {mayEditStory ? (
-        <PhotoManager memorialId={detail.memorialId} initial={photos} />
-      ) : null}
+        {mayEditStory || mayConfigure ? (
+          <section className="manageGroup">
+            <p className="manageGroupLabel">{t("manageGroupFamily")}</p>
+            {mayEditStory ? (
+              <div className="manageCard">
+                <RelativesEditor
+                  memorialId={detail.memorialId}
+                  initial={existingRelatives}
+                />
+              </div>
+            ) : null}
+            {mayConfigure ? (
+              <div className="manageCard">
+                <FamilyEditor
+                  memorialId={detail.memorialId}
+                  locale={locale}
+                  initial={familyLinks}
+                  others={otherMemorials.map((other) => ({
+                    id: other.id,
+                    name: other.name ?? "—",
+                  }))}
+                />
+              </div>
+            ) : null}
+          </section>
+        ) : null}
 
-      {mayEditStory ? (
-        <RelativesEditor
-          memorialId={detail.memorialId}
-          initial={existingRelatives}
-        />
-      ) : null}
+        {donations ? (
+          <section className="manageGroup">
+            <p className="manageGroupLabel">{t("manageGroupOfferings")}</p>
+            <div className="manageCard">
+              <DonationsPanel locale={normalized} ledger={donations} />
+            </div>
+          </section>
+        ) : null}
 
-      <ManageForms
-        memorialId={detail.memorialId}
-        locale={normalized}
-        slug={detail.slug}
-        mayEditStory={mayEditStory}
-        mayConfigure={mayConfigure}
-        initialTitle={editing?.title ?? ""}
-        initialBody={editing?.body ?? ""}
-        hasUnpublishedDraft={
-          draft !== null && draft.version !== (published?.version ?? -1)
-        }
-        rituals={rituals
-          .filter((choice) => choice.name !== null)
-          .map((choice) => ({
-            ritualVersionId: choice.ritualVersionId,
-            name: choice.name as string,
-            description: choice.description,
-            enabled: choice.enabled,
-            allowAnonymous: choice.allowAnonymous,
-            allowMessage: choice.allowMessage,
-            moderationMode: choice.moderationMode,
-          }))}
-      />
-
-      {mayConfigure ? (
-        <FamilyEditor
-          memorialId={detail.memorialId}
-          locale={locale}
-          initial={familyLinks}
-          others={otherMemorials.map((other) => ({
-            id: other.id,
-            name: other.name ?? "—",
-          }))}
-        />
-      ) : null}
-
-      {chapters ? (
-        <ChaptersEditor
-          memorialId={detail.memorialId}
-          locale={normalized}
-          initial={chapters}
-        />
-      ) : null}
-
-      {donations ? (
-        <DonationsPanel locale={normalized} ledger={donations} />
-      ) : null}
-
-      {mayConfigure ? (
-        <PrivacyEditor
-          memorialId={detail.memorialId}
-          initialVisibility={detail.visibility}
-          initialIndexable={detail.searchEngineIndexable}
-        />
-      ) : null}
+        {mayConfigure ? (
+          <section className="manageGroup">
+            <p className="manageGroupLabel">{t("manageGroupSettings")}</p>
+            <div className="manageCard">
+              <PrivacyEditor
+                memorialId={detail.memorialId}
+                initialVisibility={detail.visibility}
+                initialIndexable={detail.searchEngineIndexable}
+              />
+            </div>
+          </section>
+        ) : null}
+      </div>
     </main>
   );
 }

@@ -321,7 +321,13 @@
     "challengePlaceholder": "친척 이름",
     "challengeSubmit": "신청 제출",
     "challengeSkip": "건너뛰기",
-    "claimKinshipVerified": "친족 확인됨"
+    "claimKinshipVerified": "친족 확인됨",
+    "manageGroupAction": "처리가 필요함",
+    "manageGroupContent": "생애와 내용",
+    "manageGroupFamily": "가족과 가계도",
+    "manageGroupOfferings": "공양과 기록",
+    "manageGroupSettings": "개인정보 및 관리",
+    "relativesHeading": "가족 구성원"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

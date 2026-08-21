@@ -321,7 +321,13 @@
     "challengePlaceholder": "亲属姓名",
     "challengeSubmit": "提交认领",
     "challengeSkip": "跳过验证",
-    "claimKinshipVerified": "已通过亲属验证"
+    "claimKinshipVerified": "已通过亲属验证",
+    "manageGroupAction": "需要你处理",
+    "manageGroupContent": "生平与内容",
+    "manageGroupFamily": "亲友与家谱",
+    "manageGroupOfferings": "打赏与记录",
+    "manageGroupSettings": "隐私与管理",
+    "relativesHeading": "家庭成员"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

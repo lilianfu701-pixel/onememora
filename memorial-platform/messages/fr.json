@@ -321,7 +321,13 @@
     "challengePlaceholder": "Nom du proche",
     "challengeSubmit": "Envoyer la demande",
     "challengeSkip": "Passer",
-    "claimKinshipVerified": "Lien de parenté vérifié"
+    "claimKinshipVerified": "Lien de parenté vérifié",
+    "manageGroupAction": "À traiter",
+    "manageGroupContent": "Vie et contenu",
+    "manageGroupFamily": "Famille et arbre",
+    "manageGroupOfferings": "Offrandes et registres",
+    "manageGroupSettings": "Confidentialité et gestion",
+    "relativesHeading": "Membres de la famille"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

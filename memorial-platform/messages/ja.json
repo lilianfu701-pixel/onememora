@@ -321,7 +321,13 @@
     "challengePlaceholder": "親族の名前",
     "challengeSubmit": "申請する",
     "challengeSkip": "スキップ",
-    "claimKinshipVerified": "親族確認済み"
+    "claimKinshipVerified": "親族確認済み",
+    "manageGroupAction": "対応が必要",
+    "manageGroupContent": "生涯と内容",
+    "manageGroupFamily": "家族と家系図",
+    "manageGroupOfferings": "供養と記録",
+    "manageGroupSettings": "プライバシーと管理",
+    "relativesHeading": "家族"
   },
   "privacy": {
     "title": "このページを見られる範囲",
