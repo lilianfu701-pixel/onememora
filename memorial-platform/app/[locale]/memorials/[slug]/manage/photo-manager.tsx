@@ -12,7 +12,7 @@ type Photo = {
 };
 
 const ACCEPTED_TYPES = "image/jpeg,image/png,image/webp";
-const MAX_BYTES = 15 * 1024 * 1024;
+const MAX_BYTES = 10 * 1024 * 1024;
 const POLL_INTERVAL_MS = 900;
 const MAX_POLLS = 8;
 
@@ -188,9 +188,6 @@ export function PhotoManager(props: {
 
   return (
     <section className="stack measure">
-      <h2>{t("photosHeading")}</h2>
-      <p className="muted">{t("photosHelp")}</p>
-
       {upload.phase === "error" ? (
         <p className="fieldError" role="alert">
           {errors.has(upload.code) ? errors(upload.code) : t.has(upload.code) ? t(upload.code) : errors("unexpected")}
@@ -220,11 +217,10 @@ export function PhotoManager(props: {
         >
           {busy ? common("loading") : t("addPhoto")}
         </button>
+        <p className="muted photoFormatHint">{t("photosHelp")}</p>
       </div>
 
-      {photos.length === 0 ? (
-        <p className="muted">{t("photosNone")}</p>
-      ) : (
+      {photos.length > 0 ? (
         <div className="photoGrid">
           {photos.map((photo) => (
             <div className="photoTile" key={photo.id}>
@@ -256,7 +252,7 @@ export function PhotoManager(props: {
             </div>
           ))}
         </div>
-      )}
+      ) : null}
     </section>
   );
 }

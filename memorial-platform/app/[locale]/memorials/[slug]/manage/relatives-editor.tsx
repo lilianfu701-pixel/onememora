@@ -314,11 +314,6 @@ export function RelativesEditor(props: {
 
   return (
     <section className="stack measure">
-      <h2>{t("relativesLabel")}</h2>
-      <p className="muted" style={{ fontSize: "var(--text-sm)" }}>
-        {t("relativesHelp")}
-      </p>
-
       {notice.kind === "saved" ? (
         <p className="notice">{t("relativesSaved")}</p>
       ) : null}

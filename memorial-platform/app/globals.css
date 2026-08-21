@@ -2435,6 +2435,11 @@ a.famCard:focus-visible {
   flex: 1 1 18rem;
 }
 
+.photoFormatHint {
+  margin: 0.5rem 0 0;
+  font-size: var(--text-sm);
+}
+
 /* ---------- Kinship challenge (recognition claim) ---------- */
 
 .claimChallenge {

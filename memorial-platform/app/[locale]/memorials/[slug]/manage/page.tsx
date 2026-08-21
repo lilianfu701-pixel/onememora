@@ -1,6 +1,5 @@
 import { and, asc, desc, eq, isNull, ne } from "drizzle-orm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { db } from "@/db/client";
@@ -182,16 +181,8 @@ export default async function ManageMemorialPage(props: {
   return (
     <main id="main" className="container section stack-lg">
       <header className="stack measure">
-        <p className="eyebrow">{detail.primaryName}</p>
-        <h1>{t("manageTitle")}</h1>
-        <p>
-          <Link
-            className="button buttonQuiet buttonCompact"
-            href={`/${locale}/memorials/${detail.slug}`}
-          >
-            {t("enterMemorial")} →
-          </Link>
-        </p>
+        <h1>{detail.primaryName}</h1>
+        <p className="muted">{t("manageTitle")}</p>
       </header>
 
       {mayManageFamily && recognitionClaims.length > 0 ? (
