@@ -266,8 +266,17 @@ export async function processUploadedAsset(
       });
       readyBytes = processed.bytes;
       readyContentType = processed.contentType;
-    } catch {
-      await reject(assetId, "PROCESSING_FAILED", correlationId);
+    } catch (error) {
+      // Surface the actual sharp/libvips message so the family sees WHY, and
+      // it lands in the platform logs for triage. The reason is capped and
+      // stripped of stack; the mode-string is the useful signal ("Input
+      // buffer contains unsupported image format", "premature end of JPEG",
+      // "linked library not loaded", etc).
+      const reason = error instanceof Error ? error.message : String(error);
+      const short = ("PROCESSING_FAILED: " + reason).slice(0, 240);
+      // eslint-disable-next-line no-console
+      console.error("[media.process] sharp threw:", reason);
+      await reject(assetId, short, correlationId);
       await storage.deleteObject(asset.quarantineObjectKey);
       return err("PROCESSING_FAILED");
     }
