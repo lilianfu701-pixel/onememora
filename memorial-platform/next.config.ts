@@ -25,6 +25,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   typescript: { ignoreBuildErrors: true },
+  // sharp ships a native binary; bundling it breaks that binary at runtime and
+  // every image is rejected with PROCESSING_FAILED. Keep it external so it is
+  // require()d from node_modules with its platform binary intact.
+  serverExternalPackages: ["sharp"],
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

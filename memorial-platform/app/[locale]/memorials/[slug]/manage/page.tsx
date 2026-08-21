@@ -189,6 +189,12 @@ export default async function ManageMemorialPage(props: {
           <h1 className="manageName">{detail.primaryName}</h1>
         </header>
 
+        {mayEditStory ? (
+          <div className="manageCard">
+            <PhotoManager memorialId={detail.memorialId} initial={photos} />
+          </div>
+        ) : null}
+
         {hasReview ? (
           <section className="manageGroup">
             <p className="manageGroupLabel isAction">
@@ -249,14 +255,6 @@ export default async function ManageMemorialPage(props: {
                   memorialId={detail.memorialId}
                   locale={normalized}
                   initial={chapters}
-                />
-              </div>
-            ) : null}
-            {mayEditStory ? (
-              <div className="manageCard">
-                <PhotoManager
-                  memorialId={detail.memorialId}
-                  initial={photos}
                 />
               </div>
             ) : null}

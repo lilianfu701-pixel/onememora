@@ -2478,7 +2478,6 @@ a.famCard:focus-visible {
 /* ---------- Manage page: grouped card layout ---------- */
 
 .manageLayout {
-  max-width: 46rem;
   margin-inline: auto;
 }
 
