@@ -128,7 +128,7 @@
     "photoAltFallback": "صورة",
     "photoAltOf": "صورة {name}",
     "unsupportedImage": "لا يمكن إضافة هذا النوع من الملفات. يُقبل JPEG وPNG وWebP.",
-    "imageTooLarge": "تتجاوز هذه الصورة 15 ميغابايت.",
+    "imageTooLarge": "تتجاوز هذه الصورة 10 ميغابايت.",
     "imageEmpty": "يبدو أن الملف فارغ.",
     "uploadFailed": "تعذّر رفع الصورة. يرجى المحاولة مرة أخرى.",
     "imageRejected": "تعذّر معالجة هذه الصورة.",

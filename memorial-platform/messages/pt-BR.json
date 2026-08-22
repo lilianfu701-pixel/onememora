@@ -128,7 +128,7 @@
     "photoAltFallback": "Fotografia",
     "photoAltOf": "Fotografia de {name}",
     "unsupportedImage": "Esse tipo de arquivo não pode ser adicionado. São aceitas fotografias JPEG, PNG e WebP.",
-    "imageTooLarge": "Essa fotografia excede 15 MB.",
+    "imageTooLarge": "Essa fotografia excede 10 MB.",
     "imageEmpty": "O arquivo parece estar vazio.",
     "uploadFailed": "Não foi possível enviar a fotografia. Tente novamente.",
     "imageRejected": "Essa fotografia não pôde ser processada.",

@@ -13,11 +13,13 @@ import type { ChartPerson } from "./family-chart";
  * spouses, each spouse's children hanging beneath the line that joins them.
  */
 
-export const CARD_W = 132;
-export const CARD_H = 82;
-const COUPLE_GAP = 22; // room for the marriage line between two cards
-const SIB_GAP = 30; // room between sibling subtrees, so couples don't crowd
-const GEN_GAP = 48; // vertical room between generations (couple row → children)
+// Cards stack a portrait over the name, so they are narrow and tall. Gaps are
+// kept tight: a chart that runs off the page is harder to read than a dense one.
+export const CARD_W = 108;
+export const CARD_H = 104;
+const COUPLE_GAP = 8; // spouses sit side by side, joined by a short line
+const SIB_GAP = 16; // room between sibling subtrees
+const GEN_GAP = 40; // vertical room between generations (couple row → children)
 
 export type LaidCard = ChartPerson & {
   x: number;

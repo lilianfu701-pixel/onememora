@@ -128,7 +128,7 @@
     "photoAltFallback": "사진",
     "photoAltOf": "{name}의 사진",
     "unsupportedImage": "이 파일 형식은 추가할 수 없습니다. JPEG, PNG, WebP 사진만 지원됩니다.",
-    "imageTooLarge": "이 사진은 15MB를 초과합니다.",
+    "imageTooLarge": "이 사진은 10 MB를 초과합니다.",
     "imageEmpty": "파일이 비어 있는 것 같습니다.",
     "uploadFailed": "사진을 업로드할 수 없습니다. 다시 시도해 주세요.",
     "imageRejected": "이 사진을 처리할 수 없습니다.",

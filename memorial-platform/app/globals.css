@@ -1733,94 +1733,95 @@ img {
 }
 
 .famSeg {
-  stroke: var(--ink);
-  stroke-width: 1.75;
+  stroke: var(--line-strong);
+  stroke-width: 1.5;
   fill: none;
 }
 
+/* One line style only — an ended marriage is stated in the card, not drawn
+   as a different kind of line. */
 .famSegDashed {
-  stroke: var(--muted);
-  stroke-dasharray: 5 4;
+  stroke: var(--line-strong);
 }
 
 .famCard {
   position: absolute;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-2) var(--space-3);
-  border: 1.5px solid var(--line-strong);
+  gap: 4px;
+  padding: var(--space-2);
+  border: 1px solid var(--line);
   border-radius: var(--radius-md);
   background: var(--paper-raised);
   text-decoration: none;
   color: var(--ink);
   overflow: hidden;
+  text-align: center;
 }
 
 a.famCard:hover,
 a.famCard:focus-visible {
-  border-color: var(--gold);
-  box-shadow: 0 0 0 2px color-mix(in oklab, var(--gold) 35%, transparent);
+  border-color: var(--olive);
 }
 
-/* The person a page is about — prominently highlighted. */
+/* Three states, and only three: this memorial's person, someone living,
+   someone who has died. */
 .famCardRoot {
-  border-color: var(--gold);
-  border-width: 3px;
-  background: color-mix(in oklab, var(--gold) 18%, var(--paper-raised));
-  box-shadow:
-    0 0 0 3px color-mix(in oklab, var(--gold) 25%, transparent),
-    0 2px 8px rgba(197, 163, 95, 0.25);
+  border-color: var(--olive-dark);
+  border-width: 2px;
+  background: color-mix(in oklab, var(--gold) 14%, var(--paper-raised));
 }
 
-.famCardRoot .famCardName {
-  font-size: var(--text-lg);
+.famCardLiving {
+  background: color-mix(in oklab, var(--sky) 14%, var(--paper-raised));
 }
 
-/* A mourning frame: someone who has died — a heavy black border. */
 .famCardDeceased {
-  border-style: solid;
-  border-color: #15120c;
-  border-width: 3px;
+  background: color-mix(in oklab, var(--rose) 16%, var(--paper-raised));
 }
 
-.famCardStatus {
-  font-size: var(--text-xs);
-  color: var(--muted);
-}
-
-.famCardDeceased .famCardStatus {
-  color: var(--ink);
-  font-weight: 600;
-}
-
-/* Married-in, not blood: a dashed edge marks the join by marriage. */
-.famCardMarriedIn {
-  border-style: dashed;
+.famAvatar {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
   background: var(--paper);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--muted);
+  overflow: hidden;
 }
 
 .famCardText {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
   min-width: 0;
-  text-align: start;
-}
-
-.famCardRelation {
-  font-size: var(--text-sm);
-  font-weight: 700;
-  color: var(--gold);
-  letter-spacing: 0.02em;
-  line-height: 1.1;
+  width: 100%;
+  text-align: center;
 }
 
 .famCardName {
-  font-size: var(--text-base);
-  font-weight: 700;
+  font-size: var(--text-sm);
+  font-weight: 600;
   line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* The relationship is written in the card, so no legend is needed. */
+.famCardRelation {
+  font-size: var(--text-xs);
+  color: var(--olive-dark);
+  line-height: 1.1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1832,31 +1833,10 @@ a.famCard:focus-visible {
   line-height: 1.1;
 }
 
-/* Sex marker: square male, circle female, diamond unknown — the standard. */
-.famSex {
-  flex: none;
-  width: 11px;
-  height: 11px;
-  background: var(--muted);
-}
-.famSex-male {
-  border-radius: 2px;
-  background: oklch(55% 0.11 250);
-}
-.famSex-female {
-  border-radius: 50%;
-  background: oklch(62% 0.14 10);
-}
-.famSex-unknown {
-  transform: rotate(45deg);
-  background: var(--muted);
-}
-
 .famCardWithheld {
   justify-content: center;
   color: var(--muted);
   letter-spacing: 0.15em;
-  border-style: dashed;
 }
 
 /* ---------- Guestbook (visitor messages) ---------- */

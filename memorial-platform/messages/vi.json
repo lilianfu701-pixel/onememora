@@ -128,7 +128,7 @@
     "photoAltFallback": "Ảnh",
     "photoAltOf": "Ảnh của {name}",
     "unsupportedImage": "Loại tệp này không thể thêm. Chỉ chấp nhận ảnh JPEG, PNG và WebP.",
-    "imageTooLarge": "Ảnh này vượt quá 15 MB.",
+    "imageTooLarge": "Ảnh này vượt quá 10 MB.",
     "imageEmpty": "Tệp này có vẻ như trống.",
     "uploadFailed": "Không thể tải ảnh lên. Vui lòng thử lại.",
     "imageRejected": "Không thể xử lý ảnh này.",

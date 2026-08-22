@@ -128,7 +128,7 @@
     "photoAltFallback": "Foto",
     "photoAltOf": "Foto {name}",
     "unsupportedImage": "Jenis file ini tidak bisa ditambahkan. Yang diterima adalah foto JPEG, PNG dan WebP.",
-    "imageTooLarge": "Foto ini melebihi 15 MB.",
+    "imageTooLarge": "Foto ini melebihi 10 MB.",
     "imageEmpty": "File ini tampaknya kosong.",
     "uploadFailed": "Foto tidak bisa diunggah. Silakan coba lagi.",
     "imageRejected": "Foto ini tidak bisa diproses.",

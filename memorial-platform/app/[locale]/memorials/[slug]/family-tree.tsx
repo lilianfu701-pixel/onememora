@@ -104,30 +104,32 @@ function Card(props: {
         ? kinshipLabel(kin, props.locale)
         : null;
 
-  const status =
-    card.isRoot || !card.lifeKnown
-      ? null
-      : card.deceased
-        ? props.statusDeceased
-        : props.statusLiving;
-
+  // Three states only: this memorial's person, someone living, someone who
+  // has died. Everything else the chart used to encode (sex, married-in) is
+  // noise here.
   const className = [
     "famCard",
-    card.isRoot ? "famCardRoot" : "",
-    card.spouse ? "famCardMarriedIn" : "",
-    card.deceased && !card.isRoot ? "famCardDeceased" : "",
-  ]
-    .filter(Boolean)
-    .join(" ");
+    card.isRoot
+      ? "famCardRoot"
+      : card.deceased
+        ? "famCardDeceased"
+        : "famCardLiving",
+  ].join(" ");
+
+  const initial = card.name.trim().slice(0, 1) || "·";
+  // The subject of the memorial needs no relationship label — it is the person
+  // every other label is relative to.
+  const label = card.isRoot ? null : relation;
 
   const body = (
     <>
-      <span className={`famSex famSex-${card.gender}`} aria-hidden="true" />
+      <span className="famAvatar" aria-hidden="true">
+        {initial}
+      </span>
       <span className="famCardText">
-        {relation ? <span className="famCardRelation">{relation}</span> : null}
         <span className="famCardName">{card.name}</span>
+        {label ? <span className="famCardRelation">{label}</span> : null}
         {card.years ? <span className="famCardYears">{card.years}</span> : null}
-        {status ? <span className="famCardStatus">{status}</span> : null}
       </span>
     </>
   );
