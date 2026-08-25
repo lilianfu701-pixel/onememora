@@ -23,6 +23,8 @@ export function FamilyTree(props: {
   kinship: Map<string, Kinship>;
   statusLiving: string;
   statusDeceased: string;
+  /** Portrait URL per memorial slug, so a relative shows their own face. */
+  portraits?: Map<string, string>;
 }) {
   if (props.tree.nodes.length <= 1) return null;
   const forest = buildFamilyChart(props.tree);
@@ -63,6 +65,11 @@ export function FamilyTree(props: {
               kinship={props.kinship}
               statusLiving={props.statusLiving}
               statusDeceased={props.statusDeceased}
+              portrait={
+                card.memorialSlug
+                  ? (props.portraits?.get(card.memorialSlug) ?? null)
+                  : null
+              }
               key={`${card.ref}-${card.spouse ? "s" : "a"}`}
             />
           ))}
@@ -78,6 +85,7 @@ function Card(props: {
   kinship: Map<string, Kinship>;
   statusLiving: string;
   statusDeceased: string;
+  portrait: string | null;
 }) {
   const { card } = props;
   const style = {
@@ -123,9 +131,19 @@ function Card(props: {
 
   const body = (
     <>
-      <span className="famAvatar" aria-hidden="true">
-        {initial}
-      </span>
+      {props.portrait ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          className="famAvatar famAvatarPhoto"
+          src={props.portrait}
+          alt=""
+          loading="lazy"
+        />
+      ) : (
+        <span className="famAvatar" aria-hidden="true">
+          {initial}
+        </span>
+      )}
       <span className="famCardText">
         <span className="famCardName">{card.name}</span>
         {label ? <span className="famCardRelation">{label}</span> : null}

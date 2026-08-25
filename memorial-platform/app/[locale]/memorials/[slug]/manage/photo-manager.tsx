@@ -40,6 +40,10 @@ export function PhotoManager(props: { memorialId: string; initial: Photo[] }) {
   const [portrait, setPortrait] = useState<Photo | null>(
     props.initial.length > 0 ? props.initial[props.initial.length - 1]! : null,
   );
+  // Photographs uploaded before the portrait became a single slot. They are
+  // still on the public page, so the family needs a way to remove them.
+  const [older, setOlder] = useState<Photo[]>(props.initial.slice(0, -1));
+  const [removing, setRemoving] = useState<string | null>(null);
   const supersededRef = useRef<string[]>([]);
   const [upload, setUpload] = useState<UploadState>({ phase: "idle" });
 
@@ -232,6 +236,47 @@ export function PhotoManager(props: { memorialId: string; initial: Photo[] }) {
           <p className="muted photoFormatHint">{t("photosHelp")}</p>
         </div>
       </div>
+
+      {older.length > 0 ? (
+        <div className="stack olderPhotos">
+          <p className="muted photoFormatHint">{t("olderPhotosHelp")}</p>
+          <div className="olderPhotoGrid">
+            {older.map((photo) => (
+              <div className="olderPhotoTile" key={photo.id}>
+                {photo.url ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    className="olderPhotoThumb"
+                    src={photo.url}
+                    alt={photo.altText ?? t("photoAltFallback")}
+                    loading="lazy"
+                  />
+                ) : (
+                  <span className="olderPhotoThumb muted">
+                    {t("photoProcessing")}
+                  </span>
+                )}
+                <button
+                  type="button"
+                  className="button buttonQuiet buttonCompact"
+                  disabled={removing === photo.id}
+                  onClick={async () => {
+                    setRemoving(photo.id);
+                    await deleteAsset(photo.id);
+                    setOlder((c) => c.filter((p) => p.id !== photo.id));
+                    setRemoving(null);
+                    router.refresh();
+                  }}
+                >
+                  {removing === photo.id
+                    ? common("loading")
+                    : t("removePhoto")}
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }

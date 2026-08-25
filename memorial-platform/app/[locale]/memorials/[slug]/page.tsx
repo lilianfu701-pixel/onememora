@@ -19,7 +19,7 @@ import {
   publishedBiography,
 } from "@/modules/memorials/content-service";
 import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
-import { memorialGallery } from "@/modules/media/service";
+import { memorialGallery, portraitsBySlug } from "@/modules/media/service";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
@@ -267,6 +267,16 @@ export default async function MemorialPage(props: {
     { viewerLoggedIn: viewer.userId !== null, hiddenLabel: t("nameHiddenPlaceholder") },
   );
 
+  // Portraits for relatives who have their own memorial, so the family chart
+  // shows faces rather than initials.
+  const treePortraits = familyView
+    ? await portraitsBySlug(
+        familyView.tree.nodes
+          .map((node) => ("memorialSlug" in node ? node.memorialSlug : null))
+          .filter((slug): slug is string => Boolean(slug)),
+      )
+    : new Map<string, string>();
+
   // Whether this viewer is a verified friend/relative, so the contribution
   // form can invite them to post without review.
   const viewerStanding = await contributorStanding(
@@ -484,6 +494,7 @@ export default async function MemorialPage(props: {
                 kinship={familyView.kinship}
                 statusLiving={t("statusLiving")}
                 statusDeceased={t("statusDeceased")}
+                portraits={treePortraits}
               />
             ) : null}
 

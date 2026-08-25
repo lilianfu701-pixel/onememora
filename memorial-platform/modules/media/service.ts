@@ -553,6 +553,51 @@ export async function manageableMedia(
   return photos;
 }
 
+/**
+ * The portrait for each of several memorials, keyed by slug.
+ *
+ * A memorial's portrait is its most recent ready photograph — the same one the
+ * manage page shows as the 遗像. Used by the family chart so a relative who has
+ * their own memorial appears as their portrait rather than an initial.
+ */
+export async function portraitsBySlug(
+  slugs: readonly string[],
+): Promise<Map<string, string>> {
+  const found = new Map<string, string>();
+  if (slugs.length === 0) return found;
+
+  const rows = await db()
+    .select({
+      slug: memorials.slug,
+      status: mediaAssets.status,
+      readyObjectKey: mediaAssets.readyObjectKey,
+      visibility: memorials.visibility,
+      createdAt: mediaAssets.createdAt,
+    })
+    .from(mediaAssets)
+    .innerJoin(memorials, eq(memorials.id, mediaAssets.memorialId))
+    .where(
+      and(
+        inArray(memorials.slug, [...slugs]),
+        eq(mediaAssets.kind, "image"),
+        eq(mediaAssets.status, "ready"),
+        isNull(mediaAssets.deletedAt),
+      ),
+    )
+    .orderBy(asc(mediaAssets.createdAt));
+
+  const storage = mediaStorage();
+  // Ordered oldest first, so the last write per slug is the newest photo.
+  for (const row of rows) {
+    const address = await addressForRow(storage, row);
+    if (address.kind !== "unavailable") {
+      found.set(row.slug, address.url);
+    }
+  }
+
+  return found;
+}
+
 export type OwnerPhoto = {
   ownerId: string;
   mediaId: string;

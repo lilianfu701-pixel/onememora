@@ -1799,6 +1799,11 @@ a.famCard:focus-visible {
   overflow: hidden;
 }
 
+.famAvatarPhoto {
+  padding: 0;
+  object-fit: cover;
+}
+
 .famCardText {
   display: flex;
   flex-direction: column;
@@ -2453,6 +2458,39 @@ a.famCard:focus-visible {
 
 .portraitActions {
   gap: var(--space-2);
+}
+
+.olderPhotos {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--line);
+  gap: var(--space-2);
+}
+
+.olderPhotoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+  gap: var(--space-3);
+}
+
+.olderPhotoTile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  align-items: stretch;
+}
+
+.olderPhotoThumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+  font-size: var(--text-xs);
 }
 
 /* ---------- Manage page: grouped card layout ---------- */
