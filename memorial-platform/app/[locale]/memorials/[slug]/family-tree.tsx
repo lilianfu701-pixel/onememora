@@ -25,6 +25,8 @@ export function FamilyTree(props: {
   statusDeceased: string;
   /** Portrait URL per memorial slug, so a relative shows their own face. */
   portraits?: Map<string, string>;
+  /** Avatar URL per listed relative name, for people who claimed their place. */
+  avatarsByName?: Map<string, string>;
 }) {
   if (props.tree.nodes.length <= 1) return null;
   const forest = buildFamilyChart(props.tree);
@@ -66,9 +68,11 @@ export function FamilyTree(props: {
               statusLiving={props.statusLiving}
               statusDeceased={props.statusDeceased}
               portrait={
-                card.memorialSlug
+                (card.memorialSlug
                   ? (props.portraits?.get(card.memorialSlug) ?? null)
-                  : null
+                  : null) ??
+                props.avatarsByName?.get(card.name.trim()) ??
+                null
               }
               key={`${card.ref}-${card.spouse ? "s" : "a"}`}
             />

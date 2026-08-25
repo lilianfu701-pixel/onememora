@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "출생지",
     "mentionPromptLead": "{count}개의 추모 페이지가 당신을 언급했을 수 있습니다",
-    "mentionPromptCta": "확인하고 신청"
+    "mentionPromptCta": "확인하고 신청",
+    "avatarTitle": "내 사진",
+    "avatarAdd": "사진 추가",
+    "avatarReplace": "사진 변경",
+    "avatarShowInTree": "가계도에 내 사진 표시",
+    "avatarHelp": "추모 페이지가 당신을 친족으로 기재하고 유족이 확인한 곳에 사용됩니다. JPEG, PNG 또는 WebP, 최대 10 MB."
   },
   "admin": {
     "navLabel": "관리 내비게이션",

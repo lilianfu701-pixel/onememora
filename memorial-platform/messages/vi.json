@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "Nơi sinh",
     "mentionPromptLead": "{count} trang tưởng niệm có thể nhắc đến bạn",
-    "mentionPromptCta": "Xem và nhận"
+    "mentionPromptCta": "Xem và nhận",
+    "avatarTitle": "Ảnh của bạn",
+    "avatarAdd": "Thêm ảnh",
+    "avatarReplace": "Đổi ảnh",
+    "avatarShowInTree": "Hiển thị ảnh của tôi trong gia phả",
+    "avatarHelp": "Dùng ở nơi một trang tưởng niệm ghi bạn là người thân và gia đình đã xác nhận. JPEG, PNG hoặc WebP, tối đa 10 MB."
   },
   "admin": {
     "navLabel": "Điều hướng quản trị",

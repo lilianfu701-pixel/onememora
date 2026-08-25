@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "Место рождения",
     "mentionPromptLead": "Возможно, вас упоминают страницы памяти: {count}",
-    "mentionPromptCta": "Посмотреть и заявить"
+    "mentionPromptCta": "Посмотреть и заявить",
+    "avatarTitle": "Ваше фото",
+    "avatarAdd": "Добавить фото",
+    "avatarReplace": "Заменить фото",
+    "avatarShowInTree": "Показывать моё фото в семейных древах",
+    "avatarHelp": "Используется там, где страница памяти указывает вас как родственника и семья это подтвердила. JPEG, PNG или WebP, до 10 МБ."
   },
   "admin": {
     "navLabel": "Навигация администратора",

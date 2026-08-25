@@ -56,6 +56,18 @@ export const users = pgTable("users", {
    *  name during recognition. */
   birthplace: text("birthplace"),
   /**
+   * The account holder's own photograph. Stored as a media asset so it goes
+   * through the same upload pipeline (magic-byte check, metadata stripping,
+   * re-encode) as every other image.
+   */
+  avatarMediaId: uuid("avatar_media_id"),
+  /**
+   * Whether that photograph may stand in for this person on a family chart,
+   * where a confirmed recognition claim ties them to a listed relative. Off by
+   * default: appearing on someone else's memorial is the person's own choice.
+   */
+  showAvatarInTree: boolean("show_avatar_in_tree").default(false).notNull(),
+  /**
    * Legacy "current region" — no longer collected in the profile UI. Kept so
    * existing values are not dropped; safe to remove in a later migration.
    */

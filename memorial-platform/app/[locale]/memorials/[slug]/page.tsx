@@ -20,6 +20,7 @@ import {
 } from "@/modules/memorials/content-service";
 import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
 import { memorialGallery, portraitsBySlug } from "@/modules/media/service";
+import { avatarsForRelativeNames } from "@/modules/identity/avatar";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
@@ -277,6 +278,12 @@ export default async function MemorialPage(props: {
       )
     : new Map<string, string>();
 
+  // A living relative who claimed their place and chose to appear shows their
+  // own photograph, keyed by the name the memorial lists them under.
+  const treeAvatars = familyView
+    ? await avatarsForRelativeNames(detail.memorialId)
+    : new Map<string, string>();
+
   // Whether this viewer is a verified friend/relative, so the contribution
   // form can invite them to post without review.
   const viewerStanding = await contributorStanding(
@@ -495,6 +502,7 @@ export default async function MemorialPage(props: {
                 statusLiving={t("statusLiving")}
                 statusDeceased={t("statusDeceased")}
                 portraits={treePortraits}
+                avatarsByName={treeAvatars}
               />
             ) : null}
 

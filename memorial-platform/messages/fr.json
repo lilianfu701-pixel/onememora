@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "Lieu de naissance",
     "mentionPromptLead": "{count, plural, =1 {Un mémorial pourrait vous mentionner} other {# mémoriaux pourraient vous mentionner}}",
-    "mentionPromptCta": "Voir et revendiquer"
+    "mentionPromptCta": "Voir et revendiquer",
+    "avatarTitle": "Votre photo",
+    "avatarAdd": "Ajouter une photo",
+    "avatarReplace": "Changer la photo",
+    "avatarShowInTree": "Afficher ma photo sur les arbres généalogiques",
+    "avatarHelp": "Utilisée là où un mémorial vous liste comme proche et que la famille l'a confirmé. JPEG, PNG ou WebP, jusqu'à 10 Mo."
   },
   "admin": {
     "navLabel": "Navigation admin",

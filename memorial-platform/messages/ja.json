@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "出生地",
     "mentionPromptLead": "{count} 件の追悼ページがあなたに言及しているかもしれません",
-    "mentionPromptCta": "確認して申請"
+    "mentionPromptCta": "確認して申請",
+    "avatarTitle": "あなたの写真",
+    "avatarAdd": "写真を追加",
+    "avatarReplace": "写真を変更",
+    "avatarShowInTree": "家系図に自分の写真を表示する",
+    "avatarHelp": "追悼ページがあなたを親族として記載し、ご家族が確認した場所で使われます。JPEG、PNG、WebP、最大 10 MB。"
   },
   "admin": {
     "navLabel": "管理ナビゲーション",

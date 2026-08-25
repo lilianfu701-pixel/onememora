@@ -449,7 +449,12 @@
     "nameVisibilityHint": "设置后，一旦你的身份被确认，将覆盖各主页对你姓名的显示方式。",
     "birthplaceLabel": "出生地",
     "mentionPromptLead": "有 {count} 个纪念页可能提到了你",
-    "mentionPromptCta": "去认领"
+    "mentionPromptCta": "去认领",
+    "avatarTitle": "我的头像",
+    "avatarAdd": "添加头像",
+    "avatarReplace": "更换头像",
+    "avatarShowInTree": "在族谱中显示我的头像",
+    "avatarHelp": "当某个追思主页把你列为亲属并经家属确认后，族谱中会显示这张头像。支持 JPEG、PNG 和 WebP，最大 10 MB。"
   },
   "admin": {
     "navLabel": "管理导航",

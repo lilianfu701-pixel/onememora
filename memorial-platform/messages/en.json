@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "Birthplace",
     "mentionPromptLead": "{count, plural, =1 {A memorial may mention you} other {# memorials may mention you}}",
-    "mentionPromptCta": "Review & claim"
+    "mentionPromptCta": "Review & claim",
+    "avatarTitle": "Your photo",
+    "avatarAdd": "Add photo",
+    "avatarReplace": "Replace photo",
+    "avatarShowInTree": "Show my photo on family charts",
+    "avatarHelp": "Used where a memorial lists you as a relative and the family has confirmed it. JPEG, PNG or WebP, up to 10 MB."
   },
   "admin": {
     "navLabel": "Admin navigation",

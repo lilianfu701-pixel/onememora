@@ -175,13 +175,20 @@ export async function markUploadComplete(
     return err("ASSET_NOT_FOUND");
   }
 
-  const role = await memorialRoleFor(asset.memorialId, actor.userId);
-  if (!role) {
-    return err("MEMORIAL_NOT_FOUND");
-  }
-
-  if (!canOnMemorial({ actor, role, action: "publish_content" })) {
-    return err("MEMORIAL_FORBIDDEN");
+  // An avatar belongs to a person, not a memorial: the uploader is the only
+  // one who may finish it. Everything else is authorised by memorial role.
+  if (asset.memorialId === null) {
+    if (asset.uploadedByUserId !== actor.userId) {
+      return err("MEMORIAL_FORBIDDEN");
+    }
+  } else {
+    const role = await memorialRoleFor(asset.memorialId, actor.userId);
+    if (!role) {
+      return err("MEMORIAL_NOT_FOUND");
+    }
+    if (!canOnMemorial({ actor, role, action: "publish_content" })) {
+      return err("MEMORIAL_FORBIDDEN");
+    }
   }
 
   if (asset.status !== "pending_upload") {
@@ -196,7 +203,7 @@ export async function markUploadComplete(
 
     await tx.insert(outboxEvents).values({
       topic: "media.process",
-      aggregateId: asset.memorialId,
+      aggregateId: asset.memorialId ?? assetId,
       payload: { mediaAssetId: assetId, correlationId },
     });
   });
@@ -294,7 +301,9 @@ export async function processUploadedAsset(
 
   const extension = asset.quarantineObjectKey.split(".").pop() ?? "bin";
   const readyObjectKey = buildObjectKey({
-    memorialId: asset.memorialId,
+    // Keys are namespaced by whatever owns the asset: a memorial, or for an
+    // avatar the account it belongs to. Both are server-generated UUIDs.
+    memorialId: asset.memorialId ?? asset.uploadedByUserId ?? assetId,
     assetId,
     stage: "ready",
     variant: "original",
@@ -706,6 +715,10 @@ export async function familyMediaView(
     return err("MEMORIAL_FORBIDDEN");
   }
 
+  // The join above is on memorials, so a row here always has one.
+  if (row.memorialId === null) {
+    return err("ASSET_NOT_FOUND");
+  }
   const role = await memorialRoleFor(row.memorialId, actor.userId);
   if (!role || !canOnMemorial({ actor, role, action: "publish_content" })) {
     return err("MEMORIAL_FORBIDDEN");
@@ -749,12 +762,20 @@ export async function softDeleteMedia(
     return err("ASSET_NOT_FOUND");
   }
 
-  const role = await memorialRoleFor(asset.memorialId, actor.userId);
-  if (!role) {
-    return err("MEMORIAL_NOT_FOUND");
-  }
-  if (!canOnMemorial({ actor, role, action: "publish_content" })) {
-    return err("MEMORIAL_FORBIDDEN");
+  // An avatar is deleted by the person it belongs to; memorial media by
+  // someone who may publish on that memorial.
+  if (asset.memorialId === null) {
+    if (asset.uploadedByUserId !== actor.userId) {
+      return err("MEMORIAL_FORBIDDEN");
+    }
+  } else {
+    const role = await memorialRoleFor(asset.memorialId, actor.userId);
+    if (!role) {
+      return err("MEMORIAL_NOT_FOUND");
+    }
+    if (!canOnMemorial({ actor, role, action: "publish_content" })) {
+      return err("MEMORIAL_FORBIDDEN");
+    }
   }
 
   const storage = mediaStorage();

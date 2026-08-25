@@ -6,6 +6,8 @@ import { loadProfile } from "@/modules/identity/profile";
 import { loadAccountInfo } from "@/modules/identity/account";
 import { AccountPage } from "./account-page";
 import { MentionPrompt } from "../mention-prompt";
+import { AvatarEditor } from "./avatar-editor";
+import { loadAvatar } from "@/modules/identity/avatar";
 
 export const dynamic = "force-dynamic";
 
@@ -40,9 +42,10 @@ export default async function AccountRoute(props: {
     );
   }
 
-  const [profile, accountInfo] = await Promise.all([
+  const [profile, accountInfo, avatar] = await Promise.all([
     loadProfile(actor.userId),
     loadAccountInfo(actor.userId),
+    loadAvatar(actor.userId),
   ]);
 
   const safeProfile = profile ?? {
@@ -60,6 +63,7 @@ export default async function AccountRoute(props: {
         fullName={safeProfile.fullName}
         locale={locale}
       />
+      <AvatarEditor initial={avatar} />
       <AccountPage
         profile={safeProfile}
         email={accountInfo?.email ?? null}

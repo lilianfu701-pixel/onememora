@@ -33,9 +33,15 @@ export const mediaAssets = pgTable(
   "media_assets",
   {
     id: uuid("id").defaultRandom().primaryKey(),
-    memorialId: uuid("memorial_id")
-      .notNull()
-      .references(() => memorials.id, { onDelete: "cascade" }),
+    /**
+     * The memorial this asset belongs to. Null for an account holder's own
+     * avatar, which belongs to a person rather than to a memorial — every
+     * memorial-scoped query inner-joins memorials, so those assets drop out of
+     * galleries and manage views without a filter of their own.
+     */
+    memorialId: uuid("memorial_id").references(() => memorials.id, {
+      onDelete: "cascade",
+    }),
     uploadedByUserId: uuid("uploaded_by_user_id").references(() => users.id, {
       onDelete: "set null",
     }),

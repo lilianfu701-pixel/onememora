@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "Tempat lahir",
     "mentionPromptLead": "{count} halaman peringatan mungkin menyebut Anda",
-    "mentionPromptCta": "Tinjau & klaim"
+    "mentionPromptCta": "Tinjau & klaim",
+    "avatarTitle": "Foto Anda",
+    "avatarAdd": "Tambah foto",
+    "avatarReplace": "Ganti foto",
+    "avatarShowInTree": "Tampilkan foto saya di silsilah keluarga",
+    "avatarHelp": "Dipakai di tempat sebuah halaman peringatan mencantumkan Anda sebagai kerabat dan keluarga telah mengonfirmasinya. JPEG, PNG, atau WebP, hingga 10 MB."
   },
   "admin": {
     "navLabel": "Navigasi admin",

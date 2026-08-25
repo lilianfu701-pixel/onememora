@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "Geburtsort",
     "mentionPromptLead": "{count, plural, =1 {Eine Gedenkseite erwähnt Sie möglicherweise} other {# Gedenkseiten erwähnen Sie möglicherweise}}",
-    "mentionPromptCta": "Ansehen & beanspruchen"
+    "mentionPromptCta": "Ansehen & beanspruchen",
+    "avatarTitle": "Ihr Foto",
+    "avatarAdd": "Foto hinzufügen",
+    "avatarReplace": "Foto ersetzen",
+    "avatarShowInTree": "Mein Foto in Stammbäumen zeigen",
+    "avatarHelp": "Wird dort verwendet, wo eine Gedenkseite Sie als Angehörigen führt und die Familie dies bestätigt hat. JPEG, PNG oder WebP, bis zu 10 MB."
   },
   "admin": {
     "navLabel": "Admin-Navigation",

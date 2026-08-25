@@ -449,7 +449,12 @@
     "nameVisibilityHint": "When set, this overrides how memorials show your name once your identity is confirmed.",
     "birthplaceLabel": "مكان الميلاد",
     "mentionPromptLead": "قد تذكرك {count} صفحة تذكارية",
-    "mentionPromptCta": "المراجعة والمطالبة"
+    "mentionPromptCta": "المراجعة والمطالبة",
+    "avatarTitle": "صورتك",
+    "avatarAdd": "إضافة صورة",
+    "avatarReplace": "تغيير الصورة",
+    "avatarShowInTree": "إظهار صورتي في شجرة العائلة",
+    "avatarHelp": "تُستخدم حيث تُدرجك صفحة تذكارية كقريب وتؤكد العائلة ذلك. JPEG أو PNG أو WebP، بحد أقصى 10 ميغابايت."
   },
   "admin": {
     "navLabel": "التنقل الإداري",

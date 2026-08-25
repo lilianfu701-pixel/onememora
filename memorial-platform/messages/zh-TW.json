@@ -449,7 +449,12 @@
     "nameVisibilityHint": "設定後，一旦你的身分被確認，將覆蓋各主頁對你姓名的顯示方式。",
     "birthplaceLabel": "出生地",
     "mentionPromptLead": "有 {count} 個紀念頁可能提到了你",
-    "mentionPromptCta": "去認領"
+    "mentionPromptCta": "去認領",
+    "avatarTitle": "我的頭像",
+    "avatarAdd": "新增頭像",
+    "avatarReplace": "更換頭像",
+    "avatarShowInTree": "在家譜中顯示我的頭像",
+    "avatarHelp": "當某個追思主頁把你列為親屬並經家屬確認後，家譜中會顯示這張頭像。支援 JPEG、PNG 和 WebP，最大 10 MB。"
   },
   "admin": {
     "navLabel": "管理導覽",
