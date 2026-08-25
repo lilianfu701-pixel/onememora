@@ -169,11 +169,11 @@ img {
 }
 
 .stack > * + * {
-  margin-block-start: var(--space-4);
+  margin-block-start: var(--space-3);
 }
 
 .stack-lg > * + * {
-  margin-block-start: var(--space-8);
+  margin-block-start: var(--space-6);
 }
 
 .section {
@@ -352,7 +352,7 @@ img {
 
 .fieldLabel {
   display: block;
-  margin-block-end: var(--space-2);
+  margin-block-end: var(--space-1);
   font-size: var(--text-sm);
   font-weight: 600;
   color: var(--muted);
@@ -451,7 +451,7 @@ img {
   padding-block-start: var(--space-3);
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
+  gap: var(--space-2);
 }
 
 .formSection > legend {
@@ -478,10 +478,60 @@ img {
   font-size: var(--text-sm);
 }
 
+/* Two related fieldsets side by side, stacking on a narrow screen. */
+.pairRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+@media (max-width: 720px) {
+  .pairRow {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+}
+
+.noticeCompact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.noticeCompact p {
+  margin: 0;
+}
+
+/* The name and the names the person was also known by, side by side. */
+.nameRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+  gap: var(--space-3);
+  align-items: start;
+}
+
+.aliasStack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.inputLarge {
+  font-size: var(--text-lg);
+}
+
+@media (max-width: 640px) {
+  .nameRow {
+    grid-template-columns: 1fr;
+  }
+}
+
 .aliasRow {
   display: grid;
   grid-template-columns: 1fr auto auto;
-  gap: var(--space-3);
+  gap: var(--space-2);
   align-items: end;
 }
 

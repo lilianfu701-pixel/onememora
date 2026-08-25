@@ -552,18 +552,74 @@ export function CreateMemorialForm(props: { locale: string }) {
 
       {/* ── Name ── */}
       <fieldset className="formSection measure">
-        <legend className="eyebrow">
-          {t("nameLabel")} <span aria-hidden="true">*</span>
-        </legend>
-        <input
-          className="input"
-          type="text"
-          required
-          aria-label={t("nameLabel")}
-          maxLength={200}
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
+        {/* The name and the other names it was known by belong together, so
+            they sit on one row rather than stacking down the page. */}
+        <div className="nameRow">
+          <label className="field">
+            <span className="fieldLabel">
+              {t("nameLabel")} <span aria-hidden="true">*</span>
+            </span>
+            <input
+              className="input inputLarge"
+              type="text"
+              required
+              maxLength={200}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
+          </label>
+
+          <div className="aliasStack">
+            {aliases.map((alias, i) => (
+              <div className="aliasRow" key={i}>
+                <label className="field aliasName">
+                  {i === 0 ? (
+                    <span className="fieldLabel">{t("aliasesLabel")}</span>
+                  ) : null}
+                  <input
+                    className="input inputLarge"
+                    type="text"
+                    maxLength={200}
+                    aria-label={t("aliasNameLabel")}
+                    value={alias.value}
+                    onChange={(e) => updateAlias(i, { value: e.target.value })}
+                  />
+                </label>
+                <label className="field aliasType">
+                  {i === 0 ? (
+                    <span className="fieldLabel">{t("aliasTypeLabel")}</span>
+                  ) : null}
+                  <select
+                    className="input"
+                    aria-label={t("aliasTypeLabel")}
+                    value={alias.type}
+                    onChange={(e) =>
+                      updateAlias(i, { type: e.target.value as NameType })
+                    }
+                  >
+                    {NAME_TYPES.map((nt) => (
+                      <option value={nt} key={nt}>
+                        {t(`nameType_${nt}`)}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <button
+                  type="button"
+                  className="button buttonQuiet buttonCompact aliasRemove"
+                  onClick={() => removeAlias(i)}
+                  aria-label={common("remove")}
+                >
+                  ×
+                </button>
+              </div>
+            ))}
+            <button type="button" className="linkButton" onClick={addAlias}>
+              + {t("addAlias")}
+            </button>
+          </div>
+        </div>
+
         {errorFor("primaryName") ? (
           <p className="fieldError" role="alert">
             {errorFor("primaryName")}
@@ -576,50 +632,11 @@ export function CreateMemorialForm(props: { locale: string }) {
           birthDate={partsToDate(birth)?.value ?? null}
           deathDate={partsToDate(death)?.value ?? null}
         />
-
-        {aliases.map((alias, i) => (
-          <div className="aliasRow" key={i}>
-            <label className="field aliasName">
-              <span className="fieldLabel">{t("aliasNameLabel")}</span>
-              <input
-                className="input"
-                type="text"
-                maxLength={200}
-                value={alias.value}
-                onChange={(e) => updateAlias(i, { value: e.target.value })}
-              />
-            </label>
-            <label className="field aliasType">
-              <span className="fieldLabel">{t("aliasTypeLabel")}</span>
-              <select
-                className="input"
-                value={alias.type}
-                onChange={(e) =>
-                  updateAlias(i, { type: e.target.value as NameType })
-                }
-              >
-                {NAME_TYPES.map((nt) => (
-                  <option value={nt} key={nt}>
-                    {t(`nameType_${nt}`)}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <button
-              type="button"
-              className="button buttonQuiet buttonCompact aliasRemove"
-              onClick={() => removeAlias(i)}
-              aria-label={common("remove")}
-            >
-              ×
-            </button>
-          </div>
-        ))}
-        <button type="button" className="linkButton" onClick={addAlias}>
-          + {t("addAlias")}
-        </button>
       </fieldset>
 
+      {/* Birth and death are a pair, so they sit side by side rather than
+          stacking two near-identical blocks down the page. */}
+      <div className="pairRow">
       {/* ── Birth info ── */}
       <fieldset className="formSection">
         <legend className="eyebrow">{t("birthInfoLabel")}</legend>
@@ -711,6 +728,7 @@ export function CreateMemorialForm(props: { locale: string }) {
           />
         </div>
       </fieldset>
+      </div>
 
       {/* ── Personal info ── */}
       <fieldset className="formSection">
@@ -983,9 +1001,11 @@ export function CreateMemorialForm(props: { locale: string }) {
               />
               <span>{privacy("searchEngineLabel")}</span>
             </label>
-            <div className="notice stack">
-              <strong>{privacy("confirmPublicTitle")}</strong>
-              <p>{privacy("confirmPublicBody")}</p>
+            <div className="notice noticeCompact">
+              <p>
+                <strong>{privacy("confirmPublicTitle")}</strong>{" "}
+                {privacy("confirmPublicBody")}
+              </p>
               <label className="choiceRow">
                 <input
                   type="checkbox"
