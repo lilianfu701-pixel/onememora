@@ -271,12 +271,15 @@ export default async function MemorialPage(props: {
   // Portraits for relatives who have their own memorial, so the family chart
   // shows faces rather than initials.
   const treePortraits = familyView
-    ? await portraitsBySlug(
-        familyView.tree.nodes
+    ? await portraitsBySlug([
+        // The root's own slug is not carried in the tree, so add it here.
+        detail.slug,
+        ...familyView.tree.nodes
           .map((node) => ("memorialSlug" in node ? node.memorialSlug : null))
           .filter((slug): slug is string => Boolean(slug)),
-      )
+      ])
     : new Map<string, string>();
+  const rootPortrait = treePortraits.get(detail.slug) ?? null;
 
   // A living relative who claimed their place and chose to appear shows their
   // own photograph, keyed by the name the memorial lists them under.
@@ -503,6 +506,7 @@ export default async function MemorialPage(props: {
                 statusDeceased={t("statusDeceased")}
                 portraits={treePortraits}
                 avatarsByName={treeAvatars}
+                rootPortrait={rootPortrait}
               />
             ) : null}
 

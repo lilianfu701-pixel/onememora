@@ -1821,14 +1821,17 @@ a.famCard:focus-visible {
 .famCardRoot {
   border-color: var(--olive-dark);
   border-width: 2px;
-  background: color-mix(in oklab, var(--gold) 14%, var(--paper-raised));
+  background: color-mix(in oklab, var(--gold) 34%, var(--paper-raised));
 }
 
 .famCardLiving {
   background: color-mix(in oklab, var(--sky) 14%, var(--paper-raised));
 }
 
+/* A mourning frame — a clear dark border marks someone who has died. */
 .famCardDeceased {
+  border-color: #15120c;
+  border-width: 2px;
   background: color-mix(in oklab, var(--rose) 16%, var(--paper-raised));
 }
 
@@ -2577,6 +2580,12 @@ a.famCard:focus-visible {
 
 .manageName {
   font-size: var(--text-2xl);
+}
+
+.manageFooterLink {
+  margin: 0;
+  padding-top: var(--space-2);
+  text-align: center;
 }
 
 .manageGroup {

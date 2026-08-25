@@ -33,7 +33,6 @@ export function ManageForms(props: {
   rituals: ManageableRitual[];
 }) {
   const t = useTranslations("memorial");
-  const ritual = useTranslations("ritual");
   const errors = useTranslations("errors");
   const common = useTranslations("common");
   const router = useRouter();
@@ -45,9 +44,6 @@ export function ManageForms(props: {
   // Tracks whether a draft exists that visitors are not seeing, so the publish
   // button is not offered for words already on the page.
   const [draftPending, setDraftPending] = useState(props.hasUnpublishedDraft);
-
-  const [rituals, setRituals] = useState(props.rituals);
-  const [busyRitual, setBusyRitual] = useState<string | null>(null);
 
   function readError(payload: unknown): string {
     const error = (payload as { error?: { code?: string } })?.error;
@@ -118,53 +114,6 @@ export function ManageForms(props: {
     }
   }
 
-  async function toggleRitual(target: ManageableRitual): Promise<void> {
-    setBusyRitual(target.ritualVersionId);
-    setNotice({ kind: "none" });
-
-    const nextEnabled = !target.enabled;
-
-    try {
-      const response = await fetch(
-        `/api/memorials/${props.memorialId}/ritual-settings/${target.ritualVersionId}`,
-        {
-          method: "PUT",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({
-            enabled: nextEnabled,
-            // Sent only when switching on. The server refuses to enable
-            // anything without it, and turning something off needs no
-            // confirmation — a family withdrawing an offer is always allowed.
-            ...(nextEnabled ? { familyConfirmed: true } : {}),
-            allowAnonymous: target.allowAnonymous,
-            allowMessage: target.allowMessage,
-            moderationMode: target.moderationMode,
-          }),
-        },
-      );
-
-      if (!response.ok) {
-        setNotice({
-          kind: "error",
-          code: readError(await response.json().catch(() => null)),
-        });
-        return;
-      }
-
-      setRituals((current) =>
-        current.map((item) =>
-          item.ritualVersionId === target.ritualVersionId
-            ? { ...item, enabled: nextEnabled }
-            : item,
-        ),
-      );
-      router.refresh();
-    } catch {
-      setNotice({ kind: "error", code: "DEPENDENCY_UNAVAILABLE" });
-    } finally {
-      setBusyRitual(null);
-    }
-  }
 
   return (
     <div className="stack-lg">
@@ -235,58 +184,6 @@ export function ManageForms(props: {
         </section>
       ) : null}
 
-      {props.mayConfigure ? (
-        <section className="stack measure">
-          <h2>{t("ritualsHeading")}</h2>
-          <p className="muted">{ritual("help")}</p>
-
-          {rituals.length === 0 ? (
-            <p className="muted">{t("ritualsNone")}</p>
-          ) : (
-            <ul className="resultList">
-              {rituals.map((item) => (
-                <li className="resultItem stack" key={item.ritualVersionId}>
-                  <strong>{item.name}</strong>
-                  {item.description ? (
-                    <p className="muted">{item.description}</p>
-                  ) : null}
-                  {item.enabled && item.moderationMode === "pre_review" ? (
-                    <p className="muted">{ritual("moderationPre")}</p>
-                  ) : null}
-                  <div>
-                    <button
-                      type="button"
-                      className={
-                        item.enabled
-                          ? "button buttonQuiet"
-                          : "button buttonPrimary"
-                      }
-                      aria-pressed={item.enabled}
-                      disabled={busyRitual === item.ritualVersionId}
-                      onClick={() => toggleRitual(item)}
-                    >
-                      {busyRitual === item.ritualVersionId
-                        ? common("loading")
-                        : item.enabled
-                          ? ritual("disable")
-                          : ritual("enable")}
-                    </button>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          )}
-        </section>
-      ) : null}
-
-      <div>
-        <Link
-          className="button buttonQuiet"
-          href={`/${props.locale}/memorials/${props.slug}`}
-        >
-          {t("enterMemorial")} →
-        </Link>
-      </div>
     </div>
   );
 }

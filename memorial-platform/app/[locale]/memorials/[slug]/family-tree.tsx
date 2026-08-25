@@ -27,6 +27,8 @@ export function FamilyTree(props: {
   portraits?: Map<string, string>;
   /** Avatar URL per listed relative name, for people who claimed their place. */
   avatarsByName?: Map<string, string>;
+  /** This memorial's own portrait, for the root card. */
+  rootPortrait?: string | null;
 }) {
   if (props.tree.nodes.length <= 1) return null;
   const forest = buildFamilyChart(props.tree);
@@ -68,6 +70,7 @@ export function FamilyTree(props: {
               statusLiving={props.statusLiving}
               statusDeceased={props.statusDeceased}
               portrait={
+                (card.isRoot ? (props.rootPortrait ?? null) : null) ??
                 (card.memorialSlug
                   ? (props.portraits?.get(card.memorialSlug) ?? null)
                   : null) ??

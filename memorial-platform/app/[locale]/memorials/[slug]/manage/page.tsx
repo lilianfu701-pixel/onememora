@@ -1,5 +1,6 @@
 import { and, asc, desc, eq, isNull, ne } from "drizzle-orm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { db } from "@/db/client";
@@ -309,6 +310,15 @@ export default async function ManageMemorialPage(props: {
             </div>
           </section>
         ) : null}
+
+        <p className="manageFooterLink">
+          <Link
+            className="button buttonQuiet buttonCompact"
+            href={`/${locale}/memorials/${detail.slug}`}
+          >
+            {t("enterMemorial")} →
+          </Link>
+        </p>
       </div>
     </main>
   );
