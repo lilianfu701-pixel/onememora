@@ -330,7 +330,22 @@
     "relativesHeading": "Familienmitglieder",
     "addPortrait": "Porträt hinzufügen",
     "replacePortrait": "Porträt ersetzen",
-    "olderPhotosHelp": "Zuvor hochgeladene Fotografien. Sie erscheinen weiterhin auf der Gedenkseite — entfernen Sie, was Sie nicht mehr möchten."
+    "olderPhotosHelp": "Zuvor hochgeladene Fotografien. Sie erscheinen weiterhin auf der Gedenkseite — entfernen Sie, was Sie nicht mehr möchten.",
+    "contactManager": "Contact the family",
+    "contactBodyLabel": "Message",
+    "contactNameLabel": "Your name (optional)",
+    "contactReachLabel": "How to reach you (optional)",
+    "contactReachHint": "email or phone",
+    "contactSend": "Send",
+    "contactSent": "Sent — thank you for your message.",
+    "contactFailed": "Could not send. Please try again later.",
+    "contactMessagesTitle": "Messages",
+    "contactMarkRead": "Mark read",
+    "contactUnread": "New",
+    "chapterMore": "Read more",
+    "chapterLess": "Show less",
+    "enterMemorialBottom": "Open memorial page →",
+    "anonymousVisitor": "A visitor"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",
@@ -590,7 +605,9 @@
       "later_years": "Retirement, the quiet years…",
       "meaning": "What this life left behind, in the family's eyes…",
       "custom": "Write freely about this part of their life…"
-    }
+    },
+    "chapterMore": "Read more",
+    "chapterLess": "Show less"
   },
   "contributions": {
     "sectionTitle": "Remembrances",

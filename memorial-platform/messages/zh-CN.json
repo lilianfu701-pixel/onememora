@@ -330,7 +330,22 @@
     "relativesHeading": "家庭成员",
     "addPortrait": "添加遗照",
     "replacePortrait": "更换遗照",
-    "olderPhotosHelp": "之前上传的照片，仍会显示在追思主页上。不需要的可以删除。"
+    "olderPhotosHelp": "之前上传的照片，仍会显示在追思主页上。不需要的可以删除。",
+    "contactManager": "联系本页管理",
+    "contactBodyLabel": "留言",
+    "contactNameLabel": "你的称呼（选填）",
+    "contactReachLabel": "联系方式（选填）",
+    "contactReachHint": "邮箱或电话",
+    "contactSend": "发送",
+    "contactSent": "已发送，感谢你的留言。",
+    "contactFailed": "发送失败，请稍后再试。",
+    "contactMessagesTitle": "访客留言",
+    "contactMarkRead": "标记已读",
+    "contactUnread": "未读",
+    "chapterMore": "展开全文",
+    "chapterLess": "收起",
+    "enterMemorialBottom": "进入追思页 →",
+    "anonymousVisitor": "访客"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -590,7 +605,9 @@
       "later_years": "退休后的日子、颐养天年的时光…",
       "meaning": "家人眼中，这一生留下了什么…",
       "custom": "自由书写这一段人生…"
-    }
+    },
+    "chapterMore": "展开全文",
+    "chapterLess": "收起"
   },
   "contributions": {
     "sectionTitle": "亲友追忆",

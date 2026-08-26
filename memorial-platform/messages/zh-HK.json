@@ -330,7 +330,22 @@
     "relativesHeading": "家庭成員",
     "addPortrait": "新增遺照",
     "replacePortrait": "更換遺照",
-    "olderPhotosHelp": "之前上載嘅相片，仍會喺追思主頁顯示。唔需要嘅可以刪除。"
+    "olderPhotosHelp": "之前上載嘅相片，仍會喺追思主頁顯示。唔需要嘅可以刪除。",
+    "contactManager": "聯絡本頁管理",
+    "contactBodyLabel": "留言",
+    "contactNameLabel": "你的稱呼（選填）",
+    "contactReachLabel": "聯絡方式（選填）",
+    "contactReachHint": "電郵或電話",
+    "contactSend": "發送",
+    "contactSent": "已發送，感謝你的留言。",
+    "contactFailed": "發送失敗，請稍後再試。",
+    "contactMessagesTitle": "訪客留言",
+    "contactMarkRead": "標記已讀",
+    "contactUnread": "未讀",
+    "chapterMore": "展開全文",
+    "chapterLess": "收起",
+    "enterMemorialBottom": "進入追思頁 →",
+    "anonymousVisitor": "訪客"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",
@@ -590,7 +605,9 @@
       "later_years": "退休後的日子、頤養天年的時光…",
       "meaning": "家人眼中，這一生留下了什麼…",
       "custom": "自由書寫這一段人生…"
-    }
+    },
+    "chapterMore": "展開全文",
+    "chapterLess": "收起"
   },
   "contributions": {
     "sectionTitle": "親友追憶",

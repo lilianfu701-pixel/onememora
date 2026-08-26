@@ -330,7 +330,22 @@
     "relativesHeading": "家族",
     "addPortrait": "遺影を追加",
     "replacePortrait": "遺影を変更",
-    "olderPhotosHelp": "以前アップロードした写真です。追悼ページに表示されたままです。不要なものは削除できます。"
+    "olderPhotosHelp": "以前アップロードした写真です。追悼ページに表示されたままです。不要なものは削除できます。",
+    "contactManager": "Contact the family",
+    "contactBodyLabel": "Message",
+    "contactNameLabel": "Your name (optional)",
+    "contactReachLabel": "How to reach you (optional)",
+    "contactReachHint": "email or phone",
+    "contactSend": "Send",
+    "contactSent": "Sent — thank you for your message.",
+    "contactFailed": "Could not send. Please try again later.",
+    "contactMessagesTitle": "Messages",
+    "contactMarkRead": "Mark read",
+    "contactUnread": "New",
+    "chapterMore": "Read more",
+    "chapterLess": "Show less",
+    "enterMemorialBottom": "Open memorial page →",
+    "anonymousVisitor": "A visitor"
   },
   "privacy": {
     "title": "このページを見られる範囲",
@@ -590,7 +605,9 @@
       "later_years": "Retirement, the quiet years…",
       "meaning": "What this life left behind, in the family's eyes…",
       "custom": "Write freely about this part of their life…"
-    }
+    },
+    "chapterMore": "Read more",
+    "chapterLess": "Show less"
   },
   "contributions": {
     "sectionTitle": "Remembrances",

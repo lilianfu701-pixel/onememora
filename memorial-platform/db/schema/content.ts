@@ -352,6 +352,39 @@ export const visitorSubmissions = pgTable(
   ],
 );
 
+/**
+ * A private message from a visitor to the family who manages a memorial.
+ *
+ * Not shown on the page — it reaches the family's manage view only. This is the
+ * "contact the manager" channel; a guest may write, leaving a way to reach
+ * them back, or a signed-in person writes under their account.
+ */
+export const memorialContactMessages = pgTable(
+  "memorial_contact_messages",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    memorialId: uuid("memorial_id")
+      .notNull()
+      .references(() => memorials.id, { onDelete: "cascade" }),
+    senderUserId: uuid("sender_user_id").references(() => users.id, {
+      onDelete: "set null",
+    }),
+    senderName: text("sender_name"),
+    /** How to reach the sender back — an email or phone they typed. */
+    senderContact: text("sender_contact"),
+    body: text("body").notNull(),
+    /** For rate-limiting guest messages. Never shown. */
+    senderIpHash: text("sender_ip_hash"),
+    readAt: timestamp("read_at", { withTimezone: true }),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+  },
+  (table) => [
+    index("memorial_contact_messages_idx").on(table.memorialId, table.readAt),
+  ],
+);
+
 export type ContentVersion = typeof contentVersions.$inferSelect;
 export type ContentTranslation = typeof contentTranslations.$inferSelect;
 export type Biography = typeof biographies.$inferSelect;

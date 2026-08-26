@@ -26,6 +26,7 @@ import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
+import { ContactManager } from "./contact-manager";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
 import { OfferingsAltar } from "./offerings-altar";
@@ -382,20 +383,41 @@ export default async function MemorialPage(props: {
         />
 
         <header className="memorialHead">
-          <h1 className="memorialName">{detail.primaryName}</h1>
-
-          {detail.alternateNames.length > 0 ? (
-            <p className="memorialAliases">
+          <div className="memorialHeadTop">
+            {/* Name and the names the person was known by, on one line. */}
+            <p className="memorialNames">
+              <span className="memorialName">{detail.primaryName}</span>
               {detail.alternateNames.map((name, index) => (
                 <span key={`${name.type}-${index}`} className="memorialAlias">
-                  <span className="memorialAliasType">{t(`nameType_${name.type}`)}</span>
+                  <span className="memorialAliasType">
+                    {t(`nameType_${name.type}`)}
+                  </span>
                   {name.value}
                 </span>
               ))}
             </p>
-          ) : null}
 
-          <div className="memorialLifeline">
+            {/* Share and keep, kept compact rather than taking a row. */}
+            <div className="memorialActions">
+              <Share
+                url={memorialUrl({
+                  appUrl: env().APP_URL,
+                  locale,
+                  slug: detail.slug,
+                })}
+                title={detail.primaryName}
+              />
+              {viewer.userId ? (
+                <BookmarkButton
+                  memorialId={detail.memorialId}
+                  initialBookmarked={viewerBookmarked}
+                />
+              ) : null}
+            </div>
+          </div>
+
+          {/* Birth and death, side by side. */}
+          <div className="memorialLifeline memorialLifelineRow">
             {birthText ? (
               <p className="memorialLifelineEntry">
                 <span className="memorialLifelineMarker" aria-hidden="true">★</span>
@@ -430,26 +452,13 @@ export default async function MemorialPage(props: {
                 name: detail.primaryName,
                 relation: t(`creatorRole_${creatorRoleKey}`),
               })}
+              <ContactManager
+                memorialId={detail.memorialId}
+                label={t("contactManager")}
+              />
             </p>
           ) : null}
         </header>
-
-        <div className="tributeBar">
-          <Share
-            url={memorialUrl({
-              appUrl: env().APP_URL,
-              locale,
-              slug: detail.slug,
-            })}
-            title={detail.primaryName}
-          />
-          {viewer.userId ? (
-            <BookmarkButton
-              memorialId={detail.memorialId}
-              initialBookmarked={viewerBookmarked}
-            />
-          ) : null}
-        </div>
 
         <div className="memorialGrid">
           <div className="memorialMain">

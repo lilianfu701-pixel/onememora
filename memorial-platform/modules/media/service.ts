@@ -591,6 +591,9 @@ export async function portraitsBySlug(
         eq(mediaAssets.kind, "image"),
         eq(mediaAssets.status, "ready"),
         isNull(mediaAssets.deletedAt),
+        // The 遗像 only — photos attached to a life chapter (or other content)
+        // are not the portrait and must not stand in for it on the chart.
+        sql`not exists (select 1 from ${contentMedia} where ${contentMedia.mediaId} = ${mediaAssets.id})`,
       ),
     )
     .orderBy(asc(mediaAssets.createdAt));

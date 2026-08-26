@@ -1359,53 +1359,157 @@ img {
 .memorialHead {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: var(--space-2);
-  text-align: center;
 }
 
-.memorialName {
-  margin: 0;
-  font-size: clamp(2.1rem, 1.5rem + 2.6vw, 3.4rem);
+.memorialHeadTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-3) var(--space-4);
+  flex-wrap: wrap;
 }
 
-.memorialAliases {
+/* Name and the names the person was known by, on one line. */
+.memorialNames {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2) var(--space-4);
-  justify-content: center;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
+  min-width: 0;
+}
+
+.memorialName {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: clamp(1.8rem, 1.3rem + 2vw, 2.8rem);
 }
 
 .memorialAlias {
   font-size: var(--text-lg);
   color: var(--ink);
+  align-self: baseline;
 }
 
 .memorialAliasType {
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   color: var(--muted);
-  margin-inline-end: var(--space-1);
+  margin-inline-end: 0.3em;
+}
+
+/* Share and keep, kept compact rather than each taking a row. */
+.memorialActions {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  flex: none;
 }
 
 .memorialLifeline {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: var(--space-1);
+}
+
+/* Birth and death on one line. */
+.memorialLifelineRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 var(--space-6);
+  align-items: baseline;
 }
 
 .memorialLifelineEntry {
   margin: 0;
-  font-size: var(--text-lg);
+  font-size: var(--text-base);
   color: var(--ink);
-  text-align: center;
 }
 
 .memorialLifelineMarker {
   margin-inline-end: 0.35em;
   color: var(--muted);
   font-size: 0.85em;
+}
+
+/* Contact-the-family form (opens from the "created by" line). */
+.contactManagerLink {
+  margin-inline-start: var(--space-2);
+}
+
+.contactForm {
+  margin-top: var(--space-3);
+  max-width: 32rem;
+  text-align: start;
+}
+
+.contactFormRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+@media (max-width: 560px) {
+  .contactFormRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contactFormActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
+.contactSent {
+  margin-inline-start: var(--space-2);
+  color: var(--olive-dark);
+  font-size: var(--text-sm);
+}
+
+/* Contact messages, in the manage view. */
+.contactMsgList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.contactMsg {
+  border-top: 1px solid var(--line);
+  padding-top: var(--space-2);
+}
+
+.contactMsgHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+
+.contactMsgWho {
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+.contactMsgReach {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.contactMsgUnread {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--rose);
+}
+
+.contactMsgBody {
+  margin: var(--space-1) 0 0;
+  white-space: pre-wrap;
+  line-height: 1.55;
 }
 
 .memorialLifelinePlace {
@@ -1820,8 +1924,8 @@ a.famCard:focus-visible {
    someone who has died. */
 .famCardRoot {
   border-color: var(--olive-dark);
-  border-width: 2px;
-  background: color-mix(in oklab, var(--gold) 34%, var(--paper-raised));
+  border-width: 2.5px;
+  background: color-mix(in oklab, var(--gold) 45%, var(--paper-raised));
 }
 
 .famCardLiving {
@@ -1830,8 +1934,8 @@ a.famCard:focus-visible {
 
 /* A mourning frame — a clear dark border marks someone who has died. */
 .famCardDeceased {
-  border-color: #15120c;
-  border-width: 2px;
+  border-color: #100d08;
+  border-width: 3px;
   background: color-mix(in oklab, var(--rose) 16%, var(--paper-raised));
 }
 
@@ -2228,6 +2332,15 @@ a.famCard:focus-visible {
   margin: 0;
   line-height: 1.6;
   color: var(--ink);
+}
+
+.lifeChapterExcerpt {
+  color: var(--muted) !important;
+}
+
+.lifeChapterToggle {
+  align-self: flex-start;
+  margin-top: var(--space-1);
 }
 
 .lifeChapterPhotos {

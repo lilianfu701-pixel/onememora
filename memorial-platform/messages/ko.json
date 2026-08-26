@@ -330,7 +330,22 @@
     "relativesHeading": "가족 구성원",
     "addPortrait": "영정 추가",
     "replacePortrait": "영정 변경",
-    "olderPhotosHelp": "이전에 올린 사진입니다. 추모 페이지에 계속 표시됩니다 — 원하지 않는 사진은 삭제하세요."
+    "olderPhotosHelp": "이전에 올린 사진입니다. 추모 페이지에 계속 표시됩니다 — 원하지 않는 사진은 삭제하세요.",
+    "contactManager": "Contact the family",
+    "contactBodyLabel": "Message",
+    "contactNameLabel": "Your name (optional)",
+    "contactReachLabel": "How to reach you (optional)",
+    "contactReachHint": "email or phone",
+    "contactSend": "Send",
+    "contactSent": "Sent — thank you for your message.",
+    "contactFailed": "Could not send. Please try again later.",
+    "contactMessagesTitle": "Messages",
+    "contactMarkRead": "Mark read",
+    "contactUnread": "New",
+    "chapterMore": "Read more",
+    "chapterLess": "Show less",
+    "enterMemorialBottom": "Open memorial page →",
+    "anonymousVisitor": "A visitor"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",
@@ -590,7 +605,9 @@
       "later_years": "Retirement, the quiet years…",
       "meaning": "What this life left behind, in the family's eyes…",
       "custom": "Write freely about this part of their life…"
-    }
+    },
+    "chapterMore": "Read more",
+    "chapterLess": "Show less"
   },
   "contributions": {
     "sectionTitle": "Remembrances",
