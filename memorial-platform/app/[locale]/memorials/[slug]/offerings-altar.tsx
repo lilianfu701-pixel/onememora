@@ -29,10 +29,26 @@ function IncenseIcon() {
       {/* drop shadow */}
       <ellipse cx="40" cy="110" rx="30" ry="4" fill="#6b5424" opacity="0.14" />
 
-      {/* three lion feet */}
-      <path d="M25 100 q-4 5 -2 9 l5 0 q1 -5 -1 -9 Z" fill="#8a6a24" />
-      <path d="M55 100 q4 5 2 9 l-5 0 q-1 -5 1 -9 Z" fill="#8a6a24" />
-      <path d="M38 103 l4 0 q1 4 -1 8 l-2 0 q-2 -4 -1 -8 Z" fill="#7c5f22" />
+      {/* three lion-paw feet */}
+      {[
+        { x: 27, front: false },
+        { x: 53, front: false },
+        { x: 40, front: true },
+      ].map((f) => {
+        const py = f.front ? 112 : 109;
+        return (
+          <g key={`sfoot-${f.x}`}>
+            <path
+              d={`M${f.x - 4} 100 L${f.x - 3} ${py - 2} Q${f.x} ${py} ${f.x + 3} ${py - 2} L${f.x + 4} 100 Z`}
+              fill="#9a7a2c"
+            />
+            <ellipse cx={f.x} cy={py} rx="5.4" ry="3" fill="#8a6a24" />
+            <ellipse cx={f.x - 3} cy={py} rx="1.6" ry="2.2" fill="#7c5f22" />
+            <ellipse cx={f.x} cy={py + 0.5} rx="1.7" ry="2.4" fill="#7c5f22" />
+            <ellipse cx={f.x + 3} cy={py} rx="1.6" ry="2.2" fill="#7c5f22" />
+          </g>
+        );
+      })}
 
       {/* pot belly */}
       <path
@@ -238,15 +254,19 @@ function WreathIcon() {
       <path d="M53 30 h6 v112 l-3 -6 l-3 6 Z" fill="#f7f4ec" stroke="#d9cfb4" strokeWidth="0.5" />
       <path d="M61 30 h6 v112 l-3 -6 l-3 6 Z" fill="#f2ede1" stroke="#d9cfb4" strokeWidth="0.5" />
 
-      {/* black bow at the top */}
-      <g fill="#191919">
-        <path d="M60 30 C50 20 38 22 41 32 C43 40 54 36 60 32 Z" />
-        <path d="M60 30 C70 20 82 22 79 32 C77 40 66 36 60 32 Z" />
-        <path d="M57 32 L49 50 L58 45 Z" />
-        <path d="M63 32 L71 50 L62 45 Z" />
-      </g>
-      <circle cx="60" cy="31" r="4.4" fill="#0d0d0d" />
-      <circle cx="60" cy="30" r="1.4" fill="#3a3a3a" />
+      {/* black satin bow at the top */}
+      {/* flowing swallowtail tails */}
+      <path d="M58 33 C55 44 52 52 47 61 L52 57.5 L54 63 C57 53 59 44 60 34 Z" fill="#151515" />
+      <path d="M62 33 C65 44 68 52 73 61 L68 57.5 L66 63 C63 53 61 44 60 34 Z" fill="#151515" />
+      {/* soft looped ears */}
+      <path d="M60 31 C50 21 37 23 40 34 C41 42 54 39 60 33 Z" fill="#1d1d1d" />
+      <path d="M60 31 C70 21 83 23 80 34 C79 42 66 39 60 33 Z" fill="#1d1d1d" />
+      {/* satin sheen on the loops */}
+      <path d="M58 31 C51 26 44 26 42 31" stroke="#4c4c4c" strokeWidth="1.1" fill="none" opacity="0.55" strokeLinecap="round" />
+      <path d="M62 31 C69 26 76 26 78 31" stroke="#4c4c4c" strokeWidth="1.1" fill="none" opacity="0.55" strokeLinecap="round" />
+      {/* centre knot */}
+      <rect x="56.4" y="28" width="7.2" height="9" rx="3.2" fill="#0c0c0c" />
+      <line x1="60" y1="29.5" x2="60" y2="35.5" stroke="#3a3a3a" strokeWidth="0.8" opacity="0.7" />
     </svg>
   );
 }
@@ -371,10 +391,26 @@ function CenserSvg(props: { count: number }) {
       {/* ground shadow */}
       <ellipse cx="120" cy="170" rx="78" ry="6" fill="#6b5424" opacity="0.12" />
 
-      {/* three lion feet */}
-      <path d="M78 150 q-7 9 -3 17 l11 0 q2 -9 -3 -17 Z" fill="#8a6a24" />
-      <path d="M162 150 q7 9 3 17 l-11 0 q-2 -9 3 -17 Z" fill="#8a6a24" />
-      <path d="M112 154 l16 0 q3 8 -2 16 l-12 0 q-5 -8 -2 -16 Z" fill="#7c5f22" />
+      {/* three lion-paw feet */}
+      {[
+        { x: 80, front: false },
+        { x: 160, front: false },
+        { x: 120, front: true },
+      ].map((f) => {
+        const py = f.front ? 173 : 169;
+        return (
+          <g key={`foot-${f.x}`}>
+            <path
+              d={`M${f.x - 8} 146 L${f.x - 6} ${py - 4} Q${f.x} ${py - 1} ${f.x + 6} ${py - 4} L${f.x + 8} 146 Z`}
+              fill="#9a7a2c"
+            />
+            <ellipse cx={f.x} cy={py} rx="11" ry="6.5" fill="#8a6a24" />
+            <ellipse cx={f.x - 6} cy={py} rx="3.2" ry="4.4" fill="#7c5f22" />
+            <ellipse cx={f.x} cy={py + 1} rx="3.4" ry="4.8" fill="#7c5f22" />
+            <ellipse cx={f.x + 6} cy={py} rx="3.2" ry="4.4" fill="#7c5f22" />
+          </g>
+        );
+      })}
 
       {/* pot belly */}
       <path d="M56 96 Q52 150 92 152 L148 152 Q188 150 184 96 Z" fill="url(#brassBig)" />
