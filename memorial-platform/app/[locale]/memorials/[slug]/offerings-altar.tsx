@@ -7,7 +7,9 @@ import type { OfferingSummary } from "@/modules/offerings/display";
 
 /* ────────────── SVG icons ────────────── */
 
+/** 青铜双耳三足龙纹香炉，正面「福」字，炉内插满点燃的线香。 */
 function IncenseIcon() {
+  const sticks = [30, 36, 40, 44, 50];
   return (
     <svg
       className="altarItemSvg"
@@ -16,90 +18,188 @@ function IncenseIcon() {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      <ellipse cx="40" cy="95" rx="28" ry="6" fill="#8b6914" opacity="0.18" />
+      <defs>
+        <linearGradient id="brassSmall" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#e0c079" />
+          <stop offset="0.45" stopColor="#b5912f" />
+          <stop offset="1" stopColor="#795c20" />
+        </linearGradient>
+      </defs>
+
+      {/* drop shadow */}
+      <ellipse cx="40" cy="110" rx="30" ry="4" fill="#6b5424" opacity="0.14" />
+
+      {/* three lion feet */}
+      <path d="M25 100 q-4 5 -2 9 l5 0 q1 -5 -1 -9 Z" fill="#8a6a24" />
+      <path d="M55 100 q4 5 2 9 l-5 0 q-1 -5 1 -9 Z" fill="#8a6a24" />
+      <path d="M38 103 l4 0 q1 4 -1 8 l-2 0 q-2 -4 -1 -8 Z" fill="#7c5f22" />
+
+      {/* pot belly */}
       <path
-        d="M18 82c0 8 10 14 22 14s22-6 22-14"
-        stroke="#8b6914"
-        strokeWidth="2"
-        fill="none"
+        d="M18 80 Q15 104 32 106 L48 106 Q65 104 62 80 Z"
+        fill="url(#brassSmall)"
       />
-      <rect x="16" y="78" width="48" height="6" rx="3" fill="#c5a35f" />
-      <rect x="20" y="84" width="40" height="8" rx="2" fill="#b8960b" />
-      <ellipse cx="40" cy="78" rx="22" ry="3" fill="#d4c8a0" />
-      <line x1="32" y1="76" x2="32" y2="24" stroke="#8b6914" strokeWidth="1.8" />
-      <line x1="40" y1="76" x2="40" y2="20" stroke="#8b6914" strokeWidth="1.8" />
-      <line x1="48" y1="76" x2="48" y2="24" stroke="#8b6914" strokeWidth="1.8" />
-      <circle cx="32" cy="24" r="2.5" fill="#e67e22">
-        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="40" cy="20" r="2.5" fill="#e67e22">
-        <animate attributeName="r" values="2.5;3.2;2.5" dur="1.8s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="48" cy="24" r="2.5" fill="#e67e22">
-        <animate attributeName="r" values="2;2.8;2" dur="2.2s" repeatCount="indefinite" />
-      </circle>
-      <path d="M32 22c-2-8-4-14 0-20" stroke="#9e9e8e" strokeWidth="1" opacity="0.3" fill="none">
-        <animate attributeName="opacity" values="0.3;0.1;0.3" dur="3s" repeatCount="indefinite" />
-      </path>
-      <path d="M40 18c1-6 3-12 0-18" stroke="#9e9e8e" strokeWidth="1.2" opacity="0.25" fill="none">
-        <animate attributeName="opacity" values="0.25;0.08;0.25" dur="2.6s" repeatCount="indefinite" />
-      </path>
-      <path d="M48 22c2-7 3-13-1-19" stroke="#9e9e8e" strokeWidth="1" opacity="0.3" fill="none">
-        <animate attributeName="opacity" values="0.3;0.12;0.3" dur="3.2s" repeatCount="indefinite" />
-      </path>
+      {/* dragon-relief hint */}
+      <path d="M22 88 q9 5 18 0 q9 -5 18 0" stroke="#6f5420" strokeWidth="1" opacity="0.3" fill="none" />
+
+      {/* 福 medallion */}
+      <circle cx="40" cy="92" r="8.5" fill="#8a6a24" opacity="0.35" />
+      <circle cx="40" cy="92" r="8.5" fill="none" stroke="#ecd79a" strokeWidth="1.1" />
+      <text
+        x="40"
+        y="95.6"
+        textAnchor="middle"
+        fontSize="10"
+        fontWeight="700"
+        fill="#f4e6ab"
+        style={{ fontFamily: '"Songti SC","Noto Serif SC","SimSun",serif' }}
+      >
+        福
+      </text>
+
+      {/* ear-scroll handles */}
+      <path d="M18 79 q-9 -1 -9 8 q0 6 7 6" stroke="#b5912f" strokeWidth="3.4" fill="none" strokeLinecap="round" />
+      <path d="M62 79 q9 -1 9 8 q0 6 -7 6" stroke="#b5912f" strokeWidth="3.4" fill="none" strokeLinecap="round" />
+
+      {/* metallic rim + 回纹 band */}
+      <ellipse cx="40" cy="79" rx="25" ry="6.4" fill="#caa74f" />
+      <ellipse cx="40" cy="79" rx="25" ry="6.4" fill="none" stroke="#6f5420" strokeWidth="1" strokeDasharray="2 2.4" opacity="0.5" />
+
+      {/* incense sticks (bottoms hidden by ash below) */}
+      {sticks.map((x, i) => (
+        <line
+          key={i}
+          x1={x}
+          y1={79}
+          x2={x}
+          y2={24 + (i % 3) * 5}
+          stroke="#a9702f"
+          strokeWidth="1.6"
+        />
+      ))}
+
+      {/* ash bed hides stick bottoms */}
+      <ellipse cx="40" cy="77" rx="19" ry="3.4" fill="#ddd2b6" />
+      <ellipse cx="40" cy="76.4" rx="19" ry="1.4" fill="#f0e9d4" opacity="0.7" />
+
+      {/* glowing embers */}
+      {sticks.map((x, i) => (
+        <circle key={`e${i}`} cx={x} cy={24 + (i % 3) * 5} r="2.2" fill="#ef7d2a">
+          <animate attributeName="r" values="1.6;2.6;1.6" dur={`${1.8 + i * 0.2}s`} repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.7;1;0.7" dur={`${1.8 + i * 0.2}s`} repeatCount="indefinite" />
+        </circle>
+      ))}
+
+      {/* rising smoke */}
+      {[30, 40, 50].map((x, i) => (
+        <path
+          key={`s${i}`}
+          d={`M${x} ${22 - (i % 3) * 2} q -5 -9 0 -18 q 5 -9 0 -16`}
+          stroke="#b8b3a8"
+          strokeWidth="1.3"
+          strokeLinecap="round"
+          fill="none"
+          opacity="0.3"
+        >
+          <animate attributeName="opacity" values="0.3;0.08;0.3" dur={`${2.6 + i * 0.4}s`} repeatCount="indefinite" />
+        </path>
+      ))}
     </svg>
   );
 }
 
-/** Lotus votive candle — a warm glass cup cradled in lotus petals. */
+/** 红柱蜡烛 — 金色「平安吉祥」竖排字，铜莲花座，顶端火焰。 */
 function CandleIcon() {
   return (
     <svg
       className="altarItemSvg"
-      viewBox="0 0 48 100"
+      viewBox="0 0 56 120"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      {/* halo */}
-      <circle cx="24" cy="30" r="13" fill="#fcd34d" opacity="0.12">
-        <animate attributeName="r" values="13;16;13" dur="2s" repeatCount="indefinite" />
+      <defs>
+        <linearGradient id="candleRed" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#8a1a14" />
+          <stop offset="0.16" stopColor="#c62f26" />
+          <stop offset="0.5" stopColor="#e55044" />
+          <stop offset="0.64" stopColor="#c62f26" />
+          <stop offset="1" stopColor="#7c150f" />
+        </linearGradient>
+        <linearGradient id="candleGold" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#efd484" />
+          <stop offset="1" stopColor="#a97f2c" />
+        </linearGradient>
+      </defs>
+
+      {/* flame halo */}
+      <circle cx="28" cy="23" r="12" fill="#fcd34d" opacity="0.14">
+        <animate attributeName="r" values="12;15;12" dur="2.4s" repeatCount="indefinite" />
       </circle>
       {/* flame */}
-      <ellipse cx="24" cy="30" rx="4.6" ry="10.5" fill="#f59e0b" opacity="0.92">
-        <animate attributeName="ry" values="10.5;12;9.8;10.5" dur="0.9s" repeatCount="indefinite" />
+      <ellipse cx="28" cy="22" rx="4.3" ry="10" fill="#f59e0b" opacity="0.92">
+        <animate attributeName="ry" values="10;11.6;9.3;10" dur="0.9s" repeatCount="indefinite" />
       </ellipse>
-      <ellipse cx="24" cy="31" rx="2.4" ry="5.8" fill="#fef3c7" opacity="0.9" />
-      <line x1="24" y1="41" x2="24" y2="34" stroke="#5b5147" strokeWidth="1" />
-      {/* candle body */}
-      <rect x="18" y="41" width="12" height="17" rx="1.5" fill="#fbe4c6" />
-      <rect x="18" y="41" width="4.5" height="17" fill="#ffffff" opacity="0.3" />
-      {/* glass cup */}
-      <path
-        d="M13 57 H35 L32.5 82 Q32 87 27 87 H21 Q16 87 15.5 82 Z"
-        fill="#fde68a"
-        opacity="0.22"
-        stroke="#e6c67a"
-        strokeWidth="1"
-      />
-      {/* lotus petals */}
-      <ellipse cx="24" cy="88" rx="18" ry="5" fill="#dda0aa" opacity="0.14" />
-      <path d="M24 90 C15 86 13 79 16 74 C21 79 24 83 24 90 Z" fill="#f7cdd4" />
-      <path d="M24 90 C33 86 35 79 32 74 C27 79 24 83 24 90 Z" fill="#f4bcc6" />
-      <path d="M24 91 C19 85 18 79 21 75 C24 80 25 84 24 91 Z" fill="#fbe0e4" />
-      <path d="M24 91 C29 85 30 79 27 75 C24 80 23 84 24 91 Z" fill="#fbe0e4" />
-      <path d="M24 92 C22 87 22 82 24 78 C26 82 26 87 24 92 Z" fill="#fff2f4" />
+      <ellipse cx="28" cy="23.5" rx="2.1" ry="5.3" fill="#fef3c7" />
+      <line x1="28" y1="34" x2="28" y2="29" stroke="#4a3f33" strokeWidth="1.2" />
+
+      {/* recessed wax pool at the top */}
+      <ellipse cx="28" cy="36" rx="12" ry="3.6" fill="#7c150f" />
+      <ellipse cx="28" cy="35" rx="12" ry="3.2" fill="#b8261d" />
+      <ellipse cx="28" cy="35" rx="8.5" ry="2" fill="#5c110c" />
+
+      {/* pillar body */}
+      <rect x="16" y="35" width="24" height="66" rx="2.5" fill="url(#candleRed)" />
+      <rect x="18.5" y="47" width="3.5" height="42" rx="1.75" fill="#ffffff" opacity="0.18" />
+
+      {/* gold bands (回纹) top & bottom */}
+      <g>
+        <rect x="16" y="41" width="24" height="6" fill="url(#candleGold)" />
+        <rect x="16" y="42" width="24" height="0.8" fill="#7c5f22" opacity="0.55" />
+        <rect x="16" y="45.2" width="24" height="0.8" fill="#7c5f22" opacity="0.55" />
+        <rect x="16" y="89" width="24" height="6" fill="url(#candleGold)" />
+        <rect x="16" y="90" width="24" height="0.8" fill="#7c5f22" opacity="0.55" />
+        <rect x="16" y="93.2" width="24" height="0.8" fill="#7c5f22" opacity="0.55" />
+      </g>
+
+      {/* vertical gold text 平安吉祥 */}
+      <g
+        fill="#f2d97e"
+        textAnchor="middle"
+        fontWeight="700"
+        fontSize="8.6"
+        style={{ fontFamily: '"Songti SC","Noto Serif SC","SimSun",serif' }}
+      >
+        <text x="28" y="58">平</text>
+        <text x="28" y="68.5">安</text>
+        <text x="28" y="79">吉</text>
+        <text x="28" y="89.5">祥</text>
+      </g>
+
+      {/* bronze lotus base */}
+      <ellipse cx="28" cy="112" rx="19" ry="4" fill="#6b5424" opacity="0.14" />
+      <g fill="url(#candleGold)" stroke="#7c5f22" strokeWidth="0.5">
+        <path d="M28 108 C20 108 15 103 14 97 C21 99 26 102 28 108 Z" />
+        <path d="M28 108 C36 108 41 103 42 97 C35 99 30 102 28 108 Z" />
+        <path d="M28 109 C23 108 19 104 18 99 C24 100 27 103 28 109 Z" />
+        <path d="M28 109 C33 108 37 104 38 99 C32 100 29 103 28 109 Z" />
+        <path d="M28 110 C26 106 25 101 28 97 C31 101 30 106 28 110 Z" />
+      </g>
+      {/* pedestal foot */}
+      <rect x="20" y="108" width="16" height="5" rx="2" fill="url(#candleGold)" />
+      <ellipse cx="28" cy="114" rx="12" ry="3" fill="#a97f2c" />
+      <ellipse cx="28" cy="113.4" rx="12" ry="1.2" fill="#e6cf8f" opacity="0.7" />
     </svg>
   );
 }
 
-/** Chrysanthemum funeral wreath on a stand, ribbons hanging. */
+/** 白菊花圈 — 顶部黑蝴蝶结，中间白色挽联，黑色三脚架。 */
 function WreathIcon() {
   const cx = 60;
-  const cy = 54;
-  const radius = 38;
-  const clusters = Array.from({ length: 16 }, (_, i) => {
-    const angle = (i / 16) * Math.PI * 2 - Math.PI / 2;
+  const cy = 62;
+  const radius = 40;
+  const clusters = Array.from({ length: 18 }, (_, i) => {
+    const angle = (i / 18) * Math.PI * 2 - Math.PI / 2;
     return {
       x: cx + Math.cos(angle) * radius,
       y: cy + Math.sin(angle) * radius,
@@ -115,26 +215,38 @@ function WreathIcon() {
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
     >
-      {/* stand */}
-      <line x1="60" y1="92" x2="40" y2="150" stroke="#8a7a5c" strokeWidth="2.5" />
-      <line x1="60" y1="92" x2="80" y2="150" stroke="#8a7a5c" strokeWidth="2.5" />
-      <line x1="40" y1="150" x2="80" y2="150" stroke="#8a7a5c" strokeWidth="2" />
-      {/* green ring */}
-      <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#4a7c4a" strokeWidth="13" opacity="0.55" />
-      <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#6aa06a" strokeWidth="7" opacity="0.4" />
-      {/* ribbons (挽联 text is shown below the card, so these stay decorative) */}
-      <rect x="47" y="50" width="11" height="62" rx="1" fill="#f7f2e4" stroke="#c5a35f" strokeWidth="0.6" />
-      <rect x="62" y="50" width="11" height="62" rx="1" fill="#f7f2e4" stroke="#c5a35f" strokeWidth="0.6" />
-      <line x1="52.5" y1="58" x2="52.5" y2="106" stroke="#c9b48a" strokeWidth="0.6" opacity="0.5" strokeDasharray="1 4" />
-      <line x1="67.5" y1="58" x2="67.5" y2="106" stroke="#c9b48a" strokeWidth="0.6" opacity="0.5" strokeDasharray="1 4" />
-      {/* chrysanthemum clusters */}
+      {/* black tripod easel (behind) */}
+      <line x1="60" y1="66" x2="30" y2="152" stroke="#1e1e1e" strokeWidth="3" strokeLinecap="round" />
+      <line x1="60" y1="66" x2="90" y2="152" stroke="#1e1e1e" strokeWidth="3" strokeLinecap="round" />
+      <line x1="62" y1="70" x2="66" y2="150" stroke="#3a3a3a" strokeWidth="2.4" strokeLinecap="round" />
+      <line x1="36" y1="128" x2="84" y2="128" stroke="#1e1e1e" strokeWidth="2" />
+
+      {/* green foliage ring */}
+      <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#3f7a3f" strokeWidth="15" opacity="0.55" />
+      <circle cx={cx} cy={cy} r={radius} fill="none" stroke="#63a463" strokeWidth="8" opacity="0.4" />
+
+      {/* white chrysanthemum clusters */}
       {clusters.map((c, i) => (
         <g key={i}>
-          <circle cx={c.x} cy={c.y} r="6" fill={c.pale ? "#fbfaf3" : "#f3e2a0"} />
-          <circle cx={c.x} cy={c.y} r="5" fill="none" stroke={c.pale ? "#e9e2c8" : "#e0cd82"} strokeWidth="0.8" />
-          <circle cx={c.x} cy={c.y} r="1.8" fill="#d3ac47" />
+          <circle cx={c.x} cy={c.y} r="6.2" fill={c.pale ? "#ffffff" : "#f7f4ea"} />
+          <circle cx={c.x} cy={c.y} r="5.2" fill="none" stroke="#e7e2d2" strokeWidth="0.8" />
+          <circle cx={c.x} cy={c.y} r="1.7" fill="#eadfa8" />
         </g>
       ))}
+
+      {/* white ribbons (挽联) hanging down the centre */}
+      <path d="M53 30 h6 v112 l-3 -6 l-3 6 Z" fill="#f7f4ec" stroke="#d9cfb4" strokeWidth="0.5" />
+      <path d="M61 30 h6 v112 l-3 -6 l-3 6 Z" fill="#f2ede1" stroke="#d9cfb4" strokeWidth="0.5" />
+
+      {/* black bow at the top */}
+      <g fill="#191919">
+        <path d="M60 30 C50 20 38 22 41 32 C43 40 54 36 60 32 Z" />
+        <path d="M60 30 C70 20 82 22 79 32 C77 40 66 36 60 32 Z" />
+        <path d="M57 32 L49 50 L58 45 Z" />
+        <path d="M63 32 L71 50 L62 45 Z" />
+      </g>
+      <circle cx="60" cy="31" r="4.4" fill="#0d0d0d" />
+      <circle cx="60" cy="30" r="1.4" fill="#3a3a3a" />
     </svg>
   );
 }
@@ -212,17 +324,17 @@ function CenserSvg(props: { count: number }) {
   const visible = Math.min(props.count, maxVisible);
 
   const sticks: Array<{ x: number; h: number; delay: string }> = [];
-  const left = 62;
-  const right = 178;
+  const left = 74;
+  const right = 166;
   const range = right - left;
 
   if (visible <= 3) {
-    const gap = 20;
+    const gap = 22;
     const start = 120 - ((visible - 1) * gap) / 2;
     for (let i = 0; i < visible; i++) {
       sticks.push({
         x: start + i * gap,
-        h: 50 + (i % 3) * 6,
+        h: 58 + (i % 3) * 7,
         delay: `${i * 0.5}s`,
       });
     }
@@ -231,7 +343,7 @@ function CenserSvg(props: { count: number }) {
       const t = (i + 0.5) / visible;
       sticks.push({
         x: left + t * range,
-        h: 44 + ((i * 7 + 3) % 14),
+        h: 52 + ((i * 7 + 3) % 16),
         delay: `${((i * 0.3) % 3).toFixed(1)}s`,
       });
     }
@@ -240,7 +352,7 @@ function CenserSvg(props: { count: number }) {
   return (
     <svg
       className="altarCenserSvg"
-      viewBox="0 0 240 155"
+      viewBox="0 0 240 178"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
@@ -249,33 +361,71 @@ function CenserSvg(props: { count: number }) {
         <filter id="censerSmoke" x="-60%" y="-60%" width="220%" height="220%">
           <feGaussianBlur stdDeviation="1.7" />
         </filter>
+        <linearGradient id="brassBig" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#e2c37c" />
+          <stop offset="0.45" stopColor="#b5912f" />
+          <stop offset="1" stopColor="#775a1f" />
+        </linearGradient>
       </defs>
-      <ellipse cx="120" cy="148" rx="72" ry="5" fill="#8b6914" opacity="0.1" />
-      <rect x="80" y="130" width="5" height="12" rx="1" fill="#7a6035" />
-      <rect x="118" y="130" width="5" height="12" rx="1" fill="#7a6035" />
-      <rect x="156" y="130" width="5" height="12" rx="1" fill="#7a6035" />
-      <path d="M58 88 Q58 130 82 130 L158 130 Q182 130 182 88" fill="#a08040" />
-      <rect x="58" y="88" width="124" height="4" rx="0" fill="rgba(255,255,255,0.08)" />
-      <rect x="65" y="105" width="110" height="3" rx="1.5" fill="#c5a35f" opacity="0.35" />
-      <ellipse cx="120" cy="88" rx="68" ry="10" fill="#c5a35f" />
-      <ellipse cx="120" cy="86" rx="64" ry="8" fill="#b89840" />
-      <ellipse cx="120" cy="86" rx="56" ry="5" fill="#d4c8a0" />
-      <circle cx="46" cy="104" r="7" stroke="#c5a35f" strokeWidth="2" fill="none" />
-      <circle cx="194" cy="104" r="7" stroke="#c5a35f" strokeWidth="2" fill="none" />
+
+      {/* ground shadow */}
+      <ellipse cx="120" cy="170" rx="78" ry="6" fill="#6b5424" opacity="0.12" />
+
+      {/* three lion feet */}
+      <path d="M78 150 q-7 9 -3 17 l11 0 q2 -9 -3 -17 Z" fill="#8a6a24" />
+      <path d="M162 150 q7 9 3 17 l-11 0 q-2 -9 3 -17 Z" fill="#8a6a24" />
+      <path d="M112 154 l16 0 q3 8 -2 16 l-12 0 q-5 -8 -2 -16 Z" fill="#7c5f22" />
+
+      {/* pot belly */}
+      <path d="M56 96 Q52 150 92 152 L148 152 Q188 150 184 96 Z" fill="url(#brassBig)" />
+      {/* dragon-relief hint */}
+      <path d="M66 116 q27 12 54 0 q27 -12 54 0" stroke="#6f5420" strokeWidth="1.6" opacity="0.28" fill="none" />
+      <path d="M70 128 q25 9 50 0 q25 -9 50 0" stroke="#6f5420" strokeWidth="1.2" opacity="0.2" fill="none" />
+
+      {/* 福 medallion */}
+      <circle cx="120" cy="120" r="19" fill="#8a6a24" opacity="0.32" />
+      <circle cx="120" cy="120" r="19" fill="none" stroke="#ecd79a" strokeWidth="2" />
+      <text
+        x="120"
+        y="128"
+        textAnchor="middle"
+        fontSize="24"
+        fontWeight="700"
+        fill="#f4e6ab"
+        style={{ fontFamily: '"Songti SC","Noto Serif SC","SimSun",serif' }}
+      >
+        福
+      </text>
+
+      {/* ear-scroll handles */}
+      <path d="M56 92 q-20 -2 -20 16 q0 13 15 13" stroke="url(#brassBig)" strokeWidth="8" fill="none" strokeLinecap="round" />
+      <path d="M184 92 q20 -2 20 16 q0 13 -15 13" stroke="url(#brassBig)" strokeWidth="8" fill="none" strokeLinecap="round" />
+
+      {/* metallic rim + 回纹 band */}
+      <ellipse cx="120" cy="92" rx="70" ry="11" fill="#caa74f" />
+      <ellipse cx="120" cy="90" rx="66" ry="9" fill="#b89840" />
+      <ellipse cx="120" cy="92" rx="70" ry="11" fill="none" stroke="#6f5420" strokeWidth="1.4" strokeDasharray="4 4" opacity="0.5" />
+
       {sticks.map((s, i) => (
-        <g key={i}>
-          <line x1={s.x} y1={82} x2={s.x} y2={82 - s.h} stroke="#8b6914" strokeWidth="1.5" />
-          <circle cx={s.x} cy={82 - s.h} r="2" fill="#e67e22">
-            <animate attributeName="r" values="1.5;2.5;1.5" dur="2s" begin={s.delay} repeatCount="indefinite" />
-          </circle>
-        </g>
+        <line key={i} x1={s.x} y1={90} x2={s.x} y2={90 - s.h} stroke="#a9702f" strokeWidth="1.8" />
+      ))}
+
+      {/* ash bed hides stick bottoms */}
+      <ellipse cx="120" cy="88" rx="56" ry="6" fill="#d9cfb4" />
+      <ellipse cx="120" cy="86.5" rx="56" ry="2.4" fill="#f0e9d4" opacity="0.7" />
+
+      {sticks.map((s, i) => (
+        <circle key={`e${i}`} cx={s.x} cy={90 - s.h} r="2.4" fill="#ef7d2a">
+          <animate attributeName="r" values="1.6;2.8;1.6" dur="2s" begin={s.delay} repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" begin={s.delay} repeatCount="indefinite" />
+        </circle>
       ))}
       {/* Smoke rising gently from the censer — soft, blurred wisps that drift
           upward, sway a little and fade near the top. */}
       {[
-        { x: 104, base: 72, begin: "0s", dur: "6.5s" },
-        { x: 121, base: 68, begin: "2.1s", dur: "7.4s" },
-        { x: 138, base: 73, begin: "4.3s", dur: "6.8s" },
+        { x: 102, base: 82, begin: "0s", dur: "6.5s" },
+        { x: 121, base: 78, begin: "2.1s", dur: "7.4s" },
+        { x: 140, base: 83, begin: "4.3s", dur: "6.8s" },
       ].map((w, i) => (
         <g key={`smoke-${i}`} transform={`translate(${w.x} ${w.base})`}>
           <g opacity="0">
