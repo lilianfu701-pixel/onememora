@@ -25,7 +25,8 @@
     "help": "도움말",
     "language": "언어",
     "myProfile": "내 프로필",
-    "myAccount": "내 계정"
+    "myAccount": "내 계정",
+    "inbox": "Inbox"
   },
   "home": {
     "title": "모든 삶은 기억될 가치가 있습니다.",
@@ -345,7 +346,8 @@
     "chapterMore": "Read more",
     "chapterLess": "Show less",
     "enterMemorialBottom": "Open memorial page →",
-    "anonymousVisitor": "A visitor"
+    "anonymousVisitor": "A visitor",
+    "contactHint": "Your reply arrives through the inbox — no contact details needed."
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",
@@ -636,5 +638,17 @@
     "approve": "Approve",
     "reject": "Decline",
     "reviewFailed": "Something went wrong. Please try again."
+  },
+  "inbox": {
+    "title": "Inbox",
+    "signInFirst": "Sign in to see your messages.",
+    "empty": "No messages yet.",
+    "systemSender": "System",
+    "someone": "Someone",
+    "openMemorial": "Open memorial page",
+    "reply": "Reply",
+    "replyPlaceholder": "Write a reply…",
+    "replyFailed": "Could not send. Please try again.",
+    "replySent": "Reply sent."
   }
 }

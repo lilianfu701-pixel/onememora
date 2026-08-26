@@ -7,6 +7,7 @@ import type { Actor } from "@/modules/permissions/types";
 import { memorialRoleFor } from "./membership";
 import { canOnMemorial } from "@/modules/permissions/policy";
 import { verifyKinshipAnswer } from "./kinship-challenge";
+import { notify } from "@/modules/messaging/inbox";
 
 export type RecognitionError =
   | "AUTH_REQUIRED"
@@ -100,6 +101,18 @@ export async function createRecognitionClaim(
     },
     correlationId,
   });
+
+  // Tell whoever owns this memorial that someone claims to be a relative. It
+  // lands in their inbox as a system message; deciding the claim stays a
+  // deliberate act on the manage page. Failure here never blocks the claim.
+  if (memorial.ownerUserId) {
+    await notify({
+      recipientUserId: memorial.ownerUserId,
+      memorialId: input.memorialId,
+      subject: input.claimedName,
+      body: `${input.claimedName} 请求确认与本纪念页的亲属关系。请到管理页审核。`,
+    });
+  }
 
   return ok({ claimId: row!.id, kinshipVerified });
 }

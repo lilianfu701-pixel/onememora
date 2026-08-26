@@ -455,6 +455,8 @@ export default async function MemorialPage(props: {
               <ContactManager
                 memorialId={detail.memorialId}
                 label={t("contactManager")}
+                signedIn={viewer.userId !== null}
+                signInHref={`/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/${detail.slug}`)}`}
               />
             </p>
           ) : null}

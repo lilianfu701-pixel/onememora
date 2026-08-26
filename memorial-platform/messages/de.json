@@ -25,7 +25,8 @@
     "help": "Hilfe",
     "language": "Sprache",
     "myProfile": "Mein Profil",
-    "myAccount": "Mein Konto"
+    "myAccount": "Mein Konto",
+    "inbox": "Inbox"
   },
   "home": {
     "title": "Jedes Leben verdient es, in Erinnerung zu bleiben.",
@@ -345,7 +346,8 @@
     "chapterMore": "Read more",
     "chapterLess": "Show less",
     "enterMemorialBottom": "Open memorial page →",
-    "anonymousVisitor": "A visitor"
+    "anonymousVisitor": "A visitor",
+    "contactHint": "Your reply arrives through the inbox — no contact details needed."
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",
@@ -636,5 +638,17 @@
     "approve": "Approve",
     "reject": "Decline",
     "reviewFailed": "Something went wrong. Please try again."
+  },
+  "inbox": {
+    "title": "Inbox",
+    "signInFirst": "Sign in to see your messages.",
+    "empty": "No messages yet.",
+    "systemSender": "System",
+    "someone": "Someone",
+    "openMemorial": "Open memorial page",
+    "reply": "Reply",
+    "replyPlaceholder": "Write a reply…",
+    "replyFailed": "Could not send. Please try again.",
+    "replySent": "Reply sent."
   }
 }

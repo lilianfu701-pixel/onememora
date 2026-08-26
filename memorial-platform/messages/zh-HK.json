@@ -25,7 +25,8 @@
     "help": "說明",
     "language": "語言",
     "myProfile": "我的資料",
-    "myAccount": "我的帳戶"
+    "myAccount": "我的帳戶",
+    "inbox": "收件匣"
   },
   "home": {
     "title": "每一個生命都值得被紀念。",
@@ -345,7 +346,8 @@
     "chapterMore": "展開全文",
     "chapterLess": "收起",
     "enterMemorialBottom": "進入追思頁 →",
-    "anonymousVisitor": "訪客"
+    "anonymousVisitor": "訪客",
+    "contactHint": "回覆會透過站內信送達，無需留聯絡方式。"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",
@@ -636,5 +638,17 @@
     "approve": "通過",
     "reject": "拒絕",
     "reviewFailed": "操作失敗，請重試。"
+  },
+  "inbox": {
+    "title": "收件匣",
+    "signInFirst": "請先登入查看你的訊息。",
+    "empty": "暫時沒有訊息。",
+    "systemSender": "系統訊息",
+    "someone": "某人",
+    "openMemorial": "開啟紀念頁",
+    "reply": "回覆",
+    "replyPlaceholder": "寫下回覆…",
+    "replyFailed": "發送失敗，請重試。",
+    "replySent": "回覆已發送。"
   }
 }

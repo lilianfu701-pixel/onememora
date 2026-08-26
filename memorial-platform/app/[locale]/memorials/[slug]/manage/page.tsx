@@ -34,7 +34,6 @@ import { ChaptersEditor } from "./chapters-editor";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
 import { ContributionsReview } from "./contributions-review";
 import { listPendingContributions } from "@/modules/memorials/contributions";
-import { listContactMessages } from "@/modules/memorials/contact";
 
 export const dynamic = "force-dynamic";
 
@@ -161,12 +160,6 @@ export default async function ManageMemorialPage(props: {
     ? await listPendingContributions(detail.memorialId)
     : null;
 
-  // Private messages visitors sent to the family.
-  const contactResult = mayModerate
-    ? await listContactMessages(actor, detail.memorialId)
-    : null;
-  const contactMessages =
-    contactResult && contactResult.ok ? contactResult.value : [];
 
   // People asking to be recognised as a relative of this person. Only someone
   // trusted with the family links sees or answers them.
@@ -189,8 +182,7 @@ export default async function ManageMemorialPage(props: {
 
   const hasReview =
     (mayManageFamily && recognitionClaims.length > 0) ||
-    Boolean(pendingContributions && pendingContributions.length > 0) ||
-    contactMessages.length > 0;
+    Boolean(pendingContributions && pendingContributions.length > 0);
 
   return (
     <main id="main" className="container section">
@@ -225,34 +217,6 @@ export default async function ManageMemorialPage(props: {
                   locale={normalized}
                   initial={pendingContributions}
                 />
-              </div>
-            ) : null}
-            {contactMessages.length > 0 ? (
-              <div className="manageCard">
-                <h2>{t("contactMessagesTitle")}</h2>
-                <ul className="contactMsgList">
-                  {contactMessages.map((m) => (
-                    <li className="contactMsg" key={m.id}>
-                      <div className="contactMsgHead">
-                        <span className="contactMsgWho">
-                          {m.name?.trim() || t("anonymousVisitor")}
-                          {m.contact ? (
-                            <span className="contactMsgReach">
-                              {" · "}
-                              {m.contact}
-                            </span>
-                          ) : null}
-                        </span>
-                        {!m.read ? (
-                          <span className="contactMsgUnread">
-                            {t("contactUnread")}
-                          </span>
-                        ) : null}
-                      </div>
-                      <p className="contactMsgBody">{m.body}</p>
-                    </li>
-                  ))}
-                </ul>
               </div>
             ) : null}
           </section>

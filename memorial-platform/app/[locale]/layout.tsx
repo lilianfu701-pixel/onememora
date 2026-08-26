@@ -9,6 +9,7 @@ import { routing } from "@/i18n/routing";
 import { textDirection } from "@/lib/locale";
 import type { Locale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
+import { unreadInboxCount } from "@/modules/messaging/inbox";
 import { SignOutButton } from "../sign-out-button";
 import "../globals.css";
 
@@ -61,6 +62,7 @@ export default async function LocaleLayout(props: {
   const nav = await getTranslations("nav");
   const a11y = await getTranslations("a11y");
   const actor = await currentActor();
+  const unread = actor.userId ? await unreadInboxCount(actor.userId) : 0;
 
   return (
     <html
@@ -92,6 +94,14 @@ export default async function LocaleLayout(props: {
                   <>
                     <Link href={`/${locale}/memorials`}>
                       {nav("myMemorials")}
+                    </Link>
+                    <Link href={`/${locale}/inbox`} className="navInbox">
+                      {nav("inbox")}
+                      {unread > 0 ? (
+                        <span className="navBadge" aria-hidden="true">
+                          {unread > 99 ? "99+" : unread}
+                        </span>
+                      ) : null}
                     </Link>
                     <Link href={`/${locale}/account`}>{nav("myAccount")}</Link>
                     <SignOutButton locale={locale} />

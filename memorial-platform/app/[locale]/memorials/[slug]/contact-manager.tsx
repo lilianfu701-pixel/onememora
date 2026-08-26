@@ -1,41 +1,47 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import { useState } from "react";
 
 /**
- * "Contact the family" — a visitor writes privately to whoever manages this
- * memorial. The message is not shown on the page; it reaches the manage view.
+ * "Contact the family" — a signed-in visitor writes privately to whoever
+ * manages this memorial. The message lands in the managers' inboxes; a reply
+ * routes back through the system, so no contact details are exchanged.
  */
-export function ContactManager(props: { memorialId: string; label: string }) {
+export function ContactManager(props: {
+  memorialId: string;
+  label: string;
+  signedIn: boolean;
+  signInHref: string;
+}) {
   const t = useTranslations("memorial");
   const common = useTranslations("common");
 
   const [open, setOpen] = useState(false);
-  const [name, setName] = useState("");
-  const [contact, setContact] = useState("");
   const [body, setBody] = useState("");
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">(
     "idle",
   );
+
+  if (!props.signedIn) {
+    return (
+      <Link className="linkButton contactManagerLink" href={props.signInHref}>
+        {props.label}
+      </Link>
+    );
+  }
 
   async function send(event: React.FormEvent): Promise<void> {
     event.preventDefault();
     if (body.trim().length === 0 || state === "sending") return;
     setState("sending");
     try {
-      const res = await fetch(
-        `/api/memorials/${props.memorialId}/contact`,
-        {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({
-            body: body.trim(),
-            name: name.trim() || undefined,
-            contact: contact.trim() || undefined,
-          }),
-        },
-      );
+      const res = await fetch(`/api/memorials/${props.memorialId}/contact`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ body: body.trim() }),
+      });
       setState(res.ok ? "sent" : "error");
     } catch {
       setState("error");
@@ -70,29 +76,7 @@ export function ContactManager(props: { memorialId: string; label: string }) {
           onChange={(e) => setBody(e.target.value)}
         />
       </label>
-      <div className="contactFormRow">
-        <label className="field">
-          <span className="fieldLabel">{t("contactNameLabel")}</span>
-          <input
-            className="input"
-            type="text"
-            maxLength={80}
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </label>
-        <label className="field">
-          <span className="fieldLabel">{t("contactReachLabel")}</span>
-          <input
-            className="input"
-            type="text"
-            maxLength={120}
-            placeholder={t("contactReachHint")}
-            value={contact}
-            onChange={(e) => setContact(e.target.value)}
-          />
-        </label>
-      </div>
+      <p className="muted contactHint">{t("contactHint")}</p>
       {state === "error" ? (
         <p className="fieldError" role="alert">
           {t("contactFailed")}

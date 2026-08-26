@@ -25,7 +25,8 @@
     "help": "Aide",
     "language": "Langue",
     "myProfile": "Mon profil",
-    "myAccount": "Mon compte"
+    "myAccount": "Mon compte",
+    "inbox": "Inbox"
   },
   "home": {
     "title": "Chaque vie mérite qu'on s'en souvienne.",
@@ -345,7 +346,8 @@
     "chapterMore": "Read more",
     "chapterLess": "Show less",
     "enterMemorialBottom": "Open memorial page →",
-    "anonymousVisitor": "A visitor"
+    "anonymousVisitor": "A visitor",
+    "contactHint": "Your reply arrives through the inbox — no contact details needed."
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",
@@ -636,5 +638,17 @@
     "approve": "Approve",
     "reject": "Decline",
     "reviewFailed": "Something went wrong. Please try again."
+  },
+  "inbox": {
+    "title": "Inbox",
+    "signInFirst": "Sign in to see your messages.",
+    "empty": "No messages yet.",
+    "systemSender": "System",
+    "someone": "Someone",
+    "openMemorial": "Open memorial page",
+    "reply": "Reply",
+    "replyPlaceholder": "Write a reply…",
+    "replyFailed": "Could not send. Please try again.",
+    "replySent": "Reply sent."
   }
 }

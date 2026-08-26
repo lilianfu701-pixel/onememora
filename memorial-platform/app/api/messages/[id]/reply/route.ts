@@ -7,7 +7,7 @@ import {
   readJson,
 } from "@/lib/api";
 import { currentActor } from "@/modules/auth/current-user";
-import { contactManagers } from "@/modules/messaging/inbox";
+import { replyToMessage } from "@/modules/messaging/inbox";
 
 export const dynamic = "force-dynamic";
 
@@ -15,11 +15,7 @@ const schema = z.object({
   body: z.string().trim().min(1).max(2000),
 });
 
-/**
- * A signed-in visitor writes to whoever manages this memorial. The message
- * lands in the managers' inboxes; a reply routes back through the system, so no
- * contact details are exchanged.
- */
+/** Replies to a message in the caller's inbox — a new message to its sender. */
 export async function POST(
   request: Request,
   context: { params: Promise<{ id: string }> },
@@ -35,7 +31,7 @@ export async function POST(
   if (!body.ok) return body.response;
 
   const actor = await currentActor();
-  const result = await contactManagers(actor, id, body.value.body, correlationId);
+  const result = await replyToMessage(actor, id, body.value.body, correlationId);
 
   if (!result.ok) {
     switch (result.error) {
@@ -48,7 +44,7 @@ export async function POST(
         return jsonError("MEMORIAL_NOT_FOUND", correlationId);
       default:
         return jsonUnprocessable(correlationId, {
-          body: ["Please write a message first."],
+          body: ["Please write a reply first."],
         });
     }
   }

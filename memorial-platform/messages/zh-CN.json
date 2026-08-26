@@ -25,7 +25,8 @@
     "help": "帮助",
     "language": "语言",
     "myProfile": "我的资料",
-    "myAccount": "我的账户"
+    "myAccount": "我的账户",
+    "inbox": "收件箱"
   },
   "home": {
     "title": "每一个生命都值得被纪念。",
@@ -345,7 +346,8 @@
     "chapterMore": "展开全文",
     "chapterLess": "收起",
     "enterMemorialBottom": "进入追思页 →",
-    "anonymousVisitor": "访客"
+    "anonymousVisitor": "访客",
+    "contactHint": "回复会通过站内信送达，无需留联系方式。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -636,5 +638,17 @@
     "approve": "通过",
     "reject": "拒绝",
     "reviewFailed": "操作失败，请重试。"
+  },
+  "inbox": {
+    "title": "收件箱",
+    "signInFirst": "请先登录查看你的消息。",
+    "empty": "暂时没有消息。",
+    "systemSender": "系统消息",
+    "someone": "某人",
+    "openMemorial": "打开纪念页",
+    "reply": "回复",
+    "replyPlaceholder": "写下回复…",
+    "replyFailed": "发送失败，请重试。",
+    "replySent": "回复已发送。"
   }
 }
