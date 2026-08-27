@@ -3168,6 +3168,45 @@ a.famCard:focus-visible {
   height: 86px;
 }
 
+/* Prop artwork plaques — glowing dark-ground renders shown as rounded tiles,
+   so their dark backgrounds read as an intentional frame on the light altar. */
+.altarPhoto {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #0f0b07;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  flex: none;
+}
+
+.altarActionBtn .altarPhotoIncense {
+  width: 84px;
+}
+.altarActionBtn .altarPhotoCandle,
+.altarActionBtn .altarPhotoWreath {
+  width: 44px;
+}
+
+.altarCenserPhoto {
+  width: clamp(190px, 62vw, 244px);
+}
+
+.altarCandleUnit .altarPhotoCandle {
+  width: 40px;
+}
+
+.altarWreathCard .altarPhotoWreath {
+  width: 108px;
+}
+
+.altarModalIcon .altarPhotoCandle {
+  width: 88px;
+}
+.altarModalIcon .altarPhotoWreath {
+  width: 120px;
+}
+
 /* ── 功德簿 Merit Book ── */
 
 .meritBook {
