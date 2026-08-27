@@ -2064,8 +2064,8 @@ a.famCard:focus-visible {
 
 .famAvatar {
   flex: none;
-  width: 34px;
-  height: 34px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--paper);
@@ -2073,7 +2073,7 @@ a.famCard:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--text-sm);
+  font-size: var(--text-lg);
   font-weight: 600;
   color: var(--muted);
   overflow: hidden;

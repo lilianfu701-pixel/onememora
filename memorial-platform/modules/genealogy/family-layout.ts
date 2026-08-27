@@ -15,8 +15,8 @@ import type { ChartPerson } from "./family-chart";
 
 // Cards stack a portrait over the name, so they are narrow and tall. Gaps are
 // kept tight: a chart that runs off the page is harder to read than a dense one.
-export const CARD_W = 108;
-export const CARD_H = 104;
+export const CARD_W = 120;
+export const CARD_H = 124;
 const COUPLE_GAP = 8; // spouses sit side by side, joined by a short line
 const SIB_GAP = 16; // room between sibling subtrees
 const GEN_GAP = 40; // vertical room between generations (couple row → children)
