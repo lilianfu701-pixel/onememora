@@ -10,6 +10,7 @@ import {
   memorialLocations,
   memorialRelatives,
   relationshipClaims,
+  users,
 } from "@/db/schema";
 import { countryName } from "@/lib/countries";
 import { env } from "@/lib/env";
@@ -310,6 +311,21 @@ export default async function MemorialPage(props: {
       ).length > 0
     : false;
 
+  // The signed-in visitor's own name, so lighting a candle can default to it.
+  const viewerName = viewer.userId
+    ? ((
+        await db()
+          .select({
+            displayName: users.displayName,
+            fullName: users.fullName,
+          })
+          .from(users)
+          .where(eq(users.id, viewer.userId))
+      )[0] ?? null)
+    : null;
+  const viewerDisplayName =
+    viewerName?.displayName?.trim() || viewerName?.fullName?.trim() || null;
+
   const formatPlace = (loc: { country: string | null; region: string | null }) =>
     [loc.region, loc.country ? countryName(loc.country, locale) : ""]
       .map((part) => part?.trim())
@@ -536,6 +552,7 @@ export default async function MemorialPage(props: {
               memorialId={detail.memorialId}
               summary={offerings}
               isLoggedIn={viewer.userId !== null}
+              viewerName={viewerDisplayName}
             />
 
             <Guestbook

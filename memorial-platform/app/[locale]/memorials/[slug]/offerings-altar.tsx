@@ -551,6 +551,8 @@ export function OfferingsAltar(props: {
   memorialId: string;
   summary: OfferingSummary;
   isLoggedIn: boolean;
+  /** The signed-in visitor's own profile name, prefilled when they offer. */
+  viewerName?: string | null;
 }) {
   const t = useTranslations("offerings");
   const router = useRouter();
@@ -599,8 +601,10 @@ export function OfferingsAltar(props: {
   }
 
   function openModal(kind: OfferKind, presetAmount?: number): void {
-    setName("");
-    setMasked(true);
+    // Prefill with the visitor's own name so lighting a candle (or any
+    // offering) shows who it is from; they can edit, clear, or mask it.
+    setName(props.viewerName ?? "");
+    setMasked(false);
     setMessage(kind === "wreath" ? t("eulogyDefault") : "");
     if (kind === "donation") setAmountYuan(String(presetAmount ?? 199));
     setNotice(null);
