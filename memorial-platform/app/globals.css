@@ -3168,15 +3168,14 @@ a.famCard:focus-visible {
   height: 86px;
 }
 
-/* Prop artwork plaques — glowing dark-ground renders shown as rounded tiles,
-   so their dark backgrounds read as an intentional frame on the light altar. */
+/* Prop artwork — transparent PNGs of the three offerings. No background or
+   box behind them: a shape-following drop-shadow grounds each one on the
+   light altar without boxing the cut-out. */
 .altarPhoto {
   display: block;
   max-width: 100%;
   height: auto;
-  border-radius: 12px;
-  background: #0f0b07;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.22));
   flex: none;
 }
 
