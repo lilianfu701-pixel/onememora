@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "Pembayaran diproses dengan aman oleh Stripe — kartu, Alipay, dan WeChat Pay."
   },
   "account": {
     "title": "Akun saya",

@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "お支払いは Stripe による安全な処理です（カード / Alipay / WeChat Pay）。"
   },
   "account": {
     "title": "マイアカウント",

@@ -304,6 +304,8 @@ export function OfferingsAltar(props: {
   memorialId: string;
   summary: OfferingSummary;
   isLoggedIn: boolean;
+  /** URL locale segment, so payment can route the visitor back here. */
+  locale: string;
   /** The signed-in visitor's own profile name, prefilled when they offer. */
   viewerName?: string | null;
 }) {
@@ -362,20 +364,59 @@ export function OfferingsAltar(props: {
     await post({ slug: "incense" }, "incense");
   }
 
+  /**
+   * Sends a paid offering to Stripe Checkout. On success the browser leaves for
+   * Stripe; the offering is only recorded once the webhook confirms payment, so
+   * nothing is written here.
+   */
+  async function checkout(
+    payload: Record<string, unknown>,
+    tag: string,
+  ): Promise<void> {
+    if (!props.isLoggedIn) {
+      window.location.href = `/${props.locale}/sign-in`;
+      return;
+    }
+    setPending(tag);
+    setNotice(null);
+    try {
+      const res = await fetch(
+        `/api/memorials/${props.memorialId}/offerings/checkout`,
+        {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ ...payload, locale: props.locale }),
+        },
+      );
+      const data = (await res.json().catch(() => null)) as {
+        data?: { url?: string };
+      } | null;
+      const url = data?.data?.url;
+      if (res.ok && url) {
+        window.location.href = url;
+        return;
+      }
+      setNotice("fail");
+      setPending(null);
+    } catch {
+      setNotice("fail");
+      setPending(null);
+    }
+  }
+
   async function submitModal(event: React.FormEvent): Promise<void> {
     event.preventDefault();
     if (!modal || pending) return;
 
     if (modal === "candle") {
-      const ok = await post(
+      await checkout(
         { slug: "candle", name: name.trim() || undefined, masked },
         "candle",
       );
-      if (ok) setModal(null);
       return;
     }
     if (modal === "wreath") {
-      const ok = await post(
+      await checkout(
         {
           slug: "wreath",
           name: name.trim() || undefined,
@@ -383,7 +424,6 @@ export function OfferingsAltar(props: {
         },
         "wreath",
       );
-      if (ok) setModal(null);
       return;
     }
     // donation
@@ -392,7 +432,7 @@ export function OfferingsAltar(props: {
       setNotice("fail");
       return;
     }
-    const ok = await post(
+    await checkout(
       {
         slug: "donation",
         name: name.trim() || undefined,
@@ -402,7 +442,6 @@ export function OfferingsAltar(props: {
       },
       "donation",
     );
-    if (ok) setModal(null);
   }
 
   return (
@@ -608,7 +647,7 @@ export function OfferingsAltar(props: {
               </label>
             ) : null}
 
-            <p className="altarDevNote">{t("devSkipNote")}</p>
+            <p className="altarDevNote">{t("payNote")}</p>
 
             {notice === "fail" ? (
               <p className="altarNoticeFail" role="alert">

@@ -552,6 +552,7 @@ export default async function MemorialPage(props: {
               memorialId={detail.memorialId}
               summary={offerings}
               isLoggedIn={viewer.userId !== null}
+              locale={locale}
               viewerName={viewerDisplayName}
             />
 

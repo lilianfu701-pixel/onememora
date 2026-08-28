@@ -19,6 +19,8 @@ export interface CreateOfferingInput {
   masked?: boolean;
   /** Required for donations; ignored for fixed-price offerings. */
   amountMinor?: number | null;
+  /** The settled order this offering was paid through, when there was one. */
+  orderId?: string | null;
 }
 
 export interface CreatedOffering {
@@ -121,6 +123,7 @@ export async function createOffering(
       amountMinor,
       currency: entry.currency,
       pointsAwarded: amountMinor,
+      orderId: input.orderId ?? null,
       status: "active",
       expiresAt,
     })

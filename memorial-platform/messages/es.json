@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "Los pagos los procesa Stripe de forma segura: tarjeta, Alipay y WeChat Pay."
   },
   "account": {
     "title": "Mi cuenta",

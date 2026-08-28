@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "Платежи безопасно обрабатываются Stripe — карта, Alipay и WeChat Pay."
   },
   "account": {
     "title": "Мой аккаунт",

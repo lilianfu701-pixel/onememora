@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "تتم معالجة المدفوعات بأمان عبر Stripe — البطاقة وAlipay وWeChat Pay."
   },
   "account": {
     "title": "حسابي",

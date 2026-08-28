@@ -529,7 +529,8 @@
     "colDonor": "捐款人",
     "colAmount": "金額",
     "colMessage": "留言",
-    "colDate": "時間"
+    "colDate": "時間",
+    "payNote": "付款由 Stripe 提供，支援信用卡 / 支付寶 / 微信。"
   },
   "account": {
     "title": "我嘅帳戶",

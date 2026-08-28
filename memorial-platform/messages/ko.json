@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "결제는 Stripe로 안전하게 처리됩니다 (카드 / Alipay / WeChat Pay)."
   },
   "account": {
     "title": "내 계정",

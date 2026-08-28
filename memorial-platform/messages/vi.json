@@ -529,7 +529,8 @@
     "colDonor": "Donor",
     "colAmount": "Amount",
     "colMessage": "Message",
-    "colDate": "Date"
+    "colDate": "Date",
+    "payNote": "Thanh toán được xử lý an toàn qua Stripe — thẻ, Alipay và WeChat Pay."
   },
   "account": {
     "title": "Tài khoản của tôi",
