@@ -3179,12 +3179,20 @@ a.famCard:focus-visible {
   flex: none;
 }
 
-.altarActionBtn .altarPhotoIncense {
-  width: 84px;
-}
 .altarActionBtn .altarPhotoCandle,
 .altarActionBtn .altarPhotoWreath {
   width: 44px;
+}
+
+/* 上香 button shows a bundle of lit sticks, not the censer. */
+.altarBundle {
+  display: block;
+  width: 40px;
+  height: auto;
+  flex: none;
+}
+.altarActionBtn .altarBundle {
+  width: 42px;
 }
 
 .altarCenser {

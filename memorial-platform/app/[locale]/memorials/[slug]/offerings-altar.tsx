@@ -49,6 +49,74 @@ function WreathPhoto({ className }: { className?: string }) {
 }
 
 /**
+ * A small bound bundle of lit incense sticks — the icon for the 上香 action,
+ * so the button shows the incense itself rather than the censer.
+ */
+function IncenseBundle() {
+  const n = 4;
+  const centre = (n - 1) / 2;
+  const sticks = Array.from({ length: n }, (_, i) => {
+    const off = i - centre;
+    const baseX = 26 + off * 1.6;
+    const tipX = 26 + off * 7.4;
+    const tipY = 13 + ((i * 5) % 9);
+    return {
+      baseX,
+      tipX,
+      tipY,
+      ember: `${(i * 0.4).toFixed(1)}s`,
+      smoke: `${(i * 0.7).toFixed(1)}s`,
+    };
+  });
+  return (
+    <svg
+      className="altarBundle"
+      viewBox="0 0 52 92"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <defs>
+        <filter id="bundleSmoke" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="0.8" />
+        </filter>
+      </defs>
+      {sticks.map((s, i) => {
+        const redX = s.baseX + (s.tipX - s.baseX) * 0.28;
+        const redY = 82 + (s.tipY - 82) * 0.28;
+        return (
+          <g key={i}>
+            <line x1={s.baseX} y1={82} x2={s.tipX} y2={s.tipY} stroke="#c69a5c" strokeWidth="2" strokeLinecap="round" />
+            <line x1={s.baseX} y1={82} x2={redX} y2={redY} stroke="#8f2016" strokeWidth="2.2" strokeLinecap="round" />
+            <g transform={`translate(${s.tipX} ${s.tipY})`}>
+              <path
+                d="M0 0 q -4 -8 0 -16 q 4 -8 0 -14"
+                stroke="#d2ccc0"
+                strokeWidth="1.5"
+                fill="none"
+                strokeLinecap="round"
+                filter="url(#bundleSmoke)"
+                opacity="0"
+              >
+                <animate attributeName="opacity" values="0;0.4;0.28;0" keyTimes="0;0.3;0.72;1" dur="5s" begin={s.smoke} repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="translate" values="0 0; -3 -14; 3 -30" keyTimes="0;0.5;1" dur="5s" begin={s.smoke} repeatCount="indefinite" />
+              </path>
+            </g>
+            <circle cx={s.tipX} cy={s.tipY} r="2.3" fill="#ff7a2a">
+              <animate attributeName="r" values="1.6;2.9;1.6" dur="1.8s" begin={s.ember} repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0.75;1;0.75" dur="1.8s" begin={s.ember} repeatCount="indefinite" />
+            </circle>
+          </g>
+        );
+      })}
+      {/* red binding paper near the base */}
+      <rect x="17" y="77" width="18" height="8" rx="2.5" fill="#b23a2a" />
+      <rect x="17" y="80" width="18" height="1.6" fill="#e6cf8f" opacity="0.85" />
+    </svg>
+  );
+}
+
+/**
  * Lit incense sticks planted in the censer's sand — one per offering. Rendered
  * over the censer photo (which ships with an empty sand bed), bases clustered
  * at the centre and tips fanning out, each with a glowing ember.
@@ -388,7 +456,7 @@ export function OfferingsAltar(props: {
           onClick={offerIncense}
           disabled={pending === "incense"}
         >
-          <IncensePhoto />
+          <IncenseBundle />
           <span className="altarActionLabel">{t("offerIncense")}</span>
           <span className="altarActionDesc">{t("descIncense")}</span>
         </button>
