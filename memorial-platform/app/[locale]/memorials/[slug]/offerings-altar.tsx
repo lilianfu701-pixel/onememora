@@ -48,6 +48,48 @@ function WreathPhoto({ className }: { className?: string }) {
   );
 }
 
+/**
+ * Lit incense sticks planted in the censer's sand — one per offering. Rendered
+ * over the censer photo (which ships with an empty sand bed), bases clustered
+ * at the centre and tips fanning out, each with a glowing ember.
+ */
+function IncenseSticks({ count }: { count: number }) {
+  const MAX = 12;
+  const n = Math.min(count, MAX);
+  const centre = (n - 1) / 2;
+  const sticks = Array.from({ length: n }, (_, i) => {
+    const off = i - centre;
+    const baseX = 60 + off * 2.6;
+    const tipX = 60 + off * 6.4;
+    const len = 80 + ((i * 11) % 16);
+    const tipY = 100 - len;
+    return { baseX, tipX, tipY, delay: `${((i * 0.37) % 2.4).toFixed(2)}s` };
+  });
+  return (
+    <svg
+      className="censerSticks"
+      viewBox="0 0 120 100"
+      preserveAspectRatio="xMidYMax meet"
+      aria-hidden="true"
+    >
+      {sticks.map((s, i) => {
+        const redX = s.baseX + (s.tipX - s.baseX) * 0.32;
+        const redY = 100 + (s.tipY - 100) * 0.32;
+        return (
+          <g key={i}>
+            <line x1={s.baseX} y1={100} x2={s.tipX} y2={s.tipY} stroke="#c69a5c" strokeWidth="1.7" strokeLinecap="round" />
+            <line x1={s.baseX} y1={100} x2={redX} y2={redY} stroke="#8f2016" strokeWidth="2" strokeLinecap="round" />
+            <circle cx={s.tipX} cy={s.tipY} r="2.1" fill="#ff7a2a">
+              <animate attributeName="r" values="1.5;2.7;1.5" dur="1.8s" begin={s.delay} repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0.72;1;0.72" dur="1.8s" begin={s.delay} repeatCount="indefinite" />
+            </circle>
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
 /* ────────────── Display: 功德簿 ────────────── */
 
 function MeritBook(props: {
@@ -286,7 +328,12 @@ export function OfferingsAltar(props: {
       <div className="altarPlatform">
         <CandleGroup candles={leftCandles} />
         <div className="altarCenserWrap">
-          <IncensePhoto className="altarCenserPhoto" />
+          <div className="altarCenser">
+            <IncensePhoto className="altarCenserPhoto" />
+            {summary.incense > 0 ? (
+              <IncenseSticks count={summary.incense} />
+            ) : null}
+          </div>
           {summary.incense > 0 ? (
             <span className="altarCenserCount">
               {t("incenseCount", { count: summary.incense })}

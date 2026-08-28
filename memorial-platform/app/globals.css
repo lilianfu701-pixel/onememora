@@ -3187,8 +3187,27 @@ a.famCard:focus-visible {
   width: 44px;
 }
 
+.altarCenser {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
 .altarCenserPhoto {
   width: clamp(190px, 62vw, 244px);
+}
+
+/* Lit incense sticks, planted in the censer's sand and rising above the rim.
+   Anchored so the stick bases sit on the sand surface (~40% down the photo). */
+.censerSticks {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 58%;
+  height: 48%;
+  overflow: visible;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.25));
 }
 
 .altarCandleUnit .altarPhotoCandle {
