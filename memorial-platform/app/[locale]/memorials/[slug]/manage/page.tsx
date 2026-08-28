@@ -30,6 +30,8 @@ import { RelativesEditor } from "./relatives-editor";
 import { RecognitionReview } from "./recognition-review";
 import { DonationsPanel } from "./donations-panel";
 import { listDonations } from "@/modules/offerings/donations";
+import { FamilyEarnings } from "./family-earnings";
+import { familyAccrual } from "@/modules/offerings/accrual";
 import { ChaptersEditor } from "./chapters-editor";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
 import { ContributionsReview } from "./contributions-review";
@@ -147,6 +149,12 @@ export default async function ManageMemorialPage(props: {
   // owner or editor) sees who gave and how much.
   const donations = mayEditStory
     ? await listDonations(detail.memorialId)
+    : null;
+
+  // Gift-out bookkeeping: total paid in, the 20% service fee, and the net the
+  // platform will gift to the family once they enrol and pass the ¥1000 mark.
+  const accrual = mayEditStory
+    ? await familyAccrual(detail.memorialId)
     : null;
 
   // The structured life story, broken into chapters. Editing is the same
@@ -293,6 +301,11 @@ export default async function ManageMemorialPage(props: {
         {donations ? (
           <section className="manageGroup">
             <p className="manageGroupLabel">{t("manageGroupOfferings")}</p>
+            {accrual ? (
+              <div className="manageCard">
+                <FamilyEarnings locale={normalized} accrual={accrual} />
+              </div>
+            ) : null}
             <div className="manageCard">
               <DonationsPanel locale={normalized} ledger={donations} />
             </div>

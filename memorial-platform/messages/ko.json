@@ -530,7 +530,14 @@
     "colAmount": "Amount",
     "colMessage": "Message",
     "colDate": "Date",
-    "payNote": "결제는 Stripe로 안전하게 처리됩니다 (카드 / Alipay / WeChat Pay)."
+    "payNote": "결제는 Stripe로 안전하게 처리됩니다 (카드 / Alipay / WeChat Pay).",
+    "earningsTitle": "Family gift-out",
+    "earningsGross": "Total received",
+    "earningsFee": "Platform service fee (20%)",
+    "earningsNet": "Net to gift the family",
+    "earningsThresholdReached": "¥1000 reached — a gift-out can be requested (coming soon)",
+    "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥1000)",
+    "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥1000. This is bookkeeping, not custody of funds."
   },
   "account": {
     "title": "내 계정",
