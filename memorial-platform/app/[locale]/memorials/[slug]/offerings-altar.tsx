@@ -59,11 +59,17 @@ function IncenseSticks({ count }: { count: number }) {
   const centre = (n - 1) / 2;
   const sticks = Array.from({ length: n }, (_, i) => {
     const off = i - centre;
-    const baseX = 60 + off * 2.6;
-    const tipX = 60 + off * 6.4;
-    const len = 80 + ((i * 11) % 16);
+    const baseX = 60 + off * 3.6; // bases a little more spread
+    const tipX = 60 + off * 8.8; // tips fan wider
+    const len = 108 + ((i * 13) % 22); // taller, so they clear the rim
     const tipY = 100 - len;
-    return { baseX, tipX, tipY, delay: `${((i * 0.37) % 2.4).toFixed(2)}s` };
+    return {
+      baseX,
+      tipX,
+      tipY,
+      ember: `${((i * 0.37) % 2.4).toFixed(2)}s`,
+      smoke: `${((i * 0.73) % 3.2).toFixed(2)}s`,
+    };
   });
   return (
     <svg
@@ -72,16 +78,36 @@ function IncenseSticks({ count }: { count: number }) {
       preserveAspectRatio="xMidYMax meet"
       aria-hidden="true"
     >
+      <defs>
+        <filter id="incenseSmoke" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="0.9" />
+        </filter>
+      </defs>
       {sticks.map((s, i) => {
-        const redX = s.baseX + (s.tipX - s.baseX) * 0.32;
-        const redY = 100 + (s.tipY - 100) * 0.32;
+        const redX = s.baseX + (s.tipX - s.baseX) * 0.3;
+        const redY = 100 + (s.tipY - 100) * 0.3;
         return (
           <g key={i}>
-            <line x1={s.baseX} y1={100} x2={s.tipX} y2={s.tipY} stroke="#c69a5c" strokeWidth="1.7" strokeLinecap="round" />
-            <line x1={s.baseX} y1={100} x2={redX} y2={redY} stroke="#8f2016" strokeWidth="2" strokeLinecap="round" />
-            <circle cx={s.tipX} cy={s.tipY} r="2.1" fill="#ff7a2a">
-              <animate attributeName="r" values="1.5;2.7;1.5" dur="1.8s" begin={s.delay} repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0.72;1;0.72" dur="1.8s" begin={s.delay} repeatCount="indefinite" />
+            <line x1={s.baseX} y1={100} x2={s.tipX} y2={s.tipY} stroke="#c69a5c" strokeWidth="1.5" strokeLinecap="round" />
+            <line x1={s.baseX} y1={100} x2={redX} y2={redY} stroke="#8f2016" strokeWidth="1.8" strokeLinecap="round" />
+            {/* rising 青烟 */}
+            <g transform={`translate(${s.tipX} ${s.tipY})`}>
+              <path
+                d="M0 0 q -5 -10 0 -20 q 5 -10 0 -18"
+                stroke="#d2ccc0"
+                strokeWidth="1.3"
+                fill="none"
+                strokeLinecap="round"
+                filter="url(#incenseSmoke)"
+                opacity="0"
+              >
+                <animate attributeName="opacity" values="0;0.36;0.26;0" keyTimes="0;0.28;0.72;1" dur="5.2s" begin={s.smoke} repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="translate" values="0 0; -3 -16; 3 -34" keyTimes="0;0.5;1" dur="5.2s" begin={s.smoke} repeatCount="indefinite" />
+              </path>
+            </g>
+            <circle cx={s.tipX} cy={s.tipY} r="2" fill="#ff7a2a">
+              <animate attributeName="r" values="1.4;2.5;1.4" dur="1.8s" begin={s.ember} repeatCount="indefinite" />
+              <animate attributeName="opacity" values="0.72;1;0.72" dur="1.8s" begin={s.ember} repeatCount="indefinite" />
             </circle>
           </g>
         );
