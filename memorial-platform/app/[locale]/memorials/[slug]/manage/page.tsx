@@ -32,6 +32,12 @@ import { DonationsPanel } from "./donations-panel";
 import { listDonations } from "@/modules/offerings/donations";
 import { FamilyEarnings } from "./family-earnings";
 import { familyAccrual } from "@/modules/offerings/accrual";
+import { FamilyPayout } from "./family-payout";
+import {
+  getBeneficiary,
+  listOwnerPayouts,
+  payoutStanding,
+} from "@/modules/offerings/payouts";
 import { ChaptersEditor } from "./chapters-editor";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
 import { ContributionsReview } from "./contributions-review";
@@ -152,9 +158,24 @@ export default async function ManageMemorialPage(props: {
     : null;
 
   // Gift-out bookkeeping: total paid in, the 20% service fee, and the net the
-  // platform will gift to the family once they enrol and pass the ¥1000 mark.
+  // platform will gift to the family once they enrol and pass the ¥2000 mark.
   const accrual = mayEditStory
     ? await familyAccrual(detail.memorialId)
+    : null;
+
+  // The gift-out request panel is the owner's alone — it exposes the payout
+  // account and moves money.
+  const isOwner = detail.viewerRole === "owner";
+  const beneficiary = isOwner ? await getBeneficiary(detail.memorialId) : null;
+  const payoutData = isOwner
+    ? {
+        beneficiary,
+        standing: await payoutStanding(
+          detail.memorialId,
+          beneficiary?.id ?? null,
+        ),
+        history: beneficiary ? await listOwnerPayouts(beneficiary.id) : [],
+      }
     : null;
 
   // The structured life story, broken into chapters. Editing is the same
@@ -304,6 +325,16 @@ export default async function ManageMemorialPage(props: {
             {accrual ? (
               <div className="manageCard">
                 <FamilyEarnings locale={normalized} accrual={accrual} />
+              </div>
+            ) : null}
+            {payoutData ? (
+              <div className="manageCard">
+                <FamilyPayout
+                  memorialId={detail.memorialId}
+                  beneficiary={payoutData.beneficiary}
+                  standing={payoutData.standing}
+                  history={payoutData.history}
+                />
               </div>
             ) : null}
             <div className="manageCard">

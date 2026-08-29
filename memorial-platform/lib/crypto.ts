@@ -1,4 +1,11 @@
-import { createHmac, hkdfSync, randomBytes, timingSafeEqual } from "node:crypto";
+import {
+  createCipheriv,
+  createDecipheriv,
+  createHmac,
+  hkdfSync,
+  randomBytes,
+  timingSafeEqual,
+} from "node:crypto";
 
 const HEX_64 = /^[0-9a-f]{64}$/;
 
@@ -33,6 +40,37 @@ export function deriveKey(secret: string, purpose: string): Buffer {
 
 export function hmacHex(key: Buffer, message: string): string {
   return createHmac("sha256", key).update(message, "utf8").digest("hex");
+}
+
+/**
+ * Encrypts a short string at rest with a purpose-derived key (AES-256-GCM).
+ * Output is `iv.tag.ciphertext`, base64. Used for payout details so a database
+ * leak does not expose a family's bank/Alipay account.
+ */
+export function seal(key: Buffer, plaintext: string): string {
+  const iv = randomBytes(12);
+  const cipher = createCipheriv("aes-256-gcm", key, iv);
+  const enc = Buffer.concat([cipher.update(plaintext, "utf8"), cipher.final()]);
+  const tag = cipher.getAuthTag();
+  return `${iv.toString("base64")}.${tag.toString("base64")}.${enc.toString("base64")}`;
+}
+
+/** Reverses {@link seal}. Returns null on any tamper/format error. */
+export function unseal(key: Buffer, sealed: string): string | null {
+  const parts = sealed.split(".");
+  if (parts.length !== 3) return null;
+  try {
+    const iv = Buffer.from(parts[0]!, "base64");
+    const tag = Buffer.from(parts[1]!, "base64");
+    const enc = Buffer.from(parts[2]!, "base64");
+    const decipher = createDecipheriv("aes-256-gcm", key, iv);
+    decipher.setAuthTag(tag);
+    return Buffer.concat([decipher.update(enc), decipher.final()]).toString(
+      "utf8",
+    );
+  } catch {
+    return null;
+  }
 }
 
 /** A URL-safe random token. Used for session and invitation tokens. */

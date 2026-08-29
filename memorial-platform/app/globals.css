@@ -2262,6 +2262,12 @@ a.famCard:focus-visible {
   overflow-x: auto;
 }
 
+.adminActionBtns {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
 .adminTable {
   width: 100%;
   border-collapse: collapse;
