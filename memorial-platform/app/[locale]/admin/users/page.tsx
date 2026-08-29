@@ -4,6 +4,7 @@ import { canGovern } from "@/modules/permissions/policy";
 import { db } from "@/db/client";
 import { users } from "@/db/schema";
 import { desc, ilike, sql } from "drizzle-orm";
+import { RoleSelect } from "./role-select";
 
 export default async function UsersPage(props: {
   params: Promise<{ locale: string }>;
@@ -17,6 +18,7 @@ export default async function UsersPage(props: {
 
   const actor = await currentActor();
   if (!canGovern({ actor, action: "restrict_editing" })) return null;
+  const isSuperAdmin = actor.platformRole === "super_admin";
 
   const where = search
     ? ilike(users.fullName, `%${search}%`)
@@ -71,7 +73,13 @@ export default async function UsersPage(props: {
               {rows.map((u) => (
                 <tr key={u.id}>
                   <td>{u.fullName || "—"}</td>
-                  <td><span className="adminBadge">{u.platformRole}</span></td>
+                  <td>
+                    {isSuperAdmin && u.id !== actor.userId ? (
+                      <RoleSelect userId={u.id} role={u.platformRole} />
+                    ) : (
+                      <span className="adminBadge">{u.platformRole}</span>
+                    )}
+                  </td>
                   <td>{u.createdAt.toLocaleDateString()}</td>
                 </tr>
               ))}
