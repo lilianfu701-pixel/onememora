@@ -74,6 +74,14 @@ export default async function AdminLayout(props: {
                   {t("offerings")}
                 </Link>
               </li>
+              <li>
+                <Link
+                  href={`/${locale}/admin/settings`}
+                  className="adminNavLink"
+                >
+                  {t("settings")}
+                </Link>
+              </li>
             </>
           ) : null}
         </ul>

@@ -5,6 +5,7 @@ import { env } from "@/lib/env";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { paypalFetch } from "@/lib/paypal";
+import { collectRate } from "@/modules/settings/rates";
 import { OFFERING_CATALOG, PLATFORM_FEE_RATE } from "./catalog";
 import { createOffering } from "./create";
 
@@ -34,8 +35,9 @@ const PRODUCT_NAME: Record<PaidSlug, string> = {
 };
 
 /** PayPal cannot charge CNY, so RMB is converted to USD at the buy-in rate. */
-function usdValueFromCny(cnyMinor: number): string {
-  const usd = cnyMinor / 100 / env().CNY_USD_RATE_COLLECT;
+async function usdValueFromCny(cnyMinor: number): Promise<string> {
+  const rate = await collectRate();
+  const usd = cnyMinor / 100 / rate;
   return Math.max(0.01, usd).toFixed(2);
 }
 
@@ -115,6 +117,7 @@ export async function createPaypalOrder(
     .returning({ id: orders.id });
 
   const orderId = order!.id;
+  const usdValue = await usdValueFromCny(amountMinor);
   const base = e.APP_URL.replace(/\/$/, "");
   const locale = encodeURIComponent(input.locale);
   const returnUrl = `${base}/api/paypal/return?o=${orderId}&l=${locale}`;
@@ -131,7 +134,7 @@ export async function createPaypalOrder(
         {
           custom_id: orderId,
           description: PRODUCT_NAME[input.slug],
-          amount: { currency_code: "USD", value: usdValueFromCny(amountMinor) },
+          amount: { currency_code: "USD", value: usdValue },
         },
       ],
       application_context: {

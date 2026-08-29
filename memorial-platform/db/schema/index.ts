@@ -17,3 +17,4 @@ export * from "./commerce";
 export * from "./offerings";
 export * from "./genealogy";
 export * from "./messaging";
+export * from "./settings";

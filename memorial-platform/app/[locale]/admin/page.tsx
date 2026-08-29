@@ -8,6 +8,7 @@ import {
   ritualReviewQueue,
   unassignedCases,
 } from "@/modules/governance/admin-queries";
+import { listAdminOrders } from "@/modules/offerings/orders-admin";
 
 export default async function AdminDashboard(props: {
   params: Promise<{ locale: string }>;
@@ -27,6 +28,8 @@ export default async function AdminDashboard(props: {
   if (!counts.ok) return null;
 
   const isSuperAdmin = actor.platformRole === "super_admin";
+  const revenue = isSuperAdmin ? await listAdminOrders({ limit: 1 }) : null;
+  const yuan = (minor: number) => `¥${(minor / 100).toFixed(2)}`;
 
   return (
     <div className="stack-lg">
@@ -50,6 +53,14 @@ export default async function AdminDashboard(props: {
           <Link href={`/${locale}/admin/cases`} className="adminCard">
             <span className="adminCardCount">{cases.value.length}</span>
             <span className="adminCardLabel">Unassigned Cases</span>
+          </Link>
+        ) : null}
+        {revenue ? (
+          <Link href={`/${locale}/admin/orders`} className="adminCard">
+            <span className="adminCardCount">{yuan(revenue.totals.grossMinor)}</span>
+            <span className="adminCardLabel">
+              累计收款 · {revenue.totals.count} 单
+            </span>
           </Link>
         ) : null}
       </section>

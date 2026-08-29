@@ -288,6 +288,13 @@
       "when": 1787962254452,
       "tag": "0040_massive_killer_shrike",
       "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1788025152104,
+      "tag": "0041_new_midnight",
+      "breakpoints": true
     }
   ]
 }
