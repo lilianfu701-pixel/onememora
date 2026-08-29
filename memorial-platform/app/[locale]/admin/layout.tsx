@@ -57,14 +57,24 @@ export default async function AdminLayout(props: {
             </Link>
           </li>
           {isSuperAdmin ? (
-            <li>
-              <Link
-                href={`/${locale}/admin/offerings`}
-                className="adminNavLink"
-              >
-                {t("offerings")}
-              </Link>
-            </li>
+            <>
+              <li>
+                <Link
+                  href={`/${locale}/admin/orders`}
+                  className="adminNavLink"
+                >
+                  {t("orders")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/admin/offerings`}
+                  className="adminNavLink"
+                >
+                  {t("offerings")}
+                </Link>
+              </li>
+            </>
           ) : null}
         </ul>
       </nav>

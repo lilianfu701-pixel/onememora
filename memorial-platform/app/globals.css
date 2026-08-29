@@ -2250,6 +2250,18 @@ a.famCard:focus-visible {
   color: var(--muted);
 }
 
+.adminHeadRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.adminTableWrap {
+  overflow-x: auto;
+}
+
 .adminTable {
   width: 100%;
   border-collapse: collapse;
