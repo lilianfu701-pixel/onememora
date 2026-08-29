@@ -381,7 +381,7 @@ export function OfferingsAltar(props: {
     setNotice(null);
     try {
       const res = await fetch(
-        `/api/memorials/${props.memorialId}/offerings/checkout`,
+        `/api/memorials/${props.memorialId}/offerings/paypal`,
         {
           method: "POST",
           headers: { "content-type": "application/json" },

@@ -2,6 +2,7 @@ import {
   bigint,
   boolean,
   index,
+  jsonb,
   pgEnum,
   pgTable,
   text,
@@ -149,6 +150,8 @@ export const orders = pgTable(
     provider: text("provider"),
     providerSessionId: text("provider_session_id"),
     feeMinor: bigint("fee_minor", { mode: "number" }),
+    /** Offering intent carried through a redirect payment (slug/name/…). */
+    meta: jsonb("meta"),
     createdAt: timestamp("created_at", { withTimezone: true })
       .defaultNow()
       .notNull(),

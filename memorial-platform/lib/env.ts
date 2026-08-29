@@ -151,6 +151,19 @@ const envSchema = z.object({
   STRIPE_WEBHOOK_SECRET: optionalSecret,
   STRIPE_PUBLISHABLE_KEY: optionalSecret,
   PLATFORM_FEE_PERCENT: z.coerce.number().min(0).max(100).default(10),
+
+  // PayPal — the active collection processor. `live` uses api-m.paypal.com,
+  // anything else (default) uses the sandbox host.
+  PAYPAL_CLIENT_ID: optionalSecret,
+  PAYPAL_CLIENT_SECRET: optionalSecret,
+  PAYPAL_WEBHOOK_ID: optionalSecret,
+  PAYPAL_ENV: z.enum(["sandbox", "live"]).default("sandbox"),
+  // PayPal cannot charge in CNY, so RMB prices convert to USD (CNY per 1 USD).
+  // Bookkeeping stays in RMB; only the actual charge/payout is USD. The buy-in
+  // rate is deliberately keener than the payout rate — the spread is the FX
+  // margin retained by the platform.
+  CNY_USD_RATE_COLLECT: z.coerce.number().min(1).max(20).default(7),
+  CNY_USD_RATE_PAYOUT: z.coerce.number().min(1).max(20).default(7.2),
 });
 
 export type Env = z.infer<typeof envSchema>;

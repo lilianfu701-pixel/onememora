@@ -530,14 +530,14 @@
     "colAmount": "Amount",
     "colMessage": "Message",
     "colDate": "Date",
-    "payNote": "تتم معالجة المدفوعات بأمان عبر Stripe — البطاقة وAlipay وWeChat Pay.",
+    "payNote": "Payments are handled securely by PayPal (PayPal balance or international card; charged in USD).",
     "earningsTitle": "Family gift-out",
     "earningsGross": "Total received",
     "earningsFee": "Platform service fee (20%)",
     "earningsNet": "Net to gift the family",
-    "earningsThresholdReached": "¥1000 reached — a gift-out can be requested (coming soon)",
-    "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥1000)",
-    "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥1000. This is bookkeeping, not custody of funds."
+    "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
+    "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
+    "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds."
   },
   "account": {
     "title": "حسابي",

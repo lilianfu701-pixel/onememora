@@ -4,7 +4,7 @@ import { memorialOfferings } from "@/db/schema";
 import { PLATFORM_FEE_RATE } from "./catalog";
 
 /** A family may request a gift-out once this much has accrued. */
-export const PAYOUT_THRESHOLD_MINOR = 100_000; // ¥1000
+export const PAYOUT_THRESHOLD_MINOR = 200_000; // ¥2000
 
 export interface FamilyAccrual {
   /** Total paid in for this memorial, in minor units (分). */

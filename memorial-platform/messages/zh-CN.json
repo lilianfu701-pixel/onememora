@@ -530,14 +530,14 @@
     "colAmount": "金额",
     "colMessage": "留言",
     "colDate": "时间",
-    "payNote": "支付由 Stripe 提供，支持银行卡 / 支付宝 / 微信。",
+    "payNote": "支付由 PayPal 提供，支持 PayPal 余额与国际信用卡（按汇率以美元结算）。",
     "earningsTitle": "家属转赠记账",
     "earningsGross": "累计入账",
     "earningsFee": "平台服务费（20%）",
     "earningsNet": "待转赠净额",
-    "earningsThresholdReached": "已满 ¥1000，可申领转赠（申领功能开发中）",
-    "earningsThresholdProgress": "满 ¥1000 可申领转赠，还差 {amount}",
-    "earningsNote": "平台收取 20% 服务费，其余转赠家属；家属实名开通并满 ¥1000 后可申领。此为记账，非资金托管。"
+    "earningsThresholdReached": "已满 ¥2000，可申领转赠（申领功能开发中）",
+    "earningsThresholdProgress": "满 ¥2000 可申领转赠，还差 {amount}",
+    "earningsNote": "平台收取 20% 服务费，其余转赠家属；家属实名开通并满 ¥2000 后可申领。此为记账，非资金托管。"
   },
   "account": {
     "title": "我的账户",

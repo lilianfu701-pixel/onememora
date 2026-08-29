@@ -530,14 +530,14 @@
     "colAmount": "Amount",
     "colMessage": "Message",
     "colDate": "Date",
-    "payNote": "Los pagos los procesa Stripe de forma segura: tarjeta, Alipay y WeChat Pay.",
+    "payNote": "Los pagos los procesa PayPal de forma segura (saldo PayPal o tarjeta internacional; se cobra en USD).",
     "earningsTitle": "Aporte a la familia",
     "earningsGross": "Total recibido",
     "earningsFee": "Comisión de la plataforma (20%)",
     "earningsNet": "Neto para la familia",
-    "earningsThresholdReached": "Se alcanzaron ¥1000: se puede solicitar el envío (próximamente)",
-    "earningsThresholdProgress": "Faltan {amount} para poder solicitar el envío (¥1000)",
-    "earningsNote": "La plataforma retiene un 20% de comisión y entrega el resto a la familia, que puede solicitarlo tras registrarse y superar ¥1000. Esto es contabilidad, no custodia de fondos."
+    "earningsThresholdReached": "Se alcanzaron ¥2000: se puede solicitar el envío (próximamente)",
+    "earningsThresholdProgress": "Faltan {amount} para poder solicitar el envío (¥2000)",
+    "earningsNote": "La plataforma retiene un 20% de comisión y entrega el resto a la familia, que puede solicitarlo tras registrarse y superar ¥2000. Esto es contabilidad, no custodia de fondos."
   },
   "account": {
     "title": "Mi cuenta",
