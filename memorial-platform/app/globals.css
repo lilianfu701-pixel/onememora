@@ -3229,7 +3229,7 @@ a.famCard:focus-visible {
 }
 
 .altarCenserPhoto {
-  width: clamp(190px, 62vw, 244px);
+  width: clamp(140px, 42vw, 184px);
 }
 
 /* Lit incense sticks, planted in the censer's sand and rising above the rim.
@@ -3380,20 +3380,22 @@ a.famCard:focus-visible {
 
 /* ── Altar tableau: the portrait, small, flanked by wreaths ── */
 
+/* Three columns: a wreath region, the portrait, a wreath region. The side
+ * regions are equal (1fr) and centre their wreaths, so each wreath sits midway
+ * between the portrait and the page edge. */
 .altarStage {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  gap: clamp(var(--space-2), 2vw, var(--space-5));
-  padding: var(--space-6) var(--space-4) var(--space-4);
+  gap: 0;
+  padding: var(--space-6) var(--space-2) var(--space-4);
 }
 
 .altarWreathCol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-3);
-  flex: none;
+  gap: var(--space-8);
 }
 
 .altarPortraitWrap {
@@ -3402,7 +3404,7 @@ a.famCard:focus-visible {
 
 .altarPortrait {
   display: block;
-  width: clamp(148px, 38vw, 216px);
+  width: clamp(210px, 52vw, 320px);
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: var(--radius-sm);
@@ -3421,7 +3423,7 @@ a.famCard:focus-visible {
 
 .altarWreathFigure {
   position: relative;
-  width: clamp(80px, 20vw, 104px);
+  width: clamp(108px, 26vw, 148px);
   flex: none;
 }
 
@@ -3429,44 +3431,55 @@ a.famCard:focus-visible {
   width: 100%;
 }
 
+/* Two silk ribbons hanging from the base of the wreath: the giver's name and
+ * the elegy, set vertically like a traditional 挽联. */
 .wreathRibbons {
   position: absolute;
   left: 50%;
-  top: 43%;
+  top: 47%;
   transform: translateX(-50%);
   display: flex;
-  gap: 5px;
+  gap: 7px;
   pointer-events: none;
 }
 
 .wreathRibbon {
   writing-mode: vertical-rl;
-  max-height: 76px;
+  min-height: 58px;
+  max-height: 84px;
   overflow: hidden;
-  padding: 6px 2.5px;
-  font-size: 10px;
-  line-height: 1.1;
-  letter-spacing: 0.05em;
-  background: rgba(253, 250, 244, 0.94);
-  color: #4a2f22;
+  padding: 8px 4px;
+  font-size: clamp(10px, 2.6vw, 13px);
+  line-height: 1.15;
+  letter-spacing: 0.08em;
+  background: linear-gradient(
+    to right,
+    rgba(255, 253, 248, 0.97),
+    rgba(246, 240, 230, 0.97)
+  );
+  color: #3a2a20;
   border-radius: 1px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
   white-space: nowrap;
   font-family: var(--font-display);
 }
 
 .wreathRibbonElegy {
-  color: #7a1f16;
+  color: #8a1c14;
 }
 
 /* ── 祭坛 Platform: the censer, flanked by up to thirty candles ── */
 
+/* The censer sits at the bottom centre; the candle sides take an equal share on
+ * either side and divide it into five equal columns. The extra headroom above
+ * the (short) censer is where the incense smoke curls up. */
 .altarPlatform {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  gap: clamp(2px, 1vw, var(--space-2));
-  padding: var(--space-5) var(--space-4) var(--space-6);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: end;
+  gap: clamp(4px, 1.5vw, var(--space-3));
+  min-height: clamp(200px, 46vw, 280px);
+  padding: clamp(2rem, 9vw, 3.5rem) var(--space-4) var(--space-6);
   background:
     radial-gradient(ellipse 90% 50% at 50% 100%, rgba(197, 163, 95, 0.06), transparent 70%),
     var(--paper-raised);
@@ -3479,23 +3492,27 @@ a.famCard:focus-visible {
   position: relative;
 }
 
-/* Five fixed candle columns a side; inner column sits next to the censer. Empty
-   cells still reserve their column so positions stay put as candles are added. */
+/* Five equal columns a side; the inner column sits next to the censer. Empty
+   cells still reserve their column so a candle always keeps its place. Three
+   rows, bottom-aligned, so candles build upward layer by layer. */
 .candleSide {
   display: grid;
-  grid-template-columns: repeat(5, clamp(15px, 3.4vw, 22px));
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
   align-items: end;
   justify-items: center;
-  gap: 3px 2px;
-  flex: none;
+  row-gap: var(--space-3);
+  column-gap: 2px;
 }
 
 .wallCandle {
   line-height: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .wallCandle .altarPhotoCandle {
-  width: 100%;
+  width: clamp(20px, 5vw, 34px);
 }
 
 .altarCenserWrap {
@@ -4157,24 +4174,31 @@ a.famCard:focus-visible {
   }
   /* Keep the tableau and candle wall from overflowing a narrow screen. */
   .altarStage {
-    gap: var(--space-2);
+    gap: 0;
+    padding: var(--space-4) var(--space-1) var(--space-3);
   }
   .altarPortrait {
-    width: clamp(120px, 34vw, 180px);
+    width: clamp(150px, 42vw, 200px);
   }
   .altarWreathFigure {
-    width: clamp(56px, 17vw, 80px);
+    width: clamp(70px, 22vw, 100px);
+  }
+  .altarWreathCol {
+    gap: var(--space-6);
   }
   .altarPlatform {
-    gap: 1px;
-    padding: var(--space-4) var(--space-2) var(--space-4);
+    gap: 2px;
+    min-height: 180px;
+    padding: clamp(1.5rem, 8vw, 2.5rem) var(--space-2) var(--space-4);
   }
   .altarCenserPhoto {
-    width: clamp(128px, 40vw, 168px);
+    width: clamp(118px, 38vw, 156px);
+  }
+  .wallCandle .altarPhotoCandle {
+    width: clamp(15px, 4.4vw, 26px);
   }
   .candleSide {
-    grid-template-columns: repeat(5, clamp(10px, 2.7vw, 15px));
-    gap: 2px 1px;
+    row-gap: var(--space-2);
   }
   .altarActionBtn {
     padding: var(--space-3) var(--space-2);
