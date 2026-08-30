@@ -499,10 +499,14 @@ export default async function MemorialPage(props: {
         />
 
         <header className="memorialHead">
-          <div className="memorialHeadTop">
-            {/* Name and the names the person was known by, on one line. */}
-            <p className="memorialNames">
-              <span className="memorialName">{detail.primaryName}</span>
+          {/* The person's name, centered as the anchor of the unit. */}
+          <p className="memorialNames">
+            <span className="memorialName">{detail.primaryName}</span>
+          </p>
+
+          {/* Names the person was also known by, gathered on their own line. */}
+          {detail.alternateNames.length > 0 ? (
+            <p className="memorialAliases">
               {detail.alternateNames.map((name, index) => (
                 <span key={`${name.type}-${index}`} className="memorialAlias">
                   <span className="memorialAliasType">
@@ -512,25 +516,7 @@ export default async function MemorialPage(props: {
                 </span>
               ))}
             </p>
-
-            {/* Share and keep, kept compact rather than taking a row. */}
-            <div className="memorialActions">
-              <Share
-                url={memorialUrl({
-                  appUrl: env().APP_URL,
-                  locale,
-                  slug: detail.slug,
-                })}
-                title={detail.primaryName}
-              />
-              {viewer.userId ? (
-                <BookmarkButton
-                  memorialId={detail.memorialId}
-                  initialBookmarked={viewerBookmarked}
-                />
-              ) : null}
-            </div>
-          </div>
+          ) : null}
 
           {/* Birth and death, side by side. */}
           <div className="memorialLifeline memorialLifelineRow">
@@ -576,6 +562,24 @@ export default async function MemorialPage(props: {
               />
             </p>
           ) : null}
+
+          {/* Share and keep, centered under the unit rather than floating. */}
+          <div className="memorialActions">
+            <Share
+              url={memorialUrl({
+                appUrl: env().APP_URL,
+                locale,
+                slug: detail.slug,
+              })}
+              title={detail.primaryName}
+            />
+            {viewer.userId ? (
+              <BookmarkButton
+                memorialId={detail.memorialId}
+                initialBookmarked={viewerBookmarked}
+              />
+            ) : null}
+          </div>
         </header>
 
         <div className="memorialGrid">

@@ -1356,28 +1356,35 @@ img {
 
 /* Name block -------------------------------------------------------------- */
 
+/* The deceased-information unit: name, aliases, dates, creator and actions,
+ * gathered and centered as one block rather than split left/right. */
 .memorialHead {
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  align-items: center;
+  text-align: center;
+  gap: var(--space-3);
 }
 
-.memorialHeadTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: var(--space-3) var(--space-4);
-  flex-wrap: wrap;
-}
-
-/* Name and the names the person was known by, on one line. */
+/* Name line. */
 .memorialNames {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: baseline;
   gap: var(--space-1) var(--space-3);
   min-width: 0;
+}
+
+/* Other names, on their own centered line beneath the name. */
+.memorialAliases {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
 }
 
 .memorialName {
@@ -1399,12 +1406,13 @@ img {
   margin-inline-end: 0.3em;
 }
 
-/* Share and keep, kept compact rather than each taking a row. */
+/* Share and keep, centered beneath the unit. */
 .memorialActions {
   display: flex;
   gap: var(--space-2);
   align-items: center;
-  flex: none;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .memorialLifeline {
@@ -1417,6 +1425,7 @@ img {
 .memorialLifelineRow {
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0 var(--space-6);
   align-items: baseline;
 }
