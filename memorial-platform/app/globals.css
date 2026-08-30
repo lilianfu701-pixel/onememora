@@ -3208,7 +3208,7 @@ a.famCard:focus-visible {
 
 .altarActionBtn .altarPhotoCandle,
 .altarActionBtn .altarPhotoWreath {
-  width: 44px;
+  width: 30px;
 }
 
 /* 上香 button shows a bundle of lit sticks, not the censer. */
@@ -3219,7 +3219,7 @@ a.famCard:focus-visible {
   flex: none;
 }
 .altarActionBtn .altarBundle {
-  width: 42px;
+  width: 30px;
 }
 
 .altarCenser {
@@ -3604,8 +3604,8 @@ a.famCard:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-4) var(--space-2);
+  gap: 3px;
+  padding: var(--space-2);
   background: var(--paper-raised);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -3681,83 +3681,28 @@ a.famCard:focus-visible {
   text-align: center;
 }
 
-.altarDonationGrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-3);
-  align-items: stretch;
-}
-
-.altarDonationBtn {
+/* A single custom-amount donation: an amount box and one button, no tiers. */
+.altarDonateBar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-5) var(--space-3);
-  background: var(--paper-raised);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-  cursor: pointer;
-  font: inherit;
-  color: inherit;
-  transition:
-    border-color var(--duration-fast) ease,
-    background var(--duration-fast) ease,
-    box-shadow var(--duration-fast) ease,
-    transform var(--duration-fast) ease;
-}
-
-.altarDonationBtn:hover {
-  border-color: var(--gold);
-  background: rgba(197, 163, 95, 0.05);
-  box-shadow: 0 2px 8px rgba(197, 163, 95, 0.12);
-  transform: translateY(-1px);
-}
-
-.altarDonationBtn:focus-visible {
-  outline: 2px solid var(--gold);
-  outline-offset: 2px;
-}
-
-.altarDonationBtn:active {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
-.altarDonationAmount {
-  font-size: var(--text-xl);
-  font-weight: 700;
-  color: var(--gold);
-  font-variant-numeric: tabular-nums;
-}
-
-.altarDonationDesc {
-  font-size: var(--text-base);
-  color: var(--ink);
-  text-align: center;
-}
-
-/* Custom-amount cell: sits inline with the three fixed tiers, as an input box. */
-.altarDonationCustomCell {
-  cursor: default;
+  align-items: stretch;
   justify-content: center;
   gap: var(--space-3);
-}
-
-.altarDonationCustomCell:hover {
-  border-color: var(--line);
-  background: var(--paper-raised);
-  box-shadow: none;
-  transform: none;
+  max-width: 24rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .altarCustomInputRow {
   display: flex;
   align-items: center;
-  gap: 2px;
-  width: 100%;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--line);
   border-bottom: 2px solid var(--gold);
-  padding-bottom: 2px;
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  background: var(--paper-raised);
 }
 
 .altarCustomPrefix {

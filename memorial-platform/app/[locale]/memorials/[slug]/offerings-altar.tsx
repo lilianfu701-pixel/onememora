@@ -384,12 +384,6 @@ function WreathRoll(props: {
 
 type OfferKind = "candle" | "wreath" | "donation";
 
-const DONATION_TIERS = [
-  { amount: 199, key: "donate199" },
-  { amount: 999, key: "donate999" },
-  { amount: 1999, key: "donate1999" },
-] as const;
-
 /* ────────────── Main ────────────── */
 
 export function OfferingsAltar(props: {
@@ -686,51 +680,38 @@ export function OfferingsAltar(props: {
         </button>
       </div>
 
-      {/* Donation */}
+      {/* Donation — a single custom amount, no preset tiers. */}
       <div className="altarDonationTiers">
         <h3 className="altarDonationTitle">{t("donateTitle")}</h3>
-        <div className="altarDonationGrid">
-          {DONATION_TIERS.map((tier) => (
-            <button
-              key={tier.amount}
-              type="button"
-              className="altarDonationBtn"
-              onClick={() => openModal("donation", tier.amount, true)}
-            >
-              <span className="altarDonationAmount">¥{tier.amount}</span>
-              <span className="altarDonationDesc">{t(tier.key)}</span>
-            </button>
-          ))}
-          <div className="altarDonationBtn altarDonationCustomCell">
-            <div className="altarCustomInputRow">
-              <span className="altarCustomPrefix">¥</span>
-              <input
-                className="altarCustomInput"
-                type="number"
-                min="1"
-                step="1"
-                inputMode="numeric"
-                value={customYuan}
-                onChange={(e) => setCustomYuan(e.target.value)}
-                placeholder={t("donateCustomPlaceholder")}
-                aria-label={t("donateCustom")}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") {
-                    e.preventDefault();
-                    startCustomDonation();
-                  }
-                }}
-              />
-            </div>
-            <button
-              type="button"
-              className="altarCustomGo"
-              onClick={startCustomDonation}
-              disabled={!(Number(customYuan) > 0)}
-            >
-              {t("donateCustomGo")}
-            </button>
+        <div className="altarDonateBar">
+          <div className="altarCustomInputRow">
+            <span className="altarCustomPrefix">¥</span>
+            <input
+              className="altarCustomInput"
+              type="number"
+              min="1"
+              step="1"
+              inputMode="numeric"
+              value={customYuan}
+              onChange={(e) => setCustomYuan(e.target.value)}
+              placeholder={t("donateCustomPlaceholder")}
+              aria-label={t("donateCustom")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  startCustomDonation();
+                }
+              }}
+            />
           </div>
+          <button
+            type="button"
+            className="altarCustomGo"
+            onClick={startCustomDonation}
+            disabled={!(Number(customYuan) > 0)}
+          >
+            {t("donateCustomGo")}
+          </button>
         </div>
         <p className="altarFeeNote">{t("feeTransfer")}</p>
       </div>
