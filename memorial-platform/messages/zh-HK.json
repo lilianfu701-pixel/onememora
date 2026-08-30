@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "繁體中文（香港）",
-    "localeNameEnglish": "Traditional Chinese (Hong Kong)"
+    "localeNameEnglish": "Traditional Chinese (Hong Kong)",
+    "homeTitle": "為摯愛之人建立永久的網上紀念館 | missingu.org",
+    "homeDescription": "MissingU 是一個莊嚴溫馨的網上追思平台。為逝去的親友建立紀念館、撰寫生平、上載相片、獻花點燭、留言追思，讓愛與記憶永遠延續。",
+    "searchTitle": "尋找紀念館 | missingu.org",
+    "searchTitleQuery": "搜尋「{q}」的紀念館 | missingu.org",
+    "searchDescription": "在 MissingU 追思網以姓名、出生或離世年份、國家尋找親友的網上紀念館。"
   },
   "common": {
     "appName": "追思",

@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "日本語",
-    "localeNameEnglish": "Japanese"
+    "localeNameEnglish": "Japanese",
+    "homeTitle": "永く残るオンライン追悼ページを作成 | missingu.org",
+    "homeDescription": "MissingU は、大切な人を偲ぶための静かでプライベートな場所です。オンライン追悼ページを作り、人生の物語を綴り、写真を添え、灯りをともし、家族や友人と思い出を分かち合えます。",
+    "searchTitle": "追悼ページを探す | missingu.org",
+    "searchTitleQuery": "「{q}」の検索結果 | missingu.org",
+    "searchDescription": "MissingU で、名前・生没年・国から追悼ページを検索できます。"
   },
   "common": {
     "appName": "追悼ページ",

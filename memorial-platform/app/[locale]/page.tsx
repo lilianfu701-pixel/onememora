@@ -1,9 +1,21 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { flags } from "@/lib/feature-flags";
 import { currentActor } from "@/modules/auth/current-user";
 import { HomeSignIn } from "./home-sign-in";
+
+export async function generateMetadata(props: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await props.params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return {
+    title: t("homeTitle"),
+    description: t("homeDescription"),
+  };
+}
 
 const languageGreetings = [
   { locale: "en", label: "English", text: "Every life deserves to be remembered." },

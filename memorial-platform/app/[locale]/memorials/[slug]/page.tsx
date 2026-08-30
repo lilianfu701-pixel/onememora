@@ -28,7 +28,7 @@ import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
 import { DispositionMapView } from "./disposition-map-view";
 import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
-import { MemorialJsonLd } from "./memorial-jsonld";
+import { BreadcrumbJsonLd, MemorialJsonLd } from "./memorial-jsonld";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { ContactManager } from "./contact-manager";
@@ -172,6 +172,7 @@ export default async function MemorialPage(props: {
   setRequestLocale(locale);
 
   const t = await getTranslations("memorial");
+  const nav = await getTranslations("nav");
   const result = await load(slug);
 
   if (!result.ok) {
@@ -426,16 +427,28 @@ export default async function MemorialPage(props: {
   return (
     <main id="main">
       {indexable ? (
-        <MemorialJsonLd
-          url={memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug })}
-          name={detail.primaryName}
-          image={schemaImage}
-          description={schemaDescription}
-          birthDate={schemaDate(detail.birthDate, detail.birthDatePrecision)}
-          deathDate={schemaDate(detail.deathDate, detail.deathDatePrecision)}
-          birthPlace={birthPlaceText || null}
-          deathPlace={deathPlaceText || null}
-        />
+        <>
+          <MemorialJsonLd
+            url={memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug })}
+            name={detail.primaryName}
+            image={schemaImage}
+            description={schemaDescription}
+            birthDate={schemaDate(detail.birthDate, detail.birthDatePrecision)}
+            deathDate={schemaDate(detail.deathDate, detail.deathDatePrecision)}
+            birthPlace={birthPlaceText || null}
+            deathPlace={deathPlaceText || null}
+          />
+          <BreadcrumbJsonLd
+            items={[
+              { name: nav("home"), url: `${siteUrl()}/${locale}` },
+              { name: nav("search"), url: `${siteUrl()}/${locale}/search` },
+              {
+                name: detail.primaryName,
+                url: memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug }),
+              },
+            ]}
+          />
+        </>
       ) : null}
       <article className="container section memorialView">
         {/*

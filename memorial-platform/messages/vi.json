@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "Tiếng Việt",
-    "localeNameEnglish": "Vietnamese"
+    "localeNameEnglish": "Vietnamese",
+    "homeTitle": "Tạo trang tưởng niệm trực tuyến lưu giữ mãi | missingu.org",
+    "homeDescription": "MissingU là không gian riêng tư, tĩnh lặng để tưởng nhớ: tạo trang tưởng niệm trực tuyến, kể lại câu chuyện cuộc đời, thêm ảnh, thắp một ngọn nến và cùng gia đình, bạn bè lưu giữ ký ức.",
+    "searchTitle": "Tìm trang tưởng niệm | missingu.org",
+    "searchTitleQuery": "Kết quả tìm kiếm cho “{q}” | missingu.org",
+    "searchDescription": "Tìm trang tưởng niệm trên MissingU theo tên, năm sinh hoặc năm mất và quốc gia."
   },
   "common": {
     "appName": "Trang tưởng niệm",

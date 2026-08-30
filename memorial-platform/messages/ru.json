@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "Русский",
-    "localeNameEnglish": "Russian"
+    "localeNameEnglish": "Russian",
+    "homeTitle": "Создайте вечную онлайн-страницу памяти | missingu.org",
+    "homeDescription": "MissingU — тихое и уединённое место, чтобы помнить: создайте страницу памяти, расскажите историю жизни, добавьте фотографии, зажгите свечу и соберите родных и друзей вместе.",
+    "searchTitle": "Найти страницу памяти | missingu.org",
+    "searchTitleQuery": "Результаты по запросу «{q}» | missingu.org",
+    "searchDescription": "Ищите страницы памяти на MissingU по имени, году рождения или смерти и стране."
   },
   "common": {
     "appName": "Страница памяти",

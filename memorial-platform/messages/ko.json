@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "한국어",
-    "localeNameEnglish": "Korean"
+    "localeNameEnglish": "Korean",
+    "homeTitle": "오래 남는 온라인 추모 공간 만들기 | missingu.org",
+    "homeDescription": "MissingU는 소중한 사람을 기억하는 조용하고 사적인 공간입니다. 온라인 추모 페이지를 만들고, 삶의 이야기를 남기고, 사진을 더하고, 촛불을 밝히며 가족과 친구가 함께 추억할 수 있습니다.",
+    "searchTitle": "추모 공간 찾기 | missingu.org",
+    "searchTitleQuery": "“{q}” 검색 결과 | missingu.org",
+    "searchDescription": "이름, 출생 또는 별세 연도, 국가로 MissingU의 추모 공간을 검색하세요."
   },
   "common": {
     "appName": "추모 페이지",

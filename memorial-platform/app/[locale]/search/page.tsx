@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { countryOptions } from "@/lib/countries";
 import { flags } from "@/lib/feature-flags";
@@ -14,6 +15,26 @@ type SearchParams = {
   country?: string;
   cursor?: string;
 };
+
+/**
+ * Search result pages are kept out of the index (`noindex, follow`): the
+ * query-parameter space is unbounded and thin, so crawlers should follow the
+ * links through to real memorial pages rather than index the result lists.
+ */
+export async function generateMetadata(props: {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<SearchParams>;
+}): Promise<Metadata> {
+  const { locale } = await props.params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const { q } = await props.searchParams;
+  const query = q?.trim().slice(0, 60);
+  return {
+    title: query ? t("searchTitleQuery", { q: query }) : t("searchTitle"),
+    description: t("searchDescription"),
+    robots: { index: false, follow: true },
+  };
+}
 
 /**
  * The same search, one page further on.

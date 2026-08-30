@@ -47,3 +47,32 @@ export function MemorialJsonLd(props: {
     />
   );
 }
+
+/**
+ * Schema.org BreadcrumbList for a memorial: Home → Directory → this person.
+ * Surfaces the trail beneath the result in Google, and, like the ProfilePage
+ * markup, only for a page Google may index. `<` is escaped for the same reason.
+ */
+export function BreadcrumbJsonLd(props: {
+  items: { name: string; url: string }[];
+}) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: props.items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+
+  const json = JSON.stringify(data).replace(/</g, "\\u003c");
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: json }}
+    />
+  );
+}

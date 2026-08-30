@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "Bahasa Indonesia",
-    "localeNameEnglish": "Indonesian"
+    "localeNameEnglish": "Indonesian",
+    "homeTitle": "Buat memorial daring yang abadi | missingu.org",
+    "homeDescription": "MissingU adalah tempat yang tenang dan pribadi untuk mengenang: buat memorial daring, bagikan kisah hidup, tambahkan foto, nyalakan lilin, dan kumpulkan keluarga serta sahabat dalam kenangan.",
+    "searchTitle": "Cari memorial | missingu.org",
+    "searchTitleQuery": "Hasil pencarian untuk “{q}” | missingu.org",
+    "searchDescription": "Cari memorial di MissingU berdasarkan nama, tahun lahir atau wafat, dan negara."
   },
   "common": {
     "appName": "Halaman Kenangan",

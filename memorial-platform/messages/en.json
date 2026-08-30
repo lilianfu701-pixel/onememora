@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "English",
-    "localeNameEnglish": "English"
+    "localeNameEnglish": "English",
+    "homeTitle": "Create a lasting online memorial | missingu.org",
+    "homeDescription": "MissingU is a calm, private place to remember someone: build an online memorial, share a life story, add photos, light a candle, and let family and friends gather in memory.",
+    "searchTitle": "Find a memorial | missingu.org",
+    "searchTitleQuery": "Search results for “{q}” | missingu.org",
+    "searchDescription": "Search memorials on MissingU by name, birth or death year, and country to find and remember someone."
   },
   "common": {
     "appName": "Memorial",

@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "Deutsch",
-    "localeNameEnglish": "German"
+    "localeNameEnglish": "German",
+    "homeTitle": "Eine bleibende Online-Gedenkseite erstellen | missingu.org",
+    "homeDescription": "MissingU ist ein ruhiger, privater Ort des Erinnerns: Erstellen Sie eine Online-Gedenkseite, erzählen Sie eine Lebensgeschichte, fügen Sie Fotos hinzu, entzünden Sie eine Kerze und versammeln Sie Familie und Freunde im Gedenken.",
+    "searchTitle": "Eine Gedenkseite finden | missingu.org",
+    "searchTitleQuery": "Suchergebnisse für „{q}“ | missingu.org",
+    "searchDescription": "Suchen Sie auf MissingU nach Gedenkseiten – nach Name, Geburts- oder Sterbejahr und Land."
   },
   "common": {
     "appName": "Gedenkseite",

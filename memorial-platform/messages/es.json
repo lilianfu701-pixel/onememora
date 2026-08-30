@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "Español",
-    "localeNameEnglish": "Spanish"
+    "localeNameEnglish": "Spanish",
+    "homeTitle": "Crea un memorial en línea que perdure | missingu.org",
+    "homeDescription": "MissingU es un espacio sereno y privado para recordar: crea un memorial en línea, comparte una historia de vida, añade fotos, enciende una vela y reúne a familia y amigos en su memoria.",
+    "searchTitle": "Buscar un memorial | missingu.org",
+    "searchTitleQuery": "Resultados para «{q}» | missingu.org",
+    "searchDescription": "Busca memoriales en MissingU por nombre, año de nacimiento o fallecimiento y país."
   },
   "common": {
     "appName": "Memorial",

@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "العربية",
-    "localeNameEnglish": "Arabic"
+    "localeNameEnglish": "Arabic",
+    "homeTitle": "أنشئ صفحة تذكارية دائمة على الإنترنت | missingu.org",
+    "homeDescription": "MissingU مكان هادئ وخاص للتذكّر: أنشئ صفحة تذكارية على الإنترنت، وشارك قصة حياة، وأضف الصور، وأشعل شمعة، واجمع العائلة والأصدقاء في ذكرى من تحب.",
+    "searchTitle": "ابحث عن صفحة تذكارية | missingu.org",
+    "searchTitleQuery": "نتائج البحث عن «{q}» | missingu.org",
+    "searchDescription": "ابحث في MissingU عن الصفحات التذكارية بالاسم وسنة الميلاد أو الوفاة والبلد."
   },
   "common": {
     "appName": "صفحة تذكارية",

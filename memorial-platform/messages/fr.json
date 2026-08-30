@@ -1,7 +1,12 @@
 {
   "meta": {
     "localeName": "Français",
-    "localeNameEnglish": "French"
+    "localeNameEnglish": "French",
+    "homeTitle": "Créez un mémorial en ligne durable | missingu.org",
+    "homeDescription": "MissingU est un espace serein et privé pour se souvenir : créez un mémorial en ligne, partagez une histoire de vie, ajoutez des photos, allumez une bougie et réunissez proches et amis en mémoire.",
+    "searchTitle": "Trouver un mémorial | missingu.org",
+    "searchTitleQuery": "Résultats pour « {q} » | missingu.org",
+    "searchDescription": "Recherchez des mémoriaux sur MissingU par nom, année de naissance ou de décès et pays."
   },
   "common": {
     "appName": "Mémorial",
