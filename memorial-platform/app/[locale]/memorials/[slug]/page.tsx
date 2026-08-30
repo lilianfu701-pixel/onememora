@@ -25,6 +25,7 @@ import { avatarsForRelativeNames } from "@/modules/identity/avatar";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
+import { getDisposition } from "@/modules/memorials/disposition";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { ContactManager } from "./contact-manager";
@@ -241,6 +242,8 @@ export default async function MemorialPage(props: {
       listPublicChapters(detail.memorialId),
       listPublicContributions(detail.memorialId),
     ]);
+
+  const disposition = await getDisposition(detail.memorialId);
 
   const creatorRoleKey = creatorClaim[0]
     ? CREATOR_ROLE[creatorClaim[0].relationship]
@@ -506,6 +509,34 @@ export default async function MemorialPage(props: {
             </section>
 
             <LifeChapters locale={locale} chapters={chapters} />
+
+            {disposition?.method ? (
+              <section className="stack dispositionCard">
+                <h2 className="dispositionTitle">{t("dispositionHeading")}</h2>
+                <p className="dispositionMethod">
+                  {t(`disp_${disposition.method}`)}
+                </p>
+                {disposition.place ? (
+                  <p className="dispositionLine">
+                    <span className="dispositionLabel">
+                      {t("dispositionPlaceLabel")}
+                    </span>
+                    {disposition.place}
+                  </p>
+                ) : null}
+                {disposition.date ? (
+                  <p className="dispositionLine">
+                    <span className="dispositionLabel">
+                      {t("dispositionDateLabel")}
+                    </span>
+                    {disposition.date}
+                  </p>
+                ) : null}
+                {disposition.note ? (
+                  <p className="dispositionNote">{disposition.note}</p>
+                ) : null}
+              </section>
+            ) : null}
 
             <Contributions
               memorialId={detail.memorialId}

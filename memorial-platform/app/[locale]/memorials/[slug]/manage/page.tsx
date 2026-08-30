@@ -40,6 +40,8 @@ import {
 } from "@/modules/offerings/payouts";
 import { ChaptersEditor } from "./chapters-editor";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
+import { DispositionEditor } from "./disposition-editor";
+import { getDisposition } from "@/modules/memorials/disposition";
 import { ContributionsReview } from "./contributions-review";
 import { listPendingContributions } from "@/modules/memorials/contributions";
 
@@ -184,6 +186,11 @@ export default async function ManageMemorialPage(props: {
     ? await listManageChapters(detail.memorialId)
     : null;
 
+  // The final resting arrangement (身后安置) — the last chapter of the life.
+  const disposition = mayEditStory
+    ? await getDisposition(detail.memorialId)
+    : null;
+
   // Friend-and-family remembrances awaiting review.
   const pendingContributions = mayModerate
     ? await listPendingContributions(detail.memorialId)
@@ -286,6 +293,14 @@ export default async function ManageMemorialPage(props: {
                   memorialId={detail.memorialId}
                   locale={normalized}
                   initial={chapters}
+                />
+              </div>
+            ) : null}
+            {disposition ? (
+              <div className="manageCard">
+                <DispositionEditor
+                  memorialId={detail.memorialId}
+                  initial={disposition}
                 />
               </div>
             ) : null}

@@ -180,6 +180,15 @@ export const memorials = pgTable(
      * is still in flight cannot produce a second memorial for one death.
      */
     creationIdempotencyKey: text("creation_idempotency_key"),
+    /**
+     * The final resting arrangement (身后安置) — the last chapter. Method is a
+     * slug from a curated list (ground/cremation/tree/sea/columbarium/donation/
+     * other); place/date/note are free text. All optional.
+     */
+    dispositionMethod: text("disposition_method"),
+    dispositionPlace: text("disposition_place"),
+    dispositionDate: text("disposition_date"),
+    dispositionNote: text("disposition_note"),
     /** Set when this memorial was merged away, so its history stays traceable. */
     mergedIntoMemorialId: uuid("merged_into_memorial_id"),
     /**

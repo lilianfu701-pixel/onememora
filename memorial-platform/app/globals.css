@@ -3888,6 +3888,46 @@ a.famCard:focus-visible {
   margin: 0;
 }
 
+/* ── 身后安置 Final resting place (public) ── */
+
+.dispositionCard {
+  padding: var(--space-5) var(--space-6);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-md);
+}
+
+.dispositionTitle {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-display);
+  letter-spacing: 0.1em;
+}
+
+.dispositionMethod {
+  margin: 0 0 var(--space-2);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--olive-dark);
+}
+
+.dispositionLine {
+  margin: 0 0 var(--space-1);
+  color: var(--ink);
+}
+
+.dispositionLabel {
+  color: var(--muted);
+  margin-inline-end: var(--space-2);
+}
+
+.dispositionNote {
+  margin: var(--space-2) 0 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--muted);
+}
+
 @media (max-width: 640px) {
   .earningsFigures {
     grid-template-columns: 1fr;
