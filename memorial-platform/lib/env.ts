@@ -206,3 +206,19 @@ export function env(): Env {
 export function resetEnvCache(): void {
   cached = null;
 }
+
+/**
+ * The public base URL, without triggering full env validation.
+ *
+ * SEO/metadata surfaces (robots.txt, sitemap, `metadataBase`) are prerendered
+ * at build, where not every runtime secret is necessarily in scope. Calling the
+ * validating `env()` there would fail the whole build on an unrelated missing
+ * var, so read APP_URL directly and fall back to the canonical host.
+ */
+export function siteUrl(): string {
+  const raw = process.env.APP_URL?.trim();
+  if (raw && /^https?:\/\//.test(raw)) {
+    return raw.replace(/\/+$/, "");
+  }
+  return "https://missingu.org";
+}

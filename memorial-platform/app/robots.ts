@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { env } from "@/lib/env";
+import { siteUrl } from "@/lib/env";
 
 /**
  * Crawler policy.
@@ -14,7 +14,7 @@ import { env } from "@/lib/env";
  * through the sitemap, not through a pattern that would have to enumerate them.
  */
 export default function robots(): MetadataRoute.Robots {
-  const appUrl = env().APP_URL.replace(/\/+$/, "");
+  const appUrl = siteUrl();
 
   return {
     rules: [

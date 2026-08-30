@@ -2,7 +2,7 @@ import { and, eq, isNull } from "drizzle-orm";
 import type { MetadataRoute } from "next";
 import { db } from "@/db/client";
 import { memorials } from "@/db/schema";
-import { env } from "@/lib/env";
+import { siteUrl } from "@/lib/env";
 import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
 import { memorialUrl } from "@/modules/memorials/seo";
 
@@ -37,7 +37,7 @@ export const revalidate = 3600;
 const MAX_ENTRIES = 5000;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const appUrl = env().APP_URL;
+  const appUrl = siteUrl();
 
   const rows = await db()
     .select({
