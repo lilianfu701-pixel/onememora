@@ -18,6 +18,8 @@ const schema = z.object({
   place: z.string().trim().max(200).optional(),
   date: z.string().trim().max(40).optional(),
   note: z.string().trim().max(200).optional(),
+  lng: z.string().trim().max(32).optional(),
+  lat: z.string().trim().max(32).optional(),
 });
 
 /** Owner/editor sets the memorial's final-disposition record (身后安置). */
@@ -40,6 +42,8 @@ export async function PUT(
     place: body.value.place ?? null,
     date: body.value.date ?? null,
     note: body.value.note ?? null,
+    lng: body.value.lng ?? null,
+    lat: body.value.lat ?? null,
   });
   if (!result.ok) {
     if (result.error === "AUTH_REQUIRED") {

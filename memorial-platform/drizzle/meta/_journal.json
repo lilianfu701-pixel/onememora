@@ -302,6 +302,13 @@
       "when": 1788055776487,
       "tag": "0042_tricky_cardiac",
       "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1788057446729,
+      "tag": "0043_fast_the_hunter",
+      "breakpoints": true
     }
   ]
 }

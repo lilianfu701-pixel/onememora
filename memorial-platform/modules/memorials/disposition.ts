@@ -29,6 +29,18 @@ export interface Disposition {
   place: string | null;
   date: string | null;
   note: string | null;
+  /** GCJ-02 (AMap) coordinates as strings, or null when no point was set. */
+  lng: string | null;
+  lat: string | null;
+}
+
+/** Parses a coordinate string, keeping it only if finite and in range. */
+function cleanCoord(v: string | null | undefined, max: number): string | null {
+  const t = (v ?? "").trim();
+  if (t.length === 0) return null;
+  const n = Number(t);
+  if (!Number.isFinite(n) || Math.abs(n) > max) return null;
+  return n.toFixed(6);
 }
 
 export type DispositionError = "AUTH_REQUIRED" | "FORBIDDEN" | "NOT_FOUND";
@@ -43,6 +55,8 @@ export async function getDisposition(
       place: memorials.dispositionPlace,
       date: memorials.dispositionDate,
       note: memorials.dispositionNote,
+      lng: memorials.dispositionLng,
+      lat: memorials.dispositionLat,
     })
     .from(memorials)
     .where(eq(memorials.id, memorialId));
@@ -53,6 +67,8 @@ export async function getDisposition(
     place: row.place,
     date: row.date,
     note: row.note,
+    lng: row.lng,
+    lat: row.lat,
   };
 }
 
@@ -68,6 +84,8 @@ export async function setDisposition(
     place?: string | null;
     date?: string | null;
     note?: string | null;
+    lng?: string | null;
+    lat?: string | null;
   },
 ): Promise<Result<Disposition, DispositionError>> {
   if (!actor.userId) return err("AUTH_REQUIRED");
@@ -92,6 +110,10 @@ export async function setDisposition(
   const place = method ? clean(input.place, 200) : null;
   const date = method ? clean(input.date, 40) : null;
   const note = method ? clean(input.note, 200) : null;
+  const lng = method ? cleanCoord(input.lng, 180) : null;
+  const lat = method ? cleanCoord(input.lat, 90) : null;
+  // A point needs both halves to be meaningful.
+  const hasPoint = lng !== null && lat !== null;
 
   await db()
     .update(memorials)
@@ -100,8 +122,17 @@ export async function setDisposition(
       dispositionPlace: place,
       dispositionDate: date,
       dispositionNote: note,
+      dispositionLng: hasPoint ? lng : null,
+      dispositionLat: hasPoint ? lat : null,
     })
     .where(eq(memorials.id, memorialId));
 
-  return ok({ method, place, date, note });
+  return ok({
+    method,
+    place,
+    date,
+    note,
+    lng: hasPoint ? lng : null,
+    lat: hasPoint ? lat : null,
+  });
 }

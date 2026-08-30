@@ -365,7 +365,12 @@
     "disp_sea": "Sea burial",
     "disp_columbarium": "Columbarium",
     "disp_donation": "Body donation",
-    "disp_other": "Other"
+    "disp_other": "Other",
+    "dispositionMapSearch": "Search",
+    "dispositionMapSearchPlaceholder": "Search a place",
+    "dispositionMapHint": "Click or drag the marker on the map, or search a place first.",
+    "dispositionMapUnavailable": "Map not configured (you can just type the place).",
+    "dispositionCoords": "Coordinates: {lng}, {lat}"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

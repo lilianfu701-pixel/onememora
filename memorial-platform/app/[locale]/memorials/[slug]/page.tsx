@@ -26,6 +26,7 @@ import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
+import { DispositionMapView } from "./disposition-map-view";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { ContactManager } from "./contact-manager";
@@ -534,6 +535,12 @@ export default async function MemorialPage(props: {
                 ) : null}
                 {disposition.note ? (
                   <p className="dispositionNote">{disposition.note}</p>
+                ) : null}
+                {disposition.lng && disposition.lat ? (
+                  <DispositionMapView
+                    lng={disposition.lng}
+                    lat={disposition.lat}
+                  />
                 ) : null}
               </section>
             ) : null}

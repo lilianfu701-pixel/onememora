@@ -3928,6 +3928,29 @@ a.famCard:focus-visible {
   color: var(--muted);
 }
 
+/* Disposition map (AMap) */
+.dispMap {
+  width: 100%;
+  height: 280px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.dispMapView {
+  width: 100%;
+  height: 220px;
+  margin-top: var(--space-3);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.dispMapSearch {
+  display: flex;
+  gap: var(--space-2);
+}
+
 @media (max-width: 640px) {
   .earningsFigures {
     grid-template-columns: 1fr;

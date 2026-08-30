@@ -189,6 +189,9 @@ export const memorials = pgTable(
     dispositionPlace: text("disposition_place"),
     dispositionDate: text("disposition_date"),
     dispositionNote: text("disposition_note"),
+    /** Optional map point for the place, in GCJ-02 (AMap) — stored as text. */
+    dispositionLng: text("disposition_lng"),
+    dispositionLat: text("disposition_lat"),
     /** Set when this memorial was merged away, so its history stays traceable. */
     mergedIntoMemorialId: uuid("merged_into_memorial_id"),
     /**

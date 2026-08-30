@@ -365,7 +365,12 @@
     "disp_sea": "海葬",
     "disp_columbarium": "骨灰寄存",
     "disp_donation": "遺體捐獻",
-    "disp_other": "其他"
+    "disp_other": "其他",
+    "dispositionMapSearch": "搜尋",
+    "dispositionMapSearchPlaceholder": "搜尋地點，如 上海福壽園",
+    "dispositionMapHint": "在地圖上點選或拖動標記來定位；也可先搜尋地點。",
+    "dispositionMapUnavailable": "地圖尚未設定（可先直接填寫文字地點）。",
+    "dispositionCoords": "座標：{lng}, {lat}"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

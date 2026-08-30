@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import type { Disposition } from "@/modules/memorials/disposition";
+import { DispositionMapPicker } from "./disposition-map";
 
 /** Kept in sync with DISPOSITION_METHODS on the server; inlined so this client
  *  component never imports the server module's runtime (db). */
@@ -33,6 +34,8 @@ export function DispositionEditor(props: {
   const [place, setPlace] = useState(props.initial.place ?? "");
   const [date, setDate] = useState(props.initial.date ?? "");
   const [note, setNote] = useState(props.initial.note ?? "");
+  const [lng, setLng] = useState(props.initial.lng ?? "");
+  const [lat, setLat] = useState(props.initial.lat ?? "");
   const [state, setState] = useState<"idle" | "saving" | "saved" | "error">(
     "idle",
   );
@@ -51,6 +54,8 @@ export function DispositionEditor(props: {
             place: place.trim() || undefined,
             date: date.trim() || undefined,
             note: note.trim() || undefined,
+            lng: lng || undefined,
+            lat: lat || undefined,
           }),
         },
       );
@@ -100,6 +105,25 @@ export function DispositionEditor(props: {
               onChange={(e) => setPlace(e.target.value)}
             />
           </label>
+
+          <DispositionMapPicker
+            lng={lng}
+            lat={lat}
+            onPick={(a, b, addr) => {
+              setLng(a);
+              setLat(b);
+              if (!place.trim() && addr) setPlace(addr);
+            }}
+            searchPlaceholder={t("dispositionMapSearchPlaceholder")}
+            searchLabel={t("dispositionMapSearch")}
+            hint={t("dispositionMapHint")}
+            unavailable={t("dispositionMapUnavailable")}
+          />
+          {lng && lat ? (
+            <p className="muted" style={{ margin: 0 }}>
+              {t("dispositionCoords", { lng, lat })}
+            </p>
+          ) : null}
           <label className="field">
             <span className="fieldLabel">{t("dispositionDateLabel")}</span>
             <input
