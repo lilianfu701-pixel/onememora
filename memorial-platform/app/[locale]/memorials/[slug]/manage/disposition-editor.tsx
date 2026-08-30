@@ -4,7 +4,18 @@ import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import type { Disposition } from "@/modules/memorials/disposition";
-import { DISPOSITION_METHODS } from "@/modules/memorials/disposition";
+
+/** Kept in sync with DISPOSITION_METHODS on the server; inlined so this client
+ *  component never imports the server module's runtime (db). */
+const DISPOSITION_METHODS = [
+  "ground",
+  "cremation",
+  "tree",
+  "sea",
+  "columbarium",
+  "donation",
+  "other",
+] as const;
 
 /**
  * Editor for the memorial's final-disposition record (身后安置). Owner/editor
