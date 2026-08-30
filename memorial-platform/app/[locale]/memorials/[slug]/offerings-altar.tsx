@@ -308,6 +308,13 @@ export function OfferingsAltar(props: {
   locale: string;
   /** The signed-in visitor's own profile name, prefilled when they offer. */
   viewerName?: string | null;
+  /**
+   * Whether online payment is configured. When false (e.g. before PayPal keys
+   * are set), a paid offering is recorded directly instead of failing, so the
+   * after-offering page can be seen. It switches to real checkout automatically
+   * once payment is enabled.
+   */
+  paymentEnabled: boolean;
 }) {
   const t = useTranslations("offerings");
   const router = useRouter();
@@ -386,9 +393,13 @@ export function OfferingsAltar(props: {
   }
 
   /**
-   * Sends a paid offering to Stripe Checkout. On success the browser leaves for
-   * Stripe; the offering is only recorded once the webhook confirms payment, so
-   * nothing is written here.
+   * Sends a paid offering to PayPal. On success the browser leaves for PayPal;
+   * the offering is only recorded once payment is captured, so nothing is
+   * written here.
+   *
+   * When payment is not enabled yet, the offering is recorded directly through
+   * the free path instead, so the after-offering page (altar + merit book) can
+   * be tested without a real charge.
    */
   async function checkout(
     payload: Record<string, unknown>,
@@ -398,6 +409,13 @@ export function OfferingsAltar(props: {
       window.location.href = `/${props.locale}/sign-in`;
       return;
     }
+
+    if (!props.paymentEnabled) {
+      const recorded = await post(payload, tag);
+      if (recorded) setModal(null);
+      return;
+    }
+
     setPending(tag);
     setNotice(null);
     try {
@@ -703,7 +721,9 @@ export function OfferingsAltar(props: {
               </label>
             ) : null}
 
-            <p className="altarDevNote">{t("payNote")}</p>
+            {props.paymentEnabled ? (
+              <p className="altarDevNote">{t("payNote")}</p>
+            ) : null}
 
             {notice === "fail" ? (
               <p className="altarNoticeFail" role="alert">

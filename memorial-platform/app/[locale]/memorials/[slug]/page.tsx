@@ -688,6 +688,10 @@ export default async function MemorialPage(props: {
               isLoggedIn={viewer.userId !== null}
               locale={locale}
               viewerName={viewerDisplayName}
+              paymentEnabled={Boolean(
+                process.env.PAYPAL_CLIENT_ID &&
+                  process.env.PAYPAL_CLIENT_SECRET,
+              )}
             />
 
             <Guestbook
