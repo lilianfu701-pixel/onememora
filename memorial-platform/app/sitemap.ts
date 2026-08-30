@@ -3,8 +3,22 @@ import type { MetadataRoute } from "next";
 import { db } from "@/db/client";
 import { memorials } from "@/db/schema";
 import { env } from "@/lib/env";
-import { LAUNCH_LOCALES } from "@/lib/locale";
+import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
 import { memorialUrl } from "@/modules/memorials/seo";
+
+/**
+ * The hreflang map for one logical page: every launch-locale variant plus an
+ * `x-default`. Only launch locales are advertised — a thin auto-locale should
+ * not be offered to Google as an equal translation.
+ */
+function languagesFor(make: (locale: string) => string): Record<string, string> {
+  const map: Record<string, string> = {};
+  for (const locale of LAUNCH_LOCALES) {
+    map[locale] = make(locale);
+  }
+  map["x-default"] = make(DEFAULT_LOCALE);
+  return map;
+}
 
 /**
  * The sitemap.
@@ -41,19 +55,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
     .limit(MAX_ENTRIES);
 
+  const base = appUrl.replace(/\/+$/, "");
+  const homeLanguages = languagesFor((locale) => `${base}/${locale}`);
+
   const entries: MetadataRoute.Sitemap = LAUNCH_LOCALES.map((locale) => ({
-    url: `${appUrl.replace(/\/+$/, "")}/${locale}`,
+    url: `${base}/${locale}`,
     changeFrequency: "weekly",
     priority: 1,
+    alternates: { languages: homeLanguages },
   }));
 
   for (const row of rows) {
+    const languages = languagesFor((locale) =>
+      memorialUrl({ appUrl, locale, slug: row.slug }),
+    );
     for (const locale of LAUNCH_LOCALES) {
       entries.push({
         url: memorialUrl({ appUrl, locale, slug: row.slug }),
         lastModified: row.publishedAt ?? undefined,
         changeFrequency: "monthly",
         priority: 0.7,
+        alternates: { languages },
       });
     }
   }

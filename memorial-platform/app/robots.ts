@@ -23,9 +23,13 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: [
           "/api/",
-          // Staff surfaces, and the sign-in flow, have nothing to index.
+          // Staff surfaces, the sign-in flow, and private/owner-only surfaces
+          // have nothing to index.
           "/*/admin",
           "/*/sign-in",
+          "/*/manage",
+          "/*/account",
+          "/*/inbox",
         ],
       },
     ],

@@ -10,6 +10,7 @@ import { textDirection } from "@/lib/locale";
 import type { Locale } from "@/lib/locale";
 import { currentActor } from "@/modules/auth/current-user";
 import { unreadInboxCount } from "@/modules/messaging/inbox";
+import { env } from "@/lib/env";
 import { SignOutButton } from "../sign-out-button";
 import "../globals.css";
 
@@ -41,6 +42,9 @@ export async function generateMetadata(props: {
   const t = await getTranslations({ locale, namespace: "common" });
 
   return {
+    // Resolves every relative OG image / canonical / alternate to an absolute
+    // URL, which Google requires.
+    metadataBase: new URL(env().APP_URL),
     title: t("appName"),
   };
 }

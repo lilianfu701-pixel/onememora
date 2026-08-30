@@ -27,6 +27,7 @@ import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
 import { DispositionMapView } from "./disposition-map-view";
+import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { ContactManager } from "./contact-manager";
@@ -108,15 +109,36 @@ export async function generateMetadata(props: {
   // and a browser tab is not the place to explain it.
   const years = [span.birth?.year, span.death?.year].filter(Boolean).join(" – ");
 
+  const appUrl = env().APP_URL;
+  const indexable =
+    detail.visibility === "public" &&
+    detail.status === "published" &&
+    detail.searchEngineIndexable;
+
+  // Only advertise translations for a page Google may index; a private or
+  // noindex page has no business linking language variants.
+  const languages = indexable
+    ? {
+        ...Object.fromEntries(
+          LAUNCH_LOCALES.map((l) => [
+            l,
+            memorialUrl({ appUrl, locale: l, slug: detail.slug }),
+          ]),
+        ),
+        "x-default": memorialUrl({
+          appUrl,
+          locale: DEFAULT_LOCALE,
+          slug: detail.slug,
+        }),
+      }
+    : undefined;
+
   return {
     title: years ? `${detail.primaryName} (${years})` : detail.primaryName,
     robots,
     alternates: {
-      canonical: memorialUrl({
-        appUrl: env().APP_URL,
-        locale,
-        slug: detail.slug,
-      }),
+      canonical: memorialUrl({ appUrl, locale, slug: detail.slug }),
+      ...(languages ? { languages } : {}),
     },
   };
 }
