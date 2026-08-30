@@ -410,6 +410,67 @@ export async function addressFor(assetId: string): Promise<MediaAddress> {
   };
 }
 
+/**
+ * Bytes of a ready asset that is safe to serve at a permanent public URL: it
+ * must be `ready` and belong to a `public`, `published` memorial. This lets the
+ * public media route stream an image while the R2 bucket itself stays private —
+ * an invite-only or unlisted memorial's photo is never reachable this way (its
+ * memorial is not public), and neither is a still-quarantined upload (its key is
+ * not a `readyObjectKey`). Returns null for anything that fails the check, so
+ * the caller answers 404 without confirming that a key exists.
+ */
+export async function readPublicObject(
+  objectKey: string,
+): Promise<{ bytes: Uint8Array; contentType: string } | null> {
+  const [row] = await db()
+    .select({
+      status: mediaAssets.status,
+      readyObjectKey: mediaAssets.readyObjectKey,
+      deletedAt: mediaAssets.deletedAt,
+      visibility: memorials.visibility,
+      memorialStatus: memorials.status,
+    })
+    .from(mediaAssets)
+    .innerJoin(memorials, eq(memorials.id, mediaAssets.memorialId))
+    .where(eq(mediaAssets.readyObjectKey, objectKey));
+
+  if (
+    !row ||
+    row.deletedAt ||
+    row.status !== "ready" ||
+    row.visibility !== "public" ||
+    row.memorialStatus !== "published"
+  ) {
+    return null;
+  }
+
+  const bytes = await mediaStorage().getObject(objectKey);
+  if (!bytes) {
+    return null;
+  }
+
+  return { bytes, contentType: contentTypeForKey(objectKey) };
+}
+
+function contentTypeForKey(objectKey: string): string {
+  const ext = objectKey.slice(objectKey.lastIndexOf(".") + 1).toLowerCase();
+  switch (ext) {
+    case "jpg":
+    case "jpeg":
+      return "image/jpeg";
+    case "png":
+      return "image/png";
+    case "webp":
+      return "image/webp";
+    case "avif":
+      return "image/avif";
+    case "gif":
+      return "image/gif";
+    default:
+      return "application/octet-stream";
+  }
+}
+
 /** Shared address logic used by gallery and manage views. */
 async function addressForRow(
   storage: MediaStorage,

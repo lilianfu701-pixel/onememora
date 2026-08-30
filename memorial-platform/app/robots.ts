@@ -20,7 +20,10 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: "/",
+        // Public memorial images are served through this API path so the storage
+        // bucket can stay private; it must stay crawlable for Google Images and
+        // rich results. A longer, more specific rule wins over `/api/` below.
+        allow: ["/", "/api/media/public/"],
         disallow: [
           "/api/",
           // Staff surfaces, the sign-in flow, and private/owner-only surfaces
