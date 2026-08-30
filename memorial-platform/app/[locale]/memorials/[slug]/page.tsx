@@ -144,7 +144,8 @@ export async function generateMetadata(props: {
   if (indexable) {
     const portraits = await portraitsBySlug([detail.slug]);
     const portrait = portraits.get(detail.slug);
-    if (portrait) {
+    // Skip a short-lived signed URL; it would expire before a share/crawl fetch.
+    if (portrait && !portrait.includes("X-Amz-")) {
       ogImage = portrait.startsWith("http") ? portrait : `${appUrl}${portrait}`;
     }
   }
@@ -409,10 +410,14 @@ export default async function MemorialPage(props: {
     if (precision === "month") return value.slice(0, 7);
     return value.slice(0, 4);
   };
-  const schemaImage = rootPortrait
-    ? rootPortrait.startsWith("http")
-      ? rootPortrait
-      : `${siteUrl()}${rootPortrait}`
+  // A short-lived signed URL (contains an AWS query signature) would 403 by the
+  // time a crawler or social platform fetches it — only advertise a stable URL.
+  const stablePortrait =
+    rootPortrait && !rootPortrait.includes("X-Amz-") ? rootPortrait : null;
+  const schemaImage = stablePortrait
+    ? stablePortrait.startsWith("http")
+      ? stablePortrait
+      : `${siteUrl()}${stablePortrait}`
     : null;
   const schemaDescription = biography?.body
     ? biography.body.replace(/\s+/g, " ").trim().slice(0, 300)
