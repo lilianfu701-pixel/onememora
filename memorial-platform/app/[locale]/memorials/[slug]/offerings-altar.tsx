@@ -318,8 +318,15 @@ export function OfferingsAltar(props: {
   const [masked, setMasked] = useState(true);
   const [message, setMessage] = useState("");
   const [amountYuan, setAmountYuan] = useState("199");
+  // The inline custom-amount box, kept separate from the preset tiers so a
+  // preset stays fixed at its value and only the custom field is editable.
+  const [customYuan, setCustomYuan] = useState("");
+  // A preset donation locks its amount in the modal; a custom one stays editable.
+  const [amountFixed, setAmountFixed] = useState(false);
   const [pending, setPending] = useState<string | null>(null);
-  const [notice, setNotice] = useState<"ok" | "fail" | null>(null);
+  const [notice, setNotice] = useState<"ok" | "fail" | "unavailable" | null>(
+    null,
+  );
 
   const mid = Math.ceil(summary.recentCandles.length / 2);
   const leftCandles = summary.recentCandles.slice(0, mid);
@@ -349,15 +356,29 @@ export function OfferingsAltar(props: {
     }
   }
 
-  function openModal(kind: OfferKind, presetAmount?: number): void {
+  function openModal(
+    kind: OfferKind,
+    presetAmount?: number,
+    fixed = false,
+  ): void {
     // Prefill with the visitor's own name so lighting a candle (or any
     // offering) shows who it is from; they can edit, clear, or mask it.
     setName(props.viewerName ?? "");
     setMasked(false);
     setMessage(kind === "wreath" ? t("eulogyDefault") : "");
-    if (kind === "donation") setAmountYuan(String(presetAmount ?? 199));
+    if (kind === "donation") {
+      setAmountYuan(String(presetAmount ?? 199));
+      setAmountFixed(fixed);
+    }
     setNotice(null);
     setModal(kind);
+  }
+
+  /** Opens the donation modal for the amount typed in the inline custom box. */
+  function startCustomDonation(): void {
+    const yuan = Math.trunc(Number(customYuan));
+    if (!(yuan > 0)) return;
+    openModal("donation", yuan, false);
   }
 
   async function offerIncense(): Promise<void> {
@@ -390,13 +411,16 @@ export function OfferingsAltar(props: {
       );
       const data = (await res.json().catch(() => null)) as {
         data?: { url?: string };
+        error?: { code?: string };
       } | null;
       const url = data?.data?.url;
       if (res.ok && url) {
         window.location.href = url;
         return;
       }
-      setNotice("fail");
+      // FEATURE_DISABLED means online payment is not switched on for this
+      // deployment yet; anything else is a genuine failure worth a retry.
+      setNotice(data?.error?.code === "FEATURE_DISABLED" ? "unavailable" : "fail");
       setPending(null);
     } catch {
       setNotice("fail");
@@ -486,6 +510,11 @@ export function OfferingsAltar(props: {
           {t("offerFailed")}
         </p>
       ) : null}
+      {notice === "unavailable" ? (
+        <p className="altarNoticeFail" role="alert">
+          {t("offerUnavailable")}
+        </p>
+      ) : null}
 
       {/* Offering actions */}
       <div className="altarActions">
@@ -530,20 +559,43 @@ export function OfferingsAltar(props: {
               key={tier.amount}
               type="button"
               className="altarDonationBtn"
-              onClick={() => openModal("donation", tier.amount)}
+              onClick={() => openModal("donation", tier.amount, true)}
             >
               <span className="altarDonationAmount">¥{tier.amount}</span>
               <span className="altarDonationDesc">{t(tier.key)}</span>
             </button>
           ))}
+          <div className="altarDonationBtn altarDonationCustomCell">
+            <div className="altarCustomInputRow">
+              <span className="altarCustomPrefix">¥</span>
+              <input
+                className="altarCustomInput"
+                type="number"
+                min="1"
+                step="1"
+                inputMode="numeric"
+                value={customYuan}
+                onChange={(e) => setCustomYuan(e.target.value)}
+                placeholder={t("donateCustomPlaceholder")}
+                aria-label={t("donateCustom")}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    e.preventDefault();
+                    startCustomDonation();
+                  }
+                }}
+              />
+            </div>
+            <button
+              type="button"
+              className="altarCustomGo"
+              onClick={startCustomDonation}
+              disabled={!(Number(customYuan) > 0)}
+            >
+              {t("donateCustomGo")}
+            </button>
+          </div>
         </div>
-        <button
-          type="button"
-          className="altarDonationCustom"
-          onClick={() => openModal("donation", 0)}
-        >
-          {t("donateCustom")}
-        </button>
         <p className="altarFeeNote">{t("feeTransfer")}</p>
       </div>
 
@@ -578,20 +630,24 @@ export function OfferingsAltar(props: {
             </h3>
 
             {modal === "donation" ? (
-              <label className="altarField">
+              <div className="altarField">
                 <span className="altarFieldLabel">{t("fieldAmount")}</span>
-                <input
-                  className="altarInput"
-                  type="number"
-                  min="1"
-                  step="1"
-                  inputMode="numeric"
-                  value={amountYuan}
-                  onChange={(e) => setAmountYuan(e.target.value)}
-                  required
-                  autoFocus
-                />
-              </label>
+                {amountFixed ? (
+                  <p className="altarAmountFixed">¥{amountYuan}</p>
+                ) : (
+                  <input
+                    className="altarInput"
+                    type="number"
+                    min="1"
+                    step="1"
+                    inputMode="numeric"
+                    value={amountYuan}
+                    onChange={(e) => setAmountYuan(e.target.value)}
+                    required
+                    autoFocus
+                  />
+                )}
+              </div>
             ) : null}
 
             {modal === "wreath" ? (
@@ -652,6 +708,11 @@ export function OfferingsAltar(props: {
             {notice === "fail" ? (
               <p className="altarNoticeFail" role="alert">
                 {t("offerFailed")}
+              </p>
+            ) : null}
+            {notice === "unavailable" ? (
+              <p className="altarNoticeFail" role="alert">
+                {t("offerUnavailable")}
               </p>
             ) : null}
 

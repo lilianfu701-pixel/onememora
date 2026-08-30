@@ -3570,8 +3570,9 @@ a.famCard:focus-visible {
 
 .altarDonationGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-3);
+  align-items: stretch;
 }
 
 .altarDonationBtn {
@@ -3618,41 +3619,112 @@ a.famCard:focus-visible {
 }
 
 .altarDonationDesc {
-  font-size: var(--text-sm);
-  color: var(--muted);
+  font-size: var(--text-base);
+  color: var(--ink);
   text-align: center;
 }
 
-.altarDonationCustom {
-  align-self: center;
-  background: none;
+/* Custom-amount cell: sits inline with the three fixed tiers, as an input box. */
+.altarDonationCustomCell {
+  cursor: default;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+.altarDonationCustomCell:hover {
+  border-color: var(--line);
+  background: var(--paper-raised);
+  box-shadow: none;
+  transform: none;
+}
+
+.altarCustomInputRow {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 2px;
+}
+
+.altarCustomPrefix {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--gold);
+}
+
+.altarCustomInput {
+  width: 100%;
+  min-width: 0;
   border: none;
+  background: transparent;
+  font: inherit;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--gold);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.altarCustomInput::-webkit-outer-spin-button,
+.altarCustomInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.altarCustomInput:focus {
+  outline: none;
+}
+
+.altarCustomInput::placeholder {
+  color: var(--muted);
+  font-weight: 500;
+  font-size: var(--text-sm);
+}
+
+.altarCustomGo {
+  border: 1px solid var(--gold);
+  background: var(--gold);
+  color: #fff;
   font: inherit;
   font-size: var(--text-sm);
-  color: var(--olive);
-  cursor: pointer;
-  padding: var(--space-1) var(--space-2);
+  font-weight: 600;
+  padding: var(--space-2) var(--space-3);
   border-radius: var(--radius-sm);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: rgba(85, 116, 100, 0.4);
+  cursor: pointer;
+  transition: opacity var(--duration-fast) ease;
 }
 
-.altarDonationCustom:hover {
-  color: var(--olive-dark);
+.altarCustomGo:hover {
+  opacity: 0.9;
 }
 
-.altarDonationCustom:focus-visible {
+.altarCustomGo:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.altarCustomGo:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 2px;
 }
 
+.altarAmountFixed {
+  margin: 0;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+
 .altarFeeNote {
   margin: 0;
-  font-size: var(--text-xs);
-  color: var(--muted);
+  font-size: var(--text-sm);
+  color: var(--ink);
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 /* ── Notices ── */
@@ -3985,7 +4057,7 @@ a.famCard:focus-visible {
     gap: var(--space-6);
   }
   .altarDonationGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .altarWreathGrid {
     grid-template-columns: 1fr;

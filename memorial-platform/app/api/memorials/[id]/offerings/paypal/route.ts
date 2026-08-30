@@ -71,6 +71,12 @@ export async function POST(
         amountMinor: ["invalid"],
       });
     }
+    // Payment provider keys are not set on this deployment yet — distinct from a
+    // provider call that was attempted and failed, so the UI (and operator) can
+    // tell "online payment isn't enabled" apart from "the payment errored".
+    if (result.error === "NOT_CONFIGURED") {
+      return jsonError("FEATURE_DISABLED", correlationId);
+    }
     return jsonError("CHECKOUT_FAILED", correlationId);
   }
 
