@@ -13,7 +13,7 @@ import {
   users,
 } from "@/db/schema";
 import { countryName } from "@/lib/countries";
-import { env } from "@/lib/env";
+import { env, siteUrl } from "@/lib/env";
 import { currentActor } from "@/modules/auth/current-user";
 import {
   publicVisitorStories,
@@ -28,6 +28,7 @@ import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
 import { DispositionMapView } from "./disposition-map-view";
 import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
+import { MemorialJsonLd } from "./memorial-jsonld";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
 import { ContactManager } from "./contact-manager";
@@ -133,12 +134,32 @@ export async function generateMetadata(props: {
       }
     : undefined;
 
+  const title = years
+    ? `${detail.primaryName} (${years})`
+    : detail.primaryName;
+
+  // The portrait, for social share cards (WeChat / X / Facebook). Only for a
+  // page that may be indexed/shared.
+  let ogImage: string | undefined;
+  if (indexable) {
+    const portraits = await portraitsBySlug([detail.slug]);
+    const portrait = portraits.get(detail.slug);
+    if (portrait) {
+      ogImage = portrait.startsWith("http") ? portrait : `${appUrl}${portrait}`;
+    }
+  }
+
   return {
-    title: years ? `${detail.primaryName} (${years})` : detail.primaryName,
+    title,
     robots,
     alternates: {
       canonical: memorialUrl({ appUrl, locale, slug: detail.slug }),
       ...(languages ? { languages } : {}),
+    },
+    openGraph: {
+      title,
+      type: "profile",
+      ...(ogImage ? { images: [{ url: ogImage }] } : {}),
     },
   };
 }
@@ -374,8 +395,43 @@ export default async function MemorialPage(props: {
     detail.status === "draft" ||
     (detail.status === "published" && detail.visibility === "unlisted");
 
+  // Structured data only for a page Google may index.
+  const indexable =
+    detail.visibility === "public" &&
+    detail.status === "published" &&
+    detail.searchEngineIndexable;
+  const schemaDate = (
+    value: string | null,
+    precision: string,
+  ): string | null => {
+    if (!value || precision === "unknown") return null;
+    if (precision === "day") return value.slice(0, 10);
+    if (precision === "month") return value.slice(0, 7);
+    return value.slice(0, 4);
+  };
+  const schemaImage = rootPortrait
+    ? rootPortrait.startsWith("http")
+      ? rootPortrait
+      : `${siteUrl()}${rootPortrait}`
+    : null;
+  const schemaDescription = biography?.body
+    ? biography.body.replace(/\s+/g, " ").trim().slice(0, 300)
+    : null;
+
   return (
     <main id="main">
+      {indexable ? (
+        <MemorialJsonLd
+          url={memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug })}
+          name={detail.primaryName}
+          image={schemaImage}
+          description={schemaDescription}
+          birthDate={schemaDate(detail.birthDate, detail.birthDatePrecision)}
+          deathDate={schemaDate(detail.deathDate, detail.deathDatePrecision)}
+          birthPlace={birthPlaceText || null}
+          deathPlace={deathPlaceText || null}
+        />
+      ) : null}
       <article className="container section memorialView">
         {/*
          * Owner-only, right-aligned at the top of the memorial itself so it sits
