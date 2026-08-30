@@ -3378,54 +3378,95 @@ a.famCard:focus-visible {
 
 /* ── 花圈 Wreaths ── */
 
-.altarWreathGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-  gap: var(--space-4);
-  width: 100%;
+/* ── Altar tableau: the portrait, small, flanked by wreaths ── */
+
+.altarStage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(var(--space-2), 2vw, var(--space-5));
+  padding: var(--space-6) var(--space-4) var(--space-4);
 }
 
-.altarWreathCard {
+.altarWreathCol {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-3);
-  padding: var(--space-5) var(--space-4);
-  background: var(--paper-raised);
-  border: 1px solid var(--line);
-  border-top: 3px solid var(--gold);
+  flex: none;
+}
+
+.altarPortraitWrap {
+  flex: none;
+}
+
+.altarPortrait {
+  display: block;
+  width: clamp(148px, 38vw, 216px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
   border-radius: var(--radius-sm);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+  background: var(--paper-raised);
 }
 
-.altarWreathEulogy {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: var(--text-base);
-  font-style: italic;
-  line-height: 1.6;
-  color: var(--ink);
-  text-align: center;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+.altarPortraitEmpty {
+  background:
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0 8px, transparent 8px 16px),
+    var(--paper-raised);
+}
+
+/* ── Wreath with hanging ribbons: name (left) and elegy (right) on the image ── */
+
+.altarWreathFigure {
+  position: relative;
+  width: clamp(80px, 20vw, 104px);
+  flex: none;
+}
+
+.altarWreathFigure .altarPhotoWreath {
+  width: 100%;
+}
+
+.wreathRibbons {
+  position: absolute;
+  left: 50%;
+  top: 43%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+  pointer-events: none;
+}
+
+.wreathRibbon {
+  writing-mode: vertical-rl;
+  max-height: 76px;
   overflow: hidden;
+  padding: 6px 2.5px;
+  font-size: 10px;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+  background: rgba(253, 250, 244, 0.94);
+  color: #4a2f22;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  white-space: nowrap;
+  font-family: var(--font-display);
 }
 
-.altarWreathGiver {
-  font-size: var(--text-sm);
-  color: var(--muted);
-  text-align: center;
+.wreathRibbonElegy {
+  color: #7a1f16;
 }
 
-/* ── 祭坛 Altar Platform ── */
+/* ── 祭坛 Platform: the censer, flanked by up to thirty candles ── */
 
 .altarPlatform {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: var(--space-6);
-  padding: var(--space-8) var(--space-6) var(--space-6);
+  gap: clamp(2px, 1vw, var(--space-2));
+  padding: var(--space-5) var(--space-4) var(--space-6);
   background:
     radial-gradient(ellipse 90% 50% at 50% 100%, rgba(197, 163, 95, 0.06), transparent 70%),
     var(--paper-raised);
@@ -3438,16 +3479,31 @@ a.famCard:focus-visible {
   position: relative;
 }
 
+/* Five fixed candle columns a side; inner column sits next to the censer. Empty
+   cells still reserve their column so positions stay put as candles are added. */
+.candleSide {
+  display: grid;
+  grid-template-columns: repeat(5, clamp(15px, 3.4vw, 22px));
+  align-items: end;
+  justify-items: center;
+  gap: 3px 2px;
+  flex: none;
+}
+
+.wallCandle {
+  line-height: 0;
+}
+
+.wallCandle .altarPhotoCandle {
+  width: 100%;
+}
+
 .altarCenserWrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--space-2);
-}
-
-.altarCenserSvg {
-  width: 200px;
-  height: auto;
+  flex: none;
 }
 
 .altarCenserCount {
@@ -3458,34 +3514,65 @@ a.famCard:focus-visible {
   letter-spacing: 0.05em;
 }
 
-.altarCandleSide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-3);
+/* ── 花圈名录 Wreath roll (overflow beyond the six flanking wreaths) ── */
+
+.wreathRoll {
+  width: 100%;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4);
 }
 
-.altarCandleUnit {
+.wreathRollHeader {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   gap: var(--space-1);
+  margin-bottom: var(--space-3);
 }
 
-.altarCandleUnit .altarItemSvg {
-  width: 32px;
-  height: 48px;
-}
-
-.altarCandleName {
-  font-size: 0.6875rem;
-  color: var(--muted);
-  max-width: 4.5rem;
-  text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.wreathRollTitle {
   font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--text-base);
+}
+
+.wreathRollCount {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.wreathRollList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-height: 16rem;
+  overflow-y: auto;
+}
+
+.wreathRollEntry {
+  display: flex;
+  gap: var(--space-3);
+  align-items: baseline;
+  padding-bottom: var(--space-2);
+  border-bottom: 1px dashed var(--line);
+}
+
+.wreathRollName {
+  flex: none;
+  font-weight: 600;
+  color: var(--ink);
+  font-size: var(--text-sm);
+  min-width: 4rem;
+}
+
+.wreathRollElegy {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-style: italic;
 }
 
 /* ── Action buttons ── */
@@ -4068,16 +4155,26 @@ a.famCard:focus-visible {
   .altarDonationGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .altarWreathGrid {
-    grid-template-columns: 1fr;
+  /* Keep the tableau and candle wall from overflowing a narrow screen. */
+  .altarStage {
+    gap: var(--space-2);
   }
-  .altarCenserSvg {
-    width: 160px;
+  .altarPortrait {
+    width: clamp(120px, 34vw, 180px);
+  }
+  .altarWreathFigure {
+    width: clamp(56px, 17vw, 80px);
   }
   .altarPlatform {
-    flex-wrap: wrap;
-    gap: var(--space-4);
-    padding: var(--space-6) var(--space-4) var(--space-4);
+    gap: 1px;
+    padding: var(--space-4) var(--space-2) var(--space-4);
+  }
+  .altarCenserPhoto {
+    width: clamp(128px, 40vw, 168px);
+  }
+  .candleSide {
+    grid-template-columns: repeat(5, clamp(10px, 2.7vw, 15px));
+    gap: 2px 1px;
   }
   .altarActionBtn {
     padding: var(--space-3) var(--space-2);

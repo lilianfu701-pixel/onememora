@@ -250,40 +250,132 @@ function MeritBook(props: {
   );
 }
 
-/* ────────────── Display: 蜡烛组 ────────────── */
+/* ────────────── Display: 蜡烛墙（三层螺旋） ────────────── */
 
-function CandleGroup(props: {
+type CandlePos = { layer: 1 | 2 | 3; side: "L" | "R"; slot: 1 | 2 | 3 | 4 | 5 };
+
+/**
+ * Where the n-th candle (oldest = index 0) sits. Slot 1 is nearest the censer,
+ * slot 5 the outermost; layer 1 is the bottom row. Layer 1 fills inner→outer,
+ * alternating sides; then the outermost of layer 2, then (a deliberate quirk)
+ * the outermost of layer 3, then the rest of layer 2 outer→inner, then the rest
+ * of layer 3 outer→inner. The 30th (newest when full) lands at right-layer3-
+ * inner; a 31st pushes the oldest (left-layer1-inner) off the wall.
+ */
+const CANDLE_SEQUENCE: CandlePos[] = [
+  { layer: 1, side: "L", slot: 1 }, { layer: 1, side: "R", slot: 1 },
+  { layer: 1, side: "L", slot: 2 }, { layer: 1, side: "R", slot: 2 },
+  { layer: 1, side: "L", slot: 3 }, { layer: 1, side: "R", slot: 3 },
+  { layer: 1, side: "L", slot: 4 }, { layer: 1, side: "R", slot: 4 },
+  { layer: 1, side: "L", slot: 5 }, { layer: 1, side: "R", slot: 5 },
+  { layer: 2, side: "L", slot: 5 }, { layer: 2, side: "R", slot: 5 },
+  { layer: 3, side: "L", slot: 5 }, { layer: 3, side: "R", slot: 5 },
+  { layer: 2, side: "L", slot: 4 }, { layer: 2, side: "R", slot: 4 },
+  { layer: 2, side: "L", slot: 3 }, { layer: 2, side: "R", slot: 3 },
+  { layer: 2, side: "L", slot: 2 }, { layer: 2, side: "R", slot: 2 },
+  { layer: 2, side: "L", slot: 1 }, { layer: 2, side: "R", slot: 1 },
+  { layer: 3, side: "L", slot: 4 }, { layer: 3, side: "R", slot: 4 },
+  { layer: 3, side: "L", slot: 3 }, { layer: 3, side: "R", slot: 3 },
+  { layer: 3, side: "L", slot: 2 }, { layer: 3, side: "R", slot: 2 },
+  { layer: 3, side: "L", slot: 1 }, { layer: 3, side: "R", slot: 1 },
+];
+
+const MAX_CANDLES = 30;
+
+function CandleWall(props: {
   candles: { name: string | null; createdAt: Date }[];
+  censer: React.ReactNode;
 }) {
-  if (props.candles.length === 0) return null;
+  // The summary is newest-first; keep the most recent 30 and lay them oldest-
+  // first so each new candle takes the next position in the sequence.
+  const recent = props.candles.slice(0, MAX_CANDLES).reverse();
+
+  const left: React.ReactElement[] = [];
+  const right: React.ReactElement[] = [];
+  recent.forEach((candle, index) => {
+    const pos = CANDLE_SEQUENCE[index];
+    if (!pos) return;
+    const gridRow = 4 - pos.layer; // layer 1 sits on the bottom row
+    const gridColumn = pos.side === "L" ? 6 - pos.slot : pos.slot; // inner→censer
+    const cell = (
+      <div
+        key={index}
+        className="wallCandle"
+        style={{ gridRow, gridColumn }}
+        title={candle.name ?? undefined}
+      >
+        <CandlePhoto />
+      </div>
+    );
+    (pos.side === "L" ? left : right).push(cell);
+  });
+
   return (
-    <div className="altarCandleSide">
-      {props.candles.map((c, i) => (
-        <div key={i} className="altarCandleUnit">
-          <CandlePhoto />
-          {c.name ? <span className="altarCandleName">{c.name}</span> : null}
-        </div>
+    <div className="altarPlatform">
+      <div className="candleSide candleSideLeft">{left}</div>
+      {props.censer}
+      <div className="candleSide candleSideRight">{right}</div>
+    </div>
+  );
+}
+
+/* ────────────── Display: 花圈（带挽联飘带） ────────────── */
+
+/** A wreath with its two hanging ribbons: the giver's name (left) and the
+ * elegiac message (right), drawn over the wreath image. */
+function AltarWreath(props: { name: string | null; message: string | null }) {
+  return (
+    <div className="altarWreathFigure">
+      <WreathPhoto className="altarWreathImg" />
+      <div className="wreathRibbons" aria-hidden="true">
+        <span className="wreathRibbon wreathRibbonName">{props.name ?? ""}</span>
+        <span className="wreathRibbon wreathRibbonElegy">
+          {props.message ?? ""}
+        </span>
+      </div>
+    </div>
+  );
+}
+
+function WreathColumn(props: {
+  side: "left" | "right";
+  wreaths: { name: string | null; message: string | null }[];
+}) {
+  return (
+    <div className={`altarWreathCol altarWreathCol-${props.side}`}>
+      {props.wreaths.map((w, i) => (
+        <AltarWreath key={i} name={w.name} message={w.message} />
       ))}
     </div>
   );
 }
 
-/* ────────────── Display: 花圈 ────────────── */
-
-function WreathGallery(props: {
-  wreaths: { name: string | null; message: string | null; createdAt: Date }[];
+/** The overflow list: every wreath beyond the six shown flanking the portrait,
+ * so all of them are recorded without crowding the altar. */
+function WreathRoll(props: {
+  wreaths: { name: string | null; message: string | null }[];
   total: number;
+  t: (key: string, values?: Record<string, string | number | Date>) => string;
 }) {
-  if (props.total === 0) return null;
+  if (props.wreaths.length === 0) return null;
   return (
-    <div className="altarWreathGrid">
-      {props.wreaths.slice(0, 4).map((w, i) => (
-        <div key={i} className="altarWreathCard">
-          <WreathPhoto />
-          {w.message ? <p className="altarWreathEulogy">{w.message}</p> : null}
-          {w.name ? <span className="altarWreathGiver">—— {w.name}</span> : null}
-        </div>
-      ))}
+    <div className="wreathRoll">
+      <div className="wreathRollHeader">
+        <span className="wreathRollTitle">{props.t("wreathRollTitle")}</span>
+        <span className="wreathRollCount">（{props.total}）</span>
+      </div>
+      <ul className="wreathRollList">
+        {props.wreaths.map((w, i) => (
+          <li key={i} className="wreathRollEntry">
+            <span className="wreathRollName">
+              {w.name ? w.name : props.t("anonymousDonor")}
+            </span>
+            {w.message ? (
+              <span className="wreathRollElegy">{w.message}</span>
+            ) : null}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
@@ -308,6 +400,10 @@ export function OfferingsAltar(props: {
   locale: string;
   /** The signed-in visitor's own profile name, prefilled when they offer. */
   viewerName?: string | null;
+  /** The person's portrait, shown small at the centre of the altar tableau. */
+  portrait?: string | null;
+  /** The person's name, for the portrait's alt text. */
+  personName: string;
   /**
    * Whether online payment is configured. When false (e.g. before PayPal keys
    * are set), a paid offering is recorded directly instead of failing, so the
@@ -335,9 +431,11 @@ export function OfferingsAltar(props: {
     null,
   );
 
-  const mid = Math.ceil(summary.recentCandles.length / 2);
-  const leftCandles = summary.recentCandles.slice(0, mid);
-  const rightCandles = summary.recentCandles.slice(mid);
+  // Six wreaths flank the portrait (three a side); any others go to the roll.
+  const flankingWreaths = summary.recentWreaths.slice(0, 6);
+  const leftWreaths = flankingWreaths.slice(0, 3);
+  const rightWreaths = flankingWreaths.slice(3, 6);
+  const rollWreaths = summary.recentWreaths.slice(6);
 
   async function post(payload: Record<string, unknown>, tag: string): Promise<boolean> {
     setPending(tag);
@@ -490,33 +588,53 @@ export function OfferingsAltar(props: {
     <section className="altarSection" aria-label={t("altarHeading")}>
       <h2 className="altarHeading">{t("altarHeading")}</h2>
 
+      {/* Tableau: the portrait, small, flanked by up to three wreaths a side. */}
+      <div className="altarStage">
+        <WreathColumn side="left" wreaths={leftWreaths} />
+        <div className="altarPortraitWrap">
+          {props.portrait ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              className="altarPortrait"
+              src={props.portrait}
+              alt={props.personName}
+              loading="lazy"
+            />
+          ) : (
+            <div className="altarPortrait altarPortraitEmpty" aria-hidden="true" />
+          )}
+        </div>
+        <WreathColumn side="right" wreaths={rightWreaths} />
+      </div>
+
+      {/* Below the portrait: the censer, flanked by up to thirty candles. */}
+      <CandleWall
+        candles={summary.recentCandles}
+        censer={
+          <div className="altarCenserWrap">
+            <div className="altarCenser">
+              <IncensePhoto className="altarCenserPhoto" />
+              {summary.incense > 0 ? (
+                <IncenseSticks count={summary.incense} />
+              ) : null}
+            </div>
+            {summary.incense > 0 ? (
+              <span className="altarCenserCount">
+                {t("incenseCount", { count: summary.incense })}
+              </span>
+            ) : null}
+          </div>
+        }
+      />
+
+      <WreathRoll wreaths={rollWreaths} total={summary.wreath} t={t} />
+
       <MeritBook
         donors={summary.recentDonations}
         total={summary.donation}
         totalAmount={summary.donationTotal}
         t={t}
       />
-
-      <WreathGallery wreaths={summary.recentWreaths} total={summary.wreath} />
-
-      {/* The censer stands on the altar at all times; candles flank it once lit. */}
-      <div className="altarPlatform">
-        <CandleGroup candles={leftCandles} />
-        <div className="altarCenserWrap">
-          <div className="altarCenser">
-            <IncensePhoto className="altarCenserPhoto" />
-            {summary.incense > 0 ? (
-              <IncenseSticks count={summary.incense} />
-            ) : null}
-          </div>
-          {summary.incense > 0 ? (
-            <span className="altarCenserCount">
-              {t("incenseCount", { count: summary.incense })}
-            </span>
-          ) : null}
-        </div>
-        <CandleGroup candles={rightCandles} />
-      </div>
 
       {notice === "ok" ? (
         <p className="altarNotice" role="status">

@@ -571,7 +571,8 @@
     "earningsNet": "待轉贈淨額",
     "earningsThresholdReached": "已滿 ¥2000，可申領轉贈（申領功能開發中）",
     "earningsThresholdProgress": "滿 ¥2000 可申領轉贈，還差 {amount}",
-    "earningsNote": "平台收取 20% 服務費，其餘轉贈家屬；家屬實名開通並滿 ¥2000 後可申領。此為記帳，非資金託管。"
+    "earningsNote": "平台收取 20% 服務費，其餘轉贈家屬；家屬實名開通並滿 ¥2000 後可申領。此為記帳，非資金託管。",
+    "wreathRollTitle": "花圈名錄"
   },
   "account": {
     "title": "我的帳戶",

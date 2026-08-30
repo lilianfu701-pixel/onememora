@@ -491,11 +491,19 @@ export default async function MemorialPage(props: {
           </div>
         ) : null}
 
-        {/* Photographs lead the page, as a slideshow. */}
-        <PhotoSlideshow
-          photos={slides}
-          prevLabel={t("photoPrevious")}
-          nextLabel={t("photoNext")}
+        {/* The altar leads the page: the portrait, flanked by wreaths, with the
+         * censer and candles below. The deceased's details follow beneath it. */}
+        <OfferingsAltar
+          memorialId={detail.memorialId}
+          summary={offerings}
+          isLoggedIn={viewer.userId !== null}
+          locale={locale}
+          viewerName={viewerDisplayName}
+          portrait={rootPortrait}
+          personName={detail.primaryName}
+          paymentEnabled={Boolean(
+            process.env.PAYPAL_CLIENT_ID && process.env.PAYPAL_CLIENT_SECRET,
+          )}
         />
 
         <header className="memorialHead">
@@ -584,6 +592,13 @@ export default async function MemorialPage(props: {
 
         <div className="memorialGrid">
           <div className="memorialMain">
+            {/* The photo gallery, now below the altar and the details. */}
+            <PhotoSlideshow
+              photos={slides}
+              prevLabel={t("photoPrevious")}
+              nextLabel={t("photoNext")}
+            />
+
             <section className="stack">
               <h2>{t("lifeStory")}</h2>
               {biography ? (
@@ -685,18 +700,6 @@ export default async function MemorialPage(props: {
                 </Link>
               </p>
             ) : null}
-
-            <OfferingsAltar
-              memorialId={detail.memorialId}
-              summary={offerings}
-              isLoggedIn={viewer.userId !== null}
-              locale={locale}
-              viewerName={viewerDisplayName}
-              paymentEnabled={Boolean(
-                process.env.PAYPAL_CLIENT_ID &&
-                  process.env.PAYPAL_CLIENT_SECRET,
-              )}
-            />
 
             <Guestbook
               memorialId={detail.memorialId}

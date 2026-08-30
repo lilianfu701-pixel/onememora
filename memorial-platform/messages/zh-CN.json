@@ -571,7 +571,8 @@
     "earningsNet": "待转赠净额",
     "earningsThresholdReached": "已满 ¥2000，可申领转赠（申领功能开发中）",
     "earningsThresholdProgress": "满 ¥2000 可申领转赠，还差 {amount}",
-    "earningsNote": "平台收取 20% 服务费，其余转赠家属；家属实名开通并满 ¥2000 后可申领。此为记账，非资金托管。"
+    "earningsNote": "平台收取 20% 服务费，其余转赠家属；家属实名开通并满 ¥2000 后可申领。此为记账，非资金托管。",
+    "wreathRollTitle": "花圈名录"
   },
   "account": {
     "title": "我的账户",

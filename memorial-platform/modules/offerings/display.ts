@@ -70,7 +70,7 @@ export async function offeringSummary(
       ),
     )
     .orderBy(desc(memorialOfferings.createdAt))
-    .limit(20);
+    .limit(30);
 
   const recentWreaths = await db()
     .select({
@@ -92,7 +92,7 @@ export async function offeringSummary(
       ),
     )
     .orderBy(desc(memorialOfferings.createdAt))
-    .limit(10);
+    .limit(30);
 
   const recentDonations = await db()
     .select({
