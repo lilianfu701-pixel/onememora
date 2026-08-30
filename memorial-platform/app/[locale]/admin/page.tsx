@@ -28,7 +28,14 @@ export default async function AdminDashboard(props: {
   if (!counts.ok) return null;
 
   const isSuperAdmin = actor.platformRole === "super_admin";
-  const revenue = isSuperAdmin ? await listAdminOrders({ limit: 1 }) : null;
+  let revenue: Awaited<ReturnType<typeof listAdminOrders>> | null = null;
+  if (isSuperAdmin) {
+    try {
+      revenue = await listAdminOrders({ limit: 1 });
+    } catch {
+      revenue = null;
+    }
+  }
   const yuan = (minor: number) => `¥${(minor / 100).toFixed(2)}`;
 
   return (

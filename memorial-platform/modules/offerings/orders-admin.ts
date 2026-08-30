@@ -117,7 +117,7 @@ export async function listAdminOrders(opts?: {
     .select({
       count: sql<string>`count(*)`,
       gross: sql<string>`coalesce(sum(${orders.amountMinor}), 0)`,
-      fee: sql<string>`coalesce(sum(coalesce(${orders.feeMinor}, round(${orders.amountMinor} * ${PLATFORM_FEE_RATE}))), 0)`,
+      fee: sql<string>`coalesce(sum(coalesce(${orders.feeMinor}, round(${orders.amountMinor}::numeric * ${PLATFORM_FEE_RATE})::bigint)), 0)`,
     })
     .from(orders)
     .where(
