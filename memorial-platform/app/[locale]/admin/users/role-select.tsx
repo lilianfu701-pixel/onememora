@@ -35,9 +35,9 @@ export function RoleSelect(props: { userId: string; role: string }) {
 
   return (
     <select className="input" value={value} disabled={busy} onChange={change}>
-      <option value="user">user</option>
-      <option value="reviewer">reviewer</option>
-      <option value="super_admin">super_admin</option>
+      <option value="user">普通用户</option>
+      <option value="reviewer">审核员</option>
+      <option value="super_admin">超级管理员</option>
     </select>
   );
 }

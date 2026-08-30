@@ -19,15 +19,15 @@ export default async function RitualsPage(props: {
 
   return (
     <div className="stack-lg">
-      <h1>Ritual Revisions</h1>
+      <h1>仪式修订</h1>
       {result.value.length > 0 ? (
         <>
           <table className="adminTable">
             <thead>
               <tr>
-                <th>Version</th>
-                <th>Status</th>
-                <th>Reviewer</th>
+                <th>版本</th>
+                <th>状态</th>
+                <th>审核人</th>
               </tr>
             </thead>
             <tbody>
@@ -39,7 +39,7 @@ export default async function RitualsPage(props: {
                     </Link>
                   </td>
                   <td><span className={`adminBadge adminBadge--${r.status}`}>{r.status}</span></td>
-                  <td>{r.hasReviewer ? "Assigned" : "Unassigned"}</td>
+                  <td>{r.hasReviewer ? "已分配" : "未分配"}</td>
                 </tr>
               ))}
             </tbody>
@@ -49,12 +49,12 @@ export default async function RitualsPage(props: {
               href={`/${locale}/admin/rituals?offset=${offset + 25}`}
               className="button buttonQuiet"
             >
-              Next page
+              下一页
             </Link>
           ) : null}
         </>
       ) : (
-        <p className="muted">No revisions awaiting review.</p>
+        <p className="muted">暂无待审核的修订。</p>
       )}
     </div>
   );

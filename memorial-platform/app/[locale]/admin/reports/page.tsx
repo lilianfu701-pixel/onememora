@@ -19,16 +19,16 @@ export default async function ReportsPage(props: {
 
   return (
     <div className="stack-lg">
-      <h1>Reports</h1>
+      <h1>举报</h1>
       {result.value.length > 0 ? (
         <>
           <table className="adminTable">
             <thead>
               <tr>
-                <th>Category</th>
-                <th>Resource</th>
-                <th>Status</th>
-                <th>Date</th>
+                <th>分类</th>
+                <th>对象</th>
+                <th>状态</th>
+                <th>日期</th>
               </tr>
             </thead>
             <tbody>
@@ -51,12 +51,12 @@ export default async function ReportsPage(props: {
               href={`/${locale}/admin/reports?offset=${offset + 25}`}
               className="button buttonQuiet"
             >
-              Next page
+              下一页
             </Link>
           ) : null}
         </>
       ) : (
-        <p className="muted">No open reports.</p>
+        <p className="muted">暂无待处理举报。</p>
       )}
     </div>
   );

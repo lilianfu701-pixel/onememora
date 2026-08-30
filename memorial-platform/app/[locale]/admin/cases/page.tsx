@@ -19,14 +19,14 @@ export default async function CasesPage(props: {
 
   return (
     <div className="stack-lg">
-      <h1>Unassigned Cases</h1>
+      <h1>未分配工单</h1>
       {result.value.length > 0 ? (
         <>
           <table className="adminTable">
             <thead>
               <tr>
-                <th>Kind</th>
-                <th>Opened</th>
+                <th>类型</th>
+                <th>创建时间</th>
               </tr>
             </thead>
             <tbody>
@@ -47,12 +47,12 @@ export default async function CasesPage(props: {
               href={`/${locale}/admin/cases?offset=${offset + 25}`}
               className="button buttonQuiet"
             >
-              Next page
+              下一页
             </Link>
           ) : null}
         </>
       ) : (
-        <p className="muted">No unassigned cases.</p>
+        <p className="muted">暂无未分配工单。</p>
       )}
     </div>
   );

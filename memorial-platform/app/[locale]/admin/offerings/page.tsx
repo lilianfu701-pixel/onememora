@@ -32,22 +32,21 @@ export default async function OfferingsPage(props: {
 
   return (
     <div className="stack-lg">
-      <h1>Offering Products</h1>
+      <h1>供品商品</h1>
       <p className="muted">
-        Manage the product catalog. Products are added via the database seed or
-        API. Multi-currency pricing is set per product.
+        管理供品商品目录。商品通过数据库种子或 API 添加，多币种价格按商品设置。
       </p>
 
       {products.length > 0 ? (
         <table className="adminTable">
           <thead>
             <tr>
-              <th>Slug</th>
-              <th>Category</th>
-              <th>Price</th>
-              <th>Points</th>
-              <th>Status</th>
-              <th>Weight</th>
+              <th>标识</th>
+              <th>分类</th>
+              <th>价格</th>
+              <th>积分</th>
+              <th>状态</th>
+              <th>权重</th>
             </tr>
           </thead>
           <tbody>
@@ -58,12 +57,12 @@ export default async function OfferingsPage(props: {
                 <td>
                   {p.priceMinor !== null
                     ? `${(p.priceMinor / 100).toFixed(2)} ${p.currency ?? ""}`
-                    : "Free"}
+                    : "免费"}
                 </td>
                 <td>{p.points}</td>
                 <td>
                   <span className={`adminBadge ${p.isActive ? "adminBadge--open" : ""}`}>
-                    {p.isActive ? "Active" : "Inactive"}
+                    {p.isActive ? "启用" : "停用"}
                   </span>
                 </td>
                 <td>{p.sortWeight}</td>
@@ -72,7 +71,7 @@ export default async function OfferingsPage(props: {
           </tbody>
         </table>
       ) : (
-        <p className="muted">No products configured. Run the seed script to add default offerings.</p>
+        <p className="muted">尚未配置商品。运行种子脚本添加默认供品。</p>
       )}
     </div>
   );

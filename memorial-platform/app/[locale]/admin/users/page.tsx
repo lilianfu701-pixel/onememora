@@ -6,6 +6,13 @@ import { users } from "@/db/schema";
 import { desc, ilike, sql } from "drizzle-orm";
 import { RoleSelect } from "./role-select";
 
+const ROLE_LABEL: Record<string, string> = {
+  user: "普通用户",
+  reviewer: "审核员",
+  super_admin: "超级管理员",
+};
+const roleLabel = (r: string): string => ROLE_LABEL[r] ?? r;
+
 export default async function UsersPage(props: {
   params: Promise<{ locale: string }>;
   searchParams: Promise<{ q?: string; offset?: string }>;
@@ -45,28 +52,28 @@ export default async function UsersPage(props: {
 
   return (
     <div className="stack-lg">
-      <h1>Users ({total})</h1>
+      <h1>用户（{total}）</h1>
       <form method="get" className="searchForm" style={{ maxWidth: "24rem" }}>
         <label className="field">
-          <span className="fieldLabel">Search by name</span>
+          <span className="fieldLabel">按姓名搜索</span>
           <input
             className="input"
             type="search"
             name="q"
             defaultValue={search ?? ""}
-            placeholder="Full name…"
+            placeholder="姓名…"
           />
         </label>
-        <button className="button buttonPrimary" type="submit">Search</button>
+        <button className="button buttonPrimary" type="submit">搜索</button>
       </form>
       {rows.length > 0 ? (
         <>
           <table className="adminTable">
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Role</th>
-                <th>Joined</th>
+                <th>姓名</th>
+                <th>角色</th>
+                <th>注册时间</th>
               </tr>
             </thead>
             <tbody>
@@ -77,7 +84,7 @@ export default async function UsersPage(props: {
                     {isSuperAdmin && u.id !== actor.userId ? (
                       <RoleSelect userId={u.id} role={u.platformRole} />
                     ) : (
-                      <span className="adminBadge">{u.platformRole}</span>
+                      <span className="adminBadge">{roleLabel(u.platformRole)}</span>
                     )}
                   </td>
                   <td>{u.createdAt.toLocaleDateString()}</td>
@@ -90,12 +97,12 @@ export default async function UsersPage(props: {
               href={`/${locale}/admin/users?offset=${offset + 25}${search ? `&q=${encodeURIComponent(search)}` : ""}`}
               className="button buttonQuiet"
             >
-              Next page
+              下一页
             </a>
           ) : null}
         </>
       ) : (
-        <p className="muted">No users found.</p>
+        <p className="muted">未找到用户。</p>
       )}
     </div>
   );
