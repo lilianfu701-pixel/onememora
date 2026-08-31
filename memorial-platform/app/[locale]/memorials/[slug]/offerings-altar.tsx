@@ -612,9 +612,6 @@ export function OfferingsAltar(props: {
 
   return (
     <section className="altarSection" aria-label={t("altarHeading")}>
-      <div className="altarLayout">
-        {/* Left column: the altar tableau, candles, and offering actions. */}
-        <div className="altarLeft">
       {/* Tableau: the portrait, small, flanked by up to three wreaths a side. */}
       <div className="altarStage">
         <WreathColumn side="left" wreaths={leftWreaths} />
@@ -674,6 +671,13 @@ export function OfferingsAltar(props: {
         </div>
       ) : null}
 
+      <DonationBox
+        donors={summary.recentDonations}
+        total={summary.donation}
+        totalAmount={summary.donationTotal}
+        t={t}
+      />
+
       {notice === "fail" ? (
         <p className="altarNoticeFail" role="alert">
           {t("offerFailed")}
@@ -730,18 +734,6 @@ export function OfferingsAltar(props: {
       </div>
 
       <p className="altarFeeNote">{t("feeTransfer")}</p>
-        </div>
-
-        {/* Right column: the donation box with its scrolling roll of names. */}
-        <div className="altarRight">
-          <DonationBox
-            donors={summary.recentDonations}
-            total={summary.donation}
-            totalAmount={summary.donationTotal}
-            t={t}
-          />
-        </div>
-      </div>
 
       {/* Modal */}
       {modal ? (
