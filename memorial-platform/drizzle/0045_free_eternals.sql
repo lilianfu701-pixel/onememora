@@ -1,0 +1,1 @@
+ALTER TABLE "memorials" ADD COLUMN "disposition_media_id" uuid;

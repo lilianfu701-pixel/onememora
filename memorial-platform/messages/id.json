@@ -386,7 +386,9 @@
     "blockedListTitle": "Orang yang diblokir",
     "blockedEmpty": "Tidak ada yang diblokir.",
     "unblock": "Buka blokir",
-    "blockedUnknown": "Pengguna tanpa nama"
+    "blockedUnknown": "Pengguna tanpa nama",
+    "dispositionPhotoLabel": "Foto tempat peristirahatan",
+    "dispositionPhotoRemove": "Hapus foto"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

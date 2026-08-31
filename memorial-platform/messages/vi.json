@@ -386,7 +386,9 @@
     "blockedListTitle": "Người bị chặn",
     "blockedEmpty": "Không có ai bị chặn.",
     "unblock": "Bỏ chặn",
-    "blockedUnknown": "Người dùng chưa đặt tên"
+    "blockedUnknown": "Người dùng chưa đặt tên",
+    "dispositionPhotoLabel": "Ảnh nơi an nghỉ",
+    "dispositionPhotoRemove": "Xóa ảnh"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

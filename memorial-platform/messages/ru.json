@@ -386,7 +386,9 @@
     "blockedListTitle": "Заблокированные",
     "blockedEmpty": "Никто не заблокирован.",
     "unblock": "Разблокировать",
-    "blockedUnknown": "Пользователь без имени"
+    "blockedUnknown": "Пользователь без имени",
+    "dispositionPhotoLabel": "Фото места упокоения",
+    "dispositionPhotoRemove": "Удалить фото"
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

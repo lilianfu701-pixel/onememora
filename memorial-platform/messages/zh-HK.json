@@ -386,7 +386,9 @@
     "blockedListTitle": "已封鎖名單",
     "blockedEmpty": "暫無被封鎖的人。",
     "unblock": "解除封鎖",
-    "blockedUnknown": "未具名用戶"
+    "blockedUnknown": "未具名用戶",
+    "dispositionPhotoLabel": "安置地照片",
+    "dispositionPhotoRemove": "移除相片"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

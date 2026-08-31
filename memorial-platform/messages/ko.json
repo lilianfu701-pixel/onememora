@@ -386,7 +386,9 @@
     "blockedListTitle": "차단한 사람",
     "blockedEmpty": "차단한 사람이 없습니다.",
     "unblock": "차단 해제",
-    "blockedUnknown": "이름 없는 사용자"
+    "blockedUnknown": "이름 없는 사용자",
+    "dispositionPhotoLabel": "안치 장소 사진",
+    "dispositionPhotoRemove": "사진 삭제"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

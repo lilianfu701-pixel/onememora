@@ -386,7 +386,9 @@
     "blockedListTitle": "Gesperrte Personen",
     "blockedEmpty": "Niemand ist gesperrt.",
     "unblock": "Entsperren",
-    "blockedUnknown": "Namenloser Nutzer"
+    "blockedUnknown": "Namenloser Nutzer",
+    "dispositionPhotoLabel": "Foto der Ruhestätte",
+    "dispositionPhotoRemove": "Foto entfernen"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

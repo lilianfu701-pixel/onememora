@@ -14,6 +14,7 @@ export function DispositionCard(props: {
   note: string | null;
   lng: string | null;
   lat: string | null;
+  photoUrl?: string | null;
 }) {
   return (
     <section className="dispositionCard">
@@ -104,6 +105,16 @@ export function DispositionCard(props: {
       ) : null}
 
       {props.note ? <p className="dispositionNote">{props.note}</p> : null}
+
+      {props.photoUrl ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          className="dispositionPhoto"
+          src={props.photoUrl}
+          alt={props.method}
+          loading="lazy"
+        />
+      ) : null}
 
       {props.lng && props.lat ? (
         <DispositionMapView lng={props.lng} lat={props.lat} />

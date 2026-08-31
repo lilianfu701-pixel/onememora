@@ -1,10 +1,11 @@
-import { eq } from "drizzle-orm";
+import { and, eq, isNull } from "drizzle-orm";
 import { db } from "@/db/client";
-import { memorials } from "@/db/schema";
+import { mediaAssets, memorials } from "@/db/schema";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import type { Actor } from "@/modules/permissions/types";
 import { canOnMemorial } from "@/modules/permissions/policy";
+import { addressFor } from "@/modules/media/service";
 import { memorialRoleFor } from "./membership";
 
 /** The curated "简体常用" set of final-disposition methods. */
@@ -32,6 +33,16 @@ export interface Disposition {
   /** GCJ-02 (AMap) coordinates as strings, or null when no point was set. */
   lng: string | null;
   lat: string | null;
+  /** The resting-place photo's media id, and its resolved URL (when ready). */
+  mediaId: string | null;
+  photoUrl: string | null;
+}
+
+/** Resolves a media id to a viewable URL, or null when it is gone/not ready. */
+async function photoUrlFor(mediaId: string | null): Promise<string | null> {
+  if (!mediaId) return null;
+  const addr = await addressFor(mediaId);
+  return addr.kind === "public" || addr.kind === "signed" ? addr.url : null;
 }
 
 /** Parses a coordinate string, keeping it only if finite and in range. */
@@ -57,6 +68,7 @@ export async function getDisposition(
       note: memorials.dispositionNote,
       lng: memorials.dispositionLng,
       lat: memorials.dispositionLat,
+      mediaId: memorials.dispositionMediaId,
     })
     .from(memorials)
     .where(eq(memorials.id, memorialId));
@@ -69,6 +81,8 @@ export async function getDisposition(
     note: row.note,
     lng: row.lng,
     lat: row.lat,
+    mediaId: row.mediaId,
+    photoUrl: await photoUrlFor(row.mediaId),
   };
 }
 
@@ -86,6 +100,7 @@ export async function setDisposition(
     note?: string | null;
     lng?: string | null;
     lat?: string | null;
+    mediaId?: string | null;
   },
 ): Promise<Result<Disposition, DispositionError>> {
   if (!actor.userId) return err("AUTH_REQUIRED");
@@ -115,6 +130,24 @@ export async function setDisposition(
   // A point needs both halves to be meaningful.
   const hasPoint = lng !== null && lat !== null;
 
+  // A photo is kept only if the method stands, and only when it is a ready asset
+  // on this same memorial.
+  let mediaId: string | null = null;
+  if (method && input.mediaId) {
+    const [asset] = await db()
+      .select({ id: mediaAssets.id })
+      .from(mediaAssets)
+      .where(
+        and(
+          eq(mediaAssets.id, input.mediaId),
+          eq(mediaAssets.memorialId, memorialId),
+          eq(mediaAssets.status, "ready"),
+          isNull(mediaAssets.deletedAt),
+        ),
+      );
+    mediaId = asset?.id ?? null;
+  }
+
   await db()
     .update(memorials)
     .set({
@@ -124,6 +157,7 @@ export async function setDisposition(
       dispositionNote: note,
       dispositionLng: hasPoint ? lng : null,
       dispositionLat: hasPoint ? lat : null,
+      dispositionMediaId: mediaId,
     })
     .where(eq(memorials.id, memorialId));
 
@@ -134,5 +168,7 @@ export async function setDisposition(
     note,
     lng: hasPoint ? lng : null,
     lat: hasPoint ? lat : null,
+    mediaId,
+    photoUrl: await photoUrlFor(mediaId),
   });
 }

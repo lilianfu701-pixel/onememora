@@ -386,7 +386,9 @@
     "blockedListTitle": "الأشخاص المحظورون",
     "blockedEmpty": "لا يوجد أحد محظور.",
     "unblock": "إلغاء الحظر",
-    "blockedUnknown": "مستخدم بلا اسم"
+    "blockedUnknown": "مستخدم بلا اسم",
+    "dispositionPhotoLabel": "صورة مكان الدفن",
+    "dispositionPhotoRemove": "إزالة الصورة"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

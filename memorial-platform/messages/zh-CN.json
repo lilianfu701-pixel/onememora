@@ -386,7 +386,9 @@
     "blockedListTitle": "已屏蔽名单",
     "blockedEmpty": "暂无被屏蔽的人。",
     "unblock": "解除屏蔽",
-    "blockedUnknown": "未具名用户"
+    "blockedUnknown": "未具名用户",
+    "dispositionPhotoLabel": "安置地照片",
+    "dispositionPhotoRemove": "移除照片"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

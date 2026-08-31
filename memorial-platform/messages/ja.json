@@ -386,7 +386,9 @@
     "blockedListTitle": "ブロックした人",
     "blockedEmpty": "ブロックした人はいません。",
     "unblock": "ブロック解除",
-    "blockedUnknown": "名前のないユーザー"
+    "blockedUnknown": "名前のないユーザー",
+    "dispositionPhotoLabel": "安置場所の写真",
+    "dispositionPhotoRemove": "写真を削除"
   },
   "privacy": {
     "title": "このページを見られる範囲",

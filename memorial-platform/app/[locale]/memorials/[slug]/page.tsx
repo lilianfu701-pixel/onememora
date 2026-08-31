@@ -565,6 +565,7 @@ export default async function MemorialPage(props: {
                 note={disposition.note}
                 lng={disposition.lng}
                 lat={disposition.lat}
+                photoUrl={disposition.photoUrl}
               />
             ) : null}
 

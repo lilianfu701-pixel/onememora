@@ -386,7 +386,9 @@
     "blockedListTitle": "Pessoas bloqueadas",
     "blockedEmpty": "Ninguém está bloqueado.",
     "unblock": "Desbloquear",
-    "blockedUnknown": "Usuário sem nome"
+    "blockedUnknown": "Usuário sem nome",
+    "dispositionPhotoLabel": "Foto do local de descanso",
+    "dispositionPhotoRemove": "Remover foto"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

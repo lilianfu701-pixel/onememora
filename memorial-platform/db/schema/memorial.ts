@@ -192,6 +192,12 @@ export const memorials = pgTable(
     /** Optional map point for the place, in GCJ-02 (AMap) — stored as text. */
     dispositionLng: text("disposition_lng"),
     dispositionLat: text("disposition_lat"),
+    /**
+     * An optional photo of the resting place. A plain id (not a FK) to avoid a
+     * schema import cycle with media; integrity is enforced in the service,
+     * which only accepts a ready asset on this memorial.
+     */
+    dispositionMediaId: uuid("disposition_media_id"),
     /** Set when this memorial was merged away, so its history stays traceable. */
     mergedIntoMemorialId: uuid("merged_into_memorial_id"),
     /**

@@ -4457,6 +4457,35 @@ a.famCard:focus-visible {
   margin-inline-start: 0.1em;
 }
 
+/* Photo of the resting place, on the public card. */
+.dispositionPhoto {
+  display: block;
+  width: 100%;
+  max-width: 30rem;
+  max-height: 22rem;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Photo preview in the manage editor. */
+.dispositionPhotoEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+
+.dispositionPhotoEdit img {
+  width: 100%;
+  max-width: 18rem;
+  max-height: 14rem;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+}
+
 /* Disposition map (AMap) */
 .dispMap {
   width: 100%;
