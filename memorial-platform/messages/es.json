@@ -573,7 +573,8 @@
     "earningsThresholdProgress": "Faltan {amount} para poder solicitar el envío (¥2000)",
     "earningsNote": "La plataforma retiene un 20% de comisión y entrega el resto a la familia, que puede solicitarlo tras registrarse y superar ¥2000. Esto es contabilidad, no custodia de fondos.",
     "wreathRollTitle": "Coronas",
-    "donateMin": "Mínimo ¥99"
+    "donateMin": "Mínimo ¥99",
+    "close": "Cerrar"
   },
   "account": {
     "title": "Mi cuenta",

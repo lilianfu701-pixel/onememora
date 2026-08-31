@@ -3703,6 +3703,22 @@ a.famCard:focus-visible {
   font-style: italic;
 }
 
+/* The button that opens the full wreath roll, and its dialog card. */
+.wreathRollActions {
+  display: flex;
+  justify-content: center;
+}
+
+.wreathRollCard {
+  max-width: 34rem;
+  width: 100%;
+}
+
+.wreathRollCard .wreathRoll {
+  border: none;
+  padding: 0;
+}
+
 /* ── 爱心捐款箱 Donation box ── */
 
 .donationBox {

@@ -573,7 +573,8 @@
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
     "wreathRollTitle": "Karangan bunga",
-    "donateMin": "Minimal ¥99"
+    "donateMin": "Minimal ¥99",
+    "close": "Tutup"
   },
   "account": {
     "title": "Akun saya",

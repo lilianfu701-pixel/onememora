@@ -462,12 +462,13 @@ export function OfferingsAltar(props: {
   const [notice, setNotice] = useState<"ok" | "fail" | "unavailable" | null>(
     null,
   );
+  const [wreathRollOpen, setWreathRollOpen] = useState(false);
 
-  // Six wreaths flank the portrait (three a side); any others go to the roll.
+  // Six wreaths flank the portrait (three a side); if there are more, a button
+  // opens the full roll in a dialog.
   const flankingWreaths = summary.recentWreaths.slice(0, 6);
   const leftWreaths = flankingWreaths.slice(0, 3);
   const rightWreaths = flankingWreaths.slice(3, 6);
-  const rollWreaths = summary.recentWreaths.slice(6);
 
   async function post(payload: Record<string, unknown>, tag: string): Promise<boolean> {
     setPending(tag);
@@ -658,8 +659,16 @@ export function OfferingsAltar(props: {
         }
       />
 
-      {summary.wreath > 7 ? (
-        <WreathRoll wreaths={rollWreaths} total={summary.wreath} t={t} />
+      {summary.wreath > 6 ? (
+        <div className="wreathRollActions">
+          <button
+            type="button"
+            className="button buttonQuiet buttonCompact"
+            onClick={() => setWreathRollOpen(true)}
+          >
+            {t("wreathRollTitle")}（{summary.wreath}）
+          </button>
+        </div>
       ) : null}
 
       <DonationBox
@@ -875,6 +884,36 @@ export function OfferingsAltar(props: {
               </button>
             </div>
           </form>
+        </div>
+      ) : null}
+
+      {/* The full wreath roll, opened from the button above. */}
+      {wreathRollOpen ? (
+        <div
+          className="altarModalOverlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label={t("wreathRollTitle")}
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setWreathRollOpen(false);
+          }}
+        >
+          <div className="altarModalCard wreathRollCard">
+            <WreathRoll
+              wreaths={summary.recentWreaths}
+              total={summary.wreath}
+              t={t}
+            />
+            <div className="altarModalActions">
+              <button
+                type="button"
+                className="button buttonQuiet"
+                onClick={() => setWreathRollOpen(false)}
+              >
+                {t("close")}
+              </button>
+            </div>
+          </div>
         </div>
       ) : null}
     </section>
