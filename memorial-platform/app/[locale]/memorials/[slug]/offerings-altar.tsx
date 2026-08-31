@@ -279,15 +279,13 @@ function DonationBox(props: {
 
 /* ────────────── Display: 蜡烛墙（三层螺旋） ────────────── */
 
-type CandlePos = { layer: 1 | 2 | 3; side: "L" | "R"; slot: 1 | 2 | 3 | 4 | 5 };
+type CandlePos = { layer: 1 | 2; side: "L" | "R"; slot: 1 | 2 | 3 | 4 | 5 };
 
 /**
  * Where the n-th candle (oldest = index 0) sits. Slot 1 is nearest the censer,
  * slot 5 the outermost; layer 1 is the bottom row. Layer 1 fills inner→outer,
- * alternating sides; then the outermost of layer 2, then (a deliberate quirk)
- * the outermost of layer 3, then the rest of layer 2 outer→inner, then the rest
- * of layer 3 outer→inner. The 30th (newest when full) lands at right-layer3-
- * inner; a 31st pushes the oldest (left-layer1-inner) off the wall.
+ * alternating sides; layer 2 then fills outer→inner. The 20th (newest when full)
+ * lands at right-layer2-inner; a 21st pushes the oldest (left-layer1-inner) off.
  */
 const CANDLE_SEQUENCE: CandlePos[] = [
   { layer: 1, side: "L", slot: 1 }, { layer: 1, side: "R", slot: 1 },
@@ -296,18 +294,13 @@ const CANDLE_SEQUENCE: CandlePos[] = [
   { layer: 1, side: "L", slot: 4 }, { layer: 1, side: "R", slot: 4 },
   { layer: 1, side: "L", slot: 5 }, { layer: 1, side: "R", slot: 5 },
   { layer: 2, side: "L", slot: 5 }, { layer: 2, side: "R", slot: 5 },
-  { layer: 3, side: "L", slot: 5 }, { layer: 3, side: "R", slot: 5 },
   { layer: 2, side: "L", slot: 4 }, { layer: 2, side: "R", slot: 4 },
   { layer: 2, side: "L", slot: 3 }, { layer: 2, side: "R", slot: 3 },
   { layer: 2, side: "L", slot: 2 }, { layer: 2, side: "R", slot: 2 },
   { layer: 2, side: "L", slot: 1 }, { layer: 2, side: "R", slot: 1 },
-  { layer: 3, side: "L", slot: 4 }, { layer: 3, side: "R", slot: 4 },
-  { layer: 3, side: "L", slot: 3 }, { layer: 3, side: "R", slot: 3 },
-  { layer: 3, side: "L", slot: 2 }, { layer: 3, side: "R", slot: 2 },
-  { layer: 3, side: "L", slot: 1 }, { layer: 3, side: "R", slot: 1 },
 ];
 
-const MAX_CANDLES = 30;
+const MAX_CANDLES = 20;
 
 function CandleWall(props: {
   candles: { name: string | null; createdAt: Date }[];
@@ -322,7 +315,7 @@ function CandleWall(props: {
   recent.forEach((candle, index) => {
     const pos = CANDLE_SEQUENCE[index];
     if (!pos) return;
-    const gridRow = 4 - pos.layer; // layer 1 sits on the bottom row
+    const gridRow = 3 - pos.layer; // layer 1 sits on the bottom row (of two)
     const gridColumn = pos.side === "L" ? 6 - pos.slot : pos.slot; // inner→censer
     const cell = (
       <div
