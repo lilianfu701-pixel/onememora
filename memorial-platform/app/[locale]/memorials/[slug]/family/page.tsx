@@ -63,7 +63,11 @@ export default async function FamilyTreePage(props: {
     },
     relatives,
     {
-      recurse: true,
+      // Recursion (pulling a linked grandparent's own free-text relatives) can
+      // re-list the root and their siblings under the grandparent, which the
+      // chart cannot merge — it duplicated the root and left stray anchor boxes.
+      // Off until the layout can fold those units together.
+      recurse: false,
       viewerLoggedIn: actor.userId !== null,
       hiddenLabel: t("nameHiddenPlaceholder"),
     },
