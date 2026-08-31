@@ -25,7 +25,7 @@ import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
-import { DispositionMapView } from "./disposition-map-view";
+import { DispositionCard } from "./disposition-card";
 import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
 import { BreadcrumbJsonLd, MemorialJsonLd } from "./memorial-jsonld";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
@@ -555,37 +555,17 @@ export default async function MemorialPage(props: {
             <LifeChapters locale={locale} chapters={chapters} />
 
             {disposition?.method ? (
-              <section className="stack dispositionCard">
-                <h2 className="dispositionTitle">{t("dispositionHeading")}</h2>
-                <p className="dispositionMethod">
-                  {t(`disp_${disposition.method}`)}
-                </p>
-                {disposition.place ? (
-                  <p className="dispositionLine">
-                    <span className="dispositionLabel">
-                      {t("dispositionPlaceLabel")}
-                    </span>
-                    {disposition.place}
-                  </p>
-                ) : null}
-                {disposition.date ? (
-                  <p className="dispositionLine">
-                    <span className="dispositionLabel">
-                      {t("dispositionDateLabel")}
-                    </span>
-                    {disposition.date}
-                  </p>
-                ) : null}
-                {disposition.note ? (
-                  <p className="dispositionNote">{disposition.note}</p>
-                ) : null}
-                {disposition.lng && disposition.lat ? (
-                  <DispositionMapView
-                    lng={disposition.lng}
-                    lat={disposition.lat}
-                  />
-                ) : null}
-              </section>
+              <DispositionCard
+                heading={t("dispositionHeading")}
+                method={t(`disp_${disposition.method}`)}
+                place={disposition.place}
+                placeLabel={t("dispositionPlaceLabel")}
+                date={disposition.date}
+                dateLabel={t("dispositionDateLabel")}
+                note={disposition.note}
+                lng={disposition.lng}
+                lat={disposition.lat}
+              />
             ) : null}
 
             <Contributions

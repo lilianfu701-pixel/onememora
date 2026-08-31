@@ -4325,41 +4325,103 @@ a.famCard:focus-visible {
 /* ── 身后安置 Final resting place (public) ── */
 
 .dispositionCard {
-  padding: var(--space-5) var(--space-6);
-  background: var(--paper-raised);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-8) var(--space-6);
+  text-align: center;
+  background:
+    radial-gradient(
+      ellipse 120% 70% at 50% 0%,
+      rgba(85, 116, 100, 0.06),
+      transparent 62%
+    ),
+    var(--paper-raised);
   border: 1px solid var(--line);
-  border-top: 3px solid var(--gold);
   border-radius: var(--radius-md);
 }
 
-.dispositionTitle {
-  margin: 0 0 var(--space-3);
-  font-family: var(--font-display);
-  letter-spacing: 0.1em;
+.dispositionKicker {
+  font-size: var(--text-xs);
+  letter-spacing: 0.32em;
+  color: var(--muted);
+  padding-inline-start: 0.32em;
+}
+
+.dispositionEmblem {
+  display: grid;
+  place-items: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  color: var(--olive-dark);
+  background: rgba(85, 116, 100, 0.08);
+  border: 1px solid rgba(85, 116, 100, 0.28);
+}
+
+.dispositionEmblem svg {
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 .dispositionMethod {
-  margin: 0 0 var(--space-2);
+  margin: 0;
+  font-family: var(--font-display);
   font-size: var(--text-xl);
   font-weight: 700;
-  color: var(--olive-dark);
-}
-
-.dispositionLine {
-  margin: 0 0 var(--space-1);
+  letter-spacing: 0.08em;
   color: var(--ink);
 }
 
-.dispositionLabel {
+.dispositionMeta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2) var(--space-3);
+}
+
+.dispositionChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: var(--text-sm);
+  color: var(--ink);
+}
+
+.dispositionChipIcon {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  color: var(--olive);
+}
+
+.dispositionChipLabel {
   color: var(--muted);
-  margin-inline-end: var(--space-2);
 }
 
 .dispositionNote {
-  margin: var(--space-2) 0 0;
+  margin: var(--space-1) 0 0;
+  max-width: 34rem;
   font-family: var(--font-display);
   font-style: italic;
-  color: var(--muted);
+  font-size: var(--text-base);
+  line-height: 1.8;
+  color: var(--olive-dark);
+}
+
+.dispositionNote::before {
+  content: "“";
+  margin-inline-end: 0.1em;
+}
+
+.dispositionNote::after {
+  content: "”";
+  margin-inline-start: 0.1em;
 }
 
 /* Disposition map (AMap) */
