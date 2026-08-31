@@ -330,7 +330,11 @@ function CandleWall(props: {
         style={{ gridRow, gridColumn }}
         title={candle.name ?? undefined}
       >
+        <span className="candleFlame" aria-hidden="true" />
         <CandlePhoto />
+        {candle.name ? (
+          <span className="wallCandleName">{candle.name}</span>
+        ) : null}
       </div>
     );
     (pos.side === "L" ? left : right).push(cell);
@@ -431,6 +435,8 @@ export function OfferingsAltar(props: {
   portrait?: string | null;
   /** The person's name, for the portrait's alt text. */
   personName: string;
+  /** The details unit (name, dates, creator…), shown under the portrait. */
+  details?: React.ReactNode;
   /**
    * Whether online payment is configured. When false (e.g. before PayPal keys
    * are set), a paid offering is recorded directly instead of failing, so the
@@ -609,18 +615,26 @@ export function OfferingsAltar(props: {
       {/* Tableau: the portrait, small, flanked by up to three wreaths a side. */}
       <div className="altarStage">
         <WreathColumn side="left" wreaths={leftWreaths} />
-        <div className="altarPortraitWrap">
-          {props.portrait ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              className="altarPortrait"
-              src={props.portrait}
-              alt={props.personName}
-              loading="lazy"
-            />
-          ) : (
-            <div className="altarPortrait altarPortraitEmpty" aria-hidden="true" />
-          )}
+        <div className="altarCentre">
+          <div className="altarPortraitWrap">
+            {props.portrait ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                className="altarPortrait"
+                src={props.portrait}
+                alt={props.personName}
+                loading="lazy"
+              />
+            ) : (
+              <div
+                className="altarPortrait altarPortraitEmpty"
+                aria-hidden="true"
+              />
+            )}
+          </div>
+          {props.details ? (
+            <div className="altarDetails">{props.details}</div>
+          ) : null}
         </div>
         <WreathColumn side="right" wreaths={rightWreaths} />
       </div>

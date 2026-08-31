@@ -504,9 +504,8 @@ export default async function MemorialPage(props: {
           paymentEnabled={Boolean(
             process.env.PAYPAL_CLIENT_ID && process.env.PAYPAL_CLIENT_SECRET,
           )}
-        />
-
-        <header className="memorialHead">
+          details={
+            <header className="memorialHead">
           {/* The person's name, centered as the anchor of the unit. */}
           <p className="memorialNames">
             <span className="memorialName">{detail.primaryName}</span>
@@ -588,7 +587,9 @@ export default async function MemorialPage(props: {
               />
             ) : null}
           </div>
-        </header>
+            </header>
+          }
+        />
 
         <div className="memorialGrid">
           <div className="memorialMain">
