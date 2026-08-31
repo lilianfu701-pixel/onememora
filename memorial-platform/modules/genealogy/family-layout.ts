@@ -13,13 +13,16 @@ import type { ChartPerson } from "./family-chart";
  * spouses, each spouse's children hanging beneath the line that joins them.
  */
 
-// Cards stack a portrait over the name, so they are narrow and tall. Gaps are
-// kept tight: a chart that runs off the page is harder to read than a dense one.
+// Cards stack a portrait over the name, so they are narrow and tall. The gaps
+// give each relationship room to breathe: siblings' families stand well apart,
+// a marriage line is long enough to read, and a couple's width already grows
+// with the number of children hanging beneath it (see layoutUnion). One set of
+// constants governs the whole chart — nothing is positioned by hand.
 export const CARD_W = 120;
 export const CARD_H = 124;
-const COUPLE_GAP = 8; // spouses sit side by side, joined by a short line
-const SIB_GAP = 16; // room between sibling subtrees
-const GEN_GAP = 40; // vertical room between generations (couple row → children)
+const COUPLE_GAP = 26; // the shortest a marriage line ever gets (few/no children)
+const SIB_GAP = 48; // room between one sibling's family and the next
+const GEN_GAP = 52; // vertical room between generations (couple row → children)
 
 export type LaidCard = ChartPerson & {
   x: number;
@@ -184,7 +187,15 @@ export function layoutUnion(union: ChartUnion, depth: number): Laid {
     anchorCenter = nullBlock ? nullBlock.center : bx / 2;
   } else if (spouseBlocks.length === 1) {
     const only = spouseBlocks[0]!;
-    const half = (CARD_W + COUPLE_GAP) / 2;
+    const base = (CARD_W + COUPLE_GAP) / 2;
+    // Spread the couple to match the span of the children beneath them — more
+    // children, wider apart — but never tighter than `base`, and capped so a
+    // very large family does not fling the spouses off the page.
+    const span =
+      only.anchorXs.length > 1
+        ? (only.anchorXs[only.anchorXs.length - 1]! - only.anchorXs[0]!) / 2
+        : 0;
+    const half = Math.min(Math.max(base, span), base + 2 * (CARD_W + SIB_GAP));
     anchorCenter = only.dissolved ? only.center + half : only.center - half;
   } else {
     // Anchor between the leftmost (ex) and the next block.
