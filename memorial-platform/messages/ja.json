@@ -524,7 +524,7 @@
     "donate": "寄付する",
     "free": "無料",
     "noOfferingsYet": "最初にお供えをする方になりませんか。",
-    "donorWallTitle": "寄付者一覧",
+    "donorWallTitle": "寄付ボックス",
     "donorWallTotal": "¥{amount} 集まりました",
     "anonymousDonor": "匿名",
     "feeExplanation": "プラットフォーム手数料20%を差し引いた後、すべての収益はご遺族に送られます。",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
-    "wreathRollTitle": "供花名簿"
+    "wreathRollTitle": "供花名簿",
+    "donateMin": "最低 ¥99"
   },
   "account": {
     "title": "マイアカウント",

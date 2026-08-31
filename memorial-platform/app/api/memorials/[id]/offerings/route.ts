@@ -54,9 +54,13 @@ export async function POST(
     return jsonError("MEMORIAL_NOT_FOUND", correlationId);
   }
 
-  if (body.value.slug === "donation" && !body.value.amountMinor) {
+  // Donations are custom-amount with a ¥99 floor.
+  if (
+    body.value.slug === "donation" &&
+    (!body.value.amountMinor || body.value.amountMinor < 9900)
+  ) {
     return jsonError("INVALID_INPUT", correlationId, {
-      amountMinor: ["required"],
+      amountMinor: ["invalid"],
     });
   }
 

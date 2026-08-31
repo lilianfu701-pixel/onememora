@@ -524,7 +524,7 @@
     "donate": "Quyên góp",
     "free": "Miễn phí",
     "noOfferingsYet": "Hãy là người đầu tiên dâng lễ vật tưởng nhớ.",
-    "donorWallTitle": "Danh sách quyên góp",
+    "donorWallTitle": "Hộp quyên góp",
     "donorWallTotal": "¥{amount} đã quyên góp",
     "anonymousDonor": "Ẩn danh",
     "feeExplanation": "Sau khi trừ 20% phí nền tảng, toàn bộ số tiền sẽ được chuyển cho gia đình.",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
-    "wreathRollTitle": "Vòng hoa"
+    "wreathRollTitle": "Vòng hoa",
+    "donateMin": "Tối thiểu ¥99"
   },
   "account": {
     "title": "Tài khoản của tôi",

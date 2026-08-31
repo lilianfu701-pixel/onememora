@@ -210,68 +210,50 @@ function IncenseSticks({ count }: { count: number }) {
   );
 }
 
-/* ────────────── Display: 功德簿 ────────────── */
+/* ────────────── Display: 爱心捐款箱 ────────────── */
 
-function MeritBook(props: {
-  donors: { name: string | null; amountMinor: number; createdAt: Date }[];
+function DonationBox(props: {
+  donors: {
+    name: string | null;
+    message: string | null;
+    amountMinor: number;
+    createdAt: Date;
+  }[];
   total: number;
   totalAmount: number;
   t: (key: string, values?: Record<string, string | number | Date>) => string;
 }) {
   if (props.total === 0) return null;
 
-  const tierOf = (amt: number) => {
-    if (amt >= 199900) return "meritBookGold";
-    if (amt >= 99900) return "meritBookSilver";
-    return "meritBookBronze";
-  };
-
   const formatAmount = (amt: number) => `¥${(amt / 100).toFixed(0)}`;
-  const shouldScroll = props.donors.length > 5;
-
-  const renderEntry = (
-    d: (typeof props.donors)[number],
-    i: number,
-    prefix = "",
-  ) => (
-    <div
-      key={`${prefix}${i}`}
-      className={`meritBookEntry ${tierOf(d.amountMinor)}`}
-    >
-      <span className="meritBookName">
-        {d.name ? d.name : props.t("anonymousDonor")}
-      </span>
-      <span className="meritBookAmount">{formatAmount(d.amountMinor)}</span>
-    </div>
-  );
 
   return (
-    <div className="meritBook">
-      <div className="meritBookHeader">
-        <span className="meritBookTitle">{props.t("donorWallTitle")}</span>
-        <span className="meritBookTotal">
+    <div className="donationBox">
+      <div className="donationBoxHeader">
+        <span className="donationBoxTitle">{props.t("donorWallTitle")}</span>
+        <span className="donationBoxTotal">
           {props.t("donorWallTotal", {
             amount: (props.totalAmount / 100).toFixed(0),
           })}
         </span>
       </div>
-      <div className="meritBookViewport">
-        <div
-          className={`meritBookTrack${shouldScroll ? " meritBookScrolling" : ""}`}
-          style={
-            shouldScroll
-              ? ({ "--scroll-count": props.donors.length } as React.CSSProperties)
-              : undefined
-          }
-        >
-          {props.donors.map((d, i) => renderEntry(d, i))}
-          {shouldScroll ? (
-            <div aria-hidden="true">
-              {props.donors.map((d, i) => renderEntry(d, i, "dup-"))}
+      <ul className="donationBoxList">
+        {props.donors.map((d, i) => (
+          <li key={i} className="donationBoxEntry">
+            <div className="donationBoxLine">
+              <span className="donationBoxName">
+                {d.name ? d.name : props.t("anonymousDonor")}
+              </span>
+              <span className="donationBoxAmount">
+                {formatAmount(d.amountMinor)}
+              </span>
             </div>
-          ) : null}
-        </div>
-      </div>
+            {d.message ? (
+              <p className="donationBoxMsg">{d.message}</p>
+            ) : null}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
@@ -590,9 +572,9 @@ export function OfferingsAltar(props: {
       );
       return;
     }
-    // donation
+    // donation — minimum ¥99
     const yuan = Number(amountYuan);
-    if (!Number.isFinite(yuan) || yuan <= 0) {
+    if (!Number.isFinite(yuan) || yuan < 99) {
       setNotice("fail");
       return;
     }
@@ -659,20 +641,17 @@ export function OfferingsAltar(props: {
         }
       />
 
-      <WreathRoll wreaths={rollWreaths} total={summary.wreath} t={t} />
+      {summary.wreath > 7 ? (
+        <WreathRoll wreaths={rollWreaths} total={summary.wreath} t={t} />
+      ) : null}
 
-      <MeritBook
+      <DonationBox
         donors={summary.recentDonations}
         total={summary.donation}
         totalAmount={summary.donationTotal}
         t={t}
       />
 
-      {notice === "ok" ? (
-        <p className="altarNotice" role="status">
-          {t("offerThanks")}
-        </p>
-      ) : null}
       {notice === "fail" ? (
         <p className="altarNoticeFail" role="alert">
           {t("offerFailed")}
@@ -766,17 +745,21 @@ export function OfferingsAltar(props: {
                 {amountFixed ? (
                   <p className="altarAmountFixed">¥{amountYuan}</p>
                 ) : (
-                  <input
-                    className="altarInput"
-                    type="number"
-                    min="1"
-                    step="1"
-                    inputMode="numeric"
-                    value={amountYuan}
-                    onChange={(e) => setAmountYuan(e.target.value)}
-                    required
-                    autoFocus
-                  />
+                  <>
+                    <input
+                      className="altarInput"
+                      type="number"
+                      min="99"
+                      step="1"
+                      inputMode="numeric"
+                      value={amountYuan}
+                      onChange={(e) => setAmountYuan(e.target.value)}
+                      placeholder="99"
+                      required
+                      autoFocus
+                    />
+                    <span className="altarFieldHint">{t("donateMin")}</span>
+                  </>
                 )}
               </div>
             ) : null}
@@ -797,18 +780,24 @@ export function OfferingsAltar(props: {
               </label>
             ) : null}
 
-            <label className="altarField">
+            {/* Candle: the name is fixed to the signer's profile (not editable);
+             * wreath and donation names can be typed/retyped. Both can be masked. */}
+            <div className="altarField">
               <span className="altarFieldLabel">
                 {modal === "candle" ? t("fieldNameLabel") : t("fieldNameOptional")}
               </span>
-              <input
-                className="altarInput"
-                type="text"
-                maxLength={40}
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </label>
+              {modal === "candle" ? (
+                <p className="altarNameFixed">{name || t("anonymousDonor")}</p>
+              ) : (
+                <input
+                  className="altarInput"
+                  type="text"
+                  maxLength={40}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              )}
+            </div>
 
             {modal === "donation" ? (
               <label className="altarField">
@@ -823,16 +812,14 @@ export function OfferingsAltar(props: {
               </label>
             ) : null}
 
-            {modal !== "wreath" ? (
-              <label className="altarCheck">
-                <input
-                  type="checkbox"
-                  checked={masked}
-                  onChange={(e) => setMasked(e.target.checked)}
-                />
-                <span>{t("maskOption")}</span>
-              </label>
-            ) : null}
+            <label className="altarCheck">
+              <input
+                type="checkbox"
+                checked={masked}
+                onChange={(e) => setMasked(e.target.checked)}
+              />
+              <span>{t("maskOption")}</span>
+            </label>
 
             {props.paymentEnabled ? (
               <p className="altarDevNote">{t("payNote")}</p>

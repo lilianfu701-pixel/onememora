@@ -524,7 +524,7 @@
     "donate": "Пожертвовать",
     "free": "Бесплатно",
     "noOfferingsYet": "Будьте первым, кто почтит память подношением.",
-    "donorWallTitle": "Жертвователи",
+    "donorWallTitle": "Ящик пожертвований",
     "donorWallTotal": "¥{amount} собрано",
     "anonymousDonor": "Аноним",
     "feeExplanation": "После вычета 20% комиссии платформы все средства передаются семье.",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
-    "wreathRollTitle": "Венки"
+    "wreathRollTitle": "Венки",
+    "donateMin": "Минимум ¥99"
   },
   "account": {
     "title": "Мой аккаунт",

@@ -3617,13 +3617,20 @@ a.famCard:focus-visible {
   flex: none;
 }
 
+/* Pinned to the top of the platform, above the rising incense so the two do
+ * not overlap. */
 .altarCenserCount {
+  position: absolute;
+  top: var(--space-2);
+  left: 50%;
+  transform: translateX(-50%);
   font-size: var(--text-sm);
   color: var(--muted);
   text-align: center;
   font-family: var(--font-display);
   letter-spacing: 0.05em;
   white-space: nowrap;
+  z-index: 2;
 }
 
 /* ── 花圈名录 Wreath roll (overflow beyond the six flanking wreaths) ── */
@@ -3685,6 +3692,95 @@ a.famCard:focus-visible {
   color: var(--muted);
   font-size: var(--text-sm);
   font-style: italic;
+}
+
+/* ── 爱心捐款箱 Donation box ── */
+
+.donationBox {
+  width: 100%;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-sm);
+  padding: var(--space-4);
+}
+
+.donationBoxHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--line);
+}
+
+.donationBoxTitle {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--text-lg);
+}
+
+.donationBoxTotal {
+  font-size: var(--text-sm);
+  color: var(--gold);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.donationBoxList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.donationBoxEntry {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: var(--space-2);
+  border-bottom: 1px dashed var(--line);
+}
+
+.donationBoxLine {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.donationBoxName {
+  font-weight: 600;
+  color: var(--ink);
+  font-size: var(--text-base);
+}
+
+.donationBoxAmount {
+  flex: none;
+  color: var(--gold);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.donationBoxMsg {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Read-only name shown in the candle dialog (signer's profile name). */
+.altarNameFixed {
+  margin: 0;
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--ink);
 }
 
 /* ── Action buttons ── */

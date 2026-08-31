@@ -524,7 +524,7 @@
     "donate": "Donate",
     "free": "Free",
     "noOfferingsYet": "Be the first to pay respects with an offering.",
-    "donorWallTitle": "Donors",
+    "donorWallTitle": "Donation Box",
     "donorWallTotal": "¥{amount} raised",
     "anonymousDonor": "Anonymous",
     "feeExplanation": "After deducting a 20% platform fee, all proceeds are forwarded to the family.",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
-    "wreathRollTitle": "Wreaths"
+    "wreathRollTitle": "Wreaths",
+    "donateMin": "Minimum ¥99"
   },
   "account": {
     "title": "My Account",

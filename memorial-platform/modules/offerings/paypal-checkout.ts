@@ -25,7 +25,7 @@ interface OfferingIntent {
   message: string | null;
 }
 
-const DONATION_MIN_MINOR = 100; // ¥1
+const DONATION_MIN_MINOR = 9900; // ¥99
 const DONATION_MAX_MINOR = 100_000_00; // ¥100,000
 
 const PRODUCT_NAME: Record<PaidSlug, string> = {

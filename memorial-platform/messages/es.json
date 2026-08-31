@@ -524,7 +524,7 @@
     "donate": "Donar",
     "free": "Gratis",
     "noOfferingsYet": "Sea el primero en rendir homenaje con una ofrenda.",
-    "donorWallTitle": "Donantes",
+    "donorWallTitle": "Caja de donaciones",
     "donorWallTotal": "¥{amount} recaudados",
     "anonymousDonor": "Anónimo",
     "feeExplanation": "Tras deducir un 20% de comisión de la plataforma, todos los ingresos se envían a la familia.",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "Se alcanzaron ¥2000: se puede solicitar el envío (próximamente)",
     "earningsThresholdProgress": "Faltan {amount} para poder solicitar el envío (¥2000)",
     "earningsNote": "La plataforma retiene un 20% de comisión y entrega el resto a la familia, que puede solicitarlo tras registrarse y superar ¥2000. Esto es contabilidad, no custodia de fondos.",
-    "wreathRollTitle": "Coronas"
+    "wreathRollTitle": "Coronas",
+    "donateMin": "Mínimo ¥99"
   },
   "account": {
     "title": "Mi cuenta",

@@ -524,7 +524,7 @@
     "donate": "기부하기",
     "free": "무료",
     "noOfferingsYet": "첫 번째로 추모의 마음을 전해주세요.",
-    "donorWallTitle": "기부자 명단",
+    "donorWallTitle": "기부함",
     "donorWallTotal": "¥{amount} 모금",
     "anonymousDonor": "익명",
     "feeExplanation": "20% 플랫폼 수수료를 공제한 후 모든 수익은 유가족에게 전달됩니다.",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
-    "wreathRollTitle": "화환 명부"
+    "wreathRollTitle": "화환 명부",
+    "donateMin": "최소 ¥99"
   },
   "account": {
     "title": "내 계정",

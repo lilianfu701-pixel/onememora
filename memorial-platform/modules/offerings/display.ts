@@ -16,6 +16,7 @@ export type OfferingSummary = {
   }[];
   recentDonations: {
     name: string | null;
+    message: string | null;
     amountMinor: number;
     createdAt: Date;
   }[];
@@ -97,6 +98,7 @@ export async function offeringSummary(
   const recentDonations = await db()
     .select({
       name: memorialOfferings.giverDisplayName,
+      message: memorialOfferings.message,
       amountMinor: memorialOfferings.amountMinor,
       createdAt: memorialOfferings.createdAt,
     })
@@ -145,6 +147,7 @@ export async function offeringSummary(
     recentWreaths,
     recentDonations: recentDonations.map((d) => ({
       name: d.name,
+      message: d.message,
       amountMinor: Number(d.amountMinor ?? 0),
       createdAt: d.createdAt,
     })),

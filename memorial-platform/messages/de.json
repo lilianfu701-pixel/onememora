@@ -524,7 +524,7 @@
     "donate": "Spenden",
     "free": "Kostenlos",
     "noOfferingsYet": "Seien Sie der Erste, der mit einer Opfergabe Respekt erweist.",
-    "donorWallTitle": "Spender",
+    "donorWallTitle": "Spendenbox",
     "donorWallTotal": "¥{amount} gesammelt",
     "anonymousDonor": "Anonym",
     "feeExplanation": "Nach Abzug von 20% Plattformgebühr werden alle Einnahmen an die Familie weitergeleitet.",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "¥2000 reached — a gift-out can be requested (coming soon)",
     "earningsThresholdProgress": "{amount} to go before a gift-out can be requested (¥2000)",
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
-    "wreathRollTitle": "Kränze"
+    "wreathRollTitle": "Kränze",
+    "donateMin": "Mindestens ¥99"
   },
   "account": {
     "title": "Mein Konto",

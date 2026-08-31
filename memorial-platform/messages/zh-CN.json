@@ -517,14 +517,14 @@
   },
   "offerings": {
     "altarHeading": "祭品供奉",
-    "incenseCount": "已点燃 {count} 火香",
+    "incenseCount": "已点燃 {count} 炷香",
     "offerIncense": "上香",
     "offerCandle": "点蜡烛",
     "offerWreath": "送花圈",
     "donate": "捐款",
     "free": "免费",
     "noOfferingsYet": "成为第一个献上心意的人。",
-    "donorWallTitle": "功德簿",
+    "donorWallTitle": "爱心捐款箱",
     "donorWallTotal": "已筹集 ¥{amount}",
     "anonymousDonor": "匿名",
     "feeExplanation": "扣除20%平台手续费后，所有收入将转交给家属。",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "已满 ¥2000，可申领转赠（申领功能开发中）",
     "earningsThresholdProgress": "满 ¥2000 可申领转赠，还差 {amount}",
     "earningsNote": "平台收取 20% 服务费，其余转赠家属；家属实名开通并满 ¥2000 后可申领。此为记账，非资金托管。",
-    "wreathRollTitle": "花圈名录"
+    "wreathRollTitle": "花圈名录",
+    "donateMin": "最低 99 元"
   },
   "account": {
     "title": "我的账户",

@@ -517,14 +517,14 @@
   },
   "offerings": {
     "altarHeading": "祭品供奉",
-    "incenseCount": "已點燃 {count} 火香",
+    "incenseCount": "已點燃 {count} 炷香",
     "offerIncense": "上香",
     "offerCandle": "點蠟燭",
     "offerWreath": "送花圈",
     "donate": "捐款",
     "free": "免費",
     "noOfferingsYet": "成為第一個獻上心意嘅人。",
-    "donorWallTitle": "功德簿",
+    "donorWallTitle": "愛心捐款箱",
     "donorWallTotal": "已籌集 ¥{amount}",
     "anonymousDonor": "匿名",
     "feeExplanation": "扣除20%平台手續費後，所有收入将轉交畿家屬。",
@@ -572,7 +572,8 @@
     "earningsThresholdReached": "已滿 ¥2000，可申領轉贈（申領功能開發中）",
     "earningsThresholdProgress": "滿 ¥2000 可申領轉贈，還差 {amount}",
     "earningsNote": "平台收取 20% 服務費，其餘轉贈家屬；家屬實名開通並滿 ¥2000 後可申領。此為記帳，非資金託管。",
-    "wreathRollTitle": "花圈名錄"
+    "wreathRollTitle": "花圈名錄",
+    "donateMin": "最低 99 元"
   },
   "account": {
     "title": "我嘅帳戶",
