@@ -3755,18 +3755,16 @@ a.famCard:focus-visible {
 
 /* Auto-scrolling playback: the track is duplicated and slides up by half its
  * height for a seamless loop; it pauses on hover. */
-/* Auto-scrolling playback: the track is duplicated and slides up by half its
- * height for a seamless loop; it pauses on hover. A short viewport keeps it
- * compact. */
+/* A single-row ticker of donor pills that scrolls sideways: compact, and never
+ * leaves a blank middle. Duplicated for a seamless loop; pauses on hover. */
 .donationBoxViewport {
-  max-height: 8.5rem;
   overflow: hidden;
   position: relative;
   mask-image: linear-gradient(
-    to bottom,
+    to right,
     transparent,
-    #000 12%,
-    #000 88%,
+    #000 6%,
+    #000 94%,
     transparent
   );
 }
@@ -3774,66 +3772,55 @@ a.famCard:focus-visible {
 .donationBoxTrack {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 2px 0;
   display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  width: max-content;
+  gap: var(--space-2);
 }
 
 .donationBoxScrolling {
-  animation: donationScroll calc(var(--scroll-count, 6) * 2.6s) linear infinite;
+  animation: donationScrollX calc(var(--scroll-count, 6) * 2.4s) linear infinite;
 }
 
 .donationBoxScrolling:hover {
   animation-play-state: paused;
 }
 
-@keyframes donationScroll {
+@keyframes donationScrollX {
   from {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   to {
-    transform: translateY(-50%);
+    transform: translateX(-50%);
   }
 }
 
-/* One tight row per donor: name, then the message filling the middle, then the
- * amount — so nothing is left blank down the centre. */
-.donationBoxEntry {
-  display: flex;
+.donationPill {
+  flex: none;
+  display: inline-flex;
   align-items: baseline;
-  gap: var(--space-2);
-  padding: 5px var(--space-1);
-  border-bottom: 1px dashed var(--line);
+  gap: 6px;
+  padding: 4px 12px;
+  background: rgba(197, 163, 95, 0.09);
+  border: 1px solid rgba(197, 163, 95, 0.28);
+  border-radius: 999px;
+  font-size: var(--text-sm);
 }
 
-.donationBoxName {
-  flex: none;
-  max-width: 7em;
+.donationPillName {
+  max-width: 8em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: 600;
   color: var(--ink);
-  font-size: var(--text-sm);
 }
 
-.donationBoxMsg {
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: var(--text-sm);
-  color: var(--muted);
-  font-style: italic;
-}
-
-.donationBoxAmount {
-  flex: none;
+.donationPillAmount {
   color: var(--gold);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
-  font-size: var(--text-sm);
 }
 
 /* Read-only name shown in the candle dialog (signer's profile name). */
@@ -4414,7 +4401,7 @@ a.famCard:focus-visible {
     animation: none;
   }
   .donationBoxViewport {
-    overflow-y: auto;
+    overflow-x: auto;
   }
   .candleFlame {
     animation: none;

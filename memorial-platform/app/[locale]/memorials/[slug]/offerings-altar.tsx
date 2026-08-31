@@ -230,17 +230,22 @@ function DonationBox(props: {
   // vertical loop is seamless.
   const shouldScroll = props.donors.length > 4;
 
+  // Each donor is a compact pill (name · amount); the message rides along as a
+  // tooltip so the row stays tight. Pills scroll horizontally as a ticker.
   const renderEntry = (
     d: (typeof props.donors)[number],
     i: number,
     prefix = "",
   ) => (
-    <li key={`${prefix}${i}`} className="donationBoxEntry">
-      <span className="donationBoxName">
+    <li
+      key={`${prefix}${i}`}
+      className="donationPill"
+      title={d.message ?? undefined}
+    >
+      <span className="donationPillName">
         {d.name ? d.name : props.t("anonymousDonor")}
       </span>
-      <span className="donationBoxMsg">{d.message ?? ""}</span>
-      <span className="donationBoxAmount">{formatAmount(d.amountMinor)}</span>
+      <span className="donationPillAmount">{formatAmount(d.amountMinor)}</span>
     </li>
   );
 
