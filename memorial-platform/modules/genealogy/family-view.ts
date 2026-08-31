@@ -1,4 +1,4 @@
-import { and, asc, eq } from "drizzle-orm";
+import { and, asc, eq, isNull } from "drizzle-orm";
 import { db } from "@/db/client";
 import {
   deceasedPeople,
@@ -603,7 +603,13 @@ async function linkedMemorialsOf(
           eq(memorialNames.type, "primary"),
         ),
       )
-      .where(eq(familyPeople.id, link.otherPersonId));
+      .where(
+        and(
+          eq(familyPeople.id, link.otherPersonId),
+          // A deleted memorial must not appear as a linked relative anywhere.
+          isNull(memorials.deletionRequestedAt),
+        ),
+      );
     if (!row || !row.name) continue;
 
     const entry: LinkedMemorial = {

@@ -1,4 +1,4 @@
-import { and, eq, inArray } from "drizzle-orm";
+import { and, eq, inArray, isNull } from "drizzle-orm";
 import { db } from "@/db/client";
 import {
   deceasedPeople,
@@ -136,9 +136,14 @@ export async function memorialFamilyLinks(
       ),
     )
     .where(
-      inArray(
-        familyPeople.id,
-        links.map((link) => link.otherPersonId),
+      and(
+        inArray(
+          familyPeople.id,
+          links.map((link) => link.otherPersonId),
+        ),
+        // A memorial the family has deleted must drop out of everyone else's
+        // family section, not linger as a link to a page that is gone.
+        isNull(memorials.deletionRequestedAt),
       ),
     );
 
