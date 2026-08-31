@@ -19,7 +19,7 @@ import {
   publishedBiography,
 } from "@/modules/memorials/content-service";
 import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
-import { memorialGallery, portraitsBySlug } from "@/modules/media/service";
+import { portraitsBySlug } from "@/modules/media/service";
 import { avatarsForRelativeNames } from "@/modules/identity/avatar";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
 import { offeringSummary } from "@/modules/offerings/display";
@@ -40,7 +40,6 @@ import {
   contributorStanding,
   listPublicContributions,
 } from "@/modules/memorials/contributions";
-import { PhotoSlideshow } from "./photo-slideshow";
 import { PublishPanel } from "./publish-panel";
 import { Share } from "./share";
 
@@ -223,7 +222,6 @@ export default async function MemorialPage(props: {
   const [
     biography,
     stories,
-    gallery,
     relatives,
     locations,
     offerings,
@@ -235,7 +233,6 @@ export default async function MemorialPage(props: {
         userId: viewer.userId,
         isFamily,
       }),
-      memorialGallery(detail.memorialId),
       db()
         .select({
           id: memorialRelatives.id,
@@ -356,12 +353,6 @@ export default async function MemorialPage(props: {
   const deathPlace = locations.find((loc) => loc.kind === "death");
   const birthPlaceText = birthPlace ? formatPlace(birthPlace) : "";
   const deathPlaceText = deathPlace ? formatPlace(deathPlace) : "";
-
-  const slides = gallery.map((photo) => ({
-    id: photo.id,
-    url: photo.url,
-    alt: photo.altText ?? t("photoAltOf", { name: detail.primaryName }),
-  }));
 
   const canManage = isFamily;
   const showOwnerBar =
@@ -536,13 +527,6 @@ export default async function MemorialPage(props: {
 
         <div className="memorialGrid">
           <div className="memorialMain">
-            {/* The photo gallery, now below the altar and the details. */}
-            <PhotoSlideshow
-              photos={slides}
-              prevLabel={t("photoPrevious")}
-              nextLabel={t("photoNext")}
-            />
-
             <section className="stack">
               <h2>{t("lifeStory")}</h2>
               {biography ? (

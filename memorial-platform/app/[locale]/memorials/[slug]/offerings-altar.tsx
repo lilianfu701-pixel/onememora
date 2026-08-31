@@ -236,13 +236,11 @@ function DonationBox(props: {
     prefix = "",
   ) => (
     <li key={`${prefix}${i}`} className="donationBoxEntry">
-      <div className="donationBoxLine">
-        <span className="donationBoxName">
-          {d.name ? d.name : props.t("anonymousDonor")}
-        </span>
-        <span className="donationBoxAmount">{formatAmount(d.amountMinor)}</span>
-      </div>
-      {d.message ? <p className="donationBoxMsg">{d.message}</p> : null}
+      <span className="donationBoxName">
+        {d.name ? d.name : props.t("anonymousDonor")}
+      </span>
+      <span className="donationBoxMsg">{d.message ?? ""}</span>
+      <span className="donationBoxAmount">{formatAmount(d.amountMinor)}</span>
     </li>
   );
 
