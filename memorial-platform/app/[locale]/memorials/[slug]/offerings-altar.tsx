@@ -48,6 +48,32 @@ function WreathPhoto({ className }: { className?: string }) {
   );
 }
 
+/** A coin marked ¥ — the icon for the 捐款 action. */
+function DonationIcon() {
+  return (
+    <svg
+      className="altarDonateIcon"
+      viewBox="0 0 48 48"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="24" cy="24" r="19" fill="#f3e6c4" stroke="#c5a35f" strokeWidth="2" />
+      <circle cx="24" cy="24" r="14.5" fill="none" stroke="#d9c188" strokeWidth="1" />
+      <text
+        x="24"
+        y="32"
+        textAnchor="middle"
+        fontFamily="Georgia, 'Songti SC', serif"
+        fontSize="22"
+        fontWeight="700"
+        fill="#a8791f"
+      >
+        ¥
+      </text>
+    </svg>
+  );
+}
+
 /**
  * A small bound bundle of lit incense sticks — the icon for the 上香 action,
  * so the button shows the incense itself rather than the censer.
@@ -324,15 +350,22 @@ function CandleWall(props: {
 /** A wreath with its two hanging ribbons: the giver's name (left) and the
  * elegiac message (right), drawn over the wreath image. */
 function AltarWreath(props: { name: string | null; message: string | null }) {
+  const hasRibbons = Boolean(props.name || props.message);
   return (
     <div className="altarWreathFigure">
       <WreathPhoto className="altarWreathImg" />
-      <div className="wreathRibbons" aria-hidden="true">
-        <span className="wreathRibbon wreathRibbonName">{props.name ?? ""}</span>
-        <span className="wreathRibbon wreathRibbonElegy">
-          {props.message ?? ""}
-        </span>
-      </div>
+      {hasRibbons ? (
+        <div className="wreathRibbons" aria-hidden="true">
+          {props.name ? (
+            <span className="wreathRibbon wreathRibbonName">{props.name}</span>
+          ) : null}
+          {props.message ? (
+            <span className="wreathRibbon wreathRibbonElegy">
+              {props.message}
+            </span>
+          ) : null}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -414,11 +447,9 @@ export function OfferingsAltar(props: {
   const [name, setName] = useState("");
   const [masked, setMasked] = useState(true);
   const [message, setMessage] = useState("");
-  const [amountYuan, setAmountYuan] = useState("199");
-  // The inline custom-amount box, kept separate from the preset tiers so a
-  // preset stays fixed at its value and only the custom field is editable.
-  const [customYuan, setCustomYuan] = useState("");
-  // A preset donation locks its amount in the modal; a custom one stays editable.
+  const [amountYuan, setAmountYuan] = useState("");
+  // A preset donation would lock its amount; a custom one stays editable. Kept
+  // for the modal, though donations are custom-only now.
   const [amountFixed, setAmountFixed] = useState(false);
   const [pending, setPending] = useState<string | null>(null);
   const [notice, setNotice] = useState<"ok" | "fail" | "unavailable" | null>(
@@ -466,18 +497,11 @@ export function OfferingsAltar(props: {
     setMasked(false);
     setMessage(kind === "wreath" ? t("eulogyDefault") : "");
     if (kind === "donation") {
-      setAmountYuan(String(presetAmount ?? 199));
+      setAmountYuan(presetAmount ? String(presetAmount) : "");
       setAmountFixed(fixed);
     }
     setNotice(null);
     setModal(kind);
-  }
-
-  /** Opens the donation modal for the amount typed in the inline custom box. */
-  function startCustomDonation(): void {
-    const yuan = Math.trunc(Number(customYuan));
-    if (!(yuan > 0)) return;
-    openModal("donation", yuan, false);
   }
 
   async function offerIncense(): Promise<void> {
@@ -678,43 +702,19 @@ export function OfferingsAltar(props: {
           <span className="altarActionLabel">{t("offerWreath")}</span>
           <span className="altarActionDesc">{t("descWreath")}</span>
         </button>
+
+        <button
+          type="button"
+          className="altarActionBtn"
+          onClick={() => openModal("donation")}
+        >
+          <DonationIcon />
+          <span className="altarActionLabel">{t("donateTitle")}</span>
+          <span className="altarActionDesc">{t("donateCustom")}</span>
+        </button>
       </div>
 
-      {/* Donation — a single custom amount, no preset tiers. */}
-      <div className="altarDonationTiers">
-        <h3 className="altarDonationTitle">{t("donateTitle")}</h3>
-        <div className="altarDonateBar">
-          <div className="altarCustomInputRow">
-            <span className="altarCustomPrefix">¥</span>
-            <input
-              className="altarCustomInput"
-              type="number"
-              min="1"
-              step="1"
-              inputMode="numeric"
-              value={customYuan}
-              onChange={(e) => setCustomYuan(e.target.value)}
-              placeholder={t("donateCustomPlaceholder")}
-              aria-label={t("donateCustom")}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  e.preventDefault();
-                  startCustomDonation();
-                }
-              }}
-            />
-          </div>
-          <button
-            type="button"
-            className="altarCustomGo"
-            onClick={startCustomDonation}
-            disabled={!(Number(customYuan) > 0)}
-          >
-            {t("donateCustomGo")}
-          </button>
-        </div>
-        <p className="altarFeeNote">{t("feeTransfer")}</p>
-      </div>
+      <p className="altarFeeNote">{t("feeTransfer")}</p>
 
       {/* Modal */}
       {modal ? (

@@ -3395,7 +3395,7 @@ a.famCard:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-6);
 }
 
 .altarPortraitWrap {
@@ -3404,7 +3404,7 @@ a.famCard:focus-visible {
 
 .altarPortrait {
   display: block;
-  width: clamp(210px, 52vw, 320px);
+  width: clamp(232px, 58vw, 360px);
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border-radius: var(--radius-sm);
@@ -3423,7 +3423,7 @@ a.famCard:focus-visible {
 
 .altarWreathFigure {
   position: relative;
-  width: clamp(108px, 26vw, 148px);
+  width: clamp(96px, 22vw, 122px);
   flex: none;
 }
 
@@ -3431,31 +3431,31 @@ a.famCard:focus-visible {
   width: 100%;
 }
 
-/* Two silk ribbons hanging from the base of the wreath: the giver's name and
- * the elegy, set vertically like a traditional 挽联. */
+/* Two silk ribbons draping from the middle of the wreath: the giver's name
+ * (left) and the elegy (right), set vertically like a traditional 挽联. They
+ * hang past the wreath's lower edge so both read clearly. */
 .wreathRibbons {
   position: absolute;
   left: 50%;
-  top: 47%;
+  top: 45%;
   transform: translateX(-50%);
   display: flex;
-  gap: 7px;
+  justify-content: center;
+  gap: 8px;
   pointer-events: none;
 }
 
 .wreathRibbon {
   writing-mode: vertical-rl;
-  min-height: 58px;
-  max-height: 84px;
   overflow: hidden;
-  padding: 8px 4px;
-  font-size: clamp(10px, 2.6vw, 13px);
-  line-height: 1.15;
-  letter-spacing: 0.08em;
+  padding: 7px 3px;
+  font-size: clamp(9px, 2.3vw, 12px);
+  line-height: 1.12;
+  letter-spacing: 0.06em;
   background: linear-gradient(
     to right,
-    rgba(255, 253, 248, 0.97),
-    rgba(246, 240, 230, 0.97)
+    rgba(255, 254, 250, 0.96),
+    rgba(244, 238, 227, 0.96)
   );
   color: #3a2a20;
   border-radius: 1px;
@@ -3464,8 +3464,15 @@ a.famCard:focus-visible {
   font-family: var(--font-display);
 }
 
+.wreathRibbonName {
+  min-height: 50px;
+  max-height: 74px;
+}
+
 .wreathRibbonElegy {
   color: #8a1c14;
+  min-height: 58px;
+  max-height: 90px;
 }
 
 /* ── 祭坛 Platform: the censer, flanked by up to thirty candles ── */
@@ -3515,11 +3522,14 @@ a.famCard:focus-visible {
   width: clamp(20px, 5vw, 34px);
 }
 
+/* Column-reverse so the censer stays pinned to the bottom of the platform and
+ * the count sits just above it (near the rising incense), rather than the count
+ * pushing the censer upward. */
 .altarCenserWrap {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
-  gap: var(--space-2);
+  gap: var(--space-1);
   flex: none;
 }
 
@@ -3529,6 +3539,7 @@ a.famCard:focus-visible {
   text-align: center;
   font-family: var(--font-display);
   letter-spacing: 0.05em;
+  white-space: nowrap;
 }
 
 /* ── 花圈名录 Wreath roll (overflow beyond the six flanking wreaths) ── */
@@ -3596,8 +3607,13 @@ a.famCard:focus-visible {
 
 .altarActions {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-3);
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-2);
+}
+
+.altarActionBtn .altarDonateIcon {
+  width: 30px;
+  height: auto;
 }
 
 .altarActionBtn {
@@ -4114,7 +4130,8 @@ a.famCard:focus-visible {
   .altarSection {
     gap: var(--space-6);
   }
-  .altarDonationGrid {
+  /* Four offering boxes become a 2×2 grid on a narrow screen. */
+  .altarActions {
     grid-template-columns: repeat(2, 1fr);
   }
   /* Keep the tableau and candle wall from overflowing a narrow screen. */
@@ -4123,10 +4140,10 @@ a.famCard:focus-visible {
     padding: var(--space-4) var(--space-1) var(--space-3);
   }
   .altarPortrait {
-    width: clamp(150px, 42vw, 200px);
+    width: clamp(172px, 46vw, 220px);
   }
   .altarWreathFigure {
-    width: clamp(70px, 22vw, 100px);
+    width: clamp(62px, 19vw, 88px);
   }
   .altarWreathCol {
     gap: var(--space-6);
