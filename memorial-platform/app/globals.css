@@ -3175,6 +3175,44 @@ a.famCard:focus-visible {
   gap: var(--space-6);
 }
 
+/* Two-column layout: the altar + offerings on the left, the donation box on the
+ * right. Stacks to one column on narrower screens. */
+.altarLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+.altarLeft {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  min-width: 0;
+}
+
+.altarRight {
+  min-width: 0;
+}
+
+@media (min-width: 900px) {
+  .altarLayout {
+    grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
+    gap: var(--space-8);
+    align-items: start;
+  }
+  .altarRight {
+    position: sticky;
+    top: var(--space-4);
+  }
+  /* Size the tableau to the left column so it never overflows it. */
+  .altarLeft .altarPortrait {
+    width: clamp(180px, 20vw, 300px);
+  }
+  .altarLeft .altarWreathFigure {
+    width: clamp(78px, 8.5vw, 112px);
+  }
+}
+
 .altarHeading {
   font-size: var(--text-xl);
   font-family: var(--font-display);
