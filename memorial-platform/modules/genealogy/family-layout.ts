@@ -195,7 +195,7 @@ export function layoutUnion(union: ChartUnion, depth: number): Laid {
       only.anchorXs.length > 1
         ? (only.anchorXs[only.anchorXs.length - 1]! - only.anchorXs[0]!) / 2
         : 0;
-    const half = Math.min(Math.max(base, span), base + 2 * (CARD_W + SIB_GAP));
+    const half = Math.min(Math.max(base, span), base + (CARD_W + SIB_GAP));
     anchorCenter = only.dissolved ? only.center + half : only.center - half;
   } else {
     // Anchor between the leftmost (ex) and the next block.
