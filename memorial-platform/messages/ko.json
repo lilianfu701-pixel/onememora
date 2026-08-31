@@ -382,7 +382,11 @@
     "hideReplies": "답글 숨기기",
     "cancelMessage": "취소",
     "blockUser": "차단",
-    "blockConfirm": "이 사람을 차단할까요? 작성한 글이 숨겨지고 더 이상 글을 남길 수 없습니다."
+    "blockConfirm": "이 사람을 차단할까요? 작성한 글이 숨겨지고 더 이상 글을 남길 수 없습니다.",
+    "blockedListTitle": "차단한 사람",
+    "blockedEmpty": "차단한 사람이 없습니다.",
+    "unblock": "차단 해제",
+    "blockedUnknown": "이름 없는 사용자"
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

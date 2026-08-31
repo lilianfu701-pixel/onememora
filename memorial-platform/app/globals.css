@@ -2197,6 +2197,30 @@ a.famCard:focus-visible {
   color: #a3352a;
 }
 
+/* Manage: the blocked-people list. */
+.blockedList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.blockedRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px dashed var(--line);
+}
+
+.blockedName {
+  font-weight: 600;
+  color: var(--ink);
+}
+
 /* The replies, revealed when a thread is opened. */
 .guestbookReplies {
   display: flex;

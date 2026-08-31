@@ -382,7 +382,11 @@
     "hideReplies": "إخفاء الردود",
     "cancelMessage": "إلغاء",
     "blockUser": "حظر",
-    "blockConfirm": "حظر هذا الشخص؟ ستُخفى رسائله ولن يتمكن من النشر هنا."
+    "blockConfirm": "حظر هذا الشخص؟ ستُخفى رسائله ولن يتمكن من النشر هنا.",
+    "blockedListTitle": "الأشخاص المحظورون",
+    "blockedEmpty": "لا يوجد أحد محظور.",
+    "unblock": "إلغاء الحظر",
+    "blockedUnknown": "مستخدم بلا اسم"
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",

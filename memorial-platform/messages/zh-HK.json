@@ -382,7 +382,11 @@
     "hideReplies": "收起回覆",
     "cancelMessage": "取消",
     "blockUser": "封鎖此人",
-    "blockConfirm": "確定封鎖此人？其留言將被隱藏，且無法再於此留言。"
+    "blockConfirm": "確定封鎖此人？其留言將被隱藏，且無法再於此留言。",
+    "blockedListTitle": "已封鎖名單",
+    "blockedEmpty": "暫無被封鎖的人。",
+    "unblock": "解除封鎖",
+    "blockedUnknown": "未具名用戶"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

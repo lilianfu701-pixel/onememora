@@ -1,8 +1,59 @@
-import { and, eq, isNull } from "drizzle-orm";
+import { and, desc, eq, isNull } from "drizzle-orm";
 import { db } from "@/db/client";
-import { blockedUsers, visitorSubmissions } from "@/db/schema";
+import { blockedUsers, users, visitorSubmissions } from "@/db/schema";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
+
+export type BlockedPerson = {
+  userId: string;
+  name: string | null;
+  createdAt: Date;
+};
+
+/** The people a memorial has currently blocked, most recent first. */
+export async function listBlocked(
+  memorialId: string,
+): Promise<BlockedPerson[]> {
+  const rows = await db()
+    .select({
+      userId: blockedUsers.blockedUserId,
+      displayName: users.displayName,
+      fullName: users.fullName,
+      createdAt: blockedUsers.createdAt,
+    })
+    .from(blockedUsers)
+    .leftJoin(users, eq(users.id, blockedUsers.blockedUserId))
+    .where(
+      and(
+        eq(blockedUsers.memorialId, memorialId),
+        isNull(blockedUsers.liftedAt),
+      ),
+    )
+    .orderBy(desc(blockedUsers.createdAt));
+
+  return rows.map((r) => ({
+    userId: r.userId,
+    name: r.displayName?.trim() || r.fullName?.trim() || null,
+    createdAt: r.createdAt,
+  }));
+}
+
+/** Lifts a block, so the person may leave messages here again. */
+export async function unblockUser(
+  memorialId: string,
+  blockedUserId: string,
+): Promise<void> {
+  await db()
+    .update(blockedUsers)
+    .set({ liftedAt: new Date() })
+    .where(
+      and(
+        eq(blockedUsers.memorialId, memorialId),
+        eq(blockedUsers.blockedUserId, blockedUserId),
+        isNull(blockedUsers.liftedAt),
+      ),
+    );
+}
 
 /** Whether this user is currently blocked from interacting with a memorial. */
 export async function isBlocked(

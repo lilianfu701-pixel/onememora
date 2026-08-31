@@ -382,7 +382,11 @@
     "hideReplies": "Ocultar respostas",
     "cancelMessage": "Cancelar",
     "blockUser": "Bloquear",
-    "blockConfirm": "Bloquear esta pessoa? As mensagens dela serão ocultadas e ela não poderá mais publicar aqui."
+    "blockConfirm": "Bloquear esta pessoa? As mensagens dela serão ocultadas e ela não poderá mais publicar aqui.",
+    "blockedListTitle": "Pessoas bloqueadas",
+    "blockedEmpty": "Ninguém está bloqueado.",
+    "unblock": "Desbloquear",
+    "blockedUnknown": "Usuário sem nome"
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

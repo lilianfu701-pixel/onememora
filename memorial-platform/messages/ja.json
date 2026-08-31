@@ -382,7 +382,11 @@
     "hideReplies": "返信を隠す",
     "cancelMessage": "キャンセル",
     "blockUser": "ブロック",
-    "blockConfirm": "この人をブロックしますか？投稿は非表示になり、今後投稿できなくなります。"
+    "blockConfirm": "この人をブロックしますか？投稿は非表示になり、今後投稿できなくなります。",
+    "blockedListTitle": "ブロックした人",
+    "blockedEmpty": "ブロックした人はいません。",
+    "unblock": "ブロック解除",
+    "blockedUnknown": "名前のないユーザー"
   },
   "privacy": {
     "title": "このページを見られる範囲",

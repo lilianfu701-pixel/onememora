@@ -382,7 +382,11 @@
     "hideReplies": "Sembunyikan balasan",
     "cancelMessage": "Batal",
     "blockUser": "Blokir",
-    "blockConfirm": "Blokir orang ini? Pesannya akan disembunyikan dan tidak dapat memposting lagi di sini."
+    "blockConfirm": "Blokir orang ini? Pesannya akan disembunyikan dan tidak dapat memposting lagi di sini.",
+    "blockedListTitle": "Orang yang diblokir",
+    "blockedEmpty": "Tidak ada yang diblokir.",
+    "unblock": "Buka blokir",
+    "blockedUnknown": "Pengguna tanpa nama"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

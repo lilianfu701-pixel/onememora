@@ -382,7 +382,11 @@
     "hideReplies": "Hide replies",
     "cancelMessage": "Cancel",
     "blockUser": "Block",
-    "blockConfirm": "Block this person? Their messages will be hidden and they can no longer post here."
+    "blockConfirm": "Block this person? Their messages will be hidden and they can no longer post here.",
+    "blockedListTitle": "Blocked people",
+    "blockedEmpty": "No one is blocked.",
+    "unblock": "Unblock",
+    "blockedUnknown": "Unnamed user"
   },
   "privacy": {
     "title": "Who can see this memorial",

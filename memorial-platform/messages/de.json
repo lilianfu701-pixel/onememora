@@ -382,7 +382,11 @@
     "hideReplies": "Antworten ausblenden",
     "cancelMessage": "Abbrechen",
     "blockUser": "Sperren",
-    "blockConfirm": "Diese Person sperren? Ihre Nachrichten werden ausgeblendet und sie kann hier nicht mehr schreiben."
+    "blockConfirm": "Diese Person sperren? Ihre Nachrichten werden ausgeblendet und sie kann hier nicht mehr schreiben.",
+    "blockedListTitle": "Gesperrte Personen",
+    "blockedEmpty": "Niemand ist gesperrt.",
+    "unblock": "Entsperren",
+    "blockedUnknown": "Namenloser Nutzer"
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

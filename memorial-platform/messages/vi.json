@@ -382,7 +382,11 @@
     "hideReplies": "Ẩn phản hồi",
     "cancelMessage": "Hủy",
     "blockUser": "Chặn",
-    "blockConfirm": "Chặn người này? Tin nhắn của họ sẽ bị ẩn và không thể đăng ở đây nữa."
+    "blockConfirm": "Chặn người này? Tin nhắn của họ sẽ bị ẩn và không thể đăng ở đây nữa.",
+    "blockedListTitle": "Người bị chặn",
+    "blockedEmpty": "Không có ai bị chặn.",
+    "unblock": "Bỏ chặn",
+    "blockedUnknown": "Người dùng chưa đặt tên"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",
