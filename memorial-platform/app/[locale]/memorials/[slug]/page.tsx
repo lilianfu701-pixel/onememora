@@ -9,7 +9,6 @@ import {
   memorialBookmarks,
   memorialLocations,
   memorialRelatives,
-  relationshipClaims,
   users,
 } from "@/db/schema";
 import { countryName } from "@/lib/countries";
@@ -52,23 +51,6 @@ import { Share } from "./share";
  * Genderless where the inverse is ambiguous (a father's memorial is kept by a
  * "child", not necessarily a son). No name is shown, only the relationship.
  */
-const CREATOR_ROLE: Record<string, string> = {
-  husband: "wife",
-  wife: "husband",
-  spouse: "spouse",
-  father: "child",
-  mother: "child",
-  parent: "child",
-  son: "parent",
-  daughter: "parent",
-  child: "parent",
-  paternal_grandfather: "grandchild",
-  paternal_grandmother: "grandchild",
-  maternal_grandfather: "grandchild",
-  maternal_grandmother: "grandchild",
-  sibling: "sibling",
-};
-
 export const dynamic = "force-dynamic";
 
 /*
@@ -243,7 +225,6 @@ export default async function MemorialPage(props: {
     stories,
     gallery,
     relatives,
-    creatorClaim,
     locations,
     offerings,
     chapters,
@@ -271,12 +252,6 @@ export default async function MemorialPage(props: {
         .where(eq(memorialRelatives.memorialId, detail.memorialId))
         .orderBy(asc(memorialRelatives.displayOrder)),
       db()
-        .select({ relationship: relationshipClaims.relationship })
-        .from(relationshipClaims)
-        .where(eq(relationshipClaims.memorialId, detail.memorialId))
-        .orderBy(asc(relationshipClaims.createdAt))
-        .limit(1),
-      db()
         .select({
           kind: memorialLocations.kind,
           country: memorialLocations.country,
@@ -290,10 +265,6 @@ export default async function MemorialPage(props: {
     ]);
 
   const disposition = await getDisposition(detail.memorialId);
-
-  const creatorRoleKey = creatorClaim[0]
-    ? CREATOR_ROLE[creatorClaim[0].relationship]
-    : undefined;
 
   // The family tree, assembled from the registered relatives and any confirmed
   // links to other memorials. A year is only used when the date is real, not a
@@ -451,22 +422,6 @@ export default async function MemorialPage(props: {
         </>
       ) : null}
       <article className="container section memorialView">
-        {/*
-         * Owner-only, right-aligned at the top of the memorial itself so it sits
-         * in the content column rather than floating over the site header. A
-         * visitor never sees it, so it confirms no roles.
-         */}
-        {canManage ? (
-          <div className="memorialManageRow">
-            <Link
-              className="memorialManageLink"
-              href={`/${locale}/memorials/${detail.slug}/manage`}
-            >
-              {t("manageLink")}
-            </Link>
-          </div>
-        ) : null}
-
         {showOwnerBar ? (
           <div className="memorialOwnerBar">
             {/*
@@ -506,24 +461,18 @@ export default async function MemorialPage(props: {
           )}
           details={
             <header className="memorialHead">
-          {/* The person's name, centered as the anchor of the unit. */}
+          {/* Name and the names the person was known by, on one line. */}
           <p className="memorialNames">
             <span className="memorialName">{detail.primaryName}</span>
-          </p>
-
-          {/* Names the person was also known by, gathered on their own line. */}
-          {detail.alternateNames.length > 0 ? (
-            <p className="memorialAliases">
-              {detail.alternateNames.map((name, index) => (
-                <span key={`${name.type}-${index}`} className="memorialAlias">
-                  <span className="memorialAliasType">
-                    {t(`nameType_${name.type}`)}
-                  </span>
-                  {name.value}
+            {detail.alternateNames.map((name, index) => (
+              <span key={`${name.type}-${index}`} className="memorialAlias">
+                <span className="memorialAliasType">
+                  {t(`nameType_${name.type}`)}
                 </span>
-              ))}
-            </p>
-          ) : null}
+                {name.value}
+              </span>
+            ))}
+          </p>
 
           {/* Birth and death, side by side. */}
           <div className="memorialLifeline memorialLifelineRow">
@@ -555,23 +504,20 @@ export default async function MemorialPage(props: {
             ) : null}
           </div>
 
-          {creatorRoleKey ? (
-            <p className="memorialCreator">
-              {t("createdByNamed", {
-                name: detail.primaryName,
-                relation: t(`creatorRole_${creatorRoleKey}`),
-              })}
-              <ContactManager
-                memorialId={detail.memorialId}
-                label={t("contactManager")}
-                signedIn={viewer.userId !== null}
-                signInHref={`/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/${detail.slug}`)}`}
-              />
-            </p>
-          ) : null}
-
-          {/* Share and keep, centered under the unit rather than floating. */}
+          {/* Three functions only: contact the manager, bookmark, share. */}
           <div className="memorialActions">
+            <ContactManager
+              memorialId={detail.memorialId}
+              label={t("contactManager")}
+              signedIn={viewer.userId !== null}
+              signInHref={`/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/${detail.slug}`)}`}
+            />
+            {viewer.userId ? (
+              <BookmarkButton
+                memorialId={detail.memorialId}
+                initialBookmarked={viewerBookmarked}
+              />
+            ) : null}
             <Share
               url={memorialUrl({
                 appUrl: env().APP_URL,
@@ -580,12 +526,6 @@ export default async function MemorialPage(props: {
               })}
               title={detail.primaryName}
             />
-            {viewer.userId ? (
-              <BookmarkButton
-                memorialId={detail.memorialId}
-                initialBookmarked={viewerBookmarked}
-              />
-            ) : null}
           </div>
             </header>
           }
@@ -711,6 +651,18 @@ export default async function MemorialPage(props: {
             />
           </div>
         </div>
+
+        {/* Owner-only manage link, moved to the foot so the top stays compact. */}
+        {canManage ? (
+          <div className="memorialManageFoot">
+            <Link
+              className="memorialManageLink"
+              href={`/${locale}/memorials/${detail.slug}/manage`}
+            >
+              {t("manageLink")}
+            </Link>
+          </div>
+        ) : null}
       </article>
     </main>
   );

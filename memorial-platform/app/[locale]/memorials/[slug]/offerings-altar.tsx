@@ -226,6 +226,25 @@ function DonationBox(props: {
   if (props.total === 0) return null;
 
   const formatAmount = (amt: number) => `¥${(amt / 100).toFixed(0)}`;
+  // Enough entries to be worth auto-scrolling; the list is duplicated so the
+  // vertical loop is seamless.
+  const shouldScroll = props.donors.length > 4;
+
+  const renderEntry = (
+    d: (typeof props.donors)[number],
+    i: number,
+    prefix = "",
+  ) => (
+    <li key={`${prefix}${i}`} className="donationBoxEntry">
+      <div className="donationBoxLine">
+        <span className="donationBoxName">
+          {d.name ? d.name : props.t("anonymousDonor")}
+        </span>
+        <span className="donationBoxAmount">{formatAmount(d.amountMinor)}</span>
+      </div>
+      {d.message ? <p className="donationBoxMsg">{d.message}</p> : null}
+    </li>
+  );
 
   return (
     <div className="donationBox">
@@ -237,23 +256,23 @@ function DonationBox(props: {
           })}
         </span>
       </div>
-      <ul className="donationBoxList">
-        {props.donors.map((d, i) => (
-          <li key={i} className="donationBoxEntry">
-            <div className="donationBoxLine">
-              <span className="donationBoxName">
-                {d.name ? d.name : props.t("anonymousDonor")}
-              </span>
-              <span className="donationBoxAmount">
-                {formatAmount(d.amountMinor)}
-              </span>
-            </div>
-            {d.message ? (
-              <p className="donationBoxMsg">{d.message}</p>
-            ) : null}
-          </li>
-        ))}
-      </ul>
+      <div className="donationBoxViewport">
+        <ul
+          className={`donationBoxTrack${shouldScroll ? " donationBoxScrolling" : ""}`}
+          style={
+            shouldScroll
+              ? ({
+                  "--scroll-count": props.donors.length,
+                } as React.CSSProperties)
+              : undefined
+          }
+        >
+          {props.donors.map((d, i) => renderEntry(d, i))}
+          {shouldScroll
+            ? props.donors.map((d, i) => renderEntry(d, i, "dup-"))
+            : null}
+        </ul>
+      </div>
     </div>
   );
 }
@@ -592,8 +611,6 @@ export function OfferingsAltar(props: {
 
   return (
     <section className="altarSection" aria-label={t("altarHeading")}>
-      <h2 className="altarHeading">{t("altarHeading")}</h2>
-
       {/* Tableau: the portrait, small, flanked by up to three wreaths a side. */}
       <div className="altarStage">
         <WreathColumn side="left" wreaths={leftWreaths} />

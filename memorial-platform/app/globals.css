@@ -1117,7 +1117,15 @@ img {
 .memorialView {
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-8);
+}
+
+/* Owner-only manage link at the foot of the memorial. */
+.memorialManageFoot {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--line);
 }
 
 .memorialOwnerBar {
@@ -3164,7 +3172,7 @@ a.famCard:focus-visible {
 .altarSection {
   display: flex;
   flex-direction: column;
-  gap: var(--space-8);
+  gap: var(--space-6);
 }
 
 .altarHeading {
@@ -3388,7 +3396,7 @@ a.famCard:focus-visible {
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
   gap: 0;
-  padding: var(--space-6) var(--space-2) var(--space-4);
+  padding: var(--space-2) var(--space-2) var(--space-4);
 }
 
 .altarWreathCol {
@@ -3459,12 +3467,13 @@ a.famCard:focus-visible {
   flex: none;
 }
 
-/* Stretched a little wider than tall so the wreath reads round, not as a
- * vertical oval. */
+/* Widened horizontally only (height unchanged) so the wreath reads round rather
+ * than as a narrow vertical oval. */
 .altarWreathFigure .altarPhotoWreath {
   width: 100%;
-  aspect-ratio: 1.18 / 1;
-  object-fit: fill;
+  height: auto;
+  transform: scaleX(1.16);
+  transform-origin: center;
 }
 
 /* Two ribbons on the wreath: the giver's name (left) and the elegy (right), set
@@ -3473,7 +3482,7 @@ a.famCard:focus-visible {
 .wreathRibbons {
   position: absolute;
   left: 50%;
-  top: 38%;
+  top: 42%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -3728,15 +3737,37 @@ a.famCard:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
-.donationBoxList {
+/* Auto-scrolling playback: the track is duplicated and slides up by half its
+ * height for a seamless loop; it pauses on hover. */
+.donationBoxViewport {
+  max-height: 15rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.donationBoxTrack {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
-  max-height: 20rem;
-  overflow-y: auto;
+}
+
+.donationBoxScrolling {
+  animation: donationScroll calc(var(--scroll-count, 6) * 2.6s) linear infinite;
+}
+
+.donationBoxScrolling:hover {
+  animation-play-state: paused;
+}
+
+@keyframes donationScroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
 }
 
 .donationBoxEntry {
@@ -3744,6 +3775,7 @@ a.famCard:focus-visible {
   flex-direction: column;
   gap: 2px;
   padding-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
   border-bottom: 1px dashed var(--line);
 }
 
@@ -4348,8 +4380,12 @@ a.famCard:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .meritBookScrolling {
+  .meritBookScrolling,
+  .donationBoxScrolling {
     animation: none;
+  }
+  .donationBoxViewport {
+    overflow-y: auto;
   }
   .candleFlame {
     animation: none;
