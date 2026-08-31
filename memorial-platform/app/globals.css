@@ -2135,10 +2135,15 @@ a.famCard:focus-visible {
   line-height: 1.1;
 }
 
+/* An unknown/withheld ancestor: a faint dashed placeholder, not a solid empty
+ * card, so it reads as "someone unnamed here" rather than a blank box. */
 .famCardWithheld {
   justify-content: center;
   color: var(--muted);
   letter-spacing: 0.15em;
+  border: 1px dashed var(--line);
+  background: transparent;
+  opacity: 0.5;
 }
 
 /* ---------- Guestbook (visitor messages) ---------- */
