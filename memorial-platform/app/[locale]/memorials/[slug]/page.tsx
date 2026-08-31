@@ -504,14 +504,17 @@ export default async function MemorialPage(props: {
             ) : null}
           </div>
 
-          {/* Three functions only: contact the manager, bookmark, share. */}
+          {/* Three functions: contact the manager, bookmark, share. The contact
+           * button is hidden for a manager — you cannot message yourself. */}
           <div className="memorialActions">
-            <ContactManager
-              memorialId={detail.memorialId}
-              label={t("contactManager")}
-              signedIn={viewer.userId !== null}
-              signInHref={`/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/${detail.slug}`)}`}
-            />
+            {!canManage ? (
+              <ContactManager
+                memorialId={detail.memorialId}
+                label={t("contactManager")}
+                signedIn={viewer.userId !== null}
+                signInHref={`/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/${detail.slug}`)}`}
+              />
+            ) : null}
             {viewer.userId ? (
               <BookmarkButton
                 memorialId={detail.memorialId}
