@@ -320,6 +320,8 @@ export type VisitorStory = {
   isOwn: boolean;
   /** The message this one replies to, or null for a top-level message. */
   parentId: string | null;
+  /** For a manager: this message has a registered author who can be blocked. */
+  blockable: boolean;
 };
 
 /**
@@ -368,6 +370,7 @@ export async function publicVisitorStories(
     audience: row.audience,
     isOwn: viewer.userId !== null && row.submitterUserId === viewer.userId,
     parentId: row.parentId,
+    blockable: viewer.isFamily && row.submitterUserId !== null,
   }));
 }
 

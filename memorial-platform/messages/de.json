@@ -380,7 +380,9 @@
     "quote": "Zitieren",
     "replies": "{count} Antworten",
     "hideReplies": "Antworten ausblenden",
-    "cancelMessage": "Abbrechen"
+    "cancelMessage": "Abbrechen",
+    "blockUser": "Sperren",
+    "blockConfirm": "Diese Person sperren? Ihre Nachrichten werden ausgeblendet und sie kann hier nicht mehr schreiben."
   },
   "privacy": {
     "title": "Wer diese Gedenkseite sehen kann",

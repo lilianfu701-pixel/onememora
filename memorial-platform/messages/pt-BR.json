@@ -380,7 +380,9 @@
     "quote": "Citar",
     "replies": "{count} respostas",
     "hideReplies": "Ocultar respostas",
-    "cancelMessage": "Cancelar"
+    "cancelMessage": "Cancelar",
+    "blockUser": "Bloquear",
+    "blockConfirm": "Bloquear esta pessoa? As mensagens dela serão ocultadas e ela não poderá mais publicar aqui."
   },
   "privacy": {
     "title": "Quem pode ver este memorial",

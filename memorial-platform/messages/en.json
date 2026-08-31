@@ -380,7 +380,9 @@
     "quote": "Quote",
     "replies": "{count} replies",
     "hideReplies": "Hide replies",
-    "cancelMessage": "Cancel"
+    "cancelMessage": "Cancel",
+    "blockUser": "Block",
+    "blockConfirm": "Block this person? Their messages will be hidden and they can no longer post here."
   },
   "privacy": {
     "title": "Who can see this memorial",

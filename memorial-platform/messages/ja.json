@@ -380,7 +380,9 @@
     "quote": "引用",
     "replies": "{count} 件の返信",
     "hideReplies": "返信を隠す",
-    "cancelMessage": "キャンセル"
+    "cancelMessage": "キャンセル",
+    "blockUser": "ブロック",
+    "blockConfirm": "この人をブロックしますか？投稿は非表示になり、今後投稿できなくなります。"
   },
   "privacy": {
     "title": "このページを見られる範囲",

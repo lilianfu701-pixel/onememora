@@ -9,6 +9,7 @@ import {
   readJson,
 } from "@/lib/api";
 import { currentActor } from "@/modules/auth/current-user";
+import { isBlocked } from "@/modules/memorials/blocking";
 
 export const dynamic = "force-dynamic";
 
@@ -54,6 +55,11 @@ export async function POST(
   }
 
   const actor = await currentActor();
+
+  // A person the family has blocked cannot leave messages or replies here.
+  if (actor.userId && (await isBlocked(id, actor.userId))) {
+    return jsonError("MEMORIAL_FORBIDDEN", correlationId);
+  }
 
   // A private message is kept for its author, so it only makes sense once we
   // know who that is.

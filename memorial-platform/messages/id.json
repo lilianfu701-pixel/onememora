@@ -380,7 +380,9 @@
     "quote": "Kutip",
     "replies": "{count} balasan",
     "hideReplies": "Sembunyikan balasan",
-    "cancelMessage": "Batal"
+    "cancelMessage": "Batal",
+    "blockUser": "Blokir",
+    "blockConfirm": "Blokir orang ini? Pesannya akan disembunyikan dan tidak dapat memposting lagi di sini."
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

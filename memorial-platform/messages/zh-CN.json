@@ -380,7 +380,9 @@
     "quote": "引用",
     "replies": "{count} 条回复",
     "hideReplies": "收起回复",
-    "cancelMessage": "取消"
+    "cancelMessage": "取消",
+    "blockUser": "屏蔽此人",
+    "blockConfirm": "确定屏蔽此人？TA 的留言将被隐藏，且无法再在此留言。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

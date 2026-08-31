@@ -380,7 +380,9 @@
     "quote": "Trích dẫn",
     "replies": "{count} phản hồi",
     "hideReplies": "Ẩn phản hồi",
-    "cancelMessage": "Hủy"
+    "cancelMessage": "Hủy",
+    "blockUser": "Chặn",
+    "blockConfirm": "Chặn người này? Tin nhắn của họ sẽ bị ẩn và không thể đăng ở đây nữa."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",

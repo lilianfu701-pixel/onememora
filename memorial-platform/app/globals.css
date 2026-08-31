@@ -2193,6 +2193,10 @@ a.famCard:focus-visible {
   align-self: auto;
 }
 
+.guestbookActions .guestbookBlock {
+  color: #a3352a;
+}
+
 /* The replies, revealed when a thread is opened. */
 .guestbookReplies {
   display: flex;

@@ -12,6 +12,7 @@ type Story = {
   audience: Audience;
   isOwn: boolean;
   parentId: string | null;
+  blockable?: boolean;
 };
 
 export function Guestbook(props: {
@@ -174,6 +175,25 @@ export function Guestbook(props: {
     }
   }
 
+  async function block(id: string): Promise<void> {
+    if (!window.confirm(t("blockConfirm"))) return;
+    const previous = stories;
+    // The message (and any others by this person) drop out; the server hides
+    // the rest, which a reload reflects fully.
+    setStories((current) =>
+      current.filter((story) => story.id !== id && story.parentId !== id),
+    );
+    try {
+      const response = await fetch(
+        `/api/memorials/${props.memorialId}/stories/${id}/block`,
+        { method: "POST" },
+      );
+      if (!response.ok) setStories(previous);
+    } catch {
+      setStories(previous);
+    }
+  }
+
   return (
     <section className="stack">
       <h2>{t("storiesFromVisitors")}</h2>
@@ -230,6 +250,15 @@ export function Guestbook(props: {
                       {t("removeMessage")}
                     </button>
                   ) : null}
+                  {props.canModerate && story.blockable ? (
+                    <button
+                      type="button"
+                      className="linkButton guestbookBlock"
+                      onClick={() => block(story.id)}
+                    >
+                      {t("blockUser")}
+                    </button>
+                  ) : null}
                 </div>
 
                 {isOpen && replies.length > 0 ? (
@@ -257,6 +286,15 @@ export function Guestbook(props: {
                               onClick={() => remove(reply.id)}
                             >
                               {t("removeMessage")}
+                            </button>
+                          ) : null}
+                          {props.canModerate && reply.blockable ? (
+                            <button
+                              type="button"
+                              className="linkButton guestbookBlock"
+                              onClick={() => block(reply.id)}
+                            >
+                              {t("blockUser")}
                             </button>
                           ) : null}
                         </div>

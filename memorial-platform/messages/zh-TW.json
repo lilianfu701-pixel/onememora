@@ -380,7 +380,9 @@
     "quote": "引用",
     "replies": "{count} 則回覆",
     "hideReplies": "收起回覆",
-    "cancelMessage": "取消"
+    "cancelMessage": "取消",
+    "blockUser": "封鎖此人",
+    "blockConfirm": "確定封鎖此人？其留言將被隱藏，且無法再於此留言。"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",

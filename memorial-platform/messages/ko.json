@@ -380,7 +380,9 @@
     "quote": "인용",
     "replies": "답글 {count}개",
     "hideReplies": "답글 숨기기",
-    "cancelMessage": "취소"
+    "cancelMessage": "취소",
+    "blockUser": "차단",
+    "blockConfirm": "이 사람을 차단할까요? 작성한 글이 숨겨지고 더 이상 글을 남길 수 없습니다."
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

@@ -380,7 +380,9 @@
     "quote": "اقتباس",
     "replies": "{count} رد",
     "hideReplies": "إخفاء الردود",
-    "cancelMessage": "إلغاء"
+    "cancelMessage": "إلغاء",
+    "blockUser": "حظر",
+    "blockConfirm": "حظر هذا الشخص؟ ستُخفى رسائله ولن يتمكن من النشر هنا."
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",
