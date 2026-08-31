@@ -9,6 +9,7 @@ import {
   timestamp,
   uniqueIndex,
   uuid,
+  type AnyPgColumn,
 } from "drizzle-orm/pg-core";
 import { users } from "./identity";
 import { mediaAssets } from "./media";
@@ -327,6 +328,14 @@ export const visitorSubmissions = pgTable(
     chapterId: uuid("chapter_id").references(() => lifeChapters.id, {
       onDelete: "set null",
     }),
+    /**
+     * A guestbook reply points at the message it answers (another submission on
+     * the same memorial). Null for a top-level message.
+     */
+    parentId: uuid("parent_id").references(
+      (): AnyPgColumn => visitorSubmissions.id,
+      { onDelete: "cascade" },
+    ),
     /** For rate-limiting guest contributions. Never shown. */
     contributorIpHash: text("contributor_ip_hash"),
     moderatedByUserId: uuid("moderated_by_user_id").references(() => users.id, {

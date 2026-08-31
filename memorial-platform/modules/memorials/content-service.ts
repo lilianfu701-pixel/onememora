@@ -318,6 +318,8 @@ export type VisitorStory = {
   body: string;
   audience: "public" | "family" | "private";
   isOwn: boolean;
+  /** The message this one replies to, or null for a top-level message. */
+  parentId: string | null;
 };
 
 /**
@@ -344,6 +346,7 @@ export async function publicVisitorStories(
       body: visitorSubmissions.body,
       audience: visitorSubmissions.audience,
       submitterUserId: visitorSubmissions.submitterUserId,
+      parentId: visitorSubmissions.parentId,
     })
     .from(visitorSubmissions)
     .where(
@@ -364,6 +367,7 @@ export async function publicVisitorStories(
     body: row.body,
     audience: row.audience,
     isOwn: viewer.userId !== null && row.submitterUserId === viewer.userId,
+    parentId: row.parentId,
   }));
 }
 

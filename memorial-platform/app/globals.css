@@ -2175,6 +2175,66 @@ a.famCard:focus-visible {
   color: var(--muted);
 }
 
+/* Reply / quote / show-replies actions under a message. */
+.guestbookActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+}
+
+.guestbookActions .linkButton {
+  color: var(--olive);
+}
+
+.guestbookActions .guestbookRemove {
+  margin-inline-start: auto;
+  align-self: auto;
+}
+
+/* The replies, revealed when a thread is opened. */
+.guestbookReplies {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-inline-start: var(--space-3);
+  padding-inline-start: var(--space-4);
+  border-inline-start: 2px solid var(--line);
+}
+
+.guestbookReply {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-2) 0;
+}
+
+.guestbookReply p {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.guestbookReplyName {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.guestbookReplyForm {
+  margin-block-start: var(--space-2);
+  padding: var(--space-3);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.guestbookReplyFormActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+}
+
 /* ---------- Admin panel ---------- */
 
 .adminShell {

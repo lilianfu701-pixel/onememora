@@ -375,7 +375,12 @@
     "dispositionMapSearchPlaceholder": "Search a place",
     "dispositionMapHint": "Click or drag the marker on the map, or search a place first.",
     "dispositionMapUnavailable": "Map not configured (you can just type the place).",
-    "dispositionCoords": "Coordinates: {lng}, {lat}"
+    "dispositionCoords": "Coordinates: {lng}, {lat}",
+    "reply": "Répondre",
+    "quote": "Citer",
+    "replies": "{count} réponses",
+    "hideReplies": "Masquer les réponses",
+    "cancelMessage": "Annuler"
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

@@ -309,6 +309,13 @@
       "when": 1788057446729,
       "tag": "0043_fast_the_hunter",
       "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1788150899350,
+      "tag": "0044_tricky_the_hunter",
+      "breakpoints": true
     }
   ]
 }

@@ -375,7 +375,12 @@
     "dispositionMapSearchPlaceholder": "搜索地点，如 上海福寿园",
     "dispositionMapHint": "在地图上点选或拖动标记来定位；也可先搜索地点。",
     "dispositionMapUnavailable": "地图暂未配置（可先直接填写文字地点）。",
-    "dispositionCoords": "坐标：{lng}, {lat}"
+    "dispositionCoords": "坐标：{lng}, {lat}",
+    "reply": "回复",
+    "quote": "引用",
+    "replies": "{count} 条回复",
+    "hideReplies": "收起回复",
+    "cancelMessage": "取消"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

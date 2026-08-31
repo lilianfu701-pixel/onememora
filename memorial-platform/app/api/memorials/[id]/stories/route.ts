@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 import { db } from "@/db/client";
 import { memorials, visitorSubmissions } from "@/db/schema";
@@ -17,6 +17,8 @@ const schema = z.object({
   message: z.string().trim().min(1).max(2000),
   locale: z.string().min(2).max(10).default("en"),
   audience: z.enum(["public", "family", "private"]).default("public"),
+  /** Set when this message is a reply to another guestbook message. */
+  parentId: z.uuid().optional(),
 });
 
 /**
@@ -62,6 +64,25 @@ export async function POST(
   const name = body.value.name?.trim() || null;
   const message = body.value.message.trim();
 
+  // A reply must point at a real guestbook message on this same memorial.
+  let parentId: string | null = null;
+  if (body.value.parentId) {
+    const [parent] = await db()
+      .select({ id: visitorSubmissions.id })
+      .from(visitorSubmissions)
+      .where(
+        and(
+          eq(visitorSubmissions.id, body.value.parentId),
+          eq(visitorSubmissions.memorialId, id),
+          eq(visitorSubmissions.isContribution, false),
+        ),
+      );
+    if (!parent) {
+      return jsonError("MEMORIAL_NOT_FOUND", correlationId);
+    }
+    parentId = parent.id;
+  }
+
   const [row] = await db()
     .insert(visitorSubmissions)
     .values({
@@ -73,6 +94,7 @@ export async function POST(
       sourceLocale: body.value.locale,
       status: "published",
       audience: body.value.audience,
+      parentId,
     })
     .returning({ id: visitorSubmissions.id });
 
@@ -83,6 +105,7 @@ export async function POST(
       body: message,
       audience: body.value.audience,
       isOwn: true,
+      parentId,
     },
     correlationId,
     201,

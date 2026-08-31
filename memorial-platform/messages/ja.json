@@ -375,7 +375,12 @@
     "dispositionMapSearchPlaceholder": "Search a place",
     "dispositionMapHint": "Click or drag the marker on the map, or search a place first.",
     "dispositionMapUnavailable": "Map not configured (you can just type the place).",
-    "dispositionCoords": "Coordinates: {lng}, {lat}"
+    "dispositionCoords": "Coordinates: {lng}, {lat}",
+    "reply": "返信",
+    "quote": "引用",
+    "replies": "{count} 件の返信",
+    "hideReplies": "返信を隠す",
+    "cancelMessage": "キャンセル"
   },
   "privacy": {
     "title": "このページを見られる範囲",

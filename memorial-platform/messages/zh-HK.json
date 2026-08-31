@@ -375,7 +375,12 @@
     "dispositionMapSearchPlaceholder": "搜尋地點，如 上海福壽園",
     "dispositionMapHint": "在地圖上點選或拖動標記來定位；也可先搜尋地點。",
     "dispositionMapUnavailable": "地圖尚未設定（可先直接填寫文字地點）。",
-    "dispositionCoords": "座標：{lng}, {lat}"
+    "dispositionCoords": "座標：{lng}, {lat}",
+    "reply": "回覆",
+    "quote": "引用",
+    "replies": "{count} 則回覆",
+    "hideReplies": "收起回覆",
+    "cancelMessage": "取消"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

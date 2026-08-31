@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 type Audience = "public" | "family" | "private";
 
@@ -11,6 +11,7 @@ type Story = {
   body: string;
   audience: Audience;
   isOwn: boolean;
+  parentId: string | null;
 };
 
 export function Guestbook(props: {
@@ -31,10 +32,47 @@ export function Guestbook(props: {
   const [thanked, setThanked] = useState(false);
   const [failed, setFailed] = useState(false);
 
+  // Replies are hidden until a reader opens a thread.
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const [replyingTo, setReplyingTo] = useState<string | null>(null);
+  const [replyName, setReplyName] = useState("");
+  const [replyMessage, setReplyMessage] = useState("");
+  const [replySending, setReplySending] = useState(false);
+
+  const topLevel = useMemo(
+    () => stories.filter((s) => !s.parentId),
+    [stories],
+  );
+  const repliesByParent = useMemo(() => {
+    const map = new Map<string, Story[]>();
+    for (const s of stories) {
+      if (!s.parentId) continue;
+      const list = map.get(s.parentId) ?? [];
+      list.push(s);
+      map.set(s.parentId, list);
+    }
+    return map;
+  }, [stories]);
+
   function audienceLabel(value: Audience): string {
     if (value === "family") return t("audienceFamily");
     if (value === "private") return t("audiencePrivate");
     return t("audiencePublic");
+  }
+
+  function toggleExpand(id: string): void {
+    setExpanded((current) => {
+      const next = new Set(current);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }
+
+  function openReply(parentId: string, quote?: string): void {
+    setReplyingTo(parentId);
+    setExpanded((current) => new Set(current).add(parentId));
+    setReplyMessage(quote ? `「${quote}」\n` : "");
   }
 
   async function submit(event: React.FormEvent): Promise<void> {
@@ -70,6 +108,7 @@ export function Guestbook(props: {
           body: payload.data.body,
           audience: payload.data.audience ?? "public",
           isOwn: true,
+          parentId: null,
         },
       ]);
       setName("");
@@ -79,6 +118,45 @@ export function Guestbook(props: {
       setFailed(true);
     } finally {
       setSending(false);
+    }
+  }
+
+  async function submitReply(parentId: string): Promise<void> {
+    if (replyMessage.trim().length === 0 || replySending) return;
+    setReplySending(true);
+    try {
+      const response = await fetch(
+        `/api/memorials/${props.memorialId}/stories`,
+        {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            name: replyName.trim() || undefined,
+            message: replyMessage.trim(),
+            locale: props.locale,
+            audience: "public",
+            parentId,
+          }),
+        },
+      );
+      const payload = await response.json().catch(() => null);
+      if (!response.ok || !payload?.data?.id) return;
+      setStories((current) => [
+        ...current,
+        {
+          id: payload.data.id,
+          title: payload.data.title ?? null,
+          body: payload.data.body,
+          audience: "public",
+          isOwn: true,
+          parentId,
+        },
+      ]);
+      setReplyName("");
+      setReplyMessage("");
+      setReplyingTo(null);
+    } finally {
+      setReplySending(false);
     }
   }
 
@@ -100,30 +178,135 @@ export function Guestbook(props: {
     <section className="stack">
       <h2>{t("storiesFromVisitors")}</h2>
 
-      {stories.length > 0 ? (
+      {topLevel.length > 0 ? (
         <div className="guestbookList">
-          {stories.map((story) => (
-            <div className="card stack guestbookItem" key={story.id}>
-              <div className="guestbookItemHead">
-                {story.title ? <h3>{story.title}</h3> : <span />}
-                {story.audience !== "public" ? (
-                  <span className="guestbookBadge">
-                    {audienceLabel(story.audience)}
-                  </span>
+          {topLevel.map((story) => {
+            const replies = repliesByParent.get(story.id) ?? [];
+            const isOpen = expanded.has(story.id);
+            return (
+              <div className="card stack guestbookItem" key={story.id}>
+                <div className="guestbookItemHead">
+                  {story.title ? <h3>{story.title}</h3> : <span />}
+                  {story.audience !== "public" ? (
+                    <span className="guestbookBadge">
+                      {audienceLabel(story.audience)}
+                    </span>
+                  ) : null}
+                </div>
+                <p>{story.body}</p>
+
+                <div className="guestbookActions">
+                  <button
+                    type="button"
+                    className="linkButton"
+                    onClick={() => openReply(story.id)}
+                  >
+                    {t("reply")}
+                  </button>
+                  <button
+                    type="button"
+                    className="linkButton"
+                    onClick={() => openReply(story.id, story.body)}
+                  >
+                    {t("quote")}
+                  </button>
+                  {replies.length > 0 ? (
+                    <button
+                      type="button"
+                      className="linkButton"
+                      onClick={() => toggleExpand(story.id)}
+                    >
+                      {isOpen
+                        ? t("hideReplies")
+                        : t("replies", { count: replies.length })}
+                    </button>
+                  ) : null}
+                  {props.canModerate ? (
+                    <button
+                      type="button"
+                      className="linkButton guestbookRemove"
+                      onClick={() => remove(story.id)}
+                    >
+                      {t("removeMessage")}
+                    </button>
+                  ) : null}
+                </div>
+
+                {isOpen && replies.length > 0 ? (
+                  <div className="guestbookReplies">
+                    {replies.map((reply) => (
+                      <div className="guestbookReply" key={reply.id}>
+                        {reply.title ? (
+                          <span className="guestbookReplyName">
+                            {reply.title}
+                          </span>
+                        ) : null}
+                        <p>{reply.body}</p>
+                        <div className="guestbookActions">
+                          <button
+                            type="button"
+                            className="linkButton"
+                            onClick={() => openReply(story.id, reply.body)}
+                          >
+                            {t("quote")}
+                          </button>
+                          {props.canModerate ? (
+                            <button
+                              type="button"
+                              className="linkButton guestbookRemove"
+                              onClick={() => remove(reply.id)}
+                            >
+                              {t("removeMessage")}
+                            </button>
+                          ) : null}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+
+                {replyingTo === story.id ? (
+                  <div className="guestbookReplyForm stack">
+                    <input
+                      className="input"
+                      type="text"
+                      maxLength={60}
+                      placeholder={t("yourNameOptional")}
+                      value={replyName}
+                      onChange={(e) => setReplyName(e.target.value)}
+                    />
+                    <textarea
+                      className="input"
+                      rows={3}
+                      maxLength={2000}
+                      placeholder={t("messagePlaceholder")}
+                      value={replyMessage}
+                      onChange={(e) => setReplyMessage(e.target.value)}
+                    />
+                    <div className="guestbookReplyFormActions">
+                      <button
+                        type="button"
+                        className="button buttonQuiet buttonCompact"
+                        onClick={() => setReplyingTo(null)}
+                      >
+                        {t("cancelMessage")}
+                      </button>
+                      <button
+                        type="button"
+                        className="button buttonPrimary buttonCompact"
+                        disabled={
+                          replySending || replyMessage.trim().length === 0
+                        }
+                        onClick={() => submitReply(story.id)}
+                      >
+                        {t("sendMessage")}
+                      </button>
+                    </div>
+                  </div>
                 ) : null}
               </div>
-              <p>{story.body}</p>
-              {props.canModerate ? (
-                <button
-                  type="button"
-                  className="linkButton guestbookRemove"
-                  onClick={() => remove(story.id)}
-                >
-                  {t("removeMessage")}
-                </button>
-              ) : null}
-            </div>
-          ))}
+            );
+          })}
         </div>
       ) : (
         <p className="muted">{t("noMessagesYet")}</p>
