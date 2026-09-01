@@ -410,7 +410,9 @@
     "obituaryCopied": "Copied",
     "obituaryPoster": "Make poster",
     "obituaryPosterBusy": "Generating…",
-    "obituaryScanHint": "Scan to open the memorial"
+    "obituaryScanHint": "Scan to open the memorial",
+    "portraitLabel": "Portrait (optional)",
+    "portraitHint": "A clear, front-facing photo works best. You can add or change it later."
   },
   "privacy": {
     "title": "Quién puede ver este memorial",

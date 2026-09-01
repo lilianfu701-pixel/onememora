@@ -164,10 +164,10 @@
     "ancestralHometownLabel": "祖籍",
     "faithLabel": "信仰",
     "causeOfDeathLabel": "逝世原因",
-    "relativesLabel": "逝者的：",
+    "relativesLabel": "社会关系",
     "relativesHelp": "逝者的：",
     "relativeNameLabel": "姓名",
-    "relativeRelationLabel": "与逝者关系",
+    "relativeRelationLabel": "添加逝者的",
     "relativeStatusLabel": "状态",
     "statusLiving": "在世",
     "statusDeceased": "已故",
@@ -410,7 +410,9 @@
     "obituaryCopied": "已复制",
     "obituaryPoster": "生成讣告海报",
     "obituaryPosterBusy": "生成中…",
-    "obituaryScanHint": "扫码进入追思页"
+    "obituaryScanHint": "扫码进入追思页",
+    "portraitLabel": "遗像（可选）",
+    "portraitHint": "建议使用清晰的正面照片，之后也可以随时更换。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

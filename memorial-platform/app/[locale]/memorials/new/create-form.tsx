@@ -283,17 +283,29 @@ export function CreateMemorialForm(props: { locale: string }) {
   const [name, setName] = useState("");
   const [aliases, setAliases] = useState<AliasEntry[]>([]);
   const [birth, setBirth] = useState<DateParts>(EMPTY_PARTS);
-  const [death, setDeath] = useState<DateParts>(EMPTY_PARTS);
+  // Death defaults to the current year, the common case for a new memorial.
+  const [death, setDeath] = useState<DateParts>({
+    year: String(new Date().getFullYear()),
+    month: "",
+    day: "",
+  });
 
-  const [birthCountry, setBirthCountry] = useState("");
+  // Both countries default to China, the platform's primary audience.
+  const [birthCountry, setBirthCountry] = useState("CN");
   const [birthRegion, setBirthRegion] = useState("");
 
-  const [deathCountry, setDeathCountry] = useState("");
+  const [deathCountry, setDeathCountry] = useState("CN");
   const [deathRegion, setDeathRegion] = useState("");
 
   const [ancestralHometown, setAncestralHometown] = useState("");
   const [faith, setFaith] = useState("");
   const [causeOfDeath, setCauseOfDeath] = useState("");
+
+  // The portrait (遗像). Held locally and uploaded to the new memorial once it
+  // exists — the media pipeline is memorial-scoped, so there is no asset to
+  // create until the POST below returns a memorialId.
+  const [portraitFile, setPortraitFile] = useState<File | null>(null);
+  const [portraitPreview, setPortraitPreview] = useState<string | null>(null);
 
   const [relatives, setRelatives] = useState<RelativeEntry[]>([]);
   const [showAllNames, setShowAllNames] = useState(false);
@@ -317,6 +329,38 @@ export function CreateMemorialForm(props: { locale: string }) {
       attempt.current = { key: crypto.randomUUID(), payload };
     }
     return attempt.current.key;
+  }
+
+  // Sign → PUT → complete for the portrait against the freshly created memorial.
+  // We stop at `complete`; the asset finishes processing server-side and shows
+  // on the memorial page once ready, so there is no need to poll here.
+  async function uploadPortrait(memorialId: string, file: File): Promise<void> {
+    const sign = await fetch("/api/media/sign", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        memorialId,
+        fileName: file.name,
+        contentType: file.type,
+        size: file.size,
+      }),
+    });
+    if (!sign.ok) throw new Error("sign");
+    const s = (await sign.json()).data;
+    const put = await fetch(s.url, { method: "PUT", headers: s.headers, body: file });
+    if (!put.ok) throw new Error("put");
+    const complete = await fetch(`/api/media/${s.mediaAssetId}/complete`, {
+      method: "POST",
+    });
+    if (!complete.ok) throw new Error("complete");
+  }
+
+  function pickPortrait(file: File | null): void {
+    setPortraitFile(file);
+    setPortraitPreview((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return file ? URL.createObjectURL(file) : null;
+    });
   }
 
   const needsPublicAcknowledgement = visibility === "public";
@@ -501,6 +545,17 @@ export function CreateMemorialForm(props: { locale: string }) {
         return;
       }
 
+      // Upload the portrait now that the memorial exists. A failure here must
+      // not block the family from reaching their new page — they can add the
+      // photo later from the manage page — so we swallow it and redirect.
+      if (portraitFile && result?.data?.memorialId) {
+        try {
+          await uploadPortrait(result.data.memorialId, portraitFile);
+        } catch {
+          /* portrait can be added later; do not block the redirect */
+        }
+      }
+
       router.push(`/${props.locale}/memorials/${result.data.slug}`);
     } catch {
       setFailure("DEPENDENCY_UNAVAILABLE");
@@ -626,6 +681,46 @@ export function CreateMemorialForm(props: { locale: string }) {
           </p>
         ) : null}
 
+        <div className="portraitField">
+          <div className="portraitPreview" aria-hidden={!portraitPreview}>
+            {portraitPreview ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={portraitPreview} alt="" />
+            ) : (
+              <span className="portraitPlaceholder" aria-hidden="true">
+                ☖
+              </span>
+            )}
+          </div>
+          <div className="portraitControls">
+            <span className="fieldLabel">{t("portraitLabel")}</span>
+            <p className="muted portraitHint">{t("portraitHint")}</p>
+            <div className="portraitButtons">
+              <label className="button buttonQuiet buttonCompact">
+                {t("addPhoto")}
+                <input
+                  type="file"
+                  accept="image/*"
+                  hidden
+                  onChange={(e) => {
+                    pickPortrait(e.target.files?.[0] ?? null);
+                    e.target.value = "";
+                  }}
+                />
+              </label>
+              {portraitPreview ? (
+                <button
+                  type="button"
+                  className="linkButton"
+                  onClick={() => pickPortrait(null)}
+                >
+                  {common("remove")}
+                </button>
+              ) : null}
+            </div>
+          </div>
+        </div>
+
         <DuplicateWarning
           locale={props.locale}
           name={name}
@@ -644,17 +739,17 @@ export function CreateMemorialForm(props: { locale: string }) {
          * Year is required to record a birth date at all; month and day may each
          * be left "not sure".
          */}
-        <DateFields
-          parts={birth}
-          onChange={setBirth}
-          yearLabel={t("yearLabel")}
-          monthLabel={t("monthLabel")}
-          dayLabel={t("dayLabel")}
-          emptyLabel={t("dateUnclear")}
-          yearPlaceholder="1931"
-        />
-        <div className="placeRow placeRowBirth">
-          <label className="field">
+        <div className="lifelineRow">
+          <DateFields
+            parts={birth}
+            onChange={setBirth}
+            yearLabel={t("yearLabel")}
+            monthLabel={t("monthLabel")}
+            dayLabel={t("dayLabel")}
+            emptyLabel={t("dateUnclear")}
+            yearPlaceholder="1931"
+          />
+          <label className="field fieldCountry">
             <span className="fieldLabel">{t("countryLabel")}</span>
             <select
               className="input"
@@ -687,22 +782,17 @@ export function CreateMemorialForm(props: { locale: string }) {
         {/* Same year/month/day fields as birth, but a death is usually known
             precisely — the empty month/day option is a neutral dash, not "not
             sure". */}
-        <DateFields
-          parts={death}
-          onChange={setDeath}
-          yearLabel={t("yearLabel")}
-          monthLabel={t("monthLabel")}
-          dayLabel={t("dayLabel")}
-          emptyLabel="—"
-          yearPlaceholder="2024"
-        />
-        {errorFor("deathDate") ? (
-          <p className="fieldError" role="alert">
-            {errorFor("deathDate")}
-          </p>
-        ) : null}
-        <div className="placeRow placeRowBirth">
-          <label className="field">
+        <div className="lifelineRow">
+          <DateFields
+            parts={death}
+            onChange={setDeath}
+            yearLabel={t("yearLabel")}
+            monthLabel={t("monthLabel")}
+            dayLabel={t("dayLabel")}
+            emptyLabel="—"
+            yearPlaceholder="2024"
+          />
+          <label className="field fieldCountry">
             <span className="fieldLabel">{t("countryLabel")}</span>
             <select
               className="input"
@@ -727,6 +817,11 @@ export function CreateMemorialForm(props: { locale: string }) {
             onChange={setDeathRegion}
           />
         </div>
+        {errorFor("deathDate") ? (
+          <p className="fieldError" role="alert">
+            {errorFor("deathDate")}
+          </p>
+        ) : null}
       </fieldset>
       </div>
 
