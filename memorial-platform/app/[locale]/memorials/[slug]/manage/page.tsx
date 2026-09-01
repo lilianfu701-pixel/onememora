@@ -44,6 +44,8 @@ import { DispositionEditor } from "./disposition-editor";
 import { getDisposition } from "@/modules/memorials/disposition";
 import { listBlocked } from "@/modules/memorials/blocking";
 import { BlockedList } from "./blocked-list";
+import { getObituary } from "@/modules/memorials/obituary";
+import { ObituaryEditor } from "./obituary-editor";
 import { ContributionsReview } from "./contributions-review";
 import { listPendingContributions } from "@/modules/memorials/contributions";
 
@@ -163,6 +165,9 @@ export default async function ManageMemorialPage(props: {
 
   // People the family has blocked from the guestbook, so they can be lifted.
   const blocked = mayEditStory ? await listBlocked(detail.memorialId) : [];
+
+  // The obituary (讣告) the family can write, publish and share.
+  const obituary = mayEditStory ? await getObituary(detail.memorialId) : null;
 
   // Gift-out bookkeeping: total paid in, the 20% service fee, and the net the
   // platform will gift to the family once they enrol and pass the ¥2000 mark.
@@ -306,6 +311,16 @@ export default async function ManageMemorialPage(props: {
                 <DispositionEditor
                   memorialId={detail.memorialId}
                   initial={disposition}
+                />
+              </div>
+            ) : null}
+            {mayEditStory && obituary ? (
+              <div className="manageCard">
+                <ObituaryEditor
+                  memorialId={detail.memorialId}
+                  slug={detail.slug}
+                  locale={normalized}
+                  initial={obituary}
                 />
               </div>
             ) : null}

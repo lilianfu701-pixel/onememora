@@ -198,6 +198,17 @@ export const memorials = pgTable(
      * which only accepts a ready asset on this memorial.
      */
     dispositionMediaId: uuid("disposition_media_id"),
+    /**
+     * Obituary (讣告): a short published notice the family can share. Name, dates
+     * and portrait come from the memorial itself; these are the extra fields.
+     */
+    obituaryBody: text("obituary_body"),
+    obituaryNativePlace: text("obituary_native_place"),
+    obituaryService: text("obituary_service"),
+    obituarySurvivors: text("obituary_survivors"),
+    obituaryPublishedAt: timestamp("obituary_published_at", {
+      withTimezone: true,
+    }),
     /** Set when this memorial was merged away, so its history stays traceable. */
     mergedIntoMemorialId: uuid("merged_into_memorial_id"),
     /**

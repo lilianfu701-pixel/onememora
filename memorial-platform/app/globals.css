@@ -4457,6 +4457,105 @@ a.famCard:focus-visible {
   margin-inline-start: 0.1em;
 }
 
+/* ── 讣告 Obituary page ── */
+
+.obituaryPage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.obituaryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-3);
+  padding: var(--space-8) var(--space-6);
+  background:
+    radial-gradient(
+      ellipse 120% 60% at 50% 0%,
+      rgba(197, 163, 95, 0.07),
+      transparent 60%
+    ),
+    var(--paper-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-md);
+}
+
+.obituaryKicker {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  padding-inline-start: 0.5em;
+  color: var(--ink);
+}
+
+.obituaryPortrait {
+  width: clamp(150px, 40vw, 210px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.obituaryName {
+  margin: var(--space-1) 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 1.3rem + 1.6vw, 2.4rem);
+  font-weight: 700;
+}
+
+.obituaryLife {
+  margin: 0;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.obituaryMeta {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.obituaryBody {
+  margin-top: var(--space-3);
+  text-align: justify;
+  line-height: 1.9;
+  color: var(--ink);
+}
+
+.obituaryBody p {
+  margin: 0 0 var(--space-3);
+  text-indent: 2em;
+}
+
+.obituaryService {
+  margin: 0;
+  color: var(--olive-dark);
+  line-height: 1.7;
+}
+
+.obituarySurvivors {
+  align-self: flex-end;
+  margin: var(--space-2) 0 0;
+  font-family: var(--font-display);
+}
+
+.obituaryEnter {
+  margin-top: var(--space-4);
+}
+
+.obituaryShare {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
 /* Photo of the resting place, on the public card. */
 .dispositionPhoto {
   display: block;
