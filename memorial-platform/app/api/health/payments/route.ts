@@ -12,6 +12,7 @@ import { paypalConfigured, paypalTokenCheck } from "@/lib/paypal";
  */
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
+// go-live: switched PAYPAL_ENV to live
 
 export async function GET(): Promise<Response> {
   const e = env();
