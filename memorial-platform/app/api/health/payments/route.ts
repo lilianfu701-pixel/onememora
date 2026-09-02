@@ -25,6 +25,10 @@ export async function GET(): Promise<Response> {
         env: e.PAYPAL_ENV,
         tokenOk: token.ok,
         tokenStatus: token.status,
+        // Length-only fingerprints so a truncated/space-padded paste is visible
+        // without ever revealing the value.
+        clientIdLen: (e.PAYPAL_CLIENT_ID ?? "").length,
+        secretLen: (e.PAYPAL_CLIENT_SECRET ?? "").length,
       },
     },
     { headers: { "Cache-Control": "no-store" } },
