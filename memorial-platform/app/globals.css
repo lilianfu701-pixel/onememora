@@ -3652,11 +3652,11 @@ a.famCard:focus-visible {
 .wreathRibbons {
   position: absolute;
   left: 50%;
-  top: 42%;
+  top: 34%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 26px;
   pointer-events: none;
 }
 
