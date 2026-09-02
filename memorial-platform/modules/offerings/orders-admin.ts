@@ -1,10 +1,19 @@
 import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { db } from "@/db/client";
-import { memorialNames, memorials, orders, users } from "@/db/schema";
+import {
+  memorialBeneficiaries,
+  memorialNames,
+  memorials,
+  orders,
+  users,
+} from "@/db/schema";
 import { PLATFORM_FEE_RATE } from "./catalog";
 
 /** Payment providers whose orders are money coming in (not plan/other rows). */
 const PAYMENT_PROVIDERS = ["paypal", "stripe"] as const;
+
+const FEE_SUM = sql<string>`coalesce(sum(coalesce(${orders.feeMinor}, round(${orders.amountMinor}::numeric * ${PLATFORM_FEE_RATE})::bigint)), 0)`;
+const GROSS_SUM = sql<string>`coalesce(sum(${orders.amountMinor}), 0)`;
 
 export interface AdminOrderRow {
   id: string;
@@ -22,6 +31,12 @@ export interface AdminOrderRow {
   providerRef: string | null;
 }
 
+/** Count + gross for one order status bucket. */
+export interface StatusTotal {
+  count: number;
+  grossMinor: number;
+}
+
 export interface AdminOrdersResult {
   rows: AdminOrderRow[];
   /** All-time totals over *paid* payment orders. */
@@ -30,6 +45,12 @@ export interface AdminOrdersResult {
     grossMinor: number;
     feeMinor: number;
     netMinor: number;
+  };
+  /** Success vs. unfinished vs. failed, so they read apart at a glance. */
+  byStatus: {
+    paid: StatusTotal;
+    pending: StatusTotal;
+    failed: StatusTotal;
   };
 }
 
@@ -130,6 +151,29 @@ export async function listAdminOrders(opts?: {
   const grossMinor = Number(agg?.gross ?? 0);
   const feeMinor = Number(agg?.fee ?? 0);
 
+  // Success / unfinished / failed, split apart so an operator sees each clearly.
+  const statusRows = await db()
+    .select({
+      status: orders.status,
+      count: sql<string>`count(*)`,
+      gross: GROSS_SUM,
+    })
+    .from(orders)
+    .where(inArray(orders.provider, [...PAYMENT_PROVIDERS]))
+    .groupBy(orders.status);
+
+  const byStatus = {
+    paid: { count: 0, grossMinor: 0 },
+    pending: { count: 0, grossMinor: 0 },
+    failed: { count: 0, grossMinor: 0 },
+  };
+  for (const s of statusRows) {
+    const bucket =
+      s.status === "paid" ? "paid" : s.status === "pending" ? "pending" : "failed";
+    byStatus[bucket].count += Number(s.count);
+    byStatus[bucket].grossMinor += Number(s.gross);
+  }
+
   return {
     rows: rows.map(toRow),
     totals: {
@@ -138,7 +182,76 @@ export async function listAdminOrders(opts?: {
       feeMinor,
       netMinor: grossMinor - feeMinor,
     },
+    byStatus,
   };
+}
+
+export interface AccountBalance {
+  memorialSlug: string | null;
+  memorialName: string | null;
+  /** The family account that receives the gift-out, when one is set up. */
+  beneficiaryName: string | null;
+  orderCount: number;
+  grossMinor: number;
+  feeMinor: number;
+  netMinor: number;
+}
+
+/**
+ * Paid income aggregated per memorial (i.e. per family account): how much each
+ * account has taken in, the platform fee, and the net owed to that family. This
+ * is the "which account holds how much" view.
+ */
+export async function listAccountBalances(): Promise<AccountBalance[]> {
+  const rows = await db()
+    .select({
+      slug: memorials.slug,
+      name: memorialNames.value,
+      beneficiary: memorialBeneficiaries.legalName,
+      count: sql<string>`count(*)`,
+      gross: GROSS_SUM,
+      fee: FEE_SUM,
+    })
+    .from(orders)
+    .leftJoin(memorials, eq(memorials.id, orders.memorialId))
+    .leftJoin(
+      memorialNames,
+      and(
+        eq(memorialNames.memorialId, orders.memorialId),
+        eq(memorialNames.type, "primary"),
+      ),
+    )
+    .leftJoin(
+      memorialBeneficiaries,
+      eq(memorialBeneficiaries.memorialId, orders.memorialId),
+    )
+    .where(
+      and(
+        inArray(orders.provider, [...PAYMENT_PROVIDERS]),
+        eq(orders.status, "paid"),
+      ),
+    )
+    .groupBy(
+      orders.memorialId,
+      memorials.slug,
+      memorialNames.value,
+      memorialBeneficiaries.legalName,
+    )
+    .orderBy(desc(GROSS_SUM));
+
+  return rows.map((r) => {
+    const gross = Number(r.gross);
+    const fee = Number(r.fee);
+    return {
+      memorialSlug: r.slug,
+      memorialName: r.name,
+      beneficiaryName: r.beneficiary,
+      orderCount: Number(r.count),
+      grossMinor: gross,
+      feeMinor: fee,
+      netMinor: gross - fee,
+    };
+  });
 }
 
 /** All payment orders as CSV, for reconciliation against PayPal/Stripe. */
