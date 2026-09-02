@@ -30,6 +30,14 @@ export async function GET(): Promise<Response> {
         clientIdLen: (e.PAYPAL_CLIENT_ID ?? "").length,
         secretLen: (e.PAYPAL_CLIENT_SECRET ?? "").length,
       },
+      // The base the PayPal return URL is built from — must be the live site.
+      appUrlHost: (() => {
+        try {
+          return new URL(e.APP_URL).host;
+        } catch {
+          return null;
+        }
+      })(),
     },
     { headers: { "Cache-Control": "no-store" } },
   );
