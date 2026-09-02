@@ -103,6 +103,9 @@ export default async function ObituaryPage(props: {
     obituary.survivors ? `\n${obituary.survivors}` : "",
     "",
     `${t("obituaryEnterMemorial")}：${pageUrl}`,
+    detail.publicNumber
+      ? t("obituaryNumberHint", { number: detail.publicNumber })
+      : "",
   ]
     .filter((s) => s !== "")
     .join("\n");
@@ -120,6 +123,7 @@ export default async function ObituaryPage(props: {
     service: obituary.service,
     survivors: obituary.survivors,
     portraitUrl: posterPortrait,
+    number: detail.publicNumber,
   };
 
   return (

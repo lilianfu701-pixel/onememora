@@ -49,7 +49,8 @@
     "ctaTitle": "准备好了就开始",
     "ctaDesc": "没有截止日期，没有费用，探访也不需要注册账号。创建一个纪念页只需几分钟。",
     "languagesTitle": "以每一种语言",
-    "signUpPrompt": "登录或创建账号"
+    "signUpPrompt": "登录或创建账号",
+    "publishObituary": "发布讣告"
   },
   "auth": {
     "signInTitle": "登录",
@@ -413,7 +414,22 @@
     "obituaryScanHint": "扫码进入追思页",
     "portraitLabel": "遗像（可选）",
     "portraitHint": "建议使用清晰的正面照片，之后也可以随时更换。",
-    "memorialNumberLabel": "追思页编号："
+    "memorialNumberLabel": "追思页编号：",
+    "obituaryPublishTitle": "发布讣告",
+    "obituaryStandaloneIntro": "人刚离世时，可在这里快速发布讣告：自动生成一个追思页，或关联你已建立的追思页。",
+    "obituaryModeNew": "新建追思页",
+    "obituaryModeExisting": "关联已有追思页",
+    "obituaryPickMemorial": "选择追思页",
+    "obituaryNoMemorials": "你还没有可关联的追思页。",
+    "obituaryPublishNew": "发布讣告并生成追思页",
+    "obituaryManageLink": "发布 / 编辑讣告 →",
+    "obituaryNumberHint": "或在 missingu.org 输入编号 {number} 进入。",
+    "obituaryNeedsBody": "请填写讣告正文。",
+    "obituaryNeedsName": "请填写逝者姓名。",
+    "obituaryNeedsRelationship": "请选择您与逝者的关系。",
+    "obituaryNeedsDeclaration": "请勾选确认声明。",
+    "obituaryPickMemorialFirst": "请先选择追思页。",
+    "obituaryPublishFailed": "发布失败，请稍后再试。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

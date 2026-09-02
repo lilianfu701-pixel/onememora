@@ -45,7 +45,6 @@ import { getDisposition } from "@/modules/memorials/disposition";
 import { listBlocked } from "@/modules/memorials/blocking";
 import { BlockedList } from "./blocked-list";
 import { getObituary } from "@/modules/memorials/obituary";
-import { ObituaryEditor } from "./obituary-editor";
 import { ContributionsReview } from "./contributions-review";
 import { listPendingContributions } from "@/modules/memorials/contributions";
 
@@ -314,14 +313,22 @@ export default async function ManageMemorialPage(props: {
                 />
               </div>
             ) : null}
-            {mayEditStory && obituary ? (
-              <div className="manageCard">
-                <ObituaryEditor
-                  memorialId={detail.memorialId}
-                  slug={detail.slug}
-                  locale={normalized}
-                  initial={obituary}
-                />
+            {mayEditStory ? (
+              <div className="manageCard stack">
+                <h2>{t("obituaryHeading")}</h2>
+                <p className="muted" style={{ margin: 0 }}>
+                  {obituary?.published
+                    ? t("obituaryStatusPublished")
+                    : t("obituaryStatusDraft")}
+                </p>
+                <div>
+                  <Link
+                    className="button buttonQuiet buttonCompact"
+                    href={`/${normalized}/obituary/new?memorial=${detail.slug}`}
+                  >
+                    {t("obituaryManageLink")}
+                  </Link>
+                </div>
               </div>
             ) : null}
             {mayEditStory ? (

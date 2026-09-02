@@ -49,7 +49,8 @@
     "ctaTitle": "준비되었을 때 시작하세요",
     "ctaDesc": "기한도, 비용도 없고, 방문에 계정도 필요 없습니다. 추모 페이지를 만드는 데 몇 분이면 됩니다.",
     "languagesTitle": "모든 언어로",
-    "signUpPrompt": "로그인 또는 계정 만들기"
+    "signUpPrompt": "로그인 또는 계정 만들기",
+    "publishObituary": "Publish an obituary"
   },
   "auth": {
     "signInTitle": "로그인",
@@ -413,7 +414,22 @@
     "obituaryScanHint": "Scan to open the memorial",
     "portraitLabel": "Portrait (optional)",
     "portraitHint": "A clear, front-facing photo works best. You can add or change it later.",
-    "memorialNumberLabel": "Memorial number: "
+    "memorialNumberLabel": "Memorial number: ",
+    "obituaryPublishTitle": "Publish an obituary",
+    "obituaryStandaloneIntro": "When someone has just passed, publish an obituary quickly here — it creates a memorial page, or links to one you already have.",
+    "obituaryModeNew": "New memorial",
+    "obituaryModeExisting": "Existing memorial",
+    "obituaryPickMemorial": "Choose a memorial",
+    "obituaryNoMemorials": "You don't have any memorials to link yet.",
+    "obituaryPublishNew": "Publish & create the memorial",
+    "obituaryManageLink": "Publish or edit the obituary →",
+    "obituaryNumberHint": "Or enter number {number} at missingu.org.",
+    "obituaryNeedsBody": "Please write the obituary.",
+    "obituaryNeedsName": "Please enter the name.",
+    "obituaryNeedsRelationship": "Please choose your relationship to them.",
+    "obituaryNeedsDeclaration": "Please accept the declaration.",
+    "obituaryPickMemorialFirst": "Please choose a memorial first.",
+    "obituaryPublishFailed": "Publishing failed. Please try again."
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",

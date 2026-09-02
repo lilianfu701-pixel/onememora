@@ -93,6 +93,12 @@ export default async function HomePage(props: {
           <nav className="heroActions" aria-label={t("createMemorial")}>
             <Link
               className="button buttonPrimary"
+              href={`/${locale}/obituary/new`}
+            >
+              {t("publishObituary")}
+            </Link>
+            <Link
+              className="button buttonQuiet"
               href={`/${locale}/memorials/new`}
             >
               {t("createMemorial")}

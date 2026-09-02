@@ -49,7 +49,8 @@
     "ctaTitle": "Commencez quand vous êtes prêt",
     "ctaDesc": "Pas de date limite, pas de coût et pas besoin de compte pour visiter. Créer un mémorial prend quelques minutes.",
     "languagesTitle": "Dans chaque langue",
-    "signUpPrompt": "Se connecter ou créer un compte"
+    "signUpPrompt": "Se connecter ou créer un compte",
+    "publishObituary": "Publish an obituary"
   },
   "auth": {
     "signInTitle": "Se connecter",
@@ -413,7 +414,22 @@
     "obituaryScanHint": "Scan to open the memorial",
     "portraitLabel": "Portrait (optional)",
     "portraitHint": "A clear, front-facing photo works best. You can add or change it later.",
-    "memorialNumberLabel": "Memorial number: "
+    "memorialNumberLabel": "Memorial number: ",
+    "obituaryPublishTitle": "Publish an obituary",
+    "obituaryStandaloneIntro": "When someone has just passed, publish an obituary quickly here — it creates a memorial page, or links to one you already have.",
+    "obituaryModeNew": "New memorial",
+    "obituaryModeExisting": "Existing memorial",
+    "obituaryPickMemorial": "Choose a memorial",
+    "obituaryNoMemorials": "You don't have any memorials to link yet.",
+    "obituaryPublishNew": "Publish & create the memorial",
+    "obituaryManageLink": "Publish or edit the obituary →",
+    "obituaryNumberHint": "Or enter number {number} at missingu.org.",
+    "obituaryNeedsBody": "Please write the obituary.",
+    "obituaryNeedsName": "Please enter the name.",
+    "obituaryNeedsRelationship": "Please choose your relationship to them.",
+    "obituaryNeedsDeclaration": "Please accept the declaration.",
+    "obituaryPickMemorialFirst": "Please choose a memorial first.",
+    "obituaryPublishFailed": "Publishing failed. Please try again."
   },
   "privacy": {
     "title": "Qui peut voir ce mémorial",

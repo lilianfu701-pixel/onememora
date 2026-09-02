@@ -13,6 +13,8 @@ export type PosterData = {
   survivors: string | null;
   /** Only same-origin URLs can be drawn without tainting the canvas. */
   portraitUrl: string | null;
+  /** The memorial's public number, printed under the QR. */
+  number: string | null;
 };
 
 export function ObituaryShare(props: {
@@ -166,6 +168,13 @@ export function ObituaryShare(props: {
       ctx.font = `24px ${serif}`;
       ctx.fillText(t("obituaryScanHint"), margin, qrY + qrSize / 2);
       ctx.fillText("missingu.org", margin, qrY + qrSize / 2 + 34);
+      if (props.poster.number) {
+        ctx.fillText(
+          t("memorialNumberLabel") + props.poster.number,
+          margin,
+          qrY + qrSize / 2 + 68,
+        );
+      }
 
       const blob = await new Promise<Blob | null>((resolve) =>
         canvas.toBlob(resolve, "image/png"),

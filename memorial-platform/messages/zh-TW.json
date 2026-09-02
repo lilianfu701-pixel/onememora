@@ -49,7 +49,8 @@
     "ctaTitle": "準備好了就開始",
     "ctaDesc": "沒有截止日期，沒有費用，造訪也不需要註冊帳號。建立一個紀念頁只需幾分鐘。",
     "languagesTitle": "以每一種語言",
-    "signUpPrompt": "登入或建立帳號"
+    "signUpPrompt": "登入或建立帳號",
+    "publishObituary": "發布訃告"
   },
   "auth": {
     "signInTitle": "登入",
@@ -413,7 +414,22 @@
     "obituaryScanHint": "掃碼進入追思頁",
     "portraitLabel": "遺像（可選）",
     "portraitHint": "建議使用清晰的正面照片，之後也可以隨時更換。",
-    "memorialNumberLabel": "追思頁編號："
+    "memorialNumberLabel": "追思頁編號：",
+    "obituaryPublishTitle": "發布訃告",
+    "obituaryStandaloneIntro": "人剛離世時，可在這裡快速發布訃告：自動生成一個追思頁，或關聯你已建立的追思頁。",
+    "obituaryModeNew": "新建追思頁",
+    "obituaryModeExisting": "關聯已有追思頁",
+    "obituaryPickMemorial": "選擇追思頁",
+    "obituaryNoMemorials": "你還沒有可關聯的追思頁。",
+    "obituaryPublishNew": "發布訃告並生成追思頁",
+    "obituaryManageLink": "發布 / 編輯訃告 →",
+    "obituaryNumberHint": "或在 missingu.org 輸入編號 {number} 進入。",
+    "obituaryNeedsBody": "請填寫訃告正文。",
+    "obituaryNeedsName": "請填寫逝者姓名。",
+    "obituaryNeedsRelationship": "請選擇您與逝者的關係。",
+    "obituaryNeedsDeclaration": "請勾選確認聲明。",
+    "obituaryPickMemorialFirst": "請先選擇追思頁。",
+    "obituaryPublishFailed": "發布失敗，請稍後再試。"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",
