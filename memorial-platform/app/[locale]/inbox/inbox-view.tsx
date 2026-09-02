@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useState } from "react";
 import type { InboxMessage } from "@/modules/messaging/inbox";
 
+type InboxTab = "personal" | "system";
+
 export function InboxView(props: {
   locale: string;
   initial: InboxMessage[];
@@ -18,6 +20,18 @@ export function InboxView(props: {
   const [replyState, setReplyState] = useState<
     "idle" | "sending" | "sent" | "error"
   >("idle");
+
+  // Personal messages are from a person and can be replied to; system messages
+  // are platform notifications. They are different enough to read separately.
+  const personal = messages.filter((m) => !m.fromSystem);
+  const system = messages.filter((m) => m.fromSystem);
+  const personalUnread = personal.filter((m) => !m.read).length;
+  const systemUnread = system.filter((m) => !m.read).length;
+
+  // Open on the side that has something new, defaulting to personal.
+  const [tab, setTab] = useState<InboxTab>(
+    personalUnread === 0 && systemUnread > 0 ? "system" : "personal",
+  );
 
   async function open(m: InboxMessage): Promise<void> {
     const next = openId === m.id ? null : m.id;
@@ -63,13 +77,44 @@ export function InboxView(props: {
       day: "numeric",
     });
 
-  if (messages.length === 0) {
-    return <p className="muted">{t("empty")}</p>;
-  }
+  const visible = tab === "personal" ? personal : system;
 
   return (
-    <ul className="inboxList">
-      {messages.map((m) => {
+    <div className="stack">
+      <div className="inboxTabs" role="tablist" aria-label={t("title")}>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={tab === "personal"}
+          className={`inboxTab${tab === "personal" ? " inboxTabActive" : ""}`}
+          onClick={() => setTab("personal")}
+        >
+          {t("tabPersonal")}
+          {personalUnread > 0 ? (
+            <span className="inboxTabCount">{personalUnread}</span>
+          ) : null}
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={tab === "system"}
+          className={`inboxTab${tab === "system" ? " inboxTabActive" : ""}`}
+          onClick={() => setTab("system")}
+        >
+          {t("tabSystem")}
+          {systemUnread > 0 ? (
+            <span className="inboxTabCount">{systemUnread}</span>
+          ) : null}
+        </button>
+      </div>
+
+      {visible.length === 0 ? (
+        <p className="muted">
+          {tab === "personal" ? t("emptyPersonal") : t("emptySystem")}
+        </p>
+      ) : (
+        <ul className="inboxList">
+          {visible.map((m) => {
         const isOpen = openId === m.id;
         const who = m.fromSystem
           ? t("systemSender")
@@ -153,9 +198,11 @@ export function InboxView(props: {
                 ) : null}
               </div>
             ) : null}
-          </li>
-        );
-      })}
-    </ul>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
   );
 }

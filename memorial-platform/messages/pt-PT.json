@@ -736,6 +736,10 @@
     "reply": "Reply",
     "replyPlaceholder": "Write a reply…",
     "replyFailed": "Could not send. Please try again.",
-    "replySent": "Reply sent."
+    "replySent": "Reply sent.",
+    "tabPersonal": "Personal",
+    "tabSystem": "System",
+    "emptyPersonal": "No personal messages yet.",
+    "emptySystem": "No system messages yet."
   }
 }

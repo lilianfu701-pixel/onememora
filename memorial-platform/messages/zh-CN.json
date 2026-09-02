@@ -736,6 +736,10 @@
     "reply": "回复",
     "replyPlaceholder": "写下回复…",
     "replyFailed": "发送失败，请重试。",
-    "replySent": "回复已发送。"
+    "replySent": "回复已发送。",
+    "tabPersonal": "个人消息",
+    "tabSystem": "系统消息",
+    "emptyPersonal": "暂无个人消息。",
+    "emptySystem": "暂无系统消息。"
   }
 }
