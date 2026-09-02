@@ -412,7 +412,8 @@
     "obituaryPosterBusy": "Generating…",
     "obituaryScanHint": "Scan to open the memorial",
     "portraitLabel": "Portrait (optional)",
-    "portraitHint": "A clear, front-facing photo works best. You can add or change it later."
+    "portraitHint": "A clear, front-facing photo works best. You can add or change it later.",
+    "memorialNumberLabel": "Memorial number: "
   },
   "privacy": {
     "title": "Quién puede ver este memorial",
@@ -504,7 +505,11 @@
     "queryTooShort": "Escriba al menos dos letras de un nombre.",
     "showMore": "Ver más resultados",
     "countryAny": "Cualquiera",
-    "countryHint": "Coincide con cualquier lugar de la persona: nacimiento, residencia, fallecimiento o descanso."
+    "countryHint": "Coincide con cualquier lugar de la persona: nacimiento, residencia, fallecimiento o descanso.",
+    "numberLabel": "Memorial number",
+    "numberPlaceholder": "e.g. 50302971",
+    "numberHint": "Type the 8-digit number to open a memorial directly.",
+    "numberNotFound": "No memorial found for number {number}."
   },
   "profile": {
     "title": "Mi perfil",

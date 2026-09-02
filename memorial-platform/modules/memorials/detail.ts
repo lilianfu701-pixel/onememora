@@ -22,6 +22,8 @@ export type MemorialName = {
 export type MemorialDetail = {
   memorialId: string;
   slug: string;
+  /** The all-digit number people can type or search to reach this page. */
+  publicNumber: string | null;
   visibility: "public" | "unlisted" | "invite_only";
   /** Reached here only when the viewer may see it; a draft means the family. */
   status: "draft" | "published" | "restricted";
@@ -79,6 +81,7 @@ export async function loadMemorialDetail(
   const [row] = await db()
     .select({
       slug: memorials.slug,
+      publicNumber: memorials.publicNumber,
       visibility: memorials.visibility,
       status: memorials.status,
       searchEngineIndexable: memorials.searchEngineIndexable,
@@ -137,6 +140,7 @@ export async function loadMemorialDetail(
     detail: {
       memorialId,
       slug: row.slug,
+      publicNumber: row.publicNumber,
       visibility: row.visibility,
       // `decideAccess` has already refused every status a visitor may not see,
       // so the ones that reach here are the ones worth naming.

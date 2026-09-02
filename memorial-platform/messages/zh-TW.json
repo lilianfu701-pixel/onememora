@@ -412,7 +412,8 @@
     "obituaryPosterBusy": "產生中…",
     "obituaryScanHint": "掃碼進入追思頁",
     "portraitLabel": "遺像（可選）",
-    "portraitHint": "建議使用清晰的正面照片，之後也可以隨時更換。"
+    "portraitHint": "建議使用清晰的正面照片，之後也可以隨時更換。",
+    "memorialNumberLabel": "追思頁編號："
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",
@@ -504,7 +505,11 @@
     "queryTooShort": "請至少輸入姓名中的兩個字。",
     "showMore": "顯示更多結果",
     "countryAny": "不限",
-    "countryHint": "依與逝者相關的任一地點篩選：出生地、居住地、逝世地或安葬地。"
+    "countryHint": "依與逝者相關的任一地點篩選：出生地、居住地、逝世地或安葬地。",
+    "numberLabel": "追思頁編號",
+    "numberPlaceholder": "如 50302971",
+    "numberHint": "輸入8位編號可直接開啟對應追思頁。",
+    "numberNotFound": "沒有找到編號 {number} 對應的追思頁。"
   },
   "profile": {
     "title": "我的資料",

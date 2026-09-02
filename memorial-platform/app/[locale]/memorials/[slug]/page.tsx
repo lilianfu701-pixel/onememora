@@ -521,6 +521,12 @@ export default async function MemorialPage(props: {
               title={detail.primaryName}
             />
           </div>
+          {detail.publicNumber ? (
+            <p className="memorialNumber">
+              {t("memorialNumberLabel")}
+              <span className="memorialNumberValue">{detail.publicNumber}</span>
+            </p>
+          ) : null}
             </header>
           }
         />

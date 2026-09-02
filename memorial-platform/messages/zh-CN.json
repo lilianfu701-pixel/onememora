@@ -412,7 +412,8 @@
     "obituaryPosterBusy": "生成中…",
     "obituaryScanHint": "扫码进入追思页",
     "portraitLabel": "遗像（可选）",
-    "portraitHint": "建议使用清晰的正面照片，之后也可以随时更换。"
+    "portraitHint": "建议使用清晰的正面照片，之后也可以随时更换。",
+    "memorialNumberLabel": "追思页编号："
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -504,7 +505,11 @@
     "queryTooShort": "请至少输入姓名中的两个字。",
     "showMore": "显示更多结果",
     "countryAny": "不限",
-    "countryHint": "按与逝者相关的任一地点筛选：出生地、居住地、逝世地或安葬地。"
+    "countryHint": "按与逝者相关的任一地点筛选：出生地、居住地、逝世地或安葬地。",
+    "numberLabel": "追思页编号",
+    "numberPlaceholder": "如 50302971",
+    "numberHint": "输入8位编号可直接打开对应追思页。",
+    "numberNotFound": "没有找到编号 {number} 对应的追思页。"
   },
   "profile": {
     "title": "我的资料",

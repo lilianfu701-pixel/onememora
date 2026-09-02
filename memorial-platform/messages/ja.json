@@ -412,7 +412,8 @@
     "obituaryPosterBusy": "Generating…",
     "obituaryScanHint": "Scan to open the memorial",
     "portraitLabel": "Portrait (optional)",
-    "portraitHint": "A clear, front-facing photo works best. You can add or change it later."
+    "portraitHint": "A clear, front-facing photo works best. You can add or change it later.",
+    "memorialNumberLabel": "Memorial number: "
   },
   "privacy": {
     "title": "このページを見られる範囲",
@@ -504,7 +505,11 @@
     "queryTooShort": "お名前を 2 文字以上ご入力ください。",
     "showMore": "さらに結果を表示",
     "countryAny": "指定なし",
-    "countryHint": "故人に関わるいずれかの場所（出生・居住・逝去・埋葬）で検索します。"
+    "countryHint": "故人に関わるいずれかの場所（出生・居住・逝去・埋葬）で検索します。",
+    "numberLabel": "Memorial number",
+    "numberPlaceholder": "e.g. 50302971",
+    "numberHint": "Type the 8-digit number to open a memorial directly.",
+    "numberNotFound": "No memorial found for number {number}."
   },
   "profile": {
     "title": "プロフィール",

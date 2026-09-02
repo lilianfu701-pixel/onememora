@@ -1,15 +1,18 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { countryOptions } from "@/lib/countries";
 import { flags } from "@/lib/feature-flags";
 import { DEFAULT_LIMIT, searchMemorials } from "@/modules/search/query";
+import { findSlugByPublicNumber } from "@/modules/memorials/service";
+import { looksLikeMemorialNumber } from "@/modules/memorials/slug";
 
 export const dynamic = "force-dynamic";
 
 type SearchParams = {
   q?: string;
+  number?: string;
   birthYear?: string;
   deathYear?: string;
   country?: string;
@@ -87,6 +90,24 @@ export default async function SearchPage(props: {
   const t = await getTranslations("search");
   const query = await props.searchParams;
 
+  // A memorial number is an exact, unique key: typing it jumps straight to the
+  // page rather than listing results. Accept the dedicated number field, or a
+  // name box that in fact holds only digits.
+  const numberInput = (query.number ?? "").trim();
+  const numericQuery =
+    !numberInput && query.q && looksLikeMemorialNumber(query.q)
+      ? query.q.trim()
+      : "";
+  const numberCandidate = numberInput || numericQuery;
+  let numberNotFound = false;
+  if (numberCandidate) {
+    const slug = looksLikeMemorialNumber(numberCandidate)
+      ? await findSlugByPublicNumber(numberCandidate)
+      : null;
+    if (slug) redirect(`/${locale}/memorials/${slug}`);
+    numberNotFound = true;
+  }
+
   const criteria = {
     q: query.q?.trim() || undefined,
     birthYear: yearFrom(query.birthYear),
@@ -130,6 +151,21 @@ export default async function SearchPage(props: {
             placeholder={t("queryPlaceholder")}
             maxLength={200}
           />
+        </label>
+
+        <label className="field">
+          <span className="fieldLabel">{t("numberLabel")}</span>
+          <input
+            className="input"
+            type="search"
+            name="number"
+            inputMode="numeric"
+            pattern="\d*"
+            defaultValue={numberInput}
+            placeholder={t("numberPlaceholder")}
+            maxLength={8}
+          />
+          <span className="fieldHint">{t("numberHint")}</span>
         </label>
 
         <label className="field">
@@ -179,7 +215,9 @@ export default async function SearchPage(props: {
       </form>
 
       <section className="stack" aria-live="polite">
-        {!hasCriteria ? (
+        {numberNotFound ? (
+          <p className="muted">{t("numberNotFound", { number: numberCandidate })}</p>
+        ) : !hasCriteria ? (
           <p className="muted">{t("startPrompt")}</p>
         ) : result && !result.ok ? (
           /*

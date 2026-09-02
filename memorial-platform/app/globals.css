@@ -506,6 +506,20 @@ img {
   width: 9rem;
 }
 
+/* The all-digit memorial number, shown beneath the page actions. */
+.memorialNumber {
+  margin: var(--space-2) 0 0;
+  font-size: var(--text-sm);
+  color: var(--color-muted, #8a8079);
+}
+
+.memorialNumberValue {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  color: var(--color-text, #2a2320);
+}
+
 /* Portrait (遗像) picker on the create form: framed preview + controls. */
 .portraitField {
   display: flex;

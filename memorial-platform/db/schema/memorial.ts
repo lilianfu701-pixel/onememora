@@ -165,6 +165,14 @@ export const memorials = pgTable(
       .notNull()
       .references(() => deceasedPeople.id, { onDelete: "restrict" }),
     slug: text("slug").notNull(),
+    /**
+     * A short all-digit code (8 digits) people can type at missingu.org or scan
+     * to reach the memorial, and search by. Independent of the slug (which stays
+     * the SEO URL). Random, not sequential, so the total count is not exposed and
+     * memorials cannot be enumerated by counting up. Nullable only for rows
+     * created before this column existed; the backfill fills them.
+     */
+    publicNumber: text("public_number"),
     status: memorialStatus("status").default("draft").notNull(),
     /** A new memorial is public and searchable unless the family says otherwise. */
     visibility: memorialVisibility("visibility").default("public").notNull(),
@@ -237,6 +245,7 @@ export const memorials = pgTable(
   },
   (table) => [
     uniqueIndex("memorials_slug_key").on(table.slug),
+    uniqueIndex("memorials_public_number_key").on(table.publicNumber),
     uniqueIndex("memorials_owner_idempotency_key").on(
       table.ownerUserId,
       table.creationIdempotencyKey,

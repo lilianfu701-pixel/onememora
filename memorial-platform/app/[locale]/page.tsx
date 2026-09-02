@@ -71,6 +71,18 @@ export default async function HomePage(props: {
                 maxLength={200}
               />
             </label>
+            <label className="field">
+              <span className="fieldLabel">{search("numberLabel")}</span>
+              <input
+                className="input"
+                type="search"
+                name="number"
+                inputMode="numeric"
+                pattern="\d*"
+                placeholder={search("numberPlaceholder")}
+                maxLength={8}
+              />
+            </label>
             <div>
               <button className="button buttonPrimary" type="submit">
                 {search("submit")}

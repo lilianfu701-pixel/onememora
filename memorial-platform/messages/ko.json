@@ -412,7 +412,8 @@
     "obituaryPosterBusy": "Generating…",
     "obituaryScanHint": "Scan to open the memorial",
     "portraitLabel": "Portrait (optional)",
-    "portraitHint": "A clear, front-facing photo works best. You can add or change it later."
+    "portraitHint": "A clear, front-facing photo works best. You can add or change it later.",
+    "memorialNumberLabel": "Memorial number: "
   },
   "privacy": {
     "title": "이 페이지를 볼 수 있는 범위",
@@ -504,7 +505,11 @@
     "queryTooShort": "성함을 두 글자 이상 입력해 주세요.",
     "showMore": "결과 더 보기",
     "countryAny": "전체",
-    "countryHint": "고인과 관련된 장소(출생·거주·별세·안장) 중 아무 곳으로 검색합니다."
+    "countryHint": "고인과 관련된 장소(출생·거주·별세·안장) 중 아무 곳으로 검색합니다.",
+    "numberLabel": "Memorial number",
+    "numberPlaceholder": "e.g. 50302971",
+    "numberHint": "Type the 8-digit number to open a memorial directly.",
+    "numberNotFound": "No memorial found for number {number}."
   },
   "profile": {
     "title": "내 프로필",

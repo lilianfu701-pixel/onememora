@@ -412,7 +412,8 @@
     "obituaryPosterBusy": "Generating…",
     "obituaryScanHint": "Scan to open the memorial",
     "portraitLabel": "Portrait (optional)",
-    "portraitHint": "A clear, front-facing photo works best. You can add or change it later."
+    "portraitHint": "A clear, front-facing photo works best. You can add or change it later.",
+    "memorialNumberLabel": "Memorial number: "
   },
   "privacy": {
     "title": "من يمكنه رؤية هذه الصفحة",
@@ -504,7 +505,11 @@
     "queryTooShort": "أدخل حرفين على الأقل من الاسم.",
     "showMore": "عرض المزيد من النتائج",
     "countryAny": "الكل",
-    "countryHint": "يطابق أي مكان مرتبط بالشخص: الميلاد أو السكن أو الوفاة أو الدفن."
+    "countryHint": "يطابق أي مكان مرتبط بالشخص: الميلاد أو السكن أو الوفاة أو الدفن.",
+    "numberLabel": "Memorial number",
+    "numberPlaceholder": "e.g. 50302971",
+    "numberHint": "Type the 8-digit number to open a memorial directly.",
+    "numberNotFound": "No memorial found for number {number}."
   },
   "profile": {
     "title": "ملفي الشخصي",
