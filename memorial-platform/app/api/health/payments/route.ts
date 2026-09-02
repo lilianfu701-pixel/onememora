@@ -11,6 +11,7 @@ import { paypalConfigured } from "@/lib/paypal";
  * reads env at request time rather than at build.
  */
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function GET(): Promise<Response> {
   const e = env();
