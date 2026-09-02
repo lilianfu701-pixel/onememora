@@ -142,28 +142,14 @@ export default async function SearchPage(props: {
        */}
       <form className="searchForm" method="get" role="search">
         <label className="field fieldWide">
-          <span className="fieldLabel">{t("queryLabel")}</span>
+          <span className="fieldLabel">{t("nameOrNumberLabel")}</span>
           <input
             className="input"
             type="search"
             name="q"
-            defaultValue={criteria.q ?? ""}
-            placeholder={t("queryPlaceholder")}
+            defaultValue={criteria.q ?? numberInput}
+            placeholder={t("nameOrNumberPlaceholder")}
             maxLength={200}
-          />
-        </label>
-
-        <label className="field">
-          <span className="fieldLabel">{t("numberLabel")}</span>
-          <input
-            className="input"
-            type="search"
-            name="number"
-            inputMode="numeric"
-            pattern="\d*"
-            defaultValue={numberInput}
-            placeholder={t("numberPlaceholder")}
-            maxLength={8}
           />
           <span className="fieldHint">{t("numberHint")}</span>
         </label>

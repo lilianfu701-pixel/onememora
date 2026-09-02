@@ -553,7 +553,9 @@
     "numberLabel": "追思頁編號",
     "numberPlaceholder": "如 50302971",
     "numberHint": "輸入8位編號可直接開啟對應追思頁。",
-    "numberNotFound": "沒有找到編號 {number} 對應的追思頁。"
+    "numberNotFound": "沒有找到編號 {number} 對應的追思頁。",
+    "nameOrNumberLabel": "姓名或追思編號",
+    "nameOrNumberPlaceholder": "輸入姓名，或 8 位追思編號"
   },
   "profile": {
     "title": "我的資料",

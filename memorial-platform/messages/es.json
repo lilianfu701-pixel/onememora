@@ -553,7 +553,9 @@
     "numberLabel": "Memorial number",
     "numberPlaceholder": "e.g. 50302971",
     "numberHint": "Type the 8-digit number to open a memorial directly.",
-    "numberNotFound": "No memorial found for number {number}."
+    "numberNotFound": "No memorial found for number {number}.",
+    "nameOrNumberLabel": "Name or memorial number",
+    "nameOrNumberPlaceholder": "e.g. a name, or an 8-digit number"
   },
   "profile": {
     "title": "Mi perfil",

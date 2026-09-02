@@ -62,25 +62,13 @@ export default async function HomePage(props: {
             role="search"
           >
             <label className="field fieldWide">
-              <span className="fieldLabel">{search("queryLabel")}</span>
+              <span className="fieldLabel">{search("nameOrNumberLabel")}</span>
               <input
                 className="input"
                 type="search"
                 name="q"
-                placeholder={search("queryPlaceholder")}
+                placeholder={search("nameOrNumberPlaceholder")}
                 maxLength={200}
-              />
-            </label>
-            <label className="field">
-              <span className="fieldLabel">{search("numberLabel")}</span>
-              <input
-                className="input"
-                type="search"
-                name="number"
-                inputMode="numeric"
-                pattern="\d*"
-                placeholder={search("numberPlaceholder")}
-                maxLength={8}
               />
             </label>
             <div>
