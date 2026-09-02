@@ -16,9 +16,19 @@ export const dynamic = "force-dynamic";
  */
 export default async function SignInPage(props: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ next?: string }>;
 }) {
   const { locale } = await props.params;
+  const { next } = await props.searchParams;
   setRequestLocale(locale);
+
+  // Carried onto the OAuth link so a social login returns to where the visitor
+  // was (e.g. a memorial they were making an offering on). Only same-origin.
+  const nextRaw = (next ?? "").trim();
+  const safeNextParam =
+    nextRaw.startsWith("/") && !nextRaw.startsWith("//")
+      ? `&next=${encodeURIComponent(nextRaw)}`
+      : "";
 
   // Someone already signed in has nothing to do here, and showing them a form
   // that would replace their session is a way to lose one by accident.
@@ -49,7 +59,7 @@ export default async function SignInPage(props: {
             {oauthGoogleEnabled ? (
               <a
                 className="button buttonQuiet"
-                href={`/api/auth/oauth/google?locale=${locale}`}
+                href={`/api/auth/oauth/google?locale=${locale}${safeNextParam}`}
               >
                 {t("continueWithGoogle")}
               </a>
@@ -57,7 +67,7 @@ export default async function SignInPage(props: {
             {oauthAppleEnabled ? (
               <a
                 className="button buttonQuiet"
-                href={`/api/auth/oauth/apple?locale=${locale}`}
+                href={`/api/auth/oauth/apple?locale=${locale}${safeNextParam}`}
               >
                 {t("continueWithApple")}
               </a>

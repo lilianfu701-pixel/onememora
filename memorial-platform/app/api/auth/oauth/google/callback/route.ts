@@ -7,6 +7,7 @@ import { setSessionCookie } from "@/modules/auth/cookies";
 import { signInWithSocialProvider } from "@/modules/auth/oauth-service";
 import { googleProvider } from "@/modules/auth/providers/google";
 import { validateOAuthState } from "@/modules/auth/providers/oauth";
+import { safeNext } from "../route";
 
 const OAUTH_STATE_COOKIE = "oauth_state";
 
@@ -33,7 +34,12 @@ export async function GET(request: Request): Promise<Response> {
     return NextResponse.redirect(new URL("/en/sign-in", appUrl));
   }
 
-  let stored: { state: string; nonce: string; locale: string };
+  let stored: {
+    state: string;
+    nonce: string;
+    locale: string;
+    next?: string | null;
+  };
   try {
     stored = JSON.parse(rawState) as typeof stored;
   } catch {
@@ -70,9 +76,10 @@ export async function GET(request: Request): Promise<Response> {
       userAgent: userAgentFrom(request),
     });
 
-    const response = NextResponse.redirect(
-      new URL(`/${stored.locale}`, appUrl),
-    );
+    // Back to where they started (a memorial they were buying from, say),
+    // falling back to the home page in their language.
+    const dest = safeNext(stored.next ?? null) ?? `/${stored.locale}`;
+    const response = NextResponse.redirect(new URL(dest, appUrl));
 
     response.cookies.set({
       name: OAUTH_STATE_COOKIE,

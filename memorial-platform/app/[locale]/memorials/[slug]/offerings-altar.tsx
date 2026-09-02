@@ -526,7 +526,11 @@ export function OfferingsAltar(props: {
     tag: string,
   ): Promise<void> {
     if (!props.isLoggedIn) {
-      window.location.href = `/${props.locale}/sign-in`;
+      // Come back to this memorial after signing in, not the home page.
+      const next = encodeURIComponent(
+        window.location.pathname + window.location.search,
+      );
+      window.location.href = `/${props.locale}/sign-in?next=${next}`;
       return;
     }
 
