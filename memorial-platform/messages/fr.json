@@ -741,5 +741,8 @@
     "tabSystem": "System",
     "emptyPersonal": "No personal messages yet.",
     "emptySystem": "No system messages yet."
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} demande à confirmer un lien de parenté avec cette page commémorative. Veuillez l'examiner sur la page de gestion."
   }
 }

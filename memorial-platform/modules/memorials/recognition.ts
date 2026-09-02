@@ -110,7 +110,10 @@ export async function createRecognitionClaim(
       recipientUserId: memorial.ownerUserId,
       memorialId: input.memorialId,
       subject: input.claimedName,
+      // Chinese fallback; the inbox renders `sysmsg.recognitionClaim` per locale.
       body: `${input.claimedName} 请求确认与本纪念页的亲属关系。请到管理页审核。`,
+      templateKey: "recognitionClaim",
+      templateParams: { name: input.claimedName },
     });
   }
 

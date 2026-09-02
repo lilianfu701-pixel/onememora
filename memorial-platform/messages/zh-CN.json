@@ -741,5 +741,8 @@
     "tabSystem": "系统消息",
     "emptyPersonal": "暂无个人消息。",
     "emptySystem": "暂无系统消息。"
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} 请求确认与本纪念页的亲属关系。请到管理页审核。"
   }
 }

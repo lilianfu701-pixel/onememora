@@ -741,5 +741,8 @@
     "tabSystem": "System",
     "emptyPersonal": "No personal messages yet.",
     "emptySystem": "No system messages yet."
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} solicita confirmar um parentesco com esta página memorial. Revise na página de gerenciamento."
   }
 }

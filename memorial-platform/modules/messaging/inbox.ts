@@ -32,16 +32,24 @@ export async function notify(input: {
   recipientUserId: string;
   memorialId?: string | null;
   subject: string;
+  /** The Chinese fallback body, shown if no `templateKey` is given. */
   body: string;
+  /** i18n key in the `sysmsg` namespace; the inbox renders it per recipient. */
+  templateKey?: string;
+  templateParams?: Record<string, string>;
 }): Promise<void> {
   try {
-    await db().insert(messages).values({
-      recipientUserId: input.recipientUserId,
-      senderUserId: null,
-      memorialId: input.memorialId ?? null,
-      subject: input.subject,
-      body: input.body,
-    });
+    await db()
+      .insert(messages)
+      .values({
+        recipientUserId: input.recipientUserId,
+        senderUserId: null,
+        memorialId: input.memorialId ?? null,
+        subject: input.subject,
+        body: input.body,
+        templateKey: input.templateKey ?? null,
+        templateParams: input.templateParams ?? null,
+      });
   } catch {
     /* a lost notification is better than a failed action */
   }
@@ -164,6 +172,9 @@ export type InboxMessage = {
   memorialSlug: string | null;
   subject: string | null;
   body: string;
+  /** For a system message: its i18n key + params, for localized rendering. */
+  templateKey: string | null;
+  templateParams: Record<string, string> | null;
   read: boolean;
   createdAt: Date;
 };
@@ -181,6 +192,8 @@ export async function listInbox(userId: string): Promise<InboxMessage[]> {
       memorialSlug: memorials.slug,
       subject: messages.subject,
       body: messages.body,
+      templateKey: messages.templateKey,
+      templateParams: messages.templateParams,
       readAt: messages.readAt,
       createdAt: messages.createdAt,
     })
@@ -200,6 +213,8 @@ export async function listInbox(userId: string): Promise<InboxMessage[]> {
     memorialSlug: r.memorialSlug,
     subject: r.subject,
     body: r.body,
+    templateKey: r.templateKey,
+    templateParams: r.templateParams,
     read: r.readAt !== null,
     createdAt: r.createdAt,
   }));

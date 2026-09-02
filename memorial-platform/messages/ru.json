@@ -741,5 +741,8 @@
     "tabSystem": "System",
     "emptyPersonal": "No personal messages yet.",
     "emptySystem": "No system messages yet."
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} просит подтвердить родственную связь с этой мемориальной страницей. Пожалуйста, проверьте это на странице управления."
   }
 }

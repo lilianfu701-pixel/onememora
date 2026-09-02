@@ -741,5 +741,8 @@
     "tabSystem": "System",
     "emptyPersonal": "No personal messages yet.",
     "emptySystem": "No system messages yet."
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} meminta konfirmasi hubungan keluarga dengan halaman peringatan ini. Silakan tinjau di halaman pengelolaan."
   }
 }

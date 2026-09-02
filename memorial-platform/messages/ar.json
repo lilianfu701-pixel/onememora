@@ -741,5 +741,8 @@
     "tabSystem": "System",
     "emptyPersonal": "No personal messages yet.",
     "emptySystem": "No system messages yet."
+  },
+  "sysmsg": {
+    "recognitionClaim": "يطلب {name} تأكيد صلة قرابة بهذه الصفحة التذكارية. يرجى مراجعتها في صفحة الإدارة."
   }
 }

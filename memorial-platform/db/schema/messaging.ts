@@ -1,5 +1,6 @@
 import {
   index,
+  jsonb,
   pgTable,
   text,
   timestamp,
@@ -33,7 +34,19 @@ export const messages = pgTable(
       onDelete: "set null",
     }),
     subject: text("subject"),
+    /**
+     * The message body. For a personal message this is the text the sender
+     * wrote. For a system message it is a Chinese fallback — the recipient sees
+     * the localized version rendered from `templateKey` when one is set.
+     */
     body: text("body").notNull(),
+    /**
+     * A system message's translation key (in the `sysmsg` i18n namespace) and
+     * its parameters. The inbox renders the body from these in the recipient's
+     * language; null for a personal message, whose body is free text.
+     */
+    templateKey: text("template_key"),
+    templateParams: jsonb("template_params").$type<Record<string, string>>(),
     readAt: timestamp("read_at", { withTimezone: true }),
     createdAt: timestamp("created_at", { withTimezone: true })
       .defaultNow()

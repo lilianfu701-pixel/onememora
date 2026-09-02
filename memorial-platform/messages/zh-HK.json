@@ -741,5 +741,8 @@
     "tabSystem": "系統訊息",
     "emptyPersonal": "暫無個人訊息。",
     "emptySystem": "暫無系統訊息。"
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} 請求確認與本紀念頁的親屬關係。請到管理頁審核。"
   }
 }

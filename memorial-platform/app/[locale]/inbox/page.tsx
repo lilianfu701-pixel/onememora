@@ -40,12 +40,22 @@ export default async function InboxPage(props: {
 
   const messages = await listInbox(actor.userId);
 
+  // Render each system message's body in the recipient's language. The template
+  // key + params were stored when the message was sent; the Chinese `body` is a
+  // fallback for old rows (or a key that has no translation).
+  const sys = await getTranslations("sysmsg");
+  const localized = messages.map((m) =>
+    m.templateKey && sys.has(m.templateKey)
+      ? { ...m, body: sys(m.templateKey, m.templateParams ?? {}) }
+      : m,
+  );
+
   return (
     <main id="main" className="container section stack">
       <header className="stack measure">
         <h1>{t("title")}</h1>
       </header>
-      <InboxView locale={locale} initial={messages} />
+      <InboxView locale={locale} initial={localized} />
     </main>
   );
 }

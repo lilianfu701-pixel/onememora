@@ -741,5 +741,8 @@
     "tabSystem": "System",
     "emptyPersonal": "No personal messages yet.",
     "emptySystem": "No system messages yet."
+  },
+  "sysmsg": {
+    "recognitionClaim": "{name} yêu cầu xác nhận quan hệ họ hàng với trang tưởng niệm này. Vui lòng xem xét tại trang quản lý."
   }
 }
