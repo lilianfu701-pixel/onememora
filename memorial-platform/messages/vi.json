@@ -429,7 +429,35 @@
     "obituaryNeedsRelationship": "Please choose your relationship to them.",
     "obituaryNeedsDeclaration": "Please accept the declaration.",
     "obituaryPickMemorialFirst": "Please choose a memorial first.",
-    "obituaryPublishFailed": "Publishing failed. Please try again."
+    "obituaryPublishFailed": "Publishing failed. Please try again.",
+    "currentAdminLabel": "Managed by: ",
+    "someoneLabel": "Someone",
+    "ownershipTransferHeading": "Transfer management",
+    "ownershipTransferHint": "Hand management of this page to another registered account. They become the admin; you stay on as an admin.",
+    "ownershipTransferEmailLabel": "Recipient's email",
+    "ownershipTransferButton": "Transfer management…",
+    "ownershipTransferConfirm": "Confirm transfer",
+    "ownershipTransferDone": "Management transferred.",
+    "ownershipErrTargetNotRegistered": "That email isn't registered yet.",
+    "ownershipErrSelf": "You can't transfer to yourself.",
+    "ownershipErrGeneric": "Something went wrong. Please try again.",
+    "takeoverRequestsHeading": "Takeover requests",
+    "takeoverRequestsNone": "No takeover requests.",
+    "takeoverAccept": "Accept (hand over)",
+    "takeoverDecline": "Decline",
+    "takeoverApply": "Apply to manage this page",
+    "takeoverApplyHint": "Use this only when the current admin is unreachable. They are notified first; if they don't respond within {days} days you can escalate to platform arbitration.",
+    "takeoverReasonLabel": "Explain the situation",
+    "takeoverReasonPlaceholder": "e.g. I'm the deceased's child and the current admin can no longer be reached.",
+    "takeoverSubmit": "Submit request",
+    "takeoverSubmitFailed": "Couldn't submit. Please try again.",
+    "takeoverNeedsRelationship": "Choose your relationship to them.",
+    "takeoverNeedsReason": "Please explain the situation.",
+    "takeoverPending": "Your takeover request is awaiting the current admin's response.",
+    "takeoverGraceNote": "If the admin doesn't respond within {days} days, you can escalate to platform arbitration.",
+    "takeoverEscalateButton": "Escalate to platform arbitration",
+    "takeoverStatusEscalated": "Your takeover request has been escalated to platform arbitration.",
+    "takeoverStatusDeclined": "Your takeover request was declined."
   },
   "privacy": {
     "title": "Ai có thể xem trang này",
@@ -759,6 +787,11 @@
     "emptySystem": "No system messages yet."
   },
   "sysmsg": {
-    "recognitionClaim": "{name} yêu cầu xác nhận quan hệ họ hàng với trang tưởng niệm này. Vui lòng xem xét tại trang quản lý."
+    "recognitionClaim": "{name} yêu cầu xác nhận quan hệ họ hàng với trang tưởng niệm này. Vui lòng xem xét tại trang quản lý.",
+    "ownershipReceived": "You are now the admin of {name}'s memorial.",
+    "ownershipHandedOver": "You have handed over management of {name}'s memorial.",
+    "takeoverRequested": "{name} has asked to take over managing this memorial. Please respond on the manage page within {days} days, otherwise they may escalate it to platform arbitration.",
+    "takeoverDeclined": "Your request to take over {name}'s memorial was declined.",
+    "takeoverEscalated": "The takeover request for {name}'s memorial has been escalated to platform arbitration."
   }
 }

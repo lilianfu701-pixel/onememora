@@ -288,9 +288,57 @@ export const memorialSlugRedirects = pgTable(
   (table) => [index("memorial_slug_redirects_memorial_idx").on(table.memorialId)],
 );
 
+/**
+ * A request to take over managing a memorial whose admin is unreachable.
+ *
+ * Lighter than an ownership dispute: it first notifies the current admin and
+ * waits. Only if they do not respond within the grace period may the requester
+ * escalate it into a formal, platform-arbitrated `ownershipDispute`.
+ */
+export const takeoverStatus = pgEnum("takeover_status", [
+  "pending",
+  "accepted",
+  "declined",
+  "escalated",
+  "withdrawn",
+]);
+
+export const memorialTakeoverRequests = pgTable(
+  "memorial_takeover_requests",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    memorialId: uuid("memorial_id")
+      .notNull()
+      .references(() => memorials.id, { onDelete: "cascade" }),
+    requesterUserId: uuid("requester_user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    /** Kept narrow so an escalation maps straight onto an ownership dispute. */
+    relationship: relationshipKind("relationship").notNull(),
+    reason: text("reason").notNull(),
+    status: takeoverStatus("status").default("pending").notNull(),
+    respondedByUserId: uuid("responded_by_user_id").references(() => users.id, {
+      onDelete: "set null",
+    }),
+    respondedAt: timestamp("responded_at", { withTimezone: true }),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+  },
+  (table) => [
+    uniqueIndex("memorial_takeover_requester_key").on(
+      table.memorialId,
+      table.requesterUserId,
+    ),
+    index("memorial_takeover_memorial_idx").on(table.memorialId),
+  ],
+);
+
 export type BlockedUser = typeof blockedUsers.$inferSelect;
 export type Report = typeof reports.$inferSelect;
 export type ModerationCase = typeof moderationCases.$inferSelect;
 export type ModerationAction = typeof moderationActions.$inferSelect;
 export type OwnershipDispute = typeof ownershipDisputes.$inferSelect;
 export type DisputeEvidence = typeof disputeEvidence.$inferSelect;
+export type MemorialTakeoverRequest =
+  typeof memorialTakeoverRequests.$inferSelect;

@@ -429,7 +429,35 @@
     "obituaryNeedsRelationship": "请选择您与逝者的关系。",
     "obituaryNeedsDeclaration": "请勾选确认声明。",
     "obituaryPickMemorialFirst": "请先选择追思页。",
-    "obituaryPublishFailed": "发布失败，请稍后再试。"
+    "obituaryPublishFailed": "发布失败，请稍后再试。",
+    "currentAdminLabel": "本页管理员：",
+    "someoneLabel": "某人",
+    "ownershipTransferHeading": "转让管理权",
+    "ownershipTransferHint": "将本页管理权转交给另一个已注册账号。对方成为管理员，你仍保留管理员身份。",
+    "ownershipTransferEmailLabel": "接收方邮箱",
+    "ownershipTransferButton": "转让管理权…",
+    "ownershipTransferConfirm": "确认转让",
+    "ownershipTransferDone": "管理权已转让。",
+    "ownershipErrTargetNotRegistered": "该邮箱尚未注册账号。",
+    "ownershipErrSelf": "不能转让给自己。",
+    "ownershipErrGeneric": "操作失败，请稍后再试。",
+    "takeoverRequestsHeading": "接管申请",
+    "takeoverRequestsNone": "暂无接管申请。",
+    "takeoverAccept": "通过（转交管理权）",
+    "takeoverDecline": "婉拒",
+    "takeoverApply": "申请接管本页管理",
+    "takeoverApplyHint": "仅当现管理员失联时使用。系统会先通知对方；若 {days} 天内未回应，你可提交平台仲裁。",
+    "takeoverReasonLabel": "说明情况",
+    "takeoverReasonPlaceholder": "例：我是逝者的子女，现管理员已长期失联。",
+    "takeoverSubmit": "提交申请",
+    "takeoverSubmitFailed": "提交失败，请稍后再试。",
+    "takeoverNeedsRelationship": "请选择你与逝者的关系。",
+    "takeoverNeedsReason": "请填写说明。",
+    "takeoverPending": "你的接管申请正在等待现管理员回应。",
+    "takeoverGraceNote": "若管理员在 {days} 天内未回应，你可提交平台仲裁。",
+    "takeoverEscalateButton": "申请平台仲裁",
+    "takeoverStatusEscalated": "你的接管申请已升级至平台仲裁。",
+    "takeoverStatusDeclined": "你的接管申请被婉拒。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -759,6 +787,11 @@
     "emptySystem": "暂无系统消息。"
   },
   "sysmsg": {
-    "recognitionClaim": "{name} 请求确认与本纪念页的亲属关系。请到管理页审核。"
+    "recognitionClaim": "{name} 请求确认与本纪念页的亲属关系。请到管理页审核。",
+    "ownershipReceived": "你已成为「{name}」追思页的管理员。",
+    "ownershipHandedOver": "你已将「{name}」追思页的管理权转让给他人。",
+    "takeoverRequested": "{name} 申请接管本追思页。请在 {days} 天内到管理页回应，否则对方可提交平台仲裁。",
+    "takeoverDeclined": "你对「{name}」追思页的接管申请被婉拒。",
+    "takeoverEscalated": "「{name}」追思页的接管申请已升级至平台仲裁。"
   }
 }

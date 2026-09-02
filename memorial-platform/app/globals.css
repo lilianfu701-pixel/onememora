@@ -1589,6 +1589,25 @@ img {
   vertical-align: middle;
 }
 
+/* Ownership: the admin line and takeover request affordance on the page foot. */
+.memorialAdminLine {
+  margin: 0;
+  font-size: var(--text-sm);
+}
+
+.takeoverPanel {
+  margin-top: var(--space-2);
+}
+
+.takeoverRow {
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--line);
+}
+
+.takeoverRow:first-child {
+  border-top: 0;
+}
+
 /* Obituary publish-mode tabs: new memorial vs existing memorial. */
 .obituaryModeTabs {
   display: flex;

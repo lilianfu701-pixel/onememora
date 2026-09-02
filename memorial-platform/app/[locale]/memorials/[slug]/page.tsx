@@ -22,6 +22,12 @@ import { lifeSpan, loadMemorialDetail } from "@/modules/memorials/detail";
 import { portraitsBySlug } from "@/modules/media/service";
 import { avatarsForRelativeNames } from "@/modules/identity/avatar";
 import { memorialUrl, robotsFor } from "@/modules/memorials/seo";
+import {
+  getMemorialAdminName,
+  myTakeoverRequest,
+  TAKEOVER_GRACE_DAYS,
+} from "@/modules/memorials/ownership";
+import { TakeoverPanel } from "./takeover-panel";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
@@ -355,6 +361,13 @@ export default async function MemorialPage(props: {
   const deathPlaceText = deathPlace ? formatPlace(deathPlace) : "";
 
   const canManage = isFamily;
+  // Who manages this page, and — for a signed-in visitor who does not — their
+  // own standing takeover request, if any.
+  const adminName = await getMemorialAdminName(detail.memorialId);
+  const myTakeover =
+    !canManage && viewer.userId
+      ? await myTakeoverRequest(detail.memorialId, viewer.userId)
+      : null;
   const showOwnerBar =
     detail.status === "draft" ||
     (detail.status === "published" && detail.visibility === "unlisted");
@@ -626,17 +639,38 @@ export default async function MemorialPage(props: {
           </div>
         </div>
 
-        {/* Owner-only manage link, moved to the foot so the top stays compact. */}
-        {canManage ? (
-          <div className="memorialManageFoot">
+        {/* Who manages the page, the owner's manage link, and — for a signed-in
+         * visitor who does not manage it — the takeover request affordance. */}
+        <div className="memorialManageFoot stack">
+          {adminName ? (
+            <p className="muted memorialAdminLine">
+              {t("currentAdminLabel")}
+              {adminName}
+            </p>
+          ) : null}
+          {canManage ? (
             <Link
               className="memorialManageLink"
               href={`/${locale}/memorials/${detail.slug}/manage`}
             >
               {t("manageLink")}
             </Link>
-          </div>
-        ) : null}
+          ) : viewer.userId ? (
+            <TakeoverPanel
+              memorialId={detail.memorialId}
+              graceDays={TAKEOVER_GRACE_DAYS}
+              mine={
+                myTakeover
+                  ? {
+                      id: myTakeover.id,
+                      status: myTakeover.status,
+                      canEscalate: myTakeover.canEscalate,
+                    }
+                  : null
+              }
+            />
+          ) : null}
+        </div>
       </article>
     </main>
   );

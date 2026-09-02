@@ -429,7 +429,35 @@
     "obituaryNeedsRelationship": "請選擇您與逝者的關係。",
     "obituaryNeedsDeclaration": "請勾選確認聲明。",
     "obituaryPickMemorialFirst": "請先選擇追思頁。",
-    "obituaryPublishFailed": "發布失敗，請稍後再試。"
+    "obituaryPublishFailed": "發布失敗，請稍後再試。",
+    "currentAdminLabel": "本頁管理員：",
+    "someoneLabel": "某人",
+    "ownershipTransferHeading": "轉讓管理權",
+    "ownershipTransferHint": "將本頁管理權轉交給另一個已註冊帳號。對方成為管理員，你仍保留管理員身分。",
+    "ownershipTransferEmailLabel": "接收方信箱",
+    "ownershipTransferButton": "轉讓管理權…",
+    "ownershipTransferConfirm": "確認轉讓",
+    "ownershipTransferDone": "管理權已轉讓。",
+    "ownershipErrTargetNotRegistered": "該信箱尚未註冊帳號。",
+    "ownershipErrSelf": "不能轉讓給自己。",
+    "ownershipErrGeneric": "操作失敗，請稍後再試。",
+    "takeoverRequestsHeading": "接管申請",
+    "takeoverRequestsNone": "暫無接管申請。",
+    "takeoverAccept": "通過（轉交管理權）",
+    "takeoverDecline": "婉拒",
+    "takeoverApply": "申請接管本頁管理",
+    "takeoverApplyHint": "僅當現管理員失聯時使用。系統會先通知對方；若 {days} 天內未回應，你可提交平台仲裁。",
+    "takeoverReasonLabel": "說明情況",
+    "takeoverReasonPlaceholder": "例：我是逝者的子女，現管理員已長期失聯。",
+    "takeoverSubmit": "提交申請",
+    "takeoverSubmitFailed": "提交失敗，請稍後再試。",
+    "takeoverNeedsRelationship": "請選擇你與逝者的關係。",
+    "takeoverNeedsReason": "請填寫說明。",
+    "takeoverPending": "你的接管申請正在等待現管理員回應。",
+    "takeoverGraceNote": "若管理員在 {days} 天內未回應，你可提交平台仲裁。",
+    "takeoverEscalateButton": "申請平台仲裁",
+    "takeoverStatusEscalated": "你的接管申請已升級至平台仲裁。",
+    "takeoverStatusDeclined": "你的接管申請被婉拒。"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",
@@ -759,6 +787,11 @@
     "emptySystem": "暫無系統訊息。"
   },
   "sysmsg": {
-    "recognitionClaim": "{name} 請求確認與本紀念頁的親屬關係。請到管理頁審核。"
+    "recognitionClaim": "{name} 請求確認與本紀念頁的親屬關係。請到管理頁審核。",
+    "ownershipReceived": "你已成為「{name}」追思頁的管理員。",
+    "ownershipHandedOver": "你已將「{name}」追思頁的管理權轉讓給他人。",
+    "takeoverRequested": "{name} 申請接管本追思頁。請在 {days} 天內到管理頁回應，否則對方可提交平台仲裁。",
+    "takeoverDeclined": "你對「{name}」追思頁的接管申請被婉拒。",
+    "takeoverEscalated": "「{name}」追思頁的接管申請已升級至平台仲裁。"
   }
 }

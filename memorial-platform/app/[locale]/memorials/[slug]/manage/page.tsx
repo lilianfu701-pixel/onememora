@@ -45,6 +45,9 @@ import { getDisposition } from "@/modules/memorials/disposition";
 import { listBlocked } from "@/modules/memorials/blocking";
 import { BlockedList } from "./blocked-list";
 import { getObituary } from "@/modules/memorials/obituary";
+import { listPendingTakeovers } from "@/modules/memorials/ownership";
+import { TransferOwnership } from "./transfer-ownership";
+import { TakeoverRequests } from "./takeover-requests";
 import { ContributionsReview } from "./contributions-review";
 import { listPendingContributions } from "@/modules/memorials/contributions";
 
@@ -177,6 +180,9 @@ export default async function ManageMemorialPage(props: {
   // The gift-out request panel is the owner's alone — it exposes the payout
   // account and moves money.
   const isOwner = detail.viewerRole === "owner";
+  const takeovers = isOwner
+    ? await listPendingTakeovers(detail.memorialId)
+    : [];
   const beneficiary = isOwner ? await getBeneficiary(detail.memorialId) : null;
   const payoutData = isOwner
     ? {
@@ -340,6 +346,24 @@ export default async function ManageMemorialPage(props: {
                     name: b.name,
                   }))}
                 />
+              </div>
+            ) : null}
+            {isOwner ? (
+              <div className="manageCard">
+                <TakeoverRequests
+                  memorialId={detail.memorialId}
+                  initial={takeovers.map((r) => ({
+                    id: r.id,
+                    requesterName: r.requesterName,
+                    relationship: r.relationship,
+                    reason: r.reason,
+                  }))}
+                />
+              </div>
+            ) : null}
+            {isOwner ? (
+              <div className="manageCard">
+                <TransferOwnership memorialId={detail.memorialId} />
               </div>
             ) : null}
           </section>
