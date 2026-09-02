@@ -1,5 +1,5 @@
 import { env } from "@/lib/env";
-import { paypalConfigured } from "@/lib/paypal";
+import { paypalConfigured, paypalTokenCheck } from "@/lib/paypal";
 
 /**
  * Payments configuration probe.
@@ -15,12 +15,16 @@ export const revalidate = 0;
 
 export async function GET(): Promise<Response> {
   const e = env();
+  // Live token probe so an operator can tell "keys present" from "keys valid".
+  const token = await paypalTokenCheck();
   return Response.json(
     {
       paypal: {
         configured: paypalConfigured(),
         webhookConfigured: Boolean(e.PAYPAL_WEBHOOK_ID),
         env: e.PAYPAL_ENV,
+        tokenOk: token.ok,
+        tokenStatus: token.status,
       },
     },
     { headers: { "Cache-Control": "no-store" } },

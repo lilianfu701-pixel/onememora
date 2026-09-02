@@ -19,6 +19,37 @@ export function paypalConfigured(): boolean {
   return Boolean(e.PAYPAL_CLIENT_ID && e.PAYPAL_CLIENT_SECRET);
 }
 
+/**
+ * Diagnostic: attempts a client-credentials token against the configured host
+ * and reports only whether it succeeded and the HTTP status — no secrets. A
+ * false result means the id/secret are wrong or don't match `PAYPAL_ENV`'s host.
+ */
+export async function paypalTokenCheck(): Promise<{
+  ok: boolean;
+  status: number;
+}> {
+  const e = env();
+  if (!e.PAYPAL_CLIENT_ID || !e.PAYPAL_CLIENT_SECRET) {
+    return { ok: false, status: 0 };
+  }
+  const auth = Buffer.from(
+    `${e.PAYPAL_CLIENT_ID}:${e.PAYPAL_CLIENT_SECRET}`,
+  ).toString("base64");
+  try {
+    const res = await fetch(`${apiBase()}/v1/oauth2/token`, {
+      method: "POST",
+      headers: {
+        authorization: `Basic ${auth}`,
+        "content-type": "application/x-www-form-urlencoded",
+      },
+      body: "grant_type=client_credentials",
+    });
+    return { ok: res.ok, status: res.status };
+  } catch {
+    return { ok: false, status: -1 };
+  }
+}
+
 async function accessToken(): Promise<string> {
   const e = env();
   if (!e.PAYPAL_CLIENT_ID || !e.PAYPAL_CLIENT_SECRET) {
