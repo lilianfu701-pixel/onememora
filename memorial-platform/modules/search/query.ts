@@ -1,7 +1,12 @@
-import { and, arrayContains, desc, eq, isNull, sql } from "drizzle-orm";
+import { and, arrayContains, desc, eq, inArray, isNull, sql } from "drizzle-orm";
 import type { SQL } from "drizzle-orm";
 import { db } from "@/db/client";
-import { memorialNames, memorials, searchDocuments } from "@/db/schema";
+import {
+  memorialLocations,
+  memorialNames,
+  memorials,
+  searchDocuments,
+} from "@/db/schema";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { MIN_QUERY_LENGTH, isQueryLongEnough, normalizeForSearch } from "./normalize";
@@ -15,6 +20,9 @@ export type SearchHit = {
   birthYear: number | null;
   deathYear: number | null;
   countryCodes: string[];
+  /** Where they died — region text and country code, for a readable place. */
+  deathRegion: string | null;
+  deathCountry: string | null;
 };
 
 export type SearchPage = {
@@ -136,9 +144,38 @@ export async function searchMemorials(
     .offset(offset);
 
   const page = rows.slice(0, limit);
-  const hits: SearchHit[] = [];
 
+  // Death place for every hit on this page, in one query.
+  const deathById = new Map<string, { region: string | null; country: string | null }>();
+  if (page.length > 0) {
+    const locs = await db()
+      .select({
+        memorialId: memorialLocations.memorialId,
+        region: memorialLocations.region,
+        city: memorialLocations.city,
+        country: memorialLocations.country,
+      })
+      .from(memorialLocations)
+      .where(
+        and(
+          inArray(
+            memorialLocations.memorialId,
+            page.map((r) => r.memorialId),
+          ),
+          eq(memorialLocations.kind, "death"),
+        ),
+      );
+    for (const l of locs) {
+      deathById.set(l.memorialId, {
+        region: l.region?.trim() || l.city?.trim() || null,
+        country: l.country,
+      });
+    }
+  }
+
+  const hits: SearchHit[] = [];
   for (const row of page) {
+    const death = deathById.get(row.memorialId);
     hits.push({
       memorialId: row.memorialId,
       slug: row.slug,
@@ -146,6 +183,8 @@ export async function searchMemorials(
       birthYear: row.birthYear,
       deathYear: row.deathYear,
       countryCodes: row.countryCodes ?? [],
+      deathRegion: death?.region ?? null,
+      deathCountry: death?.country ?? null,
     });
   }
 

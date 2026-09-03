@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
-import { countryOptions } from "@/lib/countries";
+import { countryName, countryOptions } from "@/lib/countries";
 import { flags } from "@/lib/feature-flags";
 import { DEFAULT_LIMIT, searchMemorials } from "@/modules/search/query";
 import { findSlugByPublicNumber } from "@/modules/memorials/service";
@@ -227,6 +227,13 @@ export default async function SearchPage(props: {
                 const years = [hit.birthYear, hit.deathYear]
                   .filter((year) => year !== null)
                   .join(" – ");
+                const deathPlace = [
+                  hit.deathRegion,
+                  hit.deathCountry ? countryName(hit.deathCountry, locale) : "",
+                ]
+                  .map((p) => p?.trim())
+                  .filter((p) => p && p.length > 0)
+                  .join(" · ");
 
                 return (
                   <li className="resultItem" key={hit.memorialId}>
@@ -236,7 +243,14 @@ export default async function SearchPage(props: {
                     >
                       {hit.primaryName}
                     </Link>
-                    {years ? <p className="muted">{years}</p> : null}
+                    <span className="resultMeta">
+                      {years ? (
+                        <span className="resultYears">{years}</span>
+                      ) : null}
+                      {deathPlace ? (
+                        <span className="resultPlace">{deathPlace}</span>
+                      ) : null}
+                    </span>
                   </li>
                 );
               })}

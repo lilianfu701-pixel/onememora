@@ -836,22 +836,48 @@ img {
 }
 
 .resultItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
   padding: var(--space-4) var(--space-6);
   background: var(--paper-raised);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
-  transition: border-color var(--duration-fast) ease;
+  transition:
+    border-color var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease;
 }
 
 .resultItem:hover {
   border-color: var(--olive);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 }
 
 .resultName {
   font-family: var(--font-display);
-  font-size: var(--text-lg);
-  font-weight: 600;
+  font-size: var(--text-xl);
+  font-weight: 700;
   text-decoration: none;
+}
+
+.resultName:hover {
+  text-decoration: underline;
+}
+
+/* Dates and death place, on the same row as the name. */
+.resultMeta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-4);
+  color: var(--ink-soft, #6b625b);
+  font-size: var(--text-base);
+}
+
+.resultYears {
+  font-variant-numeric: tabular-nums;
 }
 
 .searchForm {
