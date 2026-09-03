@@ -82,6 +82,11 @@ export const users = pgTable("users", {
    */
   nameVisibility: text("name_visibility"),
   preferredLocale: text("preferred_locale").default("en").notNull(),
+  /** Whether we may email this person anniversary/festival reminders. The
+   *  unsubscribe link in every reminder turns this off. */
+  emailRemindersEnabled: boolean("email_reminders_enabled")
+    .default(true)
+    .notNull(),
   status: userStatus("status").default("active").notNull(),
   platformRole: platformRole("platform_role").default("user").notNull(),
   createdAt: timestamp("created_at", { withTimezone: true })

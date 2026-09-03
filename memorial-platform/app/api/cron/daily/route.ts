@@ -6,6 +6,7 @@ import {
   purgeMemorial,
 } from "@/modules/memorials/deletion";
 import { runAnniversaryReminders } from "@/worker/jobs/anniversary-reminders";
+import { runReminderSweep } from "@/modules/reminders/sweep";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -58,8 +59,9 @@ export async function GET(request: Request): Promise<Response> {
   // Independent of each other, and reported separately. A reminder sweep that
   // throws must not take the purge with it: a family waiting on a deletion has
   // a stronger claim than a notification that can go out tomorrow.
-  const [reminders, purge] = await Promise.allSettled([
+  const [reminders, emails, purge] = await Promise.allSettled([
     runAnniversaryReminders(),
+    runReminderSweep(),
     purgeDue(),
   ]);
 
@@ -68,11 +70,16 @@ export async function GET(request: Request): Promise<Response> {
       reminders.status === "fulfilled"
         ? reminders.value
         : { failed: true as const },
+    emails:
+      emails.status === "fulfilled" ? emails.value : { failed: true as const },
     purge: purge.status === "fulfilled" ? purge.value : { failed: true as const },
   };
 
   if (reminders.status === "rejected") {
     log.error("cron.daily.reminders_failed", { error: reminders.reason });
+  }
+  if (emails.status === "rejected") {
+    log.error("cron.daily.reminder_emails_failed", { error: emails.reason });
   }
   if (purge.status === "rejected") {
     log.error("cron.daily.purge_failed", { error: purge.reason });

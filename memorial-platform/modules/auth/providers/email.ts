@@ -8,6 +8,12 @@ export interface EmailProvider {
     code: string;
     locale: string;
   }): Promise<void>;
+  /** A generic transactional email (reminder), pre-rendered by the caller. */
+  sendReminder(input: {
+    to: string;
+    subject: string;
+    html: string;
+  }): Promise<void>;
 }
 
 /**
@@ -33,6 +39,17 @@ export class ConsoleEmailProvider implements EmailProvider {
     );
     return Promise.resolve();
   }
+
+  async sendReminder(input: {
+    to: string;
+    subject: string;
+    html: string;
+  }): Promise<void> {
+    process.stdout.write(
+      `[email:console] reminder to ${input.to}: ${input.subject}\n`,
+    );
+    return Promise.resolve();
+  }
 }
 
 /** Collects codes in memory. Tests read the last one instead of parsing output. */
@@ -45,6 +62,17 @@ export class InMemoryEmailProvider implements EmailProvider {
     locale: string;
   }): Promise<void> {
     this.sent.push(input);
+    return Promise.resolve();
+  }
+
+  readonly reminders: { to: string; subject: string; html: string }[] = [];
+
+  async sendReminder(input: {
+    to: string;
+    subject: string;
+    html: string;
+  }): Promise<void> {
+    this.reminders.push(input);
     return Promise.resolve();
   }
 
@@ -99,6 +127,22 @@ export class ResendEmailProvider implements EmailProvider {
       to: input.to,
       subject,
       html: this.renderHtml(input.code, input.locale),
+    });
+    if (error) {
+      throw new Error(`Resend send failed: ${error.message}`);
+    }
+  }
+
+  async sendReminder(input: {
+    to: string;
+    subject: string;
+    html: string;
+  }): Promise<void> {
+    const { error } = await this.client.emails.send({
+      from: this.from,
+      to: input.to,
+      subject: input.subject,
+      html: input.html,
     });
     if (error) {
       throw new Error(`Resend send failed: ${error.message}`);

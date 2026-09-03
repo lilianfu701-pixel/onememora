@@ -18,3 +18,4 @@ export * from "./offerings";
 export * from "./genealogy";
 export * from "./messaging";
 export * from "./settings";
+export * from "./reminders";

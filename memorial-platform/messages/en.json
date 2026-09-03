@@ -464,7 +464,10 @@
     "joinApplyHint": "Ask to become a co-manager who can help edit this page. The current admin must approve.",
     "joinPending": "Your request to help manage is awaiting the admin's response.",
     "joinStatusDeclined": "Your request to help manage was declined.",
-    "joinAccept": "Accept (add as manager)"
+    "joinAccept": "Accept (add as manager)",
+    "follow": "Follow (get reminders)",
+    "following": "Following",
+    "followHint": "Get an email reminder on the anniversary (and Qingming/Zhongyuan for Chinese users)."
   },
   "privacy": {
     "title": "Who can see this memorial",

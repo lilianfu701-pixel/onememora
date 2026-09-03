@@ -464,7 +464,10 @@
     "joinApplyHint": "申请成为该追思页的共同管理者（可协助编辑内容），需现管理员同意。",
     "joinPending": "你的参与申请正在等待管理员回应。",
     "joinStatusDeclined": "你的参与申请被婉拒。",
-    "joinAccept": "通过（加为管理者）"
+    "joinAccept": "通过（加为管理者）",
+    "follow": "关注（接收提醒）",
+    "following": "已关注",
+    "followHint": "关注后，将在祭日、清明、中元收到 email 提醒。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

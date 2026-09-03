@@ -464,7 +464,10 @@
     "joinApplyHint": "申請成為該追思頁的共同管理者（可協助編輯內容），需現管理員同意。",
     "joinPending": "你的參與申請正在等待管理員回應。",
     "joinStatusDeclined": "你的參與申請被婉拒。",
-    "joinAccept": "通過（加為管理者）"
+    "joinAccept": "通過（加為管理者）",
+    "follow": "關注（接收提醒）",
+    "following": "已關注",
+    "followHint": "關注後，將在祭日、清明、中元收到 email 提醒。"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

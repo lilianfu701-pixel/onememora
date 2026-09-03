@@ -36,6 +36,8 @@ import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
 import { BreadcrumbJsonLd, MemorialJsonLd } from "./memorial-jsonld";
 import { familyViewForMemorial } from "@/modules/genealogy/family-view";
 import { BookmarkButton } from "./bookmark-button";
+import { FollowButton } from "./follow-button";
+import { isFollowing } from "@/modules/reminders/follow";
 import { ContactManager } from "./contact-manager";
 import { FamilyTree } from "./family-tree";
 import { Guestbook } from "./guestbook";
@@ -361,6 +363,11 @@ export default async function MemorialPage(props: {
   const deathPlaceText = deathPlace ? formatPlace(deathPlace) : "";
 
   const canManage = isFamily;
+  // Whether a non-family viewer follows this page (to receive its reminders).
+  const viewerFollowing =
+    !canManage && viewer.userId
+      ? await isFollowing(detail.memorialId, viewer.userId)
+      : false;
   // Who manages this page, and — for a signed-in visitor who does not — their
   // own standing takeover request, if any.
   const adminName = await getMemorialAdminName(detail.memorialId);
@@ -523,6 +530,12 @@ export default async function MemorialPage(props: {
               <BookmarkButton
                 memorialId={detail.memorialId}
                 initialBookmarked={viewerBookmarked}
+              />
+            ) : null}
+            {!canManage && viewer.userId ? (
+              <FollowButton
+                memorialId={detail.memorialId}
+                initialFollowing={viewerFollowing}
               />
             ) : null}
             <Share
