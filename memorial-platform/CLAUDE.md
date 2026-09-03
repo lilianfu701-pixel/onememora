@@ -2,6 +2,25 @@
 
 Global memorial platform for families to create, manage, and share digital memorials.
 
+## 功能清单 / Changelog (2026-09 交付，均已上线 missingu.org)
+
+按交付顺序，每项含关键位置/迁移/状态。部署：改代码 push 到 `onememora/main` 触发 Vercel（本地工作分支 `codex/global-memorial-platform`）。本地 dev 用本机 Postgres（`localhost/memorial_dev`），与生产 Supabase **各自迁移**。
+
+1. **创建追思页表单改版** — 生辰/忌日横向窄框一行、国家默认 CN、逝世年默认当年、祖籍缩窄、「社会关系」「添加逝者的」文案、**遗像上传**。`app/[locale]/memorials/new/create-form.tsx`。
+2. **纯数字追思页编号(8位) + 编号搜索** — `memorials.public_number`（随机非顺序，唯一，迁移0047回填）；首页/搜索输入编号直达；追思页展示编号。`modules/memorials/slug.ts`、`service.ts`。
+3. **收件箱分「个人消息/系统消息」** — 按 `fromSystem` 两标签+未读徽标。`app/[locale]/inbox/inbox-view.tsx`。
+4. **系统消息 15 语言本地化** — `messages.template_key`+`template_params`(迁移0048)，收件箱页按 locale 渲染，`sysmsg` 命名空间。
+5. **讣告独立化** — 首页入口「发布讣告」+ `/[locale]/obituary/new`（新建自动建追思页/关联已有预填）；管理页移除内嵌编辑器改为链接；讣告全文+海报带追思页编号。见 [[project_missingu_obituary]]。
+6. **管理员转让 + 失联接管 + 参与** — `memorial_takeover_requests`(迁移0049/0050 加 `kind` takeover|join)；页脚显示管理员+申请接管(通知→30天超时升级 `openOwnershipDispute` 仲裁)+申请参与(加为 editor)；`modules/memorials/ownership.ts`。见 [[project_missingu_ownership]]。
+7. **PayPal 支付正式上线** — 真实收款跑通（¥9.9 实测捕获+记账）。生产 env：`PAYPAL_CLIENT_ID/SECRET/WEBHOOK_ID` + `PAYPAL_ENV=live`。见 [[project_missingu_payment_stripe]]。
+8. **后台收款对账清晰化** — `/admin/orders`：状态中文化、成功/未完成/失败分卡、**各家属账户余额表**、CSV。`modules/offerings/orders-admin.ts`。
+9. **登录回跳修复** — Google OAuth 带 `next` 返回原页 + 锁语言（不再落 /en 首页）。`app/api/auth/oauth/google/*`。
+10. **首页/搜索合并为一个搜索框** — 姓名或 8 位编号（纯数字自动识别为编号直达）；搜索结果每条一行 **姓名·生卒·逝世地区**。`app/[locale]/page.tsx`、`search/page.tsx`、`modules/search/query.ts`。
+11. **定时 email 提醒** — 每日扫描：祭日(家属+关注者) + 清明/中元(中文界面用户)，提前3天+当天各一封，幂等去重；🔔 关注按钮 + 一键退订；`modules/reminders/`(迁移0051)；生产已激活(`ANNIVERSARY_NOTIFICATIONS_ENABLED=true` + `EMAIL_PROVIDER=resend`)。⚠️ 清明/中元日期表 festivals.ts 排到 2032，到期续。见 [[project_missingu_reminders]]。
+12. **杂项微调** — 花圈挽联飘带间距+上移；创建页各处文案。
+
+> [[...]] 指向 `~/.claude/.../memory/project_missingu_*.md` 备忘（含每项的踩坑与实现细节）。
+
 ## Quick Reference
 
 ```bash
