@@ -354,6 +354,7 @@ export default async function ManageMemorialPage(props: {
                   memorialId={detail.memorialId}
                   initial={takeovers.map((r) => ({
                     id: r.id,
+                    kind: r.kind,
                     requesterName: r.requesterName,
                     relationship: r.relationship,
                     reason: r.reason,

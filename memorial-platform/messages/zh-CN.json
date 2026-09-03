@@ -457,7 +457,14 @@
     "takeoverGraceNote": "若管理员在 {days} 天内未回应，你可提交平台仲裁。",
     "takeoverEscalateButton": "申请平台仲裁",
     "takeoverStatusEscalated": "你的接管申请已升级至平台仲裁。",
-    "takeoverStatusDeclined": "你的接管申请被婉拒。"
+    "takeoverStatusDeclined": "你的接管申请被婉拒。",
+    "takeoverBadge": "接管",
+    "joinBadge": "参与",
+    "joinApply": "申请参与管理",
+    "joinApplyHint": "申请成为该追思页的共同管理者（可协助编辑内容），需现管理员同意。",
+    "joinPending": "你的参与申请正在等待管理员回应。",
+    "joinStatusDeclined": "你的参与申请被婉拒。",
+    "joinAccept": "通过（加为管理者）"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -794,6 +801,9 @@
     "ownershipHandedOver": "你已将「{name}」追思页的管理权转让给他人。",
     "takeoverRequested": "{name} 申请接管本追思页。请在 {days} 天内到管理页回应，否则对方可提交平台仲裁。",
     "takeoverDeclined": "你对「{name}」追思页的接管申请被婉拒。",
-    "takeoverEscalated": "「{name}」追思页的接管申请已升级至平台仲裁。"
+    "takeoverEscalated": "「{name}」追思页的接管申请已升级至平台仲裁。",
+    "joinRequested": "{name} 申请参与管理本追思页，请到管理页回应。",
+    "joinAccepted": "你已成为「{name}」追思页的共同管理者。",
+    "joinDeclined": "你对「{name}」追思页的参与申请被婉拒。"
   }
 }

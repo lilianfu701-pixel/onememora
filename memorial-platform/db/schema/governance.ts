@@ -303,6 +303,12 @@ export const takeoverStatus = pgEnum("takeover_status", [
   "withdrawn",
 ]);
 
+/**
+ * `takeover` replaces an unreachable admin (may escalate to arbitration);
+ * `join` asks the current admin to add the requester as a co-manager (editor).
+ */
+export const takeoverKind = pgEnum("takeover_kind", ["takeover", "join"]);
+
 export const memorialTakeoverRequests = pgTable(
   "memorial_takeover_requests",
   {
@@ -313,6 +319,7 @@ export const memorialTakeoverRequests = pgTable(
     requesterUserId: uuid("requester_user_id")
       .notNull()
       .references(() => users.id, { onDelete: "cascade" }),
+    kind: takeoverKind("kind").default("takeover").notNull(),
     /** Kept narrow so an escalation maps straight onto an ownership dispute. */
     relationship: relationshipKind("relationship").notNull(),
     reason: text("reason").notNull(),

@@ -641,12 +641,12 @@ export default async function MemorialPage(props: {
 
         {/* Who manages the page, the owner's manage link, and — for a signed-in
          * visitor who does not manage it — the takeover request affordance. */}
-        <div className="memorialManageFoot stack">
+        <div className="memorialManageFoot">
           {adminName ? (
-            <p className="muted memorialAdminLine">
+            <span className="muted memorialAdminLine">
               {t("currentAdminLabel")}
               {adminName}
-            </p>
+            </span>
           ) : null}
           {canManage ? (
             <Link
@@ -663,6 +663,7 @@ export default async function MemorialPage(props: {
                 myTakeover
                   ? {
                       id: myTakeover.id,
+                      kind: myTakeover.kind,
                       status: myTakeover.status,
                       canEscalate: myTakeover.canEscalate,
                     }

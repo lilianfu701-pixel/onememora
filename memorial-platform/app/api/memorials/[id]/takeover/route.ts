@@ -14,6 +14,7 @@ export const dynamic = "force-dynamic";
 const schema = z.object({
   relationship: z.enum(["spouse", "parent", "child", "sibling"]),
   reason: z.string().trim().min(1).max(2000),
+  kind: z.enum(["takeover", "join"]).optional(),
 });
 
 /** A registered non-owner requests to take over an unreachable admin's page. */
@@ -34,7 +35,11 @@ export async function POST(
   const result = await requestTakeover(
     actor,
     id,
-    { relationship: body.value.relationship, reason: body.value.reason },
+    {
+      relationship: body.value.relationship,
+      reason: body.value.reason,
+      ...(body.value.kind ? { kind: body.value.kind } : {}),
+    },
     correlationId,
   );
   if (!result.ok) {

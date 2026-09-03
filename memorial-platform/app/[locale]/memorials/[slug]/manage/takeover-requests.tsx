@@ -6,6 +6,7 @@ import { useState } from "react";
 
 type Request = {
   id: string;
+  kind: "takeover" | "join";
   requesterName: string;
   relationship: string;
   reason: string;
@@ -73,6 +74,9 @@ export function TakeoverRequests(props: {
         {requests.map((r) => (
           <li key={r.id} className="takeoverRow stack">
             <p style={{ margin: 0 }}>
+              <span className="adminBadge">
+                {r.kind === "join" ? t("joinBadge") : t("takeoverBadge")}
+              </span>{" "}
               <strong>{r.requesterName || t("someoneLabel")}</strong>
               <span className="muted">
                 {" · "}
@@ -89,7 +93,11 @@ export function TakeoverRequests(props: {
                 disabled={busyId === r.id}
                 onClick={() => respond(r.id, "accept")}
               >
-                {busyId === r.id ? common("loading") : t("takeoverAccept")}
+                {busyId === r.id
+                  ? common("loading")
+                  : r.kind === "join"
+                    ? t("joinAccept")
+                    : t("takeoverAccept")}
               </button>
               <button
                 type="button"

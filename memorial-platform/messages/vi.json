@@ -457,7 +457,14 @@
     "takeoverGraceNote": "If the admin doesn't respond within {days} days, you can escalate to platform arbitration.",
     "takeoverEscalateButton": "Escalate to platform arbitration",
     "takeoverStatusEscalated": "Your takeover request has been escalated to platform arbitration.",
-    "takeoverStatusDeclined": "Your takeover request was declined."
+    "takeoverStatusDeclined": "Your takeover request was declined.",
+    "takeoverBadge": "Takeover",
+    "joinBadge": "Join",
+    "joinApply": "Ask to help manage",
+    "joinApplyHint": "Ask to become a co-manager who can help edit this page. The current admin must approve.",
+    "joinPending": "Your request to help manage is awaiting the admin's response.",
+    "joinStatusDeclined": "Your request to help manage was declined.",
+    "joinAccept": "Accept (add as manager)"
   },
   "privacy": {
     "title": "Ai có thể xem trang này",
@@ -794,6 +801,9 @@
     "ownershipHandedOver": "You have handed over management of {name}'s memorial.",
     "takeoverRequested": "{name} has asked to take over managing this memorial. Please respond on the manage page within {days} days, otherwise they may escalate it to platform arbitration.",
     "takeoverDeclined": "Your request to take over {name}'s memorial was declined.",
-    "takeoverEscalated": "The takeover request for {name}'s memorial has been escalated to platform arbitration."
+    "takeoverEscalated": "The takeover request for {name}'s memorial has been escalated to platform arbitration.",
+    "joinRequested": "{name} has asked to help manage this memorial. Please respond on the manage page.",
+    "joinAccepted": "You are now a co-manager of {name}'s memorial.",
+    "joinDeclined": "Your request to help manage {name}'s memorial was declined."
   }
 }

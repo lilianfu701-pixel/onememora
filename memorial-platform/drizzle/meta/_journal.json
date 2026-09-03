@@ -351,6 +351,13 @@
       "when": 1788324379770,
       "tag": "0049_clammy_rocket_raccoon",
       "breakpoints": true
+    },
+    {
+      "idx": 50,
+      "version": "7",
+      "when": 1788460091407,
+      "tag": "0050_tiny_vivisector",
+      "breakpoints": true
     }
   ]
 }

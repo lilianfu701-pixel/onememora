@@ -177,16 +177,39 @@ export async function transferOwnership(
   return ok({ transferred: true });
 }
 
+/** Adds someone as an editor (co-manager who can contribute), without changing
+ *  ownership. Used when the owner accepts a `join` request. */
+async function addAsEditor(memorialId: string, userId: string): Promise<void> {
+  await db()
+    .insert(memorialMembers)
+    .values({
+      memorialId,
+      userId,
+      role: "editor",
+      acceptedAt: new Date(),
+      revokedAt: null,
+    })
+    .onConflictDoUpdate({
+      target: [memorialMembers.memorialId, memorialMembers.userId],
+      set: { role: "editor", acceptedAt: new Date(), revokedAt: null },
+    });
+}
+
 /** A registered non-owner asks to take over an unreachable admin's page. */
 export async function requestTakeover(
   actor: Actor,
   memorialId: string,
-  input: { relationship: TakeoverRelationship; reason: string },
+  input: {
+    relationship: TakeoverRelationship;
+    reason: string;
+    kind?: "takeover" | "join";
+  },
   correlationId: string,
 ): Promise<Result<{ requestId: string }, OwnershipError>> {
   if (!actor.userId) return err("AUTH_REQUIRED");
   const reason = input.reason.trim();
   if (reason.length === 0) return err("EMPTY_REASON");
+  const kind = input.kind ?? "takeover";
 
   const owner = await memorialOwner(memorialId);
   if (owner === null) return err("MEMORIAL_NOT_FOUND");
@@ -208,6 +231,7 @@ export async function requestTakeover(
     .values({
       memorialId,
       requesterUserId: actor.userId,
+      kind,
       relationship: input.relationship,
       reason: reason.slice(0, 2000),
       status: "pending",
@@ -221,8 +245,11 @@ export async function requestTakeover(
     recipientUserId: owner,
     memorialId,
     subject: memName,
-    body: `${requesterName} 申请接管「${memName}」追思页。请在 ${TAKEOVER_GRACE_DAYS} 天内到管理页回应，否则对方可提交平台仲裁。`,
-    templateKey: "takeoverRequested",
+    body:
+      kind === "join"
+        ? `${requesterName} 申请参与管理「${memName}」追思页，请到管理页回应。`
+        : `${requesterName} 申请接管「${memName}」追思页。请在 ${TAKEOVER_GRACE_DAYS} 天内到管理页回应，否则对方可提交平台仲裁。`,
+    templateKey: kind === "join" ? "joinRequested" : "takeoverRequested",
     templateParams: { name: requesterName, days: String(TAKEOVER_GRACE_DAYS) },
   });
 
@@ -252,6 +279,7 @@ export async function respondToTakeover(
       id: memorialTakeoverRequests.id,
       memorialId: memorialTakeoverRequests.memorialId,
       requester: memorialTakeoverRequests.requesterUserId,
+      kind: memorialTakeoverRequests.kind,
       status: memorialTakeoverRequests.status,
     })
     .from(memorialTakeoverRequests)
@@ -264,9 +292,15 @@ export async function respondToTakeover(
   if (req.status !== "pending") return err("NOT_PENDING");
 
   const memName = await memorialPrimaryName(req.memorialId);
+  const isJoin = req.kind === "join";
 
   if (decision === "accept") {
-    await applyTransfer(req.memorialId, actor.userId, req.requester);
+    // A join adds the requester as an editor; a takeover hands over ownership.
+    if (isJoin) {
+      await addAsEditor(req.memorialId, req.requester);
+    } else {
+      await applyTransfer(req.memorialId, actor.userId, req.requester);
+    }
     await db()
       .update(memorialTakeoverRequests)
       .set({
@@ -275,10 +309,21 @@ export async function respondToTakeover(
         respondedAt: new Date(),
       })
       .where(eq(memorialTakeoverRequests.id, requestId));
-    await notifyTransfer(req.memorialId, actor.userId, req.requester);
+    if (isJoin) {
+      await notify({
+        recipientUserId: req.requester,
+        memorialId: req.memorialId,
+        subject: memName,
+        body: `你已成为「${memName}」追思页的共同管理者。`,
+        templateKey: "joinAccepted",
+        templateParams: { name: memName },
+      });
+    } else {
+      await notifyTransfer(req.memorialId, actor.userId, req.requester);
+    }
     await db().insert(auditLogs).values({
       actorUserId: actor.userId,
-      action: "memorial.takeover_accepted",
+      action: isJoin ? "memorial.join_accepted" : "memorial.takeover_accepted",
       resourceType: "memorial",
       resourceId: req.memorialId,
       newValue: { requestId, toUserId: req.requester },
@@ -299,8 +344,10 @@ export async function respondToTakeover(
     recipientUserId: req.requester,
     memorialId: req.memorialId,
     subject: memName,
-    body: `你对「${memName}」追思页的接管申请被婉拒。`,
-    templateKey: "takeoverDeclined",
+    body: isJoin
+      ? `你对「${memName}」追思页的参与申请被婉拒。`
+      : `你对「${memName}」追思页的接管申请被婉拒。`,
+    templateKey: isJoin ? "joinDeclined" : "takeoverDeclined",
     templateParams: { name: memName },
   });
   await db().insert(auditLogs).values({
@@ -329,6 +376,7 @@ export async function escalateTakeover(
     .select({
       memorialId: memorialTakeoverRequests.memorialId,
       requester: memorialTakeoverRequests.requesterUserId,
+      kind: memorialTakeoverRequests.kind,
       relationship: memorialTakeoverRequests.relationship,
       reason: memorialTakeoverRequests.reason,
       status: memorialTakeoverRequests.status,
@@ -338,6 +386,8 @@ export async function escalateTakeover(
     .where(eq(memorialTakeoverRequests.id, requestId));
   if (!req) return err("REQUEST_NOT_FOUND");
   if (req.requester !== actor.userId) return err("NOT_REQUESTER");
+  // Only a takeover escalates to arbitration; a join simply awaits the admin.
+  if (req.kind !== "takeover") return err("NOT_PENDING");
   if (req.status !== "pending") return err("NOT_PENDING");
   if (Date.now() - req.createdAt.getTime() < GRACE_MS) return err("TOO_SOON");
 
@@ -375,12 +425,13 @@ export async function escalateTakeover(
 
 export type MyTakeover = {
   id: string;
+  kind: "takeover" | "join";
   status: "pending" | "accepted" | "declined" | "escalated" | "withdrawn";
   createdAt: Date;
   canEscalate: boolean;
 };
 
-/** The current user's own takeover request on a memorial, if any. */
+/** The current user's own takeover/join request on a memorial, if any. */
 export async function myTakeoverRequest(
   memorialId: string,
   userId: string,
@@ -388,6 +439,7 @@ export async function myTakeoverRequest(
   const [row] = await db()
     .select({
       id: memorialTakeoverRequests.id,
+      kind: memorialTakeoverRequests.kind,
       status: memorialTakeoverRequests.status,
       createdAt: memorialTakeoverRequests.createdAt,
     })
@@ -401,9 +453,11 @@ export async function myTakeoverRequest(
   if (!row) return null;
   return {
     id: row.id,
+    kind: row.kind,
     status: row.status,
     createdAt: row.createdAt,
     canEscalate:
+      row.kind === "takeover" &&
       row.status === "pending" &&
       Date.now() - row.createdAt.getTime() >= GRACE_MS,
   };
@@ -411,19 +465,21 @@ export async function myTakeoverRequest(
 
 export type PendingTakeover = {
   id: string;
+  kind: "takeover" | "join";
   requesterName: string;
   relationship: string;
   reason: string;
   createdAt: Date;
 };
 
-/** Pending takeover requests on a memorial, for its owner to answer. */
+/** Pending takeover/join requests on a memorial, for its owner to answer. */
 export async function listPendingTakeovers(
   memorialId: string,
 ): Promise<PendingTakeover[]> {
   const rows = await db()
     .select({
       id: memorialTakeoverRequests.id,
+      kind: memorialTakeoverRequests.kind,
       relationship: memorialTakeoverRequests.relationship,
       reason: memorialTakeoverRequests.reason,
       createdAt: memorialTakeoverRequests.createdAt,
@@ -442,6 +498,7 @@ export async function listPendingTakeovers(
 
   return rows.map((r) => ({
     id: r.id,
+    kind: r.kind,
     requesterName: r.displayName ?? r.fullName ?? "",
     relationship: r.relationship,
     reason: r.reason,

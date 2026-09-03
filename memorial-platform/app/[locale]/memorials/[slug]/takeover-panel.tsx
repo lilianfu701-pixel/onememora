@@ -14,16 +14,19 @@ const RELATION_LABEL: Record<string, string> = {
   sibling: "relationshipSibling",
 };
 
+type Kind = "takeover" | "join";
+
 type MyRequest = {
   id: string;
+  kind: Kind;
   status: "pending" | "accepted" | "declined" | "escalated" | "withdrawn";
   canEscalate: boolean;
 };
 
 /**
  * On the public page, a signed-in visitor who does not manage this memorial can
- * ask to take it over when its admin is unreachable — or, if they already have,
- * see the request's state and escalate it once the grace period has passed.
+ * ask to **take over** an unreachable admin's page, or ask to **join** as a
+ * co-manager. If they already have a request, its state is shown instead.
  */
 export function TakeoverPanel(props: {
   memorialId: string;
@@ -34,14 +37,14 @@ export function TakeoverPanel(props: {
   const common = useTranslations("common");
   const router = useRouter();
 
-  const [open, setOpen] = useState(false);
+  const [mode, setMode] = useState<Kind | null>(null);
   const [relationship, setRelationship] = useState("");
   const [reason, setReason] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   async function submit(): Promise<void> {
-    if (busy) return;
+    if (busy || !mode) return;
     if (!relationship) {
       setError(t("takeoverNeedsRelationship"));
       return;
@@ -56,7 +59,7 @@ export function TakeoverPanel(props: {
       const res = await fetch(`/api/memorials/${props.memorialId}/takeover`, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ relationship, reason: reason.trim() }),
+        body: JSON.stringify({ relationship, reason: reason.trim(), kind: mode }),
       });
       if (res.ok) {
         router.refresh();
@@ -92,12 +95,13 @@ export function TakeoverPanel(props: {
 
   // An existing request: show its state rather than the apply form.
   if (props.mine) {
+    const join = props.mine.kind === "join";
     if (props.mine.status === "pending") {
       return (
-        <div className="takeoverPanel stack">
-          <p className="muted" style={{ margin: 0 }}>
-            {t("takeoverPending")}
-          </p>
+        <span className="takeoverPanel">
+          <span className="muted">
+            {join ? t("joinPending") : t("takeoverPending")}
+          </span>
           {props.mine.canEscalate ? (
             <button
               type="button"
@@ -107,45 +111,52 @@ export function TakeoverPanel(props: {
             >
               {busy ? common("loading") : t("takeoverEscalateButton")}
             </button>
-          ) : (
-            <p className="muted" style={{ margin: 0 }}>
-              {t("takeoverGraceNote", { days: props.graceDays })}
-            </p>
-          )}
-        </div>
+          ) : null}
+        </span>
       );
     }
     if (props.mine.status === "escalated") {
       return (
-        <p className="muted takeoverPanel">{t("takeoverStatusEscalated")}</p>
+        <span className="muted takeoverPanel">{t("takeoverStatusEscalated")}</span>
       );
     }
     if (props.mine.status === "declined") {
       return (
-        <p className="muted takeoverPanel">{t("takeoverStatusDeclined")}</p>
+        <span className="muted takeoverPanel">
+          {join ? t("joinStatusDeclined") : t("takeoverStatusDeclined")}
+        </span>
       );
     }
     return null;
   }
 
-  if (!open) {
+  if (!mode) {
     return (
-      <div className="takeoverPanel">
+      <span className="takeoverPanel">
         <button
           type="button"
           className="linkButton"
-          onClick={() => setOpen(true)}
+          onClick={() => setMode("join")}
+        >
+          {t("joinApply")}
+        </button>
+        <button
+          type="button"
+          className="linkButton"
+          onClick={() => setMode("takeover")}
         >
           {t("takeoverApply")}
         </button>
-      </div>
+      </span>
     );
   }
 
   return (
-    <div className="takeoverPanel stack">
+    <div className="takeoverPanel takeoverForm stack">
       <p className="muted" style={{ margin: 0 }}>
-        {t("takeoverApplyHint", { days: props.graceDays })}
+        {mode === "join"
+          ? t("joinApplyHint")
+          : t("takeoverApplyHint", { days: props.graceDays })}
       </p>
       <label className="field">
         <span className="fieldLabel">{t("relationshipLabel")}</span>
@@ -190,7 +201,7 @@ export function TakeoverPanel(props: {
         <button
           type="button"
           className="button buttonQuiet buttonCompact"
-          onClick={() => setOpen(false)}
+          onClick={() => setMode(null)}
         >
           {common("cancel")}
         </button>
