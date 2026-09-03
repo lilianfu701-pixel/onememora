@@ -8,6 +8,7 @@ import { flags } from "@/lib/feature-flags";
  * without opening the Vercel dashboard. Runtime-only.
  */
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function GET(): Promise<Response> {
   return Response.json(
