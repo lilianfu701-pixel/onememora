@@ -2,6 +2,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { Geist, Lora } from "next/font/google";
 import Link from "next/link";
+import Script from "next/script";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
@@ -68,6 +69,8 @@ export default async function LocaleLayout(props: {
   const actor = await currentActor();
   const unread = actor.userId ? await unreadInboxCount(actor.userId) : 0;
 
+  const cfBeaconToken = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
+
   return (
     <html
       lang={locale}
@@ -75,6 +78,15 @@ export default async function LocaleLayout(props: {
       className={`${sans.variable} ${serif.variable}`}
     >
       <body>
+        {cfBeaconToken ? (
+          // Cloudflare Web Analytics — privacy-first, cookieless page-view and
+          // referrer stats, visible in the Cloudflare dashboard. Public token.
+          <Script
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            strategy="afterInteractive"
+            data-cf-beacon={JSON.stringify({ token: cfBeaconToken })}
+          />
+        ) : null}
         <NextIntlClientProvider messages={messages}>
           <div className="shell">
             <a className="skipLink" href="#main">
