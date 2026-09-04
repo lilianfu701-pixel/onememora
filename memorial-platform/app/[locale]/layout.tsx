@@ -69,6 +69,7 @@ export default async function LocaleLayout(props: {
   const actor = await currentActor();
   const unread = actor.userId ? await unreadInboxCount(actor.userId) : 0;
 
+  // Cloudflare Web Analytics beacon token (public, injected at build).
   const cfBeaconToken = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
 
   return (
