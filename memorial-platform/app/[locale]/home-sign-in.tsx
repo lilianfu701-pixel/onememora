@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type Stage =
   | { step: "email" }
@@ -23,6 +23,26 @@ export function HomeSignIn(props: {
   const [stage, setStage] = useState<Stage>({ step: "email" });
   const [sending, setSending] = useState(false);
   const [failure, setFailure] = useState<string | null>(null);
+  // The homepage is edge-cached and user-agnostic, so this widget hides itself
+  // once we learn (client-side) that the visitor is already signed in.
+  const [signedIn, setSignedIn] = useState(false);
+
+  useEffect(() => {
+    let alive = true;
+    fetch("/api/nav-state", { credentials: "include" })
+      .then((r) => (r.ok ? (r.json() as Promise<{ signedIn: boolean }>) : null))
+      .then((data) => {
+        if (alive && data?.signedIn) {
+          setSignedIn(true);
+        }
+      })
+      .catch(() => {
+        // Keep the widget visible on any failure.
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   async function requestCode(): Promise<void> {
     setSending(true);
@@ -77,6 +97,10 @@ export function HomeSignIn(props: {
     } finally {
       setSending(false);
     }
+  }
+
+  if (signedIn) {
+    return null;
   }
 
   const failureText = failure

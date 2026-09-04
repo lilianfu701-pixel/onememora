@@ -2,9 +2,13 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { flags } from "@/lib/feature-flags";
-import { currentActor } from "@/modules/auth/current-user";
+import { oauthGoogleEnabledSafe } from "@/lib/feature-flags";
 import { HomeSignIn } from "./home-sign-in";
+
+// Public marketing page with no per-user server content — statically rendered
+// and edge-cached so China visitors get it from a nearby PoP rather than a
+// fresh US render. The sign-in widget self-gates on the client.
+export const revalidate = 3600;
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
@@ -42,8 +46,7 @@ export default async function HomePage(props: {
   setRequestLocale(locale);
   const t = await getTranslations("home");
   const search = await getTranslations("search");
-  const actor = await currentActor();
-  const { oauthGoogleEnabled } = flags();
+  const oauthGoogleEnabled = oauthGoogleEnabledSafe();
 
   return (
     <main id="main">
@@ -210,14 +213,9 @@ export default async function HomePage(props: {
             </Link>
           </div>
 
-          {!actor.userId ? (
-            <Suspense>
-              <HomeSignIn
-                locale={locale}
-                googleEnabled={oauthGoogleEnabled}
-              />
-            </Suspense>
-          ) : null}
+          <Suspense>
+            <HomeSignIn locale={locale} googleEnabled={oauthGoogleEnabled} />
+          </Suspense>
         </div>
       </section>
     </main>

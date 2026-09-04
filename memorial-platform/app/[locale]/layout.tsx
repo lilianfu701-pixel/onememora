@@ -9,10 +9,8 @@ import type { ReactNode } from "react";
 import { routing } from "@/i18n/routing";
 import { textDirection } from "@/lib/locale";
 import type { Locale } from "@/lib/locale";
-import { currentActor } from "@/modules/auth/current-user";
-import { unreadInboxCount } from "@/modules/messaging/inbox";
 import { siteUrl } from "@/lib/env";
-import { SignOutButton } from "../sign-out-button";
+import { NavSession } from "./nav-session";
 import "../globals.css";
 
 /*
@@ -66,8 +64,6 @@ export default async function LocaleLayout(props: {
   const messages = await getMessages();
   const nav = await getTranslations("nav");
   const a11y = await getTranslations("a11y");
-  const actor = await currentActor();
-  const unread = actor.userId ? await unreadInboxCount(actor.userId) : 0;
 
   // Cloudflare Web Analytics beacon token (public value, injected at build).
   const cfBeaconToken = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
@@ -107,25 +103,7 @@ export default async function LocaleLayout(props: {
 
               <nav className="siteNav" aria-label={a11y("mainNavigation")}>
                 <Link href={`/${locale}/search`}>{nav("search")}</Link>
-                {actor.userId ? (
-                  <>
-                    <Link href={`/${locale}/memorials`}>
-                      {nav("myMemorials")}
-                    </Link>
-                    <Link href={`/${locale}/inbox`} className="navInbox">
-                      {nav("inbox")}
-                      {unread > 0 ? (
-                        <span className="navBadge" aria-hidden="true">
-                          {unread > 99 ? "99+" : unread}
-                        </span>
-                      ) : null}
-                    </Link>
-                    <Link href={`/${locale}/account`}>{nav("myAccount")}</Link>
-                    <SignOutButton locale={locale} />
-                  </>
-                ) : (
-                  <Link href={`/${locale}/sign-in`}>{nav("signIn")}</Link>
-                )}
+                <NavSession locale={locale} />
               </nav>
             </header>
 

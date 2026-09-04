@@ -56,6 +56,19 @@ export function flags(): FeatureFlags {
 }
 
 /**
+ * Whether the Google button can complete, read WITHOUT the full env validation.
+ *
+ * Build-time prerendered surfaces (the edge-cached homepage) must not call the
+ * validating `env()` — a single missing var there fails the whole build. This
+ * reads the two vars directly, the same narrow-reader pattern `siteUrl()` uses.
+ */
+export function oauthGoogleEnabledSafe(): boolean {
+  return Boolean(
+    process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET,
+  );
+}
+
+/**
  * Whether phone sign-in may be offered for a region.
  *
  * Fails closed twice over: the global switch must be on, and the region must be
