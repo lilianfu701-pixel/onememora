@@ -180,6 +180,46 @@ export type InboxMessage = {
 };
 
 /** A person's inbox, newest first. */
+/**
+ * A signed-in user writes to the platform team. The message fans out to every
+ * admin's inbox as a personal message, so any of them can reply through the
+ * normal inbox — no email, and no contact details exchanged.
+ */
+export async function contactPlatformAdmins(
+  sender: Actor,
+  body: string,
+  correlationId: string,
+): Promise<Result<{ sent: true }, MessageError>> {
+  if (!sender.userId) return err("AUTH_REQUIRED");
+  const text = body.trim();
+  if (text.length === 0) return err("EMPTY_BODY");
+  if (!(await withinRate(sender.userId))) return err("RATE_LIMITED");
+
+  const admins = await db()
+    .select({ id: users.id })
+    .from(users)
+    .where(inArray(users.platformRole, ["reviewer", "super_admin"]));
+
+  const recipients = new Set<string>(admins.map((a) => a.id));
+  recipients.delete(sender.userId); // an admin contacting themselves is a no-op
+  if (recipients.size === 0) return err("NO_RECIPIENT");
+
+  await db()
+    .insert(messages)
+    .values(
+      [...recipients].map((recipientUserId) => ({
+        recipientUserId,
+        senderUserId: sender.userId as string,
+        memorialId: null,
+        subject: "联系网站管理员",
+        body: text,
+      })),
+    );
+
+  void correlationId;
+  return ok({ sent: true });
+}
+
 export async function listInbox(userId: string): Promise<InboxMessage[]> {
   const senders = users;
   const rows = await db()

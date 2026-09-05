@@ -32,7 +32,8 @@
     "myProfile": "我的资料",
     "myAccount": "我的账户",
     "inbox": "收件箱",
-    "admin": "网站管理"
+    "admin": "网站管理",
+    "contact": "联系我们"
   },
   "home": {
     "title": "每一个生命都值得被纪念。",
@@ -676,7 +677,7 @@
     "wreathRollTitle": "花圈名录",
     "donateMin": "最低 99 元",
     "close": "关闭",
-    "stewardNotice": "本页由平台代为建立，尚无家属认领，收费道具与捐赠暂时关闭。",
+    "stewardNotice": "此页面暂时没有家属认领，故已关闭收费道具和捐赠功能。",
     "ownerDisabledNotice": "部分供奉功能已由家属暂时关闭。",
     "manageTitle": "供奉与捐赠开关",
     "manageHelp": "关闭某项后，它会在追思页上隐藏，并提示「由家属暂时关闭」。默认全部开启。",
@@ -822,5 +823,15 @@
     "joinRequested": "{name} 申请参与管理本追思页，请到管理页回应。",
     "joinAccepted": "你已成为「{name}」追思页的共同管理者。",
     "joinDeclined": "你对「{name}」追思页的参与申请被婉拒。"
+  },
+  "support": {
+    "title": "联系网站管理员",
+    "intro": "有问题或建议？给网站管理员留言，我们会通过站内信回复你。",
+    "bodyLabel": "你的留言",
+    "placeholder": "写下你的问题或建议…",
+    "send": "发送",
+    "sent": "已发送，我们会通过站内信回复你。",
+    "error": "发送失败，请稍后重试。",
+    "signInPrompt": "请先登录再联系我们"
   }
 }

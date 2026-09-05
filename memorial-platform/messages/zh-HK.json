@@ -32,7 +32,8 @@
     "myProfile": "我的資料",
     "myAccount": "我的帳戶",
     "inbox": "收件匣",
-    "admin": "網站管理"
+    "admin": "網站管理",
+    "contact": "聯絡我們"
   },
   "home": {
     "title": "每一個生命都值得被紀念。",
@@ -676,7 +677,7 @@
     "wreathRollTitle": "花圈名錄",
     "donateMin": "最低 99 元",
     "close": "關閉",
-    "stewardNotice": "本頁由平台代為建立，尚無家屬認領，收費道具與捐贈暫時關閉。",
+    "stewardNotice": "此頁面暫時沒有家屬認領，故已關閉收費道具和捐贈功能。",
     "ownerDisabledNotice": "部分供奉功能已由家屬暫時關閉。",
     "manageTitle": "供奉與捐贈開關",
     "manageHelp": "關閉某項後，它會在追思頁上隱藏，並提示「由家屬暫時關閉」。預設全部開啟。",
@@ -822,5 +823,15 @@
     "joinRequested": "{name} 申請參與管理本追思頁，請到管理頁回應。",
     "joinAccepted": "你已成為「{name}」追思頁的共同管理者。",
     "joinDeclined": "你對「{name}」追思頁的參與申請被婉拒。"
+  },
+  "support": {
+    "title": "聯絡網站管理員",
+    "intro": "有問題或建議？給網站管理員留言，我們會透過站內信回覆你。",
+    "bodyLabel": "你的留言",
+    "placeholder": "寫下你的問題或建議…",
+    "send": "發送",
+    "sent": "已發送，我們會透過站內信回覆你。",
+    "error": "發送失敗，請稍後重試。",
+    "signInPrompt": "請先登入再聯絡我們"
   }
 }

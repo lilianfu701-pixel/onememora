@@ -4188,6 +4188,29 @@ a.famCard:focus-visible {
   box-shadow: none;
 }
 
+/* A closed offering (unclaimed platform page, or switched off by the family)
+ * stays visible but greyed out and non-interactive. */
+.altarActionBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.altarActionBtn:disabled:hover {
+  border-color: var(--line, rgba(0, 0, 0, 0.12));
+  background: none;
+  box-shadow: none;
+  transform: none;
+}
+
+.altarNotice {
+  margin: 0.6rem auto 0;
+  max-width: 44ch;
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #8a7f6d;
+}
+
 .altarActionBtn .altarItemSvg {
   width: 40px;
   height: 56px;

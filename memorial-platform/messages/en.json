@@ -32,7 +32,8 @@
     "myProfile": "My profile",
     "myAccount": "My Account",
     "inbox": "Inbox",
-    "admin": "Site admin"
+    "admin": "Site admin",
+    "contact": "Contact us"
   },
   "home": {
     "title": "Every life deserves to be remembered.",
@@ -822,5 +823,15 @@
     "joinRequested": "{name} has asked to help manage this memorial. Please respond on the manage page.",
     "joinAccepted": "You are now a co-manager of {name}'s memorial.",
     "joinDeclined": "Your request to help manage {name}'s memorial was declined."
+  },
+  "support": {
+    "title": "Contact the site team",
+    "intro": "Questions or feedback? Message the site team and we'll reply in your inbox.",
+    "bodyLabel": "Your message",
+    "placeholder": "Write your question or feedback…",
+    "send": "Send",
+    "sent": "Sent. We'll reply in your inbox.",
+    "error": "Couldn't send. Please try again.",
+    "signInPrompt": "Sign in to contact us"
   }
 }

@@ -122,7 +122,10 @@ export default async function LocaleLayout(props: {
                   missing<span className="brandAccent">u</span>
                 </span>
               </span>
-              <span className="muted">{nav("help")}</span>
+              <span className="footerLinks">
+                <Link href={`/${locale}/contact`}>{nav("contact")}</Link>
+                <span className="muted">{nav("help")}</span>
+              </span>
             </footer>
           </div>
         </NextIntlClientProvider>

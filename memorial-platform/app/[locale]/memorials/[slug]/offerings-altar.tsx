@@ -704,65 +704,61 @@ export function OfferingsAltar(props: {
         </p>
       ) : null}
 
-      {/* When something is closed, say why: a platform page awaiting a family,
-       * or offerings the family has switched off. */}
+      {/* Offering actions. When something is closed — a platform page awaiting a
+       * family, or an offering the family switched off — the button stays
+       * visible but greyed out and non-clickable, with the reason shown below. */}
+      <div className="altarActions">
+        <button
+          type="button"
+          className="altarActionBtn"
+          onClick={offerIncense}
+          disabled={pending === "incense" || isOff("incense")}
+        >
+          <IncenseBundle />
+          <span className="altarActionLabel">{t("offerIncense")}</span>
+          <span className="altarActionDesc">{t("descIncense")}</span>
+        </button>
+
+        <button
+          type="button"
+          className="altarActionBtn"
+          onClick={() => openModal("candle")}
+          disabled={isOff("candle")}
+        >
+          <CandlePhoto />
+          <span className="altarActionLabel">{t("offerCandle")}</span>
+          <span className="altarActionDesc">{t("descCandle")}</span>
+        </button>
+
+        <button
+          type="button"
+          className="altarActionBtn"
+          onClick={() => openModal("wreath")}
+          disabled={isOff("wreath")}
+        >
+          <WreathPhoto />
+          <span className="altarActionLabel">{t("offerWreath")}</span>
+          <span className="altarActionDesc">{t("descWreath")}</span>
+        </button>
+
+        <button
+          type="button"
+          className="altarActionBtn"
+          onClick={() => openModal("donation")}
+          disabled={isOff("donation")}
+        >
+          <DonationIcon />
+          <span className="altarActionLabel">{t("donateTitle")}</span>
+          <span className="altarActionDesc">{t("donateCustom")}</span>
+        </button>
+      </div>
+
+      {/* Why some offerings above are greyed out. */}
       {awaitingClaim ? (
         <p className="altarNotice">{t("stewardNotice")}</p>
       ) : disabledSlugs.length > 0 ? (
         <p className="altarNotice">{t("ownerDisabledNotice")}</p>
       ) : null}
-
-      {/* Offering actions */}
-      <div className="altarActions">
-        {!isOff("incense") ? (
-          <button
-            type="button"
-            className="altarActionBtn"
-            onClick={offerIncense}
-            disabled={pending === "incense"}
-          >
-            <IncenseBundle />
-            <span className="altarActionLabel">{t("offerIncense")}</span>
-            <span className="altarActionDesc">{t("descIncense")}</span>
-          </button>
-        ) : null}
-
-        {!isOff("candle") ? (
-          <button
-            type="button"
-            className="altarActionBtn"
-            onClick={() => openModal("candle")}
-          >
-            <CandlePhoto />
-            <span className="altarActionLabel">{t("offerCandle")}</span>
-            <span className="altarActionDesc">{t("descCandle")}</span>
-          </button>
-        ) : null}
-
-        {!isOff("wreath") ? (
-          <button
-            type="button"
-            className="altarActionBtn"
-            onClick={() => openModal("wreath")}
-          >
-            <WreathPhoto />
-            <span className="altarActionLabel">{t("offerWreath")}</span>
-            <span className="altarActionDesc">{t("descWreath")}</span>
-          </button>
-        ) : null}
-
-        {!isOff("donation") ? (
-          <button
-            type="button"
-            className="altarActionBtn"
-            onClick={() => openModal("donation")}
-          >
-            <DonationIcon />
-            <span className="altarActionLabel">{t("donateTitle")}</span>
-            <span className="altarActionDesc">{t("donateCustom")}</span>
-          </button>
-        ) : null}
-      </div>
 
       <p className="altarFeeNote">{t("feeTransfer")}</p>
 
