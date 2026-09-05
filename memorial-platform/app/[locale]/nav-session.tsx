@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { SignOutButton } from "../sign-out-button";
 
-type NavState = { signedIn: boolean; unread: number };
+type NavState = { signedIn: boolean; unread: number; isAdmin: boolean };
 
 /*
  * The session-dependent part of the nav is fetched on the client so the
@@ -51,6 +51,11 @@ export function NavSession(props: { locale: string }) {
         ) : null}
       </Link>
       <Link href={`/${props.locale}/account`}>{nav("myAccount")}</Link>
+      {state.isAdmin ? (
+        <Link className="navAdmin" href={`/${props.locale}/admin`}>
+          {nav("admin")}
+        </Link>
+      ) : null}
       <SignOutButton locale={props.locale} />
     </>
   );
