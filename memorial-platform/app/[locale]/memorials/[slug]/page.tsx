@@ -319,7 +319,14 @@ export default async function MemorialPage(props: {
           .filter((slug): slug is string => Boolean(slug)),
       ])
     : new Map<string, string>();
-  const rootPortrait = treePortraits.get(detail.slug) ?? null;
+  // The deceased's own portrait must show even when there is no family tree
+  // (e.g. a page with no relatives, or a platform-created page awaiting a
+  // claim). treePortraits only runs when a tree exists, so fall back to a
+  // direct lookup for the root.
+  const rootPortrait =
+    treePortraits.get(detail.slug) ??
+    (await portraitsBySlug([detail.slug])).get(detail.slug) ??
+    null;
 
   // A living relative who claimed their place and chose to appear shows their
   // own photograph, keyed by the name the memorial lists them under.
