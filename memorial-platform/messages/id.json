@@ -475,7 +475,9 @@
     "portraitCropTitle": "Adjust portrait",
     "portraitZoom": "Zoom",
     "portraitConfirm": "Use photo",
-    "portraitCropHint": "Drag to reposition, slide to zoom. Every portrait is fitted to the same upright frame."
+    "portraitCropHint": "Drag to reposition, slide to zoom. Every portrait is fitted to the same upright frame.",
+    "metaDescription": "Remember {name}. An online memorial where family and friends leave flowers, light a candle, and share memories. — missingu.org",
+    "metaDescriptionYears": "Remember {name} ({years}). An online memorial where family and friends leave flowers, light a candle, and share memories. — missingu.org"
   },
   "privacy": {
     "title": "Siapa yang dapat melihat halaman ini",

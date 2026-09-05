@@ -475,7 +475,9 @@
     "portraitCropTitle": "調整遺像",
     "portraitZoom": "縮放",
     "portraitConfirm": "確定使用",
-    "portraitCropHint": "拖動照片調整位置，滑動縮放。所有遺像統一為直式比例。"
+    "portraitCropHint": "拖動照片調整位置，滑動縮放。所有遺像統一為直式比例。",
+    "metaDescription": "緬懷 {name}。這是 {name} 的網上追思紀念頁，親友可在此獻花、點燭、留言，寄託哀思。——追思網 missingu.org",
+    "metaDescriptionYears": "緬懷 {name}（{years}）。這是 {name} 的網上追思紀念頁，親友可在此獻花、點燭、留言，寄託哀思。——追思網 missingu.org"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",

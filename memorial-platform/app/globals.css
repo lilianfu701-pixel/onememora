@@ -1502,6 +1502,7 @@ img {
 }
 
 .memorialName {
+  margin: 0;
   font-family: var(--font-display);
   font-weight: 600;
   line-height: 1.1;

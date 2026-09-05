@@ -128,6 +128,12 @@ export async function generateMetadata(props: {
     ? `${detail.primaryName} (${years})`
     : detail.primaryName;
 
+  // A name-forward description so search engines index who this page is for.
+  const tMeta = await getTranslations({ locale, namespace: "memorial" });
+  const description = years
+    ? tMeta("metaDescriptionYears", { name: detail.primaryName, years })
+    : tMeta("metaDescription", { name: detail.primaryName });
+
   // The portrait, for social share cards (WeChat / X / Facebook). Only for a
   // page that may be indexed/shared.
   let ogImage: string | undefined;
@@ -142,6 +148,7 @@ export async function generateMetadata(props: {
 
   return {
     title,
+    description,
     robots,
     alternates: {
       canonical: memorialUrl({ appUrl, locale, slug: detail.slug }),
@@ -149,6 +156,7 @@ export async function generateMetadata(props: {
     },
     openGraph: {
       title,
+      description,
       type: "profile",
       ...(ogImage ? { images: [{ url: ogImage }] } : {}),
     },
@@ -494,9 +502,11 @@ export default async function MemorialPage(props: {
           disabledSlugs={disabledSlugs}
           details={
             <header className="memorialHead">
-          {/* Name and the names the person was known by, on one line. */}
-          <p className="memorialNames">
-            <span className="memorialName">{detail.primaryName}</span>
+          {/* Name and the names the person was known by, on one line. The
+           * primary name is the page's H1 — the strongest signal to search
+           * engines about who this page is for. */}
+          <div className="memorialNames">
+            <h1 className="memorialName">{detail.primaryName}</h1>
             {detail.alternateNames.map((name, index) => (
               <span key={`${name.type}-${index}`} className="memorialAlias">
                 <span className="memorialAliasType">
@@ -505,7 +515,7 @@ export default async function MemorialPage(props: {
                 {name.value}
               </span>
             ))}
-          </p>
+          </div>
 
           {/* Birth and death, side by side. */}
           <div className="memorialLifeline memorialLifelineRow">

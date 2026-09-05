@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useRef, useState } from "react";
+import { PortraitCropper } from "../../portrait-cropper";
 
 type Photo = {
   id: string;
@@ -46,6 +47,27 @@ export function PhotoManager(props: { memorialId: string; initial: Photo[] }) {
   const [removing, setRemoving] = useState<string | null>(null);
   const supersededRef = useRef<string[]>([]);
   const [upload, setUpload] = useState<UploadState>({ phase: "idle" });
+  // A just-picked photo waiting to be cropped to the fixed portrait frame.
+  const [cropSrc, setCropSrc] = useState<string | null>(null);
+
+  function openCropper(file: File): void {
+    setCropSrc((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return URL.createObjectURL(file);
+    });
+  }
+
+  function closeCropper(): void {
+    setCropSrc((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return null;
+    });
+  }
+
+  function onCropDone(blob: Blob): void {
+    closeCropper();
+    void handleFile(new File([blob], "portrait.webp", { type: "image/webp" }));
+  }
 
   function readError(payload: unknown): string {
     return (
@@ -215,10 +237,17 @@ export function PhotoManager(props: { memorialId: string; initial: Photo[] }) {
             className="visuallyHidden"
             onChange={(event) => {
               const file = event.target.files?.[0];
-              if (file) handleFile(file);
+              if (file) openCropper(file);
               event.target.value = "";
             }}
           />
+          {cropSrc ? (
+            <PortraitCropper
+              src={cropSrc}
+              onDone={onCropDone}
+              onCancel={closeCropper}
+            />
+          ) : null}
           <div>
             <button
               type="button"
