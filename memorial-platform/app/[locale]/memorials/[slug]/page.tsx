@@ -9,6 +9,7 @@ import {
   memorialBookmarks,
   memorialLocations,
   memorialRelatives,
+  memorials,
   users,
 } from "@/db/schema";
 import { countryName } from "@/lib/countries";
@@ -271,6 +272,18 @@ export default async function MemorialPage(props: {
 
   const disposition = await getDisposition(detail.memorialId);
 
+  // Offering availability: a platform-stewarded page (awaiting a family claim)
+  // closes the paid offerings, and the family may switch individual ones off.
+  const [offeringFlags] = await db()
+    .select({
+      stewardedByAdminAt: memorials.stewardedByAdminAt,
+      offeringsDisabled: memorials.offeringsDisabled,
+    })
+    .from(memorials)
+    .where(eq(memorials.id, detail.memorialId));
+  const awaitingClaim = Boolean(offeringFlags?.stewardedByAdminAt);
+  const disabledSlugs = offeringFlags?.offeringsDisabled ?? [];
+
   // The family tree, assembled from the registered relatives and any confirmed
   // links to other memorials. A year is only used when the date is real, not a
   // placeholder standing in for an unknown precision.
@@ -470,6 +483,8 @@ export default async function MemorialPage(props: {
           paymentEnabled={Boolean(
             process.env.PAYPAL_CLIENT_ID && process.env.PAYPAL_CLIENT_SECRET,
           )}
+          awaitingClaim={awaitingClaim}
+          disabledSlugs={disabledSlugs}
           details={
             <header className="memorialHead">
           {/* Name and the names the person was known by, on one line. */}

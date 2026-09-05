@@ -3,6 +3,7 @@ import {
   date,
   index,
   integer,
+  jsonb,
   pgEnum,
   pgTable,
   primaryKey,
@@ -235,6 +236,24 @@ export const memorials = pgTable(
       withTimezone: true,
     }),
     publishedAt: timestamp("published_at", { withTimezone: true }),
+    /**
+     * Set when the platform (an admin) created this memorial on a family's
+     * behalf and it is still waiting to be claimed. While set, the paid
+     * offerings (candle/wreath/donation) are closed and the page shows a claim
+     * notice. Cleared automatically when ownership passes to a family member.
+     */
+    stewardedByAdminAt: timestamp("stewarded_by_admin_at", {
+      withTimezone: true,
+    }),
+    /**
+     * Offering slugs the family has switched off on this memorial, e.g.
+     * ["candle","donation"]. Empty means every offering is open. Owner-only
+     * control; independent of the platform stewardship hold above.
+     */
+    offeringsDisabled: jsonb("offerings_disabled")
+      .$type<string[]>()
+      .default([])
+      .notNull(),
     deletionRequestedAt: timestamp("deletion_requested_at", {
       withTimezone: true,
     }),

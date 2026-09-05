@@ -30,6 +30,8 @@ import { RelativesEditor } from "./relatives-editor";
 import { RecognitionReview } from "./recognition-review";
 import { DonationsPanel } from "./donations-panel";
 import { listDonations } from "@/modules/offerings/donations";
+import { OfferingsToggle } from "./offerings-toggle";
+import { getOfferingsDisabled } from "@/modules/offerings/settings";
 import { FamilyEarnings } from "./family-earnings";
 import { familyAccrual } from "@/modules/offerings/accrual";
 import { FamilyPayout } from "./family-payout";
@@ -83,6 +85,9 @@ export default async function ManageMemorialPage(props: {
   const role = detail.viewerRole === "public_visitor" ? null : detail.viewerRole;
   const mayEditStory = canOnMemorial({ actor, role, action: "publish_content" });
   const mayConfigure = canOnMemorial({ actor, role, action: "configure_rituals" });
+  const offeringsDisabled = mayConfigure
+    ? await getOfferingsDisabled(detail.memorialId)
+    : [];
   const mayManageFamily = canOnMemorial({
     actor,
     role,
@@ -429,6 +434,12 @@ export default async function ManageMemorialPage(props: {
                 memorialId={detail.memorialId}
                 initialVisibility={detail.visibility}
                 initialIndexable={detail.searchEngineIndexable}
+              />
+            </div>
+            <div className="manageCard">
+              <OfferingsToggle
+                memorialId={detail.memorialId}
+                disabled={offeringsDisabled}
               />
             </div>
           </section>

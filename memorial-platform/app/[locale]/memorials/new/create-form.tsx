@@ -266,7 +266,11 @@ function RegionField(props: {
   );
 }
 
-export function CreateMemorialForm(props: { locale: string }) {
+export function CreateMemorialForm(props: {
+  locale: string;
+  /** Platform staff: unlocks "create on a family's behalf, awaiting claim". */
+  isAdmin?: boolean;
+}) {
   const t = useTranslations("memorial");
   const privacy = useTranslations("privacy");
   const errors = useTranslations("errors");
@@ -317,6 +321,9 @@ export function CreateMemorialForm(props: { locale: string }) {
   const [coCreators, setCoCreators] = useState<CoCreatorEntry[]>([]);
 
   const [declared, setDeclared] = useState(false);
+  // Admin-only: create the page on a family's behalf, to be claimed later. When
+  // on, the relationship/declaration are not required (staff are not family).
+  const [asSteward, setAsSteward] = useState(false);
 
   const [sending, setSending] = useState(false);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string[]>>({});
@@ -363,11 +370,13 @@ export function CreateMemorialForm(props: { locale: string }) {
     });
   }
 
+  const steward = Boolean(props.isAdmin) && asSteward;
   const needsPublicAcknowledgement = visibility === "public";
   const canSubmit =
-    relationship !== null &&
     name.trim().length > 0 &&
-    declared &&
+    // A family creator states their relationship and signs the declaration; a
+    // platform steward does neither.
+    (steward || (relationship !== null && declared)) &&
     (!needsPublicAcknowledgement || publicAcknowledged) &&
     !sending;
 
@@ -451,7 +460,7 @@ export function CreateMemorialForm(props: { locale: string }) {
 
   async function submit(event: React.FormEvent): Promise<void> {
     event.preventDefault();
-    if (!relationship || !canSubmit) return;
+    if ((!relationship && !steward) || !canSubmit) return;
 
     // Places are detailed only to the province/state level (no city).
     const locations: {
@@ -502,8 +511,11 @@ export function CreateMemorialForm(props: { locale: string }) {
     const deathDate = partsToDate(death);
 
     const body = {
-      relationship,
-      relationshipStatementAccepted: declared,
+      // For a steward the relationship is ignored server-side; a valid enum
+      // value is still sent to satisfy the request schema.
+      relationship: relationship ?? "child",
+      relationshipStatementAccepted: steward ? true : declared,
+      ...(steward ? { asAdminSteward: true } : {}),
       primaryName: { value: name.trim() },
       ...(validAliases.length > 0 ? { aliases: validAliases } : {}),
       ...(birthDate ? { birthDate } : {}),
@@ -572,8 +584,25 @@ export function CreateMemorialForm(props: { locale: string }) {
 
   return (
     <form className="createForm" onSubmit={submit} noValidate>
+      {/* ── Platform steward (admins only) ── */}
+      {props.isAdmin ? (
+        <fieldset className="formSection stewardSection">
+          <label className="checkboxRow">
+            <input
+              type="checkbox"
+              checked={asSteward}
+              onChange={(e) => setAsSteward(e.target.checked)}
+            />
+            <span>{t("stewardCreateToggle")}</span>
+          </label>
+          {asSteward ? (
+            <p className="fieldHelp">{t("stewardCreateHelp")}</p>
+          ) : null}
+        </fieldset>
+      ) : null}
+
       {/* ── Relationship ── */}
-      <fieldset className="formSection">
+      <fieldset className="formSection" hidden={steward}>
         <legend className="eyebrow">
           {t("relationshipPrompt", {
             relationship: relationship
@@ -1115,7 +1144,7 @@ export function CreateMemorialForm(props: { locale: string }) {
       </fieldset>
 
       {/* ── Declaration ── */}
-      <fieldset className="formSection measure">
+      <fieldset className="formSection measure" hidden={steward}>
         <label className="choiceRow">
           <input
             type="checkbox"

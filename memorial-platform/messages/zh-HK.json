@@ -467,7 +467,9 @@
     "joinAccept": "通過（加為管理者）",
     "follow": "關注（接收提醒）",
     "following": "已關注",
-    "followHint": "關注後，將在祭日、清明、中元收到 email 提醒。"
+    "followHint": "關注後，將在祭日、清明、中元收到 email 提醒。",
+    "stewardCreateToggle": "以平台代建，等待家屬認領",
+    "stewardCreateHelp": "由平台代為建立此頁，發布後等待家屬認領；認領前收費道具與捐贈自動關閉，且無需填寫與逝者的關係。"
   },
   "privacy": {
     "title": "誰可以看到這個思念頁",
@@ -672,7 +674,18 @@
     "earningsNote": "平台收取 20% 服務費，其餘轉贈家屬；家屬實名開通並滿 ¥2000 後可申領。此為記帳，非資金託管。",
     "wreathRollTitle": "花圈名錄",
     "donateMin": "最低 99 元",
-    "close": "關閉"
+    "close": "關閉",
+    "stewardNotice": "本頁由平台代為建立，尚無家屬認領，收費道具與捐贈暫時關閉。",
+    "ownerDisabledNotice": "部分供奉功能已由家屬暫時關閉。",
+    "manageTitle": "供奉與捐贈開關",
+    "manageHelp": "關閉某項後，它會在追思頁上隱藏，並提示「由家屬暫時關閉」。預設全部開啟。",
+    "manageFailed": "儲存失敗，請重試。",
+    "stateOn": "開啟",
+    "stateOff": "已關閉",
+    "slug_incense": "上香（免費）",
+    "slug_candle": "點燭",
+    "slug_wreath": "獻花圈",
+    "slug_donation": "捐款"
   },
   "account": {
     "title": "我嘅帳戶",

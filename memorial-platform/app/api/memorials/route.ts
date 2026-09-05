@@ -95,6 +95,8 @@ const schema = z.object({
     .optional(),
   visibility: z.enum(["public", "unlisted", "invite_only"]).optional(),
   searchEngineIndexable: z.boolean().optional(),
+  // Honoured only for admin accounts (checked in the service).
+  asAdminSteward: z.boolean().optional(),
 });
 
 const FIELD_FOR_ERROR: Record<CreateMemorialError, string> = {

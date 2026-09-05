@@ -72,7 +72,10 @@ export default async function NewMemorialPage(props: {
         <h1>{t("createTitle")}</h1>
         <p className="lede">{t("relationshipHelp")}</p>
       </header>
-      <CreateMemorialForm locale={locale} />
+      <CreateMemorialForm
+        locale={locale}
+        isAdmin={actor.platformRole !== "user"}
+      />
     </main>
   );
 }

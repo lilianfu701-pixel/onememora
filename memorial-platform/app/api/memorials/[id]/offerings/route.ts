@@ -1,7 +1,4 @@
-import { eq } from "drizzle-orm";
 import { z } from "zod";
-import { db } from "@/db/client";
-import { memorials } from "@/db/schema";
 import {
   correlationIdFrom,
   jsonError,
@@ -10,6 +7,7 @@ import {
 } from "@/lib/api";
 import { currentActor } from "@/modules/auth/current-user";
 import { createOffering } from "@/modules/offerings/create";
+import { gateOffering } from "@/modules/offerings/gating";
 
 export const dynamic = "force-dynamic";
 
@@ -45,13 +43,13 @@ export async function POST(
     return body.response;
   }
 
-  const [memorial] = await db()
-    .select({ status: memorials.status })
-    .from(memorials)
-    .where(eq(memorials.id, id));
-
-  if (!memorial || memorial.status !== "published") {
-    return jsonError("MEMORIAL_NOT_FOUND", correlationId);
+  const gate = await gateOffering(id, body.value.slug);
+  if (!gate.ok) {
+    if (gate.error === "MEMORIAL_NOT_FOUND") {
+      return jsonError("MEMORIAL_NOT_FOUND", correlationId);
+    }
+    // Page awaiting a family claim, or this offering switched off by the family.
+    return jsonError("FEATURE_DISABLED", correlationId);
   }
 
   // Donations are custom-amount with a ¥99 floor.

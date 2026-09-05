@@ -8,9 +8,12 @@ import { paypalFetch } from "@/lib/paypal";
 import { collectRate } from "@/modules/settings/rates";
 import { OFFERING_CATALOG, PLATFORM_FEE_RATE } from "./catalog";
 import { createOffering } from "./create";
+import { gateOffering } from "./gating";
 
 export type PaypalCheckoutError =
   | "MEMORIAL_NOT_FOUND"
+  | "AWAITING_CLAIM"
+  | "OFFERING_DISABLED"
   | "INVALID_AMOUNT"
   | "NOT_CONFIGURED"
   | "PROVIDER_ERROR";
@@ -80,18 +83,9 @@ export async function createPaypalOrder(
   }
   if (amountMinor <= 0) return err("INVALID_AMOUNT");
 
-  const [memorial] = await db()
-    .select({
-      id: memorials.id,
-      slug: memorials.slug,
-      status: memorials.status,
-    })
-    .from(memorials)
-    .where(eq(memorials.id, input.memorialId));
-
-  if (!memorial || memorial.status !== "published") {
-    return err("MEMORIAL_NOT_FOUND");
-  }
+  const gate = await gateOffering(input.memorialId, input.slug);
+  if (!gate.ok) return err(gate.error);
+  const memorialSlug = gate.value.memorialSlug;
 
   const feeMinor = Math.round(amountMinor * PLATFORM_FEE_RATE);
   const intent: OfferingIntent = {
@@ -121,7 +115,7 @@ export async function createPaypalOrder(
   const base = e.APP_URL.replace(/\/$/, "");
   const locale = encodeURIComponent(input.locale);
   const returnUrl = `${base}/api/paypal/return?o=${orderId}&l=${locale}`;
-  const cancelUrl = `${base}/${locale}/memorials/${memorial.slug}?offer=cancel`;
+  const cancelUrl = `${base}/${locale}/memorials/${memorialSlug}?offer=cancel`;
 
   const res = await paypalFetch<{
     id?: string;

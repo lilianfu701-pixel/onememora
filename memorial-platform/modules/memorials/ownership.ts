@@ -88,7 +88,9 @@ async function applyTransfer(
   await db().transaction(async (tx) => {
     await tx
       .update(memorials)
-      .set({ ownerUserId: toUserId })
+      // Ownership passing to a family member ends any platform stewardship, so
+      // the paid offerings reopen the moment the page is claimed.
+      .set({ ownerUserId: toUserId, stewardedByAdminAt: null })
       .where(eq(memorials.id, memorialId));
 
     await tx

@@ -66,6 +66,13 @@ export async function POST(
     if (result.error === "MEMORIAL_NOT_FOUND") {
       return jsonError("MEMORIAL_NOT_FOUND", correlationId);
     }
+    // Page not yet claimed by family, or the family switched this item off.
+    if (
+      result.error === "AWAITING_CLAIM" ||
+      result.error === "OFFERING_DISABLED"
+    ) {
+      return jsonError("FEATURE_DISABLED", correlationId);
+    }
     if (result.error === "INVALID_AMOUNT") {
       return jsonError("INVALID_INPUT", correlationId, {
         amountMinor: ["invalid"],

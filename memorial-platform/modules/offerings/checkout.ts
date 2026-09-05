@@ -1,14 +1,17 @@
 import { eq } from "drizzle-orm";
 import { db } from "@/db/client";
-import { memorials, orders } from "@/db/schema";
+import { orders } from "@/db/schema";
 import { env } from "@/lib/env";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { stripe } from "@/lib/stripe";
 import { OFFERING_CATALOG, PLATFORM_FEE_RATE } from "./catalog";
+import { gateOffering } from "./gating";
 
 export type CheckoutError =
   | "MEMORIAL_NOT_FOUND"
+  | "AWAITING_CLAIM"
+  | "OFFERING_DISABLED"
   | "INVALID_AMOUNT"
   | "NOT_CONFIGURED";
 
@@ -65,18 +68,9 @@ export async function createOfferingCheckout(
   }
   if (amountMinor <= 0) return err("INVALID_AMOUNT");
 
-  const [memorial] = await db()
-    .select({
-      id: memorials.id,
-      slug: memorials.slug,
-      status: memorials.status,
-    })
-    .from(memorials)
-    .where(eq(memorials.id, input.memorialId));
-
-  if (!memorial || memorial.status !== "published") {
-    return err("MEMORIAL_NOT_FOUND");
-  }
+  const gate = await gateOffering(input.memorialId, input.slug);
+  if (!gate.ok) return err(gate.error);
+  const memorialSlug = gate.value.memorialSlug;
 
   const feeMinor = Math.round(amountMinor * PLATFORM_FEE_RATE);
 
@@ -97,7 +91,7 @@ export async function createOfferingCheckout(
   const orderId = order!.id;
 
   const base = env().APP_URL.replace(/\/$/, "");
-  const back = `${base}/${encodeURIComponent(input.locale)}/memorials/${memorial.slug}`;
+  const back = `${base}/${encodeURIComponent(input.locale)}/memorials/${memorialSlug}`;
   const rawName = (input.name?.trim() ?? "").slice(0, 60);
   const message = (input.message?.trim() ?? "").slice(0, 200);
 

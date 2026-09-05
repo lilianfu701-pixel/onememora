@@ -441,10 +441,25 @@ export function OfferingsAltar(props: {
    * once payment is enabled.
    */
   paymentEnabled: boolean;
+  /**
+   * The platform created this page and it is still waiting for a family to
+   * claim it. While true, the paid offerings (candle/wreath/donation) are
+   * closed; free incense stays open.
+   */
+  awaitingClaim?: boolean;
+  /** Offering slugs the family has switched off (e.g. ["candle","donation"]). */
+  disabledSlugs?: readonly string[];
 }) {
   const t = useTranslations("offerings");
   const router = useRouter();
   const { summary } = props;
+
+  const awaitingClaim = Boolean(props.awaitingClaim);
+  const disabledSlugs = props.disabledSlugs ?? [];
+  const PAID_SLUGS = ["candle", "wreath", "donation"];
+  const isOff = (slug: string): boolean =>
+    disabledSlugs.includes(slug) ||
+    (awaitingClaim && PAID_SLUGS.includes(slug));
 
   const [modal, setModal] = useState<OfferKind | null>(null);
   const [name, setName] = useState("");
@@ -689,48 +704,64 @@ export function OfferingsAltar(props: {
         </p>
       ) : null}
 
+      {/* When something is closed, say why: a platform page awaiting a family,
+       * or offerings the family has switched off. */}
+      {awaitingClaim ? (
+        <p className="altarNotice">{t("stewardNotice")}</p>
+      ) : disabledSlugs.length > 0 ? (
+        <p className="altarNotice">{t("ownerDisabledNotice")}</p>
+      ) : null}
+
       {/* Offering actions */}
       <div className="altarActions">
-        <button
-          type="button"
-          className="altarActionBtn"
-          onClick={offerIncense}
-          disabled={pending === "incense"}
-        >
-          <IncenseBundle />
-          <span className="altarActionLabel">{t("offerIncense")}</span>
-          <span className="altarActionDesc">{t("descIncense")}</span>
-        </button>
+        {!isOff("incense") ? (
+          <button
+            type="button"
+            className="altarActionBtn"
+            onClick={offerIncense}
+            disabled={pending === "incense"}
+          >
+            <IncenseBundle />
+            <span className="altarActionLabel">{t("offerIncense")}</span>
+            <span className="altarActionDesc">{t("descIncense")}</span>
+          </button>
+        ) : null}
 
-        <button
-          type="button"
-          className="altarActionBtn"
-          onClick={() => openModal("candle")}
-        >
-          <CandlePhoto />
-          <span className="altarActionLabel">{t("offerCandle")}</span>
-          <span className="altarActionDesc">{t("descCandle")}</span>
-        </button>
+        {!isOff("candle") ? (
+          <button
+            type="button"
+            className="altarActionBtn"
+            onClick={() => openModal("candle")}
+          >
+            <CandlePhoto />
+            <span className="altarActionLabel">{t("offerCandle")}</span>
+            <span className="altarActionDesc">{t("descCandle")}</span>
+          </button>
+        ) : null}
 
-        <button
-          type="button"
-          className="altarActionBtn"
-          onClick={() => openModal("wreath")}
-        >
-          <WreathPhoto />
-          <span className="altarActionLabel">{t("offerWreath")}</span>
-          <span className="altarActionDesc">{t("descWreath")}</span>
-        </button>
+        {!isOff("wreath") ? (
+          <button
+            type="button"
+            className="altarActionBtn"
+            onClick={() => openModal("wreath")}
+          >
+            <WreathPhoto />
+            <span className="altarActionLabel">{t("offerWreath")}</span>
+            <span className="altarActionDesc">{t("descWreath")}</span>
+          </button>
+        ) : null}
 
-        <button
-          type="button"
-          className="altarActionBtn"
-          onClick={() => openModal("donation")}
-        >
-          <DonationIcon />
-          <span className="altarActionLabel">{t("donateTitle")}</span>
-          <span className="altarActionDesc">{t("donateCustom")}</span>
-        </button>
+        {!isOff("donation") ? (
+          <button
+            type="button"
+            className="altarActionBtn"
+            onClick={() => openModal("donation")}
+          >
+            <DonationIcon />
+            <span className="altarActionLabel">{t("donateTitle")}</span>
+            <span className="altarActionDesc">{t("donateCustom")}</span>
+          </button>
+        ) : null}
       </div>
 
       <p className="altarFeeNote">{t("feeTransfer")}</p>

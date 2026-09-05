@@ -467,7 +467,9 @@
     "joinAccept": "通过（加为管理者）",
     "follow": "关注（接收提醒）",
     "following": "已关注",
-    "followHint": "关注后，将在祭日、清明、中元收到 email 提醒。"
+    "followHint": "关注后，将在祭日、清明、中元收到 email 提醒。",
+    "stewardCreateToggle": "作为平台代建，等待家属认领",
+    "stewardCreateHelp": "由平台代为建立此页，发布后等待家属认领；认领前收费道具与捐赠自动关闭，且无需填写与逝者的关系。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -672,7 +674,18 @@
     "earningsNote": "平台收取 20% 服务费，其余转赠家属；家属实名开通并满 ¥2000 后可申领。此为记账，非资金托管。",
     "wreathRollTitle": "花圈名录",
     "donateMin": "最低 99 元",
-    "close": "关闭"
+    "close": "关闭",
+    "stewardNotice": "本页由平台代为建立，尚无家属认领，收费道具与捐赠暂时关闭。",
+    "ownerDisabledNotice": "部分供奉功能已由家属暂时关闭。",
+    "manageTitle": "供奉与捐赠开关",
+    "manageHelp": "关闭某项后，它会在追思页上隐藏，并提示「由家属暂时关闭」。默认全部开启。",
+    "manageFailed": "保存失败，请重试。",
+    "stateOn": "开启",
+    "stateOff": "已关闭",
+    "slug_incense": "上香（免费）",
+    "slug_candle": "点烛",
+    "slug_wreath": "献花圈",
+    "slug_donation": "捐款"
   },
   "account": {
     "title": "我的账户",

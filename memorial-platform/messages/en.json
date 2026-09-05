@@ -467,7 +467,9 @@
     "joinAccept": "Accept (add as manager)",
     "follow": "Follow (get reminders)",
     "following": "Following",
-    "followHint": "Get an email reminder on the anniversary (and Qingming/Zhongyuan for Chinese users)."
+    "followHint": "Get an email reminder on the anniversary (and Qingming/Zhongyuan for Chinese users).",
+    "stewardCreateToggle": "Create on a family's behalf (awaiting their claim)",
+    "stewardCreateHelp": "The platform sets up the page; after publishing it waits for a family member to claim it. Paid offerings and donations stay closed until then, and you don't need to state a relationship."
   },
   "privacy": {
     "title": "Who can see this memorial",
@@ -672,7 +674,18 @@
     "earningsNote": "The platform keeps a 20% service fee and gifts the remainder to the family, who can claim it after enrolling and passing ¥2000. This is bookkeeping, not custody of funds.",
     "wreathRollTitle": "Wreaths",
     "donateMin": "Minimum ¥99",
-    "close": "Close"
+    "close": "Close",
+    "stewardNotice": "This page was set up by the platform and hasn't been claimed by family yet, so paid offerings and donations are paused.",
+    "ownerDisabledNotice": "The family has paused some offerings on this page.",
+    "manageTitle": "Offerings & donations",
+    "manageHelp": "Turn any off to hide it on the memorial; visitors are told the family paused it. All are on by default.",
+    "manageFailed": "Couldn't save. Please try again.",
+    "stateOn": "On",
+    "stateOff": "Off",
+    "slug_incense": "Incense (free)",
+    "slug_candle": "Candle",
+    "slug_wreath": "Wreath",
+    "slug_donation": "Donation"
   },
   "account": {
     "title": "My Account",
