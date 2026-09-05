@@ -1,6 +1,11 @@
 import { and, asc, eq } from "drizzle-orm";
 import { db } from "@/db/client";
-import { deceasedPeople, memorialNames, memorials } from "@/db/schema";
+import {
+  deceasedPeople,
+  memorialNames,
+  memorials,
+  memorialSlugRedirects,
+} from "@/db/schema";
 import type { Actor } from "@/modules/permissions/types";
 import { resolveAccessBySlug } from "./access";
 import type { AccessDenial, ViewerRole } from "./access";
@@ -69,6 +74,15 @@ export async function loadMemorialDetail(
           ? await mergeTargetSlug(access.memorialId)
           : null,
       };
+    }
+    // A slug that no longer exists may be an old address (the page was renamed,
+    // e.g. when its URL was unified with its number). Send old links to the
+    // current slug instead of 404ing.
+    if (access.reason === "NOT_FOUND") {
+      const moved = await renamedSlugTarget(slug);
+      if (moved) {
+        return { ok: false, reason: "MERGED", redirectSlug: moved };
+      }
     }
     return { ok: false, reason: access.reason };
   }
@@ -165,6 +179,20 @@ export async function loadMemorialDetail(
  * notice years ago has to keep working, but not at the cost of following a
  * chain into something that was deleted.
  */
+/** The current slug for an old (redirected) slug, or null if it isn't one. */
+async function renamedSlugTarget(oldSlug: string): Promise<string | null> {
+  const [redirect] = await db()
+    .select({ memorialId: memorialSlugRedirects.memorialId })
+    .from(memorialSlugRedirects)
+    .where(eq(memorialSlugRedirects.slug, oldSlug));
+  if (!redirect) return null;
+  const [current] = await db()
+    .select({ slug: memorials.slug })
+    .from(memorials)
+    .where(eq(memorials.id, redirect.memorialId));
+  return current?.slug ?? null;
+}
+
 async function mergeTargetSlug(memorialId: string): Promise<string | null> {
   const [source] = await db()
     .select({ mergedInto: memorials.mergedIntoMemorialId })

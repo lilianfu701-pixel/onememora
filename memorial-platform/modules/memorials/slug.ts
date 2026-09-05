@@ -11,8 +11,6 @@ import { randomBytes } from "node:crypto";
  * The suffix is not a secret. An unlisted memorial is protected by the access
  * check, never by the address being hard to guess.
  */
-const SUFFIX_BYTES = 4;
-
 export function slugify(value: string): string {
   return (
     value
@@ -26,10 +24,16 @@ export function slugify(value: string): string {
   );
 }
 
-export function buildMemorialSlug(primaryName: string): string {
+export function buildMemorialSlug(
+  primaryName: string,
+  publicNumber: string,
+): string {
+  // The URL suffix IS the public number (追思编号), so a page has one number
+  // everywhere — in the address bar, on the page, and to search by.
   const base = slugify(primaryName);
-  const suffix = randomBytes(SUFFIX_BYTES).toString("hex");
-  return base.length > 0 ? `${base}-${suffix}` : `memorial-${suffix}`;
+  return base.length > 0
+    ? `${base}-${publicNumber}`
+    : `memorial-${publicNumber}`;
 }
 
 /**

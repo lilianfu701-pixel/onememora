@@ -188,8 +188,10 @@ export async function createMemorial(
     return ok({ ...existing, created: false });
   }
 
-  const slug = buildMemorialSlug(primaryName);
+  // Number first: the slug's suffix IS the public number, so there is one
+  // number for the page — in the URL, on the page, and to search by.
   const publicNumber = await allocateMemorialNumber();
+  const slug = buildMemorialSlug(primaryName, publicNumber);
 
   const created = await db()
     .transaction(async (tx) => {
