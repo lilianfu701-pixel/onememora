@@ -1612,11 +1612,12 @@ img {
   padding: 0 0.3rem;
   margin-inline-start: 0.3rem;
   border-radius: var(--radius-pill);
-  background: var(--rose);
+  background: #e01b1b;
   color: #fff;
   font-size: 0.7rem;
-  font-weight: 600;
+  font-weight: 700;
   vertical-align: middle;
+  box-shadow: 0 0 0 2px rgba(224, 27, 27, 0.18);
 }
 
 /* Ownership: the admin line and takeover request affordance on the page foot. */
