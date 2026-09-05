@@ -471,7 +471,11 @@
     "following": "已關注",
     "followHint": "關注後，將在祭日、清明、中元收到 email 提醒。",
     "stewardCreateToggle": "以平台代建，等待家屬認領",
-    "stewardCreateHelp": "由平台代為建立此頁，發布後等待家屬認領；認領前收費道具與捐贈自動關閉，且無需填寫與逝者的關係。"
+    "stewardCreateHelp": "由平台代為建立此頁，發布後等待家屬認領；認領前收費道具與捐贈自動關閉，且無需填寫與逝者的關係。",
+    "portraitCropTitle": "調整遺像",
+    "portraitZoom": "縮放",
+    "portraitConfirm": "確定使用",
+    "portraitCropHint": "拖動照片調整位置，滑動縮放。所有遺像統一為直式比例。"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",

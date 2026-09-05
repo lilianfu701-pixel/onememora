@@ -471,7 +471,11 @@
     "following": "Following",
     "followHint": "Get an email reminder on the anniversary (and Qingming/Zhongyuan for Chinese users).",
     "stewardCreateToggle": "Create on a family's behalf (awaiting their claim)",
-    "stewardCreateHelp": "The platform sets up the page; after publishing it waits for a family member to claim it. Paid offerings and donations stay closed until then, and you don't need to state a relationship."
+    "stewardCreateHelp": "The platform sets up the page; after publishing it waits for a family member to claim it. Paid offerings and donations stay closed until then, and you don't need to state a relationship.",
+    "portraitCropTitle": "Adjust portrait",
+    "portraitZoom": "Zoom",
+    "portraitConfirm": "Use photo",
+    "portraitCropHint": "Drag to reposition, slide to zoom. Every portrait is fitted to the same upright frame."
   },
   "privacy": {
     "title": "Кто может видеть эту страницу",

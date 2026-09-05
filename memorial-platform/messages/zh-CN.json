@@ -471,7 +471,11 @@
     "following": "已关注",
     "followHint": "关注后，将在祭日、清明、中元收到 email 提醒。",
     "stewardCreateToggle": "作为平台代建，等待家属认领",
-    "stewardCreateHelp": "由平台代为建立此页，发布后等待家属认领；认领前收费道具与捐赠自动关闭，且无需填写与逝者的关系。"
+    "stewardCreateHelp": "由平台代为建立此页，发布后等待家属认领；认领前收费道具与捐赠自动关闭，且无需填写与逝者的关系。",
+    "portraitCropTitle": "调整遗像",
+    "portraitZoom": "缩放",
+    "portraitConfirm": "确定使用",
+    "portraitCropHint": "拖动照片调整位置，滑动缩放。所有遗像统一为竖版比例。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",

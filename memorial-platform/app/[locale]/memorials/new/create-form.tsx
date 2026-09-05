@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useMemo, useRef, useState } from "react";
+import { PortraitCropper } from "../portrait-cropper";
 import { countryOptions } from "@/lib/countries";
 import { regionsFor } from "@/lib/regions";
 import { DuplicateWarning } from "./duplicate-warning";
@@ -310,6 +311,9 @@ export function CreateMemorialForm(props: {
   // create until the POST below returns a memorialId.
   const [portraitFile, setPortraitFile] = useState<File | null>(null);
   const [portraitPreview, setPortraitPreview] = useState<string | null>(null);
+  // The object URL of a just-picked photo, while it is being cropped to the
+  // fixed portrait frame. Null when the cropper is closed.
+  const [cropSrc, setCropSrc] = useState<string | null>(null);
 
   const [relatives, setRelatives] = useState<RelativeEntry[]>([]);
   const [showAllNames, setShowAllNames] = useState(false);
@@ -368,6 +372,29 @@ export function CreateMemorialForm(props: {
       if (prev) URL.revokeObjectURL(prev);
       return file ? URL.createObjectURL(file) : null;
     });
+  }
+
+  // A newly picked photo goes to the cropper first; the portrait is only set
+  // once the crop is confirmed.
+  function openCropper(file: File | null): void {
+    if (!file) return;
+    setCropSrc((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return URL.createObjectURL(file);
+    });
+  }
+
+  function closeCropper(): void {
+    setCropSrc((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return null;
+    });
+  }
+
+  function onCropDone(blob: Blob): void {
+    const cropped = new File([blob], "portrait.webp", { type: "image/webp" });
+    pickPortrait(cropped);
+    closeCropper();
   }
 
   const steward = Boolean(props.isAdmin) && asSteward;
@@ -732,7 +759,7 @@ export function CreateMemorialForm(props: {
                   accept="image/*"
                   hidden
                   onChange={(e) => {
-                    pickPortrait(e.target.files?.[0] ?? null);
+                    openCropper(e.target.files?.[0] ?? null);
                     e.target.value = "";
                   }}
                 />
@@ -749,6 +776,14 @@ export function CreateMemorialForm(props: {
             </div>
           </div>
         </div>
+
+        {cropSrc ? (
+          <PortraitCropper
+            src={cropSrc}
+            onDone={onCropDone}
+            onCancel={closeCropper}
+          />
+        ) : null}
 
         <DuplicateWarning
           locale={props.locale}
