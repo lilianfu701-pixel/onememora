@@ -4993,3 +4993,15 @@ a.famCard:focus-visible {
   gap: 0.5rem;
   justify-content: flex-end;
 }
+
+/* Platform-admin reclaim bar on a memorial the admin does not own. */
+.adminReclaim {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.adminReclaimLabel {
+  font-size: 0.85rem;
+  color: #8a7f6d;
+}

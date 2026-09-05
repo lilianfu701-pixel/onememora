@@ -477,7 +477,12 @@
     "portraitConfirm": "確定使用",
     "portraitCropHint": "拖動照片調整位置，滑動縮放。所有遺像統一為直式比例。",
     "metaDescription": "緬懷 {name}。這是 {name} 的網上追思紀念頁，親友可在此獻花、點燭、留言，寄託哀思。——追思網 missingu.org",
-    "metaDescriptionYears": "緬懷 {name}（{years}）。這是 {name} 的網上追思紀念頁，親友可在此獻花、點燭、留言，寄託哀思。——追思網 missingu.org"
+    "metaDescriptionYears": "緬懷 {name}（{years}）。這是 {name} 的網上追思紀念頁，親友可在此獻花、點燭、留言，寄託哀思。——追思網 missingu.org",
+    "adminReclaim": "收回管理權",
+    "adminReclaimNote": "平台管理員",
+    "adminReclaimConfirm": "確定把本頁管理權收到你的帳號？原管理員將降為協管，不會被移除。",
+    "adminReclaimWorking": "處理中…",
+    "adminReclaimFailed": "操作失敗，請重試。"
   },
   "privacy": {
     "title": "誰可以看到這個追思頁",
@@ -828,7 +833,8 @@
     "takeoverEscalated": "「{name}」追思頁的接管申請已升級至平台仲裁。",
     "joinRequested": "{name} 申請參與管理本追思頁，請到管理頁回應。",
     "joinAccepted": "你已成為「{name}」追思頁的共同管理者。",
-    "joinDeclined": "你對「{name}」追思頁的參與申請被婉拒。"
+    "joinDeclined": "你對「{name}」追思頁的參與申請被婉拒。",
+    "adminReclaimed": "平台管理員已收回「{name}」追思頁的管理權。"
   },
   "support": {
     "title": "聯絡網站管理員",

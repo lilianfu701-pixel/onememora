@@ -29,6 +29,7 @@ import {
   TAKEOVER_GRACE_DAYS,
 } from "@/modules/memorials/ownership";
 import { TakeoverPanel } from "./takeover-panel";
+import { AdminReclaim } from "./admin-reclaim";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
@@ -407,6 +408,10 @@ export default async function MemorialPage(props: {
     detail.status === "draft" ||
     (detail.status === "published" && detail.visibility === "unlisted");
 
+  // A platform super admin can reclaim management of any page they don't own.
+  const showAdminReclaim =
+    viewer.platformRole === "super_admin" && detail.viewerRole !== "owner";
+
   // Structured data only for a page Google may index.
   const indexable =
     detail.visibility === "public" &&
@@ -461,6 +466,11 @@ export default async function MemorialPage(props: {
         </>
       ) : null}
       <article className="container section memorialView">
+        {showAdminReclaim ? (
+          <div className="memorialOwnerBar">
+            <AdminReclaim memorialId={detail.memorialId} />
+          </div>
+        ) : null}
         {showOwnerBar ? (
           <div className="memorialOwnerBar">
             {/*

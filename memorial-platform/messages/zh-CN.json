@@ -477,7 +477,12 @@
     "portraitConfirm": "确定使用",
     "portraitCropHint": "拖动照片调整位置，滑动缩放。所有遗像统一为竖版比例。",
     "metaDescription": "缅怀 {name}。这是 {name} 的网上追思纪念页，亲友可在此献花、点烛、留言，寄托哀思。——追思网 missingu.org",
-    "metaDescriptionYears": "缅怀 {name}（{years}）。这是 {name} 的网上追思纪念页，亲友可在此献花、点烛、留言，寄托哀思。——追思网 missingu.org"
+    "metaDescriptionYears": "缅怀 {name}（{years}）。这是 {name} 的网上追思纪念页，亲友可在此献花、点烛、留言，寄托哀思。——追思网 missingu.org",
+    "adminReclaim": "收回管理权",
+    "adminReclaimNote": "平台管理员",
+    "adminReclaimConfirm": "确定把本页管理权收到你的账号？原管理员将降为协管，不会被移除。",
+    "adminReclaimWorking": "处理中…",
+    "adminReclaimFailed": "操作失败，请重试。"
   },
   "privacy": {
     "title": "谁可以看到这个主页",
@@ -828,7 +833,8 @@
     "takeoverEscalated": "「{name}」追思页的接管申请已升级至平台仲裁。",
     "joinRequested": "{name} 申请参与管理本追思页，请到管理页回应。",
     "joinAccepted": "你已成为「{name}」追思页的共同管理者。",
-    "joinDeclined": "你对「{name}」追思页的参与申请被婉拒。"
+    "joinDeclined": "你对「{name}」追思页的参与申请被婉拒。",
+    "adminReclaimed": "平台管理员已收回「{name}」追思页的管理权。"
   },
   "support": {
     "title": "联系网站管理员",

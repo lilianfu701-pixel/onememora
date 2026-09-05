@@ -477,7 +477,12 @@
     "portraitConfirm": "Use photo",
     "portraitCropHint": "Drag to reposition, slide to zoom. Every portrait is fitted to the same upright frame.",
     "metaDescription": "Remember {name}. An online memorial where family and friends leave flowers, light a candle, and share memories. — missingu.org",
-    "metaDescriptionYears": "Remember {name} ({years}). An online memorial where family and friends leave flowers, light a candle, and share memories. — missingu.org"
+    "metaDescriptionYears": "Remember {name} ({years}). An online memorial where family and friends leave flowers, light a candle, and share memories. — missingu.org",
+    "adminReclaim": "Reclaim management",
+    "adminReclaimNote": "Platform admin",
+    "adminReclaimConfirm": "Take over management of this page? The current admin stays on as a co-manager.",
+    "adminReclaimWorking": "Working…",
+    "adminReclaimFailed": "Couldn't do that. Please try again."
   },
   "privacy": {
     "title": "このページを見られる範囲",
@@ -828,7 +833,8 @@
     "takeoverEscalated": "The takeover request for {name}'s memorial has been escalated to platform arbitration.",
     "joinRequested": "{name} has asked to help manage this memorial. Please respond on the manage page.",
     "joinAccepted": "You are now a co-manager of {name}'s memorial.",
-    "joinDeclined": "Your request to help manage {name}'s memorial was declined."
+    "joinDeclined": "Your request to help manage {name}'s memorial was declined.",
+    "adminReclaimed": "A platform admin has reclaimed management of the memorial for {name}."
   },
   "support": {
     "title": "Contact the site team",

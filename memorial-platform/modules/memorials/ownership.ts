@@ -34,7 +34,8 @@ export type OwnershipError =
   | "ALREADY_REQUESTED"
   | "REQUEST_NOT_FOUND"
   | "NOT_PENDING"
-  | "TOO_SOON";
+  | "TOO_SOON"
+  | "FORBIDDEN";
 
 async function memorialOwner(memorialId: string): Promise<string | null> {
   const [row] = await db()
@@ -195,6 +196,47 @@ async function addAsEditor(memorialId: string, userId: string): Promise<void> {
       target: [memorialMembers.memorialId, memorialMembers.userId],
       set: { role: "editor", acceptedAt: new Date(), revokedAt: null },
     });
+}
+
+/**
+ * Platform override: a super admin takes management of any memorial at will,
+ * with no request or grace period. Ownership passes to the admin and the former
+ * owner is kept on as an admin-role member (never removed), and notified.
+ */
+export async function adminReclaimMemorial(
+  actor: Actor,
+  memorialId: string,
+  correlationId: string,
+): Promise<Result<{ reclaimed: true }, OwnershipError>> {
+  if (!actor.userId) return err("AUTH_REQUIRED");
+  if (actor.platformRole !== "super_admin") return err("FORBIDDEN");
+
+  const owner = await memorialOwner(memorialId);
+  if (owner === null) return err("MEMORIAL_NOT_FOUND");
+  if (owner === actor.userId) return ok({ reclaimed: true });
+
+  await applyTransfer(memorialId, owner, actor.userId);
+
+  await db().insert(auditLogs).values({
+    actorUserId: actor.userId,
+    action: "memorial.admin_reclaimed",
+    resourceType: "memorial",
+    resourceId: memorialId,
+    newValue: { fromUserId: owner },
+    correlationId,
+  });
+
+  const memName = await memorialPrimaryName(memorialId);
+  await notify({
+    recipientUserId: owner,
+    memorialId,
+    subject: memName,
+    body: `平台管理员已收回「${memName}」追思页的管理权。`,
+    templateKey: "adminReclaimed",
+    templateParams: { name: memName },
+  });
+
+  return ok({ reclaimed: true });
 }
 
 /** A registered non-owner asks to take over an unreachable admin's page. */
