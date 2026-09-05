@@ -20,18 +20,28 @@ export function NavSession(props: { locale: string }) {
 
   useEffect(() => {
     let alive = true;
-    fetch("/api/nav-state", { credentials: "include" })
-      .then((r) => (r.ok ? (r.json() as Promise<NavState>) : null))
-      .then((data) => {
-        if (alive && data) {
-          setState(data);
-        }
-      })
-      .catch(() => {
-        // Keep the anonymous default on any failure.
-      });
+    const load = (): void => {
+      fetch("/api/nav-state", { credentials: "include" })
+        .then((r) => (r.ok ? (r.json() as Promise<NavState>) : null))
+        .then((data) => {
+          if (alive && data) {
+            setState(data);
+          }
+        })
+        .catch(() => {
+          // Keep the last known state on any failure.
+        });
+    };
+    load();
+    // The layout stays mounted across client navigations, so the badge would
+    // otherwise never update. Refresh it when the inbox marks something read,
+    // and when the tab regains focus.
+    window.addEventListener("inbox-read", load);
+    window.addEventListener("focus", load);
     return () => {
       alive = false;
+      window.removeEventListener("inbox-read", load);
+      window.removeEventListener("focus", load);
     };
   }, []);
 

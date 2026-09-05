@@ -48,6 +48,8 @@ export function InboxView(props: {
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ ids: [m.id] }),
         });
+        // Tell the nav to refresh its unread badge without a full reload.
+        window.dispatchEvent(new Event("inbox-read"));
       } catch {
         /* the optimistic mark stands; it will reconcile on reload */
       }
