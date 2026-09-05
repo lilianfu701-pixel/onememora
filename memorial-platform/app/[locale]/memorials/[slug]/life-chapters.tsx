@@ -51,35 +51,18 @@ export function LifeChapters(props: {
               <h3 className="lifeChapterTitle">{titleFor(chapter)}</h3>
 
               <div className="lifeChapterBody">
+                {/* Only the text collapses when long; the photos always show. */}
                 {open ? (
-                  <>
-                    {paragraphs(chapter.body).map((para, i) => (
-                      <p key={i}>
-                        {para.split("\n").map((line, j, lines) => (
-                          <span key={j}>
-                            {line}
-                            {j < lines.length - 1 ? <br /> : null}
-                          </span>
-                        ))}
-                      </p>
-                    ))}
-                    {chapter.photos.length > 0 ? (
-                      <div className="lifeChapterPhotos">
-                        {chapter.photos
-                          .filter((photo) => photo.url)
-                          .map((photo) => (
-                            // eslint-disable-next-line @next/next/no-img-element
-                            <img
-                              key={photo.mediaId}
-                              className="lifeChapterPhoto"
-                              src={photo.url as string}
-                              alt={photo.caption ?? titleFor(chapter)}
-                              loading="lazy"
-                            />
-                          ))}
-                      </div>
-                    ) : null}
-                  </>
+                  paragraphs(chapter.body).map((para, i) => (
+                    <p key={i}>
+                      {para.split("\n").map((line, j, lines) => (
+                        <span key={j}>
+                          {line}
+                          {j < lines.length - 1 ? <br /> : null}
+                        </span>
+                      ))}
+                    </p>
+                  ))
                 ) : (
                   <p className="lifeChapterExcerpt">
                     {chapter.body.slice(0, COLLAPSE_OVER).trim()}…
@@ -94,6 +77,23 @@ export function LifeChapters(props: {
                   >
                     {open ? t("chapterLess") : t("chapterMore")}
                   </button>
+                ) : null}
+
+                {chapter.photos.length > 0 ? (
+                  <div className="lifeChapterPhotos">
+                    {chapter.photos
+                      .filter((photo) => photo.url)
+                      .map((photo) => (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          key={photo.mediaId}
+                          className="lifeChapterPhoto"
+                          src={photo.url as string}
+                          alt={photo.caption ?? titleFor(chapter)}
+                          loading="lazy"
+                        />
+                      ))}
+                  </div>
                 ) : null}
               </div>
             </article>
