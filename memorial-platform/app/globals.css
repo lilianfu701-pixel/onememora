@@ -1241,6 +1241,47 @@ img {
   gap: var(--space-3);
 }
 
+/* Stewarded-page claim banner: an obituary-created page inviting a relative to
+ * claim it. Leads the memorial, so it is given a warm, unmissable card. */
+.claimBanner {
+  margin-block-end: var(--space-5);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--gold);
+  border-inline-start: 4px solid var(--gold);
+  border-radius: var(--radius, 10px);
+  background: color-mix(in srgb, var(--gold) 12%, var(--paper-raised, #fff));
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.claimBannerTitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: var(--text-lg, 1.125rem);
+  color: var(--olive-dark);
+}
+
+.claimBannerBody {
+  margin: 0;
+  color: var(--ink, inherit);
+}
+
+.claimBannerStatus {
+  margin: 0;
+  color: var(--olive-dark);
+  font-weight: 600;
+}
+
+.claimBanner .button {
+  align-self: flex-start;
+}
+
+.claimBannerForm {
+  width: 100%;
+  max-width: 28rem;
+}
+
 /* Slideshow --------------------------------------------------------------- */
 
 .slideshow {

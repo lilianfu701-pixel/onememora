@@ -29,6 +29,7 @@ import {
   TAKEOVER_GRACE_DAYS,
 } from "@/modules/memorials/ownership";
 import { TakeoverPanel } from "./takeover-panel";
+import { ClaimBanner } from "./claim-banner";
 import { AdminReclaim } from "./admin-reclaim";
 import { offeringSummary } from "@/modules/offerings/display";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
@@ -466,6 +467,26 @@ export default async function MemorialPage(props: {
         </>
       ) : null}
       <article className="container section memorialView">
+        {/* A platform-stewarded page (built from an obituary, awaiting a family
+         * claim) leads with a prominent notice and a claim entry, so a relative
+         * arriving from a search sees straight away that they can take it on. */}
+        {awaitingClaim && !canManage ? (
+          <ClaimBanner
+            memorialId={detail.memorialId}
+            signedIn={viewer.userId !== null}
+            signInHref={`/${locale}/sign-in?next=${encodeURIComponent(
+              `/${locale}/memorials/${detail.slug}`,
+            )}`}
+            requestStatus={
+              myTakeover &&
+              (myTakeover.status === "pending" ||
+                myTakeover.status === "escalated" ||
+                myTakeover.status === "declined")
+                ? myTakeover.status
+                : null
+            }
+          />
+        ) : null}
         {showAdminReclaim ? (
           <div className="memorialOwnerBar">
             <AdminReclaim memorialId={detail.memorialId} />
@@ -710,7 +731,7 @@ export default async function MemorialPage(props: {
             >
               {t("manageLink")}
             </Link>
-          ) : viewer.userId ? (
+          ) : viewer.userId && !awaitingClaim ? (
             <TakeoverPanel
               memorialId={detail.memorialId}
               graceDays={TAKEOVER_GRACE_DAYS}
