@@ -1,8 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { currentActor } from "@/modules/auth/current-user";
-import { isProfileComplete, loadProfile } from "@/modules/identity/profile";
 import { CreateMemorialForm } from "./create-form";
 
 export const dynamic = "force-dynamic";
@@ -29,28 +27,6 @@ export default async function NewMemorialPage(props: {
   if (!actor.userId) {
     redirect(
       `/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/new`)}`,
-    );
-  }
-
-  // A memorial is created for a family member; the account holder completes
-  // their own details first. This is the gate the profile page unlocks.
-  const profile = await loadProfile(actor.userId);
-  if (!isProfileComplete(profile)) {
-    const profileT = await getTranslations("profile");
-    const next = encodeURIComponent(`/${locale}/memorials/new`);
-    return (
-      <main id="main" className="container section measure stack">
-        <h1>{t("createTitle")}</h1>
-        <p className="lede">{profileT("gateBody")}</p>
-        <div>
-          <Link
-            className="button buttonPrimary"
-            href={`/${locale}/profile?next=${next}`}
-          >
-            {profileT("gateCta")}
-          </Link>
-        </div>
-      </main>
     );
   }
 
