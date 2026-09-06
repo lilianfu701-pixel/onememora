@@ -111,14 +111,15 @@ export default async function AdminMemorialsPage(props: {
               style={{ tableLayout: "fixed", width: "100%" }}
             >
               <colgroup>
-                <col style={{ width: "12%" }} />
-                <col style={{ width: "14%" }} />
-                <col style={{ width: "10%" }} />
-                <col style={{ width: "12%" }} />
-                <col style={{ width: "10%" }} />
-                <col style={{ width: "24%" }} />
-                <col style={{ width: "10%" }} />
+                <col style={{ width: "9%" }} />
+                <col style={{ width: "11%" }} />
                 <col style={{ width: "8%" }} />
+                <col style={{ width: "10%" }} />
+                <col style={{ width: "9%" }} />
+                <col style={{ width: "13%" }} />
+                <col style={{ width: "18%" }} />
+                <col style={{ width: "9%" }} />
+                <col style={{ width: "13%" }} />
               </colgroup>
               <thead>
                 <tr>
@@ -127,7 +128,8 @@ export default async function AdminMemorialsPage(props: {
                   <th>状态</th>
                   <th>可见性</th>
                   <th>代建待认领</th>
-                  <th>创建人</th>
+                  <th>创建人姓名</th>
+                  <th>创建人邮箱</th>
                   <th>创建时间</th>
                   <th>操作</th>
                 </tr>
@@ -149,12 +151,12 @@ export default async function AdminMemorialsPage(props: {
                     <td>{m.stewardedAt ? "是" : "否"}</td>
                     <td style={{ wordBreak: "break-word" }}>
                       {m.ownerName || "—"}
-                      {m.ownerEmail ? (
-                        <div className="muted">{m.ownerEmail}</div>
-                      ) : null}
+                    </td>
+                    <td style={{ wordBreak: "break-all" }}>
+                      {m.ownerEmail || "—"}
                     </td>
                     <td>{m.createdAt.toLocaleDateString()}</td>
-                    <td>
+                    <td style={{ whiteSpace: "nowrap" }}>
                       <Link
                         href={`/${locale}/memorials/${m.slug}`}
                         target="_blank"

@@ -58,6 +58,9 @@ export function decideAccess(input: {
   }
 
   const isMember = role !== null && input.actor.userId !== null;
+  // Platform staff (reviewer / super_admin) already see this memorial, its name
+  // and its status in the admin list, so there is no existence to leak to them.
+  const isPlatformStaff = input.actor.platformRole !== "user";
 
   // A merged memorial is not gone and not private: it is somewhere else. The
   // caller resolves the redirect, so an old link keeps working for everyone,
@@ -73,7 +76,12 @@ export function decideAccess(input: {
     }
     // 410 tells a search engine and a returning visitor that a page they knew
     // about is gone. That is only safe to say when it was public; for anything
-    // else, confirming it ever existed is the leak.
+    // else, confirming it ever existed is the leak — except to platform staff,
+    // for whom a bare 404 on "查看" from the admin list is only confusing. They
+    // get the same "removal requested" notice regardless of visibility.
+    if (isPlatformStaff) {
+      return { allowed: false, reason: "GONE" };
+    }
     return {
       allowed: false,
       reason: memorial.visibility === "public" ? "GONE" : "NOT_FOUND",

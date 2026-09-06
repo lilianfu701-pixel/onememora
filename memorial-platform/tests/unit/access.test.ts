@@ -210,6 +210,20 @@ describe("memorials awaiting deletion", () => {
     }
   });
 
+  it("answer GONE to platform staff regardless of visibility", () => {
+    // Staff already see the memorial and its status in the admin list, so a bare
+    // 404 on "查看" is only confusing; show them the removal notice instead.
+    for (const visibility of ["public", "unlisted", "invite_only"] as const) {
+      expect(
+        decideAccess({
+          memorial: { visibility, status: "pending_deletion" },
+          role: null,
+          actor: platformReviewer,
+        }),
+      ).toEqual({ allowed: false, reason: "GONE" });
+    }
+  });
+
   it("remain reachable by the family during the recovery window", () => {
     // Deletion is reversible for a period, which is worthless if the owner
     // cannot open the page to undo it.
