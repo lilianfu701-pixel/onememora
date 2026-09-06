@@ -56,6 +56,11 @@ export default async function AdminLayout(props: {
               {t("users")}
             </Link>
           </li>
+          <li>
+            <Link href={`/${locale}/admin/memorials`} className="adminNavLink">
+              {t("memorials")}
+            </Link>
+          </li>
           {isSuperAdmin ? (
             <>
               <li>
