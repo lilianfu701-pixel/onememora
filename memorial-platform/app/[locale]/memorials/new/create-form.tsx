@@ -320,7 +320,6 @@ export function CreateMemorialForm(props: {
 
   const [visibility, setVisibility] = useState<Visibility>("public");
   const [indexable, setIndexable] = useState(true);
-  const [publicAcknowledged, setPublicAcknowledged] = useState(false);
   const [coCreate, setCoCreate] = useState(false);
   const [coCreators, setCoCreators] = useState<CoCreatorEntry[]>([]);
 
@@ -398,13 +397,11 @@ export function CreateMemorialForm(props: {
   }
 
   const steward = Boolean(props.isAdmin) && asSteward;
-  const needsPublicAcknowledgement = visibility === "public";
   const canSubmit =
     name.trim().length > 0 &&
     // A family creator states their relationship and signs the declaration; a
     // platform steward does neither.
     (steward || (relationship !== null && declared)) &&
-    (!needsPublicAcknowledgement || publicAcknowledged) &&
     !sending;
 
   function addAlias(): void {
@@ -1151,30 +1148,14 @@ export function CreateMemorialForm(props: {
         ))}
 
         {visibility === "public" ? (
-          <>
-            <label className="choiceRow">
-              <input
-                type="checkbox"
-                checked={indexable}
-                onChange={(e) => setIndexable(e.target.checked)}
-              />
-              <span>{privacy("searchEngineLabel")}</span>
-            </label>
-            <div className="notice noticeCompact">
-              <p>
-                <strong>{privacy("confirmPublicTitle")}</strong>{" "}
-                {privacy("confirmPublicBody")}
-              </p>
-              <label className="choiceRow">
-                <input
-                  type="checkbox"
-                  checked={publicAcknowledged}
-                  onChange={(e) => setPublicAcknowledged(e.target.checked)}
-                />
-                <span>{privacy("confirmPublicAcknowledge")}</span>
-              </label>
-            </div>
-          </>
+          <label className="choiceRow">
+            <input
+              type="checkbox"
+              checked={indexable}
+              onChange={(e) => setIndexable(e.target.checked)}
+            />
+            <span>{privacy("searchEngineLabel")}</span>
+          </label>
         ) : null}
       </fieldset>
 
