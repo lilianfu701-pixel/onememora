@@ -237,20 +237,24 @@ export default async function SearchPage(props: {
 
                 return (
                   <li className="resultItem" key={hit.memorialId}>
+                    {/* The whole row is the link, so a tap anywhere on it opens
+                     * the memorial. */}
                     <Link
-                      className="resultName"
+                      className="resultRow"
                       href={`/${locale}/memorials/${hit.slug}`}
                     >
-                      {hit.primaryName}
+                      <span className="resultName">{hit.primaryName}</span>
+                      {years || deathPlace ? (
+                        <span className="resultMeta">
+                          {years ? (
+                            <span className="resultYears">{years}</span>
+                          ) : null}
+                          {deathPlace ? (
+                            <span className="resultPlace">{deathPlace}</span>
+                          ) : null}
+                        </span>
+                      ) : null}
                     </Link>
-                    <span className="resultMeta">
-                      {years ? (
-                        <span className="resultYears">{years}</span>
-                      ) : null}
-                      {deathPlace ? (
-                        <span className="resultPlace">{deathPlace}</span>
-                      ) : null}
-                    </span>
                   </li>
                 );
               })}
