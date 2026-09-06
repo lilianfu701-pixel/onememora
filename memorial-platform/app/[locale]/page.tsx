@@ -59,7 +59,7 @@ export default async function HomePage(props: {
           </div>
 
           <form
-            className="searchForm"
+            className="heroSearchForm"
             method="get"
             action={`/${locale}/search`}
             role="search"
@@ -74,11 +74,9 @@ export default async function HomePage(props: {
                 maxLength={200}
               />
             </label>
-            <div>
-              <button className="button buttonPrimary" type="submit">
-                {search("submit")}
-              </button>
-            </div>
+            <button className="button buttonPrimary" type="submit">
+              {search("submit")}
+            </button>
           </form>
 
           <nav className="heroActions" aria-label={t("createMemorial")}>
@@ -89,7 +87,7 @@ export default async function HomePage(props: {
               {t("publishObituary")}
             </Link>
             <Link
-              className="button buttonQuiet"
+              className="button buttonPrimary"
               href={`/${locale}/memorials/new`}
             >
               {t("createMemorial")}

@@ -45,7 +45,7 @@ export default async function AdminPayoutsPage(props: {
             <table className="adminTable">
               <thead>
                 <tr>
-                  <th>纪念页</th>
+                  <th>追思页</th>
                   <th>真实姓名</th>
                   <th>方式</th>
                   <th>收款账号</th>
@@ -86,7 +86,7 @@ export default async function AdminPayoutsPage(props: {
               <thead>
                 <tr>
                   <th>申请时间</th>
-                  <th>纪念页</th>
+                  <th>追思页</th>
                   <th>收款人</th>
                   <th>方式 · 账号</th>
                   <th>金额</th>

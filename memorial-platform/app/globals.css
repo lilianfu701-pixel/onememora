@@ -1034,10 +1034,24 @@ img {
   z-index: 1;
 }
 
+/* Hero search: a narrow input with the submit button on the same line, right
+ * after it — not the full-width stacked grid the generic .searchForm uses. */
+.heroSearchForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--space-3);
+}
+
+.heroSearchForm .fieldWide {
+  flex: 0 1 22rem;
+  min-width: 12rem;
+}
+
 .heroActions {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-3);
+  gap: var(--space-6);
 }
 
 .heroWave {

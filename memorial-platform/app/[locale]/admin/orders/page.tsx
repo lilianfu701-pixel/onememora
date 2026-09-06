@@ -92,13 +92,13 @@ export default async function AdminOrdersPage(props: {
       </section>
 
       {/* Which family account holds how much. */}
-      <h2>各家属账户（按纪念页汇总 · 仅已支付）</h2>
+      <h2>各家属账户（按追思页汇总 · 仅已支付）</h2>
       {accounts.length > 0 ? (
         <div className="adminTableWrap">
           <table className="adminTable">
             <thead>
               <tr>
-                <th>纪念页</th>
+                <th>追思页</th>
                 <th>收款家属</th>
                 <th>订单数</th>
                 <th>累计入账</th>
@@ -135,7 +135,7 @@ export default async function AdminOrdersPage(props: {
                 <th>状态</th>
                 <th>渠道</th>
                 <th>类型</th>
-                <th>纪念页</th>
+                <th>追思页</th>
                 <th>供奉人</th>
                 <th>金额</th>
                 <th>手续费</th>
