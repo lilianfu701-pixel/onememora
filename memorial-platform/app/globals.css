@@ -1597,6 +1597,24 @@ img {
   font-size: var(--text-sm);
 }
 
+/* Contact-the-platform page (/contact): a centred column, title and intro
+ * centred above the form. The form card stays block-centred while its own
+ * fields keep their left alignment for readability. */
+.contactPage {
+  max-width: 36rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.contactPage .contactForm {
+  margin-inline: auto;
+  text-align: start;
+}
+
+.contactPage .contactSent {
+  margin-inline-start: 0;
+}
+
 /* ---------- Inbox /站内信 ---------- */
 
 .navInbox {

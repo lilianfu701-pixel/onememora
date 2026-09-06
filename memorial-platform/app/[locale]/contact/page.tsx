@@ -23,10 +23,12 @@ export default async function ContactPage(props: {
   )}`;
 
   return (
-    <main id="main" className="page measure stack">
-      <h1>{t("title")}</h1>
-      <p className="muted">{t("intro")}</p>
-      <ContactForm signedIn={actor.userId !== null} signInHref={signInHref} />
+    <main id="main" className="container section">
+      <div className="contactPage stack">
+        <h1>{t("title")}</h1>
+        <p className="muted">{t("intro")}</p>
+        <ContactForm signedIn={actor.userId !== null} signInHref={signInHref} />
+      </div>
     </main>
   );
 }
