@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { currentActor } from "@/modules/auth/current-user";
 import { isProfileComplete, loadProfile } from "@/modules/identity/profile";
 import { CreateMemorialForm } from "./create-form";
@@ -20,27 +21,14 @@ export default async function NewMemorialPage(props: {
   setRequestLocale(locale);
 
   const t = await getTranslations("memorial");
-  const nav = await getTranslations("nav");
   const actor = await currentActor();
 
+  // A signed-out visitor goes straight to sign-in — no intermediate landing —
+  // and is carried back here afterwards. Someone who came to record a death
+  // should not have to click through an extra page to get started.
   if (!actor.userId) {
-    return (
-      <main id="main" className="container section measure stack">
-        <h1>{t("createTitle")}</h1>
-        <p className="lede">{t("signInToCreate")}</p>
-        <div>
-          {/*
-           * Carries them back here afterwards. Someone who came to record a
-           * death should not have to find their way a second time.
-           */}
-          <Link
-            className="button buttonPrimary"
-            href={`/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/new`)}`}
-          >
-            {nav("signIn")}
-          </Link>
-        </div>
-      </main>
+    redirect(
+      `/${locale}/sign-in?next=${encodeURIComponent(`/${locale}/memorials/new`)}`,
     );
   }
 
