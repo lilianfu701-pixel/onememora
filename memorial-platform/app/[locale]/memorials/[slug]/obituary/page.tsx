@@ -1,5 +1,4 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { eq } from "drizzle-orm";
@@ -143,48 +142,13 @@ export default async function ObituaryPage(props: {
 
   return (
     <main id="main" className="section">
-      <div className="container measure obituaryPage">
-        <article className="obituaryCard">
-          <p className="obituaryKicker">{t("obituaryTitle")}</p>
-          {portrait ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              className="obituaryPortrait"
-              src={portrait}
-              alt={detail.primaryName}
-            />
-          ) : null}
-          <h1 className="obituaryName">{detail.primaryName}</h1>
-          {life ? <p className="obituaryLife">{life}</p> : null}
-          {obituary.age ? (
-            <p className="obituaryLife">
-              {t("obituaryAgeShown", { age: obituary.age })}
-            </p>
-          ) : null}
-          {obituary.nativePlace ? (
-            <p className="obituaryMeta">
-              {t("obituaryNativePrefix")}
-              {obituary.nativePlace}
-            </p>
-          ) : null}
-
-          <div className="obituaryBody">
-            {obituary.body!.split(/\n{2,}/).map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-
-          {obituary.service ? (
-            <p className="obituaryService">{obituary.service}</p>
-          ) : null}
-          {obituary.survivors ? (
-            <p className="obituarySurvivors">{obituary.survivors}</p>
-          ) : null}
-
-          <Link className="button buttonQuiet obituaryEnter" href={pageUrl}>
-            {t("obituaryEnterMemorial")} →
-          </Link>
-        </article>
+      <div className="container measure obituaryPage stack">
+        {/* The published poster leads; the person's name is the page heading for
+         * screen readers and accessibility. */}
+        <h1 className="obituaryKicker">
+          {t("obituaryTitle")}
+          <span className="srOnly">：{detail.primaryName}</span>
+        </h1>
 
         <ObituaryShare
           memorialUrl={pageUrl}
