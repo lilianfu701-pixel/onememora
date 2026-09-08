@@ -1,27 +1,26 @@
-// Draws the 讣告 poster by overlaying dynamic content onto the fixed black-gold
-// template (public/obituary/template-zh.png, 1024×1536). Every slot coordinate
-// is expressed in that 1024×1536 space; the template art is authoritative, this
-// module only fills the blanks.
+// Draws the 讣告 poster by overlaying dynamic content onto the black-gold
+// template (public/obituary/template-zh.png, 1024×1536). The template carries
+// only the fixed art and section labels (讣告 / 讣告正文 / 治丧信息 / 家属署名 /
+// QR / 搜索); everything else — name, honorific, dates, 享年, the body and the
+// section contents — is drawn here. Coordinates are in the 1024×1536 authoring
+// space and scaled to the template's real pixels at render time.
 
 export type PosterInput = {
   name: string;
   birth: string | null;
   death: string | null;
-  /** 享年 digits only (the template prints "享年 ___ 岁"). */
+  /** 享年 digits only; drawn as "享年 N 岁". */
   age: string | null;
-  /** male → 先生, female → 女士, null → leave the template's "先生 / 女士". */
+  /** male → 先生, female → 女士, null → no honorific. */
   gender: "male" | "female" | null;
   body: string;
   service: string | null;
   survivors: string | null;
-  /** Same-origin URL only (else the canvas taints and export fails). */
+  /** Same-origin/data URL only (a signed cross-origin URL taints the canvas). */
   portraitUrl: string | null;
   number: string | null;
 };
 
-// Slot coordinates are authored in this reference space; the renderer scales
-// them to the template image's real pixel size, so dropping in a higher-res
-// template (e.g. 2048×3072) sharpens everything with no code change.
 export const POSTER_W = 1024;
 export const POSTER_H = 1536;
 const TEMPLATE_SRC = "/obituary/template-zh.png";
@@ -40,24 +39,14 @@ function loadImage(src: string): Promise<HTMLImageElement> {
   });
 }
 
-/** Draw `text` centred at cx, shrinking the font until it fits maxW. */
-function fitCenter(
+function measure(
   ctx: CanvasRenderingContext2D,
   text: string,
-  cx: number,
-  baseline: number,
-  maxW: number,
-  startPx: number,
-  weight = "700",
-): void {
-  let px = startPx;
-  ctx.textAlign = "center";
-  do {
-    ctx.font = `${weight} ${px}px ${SERIF}`;
-    if (ctx.measureText(text).width <= maxW || px <= 18) break;
-    px -= 2;
-  } while (true);
-  ctx.fillText(text, cx, baseline);
+  px: number,
+  weight: string,
+): number {
+  ctx.font = `${weight} ${px}px ${SERIF}`;
+  return ctx.measureText(text).width;
 }
 
 /** Wrap text (respecting explicit newlines) to lines no wider than maxW. */
@@ -82,20 +71,12 @@ function wrapLines(
   return out;
 }
 
-/**
- * Renders the poster onto `ctx` (which must be a 1024×1536 context). `qr` is a
- * pre-rendered QR canvas/image (drawn into the template's white box); pass null
- * to leave it blank.
- */
 export async function drawObituaryPoster(
   ctx: CanvasRenderingContext2D,
   data: PosterInput,
   qr: HTMLCanvasElement | HTMLImageElement | null,
 ): Promise<void> {
   const template = await loadImage(TEMPLATE_SRC);
-  // Match the canvas to the template's real pixels, then scale the coordinate
-  // system back to the 1024×1536 authoring space so every slot lands correctly
-  // at whatever resolution the template ships at.
   const natW = template.naturalWidth || POSTER_W;
   const natH = template.naturalHeight || POSTER_H;
   ctx.canvas.width = natW;
@@ -107,17 +88,21 @@ export async function drawObituaryPoster(
   if (data.portraitUrl) {
     try {
       const img = await loadImage(data.portraitUrl);
-      const box = { x: 62, y: 46, w: 344, h: 456 };
+      const box = { x: 66, y: 46, w: 384, h: 466 };
       const scale = Math.max(box.w / img.width, box.h / img.height);
       const dw = img.width * scale;
       const dh = img.height * scale;
-      const dx = box.x + (box.w - dw) / 2;
-      const dy = box.y + (box.h - dh) / 2;
       ctx.save();
       ctx.beginPath();
       ctx.rect(box.x, box.y, box.w, box.h);
       ctx.clip();
-      ctx.drawImage(img, dx, dy, dw, dh);
+      ctx.drawImage(
+        img,
+        box.x + (box.w - dw) / 2,
+        box.y + (box.h - dh) / 2,
+        dw,
+        dh,
+      );
       ctx.restore();
     } catch {
       /* leave the placeholder silhouette */
@@ -126,77 +111,102 @@ export async function drawObituaryPoster(
 
   ctx.fillStyle = WHITE;
 
-  // Name — on the underline left of "先生 / 女士".
-  fitCenter(ctx, data.name, 617, 372, 330, 56);
-
-  // Honorific — keep only the one matching gender by painting over the printed
-  // "先生 / 女士" (solid black ground) and redrawing a single word.
-  if (data.gender) {
-    ctx.fillStyle = "#000000";
-    ctx.fillRect(793, 344, 200, 66);
-    ctx.fillStyle = WHITE;
+  // Name + honorific, centred in the right column beneath the 讣告 title.
+  const RIGHT_CX = 740;
+  {
+    const hon = data.gender
+      ? data.gender === "male"
+        ? "先生"
+        : "女士"
+      : "";
+    let namePx = 64;
+    const honPx = 36;
+    const gap = 14;
+    // Shrink the name until the whole name+honorific group fits the column.
+    const maxW = 470;
+    let nameW = measure(ctx, data.name, namePx, "700");
+    let honW = hon ? measure(ctx, hon, honPx, "600") + gap : 0;
+    while (nameW + honW > maxW && namePx > 30) {
+      namePx -= 2;
+      nameW = measure(ctx, data.name, namePx, "700");
+    }
+    const total = nameW + honW;
+    const x = RIGHT_CX - total / 2;
+    const baseline = 346;
     ctx.textAlign = "left";
-    ctx.font = `600 42px ${SERIF}`;
-    ctx.fillText(data.gender === "male" ? "先生" : "女士", 800, 392);
     ctx.fillStyle = WHITE;
+    ctx.font = `700 ${namePx}px ${SERIF}`;
+    ctx.fillText(data.name, x, baseline);
+    if (hon) {
+      ctx.font = `600 ${honPx}px ${SERIF}`;
+      ctx.fillText(hon, x + nameW + gap, baseline);
+    }
   }
 
-  // Birth / death — one on each gold line, either side of the dash.
-  ctx.font = `400 30px ${SERIF}`;
   ctx.textAlign = "center";
-  if (data.birth) ctx.fillText(data.birth, 554, 438);
-  if (data.death) ctx.fillText(data.death, 845, 438);
+  ctx.fillStyle = WHITE;
 
-  // 享年 — the number only, on the blank between 享年 and 岁.
-  if (data.age) {
-    ctx.font = `400 34px ${SERIF}`;
-    ctx.fillText(data.age, 732, 497);
+  // Dates.
+  const life =
+    data.birth && data.death
+      ? `${data.birth} — ${data.death}`
+      : data.birth || data.death || "";
+  if (life) {
+    ctx.font = `400 30px ${SERIF}`;
+    ctx.fillText(life, RIGHT_CX, 410);
   }
 
-  // Body — inside the big gold box, left-aligned and wrapped.
+  // 享年.
+  if (data.age) {
+    ctx.font = `400 32px ${SERIF}`;
+    ctx.fillText(`享年 ${data.age} 岁`, RIGHT_CX, 464);
+  }
+
+  // Body — beneath the 讣告正文 label, full width.
   ctx.textAlign = "left";
+  ctx.fillStyle = WHITE;
   ctx.font = `400 30px ${SERIF}`;
   {
-    let y = 612;
-    for (const line of wrapLines(ctx, data.body, 864)) {
-      if (y > 852) break;
-      ctx.fillText(line, 82, y);
-      y += 46;
+    let y = 672;
+    for (const line of wrapLines(ctx, data.body, 915)) {
+      if (y > 880) break;
+      ctx.fillText(line, 60, y);
+      y += 45;
     }
   }
 
-  // Funeral info (治丧信息) box.
+  // 治丧信息 content — to the right of the candle icon + label row.
   if (data.service) {
-    ctx.font = `400 26px ${SERIF}`;
-    let y = 918;
-    for (const line of wrapLines(ctx, data.service, 632)) {
-      if (y > 978) break;
-      ctx.fillText(line, 322, y);
+    ctx.font = `400 27px ${SERIF}`;
+    let y = 990;
+    for (const line of wrapLines(ctx, data.service, 820)) {
+      if (y > 1055) break;
+      ctx.fillText(line, 150, y);
       y += 38;
     }
   }
 
-  // Family signatures (家属署名) box.
+  // 家属署名 content — clear of the candle photo, to the right.
   if (data.survivors) {
-    ctx.font = `400 26px ${SERIF}`;
-    let y = 1044;
-    for (const line of wrapLines(ctx, data.survivors, 632)) {
-      if (y > 1104) break;
-      ctx.fillText(line, 322, y);
+    ctx.font = `400 27px ${SERIF}`;
+    let y = 1155;
+    for (const line of wrapLines(ctx, data.survivors, 560)) {
+      if (y > 1250) break;
+      ctx.fillText(line, 415, y);
       y += 38;
     }
   }
 
-  // QR into the white box (with a little inset).
+  // QR into the white box (template box ≈ x555–758, y1273–1472).
   if (qr) {
-    ctx.drawImage(qr, 520, 1236, 206, 206);
+    ctx.drawImage(qr, 562, 1284, 184, 184);
   }
 
-  // Public number in the 搜索 box.
+  // Public number after the 搜索 label.
   if (data.number) {
     ctx.fillStyle = WHITE;
-    ctx.textAlign = "center";
+    ctx.textAlign = "left";
     ctx.font = `600 30px ${SERIF}`;
-    ctx.fillText(data.number, 908, 1503);
+    ctx.fillText(data.number, 862, 1497);
   }
 }
