@@ -4,31 +4,88 @@ import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
 
-function shareTo(
-  platform: string,
-  url: string,
-  title: string,
-): void {
-  const encoded = encodeURIComponent(url);
-  const encodedTitle = encodeURIComponent(title);
-  const targets: Record<string, string> = {
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encoded}`,
-    twitter: `https://twitter.com/intent/tweet?url=${encoded}&text=${encodedTitle}`,
-    whatsapp: `https://wa.me/?text=${encodedTitle}%20${encoded}`,
-    telegram: `https://t.me/share/url?url=${encoded}&text=${encodedTitle}`,
-    line: `https://social-plugins.line.me/lineit/share?url=${encoded}`,
-    email: `mailto:?subject=${encodedTitle}&body=${encoded}`,
-  };
-  const target = targets[platform];
-  if (target) {
-    window.open(target, "_blank", "noopener,noreferrer");
-  }
-}
+/**
+ * Platforms reachable by a plain web share link (opened in a new tab). WeChat is
+ * not here: it has no web share intent, so it is offered through the QR code
+ * (scan with WeChat to share) rather than a link.
+ */
+type WebTarget = {
+  key: string;
+  label: string;
+  icon: string;
+  href: (url: string, title: string) => string;
+};
+
+const WEB_TARGETS: WebTarget[] = [
+  {
+    key: "weibo",
+    label: "微博",
+    icon: "🅦",
+    href: (u, t) => `https://service.weibo.com/share/share.php?url=${u}&title=${t}`,
+  },
+  {
+    key: "qq",
+    label: "QQ",
+    icon: "🐧",
+    href: (u, t) =>
+      `https://connect.qq.com/widget/shareqq/index.html?url=${u}&title=${t}`,
+  },
+  {
+    key: "qzone",
+    label: "QQ空间",
+    icon: "⭐",
+    href: (u, t) =>
+      `https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=${u}&title=${t}`,
+  },
+  {
+    key: "douban",
+    label: "豆瓣",
+    icon: "📗",
+    href: (u, t) => `https://www.douban.com/share/service?href=${u}&name=${t}`,
+  },
+  {
+    key: "whatsapp",
+    label: "WhatsApp",
+    icon: "💬",
+    href: (u, t) => `https://wa.me/?text=${t}%20${u}`,
+  },
+  {
+    key: "facebook",
+    label: "Facebook",
+    icon: "📘",
+    href: (u) => `https://www.facebook.com/sharer/sharer.php?u=${u}`,
+  },
+  {
+    key: "x",
+    label: "X",
+    icon: "✖",
+    href: (u, t) => `https://twitter.com/intent/tweet?url=${u}&text=${t}`,
+  },
+  {
+    key: "telegram",
+    label: "Telegram",
+    icon: "✈️",
+    href: (u, t) => `https://t.me/share/url?url=${u}&text=${t}`,
+  },
+  {
+    key: "line",
+    label: "LINE",
+    icon: "🟢",
+    href: (u) => `https://social-plugins.line.me/lineit/share?url=${u}`,
+  },
+  {
+    key: "email",
+    label: "Email",
+    icon: "✉️",
+    href: (u, t) => `mailto:?subject=${t}&body=${u}`,
+  },
+];
 
 export function Share(props: { url: string; title: string }) {
   const t = useTranslations("memorial");
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [wechatHint, setWechatHint] = useState(false);
   const [hasNativeShare, setHasNativeShare] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
 
@@ -49,6 +106,25 @@ export function Share(props: { url: string; title: string }) {
     }
   }, [open, handleClickOutside]);
 
+  async function nativeShare(): Promise<void> {
+    try {
+      await navigator.share({ title: props.title, url: props.url });
+    } catch {
+      /* dismissed */
+    }
+  }
+
+  // One tap on a phone (or any browser with the Web Share API) opens the system
+  // share sheet directly — it already lists WeChat and every installed app, so
+  // there is no in-between panel. Elsewhere the button opens our own panel.
+  function onMainClick(): void {
+    if (hasNativeShare) {
+      void nativeShare();
+    } else {
+      setOpen((value) => !value);
+    }
+  }
+
   async function copy(): Promise<void> {
     try {
       await navigator.clipboard.writeText(props.url);
@@ -59,12 +135,12 @@ export function Share(props: { url: string; title: string }) {
     }
   }
 
-  async function nativeShare(): Promise<void> {
-    try {
-      await navigator.share({ title: props.title, url: props.url });
-    } catch {
-      /* dismissed */
-    }
+  function openTarget(target: WebTarget): void {
+    const href = target.href(
+      encodeURIComponent(props.url),
+      encodeURIComponent(props.title),
+    );
+    window.open(href, "_blank", "noopener,noreferrer");
   }
 
   return (
@@ -72,18 +148,34 @@ export function Share(props: { url: string; title: string }) {
       <button
         type="button"
         className="button buttonQuiet buttonCompact"
-        aria-expanded={open}
-        onClick={() => setOpen((value) => !value)}
+        aria-expanded={hasNativeShare ? undefined : open}
+        onClick={onMainClick}
       >
         {t("share")}
       </button>
+
+      {/* When the one-tap native share is the primary action, a small control
+       * still opens the panel for the QR code, copy link and platform grid. */}
+      {hasNativeShare ? (
+        <button
+          type="button"
+          className="shareMoreDots"
+          aria-label={t("scanToOpen")}
+          aria-expanded={open}
+          onClick={() => setOpen((value) => !value)}
+        >
+          ⋯
+        </button>
+      ) : null}
 
       {open ? (
         <div className="sharePanel card stack">
           <div className="shareQr">
             <QRCodeSVG value={props.url} size={168} marginSize={2} />
           </div>
-          <p className="muted shareScanHint">{t("scanToOpen")}</p>
+          <p className="muted shareScanHint">
+            {wechatHint ? t("shareWechatHint") : t("scanToOpen")}
+          </p>
 
           <div className="shareLinkRow">
             <input
@@ -103,54 +195,26 @@ export function Share(props: { url: string; title: string }) {
           </div>
 
           <div className="sharePlatforms">
+            {/* WeChat: no web intent — point to the QR above. */}
             <button
               type="button"
               className="sharePlatformBtn"
-              onClick={() => shareTo("whatsapp", props.url, props.title)}
-              aria-label="WhatsApp"
+              onClick={() => setWechatHint(true)}
             >
-              <span aria-hidden="true">💬</span>
+              <span aria-hidden="true">💚</span>
+              <span className="sharePlatformLabel">微信</span>
             </button>
-            <button
-              type="button"
-              className="sharePlatformBtn"
-              onClick={() => shareTo("facebook", props.url, props.title)}
-              aria-label="Facebook"
-            >
-              <span aria-hidden="true">📘</span>
-            </button>
-            <button
-              type="button"
-              className="sharePlatformBtn"
-              onClick={() => shareTo("twitter", props.url, props.title)}
-              aria-label="X / Twitter"
-            >
-              <span aria-hidden="true">🐦</span>
-            </button>
-            <button
-              type="button"
-              className="sharePlatformBtn"
-              onClick={() => shareTo("telegram", props.url, props.title)}
-              aria-label="Telegram"
-            >
-              <span aria-hidden="true">✈️</span>
-            </button>
-            <button
-              type="button"
-              className="sharePlatformBtn"
-              onClick={() => shareTo("line", props.url, props.title)}
-              aria-label="LINE"
-            >
-              <span aria-hidden="true">🟢</span>
-            </button>
-            <button
-              type="button"
-              className="sharePlatformBtn"
-              onClick={() => shareTo("email", props.url, props.title)}
-              aria-label="Email"
-            >
-              <span aria-hidden="true">✉️</span>
-            </button>
+            {WEB_TARGETS.map((target) => (
+              <button
+                type="button"
+                key={target.key}
+                className="sharePlatformBtn"
+                onClick={() => openTarget(target)}
+              >
+                <span aria-hidden="true">{target.icon}</span>
+                <span className="sharePlatformLabel">{target.label}</span>
+              </button>
+            ))}
           </div>
 
           {hasNativeShare ? (

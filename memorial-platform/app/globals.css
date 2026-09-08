@@ -1504,22 +1504,50 @@ img {
 }
 
 .sharePlatformBtn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  gap: 0.4rem;
+  height: 2.25rem;
+  padding: 0 0.75rem;
   border: 1px solid var(--line);
   border-radius: var(--radius-pill);
   background: var(--paper-raised);
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: var(--text-sm);
+  line-height: 1;
   transition:
     border-color var(--duration-fast) ease,
     background var(--duration-fast) ease;
 }
 
 .sharePlatformBtn:hover {
+  border-color: var(--olive);
+  background: rgba(85, 116, 100, 0.06);
+}
+
+.sharePlatformLabel {
+  white-space: nowrap;
+}
+
+/* The small "…" control that opens the QR/platform panel when the main button
+ * fires the one-tap native share. */
+.shareMoreDots {
+  margin-inline-start: var(--space-1);
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--paper-raised);
+  cursor: pointer;
+  line-height: 1;
+  color: var(--ink);
+  transition:
+    border-color var(--duration-fast) ease,
+    background var(--duration-fast) ease;
+}
+
+.shareMoreDots:hover {
   border-color: var(--olive);
   background: rgba(85, 116, 100, 0.06);
 }
