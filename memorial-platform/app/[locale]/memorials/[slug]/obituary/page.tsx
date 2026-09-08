@@ -8,7 +8,10 @@ import { siteUrl } from "@/lib/env";
 import { currentActor } from "@/modules/auth/current-user";
 import { loadMemorialDetail } from "@/modules/memorials/detail";
 import { getObituary } from "@/modules/memorials/obituary";
-import { portraitsBySlug } from "@/modules/media/service";
+import {
+  portraitsBySlug,
+  portraitDataUrlForSlug,
+} from "@/modules/media/service";
 import { memorialUrl } from "@/modules/memorials/seo";
 import { ObituaryShare } from "./obituary-share";
 import type { PosterData } from "./obituary-share";
@@ -26,22 +29,6 @@ function formatDate(
   if (precision === "year") return cjk ? `${y}年` : `${y}`;
   if (precision === "month") return cjk ? `${y}年${Number(m)}月` : `${y}-${m}`;
   return cjk ? `${y}年${Number(m)}月${Number(d)}日` : `${y}-${m}-${d}`;
-}
-
-/** Fetches an image and inlines it as a data URL (same-origin, canvas-safe). */
-async function toDataUrl(url: string): Promise<string | null> {
-  try {
-    // A memorial's public portrait is a relative proxy path (/api/media/...),
-    // and Node's fetch rejects a relative URL — make it absolute first.
-    const absolute = url.startsWith("http") ? url : `${siteUrl()}${url}`;
-    const res = await fetch(absolute);
-    if (!res.ok) return null;
-    const buf = Buffer.from(await res.arrayBuffer());
-    const type = res.headers.get("content-type") || "image/webp";
-    return `data:${type};base64,${buf.toString("base64")}`;
-  } catch {
-    return null;
-  }
 }
 
 async function loadObituary(slug: string, locale: string) {
@@ -110,7 +97,7 @@ export default async function ObituaryPage(props: {
 
   const data = await loadObituary(slug, locale);
   if (!data) notFound();
-  const { detail, obituary, birth, death, portrait, gender } = data;
+  const { detail, obituary, birth, death, gender } = data;
 
   const life = birth && death ? `${birth} — ${death}` : birth || death;
   const pageUrl = memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug });
@@ -145,10 +132,10 @@ export default async function ObituaryPage(props: {
     .filter((s) => s !== "")
     .join("\n");
 
-  // The poster canvas cannot draw a cross-origin (signed) portrait without
-  // tainting and failing to export. Inline the portrait as a data URL instead,
-  // so it works even while the memorial is still a private draft.
-  const posterPortrait = portrait ? await toDataUrl(portrait) : null;
+  // The poster canvas cannot draw a cross-origin (signed) or proxied portrait
+  // without tainting/failing to export, so read the bytes straight from storage
+  // and inline them — works even while the memorial is still a private draft.
+  const posterPortrait = await portraitDataUrlForSlug(detail.slug);
 
   const poster: PosterData = {
     name: detail.primaryName,

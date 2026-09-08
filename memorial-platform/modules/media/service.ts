@@ -671,6 +671,74 @@ export async function portraitsBySlug(
   return found;
 }
 
+function sniffImageMime(bytes: Uint8Array): string {
+  if (bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) {
+    return "image/jpeg";
+  }
+  if (
+    bytes.length >= 8 &&
+    bytes[0] === 0x89 &&
+    bytes[1] === 0x50 &&
+    bytes[2] === 0x4e &&
+    bytes[3] === 0x47
+  ) {
+    return "image/png";
+  }
+  if (
+    bytes.length >= 12 &&
+    bytes[0] === 0x52 && // R
+    bytes[1] === 0x49 && // I
+    bytes[2] === 0x46 && // F
+    bytes[3] === 0x46 && // F
+    bytes[8] === 0x57 && // W
+    bytes[9] === 0x45 && // E
+    bytes[10] === 0x42 && // B
+    bytes[11] === 0x50 // P
+  ) {
+    return "image/webp";
+  }
+  return "image/webp";
+}
+
+/**
+ * The 遗像 for a memorial, read straight from storage and inlined as a data URL.
+ *
+ * Used by the obituary poster, which draws the portrait onto a canvas: reading
+ * the bytes here (rather than fetching a signed or proxied URL over HTTP) avoids
+ * canvas tainting and works even while the memorial is still a private draft.
+ */
+export async function portraitDataUrlForSlug(
+  slug: string,
+): Promise<string | null> {
+  const rows = await db()
+    .select({
+      readyObjectKey: mediaAssets.readyObjectKey,
+      createdAt: mediaAssets.createdAt,
+    })
+    .from(mediaAssets)
+    .innerJoin(memorials, eq(memorials.id, mediaAssets.memorialId))
+    .where(
+      and(
+        eq(memorials.slug, slug),
+        eq(mediaAssets.kind, "image"),
+        eq(mediaAssets.status, "ready"),
+        isNull(mediaAssets.deletedAt),
+        sql`not exists (select 1 from ${contentMedia} where ${contentMedia.mediaId} = ${mediaAssets.id})`,
+      ),
+    )
+    .orderBy(asc(mediaAssets.createdAt));
+
+  const newest = rows[rows.length - 1];
+  if (!newest?.readyObjectKey) return null;
+
+  const bytes = await mediaStorage().getObject(newest.readyObjectKey);
+  if (!bytes || bytes.length === 0) return null;
+
+  const mime = sniffImageMime(bytes);
+  const base64 = Buffer.from(bytes).toString("base64");
+  return `data:${mime};base64,${base64}`;
+}
+
 export type OwnerPhoto = {
   ownerId: string;
   mediaId: string;
