@@ -16,6 +16,9 @@ export type PosterData = PosterInput;
  */
 export function ObituaryShare(props: {
   memorialUrl: string;
+  /** Where "进入/管理" goes — the manage page for a manager, else the memorial. */
+  enterHref: string;
+  canManage: boolean;
   shareText: string;
   poster: PosterData;
 }) {
@@ -165,9 +168,9 @@ export function ObituaryShare(props: {
         </button>
         <Link
           className="button buttonQuiet buttonCompact"
-          href={props.memorialUrl}
+          href={props.enterHref}
         >
-          {t("obituaryEnterMemorial")}
+          {props.canManage ? t("manageLink") : t("obituaryEnterMemorial")}
         </Link>
       </div>
 

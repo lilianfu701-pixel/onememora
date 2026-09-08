@@ -24,6 +24,7 @@ import { listPendingClaims } from "@/modules/memorials/recognition";
 import { ritualChoices } from "@/modules/religion/memorial-settings";
 import { ManageForms } from "./manage-forms";
 import { PhotoManager } from "./photo-manager";
+import { DetailsEditor } from "./details-editor";
 import { FamilyEditor } from "./family-editor";
 import { PrivacyEditor } from "./privacy-editor";
 import { RelativesEditor } from "./relatives-editor";
@@ -217,6 +218,24 @@ export default async function ManageMemorialPage(props: {
         {mayEditStory ? (
           <div className="manageCard">
             <PhotoManager memorialId={detail.memorialId} initial={photos} />
+          </div>
+        ) : null}
+
+        {mayEditStory ? (
+          <div className="manageCard">
+            <DetailsEditor
+              memorialId={detail.memorialId}
+              initialBirth={
+                detail.birthDatePrecision === "day" && detail.birthDate
+                  ? detail.birthDate.slice(0, 10)
+                  : ""
+              }
+              initialDeath={
+                detail.deathDatePrecision === "day" && detail.deathDate
+                  ? detail.deathDate.slice(0, 10)
+                  : ""
+              }
+            />
           </div>
         ) : null}
 

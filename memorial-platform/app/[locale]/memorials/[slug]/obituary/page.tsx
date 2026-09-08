@@ -112,6 +112,13 @@ export default async function ObituaryPage(props: {
   const life = birth && death ? `${birth} — ${death}` : birth || death;
   const pageUrl = memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug });
 
+  // Someone who created via the obituary flow lands on a barely-built draft, so
+  // send a manager straight to the manage page to finish it; visitors go to the
+  // public memorial page.
+  const canManage =
+    detail.viewerRole !== "public_visitor" &&
+    detail.viewerRole !== "invited_visitor";
+
   // The plain-text version people paste into a chat or a WeChat post.
   const shareText = [
     `${t("obituaryTitle")}`,
@@ -165,6 +172,12 @@ export default async function ObituaryPage(props: {
 
         <ObituaryShare
           memorialUrl={pageUrl}
+          enterHref={
+            canManage
+              ? `/${locale}/memorials/${detail.slug}/manage`
+              : pageUrl
+          }
+          canManage={canManage}
           shareText={shareText}
           poster={poster}
         />
