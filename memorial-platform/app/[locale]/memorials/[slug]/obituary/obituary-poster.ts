@@ -201,14 +201,14 @@ export async function drawObituaryPoster(
 
   // QR into the white box (template box ≈ x555–758, y1273–1472).
   if (qr) {
-    ctx.drawImage(qr, 562, 1272, 184, 184);
+    ctx.drawImage(qr, 562, 1274, 184, 184);
   }
 
   // Public number after the 搜索 label.
   if (data.number) {
     ctx.fillStyle = WHITE;
     ctx.textAlign = "left";
-    ctx.font = `600 30px ${SERIF}`;
+    ctx.font = `600 34px ${SERIF}`;
     ctx.fillText(data.number, 862, 1478);
   }
 }
