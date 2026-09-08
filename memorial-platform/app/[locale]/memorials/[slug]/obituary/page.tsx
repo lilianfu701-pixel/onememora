@@ -177,7 +177,6 @@ export default async function ObituaryPage(props: {
               ? `/${locale}/memorials/${detail.slug}/manage`
               : pageUrl
           }
-          canManage={canManage}
           shareText={shareText}
           poster={poster}
         />

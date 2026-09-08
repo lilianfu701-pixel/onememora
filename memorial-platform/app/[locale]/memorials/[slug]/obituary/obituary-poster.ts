@@ -201,7 +201,7 @@ export async function drawObituaryPoster(
 
   // QR into the white box (template box ≈ x555–758, y1273–1472).
   if (qr) {
-    ctx.drawImage(qr, 562, 1284, 184, 184);
+    ctx.drawImage(qr, 562, 1266, 184, 184);
   }
 
   // Public number after the 搜索 label.
@@ -209,6 +209,6 @@ export async function drawObituaryPoster(
     ctx.fillStyle = WHITE;
     ctx.textAlign = "left";
     ctx.font = `600 30px ${SERIF}`;
-    ctx.fillText(data.number, 862, 1497);
+    ctx.fillText(data.number, 862, 1478);
   }
 }
