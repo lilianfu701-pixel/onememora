@@ -66,7 +66,7 @@ export function PhotoManager(props: { memorialId: string; initial: Photo[] }) {
 
   function onCropDone(blob: Blob): void {
     closeCropper();
-    void handleFile(new File([blob], "portrait.webp", { type: "image/webp" }));
+    void handleFile(new File([blob], "portrait.jpg", { type: "image/jpeg" }));
   }
 
   function readError(payload: unknown): string {

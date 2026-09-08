@@ -39,10 +39,13 @@ async function cropToBlob(src: string, area: Area): Promise<Blob> {
     OUT_WIDTH,
     OUT_HEIGHT,
   );
+  // JPEG, not WebP: production's image pipeline falls back to a pure-JS
+  // processor when sharp's native library is unavailable, and that fallback
+  // only decodes JPEG/PNG — a WebP upload fails with "SOI not found".
   return await new Promise<Blob>((resolve, reject) => {
     canvas.toBlob(
       (blob) => (blob ? resolve(blob) : reject(new Error("toBlob failed"))),
-      "image/webp",
+      "image/jpeg",
       0.9,
     );
   });

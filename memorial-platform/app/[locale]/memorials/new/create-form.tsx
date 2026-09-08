@@ -391,7 +391,7 @@ export function CreateMemorialForm(props: {
   }
 
   function onCropDone(blob: Blob): void {
-    const cropped = new File([blob], "portrait.webp", { type: "image/webp" });
+    const cropped = new File([blob], "portrait.jpg", { type: "image/jpeg" });
     pickPortrait(cropped);
     closeCropper();
   }

@@ -125,7 +125,7 @@ export function ObituaryNewForm(props: {
   }
 
   function onCropDone(blob: Blob): void {
-    pickPortrait(new File([blob], "portrait.webp", { type: "image/webp" }));
+    pickPortrait(new File([blob], "portrait.jpg", { type: "image/jpeg" }));
     closeCropper();
   }
 
