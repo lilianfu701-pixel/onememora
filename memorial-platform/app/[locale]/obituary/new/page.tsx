@@ -54,6 +54,7 @@ export default async function PublishObituaryPage(props: {
       nativePlace: memorials.obituaryNativePlace,
       service: memorials.obituaryService,
       survivors: memorials.obituarySurvivors,
+      age: memorials.obituaryAge,
     })
     .from(memorials)
     .leftJoin(
@@ -80,6 +81,7 @@ export default async function PublishObituaryPage(props: {
       nativePlace: r.nativePlace,
       service: r.service,
       survivors: r.survivors,
+      age: r.age,
     },
   }));
 

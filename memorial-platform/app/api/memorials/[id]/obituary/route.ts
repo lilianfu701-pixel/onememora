@@ -15,6 +15,7 @@ const schema = z.object({
   nativePlace: z.string().trim().max(120).optional(),
   service: z.string().trim().max(600).optional(),
   survivors: z.string().trim().max(400).optional(),
+  age: z.string().trim().max(20).optional(),
   publish: z.boolean().optional(),
 });
 
@@ -38,6 +39,7 @@ export async function PUT(
     nativePlace: body.value.nativePlace ?? null,
     service: body.value.service ?? null,
     survivors: body.value.survivors ?? null,
+    age: body.value.age ?? null,
     publish: body.value.publish ?? false,
   });
   if (!result.ok) {

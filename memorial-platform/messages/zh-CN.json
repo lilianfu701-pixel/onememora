@@ -399,6 +399,8 @@
     "obituaryBodyLabel": "讣告正文",
     "obituaryBodyPlaceholder": "例：我们敬爱的父亲 XXX，于 20XX 年 X 月 X 日因病医治无效，不幸逝世，享年 XX 岁。",
     "obituaryNativePlaceLabel": "籍贯",
+    "obituaryAgeLabel": "享年（岁）",
+    "obituaryAgeShown": "享年 {age} 岁",
     "obituaryServiceLabel": "治丧信息（追悼会/告别仪式 时间·地点）",
     "obituaryServicePlaceholder": "例：告别仪式定于 20XX 年 X 月 X 日上午 X 时，于 XX 殡仪馆举行。",
     "obituarySurvivorsLabel": "家属署名",

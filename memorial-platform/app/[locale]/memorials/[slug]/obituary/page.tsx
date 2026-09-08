@@ -94,6 +94,7 @@ export default async function ObituaryPage(props: {
     "",
     detail.primaryName,
     life,
+    obituary.age ? t("obituaryAgeShown", { age: obituary.age }) : "",
     obituary.nativePlace
       ? `${t("obituaryNativePrefix")}${obituary.nativePlace}`
       : "",
@@ -118,6 +119,7 @@ export default async function ObituaryPage(props: {
   const poster: PosterData = {
     name: detail.primaryName,
     dates: life ?? "",
+    age: obituary.age,
     nativePlace: obituary.nativePlace,
     body: obituary.body!,
     service: obituary.service,
@@ -141,6 +143,11 @@ export default async function ObituaryPage(props: {
           ) : null}
           <h1 className="obituaryName">{detail.primaryName}</h1>
           {life ? <p className="obituaryLife">{life}</p> : null}
+          {obituary.age ? (
+            <p className="obituaryLife">
+              {t("obituaryAgeShown", { age: obituary.age })}
+            </p>
+          ) : null}
           {obituary.nativePlace ? (
             <p className="obituaryMeta">
               {t("obituaryNativePrefix")}

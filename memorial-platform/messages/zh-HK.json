@@ -399,6 +399,8 @@
     "obituaryBodyLabel": "訃告正文",
     "obituaryBodyPlaceholder": "例：我們敬愛的父親 XXX，於 20XX 年 X 月 X 日因病醫治無效，不幸逝世，享年 XX 歲。",
     "obituaryNativePlaceLabel": "籍貫",
+    "obituaryAgeLabel": "享年（歲）",
+    "obituaryAgeShown": "享年 {age} 歲",
     "obituaryServiceLabel": "治喪資訊（追悼會/告別儀式 時間·地點）",
     "obituaryServicePlaceholder": "例：告別儀式定於 20XX 年 X 月 X 日上午 X 時，於 XX 殯儀館舉行。",
     "obituarySurvivorsLabel": "家屬署名",

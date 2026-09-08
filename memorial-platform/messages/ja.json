@@ -399,6 +399,8 @@
     "obituaryBodyLabel": "Obituary text",
     "obituaryBodyPlaceholder": "e.g. Our beloved father passed away on … after illness, aged …",
     "obituaryNativePlaceLabel": "Native place",
+    "obituaryAgeLabel": "享年（歳）",
+    "obituaryAgeShown": "享年 {age} 歳",
     "obituaryServiceLabel": "Service details (time & place)",
     "obituaryServicePlaceholder": "e.g. The farewell ceremony will be held on … at …",
     "obituarySurvivorsLabel": "Signed by the family",

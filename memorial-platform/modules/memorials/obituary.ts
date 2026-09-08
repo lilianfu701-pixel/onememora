@@ -12,6 +12,8 @@ export interface Obituary {
   nativePlace: string | null;
   service: string | null;
   survivors: string | null;
+  /** 享年 — age at death, as the family wrote it. */
+  age: string | null;
   published: boolean;
 }
 
@@ -25,6 +27,7 @@ export async function getObituary(memorialId: string): Promise<Obituary | null> 
       nativePlace: memorials.obituaryNativePlace,
       service: memorials.obituaryService,
       survivors: memorials.obituarySurvivors,
+      age: memorials.obituaryAge,
       publishedAt: memorials.obituaryPublishedAt,
     })
     .from(memorials)
@@ -35,6 +38,7 @@ export async function getObituary(memorialId: string): Promise<Obituary | null> 
     nativePlace: row.nativePlace,
     service: row.service,
     survivors: row.survivors,
+    age: row.age,
     published: row.publishedAt !== null,
   };
 }
@@ -51,6 +55,7 @@ export async function setObituary(
     nativePlace?: string | null;
     service?: string | null;
     survivors?: string | null;
+    age?: string | null;
     publish?: boolean;
   },
 ): Promise<Result<Obituary, ObituaryError>> {
@@ -75,6 +80,7 @@ export async function setObituary(
   const nativePlace = clean(input.nativePlace, 120);
   const service = clean(input.service, 600);
   const survivors = clean(input.survivors, 400);
+  const age = clean(input.age, 20);
 
   // An obituary with no body cannot be published; publishing needs a body.
   const shouldPublish = Boolean(input.publish) && body !== null;
@@ -89,6 +95,7 @@ export async function setObituary(
       obituaryNativePlace: nativePlace,
       obituaryService: service,
       obituarySurvivors: survivors,
+      obituaryAge: age,
       obituaryPublishedAt: publishedAt,
     })
     .where(eq(memorials.id, memorialId));
@@ -98,6 +105,7 @@ export async function setObituary(
     nativePlace,
     service,
     survivors,
+    age,
     published: publishedAt !== null,
   });
 }

@@ -7,6 +7,8 @@ import { QRCodeCanvas } from "qrcode.react";
 export type PosterData = {
   name: string;
   dates: string;
+  /** 享年 — age at death, as the family wrote it (digits only). */
+  age: string | null;
   nativePlace: string | null;
   body: string;
   service: string | null;
@@ -113,6 +115,10 @@ export function ObituaryShare(props: {
       ctx.fillStyle = "#6b625b";
       if (props.poster.dates) {
         ctx.fillText(props.poster.dates, W / 2, y);
+        y += 40;
+      }
+      if (props.poster.age) {
+        ctx.fillText(t("obituaryAgeShown", { age: props.poster.age }), W / 2, y);
         y += 40;
       }
       if (props.poster.nativePlace) {

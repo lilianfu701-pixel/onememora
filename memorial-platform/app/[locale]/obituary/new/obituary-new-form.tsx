@@ -28,6 +28,7 @@ type ExistingMemorial = {
     nativePlace: string | null;
     service: string | null;
     survivors: string | null;
+    age: string | null;
   } | null;
 };
 
@@ -66,6 +67,7 @@ export function ObituaryNewForm(props: {
   const [nativePlace, setNativePlace] = useState(initialObit?.nativePlace ?? "");
   const [service, setService] = useState(initialObit?.service ?? "");
   const [survivors, setSurvivors] = useState(initialObit?.survivors ?? "");
+  const [age, setAge] = useState(initialObit?.age ?? "");
 
   // The portrait (遗像), cropped to the fixed frame before upload. Held locally
   // and uploaded once the memorial (new or existing) is known.
@@ -140,6 +142,7 @@ export function ObituaryNewForm(props: {
     setNativePlace(o?.nativePlace ?? "");
     setService(o?.service ?? "");
     setSurvivors(o?.survivors ?? "");
+    setAge(o?.age ?? "");
   }
 
   function partialDate(value: string): { value: string; precision: "day" } | null {
@@ -155,6 +158,7 @@ export function ObituaryNewForm(props: {
         nativePlace: nativePlace.trim() || undefined,
         service: service.trim() || undefined,
         survivors: survivors.trim() || undefined,
+        age: age.trim() || undefined,
         publish: true,
       }),
     });
@@ -442,6 +446,19 @@ export function ObituaryNewForm(props: {
           maxLength={120}
           value={nativePlace}
           onChange={(e) => setNativePlace(e.target.value)}
+        />
+      </label>
+
+      <label className="field">
+        <span className="fieldLabel">{t("obituaryAgeLabel")}</span>
+        <input
+          className="input"
+          type="number"
+          min={0}
+          max={200}
+          inputMode="numeric"
+          value={age}
+          onChange={(e) => setAge(e.target.value)}
         />
       </label>
 

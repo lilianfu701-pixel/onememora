@@ -215,6 +215,8 @@ export const memorials = pgTable(
     obituaryNativePlace: text("obituary_native_place"),
     obituaryService: text("obituary_service"),
     obituarySurvivors: text("obituary_survivors"),
+    /** 享年 — age at death, filled by the family (not derived). */
+    obituaryAge: text("obituary_age"),
     obituaryPublishedAt: timestamp("obituary_published_at", {
       withTimezone: true,
     }),

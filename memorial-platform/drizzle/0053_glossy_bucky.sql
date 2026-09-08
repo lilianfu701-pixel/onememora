@@ -1,0 +1,1 @@
+ALTER TABLE "memorials" ADD COLUMN "obituary_age" text;
