@@ -31,7 +31,10 @@ function formatDate(
 /** Fetches an image and inlines it as a data URL (same-origin, canvas-safe). */
 async function toDataUrl(url: string): Promise<string | null> {
   try {
-    const res = await fetch(url);
+    // A memorial's public portrait is a relative proxy path (/api/media/...),
+    // and Node's fetch rejects a relative URL — make it absolute first.
+    const absolute = url.startsWith("http") ? url : `${siteUrl()}${url}`;
+    const res = await fetch(absolute);
     if (!res.ok) return null;
     const buf = Buffer.from(await res.arrayBuffer());
     const type = res.headers.get("content-type") || "image/webp";
