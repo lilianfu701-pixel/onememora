@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useMemo, useRef, useState } from "react";
+import { PortraitCropper } from "../../memorials/portrait-cropper";
 
 /** The relationships eligible to create a memorial (mirrors the server list). */
 const RELATIONSHIPS = [
@@ -64,9 +65,65 @@ export function ObituaryNewForm(props: {
   const [service, setService] = useState(initialObit?.service ?? "");
   const [survivors, setSurvivors] = useState(initialObit?.survivors ?? "");
 
+  // The portrait (遗像), cropped to the fixed frame before upload. Held locally
+  // and uploaded once the memorial (new or existing) is known.
+  const [portraitFile, setPortraitFile] = useState<File | null>(null);
+  const [portraitPreview, setPortraitPreview] = useState<string | null>(null);
+  const [cropSrc, setCropSrc] = useState<string | null>(null);
+
   const [sending, setSending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const attemptKey = useRef<string>(crypto.randomUUID());
+
+  // Sign → PUT → complete for the portrait against a memorial.
+  async function uploadPortrait(memorialId: string, file: File): Promise<void> {
+    const sign = await fetch("/api/media/sign", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        memorialId,
+        fileName: file.name,
+        contentType: file.type,
+        size: file.size,
+      }),
+    });
+    if (!sign.ok) throw new Error("sign");
+    const s = (await sign.json()).data;
+    const put = await fetch(s.url, { method: "PUT", headers: s.headers, body: file });
+    if (!put.ok) throw new Error("put");
+    const complete = await fetch(`/api/media/${s.mediaAssetId}/complete`, {
+      method: "POST",
+    });
+    if (!complete.ok) throw new Error("complete");
+  }
+
+  function pickPortrait(file: File | null): void {
+    setPortraitFile(file);
+    setPortraitPreview((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return file ? URL.createObjectURL(file) : null;
+    });
+  }
+
+  function openCropper(file: File | null): void {
+    if (!file) return;
+    setCropSrc((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return URL.createObjectURL(file);
+    });
+  }
+
+  function closeCropper(): void {
+    setCropSrc((prev) => {
+      if (prev) URL.revokeObjectURL(prev);
+      return null;
+    });
+  }
+
+  function onCropDone(blob: Blob): void {
+    pickPortrait(new File([blob], "portrait.webp", { type: "image/webp" }));
+    closeCropper();
+  }
 
   const byId = useMemo(
     () => new Map(props.memorials.map((m) => [m.id, m])),
@@ -125,6 +182,14 @@ export function ObituaryNewForm(props: {
           setError(t("obituaryPublishFailed"));
           return;
         }
+        if (portraitFile) {
+          // A portrait failure must not lose the published obituary.
+          try {
+            await uploadPortrait(m.id, portraitFile);
+          } catch {
+            /* portrait can be added later on the memorial page */
+          }
+        }
         router.push(`/${props.locale}/memorials/${m.slug}/obituary`);
         return;
       }
@@ -163,6 +228,14 @@ export function ObituaryNewForm(props: {
       if (!createRes.ok || !created?.data?.memorialId) {
         setError(t("obituaryPublishFailed"));
         return;
+      }
+
+      if (portraitFile) {
+        try {
+          await uploadPortrait(created.data.memorialId, portraitFile);
+        } catch {
+          /* portrait can be added later on the memorial page */
+        }
       }
 
       const ok = await publishObituary(created.data.memorialId);
@@ -280,6 +353,50 @@ export function ObituaryNewForm(props: {
           )}
         </label>
       )}
+
+      <div className="portraitField">
+        <div className="portraitPreview" aria-hidden={!portraitPreview}>
+          {portraitPreview ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={portraitPreview} alt="" />
+          ) : (
+            <span className="portraitPlaceholder" aria-hidden="true">
+              ☖
+            </span>
+          )}
+        </div>
+        <div className="portraitControls">
+          <span className="fieldLabel">{t("portraitLabel")}</span>
+          <p className="muted portraitHint">{t("portraitHint")}</p>
+          <div className="portraitButtons">
+            <label className="button buttonQuiet buttonCompact">
+              {t("addPhoto")}
+              <input
+                type="file"
+                accept="image/*"
+                hidden
+                onChange={(e) => {
+                  openCropper(e.target.files?.[0] ?? null);
+                  e.target.value = "";
+                }}
+              />
+            </label>
+            {portraitPreview ? (
+              <button
+                type="button"
+                className="linkButton"
+                onClick={() => pickPortrait(null)}
+              >
+                {common("remove")}
+              </button>
+            ) : null}
+          </div>
+        </div>
+      </div>
+
+      {cropSrc ? (
+        <PortraitCropper src={cropSrc} onDone={onCropDone} onCancel={closeCropper} />
+      ) : null}
 
       <label className="field">
         <span className="fieldLabel">
