@@ -14,6 +14,7 @@ import { currentActor } from "@/modules/auth/current-user";
 import { loadProfile } from "@/modules/identity/profile";
 import { discoverMentions } from "@/modules/memorials/recognition-discovery";
 import { DeleteMemorialButton } from "./delete-memorial-button";
+import { DeleteObituaryButton } from "./delete-obituary-button";
 import { RemoveBookmarkButton } from "./remove-bookmark-button";
 import { RecognitionClaimButton } from "./recognition-claim-button";
 
@@ -81,9 +82,9 @@ async function membershipMemorials(
 /** The owner's memorials that carry a published obituary. */
 async function myObituaries(
   userId: string,
-): Promise<{ slug: string; name: string | null }[]> {
+): Promise<{ id: string; slug: string; name: string | null }[]> {
   return db()
-    .select({ slug: memorials.slug, name: memorialNames.value })
+    .select({ id: memorials.id, slug: memorials.slug, name: memorialNames.value })
     .from(memorialMembers)
     .innerJoin(memorials, eq(memorials.id, memorialMembers.memorialId))
     .leftJoin(
@@ -326,6 +327,7 @@ export default async function MyMemorialsPage(props: {
                   >
                     {home("publishObituary")}
                   </Link>
+                  <DeleteObituaryButton memorialId={o.id} />
                 </div>
               </li>
             ))}
