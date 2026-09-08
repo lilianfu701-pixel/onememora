@@ -38,6 +38,7 @@ export function ObituaryNewForm(props: {
 }) {
   const t = useTranslations("memorial");
   const common = useTranslations("common");
+  const profileT = useTranslations("profile");
   const router = useRouter();
 
   const preselected = props.preselectSlug
@@ -50,6 +51,7 @@ export function ObituaryNewForm(props: {
 
   // New-memorial fields.
   const [name, setName] = useState("");
+  const [gender, setGender] = useState("");
   const [relationship, setRelationship] = useState("");
   const [birthDate, setBirthDate] = useState("");
   const [deathDate, setDeathDate] = useState("");
@@ -199,6 +201,10 @@ export function ObituaryNewForm(props: {
         setError(t("obituaryNeedsName"));
         return;
       }
+      if (!gender) {
+        setError(t("obituaryNeedsGender"));
+        return;
+      }
       if (!relationship) {
         setError(t("obituaryNeedsRelationship"));
         return;
@@ -220,6 +226,7 @@ export function ObituaryNewForm(props: {
           relationship,
           relationshipStatementAccepted: true,
           primaryName: { value: name.trim() },
+          gender,
           ...(birth ? { birthDate: birth } : {}),
           ...(death ? { deathDate: death } : {}),
         }),
@@ -289,6 +296,21 @@ export function ObituaryNewForm(props: {
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
+          </label>
+
+          <label className="field">
+            <span className="fieldLabel">
+              {profileT("genderLabel")} <span aria-hidden="true">*</span>
+            </span>
+            <select
+              className="input"
+              value={gender}
+              onChange={(e) => setGender(e.target.value)}
+            >
+              <option value="">{profileT("genderChoose")}</option>
+              <option value="male">{profileT("genderMale")}</option>
+              <option value="female">{profileT("genderFemale")}</option>
+            </select>
           </label>
 
           <label className="field">

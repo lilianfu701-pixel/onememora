@@ -72,6 +72,7 @@ const schema = z.object({
   ancestralHometown: z.string().max(200).optional(),
   faith: z.string().max(200).optional(),
   causeOfDeath: z.string().max(500).optional(),
+  gender: z.enum(["male", "female"]).optional(),
   relatives: z
     .array(
       z.object({

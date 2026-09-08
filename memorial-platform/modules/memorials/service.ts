@@ -73,6 +73,7 @@ export type CreateMemorialInput = {
   ancestralHometown?: string | undefined;
   faith?: string | undefined;
   causeOfDeath?: string | undefined;
+  gender?: "male" | "female" | undefined;
   relatives?:
     | {
         name: string;
@@ -205,6 +206,7 @@ export async function createMemorial(
         ancestralHometown: input.ancestralHometown?.trim() || null,
         faith: input.faith?.trim() || null,
         causeOfDeath: input.causeOfDeath?.trim() || null,
+        gender: input.gender ?? null,
       })
       .returning({ id: deceasedPeople.id });
 
