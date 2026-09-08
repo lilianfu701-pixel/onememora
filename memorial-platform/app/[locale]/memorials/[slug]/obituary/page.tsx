@@ -166,11 +166,10 @@ export default async function ObituaryPage(props: {
   return (
     <main id="main" className="section">
       <div className="container measure obituaryPage stack">
-        {/* The published poster leads; the person's name is the page heading for
-         * screen readers and accessibility. */}
-        <h1 className="obituaryKicker">
-          {t("obituaryTitle")}
-          <span className="srOnly">：{detail.primaryName}</span>
+        {/* The poster itself carries the 讣告 title, so the page heading is kept
+         * for screen readers only — no visible duplicate above the poster. */}
+        <h1 className="srOnly">
+          {t("obituaryTitle")}：{detail.primaryName}
         </h1>
 
         <ObituaryShare

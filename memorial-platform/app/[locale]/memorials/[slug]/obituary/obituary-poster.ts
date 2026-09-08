@@ -121,8 +121,8 @@ export async function drawObituaryPoster(
         ? "先生"
         : "女士"
       : "";
-    let namePx = 64;
-    const honPx = 36;
+    let namePx = 58;
+    const honPx = 34;
     const gap = 14;
     // Shrink the name until the whole name+honorific group fits the column.
     const maxW = 470;
@@ -134,7 +134,7 @@ export async function drawObituaryPoster(
     }
     const total = nameW + honW;
     const x = RIGHT_CX - total / 2;
-    const baseline = 346;
+    const baseline = 356;
     ctx.textAlign = "left";
     ctx.fillStyle = WHITE;
     ctx.font = `700 ${namePx}px ${SERIF}`;
@@ -201,7 +201,7 @@ export async function drawObituaryPoster(
 
   // QR into the white box (template box ≈ x555–758, y1273–1472).
   if (qr) {
-    ctx.drawImage(qr, 562, 1266, 184, 184);
+    ctx.drawImage(qr, 562, 1268, 184, 184);
   }
 
   // Public number after the 搜索 label.
