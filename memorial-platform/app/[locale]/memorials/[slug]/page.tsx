@@ -502,10 +502,7 @@ export default async function MemorialPage(props: {
             {detail.status === "draft" ? (
               <PublishPanel
                 memorialId={detail.memorialId}
-                willBeIndexed={
-                  detail.visibility === "public" &&
-                  detail.searchEngineIndexable
-                }
+                manageHref={`/${locale}/memorials/${detail.slug}/manage`}
               />
             ) : null}
 

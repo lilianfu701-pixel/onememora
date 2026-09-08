@@ -28,6 +28,19 @@ function formatDate(
   return cjk ? `${y}年${Number(m)}月${Number(d)}日` : `${y}-${m}-${d}`;
 }
 
+/** Fetches an image and inlines it as a data URL (same-origin, canvas-safe). */
+async function toDataUrl(url: string): Promise<string | null> {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    const type = res.headers.get("content-type") || "image/webp";
+    return `data:${type};base64,${buf.toString("base64")}`;
+  } catch {
+    return null;
+  }
+}
+
 async function loadObituary(slug: string, locale: string) {
   const actor = await currentActor();
   const result = await loadMemorialDetail(slug, actor);
@@ -122,10 +135,10 @@ export default async function ObituaryPage(props: {
     .filter((s) => s !== "")
     .join("\n");
 
-  // Same-origin portraits (served through our media proxy) can be drawn onto
-  // the poster canvas; a signed cross-origin URL would taint it, so skip it.
-  const posterPortrait =
-    portrait && portrait.includes("/api/media/public/") ? portrait : null;
+  // The poster canvas cannot draw a cross-origin (signed) portrait without
+  // tainting and failing to export. Inline the portrait as a data URL instead,
+  // so it works even while the memorial is still a private draft.
+  const posterPortrait = portrait ? await toDataUrl(portrait) : null;
 
   const poster: PosterData = {
     name: detail.primaryName,
