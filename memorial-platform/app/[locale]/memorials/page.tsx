@@ -1,4 +1,4 @@
-import { and, desc, eq, isNull, ne } from "drizzle-orm";
+import { and, desc, eq, isNotNull, isNull, ne } from "drizzle-orm";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -78,6 +78,33 @@ async function membershipMemorials(
     .orderBy(desc(memorials.createdAt));
 }
 
+/** The owner's memorials that carry a published obituary. */
+async function myObituaries(
+  userId: string,
+): Promise<{ slug: string; name: string | null }[]> {
+  return db()
+    .select({ slug: memorials.slug, name: memorialNames.value })
+    .from(memorialMembers)
+    .innerJoin(memorials, eq(memorials.id, memorialMembers.memorialId))
+    .leftJoin(
+      memorialNames,
+      and(
+        eq(memorialNames.memorialId, memorials.id),
+        eq(memorialNames.type, "primary"),
+      ),
+    )
+    .where(
+      and(
+        eq(memorialMembers.userId, userId),
+        eq(memorialMembers.role, "owner"),
+        isNull(memorialMembers.revokedAt),
+        isNotNull(memorials.obituaryPublishedAt),
+        isNull(memorials.deletionRequestedAt),
+      ),
+    )
+    .orderBy(desc(memorials.obituaryPublishedAt));
+}
+
 /** Memorials this person has bookmarked. */
 async function bookmarkedMemorials(userId: string): Promise<MemorialRow[]> {
   return db()
@@ -130,11 +157,12 @@ export default async function MyMemorialsPage(props: {
   }
 
   const profile = await loadProfile(actor.userId);
-  const [created, related, bookmarked, mentions] = await Promise.all([
+  const [created, related, bookmarked, mentions, obituaries] = await Promise.all([
     membershipMemorials(actor.userId, "owner"),
     membershipMemorials(actor.userId, "other"),
     bookmarkedMemorials(actor.userId),
     discoverMentions(actor.userId, profile?.fullName ?? null),
+    myObituaries(actor.userId),
   ]);
 
   const roleLabel = (relationship: string): string => {
@@ -213,12 +241,18 @@ export default async function MyMemorialsPage(props: {
     <main id="main" className="container section stack-lg">
       <header className="stack measure">
         <h1>{nav("myMemorials")}</h1>
-        <div>
+        <div className="adminHeadRow">
           <Link
             className="button buttonPrimary buttonCompact"
             href={`/${locale}/memorials/new`}
           >
             {home("createMemorial")}
+          </Link>
+          <Link
+            className="button buttonQuiet buttonCompact"
+            href={`/${locale}/obituary/new`}
+          >
+            {home("publishObituary")}
           </Link>
         </div>
       </header>
@@ -266,6 +300,35 @@ export default async function MyMemorialsPage(props: {
                 </li>
               );
             })}
+          </ul>
+        </section>
+      ) : null}
+
+      {obituaries.length > 0 ? (
+        <section className="stack">
+          <h2>{t("myObituaries")}</h2>
+          <ul className="memorialCardList">
+            {obituaries.map((o) => (
+              <li className="memorialCard" key={`obit-${o.slug}`}>
+                <div className="memorialCardBody">
+                  <span className="memorialCardName">{o.name ?? "—"}</span>
+                </div>
+                <div className="memorialCardActions">
+                  <Link
+                    className="button buttonQuiet buttonCompact"
+                    href={`/${locale}/memorials/${o.slug}/obituary`}
+                  >
+                    {t("viewObituary")}
+                  </Link>
+                  <Link
+                    className="button buttonPrimary buttonCompact"
+                    href={`/${locale}/obituary/new?memorial=${o.slug}`}
+                  >
+                    {home("publishObituary")}
+                  </Link>
+                </div>
+              </li>
+            ))}
           </ul>
         </section>
       ) : null}
