@@ -23,7 +23,9 @@ export type PosterInput = {
 
 export const POSTER_W = 1024;
 export const POSTER_H = 1536;
-const TEMPLATE_SRC = "/obituary/template-zh.png";
+// Bump the version when the template art changes, so browsers and the CDN fetch
+// the new file instead of a cached copy at the same path.
+const TEMPLATE_SRC = "/obituary/template-zh.png?v=2";
 
 const SERIF =
   '"Noto Serif SC", "Songti SC", "STSong", "SimSun", "Source Han Serif SC", serif';
@@ -152,48 +154,48 @@ export async function drawObituaryPoster(
       ? `${data.birth} — ${data.death}`
       : data.birth || data.death || "";
   if (life) {
-    ctx.font = `400 30px ${SERIF}`;
+    ctx.font = `400 34px ${SERIF}`;
     ctx.fillText(life, RIGHT_CX, 410);
   }
 
   // 享年.
   if (data.age) {
-    ctx.font = `400 32px ${SERIF}`;
-    ctx.fillText(`享年 ${data.age} 岁`, RIGHT_CX, 464);
+    ctx.font = `400 34px ${SERIF}`;
+    ctx.fillText(`享年 ${data.age} 岁`, RIGHT_CX, 466);
   }
 
   // Body — beneath the 讣告正文 label, full width.
   ctx.textAlign = "left";
   ctx.fillStyle = WHITE;
-  ctx.font = `400 30px ${SERIF}`;
+  ctx.font = `400 34px ${SERIF}`;
   {
     let y = 672;
     for (const line of wrapLines(ctx, data.body, 915)) {
-      if (y > 880) break;
+      if (y > 905) break;
       ctx.fillText(line, 60, y);
-      y += 45;
+      y += 46;
     }
   }
 
   // 治丧信息 content — to the right of the candle icon + label row.
   if (data.service) {
-    ctx.font = `400 27px ${SERIF}`;
-    let y = 990;
+    ctx.font = `400 30px ${SERIF}`;
+    let y = 992;
     for (const line of wrapLines(ctx, data.service, 820)) {
       if (y > 1055) break;
       ctx.fillText(line, 150, y);
-      y += 38;
+      y += 42;
     }
   }
 
   // 家属署名 content — clear of the candle photo, to the right.
   if (data.survivors) {
-    ctx.font = `400 27px ${SERIF}`;
+    ctx.font = `400 30px ${SERIF}`;
     let y = 1155;
     for (const line of wrapLines(ctx, data.survivors, 560)) {
-      if (y > 1250) break;
+      if (y > 1252) break;
       ctx.fillText(line, 415, y);
-      y += 38;
+      y += 42;
     }
   }
 
