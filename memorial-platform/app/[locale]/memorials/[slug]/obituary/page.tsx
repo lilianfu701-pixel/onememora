@@ -2,6 +2,9 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { eq } from "drizzle-orm";
+import { db } from "@/db/client";
+import { deceasedPeople, memorials } from "@/db/schema";
 import { siteUrl } from "@/lib/env";
 import { currentActor } from "@/modules/auth/current-user";
 import { loadMemorialDetail } from "@/modules/memorials/detail";
@@ -40,7 +43,16 @@ async function loadObituary(slug: string, locale: string) {
   const portraits = await portraitsBySlug([detail.slug]);
   const portrait = portraits.get(detail.slug) ?? null;
 
-  return { detail, obituary, birth, death, portrait };
+  // Gender drives the poster's 先生 / 女士 honorific.
+  const [gp] = await db()
+    .select({ gender: deceasedPeople.gender })
+    .from(memorials)
+    .innerJoin(deceasedPeople, eq(deceasedPeople.id, memorials.deceasedPersonId))
+    .where(eq(memorials.id, detail.memorialId));
+  const gender: "male" | "female" | null =
+    gp?.gender === "male" || gp?.gender === "female" ? gp.gender : null;
+
+  return { detail, obituary, birth, death, portrait, gender };
 }
 
 export async function generateMetadata(props: {
@@ -83,7 +95,7 @@ export default async function ObituaryPage(props: {
 
   const data = await loadObituary(slug, locale);
   if (!data) notFound();
-  const { detail, obituary, birth, death, portrait } = data;
+  const { detail, obituary, birth, death, portrait, gender } = data;
 
   const life = birth && death ? `${birth} — ${death}` : birth || death;
   const pageUrl = memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug });
@@ -118,9 +130,10 @@ export default async function ObituaryPage(props: {
 
   const poster: PosterData = {
     name: detail.primaryName,
-    dates: life ?? "",
+    birth: birth || null,
+    death: death || null,
     age: obituary.age,
-    nativePlace: obituary.nativePlace,
+    gender,
     body: obituary.body!,
     service: obituary.service,
     survivors: obituary.survivors,
