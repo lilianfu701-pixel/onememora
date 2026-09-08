@@ -1,6 +1,10 @@
 import { correlationIdFrom, jsonError, jsonSuccess } from "@/lib/api";
 import { currentActor } from "@/modules/auth/current-user";
-import { markUploadComplete } from "@/modules/media/service";
+import {
+  markUploadComplete,
+  processUploadedAsset,
+} from "@/modules/media/service";
+import { AlwaysCleanScanner } from "@/modules/media/storage";
 import { drainOutboxAfterResponse } from "@/modules/outbox/drain-after";
 
 const UUID_RE =
@@ -43,13 +47,28 @@ export async function POST(
     }
   }
 
+  // Process the image synchronously so it becomes `ready` immediately. Relying
+  // on the async outbox drain leaves portraits stuck "处理中" when the inline
+  // drain does not run and the scheduled drain is a day away. A failure here is
+  // swallowed — the outbox event (published by markUploadComplete) remains as
+  // the retry path — but for a valid image this makes the portrait usable at
+  // once, on the memorial page and the obituary poster alike.
+  let status: string = result.value.status;
+  try {
+    const processed = await processUploadedAsset(
+      result.value.mediaAssetId,
+      new AlwaysCleanScanner(),
+      correlationId,
+    );
+    if (processed.ok) status = "ready";
+  } catch {
+    /* leave it to the outbox retry path */
+  }
+
   drainOutboxAfterResponse(correlationId);
 
   return jsonSuccess(
-    {
-      mediaAssetId: result.value.mediaAssetId,
-      status: result.value.status,
-    },
+    { mediaAssetId: result.value.mediaAssetId, status },
     correlationId,
     202,
   );

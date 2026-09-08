@@ -169,16 +169,6 @@ export default async function ObituaryPage(props: {
           shareText={shareText}
           poster={poster}
         />
-
-        {/* TEMP diagnostic (manager only) — remove after the portrait issue. */}
-        {canManage ? (
-          <p className="muted" style={{ fontSize: "12px" }}>
-            诊断 · 遗像：
-            {posterPortrait
-              ? `已载入 约${Math.round(posterPortrait.length / 1024)}KB`
-              : "未找到（服务端没有已就绪的遗像）"}
-          </p>
-        ) : null}
       </div>
     </main>
   );
