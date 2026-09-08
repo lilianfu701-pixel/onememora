@@ -28,18 +28,8 @@ import { FamilyEditor } from "./family-editor";
 import { PrivacyEditor } from "./privacy-editor";
 import { RelativesEditor } from "./relatives-editor";
 import { RecognitionReview } from "./recognition-review";
-import { DonationsPanel } from "./donations-panel";
-import { listDonations } from "@/modules/offerings/donations";
 import { OfferingsToggle } from "./offerings-toggle";
 import { getOfferingsDisabled } from "@/modules/offerings/settings";
-import { FamilyEarnings } from "./family-earnings";
-import { familyAccrual } from "@/modules/offerings/accrual";
-import { FamilyPayout } from "./family-payout";
-import {
-  getBeneficiary,
-  listOwnerPayouts,
-  payoutStanding,
-} from "@/modules/offerings/payouts";
 import { ChaptersEditor } from "./chapters-editor";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
 import { DispositionEditor } from "./disposition-editor";
@@ -164,41 +154,18 @@ export default async function ManageMemorialPage(props: {
   // visitors see. Editing continues from the draft when one is ahead.
   const editing = draft ?? published;
 
-  // The family's donation ledger — only someone who may edit the memorial (an
-  // owner or editor) sees who gave and how much.
-  const donations = mayEditStory
-    ? await listDonations(detail.memorialId)
-    : null;
-
   // People the family has blocked from the guestbook, so they can be lifted.
   const blocked = mayEditStory ? await listBlocked(detail.memorialId) : [];
 
   // The obituary (讣告) the family can write, publish and share.
   const obituary = mayEditStory ? await getObituary(detail.memorialId) : null;
 
-  // Gift-out bookkeeping: total paid in, the 20% service fee, and the net the
-  // platform will gift to the family once they enrol and pass the ¥2000 mark.
-  const accrual = mayEditStory
-    ? await familyAccrual(detail.memorialId)
-    : null;
-
-  // The gift-out request panel is the owner's alone — it exposes the payout
-  // account and moves money.
+  // Offerings income, payouts and the donation ledger now live in the owner's
+  // account finances (账户 → 财务), not on each memorial's manage page.
   const isOwner = detail.viewerRole === "owner";
   const takeovers = isOwner
     ? await listPendingTakeovers(detail.memorialId)
     : [];
-  const beneficiary = isOwner ? await getBeneficiary(detail.memorialId) : null;
-  const payoutData = isOwner
-    ? {
-        beneficiary,
-        standing: await payoutStanding(
-          detail.memorialId,
-          beneficiary?.id ?? null,
-        ),
-        history: beneficiary ? await listOwnerPayouts(beneficiary.id) : [],
-      }
-    : null;
 
   // The structured life story, broken into chapters. Editing is the same
   // capability as editing the biography.
@@ -399,30 +366,6 @@ export default async function ManageMemorialPage(props: {
                 />
               </div>
             ) : null}
-          </section>
-        ) : null}
-
-        {donations ? (
-          <section className="manageGroup">
-            <p className="manageGroupLabel">{t("manageGroupOfferings")}</p>
-            {accrual ? (
-              <div className="manageCard">
-                <FamilyEarnings locale={normalized} accrual={accrual} />
-              </div>
-            ) : null}
-            {payoutData ? (
-              <div className="manageCard">
-                <FamilyPayout
-                  memorialId={detail.memorialId}
-                  beneficiary={payoutData.beneficiary}
-                  standing={payoutData.standing}
-                  history={payoutData.history}
-                />
-              </div>
-            ) : null}
-            <div className="manageCard">
-              <DonationsPanel locale={normalized} ledger={donations} />
-            </div>
           </section>
         ) : null}
 

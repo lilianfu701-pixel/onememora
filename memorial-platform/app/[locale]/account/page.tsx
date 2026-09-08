@@ -5,6 +5,7 @@ import { currentActor } from "@/modules/auth/current-user";
 import { loadProfile } from "@/modules/identity/profile";
 import { loadAccountInfo } from "@/modules/identity/account";
 import { AccountPage } from "./account-page";
+import { AccountFinance } from "./account-finance";
 import { MentionPrompt } from "../mention-prompt";
 import { AvatarEditor } from "./avatar-editor";
 import { loadAvatar } from "@/modules/identity/avatar";
@@ -72,6 +73,7 @@ export default async function AccountRoute(props: {
         createdAt={accountInfo?.createdAt.toISOString() ?? ""}
         locale={locale}
       />
+      <AccountFinance userId={actor.userId} locale={locale} />
     </main>
   );
 }
