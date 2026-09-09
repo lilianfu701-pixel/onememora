@@ -29,6 +29,7 @@ export function ObituaryShare(props: {
   const [copiedLink, setCopiedLink] = useState(false);
   const [copiedPoster, setCopiedPoster] = useState(false);
   const [canShareFiles, setCanShareFiles] = useState(false);
+  const [canNativeShare, setCanNativeShare] = useState(false);
 
   // Draw the poster onto the visible canvas once, after the QR has mounted.
   useEffect(() => {
@@ -60,12 +61,11 @@ export function ObituaryShare(props: {
       (navigator.maxTouchPoints > 0 ||
         (typeof window !== "undefined" &&
           window.matchMedia?.("(pointer: coarse)").matches));
+    const nativeShare =
+      typeof navigator.share === "function" && Boolean(isTouch);
+    setCanNativeShare(nativeShare);
     setCanShareFiles(
-      Boolean(
-        nav.canShare?.({ files: [file] }) &&
-          typeof navigator.share === "function" &&
-          isTouch,
-      ),
+      Boolean(nav.canShare?.({ files: [file] }) && nativeShare),
     );
   }, []);
 
@@ -133,7 +133,9 @@ export function ObituaryShare(props: {
   }
 
   async function shareLink(): Promise<void> {
-    if (typeof navigator.share === "function") {
+    // System share only on a phone/tablet; on desktop it is a near-empty Windows
+    // panel, so just copy the link there.
+    if (canNativeShare) {
       try {
         await navigator.share({
           title: props.poster.name,
