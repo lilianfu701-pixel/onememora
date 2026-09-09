@@ -60,7 +60,11 @@ export function ObituaryShare(props: {
         (typeof window !== "undefined" &&
           window.matchMedia?.("(pointer: coarse)").matches));
     setCanShareFiles(
-      Boolean(nav.canShare?.({ files: [file] }) && navigator.share && isTouch),
+      Boolean(
+        nav.canShare?.({ files: [file] }) &&
+          typeof navigator.share === "function" &&
+          isTouch,
+      ),
     );
   }, []);
 
@@ -97,7 +101,7 @@ export function ObituaryShare(props: {
   }
 
   async function shareLink(): Promise<void> {
-    if (navigator.share) {
+    if (typeof navigator.share === "function") {
       try {
         await navigator.share({
           title: props.poster.name,

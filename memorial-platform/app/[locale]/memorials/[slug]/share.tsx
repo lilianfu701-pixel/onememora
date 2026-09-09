@@ -98,7 +98,9 @@ export function Share(props: { url: string; title: string }) {
         (typeof window !== "undefined" &&
           window.matchMedia?.("(pointer: coarse)").matches));
     setHasNativeShare(
-      typeof navigator !== "undefined" && !!navigator.share && Boolean(isTouch),
+      typeof navigator !== "undefined" &&
+        typeof navigator.share === "function" &&
+        Boolean(isTouch),
     );
   }, []);
 
