@@ -90,7 +90,16 @@ export function Share(props: { url: string; title: string }) {
   const wrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setHasNativeShare(typeof navigator !== "undefined" && !!navigator.share);
+    // Prefer the OS share sheet only on touch devices (phone/tablet); on desktop
+    // it is a near-empty Windows panel, so fall back to our own panel there.
+    const isTouch =
+      typeof navigator !== "undefined" &&
+      (navigator.maxTouchPoints > 0 ||
+        (typeof window !== "undefined" &&
+          window.matchMedia?.("(pointer: coarse)").matches));
+    setHasNativeShare(
+      typeof navigator !== "undefined" && !!navigator.share && Boolean(isTouch),
+    );
   }, []);
 
   const handleClickOutside = useCallback((event: MouseEvent) => {

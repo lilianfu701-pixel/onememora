@@ -50,7 +50,18 @@ export function ObituaryShare(props: {
     const nav = navigator as Navigator & {
       canShare?: (data: { files: File[] }) => boolean;
     };
-    setCanShareFiles(Boolean(nav.canShare?.({ files: [file] }) && navigator.share));
+    // Only offer file-sharing on a touch device (phone/tablet), where the OS
+    // share sheet actually lists WeChat, Moments, etc. On desktop it opens a
+    // near-empty Windows share panel ("我们无法为你显示所有共享方法"), so there
+    // the 下载海报 button is the right path instead.
+    const isTouch =
+      typeof navigator !== "undefined" &&
+      (navigator.maxTouchPoints > 0 ||
+        (typeof window !== "undefined" &&
+          window.matchMedia?.("(pointer: coarse)").matches));
+    setCanShareFiles(
+      Boolean(nav.canShare?.({ files: [file] }) && navigator.share && isTouch),
+    );
   }, []);
 
   async function posterBlob(): Promise<Blob | null> {
