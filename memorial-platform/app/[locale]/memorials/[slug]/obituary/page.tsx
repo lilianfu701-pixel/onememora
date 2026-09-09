@@ -102,12 +102,13 @@ export default async function ObituaryPage(props: {
   const life = birth && death ? `${birth} — ${death}` : birth || death;
   const pageUrl = memorialUrl({ appUrl: siteUrl(), locale, slug: detail.slug });
 
-  // Someone who created via the obituary flow lands on a barely-built draft, so
-  // send a manager straight to the manage page to finish it; visitors go to the
-  // public memorial page.
+  // A manager whose memorial is still an unpublished draft is sent to the manage
+  // page to finish and publish it. Once it is published — and for every visitor —
+  // "进入追思页" goes to the public memorial page.
   const canManage =
     detail.viewerRole !== "public_visitor" &&
     detail.viewerRole !== "invited_visitor";
+  const enterManage = canManage && detail.status === "draft";
 
   // The plain-text version people paste into a chat or a WeChat post.
   const shareText = [
@@ -162,7 +163,7 @@ export default async function ObituaryPage(props: {
         <ObituaryShare
           memorialUrl={pageUrl}
           enterHref={
-            canManage
+            enterManage
               ? `/${locale}/memorials/${detail.slug}/manage`
               : pageUrl
           }
