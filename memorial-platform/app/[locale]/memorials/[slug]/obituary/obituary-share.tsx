@@ -27,6 +27,7 @@ export function ObituaryShare(props: {
   const [ready, setReady] = useState(false);
   const [copiedText, setCopiedText] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
+  const [copiedPoster, setCopiedPoster] = useState(false);
   const [canShareFiles, setCanShareFiles] = useState(false);
 
   // Draw the poster onto the visible canvas once, after the QR has mounted.
@@ -90,14 +91,45 @@ export function ObituaryShare(props: {
   async function sharePoster(): Promise<void> {
     const blob = await posterBlob();
     if (!blob) return;
-    const file = new File([blob], `讣告-${props.poster.name}.png`, {
-      type: "image/png",
-    });
-    try {
-      await navigator.share({ files: [file], title: props.poster.name });
-    } catch {
-      /* dismissed */
+    const fileName = `讣告-${props.poster.name}.png`;
+
+    // Phone/tablet: the OS share sheet takes the image into WeChat, Moments, etc.
+    if (canShareFiles) {
+      try {
+        await navigator.share({
+          files: [new File([blob], fileName, { type: "image/png" })],
+          title: props.poster.name,
+        });
+      } catch {
+        /* dismissed */
+      }
+      return;
     }
+
+    // Desktop: copy the image to the clipboard so it can be pasted straight into
+    // WeChat / QQ desktop — no empty Windows share panel.
+    try {
+      const clip = navigator.clipboard as Clipboard & {
+        write?: (items: ClipboardItem[]) => Promise<void>;
+      };
+      if (typeof ClipboardItem !== "undefined" && clip?.write) {
+        await clip.write([new ClipboardItem({ "image/png": blob })]);
+        setCopiedPoster(true);
+        setTimeout(() => setCopiedPoster(false), 2000);
+        return;
+      }
+    } catch {
+      /* clipboard image unsupported — fall back to a download */
+    }
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
   }
 
   async function shareLink(): Promise<void> {
@@ -156,16 +188,14 @@ export function ObituaryShare(props: {
         >
           {t("obituaryDownloadPoster")}
         </button>
-        {canShareFiles ? (
-          <button
-            type="button"
-            className="button buttonQuiet buttonCompact"
-            onClick={sharePoster}
-            disabled={!ready}
-          >
-            {t("obituarySharePoster")}
-          </button>
-        ) : null}
+        <button
+          type="button"
+          className="button buttonQuiet buttonCompact"
+          onClick={sharePoster}
+          disabled={!ready}
+        >
+          {copiedPoster ? t("obituaryCopied") : t("obituarySharePoster")}
+        </button>
         <button
           type="button"
           className="button buttonQuiet buttonCompact"
