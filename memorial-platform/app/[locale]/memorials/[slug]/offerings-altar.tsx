@@ -470,9 +470,9 @@ export function OfferingsAltar(props: {
   // for the modal, though donations are custom-only now.
   const [amountFixed, setAmountFixed] = useState(false);
   const [pending, setPending] = useState<string | null>(null);
-  const [notice, setNotice] = useState<"ok" | "fail" | "unavailable" | null>(
-    null,
-  );
+  const [notice, setNotice] = useState<
+    "ok" | "fail" | "unavailable" | "limited" | null
+  >(null);
   const [wreathRollOpen, setWreathRollOpen] = useState(false);
 
   // Six wreaths flank the portrait (three a side); if there are more, a button
@@ -491,7 +491,15 @@ export function OfferingsAltar(props: {
         body: JSON.stringify(payload),
       });
       if (!res.ok) {
-        setNotice("fail");
+        const data = await res.json().catch(() => null);
+        const code = data?.error?.code;
+        setNotice(
+          code === "RATE_LIMITED"
+            ? "limited"
+            : code === "FEATURE_DISABLED"
+              ? "unavailable"
+              : "fail",
+        );
         return false;
       }
       setNotice("ok");
@@ -524,6 +532,14 @@ export function OfferingsAltar(props: {
   }
 
   async function offerIncense(): Promise<void> {
+    // 上香 needs a signed-in identity so the one-per-day limit can apply.
+    if (!props.isLoggedIn) {
+      const next = encodeURIComponent(
+        window.location.pathname + window.location.search,
+      );
+      window.location.href = `/${props.locale}/sign-in?next=${next}`;
+      return;
+    }
     await post({ slug: "incense" }, "incense");
   }
 
@@ -701,6 +717,11 @@ export function OfferingsAltar(props: {
       {notice === "unavailable" ? (
         <p className="altarNoticeFail" role="alert">
           {t("offerUnavailable")}
+        </p>
+      ) : null}
+      {notice === "limited" ? (
+        <p className="altarNoticeFail" role="alert">
+          {t("incenseDailyLimit")}
         </p>
       ) : null}
 

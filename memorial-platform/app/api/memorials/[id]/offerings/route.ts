@@ -1,13 +1,43 @@
 import { z } from "zod";
+import { and, eq, gte } from "drizzle-orm";
 import {
   correlationIdFrom,
   jsonError,
   jsonSuccess,
   readJson,
 } from "@/lib/api";
+import { db } from "@/db/client";
+import { memorialOfferings, offeringProducts } from "@/db/schema";
 import { currentActor } from "@/modules/auth/current-user";
 import { createOffering } from "@/modules/offerings/create";
 import { gateOffering } from "@/modules/offerings/gating";
+
+/** 上香 is one stick per person per memorial per day. */
+const INCENSE_COOLDOWN_MS = 24 * 60 * 60 * 1000;
+
+async function incenseWithinCooldown(
+  memorialId: string,
+  userId: string,
+): Promise<boolean> {
+  const since = new Date(Date.now() - INCENSE_COOLDOWN_MS);
+  const rows = await db()
+    .select({ id: memorialOfferings.id })
+    .from(memorialOfferings)
+    .innerJoin(
+      offeringProducts,
+      eq(offeringProducts.id, memorialOfferings.productId),
+    )
+    .where(
+      and(
+        eq(memorialOfferings.memorialId, memorialId),
+        eq(memorialOfferings.giverUserId, userId),
+        eq(offeringProducts.slug, "incense"),
+        gte(memorialOfferings.createdAt, since),
+      ),
+    )
+    .limit(1);
+  return rows.length > 0;
+}
 
 export const dynamic = "force-dynamic";
 
@@ -63,6 +93,17 @@ export async function POST(
   }
 
   const actor = await currentActor();
+
+  // 上香: one stick per person per day, so it needs a signed-in identity and a
+  // 24-hour cooldown per memorial.
+  if (body.value.slug === "incense") {
+    if (!actor.userId) {
+      return jsonError("AUTH_REQUIRED", correlationId);
+    }
+    if (await incenseWithinCooldown(id, actor.userId)) {
+      return jsonError("RATE_LIMITED", correlationId);
+    }
+  }
 
   const created = await createOffering({
     memorialId: id,
