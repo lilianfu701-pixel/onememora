@@ -33,7 +33,8 @@
     "myAccount": "A minha conta",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "Apoie-nos"
   },
   "home": {
     "title": "Cada vida merece ser recordada.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "Apoie o missingu.org",
+    "lede": "O missingu.org é gratuito para sempre, sem anúncios e sem cobrar às famílias. O seu apoio ajuda a cobrir servidores e armazenamento, para que mais famílias mantenham uma página permanente para quem amam — gratuitamente.",
+    "note": "(Para o funcionamento da plataforma — não é um donativo dedutível.)",
+    "amountLabel": "Montante",
+    "amountHint": "Qualquer montante, ¥9,9 ou mais.",
+    "pay": "Apoiar com PayPal",
+    "redirecting": "A redirecionar…",
+    "thanksTitle": "Obrigado pelo seu apoio",
+    "thanksBody": "Ajuda a manter o missingu.org gratuito para mais famílias.",
+    "cancel": "O pagamento não foi concluído. Volte quando quiser.",
+    "unavailable": "O pagamento online não está disponível de momento.",
+    "failed": "Algo correu mal. Tente novamente.",
+    "backHome": "Voltar ao início"
   }
 }

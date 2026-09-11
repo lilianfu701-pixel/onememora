@@ -33,7 +33,8 @@
     "myAccount": "マイアカウント",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "支援する"
   },
   "home": {
     "title": "すべての命は、記憶される価値がある。",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "missingu.org を支援する",
+    "lede": "missingu.org は永久に無料で、広告もなく、ご遗族に費用を請求しません。あなたのご支援はサーバーやストレージの費用に充てられ、より多くの家族が大切な人の永久のページを無料で残せるようになります。",
+    "note": "（プラットフォーム運営のためで、税控除の対象となる寄付ではありません。）",
+    "amountLabel": "金額",
+    "amountHint": "金額は自由、¥9.9 以上。",
+    "pay": "PayPal で支援する",
+    "redirecting": "移動中…",
+    "thanksTitle": "ご支援ありがとうございます",
+    "thanksBody": "より多くの家族のために missingu.org を無料に保つ力になります。",
+    "cancel": "お支払いは完了しませんでした。いつでもまたお越しください。",
+    "unavailable": "現在オンライン決済はご利用いただけません。",
+    "failed": "問題が発生しました。もう一度お試しください。",
+    "backHome": "ホームに戻る"
   }
 }

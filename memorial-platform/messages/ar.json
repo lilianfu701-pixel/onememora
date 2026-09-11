@@ -33,7 +33,8 @@
     "myAccount": "حسابي",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "ادعمنا"
   },
   "home": {
     "title": "كل حياة تستحق أن تُذكر.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "ادعم missingu.org",
+    "lede": "موقع missingu.org مجاني إلى الأبد، بلا إعلانات وبلا رسوم على العائلات. دعمك يساعد في تغطية الخوادم والتخزين، ليحتفظ المزيد من العائلات بصفحة دائمة لمن يحبون — مجانًا.",
+    "note": "(لتشغيل المنصة — وليست تبرعًا قابلاً للخصم الضريبي.)",
+    "amountLabel": "المبلغ",
+    "amountHint": "أي مبلغ، ¥9.9 أو أكثر.",
+    "pay": "ادعم عبر PayPal",
+    "redirecting": "جارٍ التحويل…",
+    "thanksTitle": "شكرًا لدعمك",
+    "thanksBody": "أنت تساعد في إبقاء missingu.org مجانيًا لمزيد من العائلات.",
+    "cancel": "لم تكتمل عملية الدفع. يمكنك العودة في أي وقت.",
+    "unavailable": "الدفع الإلكتروني غير متاح حاليًا.",
+    "failed": "حدث خطأ ما. حاول مرة أخرى.",
+    "backHome": "العودة إلى الصفحة الرئيسية"
   }
 }

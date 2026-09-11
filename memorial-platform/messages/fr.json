@@ -33,7 +33,8 @@
     "myAccount": "Mon compte",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "Nous soutenir"
   },
   "home": {
     "title": "Chaque vie mérite qu'on s'en souvienne.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "Soutenir missingu.org",
+    "lede": "missingu.org est gratuit pour toujours, sans publicité ni frais pour les familles. Votre soutien aide à payer les serveurs et le stockage, pour que davantage de familles gardent une page durable pour un être cher — gratuitement.",
+    "note": "(Pour le fonctionnement de la plateforme — ce n'est pas un don déductible des impôts.)",
+    "amountLabel": "Montant",
+    "amountHint": "Montant libre, ¥9,9 minimum.",
+    "pay": "Soutenir avec PayPal",
+    "redirecting": "Redirection…",
+    "thanksTitle": "Merci de votre soutien",
+    "thanksBody": "Vous aidez à garder missingu.org gratuit pour plus de familles.",
+    "cancel": "Le paiement n'a pas abouti. Revenez quand vous voulez.",
+    "unavailable": "Le paiement en ligne n'est pas disponible pour le moment.",
+    "failed": "Une erreur est survenue. Veuillez réessayer.",
+    "backHome": "Retour à l'accueil"
   }
 }

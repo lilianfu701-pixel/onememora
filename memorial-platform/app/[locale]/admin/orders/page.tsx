@@ -4,6 +4,7 @@ import { currentActor } from "@/modules/auth/current-user";
 import {
   listAccountBalances,
   listAdminOrders,
+  platformSupportSummary,
 } from "@/modules/offerings/orders-admin";
 
 export const dynamic = "force-dynamic";
@@ -38,6 +39,7 @@ export default async function AdminOrdersPage(props: {
 
   const { rows, totals, byStatus } = await listAdminOrders({ limit: 200 });
   const accounts = await listAccountBalances();
+  const platform = await platformSupportSummary();
 
   return (
     <div className="stack-lg">
@@ -88,6 +90,18 @@ export default async function AdminOrdersPage(props: {
         <div className="adminCard">
           <span className="adminCardCount">{yuan(totals.netMinor)}</span>
           <span className="adminCardLabel">应转赠家属（net）</span>
+        </div>
+      </section>
+
+      {/* Gifts to the platform itself — separate from family income. */}
+      <section className="adminCardGrid">
+        <div className="adminCard">
+          <span className="adminCardCount">{platform.count}</span>
+          <span className="adminCardLabel">平台资助 · 笔数</span>
+        </div>
+        <div className="adminCard">
+          <span className="adminCardCount">{yuan(platform.grossMinor)}</span>
+          <span className="adminCardLabel">平台资助 · 累计（全归平台）</span>
         </div>
       </section>
 

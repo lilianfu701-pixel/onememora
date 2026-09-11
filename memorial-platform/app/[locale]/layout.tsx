@@ -123,6 +123,7 @@ export default async function LocaleLayout(props: {
                 </span>
               </span>
               <span className="footerLinks">
+                <Link href={`/${locale}/support`}>{nav("support")}</Link>
                 <Link href={`/${locale}/contact`}>{nav("contact")}</Link>
                 <span className="muted">{nav("help")}</span>
               </span>

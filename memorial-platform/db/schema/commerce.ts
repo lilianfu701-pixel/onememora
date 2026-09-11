@@ -136,9 +136,12 @@ export const orders = pgTable(
   "orders",
   {
     id: uuid("id").defaultRandom().primaryKey(),
-    userId: uuid("user_id")
-      .notNull()
-      .references(() => users.id, { onDelete: "cascade" }),
+    /**
+     * The buyer, when signed in. Nullable so an anonymous visitor can support
+     * the platform (the "资助追思网平台" box) without an account; family-facing
+     * offerings still always set it.
+     */
+    userId: uuid("user_id").references(() => users.id, { onDelete: "cascade" }),
     planId: uuid("plan_id").references(() => plans.id, { onDelete: "restrict" }),
     status: orderStatus("status").default("draft").notNull(),
     amountMinor: bigint("amount_minor", { mode: "number" }).notNull(),

@@ -1242,6 +1242,23 @@ img {
   border-block-start: 1px solid var(--line);
 }
 
+/* Platform-support amount input: a ¥ sign sitting just inside the field. */
+.amountRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.amountPrefix {
+  font-size: var(--text-lg, 1.25rem);
+  color: var(--muted);
+  line-height: 1;
+}
+
+.amountRow .input {
+  flex: 1;
+}
+
 .textCenter {
   text-align: center;
 }

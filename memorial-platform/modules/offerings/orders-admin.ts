@@ -1,4 +1,4 @@
-import { and, desc, eq, inArray, sql } from "drizzle-orm";
+import { and, desc, eq, inArray, isNotNull, sql } from "drizzle-orm";
 import { db } from "@/db/client";
 import {
   memorialBeneficiaries,
@@ -7,6 +7,7 @@ import {
   orders,
   users,
 } from "@/db/schema";
+import { PLATFORM_SUPPORT_KIND } from "@/modules/support/platform-support";
 import { PLATFORM_FEE_RATE } from "./catalog";
 
 /** Payment providers whose orders are money coming in (not plan/other rows). */
@@ -108,6 +109,12 @@ const baseSelect = {
   providerRef: orders.providerSessionId,
 };
 
+/**
+ * Excludes platform-support gifts from the family-facing views. `is distinct
+ * from` (not `<>`) so a legitimate null-kind order is kept, not dropped.
+ */
+const NOT_PLATFORM_SUPPORT = sql`${orders.kind} is distinct from ${PLATFORM_SUPPORT_KIND}`;
+
 function paymentOrdersQuery() {
   return db()
     .select(baseSelect)
@@ -130,7 +137,7 @@ export async function listAdminOrders(opts?: {
   const limit = Math.min(Math.max(opts?.limit ?? 200, 1), 1000);
 
   const rows = await paymentOrdersQuery()
-    .where(inArray(orders.provider, [...PAYMENT_PROVIDERS]))
+    .where(and(inArray(orders.provider, [...PAYMENT_PROVIDERS]), NOT_PLATFORM_SUPPORT))
     .orderBy(desc(orders.createdAt))
     .limit(limit);
 
@@ -145,6 +152,7 @@ export async function listAdminOrders(opts?: {
       and(
         inArray(orders.provider, [...PAYMENT_PROVIDERS]),
         eq(orders.status, "paid"),
+        NOT_PLATFORM_SUPPORT,
       ),
     );
 
@@ -159,7 +167,7 @@ export async function listAdminOrders(opts?: {
       gross: GROSS_SUM,
     })
     .from(orders)
-    .where(inArray(orders.provider, [...PAYMENT_PROVIDERS]))
+    .where(and(inArray(orders.provider, [...PAYMENT_PROVIDERS]), NOT_PLATFORM_SUPPORT))
     .groupBy(orders.status);
 
   const byStatus = {
@@ -229,6 +237,9 @@ export async function listAccountBalances(): Promise<AccountBalance[]> {
       and(
         inArray(orders.provider, [...PAYMENT_PROVIDERS]),
         eq(orders.status, "paid"),
+        // Family accounts only — platform gifts have no memorial and belong to
+        // the platform, so they must not show up as a phantom family balance.
+        isNotNull(orders.memorialId),
       ),
     )
     .groupBy(
@@ -252,6 +263,34 @@ export async function listAccountBalances(): Promise<AccountBalance[]> {
       netMinor: gross - fee,
     };
   });
+}
+
+export interface PlatformSupportSummary {
+  count: number;
+  grossMinor: number;
+}
+
+/**
+ * Paid platform-support gifts, all-time: how much visitors have given to fund
+ * the site itself. Kept apart from family income — this is the platform's own.
+ */
+export async function platformSupportSummary(): Promise<PlatformSupportSummary> {
+  const [row] = await db()
+    .select({
+      count: sql<string>`count(*)`,
+      gross: GROSS_SUM,
+    })
+    .from(orders)
+    .where(
+      and(
+        eq(orders.kind, PLATFORM_SUPPORT_KIND),
+        eq(orders.status, "paid"),
+      ),
+    );
+  return {
+    count: Number(row?.count ?? 0),
+    grossMinor: Number(row?.gross ?? 0),
+  };
 }
 
 /** All payment orders as CSV, for reconciliation against PayPal/Stripe. */

@@ -6,14 +6,19 @@ import {
   orderMemorialSlug,
   settleOrderById,
 } from "@/modules/offerings/paypal-checkout";
+import {
+  isPlatformSupportOrder,
+  settlePlatformSupportOrder,
+} from "@/modules/support/platform-support";
 
 export const dynamic = "force-dynamic";
 
 const log = logger("paypal-return");
 
 /**
- * Where PayPal sends the payer back after approval. We capture the order,
- * record the offering, and redirect to the memorial. The webhook is the backup
+ * Where PayPal sends the payer back after approval. We capture the order and,
+ * depending on what it was, record the offering and return to the memorial, or
+ * settle the platform gift and return to a thank-you. The webhook is the backup
  * if the payer never lands here.
  */
 export async function GET(request: Request): Promise<Response> {
@@ -27,15 +32,19 @@ export async function GET(request: Request): Promise<Response> {
   const home = `${base}/${locale}`;
   if (!orderId) return NextResponse.redirect(home);
 
-  const slug = await orderMemorialSlug(orderId);
-  const memorial = slug ? `${base}/${locale}/memorials/${slug}` : home;
+  // A gift to the platform settles to a thank-you page, not to any memorial.
+  const isPlatform = await isPlatformSupportOrder(orderId);
 
   let paid = false;
   try {
     if (paypalOrderId) {
       const captured = await capturePaypalOrder(paypalOrderId);
       if (captured) {
-        await settleOrderById(orderId);
+        if (isPlatform) {
+          await settlePlatformSupportOrder(orderId);
+        } else {
+          await settleOrderById(orderId);
+        }
         paid = true;
       }
     }
@@ -47,6 +56,14 @@ export async function GET(request: Request): Promise<Response> {
     });
   }
 
+  if (isPlatform) {
+    return NextResponse.redirect(
+      `${home}/support?state=${paid ? "thanks" : "cancel"}`,
+    );
+  }
+
+  const slug = await orderMemorialSlug(orderId);
+  const memorial = slug ? `${base}/${locale}/memorials/${slug}` : home;
   return NextResponse.redirect(
     `${memorial}?offer=${paid ? "success" : "cancel"}`,
   );

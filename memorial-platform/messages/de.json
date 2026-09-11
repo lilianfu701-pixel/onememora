@@ -33,7 +33,8 @@
     "myAccount": "Mein Konto",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "Unterstützen"
   },
   "home": {
     "title": "Jedes Leben verdient es, in Erinnerung zu bleiben.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "missingu.org unterstützen",
+    "lede": "missingu.org ist für immer kostenlos, ohne Werbung und ohne Gebühren für Familien. Ihre Unterstützung hilft, Server und Speicher zu bezahlen, damit mehr Familien kostenlos eine bleibende Seite für einen geliebten Menschen behalten können.",
+    "note": "(Für den Betrieb der Plattform — keine steuerlich absetzbare Spende.)",
+    "amountLabel": "Betrag",
+    "amountHint": "Beliebiger Betrag, ab ¥9,9.",
+    "pay": "Mit PayPal unterstützen",
+    "redirecting": "Weiterleitung…",
+    "thanksTitle": "Danke für Ihre Unterstützung",
+    "thanksBody": "Sie helfen, missingu.org für mehr Familien kostenlos zu halten.",
+    "cancel": "Die Zahlung wurde nicht abgeschlossen. Sie sind jederzeit willkommen.",
+    "unavailable": "Online-Zahlung ist derzeit nicht verfügbar.",
+    "failed": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "backHome": "Zurück zur Startseite"
   }
 }

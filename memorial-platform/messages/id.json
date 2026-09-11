@@ -33,7 +33,8 @@
     "myAccount": "Akun Saya",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "Dukung kami"
   },
   "home": {
     "title": "Setiap kehidupan layak untuk dikenang.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "Dukung missingu.org",
+    "lede": "missingu.org gratis selamanya, tanpa iklan dan tanpa biaya bagi keluarga. Dukungan Anda membantu menutup biaya server dan penyimpanan, agar lebih banyak keluarga dapat menjaga halaman abadi untuk orang terkasih — gratis.",
+    "note": "(Untuk operasional platform — bukan donasi yang dapat dikurangkan dari pajak.)",
+    "amountLabel": "Jumlah",
+    "amountHint": "Jumlah bebas, minimal ¥9,9.",
+    "pay": "Dukung dengan PayPal",
+    "redirecting": "Mengalihkan…",
+    "thanksTitle": "Terima kasih atas dukungan Anda",
+    "thanksBody": "Anda membantu menjaga missingu.org tetap gratis untuk lebih banyak keluarga.",
+    "cancel": "Pembayaran belum selesai. Anda dipersilakan kembali kapan saja.",
+    "unavailable": "Pembayaran online belum tersedia saat ini.",
+    "failed": "Terjadi kesalahan. Silakan coba lagi.",
+    "backHome": "Kembali ke beranda"
   }
 }

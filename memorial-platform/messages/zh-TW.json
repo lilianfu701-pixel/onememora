@@ -33,7 +33,8 @@
     "myAccount": "我的帳戶",
     "inbox": "收件匣",
     "admin": "網站管理",
-    "contact": "聯絡我們"
+    "contact": "聯絡我們",
+    "support": "資助平台"
   },
   "home": {
     "title": "每一個生命都值得被紀念。",
@@ -877,5 +878,20 @@
     "sent": "已發送，我們會透過站內信回覆你。",
     "error": "發送失敗，請稍後重試。",
     "signInPrompt": "請先登入再聯絡我們"
+  },
+  "platformSupport": {
+    "title": "資助追思網平台",
+    "lede": "追思網永久免費、無廣告、不向家屬收取建站費用。你的一點資助，幫我們支付伺服器與儲存費用，讓更多家庭無需付費也能為親人留下永久的一頁。",
+    "note": "（用於平台運營，非可抵稅捐贈。）",
+    "amountLabel": "金額",
+    "amountHint": "金額自訂，最低 ¥9.9。",
+    "pay": "用 PayPal 資助",
+    "redirecting": "正在跳轉…",
+    "thanksTitle": "感謝你的支持",
+    "thanksBody": "謝謝你，讓追思網為更多家庭免費。",
+    "cancel": "付款未完成，你可以隨時再來。",
+    "unavailable": "線上付款暂未開通。",
+    "failed": "出了點問題，請重試。",
+    "backHome": "返回首頁"
   }
 }

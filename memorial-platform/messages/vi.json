@@ -33,7 +33,8 @@
     "myAccount": "Tài khoản",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "Ủng hộ"
   },
   "home": {
     "title": "Mỗi cuộc đời đều xứng đáng được tưởng nhớ.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "Ủng hộ missingu.org",
+    "lede": "missingu.org miễn phí mãi mãi, không quảng cáo và không thu phí gia đình. Sự ủng hộ của bạn giúp trang trải máy chủ và lưu trữ, để nhiều gia đình hơn có thể giữ một trang tưởng nhớ vĩnh viễn cho người thân — miễn phí.",
+    "note": "(Dùng cho vận hành nền tảng — không phải khoản quyên góp được khấu trừ thuế.)",
+    "amountLabel": "Số tiền",
+    "amountHint": "Số tiền tùy ý, tối thiểu ¥9,9.",
+    "pay": "Ủng hộ bằng PayPal",
+    "redirecting": "Đang chuyển…",
+    "thanksTitle": "Cảm ơn sự ủng hộ của bạn",
+    "thanksBody": "Bạn đang giúp missingu.org tiếp tục miễn phí cho nhiều gia đình hơn.",
+    "cancel": "Thanh toán chưa hoàn tất. Bạn có thể quay lại bất cứ lúc nào.",
+    "unavailable": "Thanh toán trực tuyến hiện chưa khả dụng.",
+    "failed": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+    "backHome": "Về trang chủ"
   }
 }

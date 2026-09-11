@@ -33,7 +33,8 @@
     "myAccount": "My Account",
     "inbox": "Inbox",
     "admin": "Site admin",
-    "contact": "Contact us"
+    "contact": "Contact us",
+    "support": "Support us"
   },
   "home": {
     "title": "Every life deserves to be remembered.",
@@ -877,5 +878,20 @@
     "sent": "Sent. We'll reply in your inbox.",
     "error": "Couldn't send. Please try again.",
     "signInPrompt": "Sign in to contact us"
+  },
+  "platformSupport": {
+    "title": "Support missingu.org",
+    "lede": "missingu.org is free forever, with no ads and no charge to families. Your support helps cover servers and storage, so more families can keep a lasting page for someone they love — for free.",
+    "note": "(For platform operations — not a tax-deductible donation.)",
+    "amountLabel": "Amount",
+    "amountHint": "Any amount, ¥9.9 or more.",
+    "pay": "Support with PayPal",
+    "redirecting": "Redirecting…",
+    "thanksTitle": "Thank you for your support",
+    "thanksBody": "You're helping keep missingu.org free for more families.",
+    "cancel": "Payment wasn't completed. You're welcome back anytime.",
+    "unavailable": "Online payment isn't available right now.",
+    "failed": "Something went wrong. Please try again.",
+    "backHome": "Back to home"
   }
 }
