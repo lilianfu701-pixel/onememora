@@ -57,6 +57,13 @@ export function ObituaryNewForm(props: {
   const [birthDate, setBirthDate] = useState("");
   const [deathDate, setDeathDate] = useState("");
   const [declared, setDeclared] = useState(false);
+  // Cross-strait figures can be listed on all three Chinese channels; offered
+  // only on the Chinese sites, where script disambiguation matters.
+  const isChineseLocale =
+    props.locale === "zh-CN" ||
+    props.locale === "zh-TW" ||
+    props.locale === "zh-HK";
+  const [crossRegion, setCrossRegion] = useState(false);
 
   // Existing-memorial selection.
   const [selectedId, setSelectedId] = useState(preselected?.id ?? "");
@@ -233,6 +240,8 @@ export function ObituaryNewForm(props: {
           gender,
           ...(birth ? { birthDate: birth } : {}),
           ...(death ? { deathDate: death } : {}),
+          homeLocale: props.locale,
+          ...(isChineseLocale && crossRegion ? { crossRegion: true } : {}),
         }),
       });
       const created = await createRes.json().catch(() => null);
@@ -485,6 +494,20 @@ export function ObituaryNewForm(props: {
           onChange={(e) => setSurvivors(e.target.value)}
         />
       </label>
+
+      {mode === "new" && isChineseLocale ? (
+        <label className="choiceRow">
+          <input
+            type="checkbox"
+            checked={crossRegion}
+            onChange={(e) => setCrossRegion(e.target.checked)}
+          />
+          <span>
+            <strong>{t("crossRegionLabel")}</strong>
+            <span className="muted"> — {t("crossRegionHint")}</span>
+          </span>
+        </label>
+      ) : null}
 
       {mode === "new" ? (
         <label className="choiceRow">

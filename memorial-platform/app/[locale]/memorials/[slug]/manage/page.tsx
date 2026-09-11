@@ -32,6 +32,7 @@ import { RecognitionReview } from "./recognition-review";
 import { OfferingsToggle } from "./offerings-toggle";
 import { getOfferingsDisabled } from "@/modules/offerings/settings";
 import { ChaptersEditor } from "./chapters-editor";
+import { ChannelsEditor } from "./channels-editor";
 import { PublishAll } from "./publish-all";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
 import { DispositionEditor } from "./disposition-editor";
@@ -179,6 +180,18 @@ export default async function ManageMemorialPage(props: {
   const disposition = mayEditStory
     ? await getDisposition(detail.memorialId)
     : null;
+
+  // Which channels list this memorial, and whether it is featured on their
+  // homepages — the owner's control over homepage display.
+  const [channelsRow] = mayConfigure
+    ? await db()
+        .select({
+          regions: memorials.regions,
+          homepageDisplay: memorials.homepageDisplay,
+        })
+        .from(memorials)
+        .where(eq(memorials.id, detail.memorialId))
+    : [];
 
   // Friend-and-family remembrances awaiting review.
   const pendingContributions = mayModerate
@@ -405,6 +418,15 @@ export default async function ManageMemorialPage(props: {
                 initialIndexable={detail.searchEngineIndexable}
               />
             </div>
+            {channelsRow ? (
+              <div className="manageCard">
+                <ChannelsEditor
+                  memorialId={detail.memorialId}
+                  initialRegions={channelsRow.regions}
+                  initialHomepageDisplay={channelsRow.homepageDisplay}
+                />
+              </div>
+            ) : null}
             <div className="manageCard">
               <OfferingsToggle
                 memorialId={detail.memorialId}

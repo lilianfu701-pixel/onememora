@@ -1,3 +1,4 @@
+import { sql } from "drizzle-orm";
 import {
   boolean,
   date,
@@ -180,6 +181,23 @@ export const memorials = pgTable(
     searchEngineIndexable: boolean("search_engine_indexable")
       .default(true)
       .notNull(),
+    /**
+     * The channels this memorial belongs to — locale codes from the supported
+     * set (e.g. `zh-CN`, `zh-TW`, `zh-HK`, `en`). It is listed on the homepage
+     * of, and (for Chinese) scoped to the search of, each channel here. Defaults
+     * to the creator's own channel; a cross-strait public figure may hold all
+     * three Chinese channels. See lib/locale.ts `defaultChannelsForLocale`.
+     */
+    regions: text("regions")
+      .array()
+      .notNull()
+      .default(sql`'{}'::text[]`),
+    /**
+     * Whether the family wants this memorial featured on its channels' homepages
+     * for the month after publishing. On by default; the family can switch it off
+     * from the manage page.
+     */
+    homepageDisplay: boolean("homepage_display").default(true).notNull(),
     ownerUserId: uuid("owner_user_id")
       .notNull()
       .references(() => users.id, { onDelete: "restrict" }),

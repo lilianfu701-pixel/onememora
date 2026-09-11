@@ -67,6 +67,33 @@ export function localeReviewStatus(locale: Locale): LocaleReviewStatus {
   return REVIEW_STATUS[locale];
 }
 
+/**
+ * A memorial's "channels": the locale homepages it appears on and, for Chinese,
+ * the script/region it belongs to. Values are locale codes from
+ * SUPPORTED_LOCALES. A memorial created under one language belongs to that
+ * language's channel; a cross-strait Chinese figure can be opted into all three
+ * Chinese channels at once. Macau (zh-MO) folds into the Hong Kong channel via
+ * `normalizeLocale`, so it shares Hong Kong's channel.
+ */
+export const CHINESE_CHANNELS: readonly Locale[] = ["zh-CN", "zh-TW", "zh-HK"];
+
+/** The Chinese channel a locale reads, or null for a non-Chinese interface. */
+export function chineseChannel(locale: string): Locale | null {
+  const normalized = normalizeLocale(locale);
+  return (CHINESE_CHANNELS as readonly string[]).includes(normalized)
+    ? normalized
+    : null;
+}
+
+/**
+ * The channels a new memorial belongs to by default: just the creator's own
+ * channel. A Chinese creator may additionally opt a cross-strait public figure
+ * into all three Chinese channels at creation.
+ */
+export function defaultChannelsForLocale(locale: string): Locale[] {
+  return [normalizeLocale(locale)];
+}
+
 /** Arabic is the only right-to-left locale in the supported set. */
 const RTL_LOCALES: ReadonlySet<string> = new Set(["ar"]);
 

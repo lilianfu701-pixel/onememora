@@ -10,6 +10,11 @@ import { currentActor } from "@/modules/auth/current-user";
 import { createMemorial } from "@/modules/memorials/service";
 import type { CreateMemorialError } from "@/modules/memorials/service";
 import { drainOutboxAfterResponse } from "@/modules/outbox/drain-after";
+import {
+  CHINESE_CHANNELS,
+  chineseChannel,
+  defaultChannelsForLocale,
+} from "@/lib/locale";
 
 const partialDate = z.object({
   value: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, {
@@ -95,6 +100,11 @@ const schema = z.object({
     .optional(),
   visibility: z.enum(["public", "unlisted", "invite_only"]).optional(),
   searchEngineIndexable: z.boolean().optional(),
+  // The interface language the memorial was created under, used to pick its
+  // home channel. `crossRegion` opts a cross-strait Chinese figure into all
+  // three Chinese channels.
+  homeLocale: z.string().min(2).max(10).optional(),
+  crossRegion: z.boolean().optional(),
   // Honoured only for admin accounts (checked in the service).
   asAdminSteward: z.boolean().optional(),
 });
@@ -144,9 +154,17 @@ export async function POST(request: Request): Promise<Response> {
     return body.response;
   }
 
+  // Which channels the memorial belongs to: its creator's channel, or — for a
+  // cross-strait Chinese figure the creator flags — all three Chinese channels.
+  const homeLocale = body.value.homeLocale ?? "en";
+  const regions =
+    body.value.crossRegion && chineseChannel(homeLocale) !== null
+      ? [...CHINESE_CHANNELS]
+      : defaultChannelsForLocale(homeLocale);
+
   const result = await createMemorial(
     actor,
-    body.value,
+    { ...body.value, regions },
     idempotencyKey,
     correlationId,
   );

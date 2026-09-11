@@ -98,6 +98,13 @@ export type CreateMemorialInput = {
   visibility?: "public" | "unlisted" | "invite_only" | undefined;
   searchEngineIndexable?: boolean | undefined;
   /**
+   * The channels (locale codes) this memorial belongs to — its home channel and,
+   * for a cross-strait Chinese figure, the other Chinese channels. Computed by
+   * the API from the creation locale; falls back to all three Chinese channels
+   * so a memorial is never created unreachable.
+   */
+  regions?: string[] | undefined;
+  /**
    * Platform staff creating a page on a family's behalf, to be claimed later.
    * Honoured only when the actor is an admin. Skips the relationship/declaration
    * (staff are not family) and marks the page as stewarded, which closes the
@@ -223,6 +230,10 @@ export async function createMemorial(
         status: "draft",
         visibility: input.visibility ?? "public",
         searchEngineIndexable: input.searchEngineIndexable ?? true,
+        regions:
+          input.regions && input.regions.length > 0
+            ? input.regions
+            : ["zh-CN", "zh-TW", "zh-HK"],
         ownerUserId: userId,
         stewardedByAdminAt: isSteward ? new Date() : null,
         creationIdempotencyKey: idempotencyKey,

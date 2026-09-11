@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { oauthGoogleEnabledSafe } from "@/lib/feature-flags";
 import { HomeSignIn } from "./home-sign-in";
+import { HomeShowcase } from "./home-showcase";
 
 // Public marketing page with no per-user server content — statically rendered
 // and edge-cached so China visitors get it from a nearby PoP rather than a
@@ -112,6 +113,10 @@ export default async function HomePage(props: {
           </svg>
         </div>
       </section>
+
+      <Suspense>
+        <HomeShowcase locale={locale} />
+      </Suspense>
 
       <section className="section">
         <div className="container stack-lg textCenter">

@@ -1155,6 +1155,48 @@ img {
   color: var(--ink);
 }
 
+/* Homepage "recently remembered" showcase: a calm grid of newly published
+   memorials for the viewer's channel. Deliberately quiet — no ranking, no
+   imagery competing for attention, just names and years leading to each page. */
+.showcaseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: var(--space-4);
+  text-align: start;
+}
+
+.showcaseCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-5) var(--space-5);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: border-color var(--duration-fast) ease,
+    box-shadow var(--duration-normal) var(--ease-out-expo);
+}
+
+.showcaseCard:hover {
+  border-color: var(--olive);
+  box-shadow: 0 4px 20px rgba(47, 75, 62, 0.07);
+  text-decoration: none;
+}
+
+.showcaseName {
+  font-weight: 600;
+  color: var(--ink);
+  font-size: var(--text-base, 1rem);
+  line-height: 1.35;
+}
+
+.showcaseDates {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
 .ctaSection {
   background:
     radial-gradient(ellipse 100% 70% at 50% 0%, rgba(85, 116, 100, 0.05), transparent),

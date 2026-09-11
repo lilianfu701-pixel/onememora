@@ -320,6 +320,13 @@ export function CreateMemorialForm(props: {
 
   const [visibility, setVisibility] = useState<Visibility>("public");
   const [indexable, setIndexable] = useState(true);
+  // Only Chinese channels can be cross-listed; a name in another script reads
+  // the same everywhere, so the option is offered only on the Chinese sites.
+  const isChineseLocale =
+    props.locale === "zh-CN" ||
+    props.locale === "zh-TW" ||
+    props.locale === "zh-HK";
+  const [crossRegion, setCrossRegion] = useState(false);
   const [coCreate, setCoCreate] = useState(false);
   const [coCreators, setCoCreators] = useState<CoCreatorEntry[]>([]);
 
@@ -556,6 +563,8 @@ export function CreateMemorialForm(props: {
         : {}),
       visibility,
       searchEngineIndexable: visibility === "public" ? indexable : false,
+      homeLocale: props.locale,
+      ...(isChineseLocale && crossRegion ? { crossRegion: true } : {}),
     };
 
     const payload = JSON.stringify(body);
@@ -1155,6 +1164,20 @@ export function CreateMemorialForm(props: {
               onChange={(e) => setIndexable(e.target.checked)}
             />
             <span>{privacy("searchEngineLabel")}</span>
+          </label>
+        ) : null}
+
+        {isChineseLocale ? (
+          <label className="choiceRow">
+            <input
+              type="checkbox"
+              checked={crossRegion}
+              onChange={(e) => setCrossRegion(e.target.checked)}
+            />
+            <span>
+              <strong>{t("crossRegionLabel")}</strong>
+              <span className="muted"> — {t("crossRegionHint")}</span>
+            </span>
           </label>
         ) : null}
       </fieldset>
