@@ -1,4 +1,13 @@
-import { and, arrayContains, desc, eq, inArray, isNull, sql } from "drizzle-orm";
+import {
+  and,
+  arrayContains,
+  desc,
+  eq,
+  inArray,
+  isNull,
+  or,
+  sql,
+} from "drizzle-orm";
 import type { SQL } from "drizzle-orm";
 import { db } from "@/db/client";
 import {
@@ -10,6 +19,7 @@ import {
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { MIN_QUERY_LENGTH, isQueryLongEnough, normalizeForSearch } from "./normalize";
+import { toSimplified, toTraditional } from "./hanzi";
 
 export type SearchError = "QUERY_TOO_SHORT" | "NO_CRITERIA";
 
@@ -103,10 +113,18 @@ export async function searchMemorials(
   ];
 
   if (hasQuery) {
-    const normalized = normalizeForSearch(query);
-    conditions.push(
-      sql`${searchDocuments.normalizedText} LIKE ${`%${normalized}%`}`,
+    // Match across scripts: expand the query to both simplified and traditional
+    // Chinese so 董建华 and 董建華 find the same memorial, whichever was stored.
+    const variants = new Set<string>();
+    for (const form of [query, toSimplified(query), toTraditional(query)]) {
+      const n = normalizeForSearch(form);
+      if (n.length > 0) variants.add(n);
+    }
+    const likes = [...variants].map(
+      (v) => sql`${searchDocuments.normalizedText} LIKE ${`%${v}%`}`,
     );
+    const combined = likes.length === 1 ? likes[0] : or(...likes);
+    if (combined) conditions.push(combined);
   }
 
   if (criteria.birthYear !== undefined) {
