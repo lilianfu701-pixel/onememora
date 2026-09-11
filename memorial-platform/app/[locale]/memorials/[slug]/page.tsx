@@ -136,31 +136,47 @@ export async function generateMetadata(props: {
     ? tMeta("metaDescriptionYears", { name: detail.primaryName, years })
     : tMeta("metaDescription", { name: detail.primaryName });
 
-  // The portrait, for social share cards (WeChat / X / Facebook). Only for a
-  // page that may be indexed/shared.
+  // The portrait, for social share cards (WeChat / X / Facebook) and search.
+  // Point at the stable bytes route, never the signed storage URL — a crawler
+  // fetches the card long after the page was rendered, so a five-minute
+  // signature would be dead by then.
   let ogImage: string | undefined;
   if (indexable) {
     const portraits = await portraitsBySlug([detail.slug]);
-    const portrait = portraits.get(detail.slug);
-    // Skip a short-lived signed URL; it would expire before a share/crawl fetch.
-    if (portrait && !portrait.includes("X-Amz-")) {
-      ogImage = portrait.startsWith("http") ? portrait : `${appUrl}${portrait}`;
+    if (portraits.has(detail.slug)) {
+      ogImage = `${appUrl.replace(/\/$/, "")}/api/portrait/${detail.slug}`;
     }
   }
+
+  const canonical = memorialUrl({ appUrl, locale, slug: detail.slug });
 
   return {
     title,
     description,
     robots,
     alternates: {
-      canonical: memorialUrl({ appUrl, locale, slug: detail.slug }),
+      canonical,
       ...(languages ? { languages } : {}),
     },
     openGraph: {
       title,
       description,
       type: "profile",
-      ...(ogImage ? { images: [{ url: ogImage }] } : {}),
+      url: canonical,
+      siteName: "missingu.org",
+      // OG wants ll_TT (underscore); our locales are ll-TT.
+      locale: locale.replace("-", "_"),
+      ...(ogImage
+        ? { images: [{ url: ogImage, alt: detail.primaryName }] }
+        : {}),
+    },
+    twitter: {
+      // A portrait reads better as a square thumbnail than a wide, face-cropping
+      // banner, so this is a summary card rather than summary_large_image.
+      card: "summary",
+      title,
+      description,
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
   };
 }
@@ -427,14 +443,11 @@ export default async function MemorialPage(props: {
     if (precision === "month") return value.slice(0, 7);
     return value.slice(0, 4);
   };
-  // A short-lived signed URL (contains an AWS query signature) would 403 by the
-  // time a crawler or social platform fetches it — only advertise a stable URL.
-  const stablePortrait =
-    rootPortrait && !rootPortrait.includes("X-Amz-") ? rootPortrait : null;
-  const schemaImage = stablePortrait
-    ? stablePortrait.startsWith("http")
-      ? stablePortrait
-      : `${siteUrl()}${stablePortrait}`
+  // For the Person JSON-LD, advertise the stable bytes route rather than the
+  // signed storage URL: a signed URL carries an expiry and would 403 by the time
+  // a search engine fetches it. The route resolves a fresh image per request.
+  const schemaImage = rootPortrait
+    ? `${siteUrl().replace(/\/$/, "")}/api/portrait/${detail.slug}`
     : null;
   const schemaDescription = biography?.body
     ? biography.body.replace(/\s+/g, " ").trim().slice(0, 300)

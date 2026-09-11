@@ -1,15 +1,17 @@
-import { publicPortraitUrlForSlug } from "@/modules/media/service";
+import { publicPortraitBytesForSlug } from "@/modules/media/service";
 
 export const dynamic = "force-dynamic";
 
 /**
- * A stable address for a public memorial's 遗像, used by the homepage showcase.
+ * A stable address for a public memorial's 遗像 — used by the homepage showcase,
+ * the social-share cards (og:image / Twitter) and the Person JSON-LD.
  *
- * The homepage is edge-cached for an hour, but a media read URL is signed and
- * expires in five minutes — so embedding the signed URL directly leaves the
- * cached page pointing at a dead link minutes later. This route gives the page a
- * stable path instead and redirects to a freshly-resolved URL on every request,
- * so the image always loads however long the page has been cached.
+ * The underlying media read URL is signed and expires in five minutes, so it
+ * cannot be embedded in an hour-cached page or handed to a crawler that fetches
+ * it later. This route serves the image bytes directly at a permanent path
+ * instead, so the picture always loads — for a browser, a search engine or a
+ * social card alike. Public+published only, so a guessed slug can't pull a
+ * private page's photo.
  */
 export async function GET(
   _request: Request,
@@ -21,24 +23,24 @@ export async function GET(
     return new Response(null, { status: 404 });
   }
 
-  let url: string | null = null;
+  let portrait: { bytes: Uint8Array; contentType: string } | null = null;
   try {
-    url = await publicPortraitUrlForSlug(slug);
+    portrait = await publicPortraitBytesForSlug(slug);
   } catch {
-    url = null;
+    portrait = null;
   }
 
-  if (!url) {
+  if (!portrait) {
     return new Response(null, { status: 404 });
   }
 
-  return new Response(null, {
-    status: 302,
+  return new Response(new Uint8Array(portrait.bytes), {
+    status: 200,
     headers: {
-      Location: url,
-      // Re-resolve well before the underlying signed URL (5 min) expires, so a
-      // cached redirect never hands back an address that has already died.
-      "Cache-Control": "public, max-age=120",
+      "content-type": portrait.contentType,
+      // Cacheable at the edge and by crawlers; a re-uploaded portrait is at most
+      // an hour stale, which is fine for a memorial photo.
+      "cache-control": "public, max-age=3600",
     },
   });
 }

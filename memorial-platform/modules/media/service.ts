@@ -681,12 +681,9 @@ export async function portraitsBySlug(
  * URL; the route redirects to whichever, resolved per request so a cached page
  * never holds an expired signature.
  */
-export async function publicPortraitUrlForSlug(
-  slug: string,
-): Promise<string | null> {
+async function newestPublicPortraitKey(slug: string): Promise<string | null> {
   const rows = await db()
     .select({
-      status: mediaAssets.status,
       readyObjectKey: mediaAssets.readyObjectKey,
       createdAt: mediaAssets.createdAt,
     })
@@ -707,15 +704,43 @@ export async function publicPortraitUrlForSlug(
     .orderBy(asc(mediaAssets.createdAt));
 
   // Oldest first, so the last row is the newest photo — the current 遗像.
-  const newest = rows.at(-1);
-  if (!newest?.readyObjectKey) return null;
+  return rows.at(-1)?.readyObjectKey ?? null;
+}
+
+export async function publicPortraitUrlForSlug(
+  slug: string,
+): Promise<string | null> {
+  const key = await newestPublicPortraitKey(slug);
+  if (!key) return null;
 
   const address = await addressForRow(mediaStorage(), {
-    status: newest.status,
-    readyObjectKey: newest.readyObjectKey,
+    status: "ready",
+    readyObjectKey: key,
     visibility: "public",
   });
   return address.kind === "unavailable" ? null : address.url;
+}
+
+/**
+ * The raw bytes of a public memorial's 遗像, by slug, for the stable
+ * `/api/portrait/[slug]` route to serve directly.
+ *
+ * Serving the bytes (rather than a redirect to a signed URL) gives the portrait
+ * a permanent, cacheable, crawler-friendly address — one a social card or
+ * search engine can fetch, and one an hour-cached homepage can point at without
+ * the link expiring. Public+published only, so a slug guess cannot pull a
+ * private page's photo.
+ */
+export async function publicPortraitBytesForSlug(
+  slug: string,
+): Promise<{ bytes: Uint8Array; contentType: string } | null> {
+  const key = await newestPublicPortraitKey(slug);
+  if (!key) return null;
+
+  const bytes = await mediaStorage().getObject(key);
+  if (!bytes) return null;
+
+  return { bytes, contentType: sniffImageMime(bytes) };
 }
 
 function sniffImageMime(bytes: Uint8Array): string {
