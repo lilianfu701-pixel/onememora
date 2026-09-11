@@ -22,9 +22,15 @@ export function DetailsEditor(props: {
   const [state, setState] = useState<"idle" | "saving" | "saved" | "error">(
     "idle",
   );
+  // The single save button greys out while the fields match what was saved.
+  const [saved, setSaved] = useState({
+    birth: props.initialBirth,
+    death: props.initialDeath,
+  });
+  const dirty = birth !== saved.birth || death !== saved.death;
 
   async function save(): Promise<void> {
-    if (state === "saving") return;
+    if (state === "saving" || !dirty) return;
     setState("saving");
     try {
       const res = await fetch(`/api/memorials/${props.memorialId}/details`, {
@@ -33,6 +39,7 @@ export function DetailsEditor(props: {
         body: JSON.stringify({ birthDate: birth || "", deathDate: death || "" }),
       });
       if (res.ok) {
+        setSaved({ birth, death });
         setState("saved");
         router.refresh();
         setTimeout(() => setState("idle"), 2000);
@@ -72,7 +79,7 @@ export function DetailsEditor(props: {
           type="button"
           className="button buttonPrimary buttonCompact"
           onClick={save}
-          disabled={state === "saving"}
+          disabled={state === "saving" || !dirty}
         >
           {state === "saving"
             ? common("loading")

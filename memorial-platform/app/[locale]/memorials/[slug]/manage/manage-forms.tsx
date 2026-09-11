@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 import { useState } from "react";
 
 export type ManageableRitual = {
@@ -18,7 +17,6 @@ export type ManageableRitual = {
 type Notice =
   | { kind: "none" }
   | { kind: "saved" }
-  | { kind: "published" }
   | { kind: "error"; code: string };
 
 export function ManageForms(props: {
@@ -41,9 +39,13 @@ export function ManageForms(props: {
   const [body, setBody] = useState(props.initialBody);
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState<Notice>({ kind: "none" });
-  // Tracks whether a draft exists that visitors are not seeing, so the publish
-  // button is not offered for words already on the page.
-  const [draftPending, setDraftPending] = useState(props.hasUnpublishedDraft);
+  // The last values written to the server. The save button greys out while the
+  // fields still match it, and lights up again the moment they diverge — one
+  // button, and it only invites a save when there is something to save.
+  const [savedTitle, setSavedTitle] = useState(props.initialTitle);
+  const [savedBody, setSavedBody] = useState(props.initialBody);
+
+  const dirty = title !== savedTitle || body !== savedBody;
 
   function readError(payload: unknown): string {
     const error = (payload as { error?: { code?: string } })?.error;
@@ -51,6 +53,7 @@ export function ManageForms(props: {
   }
 
   async function saveDraft(): Promise<void> {
+    if (saving || !dirty || body.trim().length === 0) return;
     setSaving(true);
     setNotice({ kind: "none" });
 
@@ -76,36 +79,11 @@ export function ManageForms(props: {
         return;
       }
 
-      setDraftPending(true);
+      setSavedTitle(title);
+      setSavedBody(body);
       setNotice({ kind: "saved" });
-    } catch {
-      setNotice({ kind: "error", code: "DEPENDENCY_UNAVAILABLE" });
-    } finally {
-      setSaving(false);
-    }
-  }
-
-  async function publishStory(): Promise<void> {
-    setSaving(true);
-    setNotice({ kind: "none" });
-
-    try {
-      const response = await fetch(
-        `/api/memorials/${props.memorialId}/biography/publish`,
-        { method: "POST" },
-      );
-
-      if (!response.ok) {
-        setNotice({
-          kind: "error",
-          code: readError(await response.json().catch(() => null)),
-        });
-        return;
-      }
-
-      setDraftPending(false);
-      setNotice({ kind: "published" });
-      // The memorial page renders the published version, so it is now stale.
+      // Refresh so the shared "save and publish" button below learns a fresh
+      // draft is now waiting to go live.
       router.refresh();
     } catch {
       setNotice({ kind: "error", code: "DEPENDENCY_UNAVAILABLE" });
@@ -119,14 +97,6 @@ export function ManageForms(props: {
     <div className="stack-lg">
       {notice.kind === "saved" ? (
         <p className="notice">{t("lifeStorySaved")}</p>
-      ) : null}
-      {notice.kind === "published" ? (
-        <p className="notice">
-          {t("lifeStoryPublished")}{" "}
-          <Link href={`/${props.locale}/memorials/${props.slug}`}>
-            {t("viewMemorial")} →
-          </Link>
-        </p>
       ) : null}
       {notice.kind === "error" ? (
         <p className="fieldError" role="alert">
@@ -163,23 +133,12 @@ export function ManageForms(props: {
           <div className="ritualChoices">
             <button
               type="button"
-              className="button buttonQuiet"
-              disabled={saving || body.trim().length === 0}
+              className="button buttonPrimary"
+              disabled={saving || !dirty || body.trim().length === 0}
               onClick={saveDraft}
             >
-              {saving ? common("loading") : t("saveDraft")}
+              {saving ? common("loading") : common("save")}
             </button>
-
-            {draftPending ? (
-              <button
-                type="button"
-                className="button buttonPrimary"
-                disabled={saving}
-                onClick={publishStory}
-              >
-                {t("publishStory")}
-              </button>
-            ) : null}
           </div>
         </section>
       ) : null}

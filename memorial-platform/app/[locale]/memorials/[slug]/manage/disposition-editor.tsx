@@ -49,6 +49,27 @@ export function DispositionEditor(props: {
   const [uploading, setUploading] = useState(false);
   const [uploadError, setUploadError] = useState(false);
 
+  // The last values written to the server. The single save button greys out
+  // while the form still matches it, and lights up again on any change.
+  const [saved, setSaved] = useState({
+    method: props.initial.method ?? "",
+    place: props.initial.place ?? "",
+    date: props.initial.date ?? "",
+    note: props.initial.note ?? "",
+    lng: props.initial.lng ?? "",
+    lat: props.initial.lat ?? "",
+    mediaId: props.initial.mediaId ?? null,
+  });
+
+  const dirty =
+    method !== saved.method ||
+    place !== saved.place ||
+    date !== saved.date ||
+    note !== saved.note ||
+    lng !== saved.lng ||
+    lat !== saved.lat ||
+    mediaId !== saved.mediaId;
+
   async function pollReady(id: string, remaining: number): Promise<void> {
     if (remaining <= 0) {
       setUploadError(true);
@@ -112,6 +133,7 @@ export function DispositionEditor(props: {
 
   async function save(event: React.FormEvent): Promise<void> {
     event.preventDefault();
+    if (state === "saving" || !dirty) return;
     setState("saving");
     try {
       const res = await fetch(
@@ -131,6 +153,7 @@ export function DispositionEditor(props: {
         },
       );
       if (res.ok) {
+        setSaved({ method, place, date, note, lng, lat, mediaId });
         setState("saved");
         router.refresh();
       } else {
@@ -257,11 +280,11 @@ export function DispositionEditor(props: {
         <button
           type="submit"
           className="button buttonPrimary buttonCompact"
-          disabled={state === "saving"}
+          disabled={state === "saving" || !dirty}
         >
           {state === "saving" ? common("loading") : common("save")}
         </button>
-        {state === "saved" ? (
+        {state === "saved" && !dirty ? (
           <span className="muted">{t("dispositionSaved")}</span>
         ) : null}
         {state === "error" ? (

@@ -32,6 +32,7 @@ import { RecognitionReview } from "./recognition-review";
 import { OfferingsToggle } from "./offerings-toggle";
 import { getOfferingsDisabled } from "@/modules/offerings/settings";
 import { ChaptersEditor } from "./chapters-editor";
+import { PublishAll } from "./publish-all";
 import { listManageChapters } from "@/modules/memorials/life-chapters";
 import { DispositionEditor } from "./disposition-editor";
 import { getDisposition } from "@/modules/memorials/disposition";
@@ -208,6 +209,15 @@ export default async function ManageMemorialPage(props: {
     (mayManageFamily && recognitionClaims.length > 0) ||
     Boolean(pendingContributions && pendingContributions.length > 0);
 
+  // What the single "save and publish" button at the foot of the page will make
+  // live: a biography draft that is ahead of the published version, and every
+  // chapter whose saved draft has not yet been published.
+  const biographyDraftPending =
+    draft !== null && draft.version !== (published?.version ?? -1);
+  const publishableChapterIds = (chapters ?? [])
+    .filter((c) => c.latestVersion > 0 && (!c.hasPublished || c.hasUnpublishedEdit))
+    .map((c) => c.id);
+
   return (
     <main id="main" className="container section">
       <div className="manageLayout stack-lg">
@@ -276,10 +286,7 @@ export default async function ManageMemorialPage(props: {
                 mayConfigure={mayConfigure}
                 initialTitle={editing?.title ?? ""}
                 initialBody={editing?.body ?? ""}
-                hasUnpublishedDraft={
-                  draft !== null &&
-                  draft.version !== (published?.version ?? -1)
-                }
+                hasUnpublishedDraft={biographyDraftPending}
                 rituals={rituals
                   .filter((choice) => choice.name !== null)
                   .map((choice) => ({
@@ -405,6 +412,16 @@ export default async function ManageMemorialPage(props: {
               />
             </div>
           </section>
+        ) : null}
+
+        {mayEditStory ? (
+          <PublishAll
+            memorialId={detail.memorialId}
+            locale={normalized}
+            slug={detail.slug}
+            publishBiography={biographyDraftPending}
+            chapterIds={publishableChapterIds}
+          />
         ) : null}
 
         <p className="manageFooterLink">

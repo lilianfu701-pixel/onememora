@@ -26,9 +26,7 @@ export function ChaptersEditor(props: {
 
   const [edits, setEdits] = useState<Record<string, Edit>>({});
   const [pending, setPending] = useState<string | null>(null);
-  const [notice, setNotice] = useState<"saved" | "published" | "fail" | null>(
-    null,
-  );
+  const [notice, setNotice] = useState<"saved" | "fail" | null>(null);
   const [addKey, setAddKey] = useState("");
   const [uploadingFor, setUploadingFor] = useState<string | null>(null);
   const [photoError, setPhotoError] = useState<string | null>(null);
@@ -52,6 +50,20 @@ export function ChaptersEditor(props: {
 
   const customTitleOf = (c: ManageChapter): string =>
     edits[c.id]?.title ?? c.customTitle ?? "";
+
+  /**
+   * Whether the card holds unsaved changes. The single save button stays grey
+   * until it does, and lights up the moment the family types something new —
+   * publishing is handled once, by the shared button at the foot of the page.
+   */
+  const isDirty = (c: ManageChapter): boolean => {
+    const e = edits[c.id];
+    if (!e) return false;
+    const bodyChanged = e.body !== undefined && e.body !== c.draftBody;
+    const titleChanged =
+      e.title !== undefined && e.title !== (c.customTitle ?? "");
+    return bodyChanged || titleChanged;
+  };
 
   async function call(
     url: string,
@@ -97,22 +109,6 @@ export function ChaptersEditor(props: {
         return next;
       });
       setNotice("saved");
-      router.refresh();
-    } else {
-      setNotice("fail");
-    }
-  }
-
-  async function publish(c: ManageChapter): Promise<void> {
-    if (pending) return;
-    setPending(c.id);
-    const ok = await call(
-      `/api/memorials/${props.memorialId}/chapters/${c.id}/publish`,
-      "POST",
-    );
-    setPending(null);
-    if (ok) {
-      setNotice("published");
       router.refresh();
     } else {
       setNotice("fail");
@@ -310,11 +306,6 @@ export function ChaptersEditor(props: {
           {t("saved")}
         </p>
       ) : null}
-      {notice === "published" ? (
-        <p className="notice" role="status">
-          {t("publishedToast")}
-        </p>
-      ) : null}
       {notice === "fail" ? (
         <p className="fieldError" role="alert">
           {t("failed")}
@@ -452,19 +443,15 @@ export function ChaptersEditor(props: {
               <div className="chapterCardActions">
                 <button
                   type="button"
-                  className="button buttonQuiet buttonCompact"
-                  disabled={pending !== null || bodyOf(c).trim().length === 0}
+                  className="button buttonPrimary buttonCompact"
+                  disabled={
+                    pending !== null ||
+                    bodyOf(c).trim().length === 0 ||
+                    !isDirty(c)
+                  }
                   onClick={() => save(c)}
                 >
                   {t("save")}
-                </button>
-                <button
-                  type="button"
-                  className="button buttonPrimary buttonCompact"
-                  disabled={pending !== null || c.latestVersion === 0}
-                  onClick={() => publish(c)}
-                >
-                  {t("publish")}
                 </button>
               </div>
             </div>
