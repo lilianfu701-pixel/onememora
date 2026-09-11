@@ -18,6 +18,8 @@ Global memorial platform for families to create, manage, and share digital memor
 10. **首页/搜索合并为一个搜索框** — 姓名或 8 位编号（纯数字自动识别为编号直达）；搜索结果每条一行 **姓名·生卒·逝世地区**。`app/[locale]/page.tsx`、`search/page.tsx`、`modules/search/query.ts`。
 11. **定时 email 提醒** — 每日扫描：祭日(家属+关注者) + 清明/中元(中文界面用户)，提前3天+当天各一封，幂等去重；🔔 关注按钮 + 一键退订；`modules/reminders/`(迁移0051)；生产已激活(`ANNIVERSARY_NOTIFICATIONS_ENABLED=true` + `EMAIL_PROVIDER=resend`)。⚠️ 清明/中元日期表 festivals.ts 排到 2032，到期续。见 [[project_missingu_reminders]]。
 12. **杂项微调** — 花圈挽联飘带间距+上移；创建页各处文案。
+13. **追思管理页统一保存/发布交互** — 生平/人生章节/身后安置/基本信息各板块只保留**一个保存按钮**，保存后置灰、有改动即点亮（脏值追踪）；移除各板块单独发布，改为页面底部**一个「保存并发布」**一次发布已保存的生平+章节草稿（`publish-all.tsx`；身后安置无独立草稿，保存即生效）。`app/[locale]/memorials/[slug]/manage/{manage-forms,chapters-editor,disposition-editor,details-editor,publish-all}.tsx`。
+14. **频道归属 + 首页「最新追思」展示 + 简繁分区搜索** — `memorials.regions`(频道=locale码)+`homepage_display`(**迁移0054**，既有页回填三中文频道)；新页归创建语言频道，中文可勾「两岸三地知名人士」进大陆/台湾/香港三频道，**澳门 zh-mo 经 normalizeLocale 归入香港频道共用**；首页新增「最新追思」按访客频道展示近30天、家属未关闭的追思页（**遗像缩略图卡片**，ISR 每小时刷新，查询失败降级）；管理页「展示与频道」开关+频道勾选(`channels-editor.tsx`，`PATCH /api/memorials/[id]/channels`)；搜索按频道 scope（中文访客限本频道，非中文全局），保留简繁双写扩展。`lib/locale.ts`(chineseChannel/defaultChannelsForLocale)、`modules/memorials/{channels,showcase}.ts`、`app/[locale]/home-showcase.tsx`、`modules/search/query.ts`。见 [[project_missingu_channels_homepage]]。⚠️ 提交迁移必须连 `drizzle/meta/_journal.json`+`NNNN_snapshot.json` 一起提交，否则线上不 migrate（0054 那次漏提交短暂搞挂创建，见 [[project_missingu_deploy]]）。
 
 > [[...]] 指向 `~/.claude/.../memory/project_missingu_*.md` 备忘（含每项的踩坑与实现细节）。
 
@@ -62,7 +64,7 @@ db/
   schema/               Drizzle table definitions by domain
   seed/                 Seed data (religions, plans, features)
   client.ts             Lazy Pool, SSL auto-detect
-drizzle/                Generated SQL migrations (0000–0019)
+drizzle/                Generated SQL migrations (0000–0054);提交时连 meta/_journal.json+快照一起提交
 i18n/                   next-intl routing + request config
 lib/                    Shared utilities (env, errors, crypto, logger, result, feature-flags)
 messages/               15 locale JSON files
@@ -97,7 +99,7 @@ Tables organized in `db/schema/` by domain file:
 
 - **system.ts** — `auditLogs`, `outboxEvents`
 - **identity.ts** — `users`, `userIdentities`, `emailCredentials`, `phoneCredentials`, `loginChallenges`, `loginAttempts`, `sessions`
-- **memorial.ts** — `deceasedPeople`, `memorials`, `memorialNames`, `memorialLocations`, `memorialMembers`, `relationshipClaims`, `recognitionClaims`, `memorialInvitations`, `exportJobs`, `relationshipTypes`
+- **memorial.ts** — `deceasedPeople`, `memorials` (含 `regions text[]` 频道 + `homepage_display` 首页展示开关), `memorialNames`, `memorialLocations`, `memorialMembers`, `relationshipClaims`, `recognitionClaims`, `memorialInvitations`, `exportJobs`, `relationshipTypes`
 - **content.ts** — `contentVersions`, `contentTranslations`, `biographies`, `timelineEvents`, `tributes`, `visitorSubmissions`
 - **media.ts** — `mediaAssets`, `mediaVariants`
 - **religion.ts** — `religions`, `denominations`, `culturalTraditions`, `ritualDefinitions`, `ritualVersions`, `ritualSources`, `ritualTranslations`, `ritualCompatibilityRules`
@@ -122,6 +124,7 @@ Tables organized in `db/schema/` by domain file:
 - `POST /api/memorials/[id]/biography/publish` — publish biography
 - `POST /api/memorials/[id]/publish` — publish memorial
 - `PATCH /api/memorials/[id]/privacy` — update visibility
+- `PATCH /api/memorials/[id]/channels` — set 频道归属(regions) + 首页展示开关(homepage_display)
 - `POST /api/memorials/[id]/commemorations` — create commemoration
 - `GET|PUT /api/memorials/[id]/ritual-settings` — ritual configuration
 - `GET /api/memorials/[id]/rituals` — available rituals
@@ -139,7 +142,7 @@ Tables organized in `db/schema/` by domain file:
 - `DELETE /api/media/[id]` — soft delete
 
 ### Other
-- `GET /api/search` — public search
+- `GET /api/search` — public search（可选 `locale` 参数：中文 locale 按频道 scope，否则全局）
 - `POST /api/reports` — submit report
 - `GET|POST /api/family/links` — family links
 - `POST /api/family/links/[id]` — confirm/reject link
