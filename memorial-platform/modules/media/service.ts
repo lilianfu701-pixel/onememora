@@ -671,6 +671,53 @@ export async function portraitsBySlug(
   return found;
 }
 
+/**
+ * A freshly-resolved address for a public memorial's 遗像, by slug.
+ *
+ * Only ever serves the portrait of a public, published memorial — the guard is
+ * in this query, so the stable `/api/portrait/[slug]` route it backs cannot be
+ * used to fetch a private page's photo by guessing a slug. Returns a permanent
+ * public URL when a CDN base is configured, otherwise a fresh short-lived signed
+ * URL; the route redirects to whichever, resolved per request so a cached page
+ * never holds an expired signature.
+ */
+export async function publicPortraitUrlForSlug(
+  slug: string,
+): Promise<string | null> {
+  const rows = await db()
+    .select({
+      status: mediaAssets.status,
+      readyObjectKey: mediaAssets.readyObjectKey,
+      createdAt: mediaAssets.createdAt,
+    })
+    .from(mediaAssets)
+    .innerJoin(memorials, eq(memorials.id, mediaAssets.memorialId))
+    .where(
+      and(
+        eq(memorials.slug, slug),
+        eq(memorials.visibility, "public"),
+        eq(memorials.status, "published"),
+        isNull(memorials.deletionRequestedAt),
+        eq(mediaAssets.kind, "image"),
+        eq(mediaAssets.status, "ready"),
+        isNull(mediaAssets.deletedAt),
+        sql`not exists (select 1 from ${contentMedia} where ${contentMedia.mediaId} = ${mediaAssets.id})`,
+      ),
+    )
+    .orderBy(asc(mediaAssets.createdAt));
+
+  // Oldest first, so the last row is the newest photo — the current 遗像.
+  const newest = rows.at(-1);
+  if (!newest?.readyObjectKey) return null;
+
+  const address = await addressForRow(mediaStorage(), {
+    status: newest.status,
+    readyObjectKey: newest.readyObjectKey,
+    visibility: "public",
+  });
+  return address.kind === "unavailable" ? null : address.url;
+}
+
 function sniffImageMime(bytes: Uint8Array): string {
   if (bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) {
     return "image/jpeg";

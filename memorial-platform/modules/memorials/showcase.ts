@@ -53,7 +53,11 @@ export async function recentMemorialsForChannel(
     name: r.name,
     birthYear: yearOf(r.birthDate, r.birthPrecision),
     deathYear: yearOf(r.deathDate, r.deathPrecision),
-    portraitUrl: portraits.get(r.slug) ?? null,
+    // A stable per-request-resolving path, not the signed URL itself: the
+    // homepage is cached for an hour but a signed media URL lasts five minutes,
+    // so the page must hold something that never goes stale. Null (no portrait)
+    // still renders the monogram.
+    portraitUrl: portraits.has(r.slug) ? `/api/portrait/${r.slug}` : null,
   }));
 }
 
