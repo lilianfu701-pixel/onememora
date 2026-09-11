@@ -34,6 +34,13 @@ export async function HomeShowcase({
     return "";
   };
 
+  // The first character of the name, shown when there is no portrait — a quiet
+  // monogram rather than an empty grey box.
+  const monogram = (name: string): string => {
+    const trimmed = name.trim();
+    return trimmed ? [...trimmed][0] ?? "" : "";
+  };
+
   return (
     <section className="section">
       <div className="container stack-lg">
@@ -47,6 +54,21 @@ export async function HomeShowcase({
                 className="showcaseCard"
                 href={`/${locale}/memorials/${m.slug}`}
               >
+                <span className="showcasePortrait">
+                  {m.portraitUrl ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      className="showcasePortraitImg"
+                      src={m.portraitUrl}
+                      alt={m.name}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <span className="showcaseMonogram" aria-hidden="true">
+                      {monogram(m.name)}
+                    </span>
+                  )}
+                </span>
                 <span className="showcaseName">{m.name}</span>
                 {dates ? <span className="showcaseDates">{dates}</span> : null}
               </Link>

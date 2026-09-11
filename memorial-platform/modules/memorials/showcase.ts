@@ -1,6 +1,7 @@
 import { and, arrayContains, desc, eq, gte, isNull } from "drizzle-orm";
 import { db } from "@/db/client";
 import { deceasedPeople, memorialNames, memorials } from "@/db/schema";
+import { portraitsBySlug } from "@/modules/media/service";
 
 /** How long a newly published memorial stays featured on its channel homepages. */
 const SHOWCASE_WINDOW_DAYS = 30;
@@ -10,6 +11,8 @@ export type ShowcaseMemorial = {
   name: string;
   birthYear: number | null;
   deathYear: number | null;
+  /** The 遗像, when the family has uploaded one; null renders a monogram. */
+  portraitUrl: string | null;
 };
 
 function yearOf(date: string | null, precision: string): number | null {
@@ -34,11 +37,23 @@ export async function recentMemorialsForChannel(
 
   const rows = await selectRows(channel, since, limit);
 
+  // Portraits in one batch, keyed by slug. A failure here is not fatal: the
+  // showcase still lists the names, just with monograms.
+  let portraits = new Map<string, string>();
+  if (rows.length > 0) {
+    try {
+      portraits = await portraitsBySlug(rows.map((r) => r.slug));
+    } catch {
+      portraits = new Map<string, string>();
+    }
+  }
+
   return rows.map((r) => ({
     slug: r.slug,
     name: r.name,
     birthYear: yearOf(r.birthDate, r.birthPrecision),
     deathYear: yearOf(r.deathDate, r.deathPrecision),
+    portraitUrl: portraits.get(r.slug) ?? null,
   }));
 }
 

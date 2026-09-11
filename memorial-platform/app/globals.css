@@ -1156,32 +1156,69 @@ img {
 }
 
 /* Homepage "recently remembered" showcase: a calm grid of newly published
-   memorials for the viewer's channel. Deliberately quiet — no ranking, no
-   imagery competing for attention, just names and years leading to each page. */
+   memorials for the viewer's channel. Each card leads with the portrait (遗像),
+   then the name and years — no ranking, no family raised above another. */
 .showcaseGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
   gap: var(--space-4);
-  text-align: start;
+  text-align: center;
 }
 
 .showcaseCard {
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
-  padding: var(--space-5) var(--space-5);
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-5) var(--space-4) var(--space-6);
   background: var(--paper-raised);
   border: 1px solid var(--line);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg, 18px);
   text-decoration: none;
-  transition: border-color var(--duration-fast) ease,
+  transition: transform var(--duration-normal) var(--ease-out-expo),
+    border-color var(--duration-fast) ease,
     box-shadow var(--duration-normal) var(--ease-out-expo);
 }
 
 .showcaseCard:hover {
+  transform: translateY(-3px);
   border-color: var(--olive);
-  box-shadow: 0 4px 20px rgba(47, 75, 62, 0.07);
+  box-shadow: 0 10px 30px rgba(47, 75, 62, 0.1);
   text-decoration: none;
+}
+
+/* A soft-cornered portrait frame with a warm ground behind it, so a portrait
+   with transparent edges (or a monogram) still sits on something intentional. */
+.showcasePortrait {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 14px;
+  background:
+    radial-gradient(ellipse 120% 100% at 50% 0%, rgba(85, 116, 100, 0.1), transparent),
+    var(--paper);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.showcasePortraitImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.showcaseMonogram {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif, Georgia, "Songti SC", serif);
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--olive-dark, #40513f);
+  opacity: 0.55;
 }
 
 .showcaseName {
@@ -1195,6 +1232,7 @@ img {
   color: var(--muted);
   font-size: var(--text-sm);
   font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
 }
 
 .ctaSection {
