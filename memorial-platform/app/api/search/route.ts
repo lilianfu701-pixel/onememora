@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { correlationIdFrom, jsonError, jsonSuccess, jsonUnprocessable } from "@/lib/api";
 import { flags } from "@/lib/feature-flags";
+import { chineseChannel } from "@/lib/locale";
 import { DEFAULT_LIMIT, MAX_LIMIT, searchMemorials } from "@/modules/search/query";
 
 const schema = z.object({
@@ -10,6 +11,9 @@ const schema = z.object({
   country: z.string().length(2).optional(),
   cursor: z.string().max(20).optional(),
   limit: z.coerce.number().int().min(1).max(MAX_LIMIT).optional(),
+  // When a Chinese locale is passed, results are scoped to that channel; absent
+  // (or a non-Chinese locale), the search stays global.
+  locale: z.string().max(10).optional(),
 });
 
 /**
@@ -39,8 +43,13 @@ export async function GET(request: Request): Promise<Response> {
     return jsonUnprocessable(correlationId, fieldErrors);
   }
 
+  const region = parsed.data.locale
+    ? chineseChannel(parsed.data.locale) ?? undefined
+    : undefined;
+
   const result = await searchMemorials({
     ...parsed.data,
+    ...(region ? { region } : {}),
     limit: parsed.data.limit ?? DEFAULT_LIMIT,
   });
 

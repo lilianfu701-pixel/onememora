@@ -58,6 +58,14 @@ export type SearchCriteria = {
   birthYear?: number | undefined;
   deathYear?: number | undefined;
   country?: string | undefined;
+  /**
+   * The viewer's Chinese channel (`zh-CN`/`zh-TW`/`zh-HK`), which scopes results
+   * to memorials belonging to it. Left undefined for a non-Chinese viewer, whose
+   * search stays global — the simplified/traditional partition only matters
+   * within Chinese. A cross-strait figure listed in all three channels appears
+   * in every Chinese viewer's results.
+   */
+  region?: string | undefined;
   limit?: number | undefined;
   cursor?: string | undefined;
 };
@@ -111,6 +119,12 @@ export async function searchMemorials(
     eq(memorials.status, "published"),
     isNull(memorials.deletionRequestedAt),
   ];
+
+  if (criteria.region) {
+    // Scope a Chinese viewer to their channel. Non-Chinese viewers pass no
+    // region and search everything.
+    conditions.push(arrayContains(memorials.regions, [criteria.region]));
+  }
 
   if (hasQuery) {
     // Match across scripts: expand the query to both simplified and traditional

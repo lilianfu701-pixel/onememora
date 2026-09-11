@@ -7,6 +7,7 @@ import { flags } from "@/lib/feature-flags";
 import { DEFAULT_LIMIT, searchMemorials } from "@/modules/search/query";
 import { findSlugByPublicNumber } from "@/modules/memorials/service";
 import { looksLikeMemorialNumber } from "@/modules/memorials/slug";
+import { chineseChannel } from "@/lib/locale";
 
 export const dynamic = "force-dynamic";
 
@@ -119,9 +120,15 @@ export default async function SearchPage(props: {
     (value) => value !== undefined,
   );
 
+  // Scope a Chinese viewer to their channel (简体/台湾/香港); a non-Chinese
+  // viewer searches everything. The partition only removes cross-script noise
+  // within Chinese, so it never applies to other languages.
+  const region = chineseChannel(locale) ?? undefined;
+
   const result = hasCriteria
     ? await searchMemorials({
         ...criteria,
+        ...(region ? { region } : {}),
         // Taken straight from the URL; the query bounds how far it may reach,
         // so a hand-edited cursor cannot page past the scraping limit.
         ...(query.cursor ? { cursor: query.cursor } : {}),
