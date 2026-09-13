@@ -1160,8 +1160,11 @@ img {
    then the name and years — no ranking, no family raised above another. */
 .showcaseGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
-  gap: var(--space-4);
+  /* Fixed-ish card width, centered as a cluster — so a handful of cards sit
+     balanced in the middle rather than stretched wide or bunched to one side. */
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 12rem));
+  justify-content: center;
+  gap: var(--space-6);
   text-align: center;
 }
 
@@ -1170,7 +1173,7 @@ img {
   flex-direction: column;
   align-items: center;
   gap: var(--space-3);
-  padding: var(--space-5) var(--space-4) var(--space-6);
+  padding: var(--space-6) var(--space-5) var(--space-6);
   background: var(--paper-raised);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg, 18px);
@@ -1187,18 +1190,18 @@ img {
   text-decoration: none;
 }
 
-/* A soft-cornered portrait frame with a warm ground behind it, so a portrait
-   with transparent edges (or a monogram) still sits on something intentional. */
+/* A small round portrait — the photo is cropped into a circle, sitting on a
+   warm ground, with room to breathe around it rather than filling the card. */
 .showcasePortrait {
   position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 5;
+  width: 6rem;
+  height: 6rem;
   overflow: hidden;
-  border-radius: 14px;
+  border-radius: 50%;
   background:
-    radial-gradient(ellipse 120% 100% at 50% 0%, rgba(85, 116, 100, 0.1), transparent),
+    radial-gradient(ellipse 120% 100% at 50% 0%, rgba(85, 116, 100, 0.12), transparent),
     var(--paper);
-  box-shadow: inset 0 0 0 1px var(--line);
+  box-shadow: inset 0 0 0 1px var(--line), 0 2px 8px rgba(47, 75, 62, 0.08);
 }
 
 .showcasePortraitImg {
@@ -1215,7 +1218,7 @@ img {
   align-items: center;
   justify-content: center;
   font-family: var(--font-serif, Georgia, "Songti SC", serif);
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--olive-dark, #40513f);
   opacity: 0.55;
