@@ -13,6 +13,29 @@ import { siteUrl } from "@/lib/env";
 import { NavSession } from "./nav-session";
 import "../globals.css";
 
+/**
+ * Mainland Chinese institutions, shown only in the Simplified-Chinese footer.
+ * These are government and sector bodies relevant to bereavement, ageing and
+ * public records — offered as outbound reference links, not affiliations.
+ */
+const CN_AGENCIES: readonly { name: string; url: string }[] = [
+  { name: "民政部", url: "https://www.mca.gov.cn" },
+  { name: "中国政府网", url: "https://www.gov.cn" },
+  { name: "中华英烈网", url: "https://www.chinamartyrs.gov.cn" },
+  { name: "中国殡葬协会", url: "https://www.chce.org.cn" },
+  { name: "退役军人事务部", url: "https://www.mva.gov.cn" },
+  { name: "国家统计局", url: "https://www.stats.gov.cn" },
+  { name: "国家卫健委", url: "https://www.nhc.gov.cn" },
+  { name: "中国老龄协会", url: "https://www.cncaprc.gov.cn" },
+  { name: "中国人口与发展研究中心", url: "https://www.cpdrc.org.cn" },
+  { name: "中国疾控中心", url: "https://www.chinacdc.cn" },
+  { name: "中国老龄科学研究中心", url: "https://www.crca.cn" },
+  { name: "中国红十字会", url: "https://www.redcross.org.cn" },
+];
+
+/** The site's ICP filing, shown only in the Simplified-Chinese footer. */
+const CN_ICP = "京ICP备150395100号";
+
 /*
  * Two families, both subset by next/font and self-hosted at build time. No
  * request leaves for a font provider: doc 06 keeps a visitor's presence on a
@@ -110,23 +133,64 @@ export default async function LocaleLayout(props: {
             {props.children}
 
             <footer className="siteFooter">
-              <span className="brand" aria-hidden="true">
-                <img
-                  className="brandMark"
-                  src="/icon.png"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
-                <span className="brandName">
-                  missing<span className="brandAccent">u</span>
+              <div className="footerTop">
+                <span className="brand" aria-hidden="true">
+                  <img
+                    className="brandMark"
+                    src="/icon.png"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                  <span className="brandName">
+                    missing<span className="brandAccent">u</span>
+                  </span>
                 </span>
-              </span>
-              <span className="footerLinks">
-                <Link href={`/${locale}/support`}>{nav("support")}</Link>
-                <Link href={`/${locale}/contact`}>{nav("contact")}</Link>
-                <span className="muted">{nav("help")}</span>
-              </span>
+                <span className="footerLinks">
+                  <Link href={`/${locale}/support`}>{nav("support")}</Link>
+                  <Link href={`/${locale}/help`}>{nav("help")}</Link>
+                  <Link href={`/${locale}/contact`}>{nav("contact")}</Link>
+                </span>
+              </div>
+
+              {locale === "zh-CN" ? (
+                <>
+                  <div className="footerAgencies">
+                    <span className="footerAgenciesLabel">相关机构</span>
+                    <span className="footerAgencyLinks">
+                      {CN_AGENCIES.map((a, i) => (
+                        <span key={a.url} className="footerAgencyItem">
+                          <a
+                            href={a.url}
+                            target="_blank"
+                            rel="noopener noreferrer nofollow"
+                          >
+                            {a.name}
+                          </a>
+                          {i < CN_AGENCIES.length - 1 ? (
+                            <span className="footerSep" aria-hidden="true">
+                              ｜
+                            </span>
+                          ) : null}
+                        </span>
+                      ))}
+                    </span>
+                  </div>
+                  <div className="footerBeian">
+                    <a
+                      href="https://beian.miit.gov.cn/"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                    >
+                      {CN_ICP}
+                    </a>
+                  </div>
+                </>
+              ) : null}
+
+              <div className="footerCopyright">
+                © {new Date().getFullYear()} missingu.org
+              </div>
             </footer>
           </div>
         </NextIntlClientProvider>

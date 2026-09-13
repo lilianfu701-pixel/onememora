@@ -893,5 +893,22 @@
     "unavailable": "Thanh toán trực tuyến hiện chưa khả dụng.",
     "failed": "Đã có lỗi xảy ra. Vui lòng thử lại.",
     "backHome": "Về trang chủ"
+  },
+  "help": {
+    "title": "Trung tâm trợ giúp",
+    "intro": "Giải đáp những câu hỏi các gia đình thường gặp nhất.",
+    "q1": "Làm thế nào để tạo một trang tưởng nhớ?",
+    "a1": "Trên trang chủ, chạm “Tạo trang tưởng nhớ”, nhập tên và ngày tháng rồi tải ảnh chân dung lên. Bạn cũng có thể bắt đầu từ “Đăng cáo phó”, hệ thống sẽ tạo trang giúp bạn.",
+    "q2": "Vì sao người khác không tìm thấy trang của tôi khi tìm kiếm hay trên trang chủ?",
+    "a2": "Trang mới ban đầu là bản nháp. Hãy mở trang, chạm “Đăng”, và đặt chế độ hiển thị là “Công khai”. Khi đó trang mới tìm kiếm được và hiển thị ở “Mới được tưởng nhớ” trên trang chủ của kênh (trong vòng một tháng sau khi đăng).",
+    "q3": "Làm thế nào để tìm một trang tưởng nhớ?",
+    "a3": "Tìm tên người đã khuất từ trang chủ hoặc ô tìm kiếm, hoặc nhập mã tưởng nhớ 8 chữ số để mở trang trực tiếp.",
+    "q4": "Ai có thể xem trang của tôi? Tôi có thể đặt riêng tư không?",
+    "a4": "Có. Ở trang quản lý, bạn có thể đặt chế độ hiển thị: Công khai, Không niêm yết (không vào tìm kiếm), hoặc Chỉ mời.",
+    "q5": "Khác biệt giữa lễ vật, quyên góp cho gia đình và ủng hộ nền tảng là gì?",
+    "a5": "Thắp hương miễn phí — một cử chỉ tưởng nhớ. Nến, vòng hoa và quyên góp là quà tặng cho gia đình. “Ủng hộ nền tảng” ở chân trang dùng để vận hành trang web và không dành cho gia đình nào.",
+    "q6": "Trang tưởng nhớ có miễn phí mãi mãi không? Làm sao để xóa?",
+    "a6": "Việc tạo và viếng thăm trang là miễn phí mãi mãi, không thu phí gia đình. Để xóa, hãy mở trang quản lý và gửi yêu cầu xóa.",
+    "contactCta": "Vẫn còn thắc mắc? Liên hệ với chúng tôi"
   }
 }

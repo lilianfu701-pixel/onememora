@@ -893,5 +893,22 @@
     "unavailable": "Pembayaran online belum tersedia saat ini.",
     "failed": "Terjadi kesalahan. Silakan coba lagi.",
     "backHome": "Kembali ke beranda"
+  },
+  "help": {
+    "title": "Pusat bantuan",
+    "intro": "Jawaban atas pertanyaan yang paling sering diajukan keluarga.",
+    "q1": "Bagaimana cara membuat halaman peringatan?",
+    "a1": "Di beranda, ketuk “Buat halaman peringatan”, masukkan nama dan tanggal, lalu unggah foto. Anda juga bisa mulai dari “Terbitkan obituari”, yang akan membuat halamannya untuk Anda.",
+    "q2": "Mengapa orang lain tidak menemukan halaman saya di pencarian atau beranda?",
+    "a2": "Halaman baru awalnya berupa draf. Buka halaman, ketuk “Terbitkan”, dan atur visibilitas ke “Publik”. Barulah halaman dapat dicari dan tampil di “Baru dikenang” pada beranda kanalnya (selama satu bulan setelah diterbitkan).",
+    "q3": "Bagaimana cara menemukan halaman peringatan?",
+    "a3": "Cari nama orang tersebut dari beranda atau kotak pencarian, atau masukkan nomor peringatan 8 digit untuk membuka halaman langsung.",
+    "q4": "Siapa yang dapat melihat halaman saya? Bisakah dibuat pribadi?",
+    "a4": "Ya. Di halaman kelola, Anda dapat mengatur visibilitas: Publik, Tidak terdaftar (di luar pencarian), atau Hanya undangan.",
+    "q5": "Apa beda persembahan, donasi untuk keluarga, dan mendukung platform?",
+    "a5": "Dupa gratis — sebagai tanda kenangan. Lilin, karangan bunga, dan donasi adalah hadiah untuk keluarga. “Dukung platform” di footer membiayai operasional situs dan tidak diberikan ke keluarga mana pun.",
+    "q6": "Apakah halaman gratis selamanya? Bagaimana cara menghapusnya?",
+    "a6": "Membuat dan mengunjungi halaman gratis selamanya, tanpa biaya bagi keluarga. Untuk menghapus, buka halaman kelola dan ajukan permintaan penghapusan.",
+    "contactCta": "Masih ada pertanyaan? Hubungi kami"
   }
 }

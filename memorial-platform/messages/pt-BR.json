@@ -893,5 +893,22 @@
     "unavailable": "O pagamento on-line não está disponível agora.",
     "failed": "Algo deu errado. Tente novamente.",
     "backHome": "Voltar ao início"
+  },
+  "help": {
+    "title": "Central de ajuda",
+    "intro": "Respostas às perguntas mais frequentes das famílias.",
+    "q1": "Como criar uma página memorial?",
+    "a1": "Na página inicial, toque em “Criar uma página memorial”, informe o nome e as datas e envie um retrato. Você também pode começar por “Publicar um obituário”, que cria a página para você.",
+    "q2": "Por que outras pessoas não encontram minha página na busca ou na página inicial?",
+    "a2": "Uma página nova começa como rascunho. Abra-a, toque em “Publicar” e defina a visibilidade como “Pública”. Só então ela aparece na busca e em “Lembrados recentemente” na página inicial do seu canal (por um mês após a publicação).",
+    "q3": "Como encontro uma página memorial?",
+    "a3": "Pesquise o nome da pessoa na página inicial ou na busca, ou digite o número memorial de 8 dígitos para abrir a página diretamente.",
+    "q4": "Quem pode ver minha página? Posso torná-la privada?",
+    "a4": "Sim. Na página de gerenciamento você define a visibilidade: Pública, Não listada (fora da busca) ou Somente por convite.",
+    "q5": "Qual a diferença entre oferendas, doações à família e apoiar a plataforma?",
+    "a5": "O incenso é gratuito — um gesto de lembrança. Velas, coroas e doações são presentes para a família. “Apoiar a plataforma”, no rodapé, custeia o funcionamento do site e não vai para nenhuma família.",
+    "q6": "A página é gratuita para sempre? Como excluí-la?",
+    "a6": "Criar e visitar uma página é gratuito para sempre, sem custo para as famílias. Para remover, abra a página de gerenciamento e solicite a exclusão.",
+    "contactCta": "Ainda tem dúvidas? Fale conosco"
   }
 }

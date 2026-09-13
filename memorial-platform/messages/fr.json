@@ -893,5 +893,22 @@
     "unavailable": "Le paiement en ligne n'est pas disponible pour le moment.",
     "failed": "Une erreur est survenue. Veuillez réessayer.",
     "backHome": "Retour à l'accueil"
+  },
+  "help": {
+    "title": "Centre d'aide",
+    "intro": "Réponses aux questions les plus fréquentes des familles.",
+    "q1": "Comment créer une page mémorielle ?",
+    "a1": "Sur la page d'accueil, appuyez sur « Créer une page mémorielle », saisissez le nom et les dates et importez un portrait. Vous pouvez aussi partir de « Publier un avis de décès », qui crée la page pour vous.",
+    "q2": "Pourquoi les autres ne trouvent-ils pas ma page dans la recherche ou sur l'accueil ?",
+    "a2": "Une nouvelle page est d'abord un brouillon. Ouvrez-la, appuyez sur « Publier » et réglez la visibilité sur « Publique ». Elle n'apparaît alors dans la recherche et dans « Souvenirs récents » de la page d'accueil de son canal que pendant un mois après publication.",
+    "q3": "Comment trouver une page mémorielle ?",
+    "a3": "Recherchez le nom de la personne depuis l'accueil ou la barre de recherche, ou saisissez le numéro mémoriel à 8 chiffres pour ouvrir la page directement.",
+    "q4": "Qui peut voir ma page ? Puis-je la rendre privée ?",
+    "a4": "Oui. Sur la page de gestion, vous pouvez régler la visibilité : Publique, Non répertoriée (hors recherche) ou Sur invitation.",
+    "q5": "Quelle différence entre les offrandes, les dons à la famille et le soutien à la plateforme ?",
+    "a5": "L'encens est gratuit, un geste de souvenir. Bougies, couronnes et dons sont des présents pour la famille. « Soutenir la plateforme », en pied de page, finance le fonctionnement du site et ne va à aucune famille.",
+    "q6": "La page est-elle gratuite pour toujours ? Comment la supprimer ?",
+    "a6": "Créer et visiter une page est gratuit pour toujours, sans frais pour les familles. Pour la supprimer, ouvrez la page de gestion et demandez la suppression.",
+    "contactCta": "D'autres questions ? Contactez-nous"
   }
 }

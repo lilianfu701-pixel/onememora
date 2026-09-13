@@ -893,5 +893,22 @@
     "unavailable": "Online payment isn't available right now.",
     "failed": "Something went wrong. Please try again.",
     "backHome": "Back to home"
+  },
+  "help": {
+    "title": "Help centre",
+    "intro": "Answers to the questions families ask most.",
+    "q1": "How do I create a memorial page?",
+    "a1": "On the home page, tap “Create a memorial”, enter the name and dates and upload a portrait. You can also start from “Publish an obituary”, which sets up the memorial for you.",
+    "q2": "Why can't others find my page in search or on the home page?",
+    "a2": "A new page is a draft at first. Open it and tap “Publish”, and set visibility to “Public”. Only then is it searchable and shown in “Recently remembered” on its channel's home page (for a month after publishing).",
+    "q3": "How do I find a memorial?",
+    "a3": "Search the person's name from the home page or the search box, or enter the 8-digit memorial number to open the page directly.",
+    "q4": "Who can see my memorial? Can I make it private?",
+    "a4": "Yes. On the manage page you can set the visibility: Public, Unlisted (kept out of search), or Invite-only.",
+    "q5": "What's the difference between offerings, donations to the family, and supporting the platform?",
+    "a5": "Incense is free — a gesture of remembrance. Candles, wreaths and donations are gifts to the family. “Support the platform” in the footer funds the running of the site and does not go to any family.",
+    "q6": "Is a memorial free forever? How do I delete it?",
+    "a6": "Creating and visiting a memorial is free forever, with no charge to families. To remove one, open the manage page and request deletion.",
+    "contactCta": "Still have questions? Contact us"
   }
 }

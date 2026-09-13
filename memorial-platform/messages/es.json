@@ -893,5 +893,22 @@
     "unavailable": "El pago en línea no está disponible ahora.",
     "failed": "Algo salió mal. Inténtalo de nuevo.",
     "backHome": "Volver al inicio"
+  },
+  "help": {
+    "title": "Centro de ayuda",
+    "intro": "Respuestas a las preguntas más frecuentes de las familias.",
+    "q1": "¿Cómo creo una página conmemorativa?",
+    "a1": "En la página principal, toca «Crear una página conmemorativa», introduce el nombre y las fechas y sube un retrato. También puedes empezar por «Publicar una esquela», que crea la página por ti.",
+    "q2": "¿Por qué otros no encuentran mi página en la búsqueda ni en la página principal?",
+    "a2": "Al principio, una página nueva es un borrador. Ábrela, toca «Publicar» y pon la visibilidad en «Pública». Solo entonces aparece en la búsqueda y en «Recordados recientemente» de la página principal de su canal (durante un mes tras publicarla).",
+    "q3": "¿Cómo encuentro una página conmemorativa?",
+    "a3": "Busca el nombre de la persona desde la página principal o el buscador, o introduce el número conmemorativo de 8 dígitos para abrir la página directamente.",
+    "q4": "¿Quién puede ver mi página? ¿Puedo hacerla privada?",
+    "a4": "Sí. En la página de gestión puedes elegir la visibilidad: Pública, No listada (fuera de la búsqueda) o Solo por invitación.",
+    "q5": "¿Cuál es la diferencia entre las ofrendas, las donaciones a la familia y apoyar la plataforma?",
+    "a5": "El incienso es gratis, un gesto de recuerdo. Las velas, coronas y donaciones son regalos para la familia. «Apoyar la plataforma», en el pie de página, financia el funcionamiento del sitio y no va a ninguna familia.",
+    "q6": "¿La página es gratis para siempre? ¿Cómo la elimino?",
+    "a6": "Crear y visitar una página es gratis para siempre, sin coste para las familias. Para eliminarla, abre la página de gestión y solicita la eliminación.",
+    "contactCta": "¿Aún tienes preguntas? Contáctanos"
   }
 }

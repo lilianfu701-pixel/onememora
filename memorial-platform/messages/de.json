@@ -893,5 +893,22 @@
     "unavailable": "Online-Zahlung ist derzeit nicht verfügbar.",
     "failed": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
     "backHome": "Zurück zur Startseite"
+  },
+  "help": {
+    "title": "Hilfe-Center",
+    "intro": "Antworten auf die häufigsten Fragen von Familien.",
+    "q1": "Wie erstelle ich eine Gedenkseite?",
+    "a1": "Tippen Sie auf der Startseite auf „Gedenkseite erstellen“, geben Sie Name und Daten ein und laden Sie ein Porträt hoch. Sie können auch mit „Traueranzeige veröffentlichen“ beginnen – die Seite wird dann für Sie angelegt.",
+    "q2": "Warum finden andere meine Seite nicht in der Suche oder auf der Startseite?",
+    "a2": "Eine neue Seite ist zunächst ein Entwurf. Öffnen Sie sie, tippen Sie auf „Veröffentlichen“ und stellen Sie die Sichtbarkeit auf „Öffentlich“. Erst dann ist sie auffindbar und erscheint einen Monat lang unter „Kürzlich gedacht“ auf der Startseite ihres Kanals.",
+    "q3": "Wie finde ich eine Gedenkseite?",
+    "a3": "Suchen Sie den Namen der Person auf der Startseite oder im Suchfeld, oder geben Sie die 8-stellige Gedenknummer ein, um die Seite direkt zu öffnen.",
+    "q4": "Wer kann meine Seite sehen? Kann ich sie privat machen?",
+    "a4": "Ja. Auf der Verwaltungsseite können Sie die Sichtbarkeit einstellen: Öffentlich, Nicht gelistet (nicht in der Suche) oder Nur mit Einladung.",
+    "q5": "Was ist der Unterschied zwischen Opfergaben, Spenden an die Familie und der Unterstützung der Plattform?",
+    "a5": "Räucherwerk ist kostenlos – eine Geste des Gedenkens. Kerzen, Kränze und Spenden sind Gaben an die Familie. „Plattform unterstützen“ im Fußbereich finanziert den Betrieb der Website und geht an keine Familie.",
+    "q6": "Ist eine Gedenkseite für immer kostenlos? Wie lösche ich sie?",
+    "a6": "Das Erstellen und Besuchen einer Gedenkseite ist für immer kostenlos, ohne Gebühren für Familien. Zum Entfernen öffnen Sie die Verwaltungsseite und beantragen die Löschung.",
+    "contactCta": "Noch Fragen? Kontaktieren Sie uns"
   }
 }
