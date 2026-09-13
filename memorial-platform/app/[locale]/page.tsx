@@ -114,9 +114,9 @@ export default async function HomePage(props: {
         </div>
       </section>
 
-      <Suspense>
-        <HomeShowcase locale={locale} />
-      </Suspense>
+      {/* Client-fetched from /api/showcase so a just-published memorial appears
+          within minutes, without waiting for the edge-cached homepage HTML. */}
+      <HomeShowcase locale={locale} />
 
       <section className="section">
         <div className="container stack-lg textCenter">

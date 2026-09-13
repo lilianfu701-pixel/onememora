@@ -1,31 +1,53 @@
-import { getTranslations } from "next-intl/server";
+"use client";
+
+import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { normalizeLocale } from "@/lib/locale";
-import { recentMemorialsForChannel } from "@/modules/memorials/showcase";
+import { useEffect, useState } from "react";
 
 /**
- * The "recently remembered" section on a channel's homepage: memorials the
- * family opted to feature, published within the last month, belonging to the
- * viewer's channel. A Chinese figure marked cross-strait appears on all three
- * Chinese homepages; everyone else appears on their own language's homepage.
+ * The "recently remembered" section on a channel's homepage.
  *
- * Renders nothing when the channel has none, so an empty homepage stays clean.
- * Cached with the homepage (revalidate = 3600), so it costs one query per
- * channel per hour rather than one per visit.
+ * Fetched on the client after the page loads, not baked into the server HTML:
+ * the homepage is edge-cached for speed, but this list must reflect a memorial
+ * the moment it is published. Keeping the list out of the cached HTML and
+ * pulling it from `/api/showcase` (short-cached) is what lets a just-published
+ * page appear within minutes while the homepage itself stays fast.
+ *
+ * Renders nothing until the list arrives, and nothing when the channel has
+ * none, so an empty homepage stays clean.
  */
-export async function HomeShowcase({
-  locale,
-}: {
-  locale: string;
-}): Promise<React.ReactElement | null> {
-  const channel = normalizeLocale(locale);
-  const memorials = await recentMemorialsForChannel(channel);
+type ShowcaseItem = {
+  slug: string;
+  name: string;
+  birthYear: number | null;
+  deathYear: number | null;
+  portraitUrl: string | null;
+};
 
-  if (memorials.length === 0) {
+export function HomeShowcase({ locale }: { locale: string }) {
+  const t = useTranslations("home");
+  const [items, setItems] = useState<ShowcaseItem[] | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    fetch(`/api/showcase?locale=${encodeURIComponent(locale)}`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (alive && Array.isArray(data?.memorials)) {
+          setItems(data.memorials as ShowcaseItem[]);
+        }
+      })
+      .catch(() => {
+        if (alive) setItems([]);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [locale]);
+
+  if (!items || items.length === 0) {
     return null;
   }
-
-  const t = await getTranslations("home");
 
   const yearRange = (birthYear: number | null, deathYear: number | null) => {
     if (birthYear && deathYear) return `${birthYear} – ${deathYear}`;
@@ -34,8 +56,7 @@ export async function HomeShowcase({
     return "";
   };
 
-  // The first character of the name, shown when there is no portrait — a quiet
-  // monogram rather than an empty grey box.
+  // The first character of the name, shown when there is no portrait.
   const monogram = (name: string): string => {
     const trimmed = name.trim();
     return trimmed ? [...trimmed][0] ?? "" : "";
@@ -46,7 +67,7 @@ export async function HomeShowcase({
       <div className="container stack-lg">
         <h2 className="textCenter">{t("latestTitle")}</h2>
         <div className="showcaseGrid">
-          {memorials.map((m) => {
+          {items.map((m) => {
             const dates = yearRange(m.birthYear, m.deathYear);
             return (
               <Link
