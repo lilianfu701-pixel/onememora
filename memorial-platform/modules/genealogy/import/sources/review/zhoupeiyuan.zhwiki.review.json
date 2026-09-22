@@ -1,0 +1,39 @@
+{
+  "key": "zhoupeiyuan",
+  "sourceTitle": "周培源",
+  "fetchedAt": "2026-09-22T05:47:26.850Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q4515490",
+      "name": "周培源",
+      "citation": "中文维基百科《周培源》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:王蒂澂",
+      "name": "王蒂澂",
+      "citation": "中文维基百科《周培源》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "Q4515490",
+      "b": "zhwiki:王蒂澂"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:王蒂澂\t王蒂澂"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：[[周如枚]]，1980年去世。",
+    "未解析（需人工判断关系）：第一任丈夫[[梁从诫]]是[[梁思成]]和[[林徽因]]的儿子。两人在[[文革]]期间离婚。两人的儿子[[梁鉴]]又名周志兵。梁鉴的女儿[[梁周洋]]，又名周洋，[[美籍华人]][[模特]]。",
+    "未解析（需人工判断关系）：第二任丈夫麻醉学家[[谢荣]]，1968年生女谢兰。谢兰现名 Cecilia Xie Birge，1989年[[六四事件]]之后移民美国<ref>{{Cite web |url=https://sites.rutgers.edu/cawp-new-leadership/people/cecilia-birge/ |ti",
+    "未解析（需人工判断关系）：[[周如雁]]",
+    "未解析（需人工判断关系）：[[周如玲]]",
+    "未解析（需人工判断关系）：[[周如苹]]，周培源基金会理事长、法人代表。周如苹已于几年前去世。"
+  ]
+}

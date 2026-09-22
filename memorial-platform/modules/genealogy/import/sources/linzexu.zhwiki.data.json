@@ -1,0 +1,58 @@
+{
+  "key": "linzexu",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q184999",
+      "name": "林则徐",
+      "living": false,
+      "citation": "中文维基百科《林则徐》家庭章节"
+    },
+    {
+      "externalId": "Q11106498",
+      "name": "林汝舟",
+      "living": false,
+      "citation": "中文维基百科《林则徐》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:刘齐衔",
+      "name": "刘齐衔",
+      "living": false,
+      "citation": "中文维基百科《林则徐》家庭章节"
+    },
+    {
+      "externalId": "Q657787",
+      "name": "沈葆桢",
+      "living": false,
+      "citation": "中文维基百科《林则徐》家庭章节"
+    },
+    {
+      "externalId": "Q15902678",
+      "name": "沈吕巡",
+      "living": false,
+      "citation": "中文维基百科《林则徐》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "Q11106498"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "zhwiki:刘齐衔"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "Q657787"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q15902678",
+      "b": "Q657787"
+    }
+  ]
+}

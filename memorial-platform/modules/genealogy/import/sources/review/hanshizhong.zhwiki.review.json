@@ -1,0 +1,820 @@
+{
+  "key": "hanshizhong",
+  "sourceTitle": "韩世忠",
+  "fetchedAt": "2026-09-22T05:46:11.856Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q706861",
+      "name": "韩世忠",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:韩庆",
+      "name": "韩庆",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:贺氏",
+      "name": "贺氏",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩世旺",
+      "name": "韩世旺",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩世良",
+      "name": "韩世良",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:终官奉国军承宣使",
+      "name": "终官奉国军承宣使",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:提举台州崇道观",
+      "name": "提举台州崇道观",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:赠武当军节度使",
+      "name": "赠武当军节度使",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:少傅",
+      "name": "少傅",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:白氏",
+      "name": "白氏",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:秦国夫人",
+      "name": "秦国夫人",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:赠潭国夫人",
+      "name": "赠潭国夫人",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:梁红玉",
+      "name": "梁氏",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:杨国夫人",
+      "name": "杨国夫人",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:赠邠国夫人",
+      "name": "赠邠国夫人",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:茆氏",
+      "name": "茆氏",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:周氏",
+      "name": "周氏",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:蕲国夫人",
+      "name": "蕲国夫人",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩彦直",
+      "name": "韩彦直",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:太中大夫",
+      "name": "太中大夫",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:延水县开国伯",
+      "name": "延水县开国伯",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:食邑八百户",
+      "name": "食邑八百户",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩彦朴",
+      "name": "韩彦朴",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:奉议郎",
+      "name": "奉议郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:直显谟阁",
+      "name": "直显谟阁",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:早卒",
+      "name": "早卒",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩彦质",
+      "name": "韩彦质",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:朝奉大夫",
+      "name": "朝奉大夫",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:直徽猷阁",
+      "name": "直徽猷阁",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩彦古",
+      "name": "韩彦古",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:充敷文阁侍制",
+      "name": "充敷文阁侍制",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩氏",
+      "name": "韩氏",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适朝散郎",
+      "name": "适朝散郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:通判饶州事曹沾",
+      "name": "通判饶州事曹沾",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适宣教郎冯用休",
+      "name": "适宣教郎冯用休",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适宣教郎",
+      "name": "适宣教郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:知宁国县事王万修",
+      "name": "知宁国县事王万修",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适从政郎刘莒",
+      "name": "适从政郎刘莒",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适宣权郎",
+      "name": "适宣权郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:宗正寺主簿胡南逢",
+      "name": "宗正寺主簿胡南逢",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适承议郎",
+      "name": "适承议郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:充集英殿修撰",
+      "name": "充集英殿修撰",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:主管佑神观张子仁",
+      "name": "主管佑神观张子仁",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:出家为道",
+      "name": "出家为道",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩挺",
+      "name": "韩挺",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:太社局令",
+      "name": "太社局令",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩扶",
+      "name": "韩扶",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:直秘阁",
+      "name": "直秘阁",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩格",
+      "name": "韩格",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:宣教郎",
+      "name": "宣教郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩枢",
+      "name": "韩枢",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:承务郎",
+      "name": "承务郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩松",
+      "name": "韩松",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:通仕郎",
+      "name": "通仕郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩相",
+      "name": "韩相",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:承事郎",
+      "name": "承事郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩椿",
+      "name": "韩椿",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩林",
+      "name": "韩林",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:将仕郎",
+      "name": "将仕郎",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩森",
+      "name": "韩森",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩休",
+      "name": "韩休",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩楫",
+      "name": "韩楫",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩杰",
+      "name": "韩杰",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩本",
+      "name": "韩本",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩梓",
+      "name": "韩梓",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩樟",
+      "name": "韩樟",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适将仕郎王大昌",
+      "name": "适将仕郎王大昌",
+      "citation": "中文维基百科《韩世忠》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "Q706861"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:贺氏",
+      "child": "Q706861"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "zhwiki:韩世旺"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "zhwiki:韩世良"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "zhwiki:终官奉国军承宣使"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "zhwiki:提举台州崇道观"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "zhwiki:赠武当军节度使"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩庆",
+      "child": "zhwiki:少傅"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q706861",
+      "b": "zhwiki:白氏"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q706861",
+      "b": "zhwiki:秦国夫人"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q706861",
+      "b": "zhwiki:赠潭国夫人"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q706861",
+      "b": "zhwiki:梁红玉"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q706861",
+      "b": "zhwiki:杨国夫人"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q706861",
+      "b": "zhwiki:赠邠国夫人"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:秦国夫人",
+      "b": "zhwiki:茆氏"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:周氏",
+      "b": "zhwiki:蕲国夫人"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:韩彦直"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:太中大夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:延水县开国伯"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:食邑八百户"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:韩彦朴"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:奉议郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:直显谟阁"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:早卒"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:韩彦质"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:朝奉大夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:直徽猷阁"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:韩彦古"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:充敷文阁侍制"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:韩氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:适朝散郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:通判饶州事曹沾"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:适宣教郎冯用休"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:适宣教郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:知宁国县事王万修"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:适从政郎刘莒"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:适宣权郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:宗正寺主簿胡南逢"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:适承议郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:充集英殿修撰"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:主管佑神观张子仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706861",
+      "child": "zhwiki:出家为道"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩挺"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:奉议郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:太社局令"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩扶"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:直秘阁"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩格"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:宣教郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩枢"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:承务郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩松"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:通仕郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩相"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:承事郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩椿"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩林"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:将仕郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩森"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩休"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩楫"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩本"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩梓"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩樟"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:韩氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:出家为道",
+      "child": "zhwiki:适将仕郎王大昌"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:韩庆\t韩庆",
+    "zhwiki:贺氏\t贺氏",
+    "zhwiki:韩世旺\t韩世旺",
+    "zhwiki:韩世良\t韩世良",
+    "zhwiki:终官奉国军承宣使\t终官奉国军承宣使",
+    "zhwiki:提举台州崇道观\t提举台州崇道观",
+    "zhwiki:赠武当军节度使\t赠武当军节度使",
+    "zhwiki:少傅\t少傅",
+    "zhwiki:白氏\t白氏",
+    "zhwiki:秦国夫人\t秦国夫人",
+    "zhwiki:赠潭国夫人\t赠潭国夫人",
+    "zhwiki:梁红玉\t梁氏",
+    "zhwiki:杨国夫人\t杨国夫人",
+    "zhwiki:赠邠国夫人\t赠邠国夫人",
+    "zhwiki:茆氏\t茆氏",
+    "zhwiki:周氏\t周氏",
+    "zhwiki:蕲国夫人\t蕲国夫人",
+    "zhwiki:韩彦直\t韩彦直",
+    "zhwiki:太中大夫\t太中大夫",
+    "zhwiki:延水县开国伯\t延水县开国伯",
+    "zhwiki:食邑八百户\t食邑八百户",
+    "zhwiki:韩彦朴\t韩彦朴",
+    "zhwiki:奉议郎\t奉议郎",
+    "zhwiki:直显谟阁\t直显谟阁",
+    "zhwiki:早卒\t早卒",
+    "zhwiki:韩彦质\t韩彦质",
+    "zhwiki:朝奉大夫\t朝奉大夫",
+    "zhwiki:直徽猷阁\t直徽猷阁",
+    "zhwiki:韩彦古\t韩彦古",
+    "zhwiki:充敷文阁侍制\t充敷文阁侍制",
+    "zhwiki:韩氏\t韩氏",
+    "zhwiki:适朝散郎\t适朝散郎",
+    "zhwiki:通判饶州事曹沾\t通判饶州事曹沾",
+    "zhwiki:适宣教郎冯用休\t适宣教郎冯用休",
+    "zhwiki:适宣教郎\t适宣教郎",
+    "zhwiki:知宁国县事王万修\t知宁国县事王万修",
+    "zhwiki:适从政郎刘莒\t适从政郎刘莒",
+    "zhwiki:适宣权郎\t适宣权郎",
+    "zhwiki:宗正寺主簿胡南逢\t宗正寺主簿胡南逢",
+    "zhwiki:适承议郎\t适承议郎",
+    "zhwiki:充集英殿修撰\t充集英殿修撰",
+    "zhwiki:主管佑神观张子仁\t主管佑神观张子仁",
+    "zhwiki:出家为道\t出家为道",
+    "zhwiki:韩挺\t韩挺",
+    "zhwiki:太社局令\t太社局令",
+    "zhwiki:韩扶\t韩扶",
+    "zhwiki:直秘阁\t直秘阁",
+    "zhwiki:韩格\t韩格",
+    "zhwiki:宣教郎\t宣教郎",
+    "zhwiki:韩枢\t韩枢",
+    "zhwiki:承务郎\t承务郎",
+    "zhwiki:韩松\t韩松",
+    "zhwiki:通仕郎\t通仕郎",
+    "zhwiki:韩相\t韩相",
+    "zhwiki:承事郎\t承事郎",
+    "zhwiki:韩椿\t韩椿",
+    "zhwiki:韩林\t韩林",
+    "zhwiki:将仕郎\t将仕郎",
+    "zhwiki:韩森\t韩森",
+    "zhwiki:韩休\t韩休",
+    "zhwiki:韩楫\t韩楫",
+    "zhwiki:韩杰\t韩杰",
+    "zhwiki:韩本\t韩本",
+    "zhwiki:韩梓\t韩梓",
+    "zhwiki:韩樟\t韩樟",
+    "zhwiki:适将仕郎王大昌\t适将仕郎王大昌"
+  ],
+  "notes": [
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略「paternalGrandmother」行——未先解析出父亲，无法确认这是父系还是母系"
+  ]
+}

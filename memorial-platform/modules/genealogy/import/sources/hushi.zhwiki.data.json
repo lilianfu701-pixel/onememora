@@ -1,0 +1,80 @@
+{
+  "key": "hushi",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q47667",
+      "name": "胡适",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    },
+    {
+      "externalId": "Q4193768",
+      "name": "胡传",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:冯顺弟",
+      "name": "冯顺弟",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:江冬秀",
+      "name": "江冬秀",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:胡祖望",
+      "name": "胡祖望",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    },
+    {
+      "externalId": "Q56271321",
+      "name": "胡思杜",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:胡素斐",
+      "name": "胡素斐",
+      "living": false,
+      "citation": "中文维基百科《胡適》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q4193768",
+      "child": "Q47667"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:冯顺弟",
+      "child": "Q47667"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q47667",
+      "b": "zhwiki:江冬秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q47667",
+      "child": "zhwiki:胡祖望"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q47667",
+      "child": "Q56271321"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q47667",
+      "child": "zhwiki:胡素斐"
+    }
+  ]
+}

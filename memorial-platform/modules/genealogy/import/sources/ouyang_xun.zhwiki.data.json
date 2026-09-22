@@ -1,0 +1,25 @@
+{
+  "key": "ouyang_xun",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q1207679",
+      "name": "欧阳询",
+      "living": false,
+      "citation": "中文维基百科《欧阳询》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:欧阳长卿",
+      "name": "欧阳长卿",
+      "living": false,
+      "citation": "中文维基百科《欧阳询》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q1207679",
+      "child": "zhwiki:欧阳长卿"
+    }
+  ]
+}

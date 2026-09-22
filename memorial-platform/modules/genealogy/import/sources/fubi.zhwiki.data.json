@@ -1,0 +1,168 @@
+{
+  "key": "fubi",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q10954250",
+      "name": "富弼",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富言",
+      "name": "富言",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:韩□",
+      "name": "韩□",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "Q30941733",
+      "name": "富绍庭",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:□氏",
+      "name": "□氏",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富直亮",
+      "name": "富直亮",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "Q45366304",
+      "name": "富直柔",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富绍京",
+      "name": "富绍京",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张□",
+      "name": "张□",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富直方",
+      "name": "富直方",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富直清",
+      "name": "富直清",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富绍隆",
+      "name": "富绍隆",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富□",
+      "name": "富□",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "Q10895265",
+      "name": "冯京",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:范大琮",
+      "name": "范大琮",
+      "living": false,
+      "citation": "中文维基百科《富弼》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:富言",
+      "child": "Q10954250"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩□",
+      "child": "Q10954250"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "Q30941733"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:□氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富直亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "Q45366304"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富绍京"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:张□"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富直方"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富直清"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富绍隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富□"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "Q10895265"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:范大琮"
+    }
+  ]
+}

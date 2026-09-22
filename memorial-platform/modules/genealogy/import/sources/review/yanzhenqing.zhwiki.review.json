@@ -1,0 +1,172 @@
+{
+  "key": "yanzhenqing",
+  "sourceTitle": "颜真卿",
+  "fetchedAt": "2026-09-22T05:44:34.406Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q758566",
+      "name": "颜真卿",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:颜惟贞",
+      "name": "颜惟贞",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:殷氏",
+      "name": "殷氏",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:颜昭甫",
+      "name": "颜昭甫",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:殷子敬",
+      "name": "殷子敬",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q15892829",
+      "name": "颜勤礼",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q11547094",
+      "name": "殷令名",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:殷令言",
+      "name": "殷令言",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:颜思鲁",
+      "name": "颜思鲁",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:殷知乐",
+      "name": "殷知乐",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q45420105",
+      "name": "殷闻礼",
+      "citation": "中文维基百科《颜真卿》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:颜惟贞",
+      "child": "Q758566"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "Q758566"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:颜昭甫",
+      "child": "zhwiki:颜惟贞"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "zhwiki:颜惟贞"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷子敬",
+      "child": "zhwiki:殷氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q15892829",
+      "child": "zhwiki:颜昭甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "zhwiki:颜昭甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11547094",
+      "child": "zhwiki:殷氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷令言",
+      "child": "zhwiki:殷子敬"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:颜思鲁",
+      "child": "Q15892829"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "Q15892829"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷知乐",
+      "child": "zhwiki:殷氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q45420105",
+      "child": "Q11547094"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q45420105",
+      "child": "zhwiki:殷令言"
+    }
+  ],
+  "ahnentafelPeopleFound": 15,
+  "unresolved": [
+    "zhwiki:颜惟贞\t颜惟贞",
+    "zhwiki:殷氏\t殷氏",
+    "zhwiki:颜昭甫\t颜昭甫",
+    "zhwiki:殷子敬\t殷子敬",
+    "zhwiki:殷令言\t殷令言",
+    "zhwiki:颜思鲁\t颜思鲁",
+    "zhwiki:殷知乐\t殷知乐"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：[[颜盛]]，曹魏青徐二州刺史",
+    "未解析（需人工判断关系）：[[颜含]]，东晋侍中",
+    "未解析（需人工判断关系）：[[颜之推]]，北齐黄门侍郎",
+    "未解析（需人工判断关系）：[[陈郡殷氏]]，南梁行台选郎[[殷外臣]]堂姐妹",
+    "未解析（需人工判断关系）：[[颜思鲁]]，唐朝秦王府记室参军",
+    "未解析（需人工判断关系）：[[陈郡殷氏]]，北周御正中大夫[[殷英童]]之女",
+    "未解析（需人工判断关系）：[[颜勤礼]]，唐朝蒋王文学、著作郎",
+    "未解析（需人工判断关系）：[[殷懿姬]]，出自陈郡殷氏，南梁丹杨诏狱监[[殷不占]]曾孙女，北周御史大夫、隋朝晋熙郡太守、建安县开国男[[殷英童]]孙女，殷知乐之女",
+    "未解析（需人工判断关系）：[[颜昭甫]]，唐高宗侍读、赠华州刺史",
+    "未解析（需人工判断关系）：[[陈郡殷氏]]，唐朝光禄卿、上柱国、建安县开国男[[殷令名]]之女，通议大夫、麟台丞、建安县开国男[[殷仲容]]姐姐",
+    "未解析（需人工判断关系）：[[颜惟贞]]，唐朝太子文学、薛王友，赠太子少保",
+    "未解析（需人工判断关系）：[[陈郡殷氏]]，太常博士、吴县县令[[殷子敬]]之女，曹州司法参军、兼丽正殿学士[[殷践猷]]妹妹",
+    "未解析（需人工判断关系）：[[颜允南]]，唐朝正议大夫、行国子司业、上柱国、金乡县开国男",
+    "未解析（需人工判断关系）：[[颜允臧]]，唐朝殿中太子中允、江陵少尹、兼侍御史、荆南节度行军司马"
+  ]
+}

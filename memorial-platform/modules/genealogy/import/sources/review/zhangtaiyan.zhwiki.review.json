@@ -1,0 +1,97 @@
+{
+  "key": "zhangtaiyan",
+  "sourceTitle": "章太炎",
+  "fetchedAt": "2026-09-22T05:44:15.310Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q197162",
+      "name": "章太炎",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:，章{{notetag|{{标音|字",
+      "name": "，章{{notetag|{{标音|字",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:龚宝铨",
+      "name": "龚宝铨",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:章导",
+      "name": "章导",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:汤国梨传|author=闻海鹰|chapter=第十四章　子规啼血慈母心|publisher=华文出版社|year=2022|isbn=9787507557138}}</ref>。共成婚三次，婚生子女五人，非婚生子女四人。",
+      "name": "汤国梨传|author=闻海鹰|chapter=第十四章　子规啼血慈母心|publisher=华文出版社|year=2022|isbn=9787507557138}}</ref>。共成婚三次，婚生子女五人，非婚生子女四人。",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:章奇",
+      "name": "章奇",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:if/>。",
+      "name": "if/>。",
+      "citation": "中文维基百科《章太炎》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q197162",
+      "child": "zhwiki:，章{{notetag|{{标音|字"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:龚宝铨",
+      "b": "zhwiki:，章{{notetag|{{标音|字"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197162",
+      "child": "zhwiki:章导"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:汤国梨传|author=闻海鹰|chapter=第十四章　子规啼血慈母心|publisher=华文出版社|year=2022|isbn=9787507557138}}</ref>。共成婚三次，婚生子女五人，非婚生子女四人。",
+      "b": "zhwiki:章导"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197162",
+      "child": "zhwiki:章奇"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:if/>。",
+      "b": "zhwiki:章奇"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:，章{{notetag|{{标音|字\t，章{{notetag|{{标音|字",
+    "zhwiki:龚宝铨\t龚宝铨",
+    "zhwiki:章导\t章导",
+    "zhwiki:汤国梨传|author=闻海鹰|chapter=第十四章　子规啼血慈母心|publisher=华文出版社|year=2022|isbn=9787507557138}}</ref>。共成婚三次，婚生子女五人，非婚生子女四人。\t汤国梨传|author=闻海鹰|chapter=第十四章　子规啼血慈母心|publisher=华文出版社|year=2022|isbn=9787507557138}}</ref>。共成婚三次，婚生子女五人，非婚生子女四人。",
+    "zhwiki:章奇\t章奇",
+    "zhwiki:if/>。\tif/>。"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：1892年，在章母主持下，章太炎娶其母的陪嫁丫鬟、浙江[[海盐县|海盐]]农家的女儿王氏，两人育有三女。1903年，王氏病故，三个女儿由伯父抚养长大：<ref name=\"ztyyz\"/><ref>{{cite book|title=杭州文史资料 第五辑|chapter=我的母亲章王氏|author=章{{Unihan",
+    "未解析（需人工判断关系）：三女，章{{Unihan|382D}}{{notetag|“㠭”，“展”的古字。}}（1899年—1973年），丈夫[[朱镜宙]]，育一女。",
+    "未解析（需人工判断关系）：章太炎的第二任妻子是[[汤国梨]]（1883—1980），[[浙江]][[吴兴]][[乌镇]]{{notetag|今属[[桐乡市]]。}}人，毕业于上海[[务本女塾]]，后任教于上海[[神州女学]]并担任《神州女报》编辑。1913年，经汤的同学[[張默君]]之父、同盟会会员[[張通典]]做媒，章太炎与汤国梨于6月15日",
+    "未解析（需人工判断关系）：[[章念驰]]，上海社会科学院研究员；"
+  ]
+}

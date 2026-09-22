@@ -1,0 +1,122 @@
+{
+  "key": "huangxing",
+  "sourceTitle": "黄兴",
+  "fetchedAt": "2026-09-22T05:45:01.975Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q706842",
+      "name": "黄兴",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:黄筱村",
+      "name": "黄筱村",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:黄一欧",
+      "name": "黄一欧",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:黄一中",
+      "name": "黄一中",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:黄振华",
+      "name": "黄振华",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q2448312",
+      "name": "马来亚共产党",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:2025-11-08}}",
+      "name": "2025-11-08}}",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:黄德华",
+      "name": "黄德华",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:黄一美",
+      "name": "黄一美",
+      "citation": "中文维基百科《黄兴》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:黄筱村",
+      "child": "Q706842"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄一欧"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄一中"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄振华"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "Q2448312"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q2448312",
+      "b": "zhwiki:2025-11-08}}"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄德华"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄一美"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:黄筱村\t黄筱村",
+    "zhwiki:黄一欧\t黄一欧",
+    "zhwiki:黄一中\t黄一中",
+    "zhwiki:黄振华\t黄振华",
+    "zhwiki:2025-11-08}}\t2025-11-08}}",
+    "zhwiki:黄德华\t黄德华",
+    "zhwiki:黄一美\t黄一美"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：元配夫人為[[廖淡如]]（1873－1939）。",
+    "未解析（需人工判断关系）：長孫[[黄伟民 (体育教练)|黄偉民]]（1937－2025年11月29日凌晨2时20分在长沙去世）。曾任第7至第9届全国政协委员、湖南省政协常委、中国国民党革命委员会中央委员、民革湖南省委会副主委、湖南省黄兴研究会会长、湖南省海外联谊会理事、中国体育教练员",
+    "未解析（需人工判断关系）：[[黄力工]]",
+    "未解析（需人工判断关系）：五子[[黄乃|黄一寰]]，后改名黄鼐、黄乃，为[[遗腹子]]，被譽為「中國[[盲文]]之父」。",
+    "未解析（需人工判断关系）：第二任妻子（重婚）為[[徐宗汉]]（1877－1944）。",
+    "未解析（需人工判断关系）：四子黄一球，[[中华航空公司]]机械总工程师，其妻程博德為[[程潜]]之女。黄一球1949年赴台灣，1964年在台灣病逝。<ref>{{cite web |url=http://www.hercity.com/s/201110/18139.html |author=吴东平 |title=辛亥人物黄兴后人的传奇命运 |w"
+  ]
+}

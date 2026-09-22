@@ -1,0 +1,113 @@
+{
+  "key": "ruanyuan",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q716358",
+      "name": "阮元",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:孔璐华",
+      "name": "孔璐华",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "Q10944360",
+      "name": "孔昭焕",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "Q10944337",
+      "name": "孔庆镕",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "Q11126264",
+      "name": "毕沅",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "Q840404",
+      "name": "九月初三",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:阮凯",
+      "name": "阮凯",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:未序齿",
+      "name": "未序齿",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:嘉庆六年五月初九生",
+      "name": "嘉庆六年五月初九生",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    },
+    {
+      "externalId": "Q11102522",
+      "name": "杭州府",
+      "living": false,
+      "citation": "中文维基百科《阮元》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "Q716358",
+      "b": "zhwiki:孔璐华"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q10944360",
+      "b": "Q716358"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q10944337",
+      "b": "Q716358"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q11126264",
+      "b": "Q716358"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q716358",
+      "b": "Q840404"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "zhwiki:阮凯"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "zhwiki:未序齿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "zhwiki:嘉庆六年五月初九生"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "Q11102522"
+    }
+  ]
+}

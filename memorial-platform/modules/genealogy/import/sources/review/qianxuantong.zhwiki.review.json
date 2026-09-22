@@ -1,0 +1,41 @@
+{
+  "key": "qianxuantong",
+  "sourceTitle": "錢三強",
+  "fetchedAt": "2026-09-22T05:46:30.979Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q3357687",
+      "name": "钱三强",
+      "citation": "中文维基百科《錢三強》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q419112",
+      "name": "钱玄同",
+      "citation": "中文维基百科《錢三強》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q1592204",
+      "name": "何泽慧",
+      "citation": "中文维基百科《錢三強》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q419112",
+      "child": "Q3357687"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q1592204",
+      "b": "Q3357687"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [],
+  "notes": []
+}

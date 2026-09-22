@@ -1,0 +1,36 @@
+{
+  "key": "wenyanbo",
+  "sourceTitle": "文彥博",
+  "fetchedAt": "2026-09-22T05:46:03.421Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q11079830",
+      "name": "文彦博",
+      "citation": "中文维基百科《文彥博》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:文洎",
+      "name": "文洎",
+      "citation": "中文维基百科《文彥博》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:文洎",
+      "child": "Q11079830"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:文洎\t文洎"
+  ],
+  "notes": [
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略「paternalGrandfather」行——未先解析出父亲，无法确认这是父系还是母系",
+    "未解析（需人工判断关系）：一女嫁与[[包拯]]之子包绶为妻<ref>《文氏墓志》：“蓬莱县君文氏，世为河东汾州人，河东节度使守太师潞国公之女，今朝奉郎包公名绶之夫人也。” </ref>。"
+  ]
+}

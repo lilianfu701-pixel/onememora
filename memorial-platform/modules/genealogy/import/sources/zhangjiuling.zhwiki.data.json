@@ -1,0 +1,69 @@
+{
+  "key": "zhangjiuling",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q712065",
+      "name": "张九龄",
+      "living": false,
+      "citation": "中文维基百科《张九龄》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张拯",
+      "name": "张拯",
+      "living": false,
+      "citation": "中文维基百科《张九龄》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:右赞善大夫",
+      "name": "右赞善大夫",
+      "living": false,
+      "citation": "中文维基百科《张九龄》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张藏器",
+      "name": "张藏器",
+      "living": false,
+      "citation": "中文维基百科《张九龄》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:河南府寿安尉",
+      "name": "河南府寿安尉",
+      "living": false,
+      "citation": "中文维基百科《张九龄》家庭章节"
+    },
+    {
+      "externalId": "Q61824963",
+      "name": "长水",
+      "living": false,
+      "citation": "中文维基百科《张九龄》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q712065",
+      "child": "zhwiki:张拯"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q712065",
+      "child": "zhwiki:右赞善大夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:右赞善大夫",
+      "child": "zhwiki:张藏器"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:右赞善大夫",
+      "child": "zhwiki:河南府寿安尉"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:右赞善大夫",
+      "child": "Q61824963"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "key": "fubi",
+  "sourceTitle": "富弼",
+  "fetchedAt": "2026-09-22T05:46:01.977Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q10954250",
+      "name": "富弼",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:富言",
+      "name": "富言",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:韩□",
+      "name": "韩□",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q30941733",
+      "name": "富绍庭",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:□氏",
+      "name": "□氏",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:富直亮",
+      "name": "富直亮",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q45366304",
+      "name": "富直柔",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:富绍京",
+      "name": "富绍京",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:张□",
+      "name": "张□",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:富直方",
+      "name": "富直方",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:富直清",
+      "name": "富直清",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:富绍隆",
+      "name": "富绍隆",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:富□",
+      "name": "富□",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q10895265",
+      "name": "冯京",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:范大琮",
+      "name": "范大琮",
+      "citation": "中文维基百科《富弼》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:富言",
+      "child": "Q10954250"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩□",
+      "child": "Q10954250"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "Q30941733"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:□氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富直亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "Q45366304"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富绍京"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:张□"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富直方"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富直清"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富绍隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:富□"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "Q10895265"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10954250",
+      "child": "zhwiki:范大琮"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:富言\t富言",
+    "zhwiki:韩□\t韩□",
+    "zhwiki:□氏\t□氏",
+    "zhwiki:富直亮\t富直亮",
+    "zhwiki:富绍京\t富绍京",
+    "zhwiki:张□\t张□",
+    "zhwiki:富直方\t富直方",
+    "zhwiki:富直清\t富直清",
+    "zhwiki:富绍隆\t富绍隆",
+    "zhwiki:富□\t富□",
+    "zhwiki:范大琮\t范大琮"
+  ],
+  "notes": [
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略「paternalGrandfather」行——未先解析出父亲，无法确认这是父系还是母系",
+    "忽略「paternalGrandmother」行——未先解析出父亲，无法确认这是父系还是母系",
+    "未解析（需人工判断关系）：二弟：[[富奭]]",
+    "未解析（需人工判断关系）：三弟：[[富翱]]",
+    "未解析（需人工判断关系）：四弟：[[富收]]",
+    "未解析（需人工判断关系）：五弟：[[富请]]",
+    "未解析（需人工判断关系）：六弟：[[富鼎]]{{NoteTag|原名富奕，生1009年，卒1081年。}}",
+    "未解析（需人工判断关系）：妻子：晏□{{NoteTag|生1014年，卒1086年。}}（[[晏殊]]长女）",
+    "未解析（需人工判断关系）：四女：富□，女婿：[[范大珪]]"
+  ]
+}

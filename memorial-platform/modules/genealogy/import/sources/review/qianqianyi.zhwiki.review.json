@@ -1,0 +1,59 @@
+{
+  "key": "qianqianyi",
+  "sourceTitle": "钱谦益",
+  "fetchedAt": "2026-09-22T05:45:25.384Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q6146198",
+      "name": "钱谦益",
+      "citation": "中文维基百科《钱谦益》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:钱佛霖",
+      "name": "钱佛霖",
+      "citation": "中文维基百科《钱谦益》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:钱檀僧",
+      "name": "钱檀僧",
+      "citation": "中文维基百科《钱谦益》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:钱寿耇",
+      "name": "钱寿耇",
+      "citation": "中文维基百科《钱谦益》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q6146198",
+      "child": "zhwiki:钱佛霖"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6146198",
+      "child": "zhwiki:钱檀僧"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6146198",
+      "child": "zhwiki:钱寿耇"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:钱佛霖\t钱佛霖",
+    "zhwiki:钱檀僧\t钱檀僧",
+    "zhwiki:钱寿耇\t钱寿耇"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：钱谦益有妻陈氏以及妾朱氏、王氏，后与[[柳如是]]恋爱并在60岁时以匹嫡之礼迎娶柳如是，称之为“妻”。",
+    "未解析（需人工判断关系）：四子钱孺贻，妾朱氏所出，又名孙爱、孺饴，崇祯二年（1629年）九月初九日生，在钱谦益去世后仕清，官至[[大理寺]]评事"
+  ]
+}

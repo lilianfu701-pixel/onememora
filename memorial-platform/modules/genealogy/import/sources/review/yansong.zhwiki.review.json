@@ -1,0 +1,48 @@
+{
+  "key": "yansong",
+  "sourceTitle": "严嵩",
+  "fetchedAt": "2026-09-22T05:46:18.194Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q698700",
+      "name": "严嵩",
+      "citation": "中文维基百科《严嵩》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:欧阳氏",
+      "name": "欧阳氏",
+      "citation": "中文维基百科《严嵩》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q10924350",
+      "name": "严世蕃",
+      "citation": "中文维基百科《严嵩》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "Q698700",
+      "b": "zhwiki:欧阳氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q698700",
+      "child": "Q10924350"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:欧阳氏\t欧阳氏"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：高祖父[[嚴孟衡]]、曾祖父嚴璉、祖父嚴廷獻、父嚴淮。母晏氏。重慶下（登第時祖父母俱在）。弟嚴嶽。",
+    "未解析（需人工判断关系）：长孙女：严氏（1547年—1602年），夫[[衍圣公]][[孔尚贤]]（1544年－1622年）",
+    "未解析（需人工判断关系）：曾孫[[严云从]]（1599年—1657年）",
+    "未解析（需人工判断关系）：义子：[[赵文华 (明朝)|赵文华]]"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "key": "zhengchenggong",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q197615",
+      "name": "郑成功",
+      "living": false,
+      "citation": "中文维基百科《鄭成功》家庭章节"
+    },
+    {
+      "externalId": "Q652211",
+      "name": "郑芝龙",
+      "living": false,
+      "citation": "中文维基百科《鄭成功》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:田川氏 (郑成功母)",
+      "name": "田川氏",
+      "living": false,
+      "citation": "中文维基百科《鄭成功》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q652211",
+      "child": "Q197615"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:田川氏 (郑成功母)",
+      "child": "Q197615"
+    }
+  ]
+}

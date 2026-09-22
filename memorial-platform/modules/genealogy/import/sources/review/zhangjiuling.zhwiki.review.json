@@ -1,0 +1,83 @@
+{
+  "key": "zhangjiuling",
+  "sourceTitle": "张九龄",
+  "fetchedAt": "2026-09-22T05:45:49.946Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q712065",
+      "name": "张九龄",
+      "citation": "中文维基百科《张九龄》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:张拯",
+      "name": "张拯",
+      "citation": "中文维基百科《张九龄》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:右赞善大夫",
+      "name": "右赞善大夫",
+      "citation": "中文维基百科《张九龄》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:张藏器",
+      "name": "张藏器",
+      "citation": "中文维基百科《张九龄》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:河南府寿安尉",
+      "name": "河南府寿安尉",
+      "citation": "中文维基百科《张九龄》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q61824963",
+      "name": "长水",
+      "citation": "中文维基百科《张九龄》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q712065",
+      "child": "zhwiki:张拯"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q712065",
+      "child": "zhwiki:右赞善大夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:右赞善大夫",
+      "child": "zhwiki:张藏器"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:右赞善大夫",
+      "child": "zhwiki:河南府寿安尉"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:右赞善大夫",
+      "child": "Q61824963"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:张拯\t张拯",
+    "zhwiki:右赞善大夫\t右赞善大夫",
+    "zhwiki:张藏器\t张藏器",
+    "zhwiki:河南府寿安尉\t河南府寿安尉"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：[[张九皋 (唐朝)|张九皋]]，宋襄广三州刺史、采访节度经略等使",
+    "未解析（需人工判断关系）：[[张九章]]，刺史、鸿胪卿",
+    "未解析（需人工判断关系）：董韶容（710-737），陇州司马董彻曾孙女，唐州刺史董感孙女，汝州期城府别将董恩之女，[[唐玄宗]]董贵妃的族人，由玄宗“纶言之聘”指给张九龄为妾，于开元二十五年四月廿六日在长安病故，享年二十八，葬于长安董氏家族墓地<ref name=\"发现\">{{Cite web |url =http://www.sn.xinhu"
+  ]
+}

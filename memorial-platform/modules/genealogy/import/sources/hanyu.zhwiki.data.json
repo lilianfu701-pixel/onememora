@@ -1,0 +1,25 @@
+{
+  "key": "hanyu",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q318998",
+      "name": "韩愈",
+      "living": false,
+      "citation": "中文维基百科《韩愈》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:韩仲卿",
+      "name": "韩仲卿",
+      "living": false,
+      "citation": "中文维基百科《韩愈》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:韩仲卿",
+      "child": "Q318998"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "key": "zhuxi",
+  "sourceTitle": "朱熹",
+  "fetchedAt": "2026-09-22T05:38:37.539Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q9397",
+      "name": "朱熹",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q11094246",
+      "name": "朱松",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:祝五娘",
+      "name": "祝五娘",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:朱心",
+      "name": "朱心",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:嫁给右迪功郎长汀县主簿刘子翔为夫人",
+      "name": "嫁给右迪功郎长汀县主簿刘子翔为夫人",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:生有二子二女。朱熹着文《祭刘氏妹》悼念其胞妹。",
+      "name": "生有二子二女。朱熹着文《祭刘氏妹》悼念其胞妹。",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:朱塾",
+      "name": "朱塾",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:朱埜",
+      "name": "朱埜",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q11093751",
+      "name": "朱在",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:朱巽",
+      "name": "朱巽",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:朱兑",
+      "name": "朱兑",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:朱巳",
+      "name": "朱巳",
+      "citation": "中文维基百科《朱熹》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "Q9397"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:祝五娘",
+      "child": "Q9397"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "zhwiki:朱心"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "zhwiki:嫁给右迪功郎长汀县主簿刘子翔为夫人"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "zhwiki:生有二子二女。朱熹着文《祭刘氏妹》悼念其胞妹。"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱塾"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱埜"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "Q11093751"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱巽"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱兑"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱巳"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:祝五娘\t祝五娘",
+    "zhwiki:朱心\t朱心",
+    "zhwiki:嫁给右迪功郎长汀县主簿刘子翔为夫人\t嫁给右迪功郎长汀县主簿刘子翔为夫人",
+    "zhwiki:生有二子二女。朱熹着文《祭刘氏妹》悼念其胞妹。\t生有二子二女。朱熹着文《祭刘氏妹》悼念其胞妹。",
+    "zhwiki:朱塾\t朱塾",
+    "zhwiki:朱埜\t朱埜",
+    "zhwiki:朱巽\t朱巽",
+    "zhwiki:朱兑\t朱兑",
+    "zhwiki:朱巳\t朱巳"
+  ],
+  "notes": [
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略「paternalGrandfather」行——未先解析出父亲，无法确认这是父系还是母系",
+    "忽略「paternalGrandmother」行——未先解析出父亲，无法确认这是父系还是母系",
+    "未解析（需人工判断关系）：[[File:Portraits of Famous Men - Zhu Xi.jpg|thumb|200px|朱熹像]]",
+    "未解析（需人工判断关系）：朱熹係紫陽朱氏朱瓌（音同“归”，亦作朱瑰，[[五代十国]]时期婺源茶院府君）九世孫<ref>《朱子文集大全類編》卷一《支派源流》：“一世茶院公諱瓌，字古僚，號舜臣，其先吳郡人。唐廣明間，黃巢作亂，避地嘅時候你有時間可以歙之黃墩。天中佑中，以刺史陶雅命，總卒三千，戍婺源而督其征賦，巡轄浮梁、德、興、祁門四縣，民賴以安，因"
+  ]
+}

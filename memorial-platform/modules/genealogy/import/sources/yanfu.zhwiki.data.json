@@ -1,0 +1,25 @@
+{
+  "key": "yanfu",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q559957",
+      "name": "严复",
+      "living": false,
+      "citation": "中文维基百科《嚴復》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:严琥",
+      "name": "严琥",
+      "living": false,
+      "citation": "中文维基百科《嚴復》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q559957",
+      "child": "zhwiki:严琥"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "key": "yaochong",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q1275350",
+      "name": "姚崇",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "Q45421075",
+      "name": "姚彝",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:邓海二州刺史",
+      "name": "邓海二州刺史",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:年四十。",
+      "name": "年四十。",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "Q45421076",
+      "name": "姚-{异}-",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:大理卿",
+      "name": "大理卿",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "Q45421078",
+      "name": "姚弈",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:永阳郡太守",
+      "name": "永阳郡太守",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:封夏县开国公",
+      "name": "封夏县开国公",
+      "living": false,
+      "citation": "中文维基百科《姚崇》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "Q45421075"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "zhwiki:邓海二州刺史"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "zhwiki:封虢县开国子。开元四年八月廿六日卒于东都慈惠里"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "zhwiki:年四十。"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "Q45421076"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "zhwiki:大理卿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "Q45421078"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "zhwiki:永阳郡太守"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1275350",
+      "child": "zhwiki:封夏县开国公"
+    }
+  ]
+}

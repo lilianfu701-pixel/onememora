@@ -1,0 +1,48 @@
+{
+  "key": "lisiguang",
+  "sourceTitle": "李四光",
+  "fetchedAt": "2026-09-22T05:47:46.612Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q707276",
+      "name": "李四光",
+      "citation": "中文维基百科《李四光》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:李卓侯",
+      "name": "李卓侯",
+      "citation": "中文维基百科《李四光》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:龚姓",
+      "name": "龚姓",
+      "citation": "中文维基百科《李四光》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:李卓侯",
+      "child": "Q707276"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:龚姓",
+      "child": "Q707276"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:李卓侯\t李卓侯",
+    "zhwiki:龚姓\t龚姓"
+  ],
+  "notes": [
+    "忽略「paternalGrandfather」行——未先解析出父亲，无法确认这是父系还是母系",
+    "忽略「paternalGrandmother」行——未先解析出父亲，无法确认这是父系还是母系",
+    "未解析（需人工判断关系）：[[File:Li Siguang family.jpg|thumb|李四光和妻子许淑彬在剑桥参加女儿[[李林 (物理学家)|李林]]与女婿[[邹承鲁]]的婚礼]]"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "key": "yansong",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q698700",
+      "name": "严嵩",
+      "living": false,
+      "citation": "中文维基百科《严嵩》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:欧阳氏",
+      "name": "欧阳氏",
+      "living": false,
+      "citation": "中文维基百科《严嵩》家庭章节"
+    },
+    {
+      "externalId": "Q10924350",
+      "name": "严世蕃",
+      "living": false,
+      "citation": "中文维基百科《严嵩》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "Q698700",
+      "b": "zhwiki:欧阳氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q698700",
+      "child": "Q10924350"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "key": "zhangtaiyan",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q197162",
+      "name": "章太炎",
+      "living": false,
+      "citation": "中文维基百科《章太炎》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:，章{{notetag|{{标音|字",
+      "name": "，章{{notetag|{{标音|字",
+      "living": false,
+      "citation": "中文维基百科《章太炎》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:龚宝铨",
+      "name": "龚宝铨",
+      "living": false,
+      "citation": "中文维基百科《章太炎》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:章导",
+      "name": "章导",
+      "living": false,
+      "citation": "中文维基百科《章太炎》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:章奇",
+      "name": "章奇",
+      "living": false,
+      "citation": "中文维基百科《章太炎》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:if/>。",
+      "name": "if/>。",
+      "living": false,
+      "citation": "中文维基百科《章太炎》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q197162",
+      "child": "zhwiki:，章{{notetag|{{标音|字"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:龚宝铨",
+      "b": "zhwiki:，章{{notetag|{{标音|字"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197162",
+      "child": "zhwiki:章导"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197162",
+      "child": "zhwiki:章奇"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:if/>。",
+      "b": "zhwiki:章奇"
+    }
+  ]
+}

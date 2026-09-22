@@ -1,0 +1,35 @@
+{
+  "key": "ouyang_xun",
+  "sourceTitle": "欧阳询",
+  "fetchedAt": "2026-09-22T05:48:13.412Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q1207679",
+      "name": "欧阳询",
+      "citation": "中文维基百科《欧阳询》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:欧阳长卿",
+      "name": "欧阳长卿",
+      "citation": "中文维基百科《欧阳询》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q1207679",
+      "child": "zhwiki:欧阳长卿"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:欧阳长卿\t欧阳长卿"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：四子[[欧阳通]]，父亲去世時他才十六嵗，得到母親徐氏庭訓，專攻父親留下的書法，最終也成爲書法名家，人稱「大小歐陽」<ref>{{Cite web |title=欧阳通买父字学书 |url=http://www.9610.com/xiezi/gushi/ouyangtong.htm |website=書法空間 |lan",
+    "未解析（需人工判断关系）：小女儿嫁隋尚药奉御、唐秦王祭酒、中散大夫、尚药奉御、永安县开国男[[吴景达]]，生子武周承奉郎[[吴续]]。"
+  ]
+}

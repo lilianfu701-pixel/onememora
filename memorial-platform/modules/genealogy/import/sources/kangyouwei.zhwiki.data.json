@@ -1,0 +1,25 @@
+{
+  "key": "kangyouwei",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q360135",
+      "name": "康有为",
+      "living": false,
+      "citation": "中文维基百科《康有为》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:康达初",
+      "name": "康达初",
+      "living": false,
+      "citation": "中文维基百科《康有为》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:康达初",
+      "child": "Q360135"
+    }
+  ]
+}

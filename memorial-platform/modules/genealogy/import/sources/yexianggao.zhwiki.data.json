@@ -1,0 +1,25 @@
+{
+  "key": "yexianggao",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q10916314",
+      "name": "叶向高",
+      "living": false,
+      "citation": "中文维基百科《叶向高》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:叶成学",
+      "name": "叶成学",
+      "living": false,
+      "citation": "中文维基百科《叶向高》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q10916314",
+      "child": "zhwiki:叶成学"
+    }
+  ]
+}

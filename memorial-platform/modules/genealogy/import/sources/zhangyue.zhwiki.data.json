@@ -1,0 +1,25 @@
+{
+  "key": "zhangyue",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q701545",
+      "name": "张说",
+      "living": false,
+      "citation": "中文维基百科《張說》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张珪。张说曾亲自为其父撰写碑文",
+      "name": "张珪。张说曾亲自为其父撰写碑文",
+      "living": false,
+      "citation": "中文维基百科《張說》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:张珪。张说曾亲自为其父撰写碑文",
+      "child": "Q701545"
+    }
+  ]
+}

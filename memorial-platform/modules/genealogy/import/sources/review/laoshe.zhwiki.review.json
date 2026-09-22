@@ -1,0 +1,121 @@
+{
+  "key": "laoshe",
+  "sourceTitle": "老舍",
+  "fetchedAt": "2026-09-22T05:47:41.698Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q315167",
+      "name": "老舍",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:舒永寿",
+      "name": "舒永寿",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q5924781",
+      "name": "胡絜青",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:画家",
+      "name": "画家",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:舒济",
+      "name": "舒济",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q15909119",
+      "name": "老舍纪念馆",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q15935100",
+      "name": "舒雨",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q233300",
+      "name": "北京第二外国语学院",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:舒立",
+      "name": "舒立",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |title=老舍：有了小孩以后，观察者网，2014-06-01 |access-date=2015-04-01 |archive-date=2021-04-10 |archive-url=https://web.archive.org/web/20210410200908/https://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |dead-url=no }}</ref>",
+      "name": "//www.guancha.cn/LaoShe/2014_06_01_234186.shtml |title=老舍：有了小孩以后，观察者网，2014-06-01 |access-date=2015-04-01 |archive-date=2021-04-10 |archive-url=https://web.archive.org/web/20210410200908/https://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |dead-url=no }}</ref>",
+      "citation": "中文维基百科《老舍》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:舒永寿",
+      "child": "Q315167"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q5924781",
+      "b": "zhwiki:画家"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "zhwiki:舒济"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "Q15909119"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "Q15935100"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "Q233300"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "zhwiki:舒立"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |title=老舍：有了小孩以后，观察者网，2014-06-01 |access-date=2015-04-01 |archive-date=2021-04-10 |archive-url=https://web.archive.org/web/20210410200908/https://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |dead-url=no }}</ref>",
+      "b": "zhwiki:舒立"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:舒永寿\t舒永寿",
+    "zhwiki:画家\t画家",
+    "zhwiki:舒济\t舒济",
+    "zhwiki:舒立\t舒立",
+    "zhwiki://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |title=老舍：有了小孩以后，观察者网，2014-06-01 |access-date=2015-04-01 |archive-date=2021-04-10 |archive-url=https://web.archive.org/web/20210410200908/https://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |dead-url=no }}</ref>\t//www.guancha.cn/LaoShe/2014_06_01_234186.shtml |title=老舍：有了小孩以后，观察者网，2014-06-01 |access-date=2015-04-01 |archive-date=2021-04-10 |archive-url=https://web.archive.org/web/20210410200908/https://www.guancha.cn/LaoShe/2014_06_01_234186.shtml |dead-url=no }}</ref>"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：儿子：[[舒乙]]（1935年8月16日—2021年4月21日）生于[[青岛]]，原[[中国现代文学馆]]馆长。"
+  ]
+}

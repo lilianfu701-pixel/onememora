@@ -1,0 +1,80 @@
+{
+  "key": "bingxin",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q374757",
+      "name": "冰心",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    },
+    {
+      "externalId": "Q11073321",
+      "name": "谢葆璋",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:杨福慈",
+      "name": "杨福慈",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:吴文藻",
+      "name": "吴文藻",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:吴平",
+      "name": "吴平",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:吴冰",
+      "name": "吴冰",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:吴青 (教育家)",
+      "name": "吴青",
+      "living": false,
+      "citation": "中文维基百科《冰心》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q11073321",
+      "child": "Q374757"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:杨福慈",
+      "child": "Q374757"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q374757",
+      "b": "zhwiki:吴文藻"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q374757",
+      "child": "zhwiki:吴平"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q374757",
+      "child": "zhwiki:吴冰"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q374757",
+      "child": "zhwiki:吴青 (教育家)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "soong",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q4195655",
+      "name": "倪桂珍",
+      "living": false,
+      "citation": "中文维基百科《倪桂珍》家庭章节"
+    },
+    {
+      "externalId": "Q10888399",
+      "name": "倪韫山",
+      "living": false,
+      "citation": "中文维基百科《倪桂珍》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q10888399",
+      "child": "Q4195655"
+    }
+  ]
+}

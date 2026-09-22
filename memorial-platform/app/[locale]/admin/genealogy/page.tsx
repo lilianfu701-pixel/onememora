@@ -5,6 +5,10 @@ import {
   wikidataFamilyList,
   wikidataImportedCounts,
 } from "@/modules/genealogy/import/sources/wikidata-families";
+import {
+  zhwikiFamilyList,
+  zhwikiImportedCounts,
+} from "@/modules/genealogy/import/sources/zhwiki-families";
 import { importedWikidataExternalIds } from "@/modules/genealogy/import/status";
 import { GenealogySeed } from "./genealogy-seed";
 
@@ -28,7 +32,12 @@ export default async function AdminGenealogyPage(props: {
 
   // Real per-family import state from the database, so the panel shows what is
   // already seeded on load instead of a blank 待导入.
-  const imported = wikidataImportedCounts(await importedWikidataExternalIds());
+  const importedIds = await importedWikidataExternalIds();
+  const imported = wikidataImportedCounts(importedIds);
+
+  const zhwikiImported = zhwikiImportedCounts(importedIds);
+  const mergedImported = { ...imported, ...zhwikiImported };
+  const mergedFamilies = [...wikidataFamilyList, ...zhwikiFamilyList];
 
   return (
     <div className="stack-lg">
@@ -39,8 +48,8 @@ export default async function AdminGenealogyPage(props: {
       </p>
       <GenealogySeed
         locale={locale}
-        families={wikidataFamilyList}
-        imported={imported}
+        families={mergedFamilies}
+        imported={mergedImported}
       />
     </div>
   );

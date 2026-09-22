@@ -1,0 +1,60 @@
+{
+  "key": "chenqimei",
+  "sourceTitle": "陳其美",
+  "fetchedAt": "2026-09-22T05:46:34.515Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q715393",
+      "name": "陈其美",
+      "citation": "中文维基百科《陳其美》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:陈𬳽夫",
+      "name": "陈𬳽夫",
+      "citation": "中文维基百科《陳其美》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:欧阳圣恩|date=2021-11-06|title=史话》蒋介石感性重义气的一面|url=https://www.chinatimes.com/opinion/20211106000001-262107?chdtv|url-status=no|access-date=2023-01-11|website=中时新闻网|language=zh-TW|archive-date=2023-01-11|archive-url=https://web.archive.org/web/20230111122755/https://www.chinatimes.com/opinion/20211106000001-262107?chdtv}}</ref>",
+      "name": "欧阳圣恩|date=2021-11-06|title=史话》蒋介石感性重义气的一面|url=https://www.chinatimes.com/opinion/20211106000001-262107?chdtv|url-status=no|access-date=2023-01-11|website=中时新闻网|language=zh-TW|archive-date=2023-01-11|archive-url=https://web.archive.org/web/20230111122755/https://www.chinatimes.com/opinion/20211106000001-262107?chdtv}}</ref>",
+      "citation": "中文维基百科《陳其美》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陈惠夫",
+      "name": "陈惠夫",
+      "citation": "中文维基百科《陳其美》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q715393",
+      "child": "zhwiki:陈𬳽夫"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:欧阳圣恩|date=2021-11-06|title=史话》蒋介石感性重义气的一面|url=https://www.chinatimes.com/opinion/20211106000001-262107?chdtv|url-status=no|access-date=2023-01-11|website=中时新闻网|language=zh-TW|archive-date=2023-01-11|archive-url=https://web.archive.org/web/20230111122755/https://www.chinatimes.com/opinion/20211106000001-262107?chdtv}}</ref>",
+      "b": "zhwiki:陈𬳽夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q715393",
+      "child": "zhwiki:陈惠夫"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:陈𬳽夫\t陈𬳽夫",
+    "zhwiki:欧阳圣恩|date=2021-11-06|title=史话》蒋介石感性重义气的一面|url=https://www.chinatimes.com/opinion/20211106000001-262107?chdtv|url-status=no|access-date=2023-01-11|website=中时新闻网|language=zh-TW|archive-date=2023-01-11|archive-url=https://web.archive.org/web/20230111122755/https://www.chinatimes.com/opinion/20211106000001-262107?chdtv}}</ref>\t欧阳圣恩|date=2021-11-06|title=史话》蒋介石感性重义气的一面|url=https://www.chinatimes.com/opinion/20211106000001-262107?chdtv|url-status=no|access-date=2023-01-11|website=中时新闻网|language=zh-TW|archive-date=2023-01-11|archive-url=https://web.archive.org/web/20230111122755/https://www.chinatimes.com/opinion/20211106000001-262107?chdtv}}</ref>",
+    "zhwiki:陈惠夫\t陈惠夫"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：[[File:蔣介石先生與陳英士先生之二公子合影.jpg|thumb|210x210px|蔣介石與陳其美二子的合影]]",
+    "未解析（需人工判断关系）：兄[[陈其业]]，字勤士。弟[[陈其采]]，字蔼士。<ref>{{cite news| title=嗚呼陳其美累而母矣| newspaper=神州日報| location=上海| date=1913-08-12| url=https://archive.org/details/shenzhou-ribao-shangh",
+    "未解析（需人工判断关系）：陳其美有[[陳果夫]]、[[陳立夫]]兩侄，二人由陳其美引介於[[蔣介石]]，與蔣介石關係密切，後來兄弟俱成為[[中國國民黨]]大員，主管黨務，即[[CC系]]。"
+  ]
+}

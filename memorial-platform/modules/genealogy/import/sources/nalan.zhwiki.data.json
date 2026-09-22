@@ -1,0 +1,36 @@
+{
+  "key": "nalan",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q1131641",
+      "name": "纳兰性德",
+      "living": false,
+      "citation": "中文维基百科《纳兰性德》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:富格",
+      "name": "富格",
+      "living": false,
+      "citation": "中文维基百科《纳兰性德》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:纳兰氏",
+      "name": "纳兰氏",
+      "living": false,
+      "citation": "中文维基百科《纳兰性德》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q1131641",
+      "child": "zhwiki:富格"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q1131641",
+      "child": "zhwiki:纳兰氏"
+    }
+  ]
+}

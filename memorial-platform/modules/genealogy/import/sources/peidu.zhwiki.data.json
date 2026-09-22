@@ -1,0 +1,58 @@
+{
+  "key": "peidu",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q717888",
+      "name": "裴度",
+      "living": false,
+      "citation": "中文维基百科《裴度》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:裴淑",
+      "name": "裴淑",
+      "living": false,
+      "citation": "中文维基百科《裴度》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:裴诩",
+      "name": "裴诩",
+      "living": false,
+      "citation": "中文维基百科《裴度》家庭章节"
+    },
+    {
+      "externalId": "Q45493775",
+      "name": "裴譔",
+      "living": false,
+      "citation": "中文维基百科《裴度》家庭章节"
+    },
+    {
+      "externalId": "Q45505279",
+      "name": "裴识",
+      "living": false,
+      "citation": "中文维基百科《裴度》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:裴淑",
+      "child": "Q717888"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q717888",
+      "child": "zhwiki:裴诩"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q717888",
+      "child": "Q45493775"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q717888",
+      "child": "Q45505279"
+    }
+  ]
+}

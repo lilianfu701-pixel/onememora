@@ -1,0 +1,335 @@
+{
+  "key": "kouzhun",
+  "sourceTitle": "寇準",
+  "fetchedAt": "2026-09-22T05:46:13.324Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q3274619",
+      "name": "寇准",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:寇湘",
+      "name": "寇湘",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:赵氏",
+      "name": "赵氏",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇雍",
+      "name": "寇雍",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:大理寺丞",
+      "name": "大理寺丞",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:许氏",
+      "name": "许氏",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:晋国夫人",
+      "name": "晋国夫人",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:宋氏",
+      "name": "宋氏",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:宋偓女",
+      "name": "宋偓女",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:开宝皇后妹",
+      "name": "开宝皇后妹",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇随",
+      "name": "寇随",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:过继",
+      "name": "过继",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇𬤇",
+      "name": "寇𬤇",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:赞善大夫",
+      "name": "赞善大夫",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇诵",
+      "name": "寇诵",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:大理寺评事",
+      "name": "大理寺评事",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇诚",
+      "name": "寇诚",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇谕",
+      "name": "寇谕",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:未仕",
+      "name": "未仕",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:寇氏",
+      "name": "寇氏",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适枢密使",
+      "name": "适枢密使",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:吏部侍郎",
+      "name": "吏部侍郎",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:同中书门下平章事王曙",
+      "name": "同中书门下平章事王曙",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适太府寺卿毕庆长",
+      "name": "适太府寺卿毕庆长",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:毕庆长继室",
+      "name": "毕庆长继室",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:适司封司员外郎",
+      "name": "适司封司员外郎",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:直史馆张子皋",
+      "name": "直史馆张子皋",
+      "citation": "中文维基百科《寇準》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:寇湘",
+      "child": "Q3274619"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:赵氏",
+      "child": "Q3274619"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:寇湘",
+      "child": "zhwiki:寇雍"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:寇湘",
+      "child": "zhwiki:大理寺丞"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:晋国夫人",
+      "b": "zhwiki:许氏"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q3274619",
+      "b": "zhwiki:宋氏"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q3274619",
+      "b": "zhwiki:晋国夫人"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q3274619",
+      "b": "zhwiki:宋偓女"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q3274619",
+      "b": "zhwiki:开宝皇后妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:寇随"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:过继"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:寇𬤇"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:赞善大夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:寇诵"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:大理寺评事"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:寇诚"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:寇谕"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:过继",
+      "child": "zhwiki:未仕"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:寇氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:适枢密使"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:吏部侍郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:同中书门下平章事王曙"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:适太府寺卿毕庆长"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:毕庆长继室"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:适司封司员外郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q3274619",
+      "child": "zhwiki:直史馆张子皋"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:寇湘\t寇湘",
+    "zhwiki:赵氏\t赵氏",
+    "zhwiki:寇雍\t寇雍",
+    "zhwiki:大理寺丞\t大理寺丞",
+    "zhwiki:许氏\t许氏",
+    "zhwiki:晋国夫人\t晋国夫人",
+    "zhwiki:宋氏\t宋氏",
+    "zhwiki:宋偓女\t宋偓女",
+    "zhwiki:开宝皇后妹\t开宝皇后妹",
+    "zhwiki:寇随\t寇随",
+    "zhwiki:过继\t过继",
+    "zhwiki:寇𬤇\t寇𬤇",
+    "zhwiki:赞善大夫\t赞善大夫",
+    "zhwiki:寇诵\t寇诵",
+    "zhwiki:大理寺评事\t大理寺评事",
+    "zhwiki:寇诚\t寇诚",
+    "zhwiki:寇谕\t寇谕",
+    "zhwiki:未仕\t未仕",
+    "zhwiki:寇氏\t寇氏",
+    "zhwiki:适枢密使\t适枢密使",
+    "zhwiki:吏部侍郎\t吏部侍郎",
+    "zhwiki:同中书门下平章事王曙\t同中书门下平章事王曙",
+    "zhwiki:适太府寺卿毕庆长\t适太府寺卿毕庆长",
+    "zhwiki:毕庆长继室\t毕庆长继室",
+    "zhwiki:适司封司员外郎\t适司封司员外郎",
+    "zhwiki:直史馆张子皋\t直史馆张子皋"
+  ],
+  "notes": [
+    "忽略一行曾祖/高祖——前面没有已解析的祖父母可挂靠，需人工核对",
+    "忽略「paternalGrandmother」行——未先解析出父亲，无法确认这是父系还是母系"
+  ]
+}

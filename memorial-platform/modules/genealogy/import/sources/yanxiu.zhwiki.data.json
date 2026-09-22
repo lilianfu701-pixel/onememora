@@ -1,0 +1,36 @@
+{
+  "key": "yanxiu",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q10871546",
+      "name": "严修",
+      "living": false,
+      "citation": "中文维基百科《严修》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:严智崇",
+      "name": "严智崇",
+      "living": false,
+      "citation": "中文维基百科《严修》家庭章节"
+    },
+    {
+      "externalId": "Q48903559",
+      "name": "严智怡",
+      "living": false,
+      "citation": "中文维基百科《严修》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q10871546",
+      "child": "zhwiki:严智崇"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q48903559",
+      "b": "zhwiki:严智崇"
+    }
+  ]
+}

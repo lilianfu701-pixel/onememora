@@ -1,0 +1,80 @@
+{
+  "key": "qibaishi",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q369608",
+      "name": "齐白石",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:齐良元",
+      "name": "齐良元",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:齐良黼",
+      "name": "齐良黼",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:齐良琨",
+      "name": "齐良琨",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:齐菊如",
+      "name": "齐菊如",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:齐阿梅",
+      "name": "齐阿梅",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:齐良怜",
+      "name": "齐良怜",
+      "living": false,
+      "citation": "中文维基百科《齐白石》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良元"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良黼"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良琨"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐菊如"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐阿梅"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良怜"
+    }
+  ]
+}

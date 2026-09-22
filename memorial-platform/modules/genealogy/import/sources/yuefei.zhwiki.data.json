@@ -1,0 +1,47 @@
+{
+  "key": "yuefei",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q334398",
+      "name": "岳飞",
+      "living": false,
+      "citation": "中文维基百科《岳飞》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:岳和",
+      "name": "岳和",
+      "living": false,
+      "citation": "中文维基百科《岳飞》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:姚氏",
+      "name": "姚氏",
+      "living": false,
+      "citation": "中文维基百科《岳飞》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:岳翻",
+      "name": "岳翻",
+      "living": false,
+      "citation": "中文维基百科《岳飞》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:岳和",
+      "child": "Q334398"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:姚氏",
+      "child": "Q334398"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:岳和",
+      "child": "zhwiki:岳翻"
+    }
+  ]
+}

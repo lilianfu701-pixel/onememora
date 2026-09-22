@@ -1,0 +1,173 @@
+{
+  "key": "zuozongtang",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q230200",
+      "name": "左宗棠",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左观澜",
+      "name": "左观澜",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:余氏",
+      "name": "余氏",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左人锦",
+      "name": "左人锦",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:杨氏",
+      "name": "杨氏",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左逢圣",
+      "name": "左逢圣",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:蒋氏",
+      "name": "蒋氏",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:周诒端",
+      "name": "周诒端",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:湘潭黄荆坪辰山人",
+      "name": "湘潭黄荆坪辰山人",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左孝瑜",
+      "name": "左孝瑜",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左孝琪",
+      "name": "左孝琪",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左孝琳",
+      "name": "左孝琳",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左孝威",
+      "name": "左孝威",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左孝宽",
+      "name": "左孝宽",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:左孝勋",
+      "name": "左孝勋",
+      "living": false,
+      "citation": "中文维基百科《左宗棠》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:左观澜",
+      "child": "Q230200"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:余氏",
+      "child": "Q230200"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:左人锦",
+      "child": "zhwiki:左观澜"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:杨氏",
+      "child": "zhwiki:左观澜"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:左逢圣",
+      "child": "zhwiki:左人锦"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:蒋氏",
+      "child": "zhwiki:左人锦"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q230200",
+      "b": "zhwiki:周诒端"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q230200",
+      "b": "zhwiki:湘潭黄荆坪辰山人"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:左孝瑜"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:左孝琪"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:左孝琳"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:湘潭"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:左孝威"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:左孝宽"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q230200",
+      "child": "zhwiki:左孝勋"
+    }
+  ]
+}

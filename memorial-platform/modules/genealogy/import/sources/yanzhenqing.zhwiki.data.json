@@ -1,0 +1,144 @@
+{
+  "key": "yanzhenqing",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q758566",
+      "name": "颜真卿",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:颜惟贞",
+      "name": "颜惟贞",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:殷氏",
+      "name": "殷氏",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:颜昭甫",
+      "name": "颜昭甫",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:殷子敬",
+      "name": "殷子敬",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "Q15892829",
+      "name": "颜勤礼",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "Q11547094",
+      "name": "殷令名",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:殷令言",
+      "name": "殷令言",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:颜思鲁",
+      "name": "颜思鲁",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:殷知乐",
+      "name": "殷知乐",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    },
+    {
+      "externalId": "Q45420105",
+      "name": "殷闻礼",
+      "living": false,
+      "citation": "中文维基百科《颜真卿》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:颜惟贞",
+      "child": "Q758566"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "Q758566"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:颜昭甫",
+      "child": "zhwiki:颜惟贞"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "zhwiki:颜惟贞"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷子敬",
+      "child": "zhwiki:殷氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q15892829",
+      "child": "zhwiki:颜昭甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "zhwiki:颜昭甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11547094",
+      "child": "zhwiki:殷氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷令言",
+      "child": "zhwiki:殷子敬"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:颜思鲁",
+      "child": "Q15892829"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷氏",
+      "child": "Q15892829"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:殷知乐",
+      "child": "zhwiki:殷氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q45420105",
+      "child": "Q11547094"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q45420105",
+      "child": "zhwiki:殷令言"
+    }
+  ]
+}

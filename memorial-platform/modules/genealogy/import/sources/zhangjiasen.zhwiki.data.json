@@ -1,0 +1,25 @@
+{
+  "key": "zhangjiasen",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q2782947",
+      "name": "张君劢",
+      "living": false,
+      "citation": "中文维基百科《张君劢》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张润之",
+      "name": "张润之",
+      "living": false,
+      "citation": "中文维基百科《张君劢》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:张润之",
+      "child": "Q2782947"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "key": "linzexu",
+  "sourceTitle": "林则徐",
+  "fetchedAt": "2026-09-22T05:44:03.323Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q184999",
+      "name": "林则徐",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q11106498",
+      "name": "林汝舟",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:刘齐衔",
+      "name": "刘齐衔",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki://web.archive.org/web/20061016190433/http://fjtx.fjsen.com/200507/fxfj.htm |date=2006-10-16 }}</ref>。",
+      "name": "//web.archive.org/web/20061016190433/http://fjtx.fjsen.com/200507/fxfj.htm |date=2006-10-16 }}</ref>。",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q657787",
+      "name": "沈葆桢",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q15902678",
+      "name": "沈吕巡",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:林聪彝，举人，林则徐逝世前一直陪伴左右。做官后在福州宫巷购买明代古屋为自己家宅，是明清时期最大的豪宅，繁衍了很多子孙，林则徐后代，大约三分之二皆是二房子孙<ref>龙虎网新闻中心：[http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html 林则徐第六代孙民间禁毒 林鸿汉出席禁毒晚会] {{webarchive|url",
+      "name": "林聪彝，举人，林则徐逝世前一直陪伴左右。做官后在福州宫巷购买明代古屋为自己家宅，是明清时期最大的豪宅，繁衍了很多子孙，林则徐后代，大约三分之二皆是二房子孙<ref>龙虎网新闻中心：[http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html 林则徐第六代孙民间禁毒 林鸿汉出席禁毒晚会] {{webarchive|url",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki://web.archive.org/web/20080429061727/http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html |date=2008-04-29 }}，2006年6月7日</ref>。",
+      "name": "//web.archive.org/web/20080429061727/http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html |date=2008-04-29 }}，2006年6月7日</ref>。",
+      "citation": "中文维基百科《林则徐》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "Q11106498"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "zhwiki:刘齐衔"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki://web.archive.org/web/20061016190433/http://fjtx.fjsen.com/200507/fxfj.htm |date=2006-10-16 }}</ref>。",
+      "b": "zhwiki:刘齐衔"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "Q657787"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q15902678",
+      "b": "Q657787"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q184999",
+      "child": "zhwiki:林聪彝，举人，林则徐逝世前一直陪伴左右。做官后在福州宫巷购买明代古屋为自己家宅，是明清时期最大的豪宅，繁衍了很多子孙，林则徐后代，大约三分之二皆是二房子孙<ref>龙虎网新闻中心：[http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html 林则徐第六代孙民间禁毒 林鸿汉出席禁毒晚会] {{webarchive|url"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki://web.archive.org/web/20080429061727/http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html |date=2008-04-29 }}，2006年6月7日</ref>。",
+      "b": "zhwiki:林聪彝，举人，林则徐逝世前一直陪伴左右。做官后在福州宫巷购买明代古屋为自己家宅，是明清时期最大的豪宅，繁衍了很多子孙，林则徐后代，大约三分之二皆是二房子孙<ref>龙虎网新闻中心：[http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html 林则徐第六代孙民间禁毒 林鸿汉出席禁毒晚会] {{webarchive|url"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:刘齐衔\t刘齐衔",
+    "zhwiki://web.archive.org/web/20061016190433/http://fjtx.fjsen.com/200507/fxfj.htm |date=2006-10-16 }}</ref>。\t//web.archive.org/web/20061016190433/http://fjtx.fjsen.com/200507/fxfj.htm |date=2006-10-16 }}</ref>。",
+    "zhwiki:林聪彝，举人，林则徐逝世前一直陪伴左右。做官后在福州宫巷购买明代古屋为自己家宅，是明清时期最大的豪宅，繁衍了很多子孙，林则徐后代，大约三分之二皆是二房子孙<ref>龙虎网新闻中心：[http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html 林则徐第六代孙民间禁毒 林鸿汉出席禁毒晚会] {{webarchive|url\t林聪彝，举人，林则徐逝世前一直陪伴左右。做官后在福州宫巷购买明代古屋为自己家宅，是明清时期最大的豪宅，繁衍了很多子孙，林则徐后代，大约三分之二皆是二房子孙<ref>龙虎网新闻中心：[http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html 林则徐第六代孙民间禁毒 林鸿汉出席禁毒晚会] {{webarchive|url",
+    "zhwiki://web.archive.org/web/20080429061727/http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html |date=2008-04-29 }}，2006年6月7日</ref>。\t//web.archive.org/web/20080429061727/http://www.longhoo.net/gb/longhoo/news2004/njnews/shehui/userobject1ai507253.html |date=2008-04-29 }}，2006年6月7日</ref>。"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：林则徐祖籍福建省福清市海口镇岑兜村，于[[乾隆]]五十年七月二十六日（即1785年8月30日）出生于[[福建省|福建]][[侯官县|侯官]]（今[[福州市]]）左營司巷林氏北院後祖室。父林暘谷。母[[陳帙]]，為閩縣訓導[[陳聖靈]]女，胞姐[[陳帖]]為[[曾暉春]]母。<ref name=\"林則徐大事年表1785-",
+    "未解析（需人工判断关系）：林則徐之家族源於[[晋朝|晉代]]由[[中原]]南渡入閩的[[九牧林氏]][[家族]]，[[林姓]]是[[八姓入閩]]的其中一姓。依照林則徐的父親林賓日所寫的文件中，為自身的家族立下考據<ref>《鬮書》林賓日著</ref>：",
+    "未解析（需人工判断关系）：{{quote|「余世居[[福清市|玉融]]，始祖高德公宋進士，傳十世至榕山公，余支祖也。公生二子，長存素公，余之五代祖，墓在[[福清市|玉融]]。存素公生高祖學弢公，遷[[首府|省垣]]，生曾祖啟寀公，墓俱在北關外飛來峰下，啟寀公生北塘公，墓在北關外銅盤山。」}}",
+    "未解析（需人工判断关系）：生於徐氏，養於林氏，但這說法後被考證為無據之論<ref name=\"林則徐年譜\">[[來新夏]]著，《林則徐年譜》</ref>。",
+    "未解析（需人工判断关系）：林賓日在林則徐出生時曾「夢中親見[[凤凰|鳳凰]]飛」，認為兒子是「天上石[[麒麟]]」[[徐陵]]（字孝穆）之[[轉世]]，故名則徐，字少穆，又字石麟，但這說法亦被認為無據之論<ref name=\"燕山鄉脞錄\">[[陳康祺]]著，《燕山鄉脞錄》</ref>。",
+    "未解析（需人工判断关系）：當時出名愛才的[[福建巡抚|福建巡撫]][[徐嗣曾]]至林府避雨，林則徐適時出生，林賓日希望兒子效法徐嗣曾，出類拔萃，飛黃騰達<ref>[[沈渝慶]]等著《福洲通志·徐嗣曾傳》</ref>。取字元撫則謂其子如徐嗣曾，仕途坦蕩，官運亨通<ref>[[施鴻保]]著，《閩雜記》卷四·林文忠公取名條</ref>，這說法被{{w",
+    "未解析（需人工判断关系）：林則徐和鄭淑卿一共生育八名子女，分別為長子[[林汝舟]]、次子[[林秋柏]]、長女[[林塵譚]]、次女[[林金鸞]]、三女[[林普晴]]([[沈葆楨]]室）、三子[[林聰彝]]、四子[[林拱樞]]、四女林诗镇（即鄭林氏，因林則徐四女嫁於[[鄭葆中]]<ref name=163hn>[https://www.163.co",
+    "未解析（需人工判断关系）：林則徐家教甚嚴，教子有其獨特方法，除要他們「敬師勤讀」，另一方面要求他們必須懂莊稼之事，督促他們「黎明即起，勤學稼牆」，當官之後決不得在[[奉祿]]之外，妄取民間或下屬的一分一毫，為人稱頌<ref>{{cite web |url=http://www.ci123.com/article.php/966 |title=林",
+    "未解析（需人工判断关系）：四子[[林拱樞]]，做官後仍居住在林則徐做官後買的房子裡，官場上比較活躍，曾任[[江南道御史]]，[[汾州]]知府，[[刑部]]浙江司的主稿，曾提出[[臺灣建省]]的提議<ref>[http://www.folkdoc.idv.tw/classic/p02/ba/ba10/06.htm 《臺灣通史卷六》] {{weba",
+    "未解析（需人工判断关系）：林則徐其子女受林則徐從政思想的影響，後代不少人在中國近現代或世界的政治舞臺上偶露崢嶸。林則徐曾孫[[林炳章]]在晚清曾任福建高等學堂監督，民初時則被推舉為去毒總社長，1916年4月任福建省財政廳廳長；林則徐另一名曾孫[[林翔]]，在[[孫中山]]護法運動中應招任廣東高等檢察廳檢察長，還任過國民政府最高法院院長；林則徐玄"
+  ]
+}

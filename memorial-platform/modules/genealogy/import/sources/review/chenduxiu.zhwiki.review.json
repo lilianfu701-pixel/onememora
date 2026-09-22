@@ -1,0 +1,53 @@
+{
+  "key": "chenduxiu",
+  "sourceTitle": "陈独秀",
+  "fetchedAt": "2026-09-22T05:46:28.839Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q369681",
+      "name": "陈独秀",
+      "citation": "中文维基百科《陈独秀》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:陈子美",
+      "name": "陈子美",
+      "citation": "中文维基百科《陈独秀》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陈独秀女儿在纽约安葬 中领馆对其逝世表示哀悼|accessdate=|date=2004-05-28|language=zh-hans|publisher=中新社|url=http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|archive-date=2004-07-02|archive-url=https://web.archive.org/web/20040702001105/http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|dead-url=no}}</ref>",
+      "name": "陈独秀女儿在纽约安葬 中领馆对其逝世表示哀悼|accessdate=|date=2004-05-28|language=zh-hans|publisher=中新社|url=http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|archive-date=2004-07-02|archive-url=https://web.archive.org/web/20040702001105/http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|dead-url=no}}</ref>",
+      "citation": "中文维基百科《陈独秀》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q369681",
+      "child": "zhwiki:陈子美"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:陈子美",
+      "b": "zhwiki:陈独秀女儿在纽约安葬 中领馆对其逝世表示哀悼|accessdate=|date=2004-05-28|language=zh-hans|publisher=中新社|url=http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|archive-date=2004-07-02|archive-url=https://web.archive.org/web/20040702001105/http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|dead-url=no}}</ref>"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:陈子美\t陈子美",
+    "zhwiki:陈独秀女儿在纽约安葬 中领馆对其逝世表示哀悼|accessdate=|date=2004-05-28|language=zh-hans|publisher=中新社|url=http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|archive-date=2004-07-02|archive-url=https://web.archive.org/web/20040702001105/http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|dead-url=no}}</ref>\t陈独秀女儿在纽约安葬 中领馆对其逝世表示哀悼|accessdate=|date=2004-05-28|language=zh-hans|publisher=中新社|url=http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|archive-date=2004-07-02|archive-url=https://web.archive.org/web/20040702001105/http://www.chinanews.com.cn/news/2004year/2004-05-28/26/441699.shtml|dead-url=no}}</ref>"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：原配'''高晓岚（高大众）'''（1876年－1930年），安徽[[霍邱县|霍邱]]人，清末安徽统领副将高登科之女，1897年嫁陈独秀，育有三子一女，陈独秀与庶妹高君曼私奔后，独自抚养儿女，孝敬公婆，逝于安庆{{来源请求}}。",
+    "未解析（需人工判断关系）：长子'''[[陈延年]]'''（1898年－1927年），高晓岚之子。留学法国，曾任中共中央委员、政治局候补委员，广东、浙江及江苏区委书记。1927年6月，在上海北四川路恒丰里104号中共上海区委所在地被国民政府逮捕，拒绝招降，于当年7月4日被杀害。",
+    "未解析（需人工判断关系）：次子'''[[陈乔年]]'''（1902年－1928年），高晓岚之子。留学法国，曾任中共中央委员，中共北方区委组织部部长、湖北省委组织部部长、湖北省委书记、江苏省委组织部长等职。1928年6月6日，陈乔年在上海[[龙华烈士陵园|龙华]]的枫林桥畔被处决。",
+    "未解析（需人工判断关系）：四子'''[[陈松年]]'''（1910年－1990年），高晓岚之子。曾任[[安庆市]]政协常委，安庆市文史馆馆员，安徽省文史馆馆员。妻子窦珩光，育有三女一子。",
+    "未解析（需人工判断关系）：妾室'''[[高君曼]]（高小众）'''（1888年－1931年），高晓岚同父异母庶妹。1910年与姐夫陈独秀私奔育有二子一女。1922年起二人关系逐渐冷淡，1925年陈独秀移情别恋施之英，高君曼到南京生活直到去世。",
+    "未解析（需人工判断关系）：三子'''[[陈光美]]'''（1907年－1999年），高君曼所生，寄养在四川。由于历史原因，此子一直未承认是陈独秀儿子。",
+    "未解析（需人工判断关系）：幼子'''[[陈鹤年]]'''（1913年－2000年），高君曼所生，早年就读于北京大学。受陈独秀党内负面影响，1938年底，陈鹤年改名“陈哲民”，携妻子许桂馨和孩子去了香港，1949年，将妻子孩子送回北京，本人一直滞留香港直到去世。<ref>{{Cite web |url=https://www.sohu.com/a",
+    "未解析（需人工判断关系）：养女'''[[潘凤仙]]'''，随潘兰珍姓，现居于上海杨浦区。"
+  ]
+}

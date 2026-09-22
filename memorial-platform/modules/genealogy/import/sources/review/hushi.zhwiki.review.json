@@ -1,0 +1,92 @@
+{
+  "key": "hushi",
+  "sourceTitle": "胡適",
+  "fetchedAt": "2026-09-22T05:25:08.008Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q47667",
+      "name": "胡适",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q4193768",
+      "name": "胡传",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:冯顺弟",
+      "name": "冯顺弟",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:江冬秀",
+      "name": "江冬秀",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:胡祖望",
+      "name": "胡祖望",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q56271321",
+      "name": "胡思杜",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:胡素斐",
+      "name": "胡素斐",
+      "citation": "中文维基百科《胡適》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q4193768",
+      "child": "Q47667"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:冯顺弟",
+      "child": "Q47667"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q47667",
+      "b": "zhwiki:江冬秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q47667",
+      "child": "zhwiki:胡祖望"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q47667",
+      "child": "Q56271321"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q47667",
+      "child": "zhwiki:胡素斐"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:冯顺弟\t冯顺弟",
+    "zhwiki:江冬秀\t江冬秀",
+    "zhwiki:胡祖望\t胡祖望",
+    "zhwiki:胡素斐\t胡素斐"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：胡復（Victor<ref>{{Cite web|title=《胡適留學日記》手稿拍出6億天價！胡適孫子發聲：對拍賣行為保留法律追訴權 - 今周刊|url=https://www.businesstoday.com.tw/article/category/183030/post/202010180007/|websit"
+  ]
+}

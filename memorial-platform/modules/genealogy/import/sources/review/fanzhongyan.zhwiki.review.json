@@ -1,0 +1,119 @@
+{
+  "key": "fanzhongyan",
+  "sourceTitle": "范仲淹",
+  "fetchedAt": "2026-09-22T05:44:39.336Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q381822",
+      "name": "范仲淹",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q15940412",
+      "name": "范墉",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:范纯佑",
+      "name": "范纯佑",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q15926068",
+      "name": "范纯仁",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q16075968",
+      "name": "范纯礼",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:嫁蔡交<ref name",
+      "name": "嫁蔡交<ref name",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:0\"> 范仲淹 撰《范文正公忠宣公全集》范文正公褒贤集卷第一 《神道碑铭》：三女，长适殿中丞蔡交，次适封丘主簿贾蕃。</ref>",
+      "name": "0\"> 范仲淹 撰《范文正公忠宣公全集》范文正公褒贤集卷第一 《神道碑铭》：三女，长适殿中丞蔡交，次适封丘主簿贾蕃。</ref>",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:嫁贾蕃<ref name",
+      "name": "嫁贾蕃<ref name",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:0\" />",
+      "name": "0\" />",
+      "citation": "中文维基百科《范仲淹》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q15940412",
+      "child": "Q381822"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "zhwiki:范纯佑"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "Q15926068"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "Q16075968"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "zhwiki:嫁蔡交<ref name"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:0\"> 范仲淹 撰《范文正公忠宣公全集》范文正公褒贤集卷第一 《神道碑铭》：三女，长适殿中丞蔡交，次适封丘主簿贾蕃。</ref>",
+      "b": "zhwiki:嫁蔡交<ref name"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "zhwiki:嫁贾蕃<ref name"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:0\" />",
+      "b": "zhwiki:嫁贾蕃<ref name"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:范纯佑\t范纯佑",
+    "zhwiki:嫁蔡交<ref name\t嫁蔡交<ref name",
+    "zhwiki:0\"> 范仲淹 撰《范文正公忠宣公全集》范文正公褒贤集卷第一 《神道碑铭》：三女，长适殿中丞蔡交，次适封丘主簿贾蕃。</ref>\t0\"> 范仲淹 撰《范文正公忠宣公全集》范文正公褒贤集卷第一 《神道碑铭》：三女，长适殿中丞蔡交，次适封丘主簿贾蕃。</ref>",
+    "zhwiki:嫁贾蕃<ref name\t嫁贾蕃<ref name",
+    "zhwiki:0\" />\t0\" />"
+  ],
+  "notes": [
+    "忽略「paternalGrandfather」行——未先解析出父亲，无法确认这是父系还是母系",
+    "未解析（需人工判断关系）：高祖：[[范隋]]<ref>《履园丛话》云：“《范隋告身》，绢本，高八寸，长三尺六寸。僖（懿）宗咸通二年六月告，上署云‘将仕郎权知幽州良乡县主簿范隋’十四字，即文正公五世祖也。后有宋人跋语二十一人，元人跋语二人。今藏吴门范氏义庄，有石刻。”</ref>，唐朝咸通中为[[处州]][[丽水市|丽水]]县丞，遇战乱不能回乡，",
+    "未解析（需人工判断关系）：曾祖：[[范夢齡]]，在钱氏[[吴越国]]任苏州粮料判官。生四子：[[范禹謨]]、[[范浩謨]]、[[范光謨]]、范贊時。",
+    "未解析（需人工判断关系）：妾：張氏<ref>关于张氏的身份，详见齐秋的[https://weibo.com/1405831044/PDlzs8yAo?pagetype=detail 微博原文]：“范纯粹母张氏，她的身份其实毫无争议。墓志开头即写明身份：“夫人，宝文待制公【所生母】。”“宝文待制公”指范纯粹，直接称张氏是他的“所生母”，这就是非常",
+    "未解析（需人工判断关系）：四子[[范純粹]]"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "key": "zhuxi",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q9397",
+      "name": "朱熹",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "Q11094246",
+      "name": "朱松",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:祝五娘",
+      "name": "祝五娘",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:朱心",
+      "name": "朱心",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:嫁给右迪功郎长汀县主簿刘子翔为夫人",
+      "name": "嫁给右迪功郎长汀县主簿刘子翔为夫人",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:朱塾",
+      "name": "朱塾",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:朱埜",
+      "name": "朱埜",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "Q11093751",
+      "name": "朱在",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:朱巽",
+      "name": "朱巽",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:朱兑",
+      "name": "朱兑",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:朱巳",
+      "name": "朱巳",
+      "living": false,
+      "citation": "中文维基百科《朱熹》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "Q9397"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:祝五娘",
+      "child": "Q9397"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "zhwiki:朱心"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "zhwiki:嫁给右迪功郎长汀县主簿刘子翔为夫人"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11094246",
+      "child": "zhwiki:生有二子二女。朱熹着文《祭刘氏妹》悼念其胞妹。"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱塾"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱埜"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "Q11093751"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱巽"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱兑"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q9397",
+      "child": "zhwiki:朱巳"
+    }
+  ]
+}

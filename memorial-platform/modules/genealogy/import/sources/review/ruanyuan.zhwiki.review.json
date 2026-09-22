@@ -1,0 +1,137 @@
+{
+  "key": "ruanyuan",
+  "sourceTitle": "阮元",
+  "fetchedAt": "2026-09-22T05:45:28.796Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q716358",
+      "name": "阮元",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:孔璐华",
+      "name": "孔璐华",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:字经楼",
+      "name": "字经楼",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q10944360",
+      "name": "孔昭焕",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q10944337",
+      "name": "孔庆镕",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q11126264",
+      "name": "毕沅",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q840404",
+      "name": "九月初三",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:阮凯",
+      "name": "阮凯",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:未序齿",
+      "name": "未序齿",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:嘉庆六年五月初九生",
+      "name": "嘉庆六年五月初九生",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q11102522",
+      "name": "杭州府",
+      "citation": "中文维基百科《阮元》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "Q716358",
+      "b": "zhwiki:孔璐华"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q716358",
+      "b": "zhwiki:字经楼"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q10944360",
+      "b": "Q716358"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q10944337",
+      "b": "Q716358"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q11126264",
+      "b": "Q716358"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q716358",
+      "b": "Q840404"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "zhwiki:阮凯"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "zhwiki:未序齿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "zhwiki:嘉庆六年五月初九生"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q716358",
+      "child": "Q11102522"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:孔璐华\t孔璐华",
+    "zhwiki:字经楼\t字经楼",
+    "zhwiki:阮凯\t阮凯",
+    "zhwiki:未序齿\t未序齿",
+    "zhwiki:嘉庆六年五月初九生\t嘉庆六年五月初九生"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：第四子：阮孔厚（1805—1862），字魯卿，原名禕、後改名孔厚。特用[[員外郎]]，誥授[[散官|奉政大夫]]、例晉朝議大夫。生於[[嘉庆]]十年[[七月廿五]]日，卒於[[同治]]元年[[八月廿八]]日；配彭氏，有五子一女{{cfn|王章濤|y=2003|p=387}}"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "key": "hedong",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q6121156",
+      "name": "何东",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:何锦姿",
+      "name": "何锦姿",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:何世勤",
+      "name": "何世勤",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:何慧姿",
+      "name": "何慧姿",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:何世俭",
+      "name": "何世俭",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    },
+    {
+      "externalId": "Q7486865",
+      "name": "何世礼",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:何纯姿",
+      "name": "何纯姿",
+      "living": false,
+      "citation": "中文维基百科《何東》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何锦姿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何世勤"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何慧姿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何世俭"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "Q7486865"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何纯姿"
+    }
+  ]
+}

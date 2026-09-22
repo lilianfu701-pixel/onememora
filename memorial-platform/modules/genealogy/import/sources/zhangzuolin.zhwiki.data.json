@@ -1,0 +1,80 @@
+{
+  "key": "zhangzuolin",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q197358",
+      "name": "张作霖",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    },
+    {
+      "externalId": "Q20148",
+      "name": "张学良",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    },
+    {
+      "externalId": "Q8278925",
+      "name": "张学铭",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张学曾",
+      "name": "张学曾",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张冠英",
+      "name": "张冠英",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张怀英",
+      "name": "张怀英",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张怀瞳",
+      "name": "张怀瞳",
+      "living": false,
+      "citation": "中文维基百科《张作霖》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q197358",
+      "child": "Q20148"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197358",
+      "child": "Q8278925"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197358",
+      "child": "zhwiki:张学曾"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197358",
+      "child": "zhwiki:张冠英"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197358",
+      "child": "zhwiki:张怀英"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197358",
+      "child": "zhwiki:张怀瞳"
+    }
+  ]
+}

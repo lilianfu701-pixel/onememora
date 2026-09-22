@@ -1,0 +1,25 @@
+{
+  "key": "cai_hesen",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q10417572",
+      "name": "葛健豪",
+      "living": false,
+      "citation": "中文维基百科《葛健豪》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:蔡蓉峰",
+      "name": "蔡蓉峰",
+      "living": false,
+      "citation": "中文维基百科《葛健豪》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "Q10417572",
+      "b": "zhwiki:蔡蓉峰"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "key": "bingxin",
+  "sourceTitle": "冰心",
+  "fetchedAt": "2026-09-22T05:38:25.542Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q374757",
+      "name": "冰心",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q11073321",
+      "name": "谢葆璋",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:杨福慈",
+      "name": "杨福慈",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:吴文藻",
+      "name": "吴文藻",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:吴平",
+      "name": "吴平",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:吴冰",
+      "name": "吴冰",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:吴青 (教育家)",
+      "name": "吴青",
+      "citation": "中文维基百科《冰心》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q11073321",
+      "child": "Q374757"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:杨福慈",
+      "child": "Q374757"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q374757",
+      "b": "zhwiki:吴文藻"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q374757",
+      "child": "zhwiki:吴平"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q374757",
+      "child": "zhwiki:吴冰"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q374757",
+      "child": "zhwiki:吴青 (教育家)"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:杨福慈\t杨福慈",
+    "zhwiki:吴文藻\t吴文藻",
+    "zhwiki:吴平\t吴平",
+    "zhwiki:吴冰\t吴冰",
+    "zhwiki:吴青 (教育家)\t吴青"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：二弟谢为杰（又名冰叔）（1908年9月5日－1986年1月12日），著名化工专家，曾任职于[[范旭东]]、[[侯德榜]]创办的永利铔厂，后又在[[中华人民共和国化学工业部]]任职。",
+    "未解析（需人工判断关系）：三弟谢为楫（又名冰季）（1910年10月22日－1984年11月4日），作家，海事专业教授，曾任教于上海海关海事学校和兰州大学<ref>{{cite web|url=http://epaper.01ny.cn/http_rb/html/2014-03/15/content_107565.htm|title=冰心家族的百"
+  ]
+}

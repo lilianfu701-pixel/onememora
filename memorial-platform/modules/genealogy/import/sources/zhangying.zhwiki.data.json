@@ -1,0 +1,47 @@
+{
+  "key": "zhangying",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q11069025",
+      "name": "张英 (康熙进士)",
+      "living": false,
+      "citation": "中文维基百科《張英 (康熙進士)》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张廷瓒",
+      "name": "张廷瓒",
+      "living": false,
+      "citation": "中文维基百科《張英 (康熙進士)》家庭章节"
+    },
+    {
+      "externalId": "Q197295",
+      "name": "张廷玉",
+      "living": false,
+      "citation": "中文维基百科《張英 (康熙進士)》家庭章节"
+    },
+    {
+      "externalId": "Q11068363",
+      "name": "张廷璐",
+      "living": false,
+      "citation": "中文维基百科《張英 (康熙進士)》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q11069025",
+      "child": "zhwiki:张廷瓒"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11069025",
+      "child": "Q197295"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q11069025",
+      "child": "Q11068363"
+    }
+  ]
+}

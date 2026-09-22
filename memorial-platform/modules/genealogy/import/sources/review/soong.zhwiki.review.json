@@ -1,0 +1,30 @@
+{
+  "key": "soong",
+  "sourceTitle": "倪桂珍",
+  "fetchedAt": "2026-09-22T05:38:12.830Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q4195655",
+      "name": "倪桂珍",
+      "citation": "中文维基百科《倪桂珍》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q10888399",
+      "name": "倪韫山",
+      "citation": "中文维基百科《倪桂珍》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q10888399",
+      "child": "Q4195655"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [],
+  "notes": []
+}

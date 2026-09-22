@@ -1,0 +1,146 @@
+{
+  "key": "zhangjuzheng",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q197234",
+      "name": "张居正",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张敬修",
+      "name": "张敬修",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:妻高氏",
+      "name": "妻高氏",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张重辉",
+      "name": "张重辉",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "Q11066664",
+      "name": "张同敞",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "Q11068188",
+      "name": "张嗣修",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:妻贺氏",
+      "name": "妻贺氏",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:有子张重光。",
+      "name": "有子张重光。",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "Q11068467",
+      "name": "张懋修",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张重登",
+      "name": "张重登",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张重元",
+      "name": "张重元",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:张氏",
+      "name": "张氏",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    },
+    {
+      "externalId": "Q18233429",
+      "name": "刘一儒",
+      "living": false,
+      "citation": "中文维基百科《張居正》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:张敬修"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:妻高氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:张重辉"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "Q11066664"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "Q11068188"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:妻贺氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:有子张重光。"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "Q11068467"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:张重登"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:张重元"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "zhwiki:张氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q197234",
+      "child": "Q18233429"
+    }
+  ]
+}

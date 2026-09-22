@@ -8,18 +8,22 @@ import type { GenealogySource } from "@/modules/genealogy/import/types";
 import { kongLineageSource } from "@/modules/genealogy/import/sources/kong-lineage";
 import { songSuFamilySource } from "@/modules/genealogy/import/sources/song-su-family";
 import { wikidataFamilySource } from "@/modules/genealogy/import/sources/wikidata-families";
+import { zhwikiFamilySource } from "@/modules/genealogy/import/sources/zhwiki-families";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
 /**
  * Resolves a source key to its loader: the two hand-built lineages (孔子世系,
- * 三苏) plus every Wikidata family in the registry. One family per request keeps
- * a seed inside `maxDuration`; the admin panel imports several by looping.
+ * 三苏), every Wikidata family, and every zhwiki-mined family (`zhwiki:` prefix).
+ * One family per request keeps a seed inside `maxDuration`; the admin panel
+ * imports several by looping.
  */
 function resolveSource(key: string): GenealogySource | undefined {
   if (key === "kong") return kongLineageSource;
   if (key === "song") return songSuFamilySource;
+  const zhwiki = zhwikiFamilySource(key);
+  if (zhwiki) return zhwiki;
   return wikidataFamilySource(key);
 }
 

@@ -1,0 +1,108 @@
+{
+  "key": "hedong",
+  "sourceTitle": "何東",
+  "fetchedAt": "2026-09-22T05:47:30.407Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q6121156",
+      "name": "何东",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:何锦姿",
+      "name": "何锦姿",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:何世勤",
+      "name": "何世勤",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:何慧姿",
+      "name": "何慧姿",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:何世俭",
+      "name": "何世俭",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q7486865",
+      "name": "何世礼",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:何纯姿",
+      "name": "何纯姿",
+      "citation": "中文维基百科《何東》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何锦姿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何世勤"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何慧姿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何世俭"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "Q7486865"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q6121156",
+      "child": "zhwiki:何纯姿"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:何锦姿\t何锦姿",
+    "zhwiki:何世勤\t何世勤",
+    "zhwiki:何慧姿\t何慧姿",
+    "zhwiki:何世俭\t何世俭",
+    "zhwiki:何纯姿\t何纯姿"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：[[File:Hotung@HKU1916.jpg|thumb|1916年時的何東]]",
+    "未解析（需人工判断关系）：何東生父為[[荷蘭|荷]]籍[[猶太人]][[何仕文]]（[[荷蘭語]]：Charles Henri Maurice Bosman，1839年8月29日—1892年11月10日）。何仕文於1859年抵達香港從事[[華工]]中介業務，後自立門戶創辦何仕文公司（Bosman & Company）<ref name=1st/",
+    "未解析（需人工判断关系）：何東生母[[施娣]]生於[[廣東]][[寶安縣|寶安]]<ref name=1st>Tracing My Children's Lineage 何鸿銮 著。</ref>，來港與何仕文認識後[[涉外婚婦|同居]]並生下何東，但兩人並沒有[[婚姻|結婚]]；何仕文離開香港後，時年28歲的施娣嫁予共育有一子[[何甘棠]]的舊",
+    "未解析（需人工判断关系）：[[File:Hotung+wives and family.jpg|thumb|400px|前排左起︰張靜蓉夫人，何東爵士，麥秀英夫人；後排︰何世禮及妻子洪奇芬]]",
+    "未解析（需人工判断关系）：何東[[嫡妻|元配]]為[[麥秀英]]，[[平妻]][[張蓮覺]]（原名張靜容，為麥秀英表妹<ref>{{Cite web |url=http://www.chilin.edu.hk/edu/work_paragraph_detail.asp?id=5&page_id=0:12 |title=香港佛教人物──何張蓮覺居",
+    "未解析（需人工判断关系）：[[元配]]： [[麥秀英]]",
+    "未解析（需人工判断关系）：過繼子： [[何世榮]]",
+    "未解析（需人工判断关系）：[[平妻]]： [[張靜蓉]]",
+    "未解析（需人工判断关系）：四女： [[何嫻姿]]（Eva）",
+    "未解析（需人工判断关系）：五女： [[何奇姿]]（Irene）",
+    "未解析（需人工判断关系）：六女： [[何文姿]]（Jean）",
+    "未解析（需人工判断关系）：七女： [[何堯姿]]（Grace）",
+    "未解析（需人工判断关系）：八女： [[何孝姿]]（Florence）",
+    "未解析（需人工判断关系）：[[妾侍]]： [[周綺文]]",
+    "未解析（需人工判断关系）：外婚婦： [[朱春蘭]]",
+    "未解析（需人工判断关系）：[[私生子]]： [[何佐芝|何世義]]（佐芝，George）"
+  ]
+}

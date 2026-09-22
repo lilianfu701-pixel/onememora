@@ -1,0 +1,25 @@
+{
+  "key": "wenyanbo",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q11079830",
+      "name": "文彦博",
+      "living": false,
+      "citation": "中文维基百科《文彥博》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:文洎",
+      "name": "文洎",
+      "living": false,
+      "citation": "中文维基百科《文彥博》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:文洎",
+      "child": "Q11079830"
+    }
+  ]
+}

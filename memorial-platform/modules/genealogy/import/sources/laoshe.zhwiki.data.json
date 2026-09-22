@@ -1,0 +1,97 @@
+{
+  "key": "laoshe",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q315167",
+      "name": "老舍",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:舒永寿",
+      "name": "舒永寿",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "Q5924781",
+      "name": "胡絜青",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:画家",
+      "name": "画家",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:舒济",
+      "name": "舒济",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "Q15909119",
+      "name": "老舍纪念馆",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "Q15935100",
+      "name": "舒雨",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "Q233300",
+      "name": "北京第二外国语学院",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:舒立",
+      "name": "舒立",
+      "living": false,
+      "citation": "中文维基百科《老舍》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:舒永寿",
+      "child": "Q315167"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q5924781",
+      "b": "zhwiki:画家"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "zhwiki:舒济"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "Q15909119"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "Q15935100"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "Q233300"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q315167",
+      "child": "zhwiki:舒立"
+    }
+  ]
+}

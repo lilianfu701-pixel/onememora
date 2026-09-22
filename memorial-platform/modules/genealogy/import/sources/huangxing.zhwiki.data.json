@@ -1,0 +1,102 @@
+{
+  "key": "huangxing",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q706842",
+      "name": "黄兴",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:黄筱村",
+      "name": "黄筱村",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:黄一欧",
+      "name": "黄一欧",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:黄一中",
+      "name": "黄一中",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:黄振华",
+      "name": "黄振华",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "Q2448312",
+      "name": "马来亚共产党",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:2025-11-08}}",
+      "name": "2025-11-08}}",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:黄德华",
+      "name": "黄德华",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:黄一美",
+      "name": "黄一美",
+      "living": false,
+      "citation": "中文维基百科《黄兴》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:黄筱村",
+      "child": "Q706842"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄一欧"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄一中"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄振华"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "Q2448312"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q2448312",
+      "b": "zhwiki:2025-11-08}}"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄德华"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q706842",
+      "child": "zhwiki:黄一美"
+    }
+  ]
+}

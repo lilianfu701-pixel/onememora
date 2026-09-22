@@ -1,0 +1,257 @@
+{
+  "key": "luyou",
+  "sourceTitle": "陸游",
+  "fetchedAt": "2026-09-22T05:44:46.501Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q1069914",
+      "name": "陆游",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:陆宰",
+      "name": "陆宰",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:唐氏",
+      "name": "唐氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陆佃",
+      "name": "陆佃",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:郑氏",
+      "name": "郑氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:唐之问",
+      "name": "唐之问",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:晁氏",
+      "name": "晁氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陆珪",
+      "name": "陆珪",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:边氏",
+      "name": "边氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:郑惇忠",
+      "name": "郑惇忠",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:何氏",
+      "name": "何氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q10922516",
+      "name": "唐介",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:晁仲衍",
+      "name": "晁仲衍",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陆轸",
+      "name": "陆轸",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:吴氏",
+      "name": "吴氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:边调",
+      "name": "边调",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:郑向",
+      "name": "郑向",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:何知止",
+      "name": "何知止",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q10922787",
+      "name": "唐拱",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q45366180",
+      "name": "晁宗悫",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:王氏",
+      "name": "王氏",
+      "citation": "中文维基百科《陸游》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:陆宰",
+      "child": "Q1069914"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:唐氏",
+      "child": "Q1069914"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:陆佃",
+      "child": "zhwiki:陆宰"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:郑氏",
+      "child": "zhwiki:陆宰"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:唐之问",
+      "child": "zhwiki:唐氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:晁氏",
+      "child": "zhwiki:唐氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:陆珪",
+      "child": "zhwiki:陆佃"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:边氏",
+      "child": "zhwiki:陆佃"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:郑惇忠",
+      "child": "zhwiki:郑氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:何氏",
+      "child": "zhwiki:郑氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10922516",
+      "child": "zhwiki:唐之问"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:晁仲衍",
+      "child": "zhwiki:晁氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:陆轸",
+      "child": "zhwiki:陆珪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:吴氏",
+      "child": "zhwiki:陆珪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:边调",
+      "child": "zhwiki:边氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:郑向",
+      "child": "zhwiki:郑惇忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:何知止",
+      "child": "zhwiki:何氏"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q10922787",
+      "child": "Q10922516"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q45366180",
+      "child": "zhwiki:晁仲衍"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:王氏",
+      "child": "zhwiki:晁仲衍"
+    }
+  ],
+  "ahnentafelPeopleFound": 21,
+  "unresolved": [
+    "zhwiki:陆宰\t陆宰",
+    "zhwiki:唐氏\t唐氏",
+    "zhwiki:陆佃\t陆佃",
+    "zhwiki:郑氏\t郑氏",
+    "zhwiki:唐之问\t唐之问",
+    "zhwiki:晁氏\t晁氏",
+    "zhwiki:陆珪\t陆珪",
+    "zhwiki:边氏\t边氏",
+    "zhwiki:郑惇忠\t郑惇忠",
+    "zhwiki:何氏\t何氏",
+    "zhwiki:晁仲衍\t晁仲衍",
+    "zhwiki:陆轸\t陆轸",
+    "zhwiki:吴氏\t吴氏",
+    "zhwiki:边调\t边调",
+    "zhwiki:郑向\t郑向",
+    "zhwiki:何知止\t何知止",
+    "zhwiki:王氏\t王氏"
+  ],
+  "notes": []
+}

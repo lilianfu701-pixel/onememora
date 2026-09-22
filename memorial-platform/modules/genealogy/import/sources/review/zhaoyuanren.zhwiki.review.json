@@ -1,0 +1,57 @@
+{
+  "key": "zhaoyuanren",
+  "sourceTitle": "赵元任",
+  "fetchedAt": "2026-09-22T05:44:23.799Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q557556",
+      "name": "赵元任",
+      "citation": "中文维基百科《赵元任》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q9182246",
+      "name": "赵如兰",
+      "citation": "中文维基百科《赵元任》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "Q48937460",
+      "name": "赵新那",
+      "citation": "中文维基百科《赵元任》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:赵来思",
+      "name": "赵来思",
+      "citation": "中文维基百科《赵元任》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q557556",
+      "child": "Q9182246"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q557556",
+      "child": "Q48937460"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q557556",
+      "child": "zhwiki:赵来思"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:赵来思\t赵来思"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：[[File:照瀾院1號.jpg|thumb|284x284像素|赵元任故居，清華[[照瀾院]]1號]]六世祖[[趙翼]]是乾隆二十六年辛巳[[恩科]][[進士]]。",
+    "未解析（需人工判断关系）：四女[[趙小中]]，學物理，毕业于[[康奈尔大学]]，任职于[[麻省理工学院]]，前夫為天文學家[[丘宏义]]。<ref>{{Cite web|url=http://blog.sina.com.cn/s/blog_6e868a2b0102vf2b.html|title=[转载]黄培云  赵新那：杂忆赵家|accessd"
+  ]
+}

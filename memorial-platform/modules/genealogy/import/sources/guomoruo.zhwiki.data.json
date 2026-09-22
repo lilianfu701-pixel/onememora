@@ -1,0 +1,102 @@
+{
+  "key": "guomoruo",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q357821",
+      "name": "郭沫若",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭和夫",
+      "name": "郭和夫",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭博",
+      "name": "郭博",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭复生",
+      "name": "郭复生",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭淑瑀",
+      "name": "郭淑瑀",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭庶英",
+      "name": "郭庶英",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "Q16076035",
+      "name": "郭世英",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭民英",
+      "name": "郭民英",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:郭平英",
+      "name": "郭平英",
+      "living": false,
+      "citation": "中文维基百科《郭沫若》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭和夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭博"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭复生"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭淑瑀"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭庶英"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "Q16076035"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭民英"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q357821",
+      "child": "zhwiki:郭平英"
+    }
+  ]
+}

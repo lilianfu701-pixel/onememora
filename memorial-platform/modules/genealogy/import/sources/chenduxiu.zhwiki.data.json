@@ -1,0 +1,25 @@
+{
+  "key": "chenduxiu",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q369681",
+      "name": "陈独秀",
+      "living": false,
+      "citation": "中文维基百科《陈独秀》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈子美",
+      "name": "陈子美",
+      "living": false,
+      "citation": "中文维基百科《陈独秀》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q369681",
+      "child": "zhwiki:陈子美"
+    }
+  ]
+}

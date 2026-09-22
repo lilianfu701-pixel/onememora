@@ -1,0 +1,267 @@
+{
+  "key": "chenjiageng",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q709049",
+      "name": "陈嘉庚",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:济民<ref name",
+      "name": "济民<ref name",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:zh/>",
+      "name": "zh/>",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:立人",
+      "name": "立人",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈厥祥",
+      "name": "厥祥",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈克承",
+      "name": "陈克承",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈佩贞",
+      "name": "陈佩贞",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:博爱",
+      "name": "博爱",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:爱礼<ref name",
+      "name": "爱礼<ref name",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:tk/>",
+      "name": "tk/>",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:中华民国",
+      "name": "中华民国",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李成智",
+      "name": "李成智",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李淑琼",
+      "name": "李淑琼",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:瑞芳<ref name",
+      "name": "瑞芳<ref name",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:sn/>",
+      "name": "sn/>",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:亚辉",
+      "name": "亚辉",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:傅树介",
+      "name": "傅树介",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李成基",
+      "name": "李成基",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李诚毅",
+      "name": "李诚毅",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李诚勤",
+      "name": "李诚勤",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李珍玲",
+      "name": "李珍玲",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李明吉",
+      "name": "李明吉",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李汉儿",
+      "name": "李汉儿",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:共存",
+      "name": "共存",
+      "living": false,
+      "citation": "中文维基百科《陈嘉庚》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:济民<ref name"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:zh/>",
+      "b": "zhwiki:济民<ref name"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:立人"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:陈厥祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:陈克承"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:陈佩贞"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:博爱"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:爱礼<ref name"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:tk/>",
+      "b": "zhwiki:爱礼<ref name"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:中华民国"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李成智"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李淑琼"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:瑞芳<ref name"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:sn/>",
+      "b": "zhwiki:瑞芳<ref name"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:亚辉"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:傅树介"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李成基"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李诚毅"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李诚勤"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李珍玲"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李明吉"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:李汉儿"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q709049",
+      "child": "zhwiki:共存"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "key": "sushi",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q36020",
+      "name": "苏轼",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:苏洵",
+      "name": "苏洵",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "Q18654093",
+      "name": "程夫人",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "Q65047571",
+      "name": "苏序",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:史氏",
+      "name": "史氏",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:程文应",
+      "name": "程文应",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:苏宗杲",
+      "name": "苏宗杲",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:宋氏",
+      "name": "宋氏",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:程仁霸",
+      "name": "程仁霸",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:苏祜",
+      "name": "苏祜",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李氏",
+      "name": "李氏",
+      "living": false,
+      "citation": "中文维基百科《苏轼》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:苏洵",
+      "child": "Q36020"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q18654093",
+      "child": "Q36020"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q65047571",
+      "child": "zhwiki:苏洵"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:史氏",
+      "child": "zhwiki:苏洵"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:程文应",
+      "child": "Q18654093"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:苏宗杲",
+      "child": "Q65047571"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:宋氏",
+      "child": "Q65047571"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:程仁霸",
+      "child": "zhwiki:程文应"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:苏祜",
+      "child": "zhwiki:苏宗杲"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:李氏",
+      "child": "zhwiki:苏宗杲"
+    }
+  ]
+}

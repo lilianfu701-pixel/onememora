@@ -1,0 +1,36 @@
+{
+  "key": "lisiguang",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q707276",
+      "name": "李四光",
+      "living": false,
+      "citation": "中文维基百科《李四光》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李卓侯",
+      "name": "李卓侯",
+      "living": false,
+      "citation": "中文维基百科《李四光》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:龚姓",
+      "name": "龚姓",
+      "living": false,
+      "citation": "中文维基百科《李四光》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:李卓侯",
+      "child": "Q707276"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:龚姓",
+      "child": "Q707276"
+    }
+  ]
+}

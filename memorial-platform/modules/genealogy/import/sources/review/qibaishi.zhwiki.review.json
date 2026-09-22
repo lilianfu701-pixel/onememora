@@ -1,0 +1,99 @@
+{
+  "key": "qibaishi",
+  "sourceTitle": "齐白石",
+  "fetchedAt": "2026-09-22T05:47:51.557Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q369608",
+      "name": "齐白石",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:齐良元",
+      "name": "齐良元",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:齐良黼",
+      "name": "齐良黼",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:齐良琨",
+      "name": "齐良琨",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:齐菊如",
+      "name": "齐菊如",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:齐阿梅",
+      "name": "齐阿梅",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:齐良怜",
+      "name": "齐良怜",
+      "citation": "中文维基百科《齐白石》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良元"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良黼"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良琨"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐菊如"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐阿梅"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q369608",
+      "child": "zhwiki:齐良怜"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:齐良元\t齐良元",
+    "zhwiki:齐良黼\t齐良黼",
+    "zhwiki:齐良琨\t齐良琨",
+    "zhwiki:齐菊如\t齐菊如",
+    "zhwiki:齐阿梅\t齐阿梅",
+    "zhwiki:齐良怜\t齐良怜"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：四子[[齐良迟]]",
+    "未解析（需人工判断关系）：五子[[齐良已]]",
+    "未解析（需人工判断关系）：六子[[齐良年]]",
+    "未解析（需人工判断关系）：七子[[齐良末]]",
+    "未解析（需人工判断关系）：四女[[齐良欢]]",
+    "未解析（需人工判断关系）：五女[[齐良芷]]"
+  ]
+}

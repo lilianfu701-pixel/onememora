@@ -1,0 +1,48 @@
+{
+  "key": "tanyankai",
+  "sourceTitle": "谭延闿",
+  "fetchedAt": "2026-09-22T05:44:59.847Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q708781",
+      "name": "谭延闿",
+      "citation": "中文维基百科《谭延闿》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:谭钟麟",
+      "name": "谭钟麟",
+      "citation": "中文维基百科《谭延闿》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:李祥明",
+      "name": "李祥明",
+      "citation": "中文维基百科《谭延闿》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:谭钟麟",
+      "child": "Q708781"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:李祥明",
+      "child": "Q708781"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:谭钟麟\t谭钟麟",
+    "zhwiki:李祥明\t李祥明"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：妻子：[[方榕]]，字榕卿，江西布政使[[方汝翼]]女，1918年過世，終年38岁。",
+    "未解析（需人工判断关系）：長子，[[譚伯羽]]",
+    "未解析（需人工判断关系）：三女兒，[[譚祥]]，嫁給[[陳誠]]，陳誠曾任[[中華民國]][[行政院長]]、[[中華民國副總統|副總統]]。[[陳誠]]與[[譚祥]]之子[[陳履安]]曾任[[監察院]]院長、[[1996年中華民國總統選舉|第一屆總統公民直選候選人]]。"
+  ]
+}

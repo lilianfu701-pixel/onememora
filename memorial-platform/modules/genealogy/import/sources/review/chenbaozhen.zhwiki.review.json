@@ -1,0 +1,129 @@
+{
+  "key": "chenbaozhen",
+  "sourceTitle": "陈宝箴",
+  "fetchedAt": "2026-09-22T05:44:17.427Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q835816",
+      "name": "陈宝箴",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:陈三立",
+      "name": "陈三立",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:席寳田",
+      "name": "席寳田",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:席曜衡",
+      "name": "席曜衡",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:次殇。",
+      "name": "次殇。",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陈衡恪",
+      "name": "陈衡恪",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陈隆恪",
+      "name": "陈隆恪",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陈方恪",
+      "name": "陈方恪",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:陈登恪",
+      "name": "陈登恪",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "Q714824",
+      "name": "陈寅恪",
+      "citation": "中文维基百科《陈宝箴》家庭章节",
+      "resolved": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:陈三立"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:席寳田"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:席曜衡"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:次殇。"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈衡恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈隆恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈方恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈登恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "Q714824"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:陈三立\t陈三立",
+    "zhwiki:席寳田\t席寳田",
+    "zhwiki:席曜衡\t席曜衡",
+    "zhwiki:次殇。\t次殇。",
+    "zhwiki:陈衡恪\t陈衡恪",
+    "zhwiki:陈隆恪\t陈隆恪",
+    "zhwiki:陈方恪\t陈方恪",
+    "zhwiki:陈登恪\t陈登恪"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：子陈三畏。妻张氏（父进士、永州府知府[[張修府]]）（载《张修府日记》）。"
+  ]
+}

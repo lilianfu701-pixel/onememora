@@ -1,0 +1,36 @@
+{
+  "key": "chenqimei",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q715393",
+      "name": "陈其美",
+      "living": false,
+      "citation": "中文维基百科《陳其美》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈𬳽夫",
+      "name": "陈𬳽夫",
+      "living": false,
+      "citation": "中文维基百科《陳其美》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈惠夫",
+      "name": "陈惠夫",
+      "living": false,
+      "citation": "中文维基百科《陳其美》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q715393",
+      "child": "zhwiki:陈𬳽夫"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q715393",
+      "child": "zhwiki:陈惠夫"
+    }
+  ]
+}

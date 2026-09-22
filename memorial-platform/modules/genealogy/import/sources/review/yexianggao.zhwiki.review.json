@@ -1,0 +1,47 @@
+{
+  "key": "yexianggao",
+  "sourceTitle": "叶向高",
+  "fetchedAt": "2026-09-22T05:47:02.103Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q10916314",
+      "name": "叶向高",
+      "citation": "中文维基百科《叶向高》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:叶成学",
+      "name": "叶成学",
+      "citation": "中文维基百科《叶向高》家庭章节",
+      "resolved": false
+    },
+    {
+      "externalId": "zhwiki:| last=| coauthors=| title=明代宰辅叶向高之子坟墓频遭盗挖| date=2008-09-21| publisher=| url=http://news.fjsen.com/2008-09/21/content_570626.htm| work=| pages=| accessdate=2008-09-24| language=zh-hans| deadurl=yes| archiveurl=https://archive.today/20120712202013/http://news.fjsen.com/2008-09/21/content_570626.htm| archivedate=2012-07-12}}</ref>。",
+      "name": "| last=| coauthors=| title=明代宰辅叶向高之子坟墓频遭盗挖| date=2008-09-21| publisher=| url=http://news.fjsen.com/2008-09/21/content_570626.htm| work=| pages=| accessdate=2008-09-24| language=zh-hans| deadurl=yes| archiveurl=https://archive.today/20120712202013/http://news.fjsen.com/2008-09/21/content_570626.htm| archivedate=2012-07-12}}</ref>。",
+      "citation": "中文维基百科《叶向高》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q10916314",
+      "child": "zhwiki:叶成学"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:| last=| coauthors=| title=明代宰辅叶向高之子坟墓频遭盗挖| date=2008-09-21| publisher=| url=http://news.fjsen.com/2008-09/21/content_570626.htm| work=| pages=| accessdate=2008-09-24| language=zh-hans| deadurl=yes| archiveurl=https://archive.today/20120712202013/http://news.fjsen.com/2008-09/21/content_570626.htm| archivedate=2012-07-12}}</ref>。",
+      "b": "zhwiki:叶成学"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:叶成学\t叶成学",
+    "zhwiki:| last=| coauthors=| title=明代宰辅叶向高之子坟墓频遭盗挖| date=2008-09-21| publisher=| url=http://news.fjsen.com/2008-09/21/content_570626.htm| work=| pages=| accessdate=2008-09-24| language=zh-hans| deadurl=yes| archiveurl=https://archive.today/20120712202013/http://news.fjsen.com/2008-09/21/content_570626.htm| archivedate=2012-07-12}}</ref>。\t| last=| coauthors=| title=明代宰辅叶向高之子坟墓频遭盗挖| date=2008-09-21| publisher=| url=http://news.fjsen.com/2008-09/21/content_570626.htm| work=| pages=| accessdate=2008-09-24| language=zh-hans| deadurl=yes| archiveurl=https://archive.today/20120712202013/http://news.fjsen.com/2008-09/21/content_570626.htm| archivedate=2012-07-12}}</ref>。"
+  ],
+  "notes": [
+    "未解析（需人工判断关系）：曾祖葉士儼。祖父葉廣彬（1491年－1572年），字大宜，一说字大益，号月窗、月庵。寿官，封知州。中年喪妻，未再續弦。<ref name=\"zhouxiaohui\">周曉輝,\"葉朝榮有道骨「當遇異人」 平生三次得神仙救命\"[https://www.epochtimes.com/b5/21/12/5/n13418569.",
+    "未解析（需人工判断关系）：父[[叶朝荣]]（1515年－1586年），字良时，号桂山，官至[[廣西等處承宣布政使司|广西]][[养利州]][[知州]]，有清名，祀名宦。為葉廣彬獨子。<ref name=zhouxiaohui/><ref name=yongtongxiaophin/>母亲林氏。具慶下。"
+  ]
+}

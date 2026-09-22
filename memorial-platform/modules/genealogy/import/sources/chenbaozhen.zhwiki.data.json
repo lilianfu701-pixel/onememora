@@ -1,0 +1,113 @@
+{
+  "key": "chenbaozhen",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q835816",
+      "name": "陈宝箴",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈三立",
+      "name": "陈三立",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:席寳田",
+      "name": "席寳田",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:席曜衡",
+      "name": "席曜衡",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:次殇。",
+      "name": "次殇。",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈衡恪",
+      "name": "陈衡恪",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈隆恪",
+      "name": "陈隆恪",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈方恪",
+      "name": "陈方恪",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:陈登恪",
+      "name": "陈登恪",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    },
+    {
+      "externalId": "Q714824",
+      "name": "陈寅恪",
+      "living": false,
+      "citation": "中文维基百科《陈宝箴》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:陈三立"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:席寳田"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:席曜衡"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q835816",
+      "child": "zhwiki:次殇。"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈衡恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈隆恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈方恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "zhwiki:陈登恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:次殇。",
+      "child": "Q714824"
+    }
+  ]
+}

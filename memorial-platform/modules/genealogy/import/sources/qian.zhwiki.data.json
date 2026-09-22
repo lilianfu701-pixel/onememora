@@ -1,0 +1,36 @@
+{
+  "key": "qian",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q559750",
+      "name": "钱锺书",
+      "living": false,
+      "citation": "中文维基百科《錢鍾書》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:钱基博",
+      "name": "钱基博",
+      "living": false,
+      "citation": "中文维基百科《錢鍾書》家庭章节"
+    },
+    {
+      "externalId": "Q715121",
+      "name": "杨绛",
+      "living": false,
+      "citation": "中文维基百科《錢鍾書》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:钱基博",
+      "child": "Q559750"
+    },
+    {
+      "kind": "spouse",
+      "a": "Q559750",
+      "b": "Q715121"
+    }
+  ]
+}

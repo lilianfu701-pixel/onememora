@@ -1,0 +1,47 @@
+{
+  "key": "zhaoyuanren",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q557556",
+      "name": "赵元任",
+      "living": false,
+      "citation": "中文维基百科《赵元任》家庭章节"
+    },
+    {
+      "externalId": "Q9182246",
+      "name": "赵如兰",
+      "living": false,
+      "citation": "中文维基百科《赵元任》家庭章节"
+    },
+    {
+      "externalId": "Q48937460",
+      "name": "赵新那",
+      "living": false,
+      "citation": "中文维基百科《赵元任》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:赵来思",
+      "name": "赵来思",
+      "living": false,
+      "citation": "中文维基百科《赵元任》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q557556",
+      "child": "Q9182246"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q557556",
+      "child": "Q48937460"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q557556",
+      "child": "zhwiki:赵来思"
+    }
+  ]
+}

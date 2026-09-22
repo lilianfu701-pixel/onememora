@@ -1,0 +1,32 @@
+{
+  "key": "zhangjiasen",
+  "sourceTitle": "张君劢",
+  "fetchedAt": "2026-09-22T05:45:37.331Z",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q2782947",
+      "name": "张君劢",
+      "citation": "中文维基百科《张君劢》家庭章节",
+      "resolved": true
+    },
+    {
+      "externalId": "zhwiki:张润之",
+      "name": "张润之",
+      "citation": "中文维基百科《张君劢》家庭章节",
+      "resolved": false
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:张润之",
+      "child": "Q2782947"
+    }
+  ],
+  "ahnentafelPeopleFound": 0,
+  "unresolved": [
+    "zhwiki:张润之\t张润之"
+  ],
+  "notes": []
+}

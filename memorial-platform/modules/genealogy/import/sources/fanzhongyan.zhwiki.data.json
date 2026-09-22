@@ -1,0 +1,91 @@
+{
+  "key": "fanzhongyan",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q381822",
+      "name": "范仲淹",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "Q15940412",
+      "name": "范墉",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:范纯佑",
+      "name": "范纯佑",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "Q15926068",
+      "name": "范纯仁",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "Q16075968",
+      "name": "范纯礼",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:嫁蔡交<ref name",
+      "name": "嫁蔡交<ref name",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:嫁贾蕃<ref name",
+      "name": "嫁贾蕃<ref name",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:0\" />",
+      "name": "0\" />",
+      "living": false,
+      "citation": "中文维基百科《范仲淹》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "Q15940412",
+      "child": "Q381822"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "zhwiki:范纯佑"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "Q15926068"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "Q16075968"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "zhwiki:嫁蔡交<ref name"
+    },
+    {
+      "kind": "parent",
+      "parent": "Q381822",
+      "child": "zhwiki:嫁贾蕃<ref name"
+    },
+    {
+      "kind": "spouse",
+      "a": "zhwiki:0\" />",
+      "b": "zhwiki:嫁贾蕃<ref name"
+    }
+  ]
+}

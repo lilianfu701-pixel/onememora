@@ -1,0 +1,36 @@
+{
+  "key": "tanyankai",
+  "namespace": "wikidata",
+  "people": [
+    {
+      "externalId": "Q708781",
+      "name": "谭延闿",
+      "living": false,
+      "citation": "中文维基百科《谭延闿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:谭钟麟",
+      "name": "谭钟麟",
+      "living": false,
+      "citation": "中文维基百科《谭延闿》家庭章节"
+    },
+    {
+      "externalId": "zhwiki:李祥明",
+      "name": "李祥明",
+      "living": false,
+      "citation": "中文维基百科《谭延闿》家庭章节"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "zhwiki:谭钟麟",
+      "child": "Q708781"
+    },
+    {
+      "kind": "parent",
+      "parent": "zhwiki:李祥明",
+      "child": "Q708781"
+    }
+  ]
+}
