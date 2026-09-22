@@ -51,12 +51,6 @@
       "citation": "中文维基百科《左宗棠》家庭章节"
     },
     {
-      "externalId": "zhwiki:湘潭黄荆坪辰山人",
-      "name": "湘潭黄荆坪辰山人",
-      "living": false,
-      "citation": "中文维基百科《左宗棠》家庭章节"
-    },
-    {
       "externalId": "zhwiki:左孝瑜",
       "name": "左孝瑜",
       "living": false,
@@ -128,11 +122,6 @@
       "kind": "spouse",
       "a": "Q230200",
       "b": "zhwiki:周诒端"
-    },
-    {
-      "kind": "spouse",
-      "a": "Q230200",
-      "b": "zhwiki:湘潭黄荆坪辰山人"
     },
     {
       "kind": "parent",

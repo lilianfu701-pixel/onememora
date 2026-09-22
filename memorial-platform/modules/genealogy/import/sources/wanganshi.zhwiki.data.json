@@ -33,26 +33,8 @@
       "citation": "中文维基百科《王安石》家庭章节"
     },
     {
-      "externalId": "zhwiki:擢为天章阁待制兼侍讲",
-      "name": "擢为天章阁待制兼侍讲",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:累迁龙图阁直学士",
-      "name": "累迁龙图阁直学士",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
       "externalId": "zhwiki:与王安礼",
       "name": "与王安礼",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:王安国并称“临川三王”。<br>",
-      "name": "王安国并称“临川三王”。<br>",
       "living": false,
       "citation": "中文维基百科《王安石》家庭章节"
     },
@@ -65,12 +47,6 @@
     {
       "externalId": "zhwiki:朝议郎",
       "name": "朝议郎",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:秘书省正字。<br>",
-      "name": "秘书省正字。<br>",
       "living": false,
       "citation": "中文维基百科《王安石》家庭章节"
     },
@@ -135,20 +111,8 @@
       "citation": "中文维基百科《王安石》家庭章节"
     },
     {
-      "externalId": "zhwiki:开得府路经略安抚使。建炎三年金人攻澶渊",
-      "name": "开得府路经略安抚使。建炎三年金人攻澶渊",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
       "externalId": "zhwiki:死于城守",
       "name": "死于城守",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:诏赠资政殿大学士。<br>",
-      "name": "诏赠资政殿大学士。<br>",
       "living": false,
       "citation": "中文维基百科《王安石》家庭章节"
     },
@@ -171,38 +135,14 @@
       "citation": "中文维基百科《王安石》家庭章节"
     },
     {
-      "externalId": "zhwiki:直龙图阁。<br>",
-      "name": "直龙图阁。<br>",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:嫁吕安中。<br>",
-      "name": "嫁吕安中。<br>",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
       "externalId": "zhwiki:王旁之女",
       "name": "王旁之女",
       "living": false,
       "citation": "中文维基百科《王安石》家庭章节"
     },
     {
-      "externalId": "zhwiki:嫁郑久中。<br>",
-      "name": "嫁郑久中。<br>",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
       "externalId": "zhwiki:吴侔",
       "name": "吴侔",
-      "living": false,
-      "citation": "中文维基百科《王安石》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:吴安持与长女王氏之子。<br>",
-      "name": "吴安持与长女王氏之子。<br>",
       "living": false,
       "citation": "中文维基百科《王安石》家庭章节"
     },
@@ -237,22 +177,7 @@
     {
       "kind": "parent",
       "parent": "Q319618",
-      "child": "zhwiki:擢为天章阁待制兼侍讲"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q319618",
-      "child": "zhwiki:累迁龙图阁直学士"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q319618",
       "child": "zhwiki:与王安礼"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q319618",
-      "child": "zhwiki:王安国并称“临川三王”。<br>"
     },
     {
       "kind": "parent",
@@ -263,11 +188,6 @@
       "kind": "parent",
       "parent": "Q319618",
       "child": "zhwiki:朝议郎"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q319618",
-      "child": "zhwiki:秘书省正字。<br>"
     },
     {
       "kind": "parent",
@@ -322,17 +242,7 @@
     {
       "kind": "parent",
       "parent": "Q4391249",
-      "child": "zhwiki:开得府路经略安抚使。建炎三年金人攻澶渊"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q4391249",
       "child": "zhwiki:死于城守"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q4391249",
-      "child": "zhwiki:诏赠资政殿大学士。<br>"
     },
     {
       "kind": "parent",
@@ -352,17 +262,7 @@
     {
       "kind": "parent",
       "parent": "Q4391249",
-      "child": "zhwiki:直龙图阁。<br>"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q4391249",
       "child": "Q15936430"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q4391249",
-      "child": "zhwiki:嫁吕安中。<br>"
     },
     {
       "kind": "parent",
@@ -372,17 +272,7 @@
     {
       "kind": "parent",
       "parent": "Q4391249",
-      "child": "zhwiki:嫁郑久中。<br>"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q4391249",
       "child": "zhwiki:吴侔"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q4391249",
-      "child": "zhwiki:吴安持与长女王氏之子。<br>"
     },
     {
       "kind": "parent",

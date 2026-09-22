@@ -27,12 +27,6 @@
       "citation": "中文维基百科《陈宝箴》家庭章节"
     },
     {
-      "externalId": "zhwiki:次殇。",
-      "name": "次殇。",
-      "living": false,
-      "citation": "中文维基百科《陈宝箴》家庭章节"
-    },
-    {
       "externalId": "zhwiki:陈衡恪",
       "name": "陈衡恪",
       "living": false,
@@ -78,36 +72,6 @@
       "kind": "parent",
       "parent": "Q835816",
       "child": "zhwiki:席曜衡"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q835816",
-      "child": "zhwiki:次殇。"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:次殇。",
-      "child": "zhwiki:陈衡恪"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:次殇。",
-      "child": "zhwiki:陈隆恪"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:次殇。",
-      "child": "zhwiki:陈方恪"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:次殇。",
-      "child": "zhwiki:陈登恪"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:次殇。",
-      "child": "Q714824"
     }
   ]
 }

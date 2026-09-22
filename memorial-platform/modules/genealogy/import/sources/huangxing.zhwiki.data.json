@@ -39,12 +39,6 @@
       "citation": "中文维基百科《黄兴》家庭章节"
     },
     {
-      "externalId": "zhwiki:2025-11-08}}",
-      "name": "2025-11-08}}",
-      "living": false,
-      "citation": "中文维基百科《黄兴》家庭章节"
-    },
-    {
       "externalId": "zhwiki:黄德华",
       "name": "黄德华",
       "living": false,
@@ -82,11 +76,6 @@
       "kind": "parent",
       "parent": "Q706842",
       "child": "Q2448312"
-    },
-    {
-      "kind": "spouse",
-      "a": "Q2448312",
-      "b": "zhwiki:2025-11-08}}"
     },
     {
       "kind": "parent",

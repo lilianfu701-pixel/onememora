@@ -51,20 +51,8 @@
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
     {
-      "externalId": "zhwiki:开封府太康主簿。",
-      "name": "开封府太康主簿。",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
       "externalId": "zhwiki:蔡奭",
       "name": "蔡奭",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:官福州司户参军。",
-      "name": "官福州司户参军。",
       "living": false,
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
@@ -117,18 +105,6 @@
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
     {
-      "externalId": "zhwiki:《吟窗杂录》20卷",
-      "name": "《吟窗杂录》20卷",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:杂文及政议10卷等。子蔡橚",
-      "name": "杂文及政议10卷等。子蔡橚",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
       "externalId": "zhwiki:蔡枢",
       "name": "蔡枢",
       "living": false,
@@ -147,18 +123,6 @@
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
     {
-      "externalId": "zhwiki:宋崇宁二年中进士",
-      "name": "宋崇宁二年中进士",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:终官直龙图阁。着有《闽诗录》两集。",
-      "name": "终官直龙图阁。着有《闽诗录》两集。",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
       "externalId": "zhwiki:蔡伷",
       "name": "蔡伷",
       "living": false,
@@ -171,32 +135,14 @@
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
     {
-      "externalId": "zhwiki:终官徽猷阁待制",
-      "name": "终官徽猷阁待制",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
       "externalId": "zhwiki:中大夫",
       "name": "中大夫",
       "living": false,
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
     {
-      "externalId": "zhwiki:赠金紫光禄大夫。",
-      "name": "赠金紫光禄大夫。",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
       "externalId": "Q45373269",
       "name": "蔡伸",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:宋政和五年中进士",
-      "name": "宋政和五年中进士",
       "living": false,
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
@@ -219,12 +165,6 @@
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
     {
-      "externalId": "zhwiki:真州等四州通判",
-      "name": "真州等四州通判",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
       "externalId": "zhwiki:滁州",
       "name": "滁州",
       "living": false,
@@ -239,12 +179,6 @@
     {
       "externalId": "zhwiki:得安州",
       "name": "得安州",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:和州等州的知州。终官徽猷阁待制",
-      "name": "和州等州的知州。终官徽猷阁待制",
       "living": false,
       "citation": "中文维基百科《蔡襄》家庭章节"
     },
@@ -289,12 +223,6 @@
       "name": "蔡氏",
       "living": false,
       "citation": "中文维基百科《蔡襄》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:适秘书省著作佐郎谢仲规",
-      "name": "适秘书省著作佐郎谢仲规",
-      "living": false,
-      "citation": "中文维基百科《蔡襄》家庭章节"
     }
   ],
   "relations": [
@@ -336,17 +264,7 @@
     {
       "kind": "parent",
       "parent": "zhwiki:蔡琇",
-      "child": "zhwiki:开封府太康主簿。"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:蔡琇",
       "child": "zhwiki:蔡奭"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:蔡琇",
-      "child": "zhwiki:官福州司户参军。"
     },
     {
       "kind": "spouse",
@@ -386,16 +304,6 @@
     {
       "kind": "parent",
       "parent": "zhwiki:早卒",
-      "child": "zhwiki:《吟窗杂录》20卷"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
-      "child": "zhwiki:杂文及政议10卷等。子蔡橚"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
       "child": "zhwiki:蔡枢"
     },
     {
@@ -407,16 +315,6 @@
       "kind": "parent",
       "parent": "zhwiki:早卒",
       "child": "zhwiki:蔡佃"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
-      "child": "zhwiki:宋崇宁二年中进士"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
-      "child": "zhwiki:终官直龙图阁。着有《闽诗录》两集。"
     },
     {
       "kind": "parent",
@@ -436,27 +334,12 @@
     {
       "kind": "parent",
       "parent": "zhwiki:早卒",
-      "child": "zhwiki:终官徽猷阁待制"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
       "child": "zhwiki:中大夫"
     },
     {
       "kind": "parent",
       "parent": "zhwiki:早卒",
-      "child": "zhwiki:赠金紫光禄大夫。"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
       "child": "Q45373269"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
-      "child": "zhwiki:宋政和五年中进士"
     },
     {
       "kind": "parent",
@@ -476,11 +359,6 @@
     {
       "kind": "parent",
       "parent": "zhwiki:早卒",
-      "child": "zhwiki:真州等四州通判"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
       "child": "zhwiki:滁州"
     },
     {
@@ -492,11 +370,6 @@
       "kind": "parent",
       "parent": "zhwiki:早卒",
       "child": "zhwiki:得安州"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:早卒",
-      "child": "zhwiki:和州等州的知州。终官徽猷阁待制"
     },
     {
       "kind": "parent",
@@ -532,11 +405,6 @@
       "kind": "parent",
       "parent": "Q1289157",
       "child": "zhwiki:蔡氏"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q1289157",
-      "child": "zhwiki:适秘书省著作佐郎谢仲规"
     }
   ]
 }

@@ -135,26 +135,8 @@
       "citation": "中文维基百科《寇準》家庭章节"
     },
     {
-      "externalId": "zhwiki:同中书门下平章事王曙",
-      "name": "同中书门下平章事王曙",
-      "living": false,
-      "citation": "中文维基百科《寇準》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:适太府寺卿毕庆长",
-      "name": "适太府寺卿毕庆长",
-      "living": false,
-      "citation": "中文维基百科《寇準》家庭章节"
-    },
-    {
       "externalId": "zhwiki:毕庆长继室",
       "name": "毕庆长继室",
-      "living": false,
-      "citation": "中文维基百科《寇準》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:适司封司员外郎",
-      "name": "适司封司员外郎",
       "living": false,
       "citation": "中文维基百科《寇準》家庭章节"
     },
@@ -274,22 +256,7 @@
     {
       "kind": "parent",
       "parent": "Q3274619",
-      "child": "zhwiki:同中书门下平章事王曙"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q3274619",
-      "child": "zhwiki:适太府寺卿毕庆长"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q3274619",
       "child": "zhwiki:毕庆长继室"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q3274619",
-      "child": "zhwiki:适司封司员外郎"
     },
     {
       "kind": "parent",

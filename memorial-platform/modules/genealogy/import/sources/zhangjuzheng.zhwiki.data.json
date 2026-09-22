@@ -45,12 +45,6 @@
       "citation": "中文维基百科《張居正》家庭章节"
     },
     {
-      "externalId": "zhwiki:有子张重光。",
-      "name": "有子张重光。",
-      "living": false,
-      "citation": "中文维基百科《張居正》家庭章节"
-    },
-    {
       "externalId": "Q11068467",
       "name": "张懋修",
       "living": false,
@@ -111,11 +105,6 @@
       "kind": "parent",
       "parent": "Q197234",
       "child": "zhwiki:妻贺氏"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q197234",
-      "child": "zhwiki:有子张重光。"
     },
     {
       "kind": "parent",

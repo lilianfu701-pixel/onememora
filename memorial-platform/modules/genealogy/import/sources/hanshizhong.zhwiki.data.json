@@ -33,24 +33,6 @@
       "citation": "中文维基百科《韩世忠》家庭章节"
     },
     {
-      "externalId": "zhwiki:终官奉国军承宣使",
-      "name": "终官奉国军承宣使",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:提举台州崇道观",
-      "name": "提举台州崇道观",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:赠武当军节度使",
-      "name": "赠武当军节度使",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
       "externalId": "zhwiki:少傅",
       "name": "少傅",
       "living": false,
@@ -201,26 +183,8 @@
       "citation": "中文维基百科《韩世忠》家庭章节"
     },
     {
-      "externalId": "zhwiki:通判饶州事曹沾",
-      "name": "通判饶州事曹沾",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:适宣教郎冯用休",
-      "name": "适宣教郎冯用休",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
       "externalId": "zhwiki:适宣教郎",
       "name": "适宣教郎",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:知宁国县事王万修",
-      "name": "知宁国县事王万修",
       "living": false,
       "citation": "中文维基百科《韩世忠》家庭章节"
     },
@@ -237,12 +201,6 @@
       "citation": "中文维基百科《韩世忠》家庭章节"
     },
     {
-      "externalId": "zhwiki:宗正寺主簿胡南逢",
-      "name": "宗正寺主簿胡南逢",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
       "externalId": "zhwiki:适承议郎",
       "name": "适承议郎",
       "living": false,
@@ -251,12 +209,6 @@
     {
       "externalId": "zhwiki:充集英殿修撰",
       "name": "充集英殿修撰",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:主管佑神观张子仁",
-      "name": "主管佑神观张子仁",
       "living": false,
       "citation": "中文维基百科《韩世忠》家庭章节"
     },
@@ -397,12 +349,6 @@
       "name": "韩樟",
       "living": false,
       "citation": "中文维基百科《韩世忠》家庭章节"
-    },
-    {
-      "externalId": "zhwiki:适将仕郎王大昌",
-      "name": "适将仕郎王大昌",
-      "living": false,
-      "citation": "中文维基百科《韩世忠》家庭章节"
     }
   ],
   "relations": [
@@ -425,21 +371,6 @@
       "kind": "parent",
       "parent": "zhwiki:韩庆",
       "child": "zhwiki:韩世良"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:韩庆",
-      "child": "zhwiki:终官奉国军承宣使"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:韩庆",
-      "child": "zhwiki:提举台州崇道观"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:韩庆",
-      "child": "zhwiki:赠武当军节度使"
     },
     {
       "kind": "parent",
@@ -564,22 +495,7 @@
     {
       "kind": "parent",
       "parent": "Q706861",
-      "child": "zhwiki:通判饶州事曹沾"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q706861",
-      "child": "zhwiki:适宣教郎冯用休"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q706861",
       "child": "zhwiki:适宣教郎"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q706861",
-      "child": "zhwiki:知宁国县事王万修"
     },
     {
       "kind": "parent",
@@ -594,22 +510,12 @@
     {
       "kind": "parent",
       "parent": "Q706861",
-      "child": "zhwiki:宗正寺主簿胡南逢"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q706861",
       "child": "zhwiki:适承议郎"
     },
     {
       "kind": "parent",
       "parent": "Q706861",
       "child": "zhwiki:充集英殿修撰"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q706861",
-      "child": "zhwiki:主管佑神观张子仁"
     },
     {
       "kind": "parent",
@@ -735,11 +641,6 @@
       "kind": "parent",
       "parent": "zhwiki:出家为道",
       "child": "zhwiki:韩氏"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:出家为道",
-      "child": "zhwiki:适将仕郎王大昌"
     }
   ]
 }

@@ -51,12 +51,6 @@
       "citation": "中文维基百科《阮元》家庭章节"
     },
     {
-      "externalId": "zhwiki:嘉庆六年五月初九生",
-      "name": "嘉庆六年五月初九生",
-      "living": false,
-      "citation": "中文维基百科《阮元》家庭章节"
-    },
-    {
       "externalId": "Q11102522",
       "name": "杭州府",
       "living": false,
@@ -98,11 +92,6 @@
       "kind": "parent",
       "parent": "Q716358",
       "child": "zhwiki:未序齿"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q716358",
-      "child": "zhwiki:嘉庆六年五月初九生"
     },
     {
       "kind": "parent",

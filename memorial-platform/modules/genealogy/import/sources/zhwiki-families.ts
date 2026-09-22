@@ -139,6 +139,17 @@ import zh_zhouxuexi from "./zhouxuexi.zhwiki.data.json";
 import zh_zhugeliang from "./zhugeliang.zhwiki.data.json";
 import zh_zhuxi from "./zhuxi.zhwiki.data.json";
 import zh_zuozongtang from "./zuozongtang.zhwiki.data.json";
+import zh_junk_cleanup from "./_zhwiki-junk-cleanup.data.json";
+
+/**
+ * One-off cleanup dataset: the junk `zhwiki:` synthetic people (sentence
+ * fragments, ref tags, dates) that an earlier extraction seeded as pages. It is
+ * NOT a real family — it lives outside DATASETS so it is never part of a batch
+ * import, and the seed route refuses to import this key. Rolling it back from
+ * the admin panel deletes exactly those pages and nothing else.
+ */
+export const ZHWIKI_CLEANUP_KEY = "zhwiki:_junk-cleanup";
+const CLEANUP_DATASET = zh_junk_cleanup as GenealogyDataset;
 
 const DATASETS = new Map<string, GenealogyDataset>([
   ["bai_chongxi", zh_bai_chongxi as GenealogyDataset],
@@ -279,18 +290,32 @@ export type ZhwikiFamilyMeta = {
   photos: number;
 };
 
-export const zhwikiFamilyList: ZhwikiFamilyMeta[] = [...DATASETS.entries()]
-  .map(([key, ds]) => ({
-    key: `zhwiki:${key}`,
-    label: `${ds.people[0]?.name ?? key}（维基百科补充·${ds.people.length}人）`,
-    people: ds.people.length,
-    deceased: ds.people.filter((p) => !p.living).length,
+export const zhwikiFamilyList: ZhwikiFamilyMeta[] = [
+  // Cleanup pinned first, clearly flagged so the operator rolls it back (not
+  // imports it) to delete the junk pages an earlier extraction seeded.
+  {
+    key: ZHWIKI_CLEANUP_KEY,
+    label: `⚠️ 垃圾页清理·请点【回滚所选】删除 ${CLEANUP_DATASET.people.length} 个错误页（勿导入）`,
+    people: CLEANUP_DATASET.people.length,
+    deceased: CLEANUP_DATASET.people.filter((p) => !p.living).length,
     photos: 0,
-  }))
-  .sort((a, b) => b.people - a.people);
+  },
+  ...[...DATASETS.entries()]
+    .map(([key, ds]) => ({
+      key: `zhwiki:${key}`,
+      label: `${ds.people[0]?.name ?? key}（维基百科补充·${ds.people.length}人）`,
+      people: ds.people.length,
+      deceased: ds.people.filter((p) => !p.living).length,
+      photos: 0,
+    }))
+    .sort((a, b) => b.people - a.people),
+];
 
 /** A source for one zhwiki family (prefixed key), or undefined if unknown. */
 export function zhwikiFamilySource(prefixedKey: string): GenealogySource | undefined {
+  if (prefixedKey === ZHWIKI_CLEANUP_KEY) {
+    return { key: CLEANUP_DATASET.key, load: async () => CLEANUP_DATASET };
+  }
   if (!prefixedKey.startsWith("zhwiki:")) return undefined;
   const baseKey = prefixedKey.slice("zhwiki:".length);
   const dataset = DATASETS.get(baseKey);
@@ -302,6 +327,9 @@ export function zhwikiImportedCounts(
   importedIds: Set<string>,
 ): Record<string, number> {
   const out: Record<string, number> = {};
+  out[ZHWIKI_CLEANUP_KEY] = CLEANUP_DATASET.people.filter(
+    (p) => !p.living && importedIds.has(p.externalId),
+  ).length;
   for (const [key, ds] of DATASETS) {
     out[`zhwiki:${key}`] = ds.people.filter(
       (p) => !p.living && importedIds.has(p.externalId),

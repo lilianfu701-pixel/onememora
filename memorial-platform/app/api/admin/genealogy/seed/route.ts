@@ -8,7 +8,10 @@ import type { GenealogySource } from "@/modules/genealogy/import/types";
 import { kongLineageSource } from "@/modules/genealogy/import/sources/kong-lineage";
 import { songSuFamilySource } from "@/modules/genealogy/import/sources/song-su-family";
 import { wikidataFamilySource } from "@/modules/genealogy/import/sources/wikidata-families";
-import { zhwikiFamilySource } from "@/modules/genealogy/import/sources/zhwiki-families";
+import {
+  zhwikiFamilySource,
+  ZHWIKI_CLEANUP_KEY,
+} from "@/modules/genealogy/import/sources/zhwiki-families";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -55,6 +58,12 @@ export async function POST(request: Request): Promise<Response> {
   const body = await readJson(request, schema, correlationId);
   if (!body.ok) {
     return body.response;
+  }
+
+  // The junk-cleanup pseudo-family may only be rolled back (to delete the bad
+  // pages), never imported — importing it would re-create the junk.
+  if (body.value.source === ZHWIKI_CLEANUP_KEY && body.value.action !== "rollback") {
+    return jsonError("MEMORIAL_NOT_FOUND", correlationId);
   }
 
   const source = resolveSource(body.value.source);

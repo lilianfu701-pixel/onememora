@@ -21,12 +21,6 @@
       "citation": "中文维基百科《张之洞》家庭章节"
     },
     {
-      "externalId": "zhwiki:光绪进士。",
-      "name": "光绪进士。",
-      "living": false,
-      "citation": "中文维基百科《张之洞》家庭章节"
-    },
-    {
       "externalId": "zhwiki:张厚粲",
       "name": "张厚粲",
       "living": false,
@@ -67,36 +61,6 @@
       "kind": "parent",
       "parent": "Q197344",
       "child": "zhwiki:谱名仁权"
-    },
-    {
-      "kind": "parent",
-      "parent": "Q197344",
-      "child": "zhwiki:光绪进士。"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:光绪进士。",
-      "child": "zhwiki:张厚粲"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:光绪进士。",
-      "child": "zhwiki:北京师范大学"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:光绪进士。",
-      "child": "zhwiki:博士生导师"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:光绪进士。",
-      "child": "zhwiki:张厚茜"
-    },
-    {
-      "kind": "parent",
-      "parent": "zhwiki:光绪进士。",
-      "child": "zhwiki:张厚关"
     }
   ]
 }
