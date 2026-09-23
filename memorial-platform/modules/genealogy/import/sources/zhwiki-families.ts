@@ -320,7 +320,13 @@ export function zhwikiFamilySource(prefixedKey: string): GenealogySource | undef
   const baseKey = prefixedKey.slice("zhwiki:".length);
   const dataset = DATASETS.get(baseKey);
   if (!dataset) return undefined;
-  return { key: dataset.key, load: async () => dataset };
+  // zhwiki 支以某位名人为种子，家族名用「某某家族」。
+  const seed = dataset.people[0]?.name;
+  const clanName = seed ? `${seed}家族` : undefined;
+  return {
+    key: dataset.key,
+    load: async () => (clanName ? { ...dataset, clanName } : dataset),
+  };
 }
 
 export function zhwikiImportedCounts(

@@ -1,7 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { and, eq, isNull, like, or } from "drizzle-orm";
 import { db } from "@/db/client";
-import { familyPeople, mediaAssets, memorials } from "@/db/schema";
+import { deceasedPeople, familyPeople, mediaAssets, memorials } from "@/db/schema";
 import { createMemorial } from "@/modules/memorials/service";
 import type { CreateMemorialInput, PartialDate } from "@/modules/memorials/service";
 import {
@@ -131,7 +131,9 @@ function toPartialDate(d: SourceDate | undefined): PartialDate | undefined {
 function buildInput(
   person: SourcePerson,
   regions: readonly string[],
+  clanFallback?: string,
 ): CreateMemorialInput {
+  const clanName = person.clanName ?? clanFallback;
   const locations: NonNullable<CreateMemorialInput["locations"]> = [];
   if (person.birthPlace) locations.push({ kind: "birth", ...person.birthPlace });
   if (person.deathPlace) locations.push({ kind: "death", ...person.deathPlace });
@@ -164,7 +166,7 @@ function buildInput(
     ...(person.ancestralHometown
       ? { ancestralHometown: person.ancestralHometown }
       : {}),
-    ...(person.clanName ? { clanName: person.clanName } : {}),
+    ...(clanName ? { clanName } : {}),
     ...(locations.length > 0 ? { locations } : {}),
     visibility: "public",
     searchEngineIndexable: true,
@@ -462,6 +464,7 @@ async function seedMemorialNode(
       id: memorials.id,
       slug: memorials.slug,
       key: memorials.creationIdempotencyKey,
+      deceasedPersonId: memorials.deceasedPersonId,
     })
     .from(memorials)
     .where(
@@ -489,11 +492,26 @@ async function seedMemorialNode(
         .set({ creationIdempotencyKey: key })
         .where(eq(memorials.id, memorialId));
     }
+    // Backfill 家族 onto an already-seeded page — only when empty, so a re-run
+    // fills what earlier imports lacked without overwriting a value a claiming
+    // family may have set. `clanName IS NULL` keeps it idempotent.
+    const clan = person.clanName ?? dataset.clanName;
+    if (clan) {
+      await db()
+        .update(deceasedPeople)
+        .set({ clanName: clan })
+        .where(
+          and(
+            eq(deceasedPeople.id, found.deceasedPersonId),
+            isNull(deceasedPeople.clanName),
+          ),
+        );
+    }
     report.memorialsExisting += 1;
   } else {
     let result = await createMemorial(
       actor,
-      buildInput(person, regions),
+      buildInput(person, regions, dataset.clanName),
       key,
       correlationId,
     );
@@ -504,7 +522,7 @@ async function seedMemorialNode(
       const { birth: _b, death: _d, ...datelessPerson } = person;
       result = await createMemorial(
         actor,
-        buildInput(datelessPerson, regions),
+        buildInput(datelessPerson, regions, dataset.clanName),
         key,
         correlationId,
       );

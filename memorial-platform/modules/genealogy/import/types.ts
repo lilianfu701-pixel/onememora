@@ -111,6 +111,12 @@ export type GenealogyDataset = {
    * duplicated. Defaults to `key` (a self-contained fixture is its own namespace).
    */
   namespace?: string;
+  /**
+   * 数据集级家族名（如「吴越钱氏·钱镠支」）。采集源可据采集时的 label 一次性
+   * 派生，导入时套到每个没有自己 clanName 的人身上——省得给每个数据文件里
+   * 每个人都写一遍。人物自带的 clanName 优先。
+   */
+  clanName?: string;
   people: SourcePerson[];
   relations: SourceRelation[];
 };

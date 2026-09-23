@@ -1706,12 +1706,30 @@ export function wikidataImportedRecency(
 }
 
 const byKey = new Map(FAMILIES.map((f) => [f.key, f.dataset]));
+const labelByKey = new Map(FAMILIES.map((f) => [f.key, f.label]));
+
+/**
+ * The 家族/宗族名 from the family's registry label — the郡望·支系 part before any
+ * parenthetical or「·N人」count. e.g.「吴越钱氏·钱镠支（五代·852-932·90人）」→
+ *「吴越钱氏·钱镠支」. Applied dataset-wide so every seeded page carries its family.
+ */
+function clanFromLabel(label: string): string {
+  return label
+    .split(/[（(]/)[0]!
+    .replace(/·\d+人.*$/, "")
+    .replace(/·+$/, "")
+    .trim();
+}
 
 /** A source for one family key, or undefined if the key is unknown. */
 export function wikidataFamilySource(key: string): GenealogySource | undefined {
   const dataset = byKey.get(key);
   if (!dataset) return undefined;
-  return { key: dataset.key, load: async () => dataset };
+  const clanName = clanFromLabel(labelByKey.get(key) ?? "");
+  return {
+    key: dataset.key,
+    load: async () => (clanName ? { ...dataset, clanName } : dataset),
+  };
 }
 
 export const wikidataFamilyKeys: string[] = FAMILIES.map((f) => f.key);
