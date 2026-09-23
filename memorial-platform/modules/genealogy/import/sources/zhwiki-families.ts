@@ -337,3 +337,21 @@ export function zhwikiImportedCounts(
   }
   return out;
 }
+
+/** Per-family most-recent import time (epoch ms), for newest-first sorting. */
+export function zhwikiImportedRecency(
+  times: Map<string, number>,
+): Record<string, number> {
+  const out: Record<string, number> = {};
+  const maxOf = (ds: GenealogyDataset): number => {
+    let max = 0;
+    for (const p of ds.people) {
+      const t = times.get(p.externalId);
+      if (t && t > max) max = t;
+    }
+    return max;
+  };
+  out[ZHWIKI_CLEANUP_KEY] = maxOf(CLEANUP_DATASET);
+  for (const [key, ds] of DATASETS) out[`zhwiki:${key}`] = maxOf(ds);
+  return out;
+}

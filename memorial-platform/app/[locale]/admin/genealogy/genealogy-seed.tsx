@@ -81,6 +81,8 @@ export function GenealogySeed(props: {
   families: FamilyMeta[];
   /** Deceased pages already seeded per family key, read from the DB on load. */
   imported: Record<string, number>;
+  /** Per-family most-recent import time (epoch ms), for newest-first sorting. */
+  recency?: Record<string, number>;
 }) {
   const [selected, setSelected] = useState<Set<string>>(() => new Set());
   const [skipLiving, setSkipLiving] = useState(false);
@@ -89,11 +91,14 @@ export function GenealogySeed(props: {
   const [legacy, setLegacy] = useState<"kong" | "song">("kong");
   const [legacyReport, setLegacyReport] = useState<Report | null>(null);
   const [legacyError, setLegacyError] = useState<string | null>(null);
+  const [filter, setFilter] = useState("");
 
-  // 未导入的排在最上面、已导入的沉到底部；同一状态内按注册顺序倒序，
-  // 让最新采集的家族浮到顶部，一眼就能找到还没灌的新数据。
+  // 排序：① 未导入（待导入/部分导入）在最上，按注册顺序倒序——最新加入的源浮到顶；
+  // ② 已导入沉到下面，但按【最近导入时间】倒序，让刚导入的那一支浮到已导入组顶部，
+  //    不会淹没在几百个旧家族里。
   const sortedFamilies = useMemo(() => {
     const order = new Map(props.families.map((f, i) => [f.key, i]));
+    const recency = props.recency ?? {};
     const isDone = (f: FamilyMeta): boolean => {
       const n = props.imported[f.key] ?? 0;
       return n > 0 && n >= f.deceased;
@@ -102,9 +107,23 @@ export function GenealogySeed(props: {
       const da = isDone(a) ? 1 : 0;
       const db = isDone(b) ? 1 : 0;
       if (da !== db) return da - db;
+      if (da === 1) {
+        // both imported: newest import first, ties by registration order
+        const ra = recency[a.key] ?? 0;
+        const rb = recency[b.key] ?? 0;
+        if (ra !== rb) return rb - ra;
+      }
       return (order.get(b.key) ?? 0) - (order.get(a.key) ?? 0);
     });
-  }, [props.families, props.imported]);
+  }, [props.families, props.imported, props.recency]);
+
+  const visibleFamilies = useMemo(() => {
+    const q = filter.trim().toLowerCase();
+    if (!q) return sortedFamilies;
+    return sortedFamilies.filter(
+      (f) => f.label.toLowerCase().includes(q) || f.key.toLowerCase().includes(q),
+    );
+  }, [sortedFamilies, filter]);
 
   function toggle(key: string): void {
     setSelected((prev) => {
@@ -195,7 +214,10 @@ export function GenealogySeed(props: {
     setBusy(false);
   }
 
-  const allSelected = selected.size === props.families.length;
+  // 全选/全不选只作用于当前可见（过滤后）的家族，避免搜索时误选全部。
+  const visibleKeys = visibleFamilies.map((f) => f.key);
+  const allVisibleSelected =
+    visibleKeys.length > 0 && visibleKeys.every((k) => selected.has(k));
 
   return (
     <div className="stack-lg">
@@ -205,19 +227,38 @@ export function GenealogySeed(props: {
           含照片、生平、上下数代与旁系配偶。跨家族按 QID 全局去重，同一人只建一页。
         </p>
 
+        <input
+          type="search"
+          className="input"
+          placeholder="搜索家族名（如：李世元 / 蔡襄 / 钱镠）"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+          style={{ maxWidth: "24rem" }}
+        />
+        <p className="muted" style={{ fontSize: "0.85em" }}>
+          {filter
+            ? `匹配 ${visibleFamilies.length} 支`
+            : `共 ${props.families.length} 支 · 未导入在上、刚导入的浮在已导入组顶部`}
+        </p>
+
         <label className="avatarTreeToggle">
           <input
             type="checkbox"
-            checked={allSelected}
+            checked={allVisibleSelected}
             onChange={() =>
-              setSelected(allSelected ? new Set() : new Set(props.families.map((f) => f.key)))
+              setSelected((prev) => {
+                const next = new Set(prev);
+                if (allVisibleSelected) visibleKeys.forEach((k) => next.delete(k));
+                else visibleKeys.forEach((k) => next.add(k));
+                return next;
+              })
             }
           />
-          <span>{allSelected ? "全不选" : "全选"}</span>
+          <span>{allVisibleSelected ? "全不选" : filter ? "全选匹配项" : "全选"}</span>
         </label>
 
         <ul className="stack">
-          {sortedFamilies.map((f) => {
+          {visibleFamilies.map((f) => {
             const state = rows[f.key];
             return (
               <li key={f.key} className="adminHeadRow" style={{ alignItems: "center", gap: "0.75rem" }}>

@@ -1689,6 +1689,22 @@ export function wikidataImportedCounts(
   return out;
 }
 
+/** Per-family most-recent import time (epoch ms), for newest-first sorting. */
+export function wikidataImportedRecency(
+  times: Map<string, number>,
+): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const f of FAMILIES) {
+    let max = 0;
+    for (const p of f.dataset.people) {
+      const t = times.get(p.externalId);
+      if (t && t > max) max = t;
+    }
+    out[f.key] = max;
+  }
+  return out;
+}
+
 const byKey = new Map(FAMILIES.map((f) => [f.key, f.dataset]));
 
 /** A source for one family key, or undefined if the key is unknown. */

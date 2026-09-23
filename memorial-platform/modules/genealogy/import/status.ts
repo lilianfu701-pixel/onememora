@@ -44,3 +44,43 @@ export async function importedWikidataExternalIds(): Promise<Set<string>> {
   }
   return ids;
 }
+
+/**
+ * externalId → the most recent `createdAt` (epoch ms) of a seeded page for that
+ * id. Lets the admin panel float the family you just imported to the top of the
+ * 已导入 group instead of burying it among hundreds by registration order.
+ * Same dual-form id extraction as {@link importedWikidataExternalIds}.
+ */
+export async function importedExternalIdTimes(): Promise<Map<string, number>> {
+  const rows = await db()
+    .select({
+      key: memorials.creationIdempotencyKey,
+      createdAt: memorials.createdAt,
+    })
+    .from(memorials)
+    .where(
+      and(
+        or(
+          like(memorials.creationIdempotencyKey, "import:wikidata:%"),
+          like(memorials.creationIdempotencyKey, "import:cbdb:%"),
+          like(memorials.creationIdempotencyKey, "import:lipu-lidailong:%"),
+        ),
+        isNull(memorials.deletionRequestedAt),
+      ),
+    );
+  const times = new Map<string, number>();
+  const bump = (id: string, t: number) => {
+    const prev = times.get(id);
+    if (prev === undefined || t > prev) times.set(id, t);
+  };
+  for (const row of rows) {
+    const key = row.key;
+    if (!key) continue;
+    const t = row.createdAt ? new Date(row.createdAt).getTime() : 0;
+    const lastSegment = key.split(":").pop();
+    if (lastSegment) bump(lastSegment, t);
+    const afterNamespace = key.match(/^import:(?:wikidata|cbdb|lipu-lidailong):(.+)$/);
+    if (afterNamespace?.[1]) bump(afterNamespace[1], t);
+  }
+  return times;
+}

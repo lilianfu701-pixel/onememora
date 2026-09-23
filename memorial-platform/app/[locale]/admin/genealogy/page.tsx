@@ -4,16 +4,21 @@ import { currentActor } from "@/modules/auth/current-user";
 import {
   wikidataFamilyList,
   wikidataImportedCounts,
+  wikidataImportedRecency,
 } from "@/modules/genealogy/import/sources/wikidata-families";
 import {
   zhwikiFamilyList,
   zhwikiImportedCounts,
+  zhwikiImportedRecency,
 } from "@/modules/genealogy/import/sources/zhwiki-families";
 import {
   lipuFamilyList,
   lipuImportedCounts,
+  lipuImportedRecency,
 } from "@/modules/genealogy/import/sources/lipu-families";
-import { importedWikidataExternalIds } from "@/modules/genealogy/import/status";
+import {
+  importedExternalIdTimes,
+} from "@/modules/genealogy/import/status";
 import { GenealogySeed } from "./genealogy-seed";
 
 export const dynamic = "force-dynamic";
@@ -35,14 +40,23 @@ export default async function AdminGenealogyPage(props: {
   }
 
   // Real per-family import state from the database, so the panel shows what is
-  // already seeded on load instead of a blank 待导入.
-  const importedIds = await importedWikidataExternalIds();
-  const imported = wikidataImportedCounts(importedIds);
-
-  const zhwikiImported = zhwikiImportedCounts(importedIds);
-  const lipuImported = lipuImportedCounts(importedIds);
-  const mergedImported = { ...imported, ...zhwikiImported, ...lipuImported };
-  const mergedFamilies = [...lipuFamilyList, ...wikidataFamilyList, ...zhwikiFamilyList];
+  // already seeded on load instead of a blank 待导入. `times` also drives the
+  // 已导入 sort so the family you just imported floats to the top of that group.
+  const times = await importedExternalIdTimes();
+  const importedIds = new Set(times.keys());
+  const mergedImported = {
+    ...wikidataImportedCounts(importedIds),
+    ...zhwikiImportedCounts(importedIds),
+    ...lipuImportedCounts(importedIds),
+  };
+  const recency = {
+    ...wikidataImportedRecency(times),
+    ...zhwikiImportedRecency(times),
+    ...lipuImportedRecency(times),
+  };
+  // New/hand-added sources (lipu 纸质家谱) go LAST so the not-done sort (reverse
+  // registration order) floats them to the very top where they are easy to find.
+  const mergedFamilies = [...wikidataFamilyList, ...zhwikiFamilyList, ...lipuFamilyList];
 
   return (
     <div className="stack-lg">
@@ -55,6 +69,7 @@ export default async function AdminGenealogyPage(props: {
         locale={locale}
         families={mergedFamilies}
         imported={mergedImported}
+        recency={recency}
       />
     </div>
   );

@@ -57,3 +57,19 @@ export function lipuImportedCounts(
   }
   return out;
 }
+
+/** Per-family most-recent import time (epoch ms), for newest-first sorting. */
+export function lipuImportedRecency(
+  times: Map<string, number>,
+): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const [key, ds] of DATASETS) {
+    let max = 0;
+    for (const p of ds.people) {
+      const t = times.get(p.externalId);
+      if (t && t > max) max = t;
+    }
+    out[`lipu:${key}`] = max;
+  }
+  return out;
+}
