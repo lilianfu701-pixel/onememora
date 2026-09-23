@@ -74,15 +74,21 @@ def build(inter):
         gc = gen_chars.get(str(gen))
         if gc and is_lineage:
             obj["generationName"] = gc
-        if hometown and is_lineage:
-            obj["ancestralHometown"] = hometown
         yb, yd = year_of(birth), year_of(death)
         if yb:
             obj["birth"] = {"year": yb}
         if yd:
             obj["death"] = {"year": yd}
-        if yb and not yd and yb >= cutoff:
+        living = bool(yb and not yd and yb >= cutoff)
+        if living:
             obj["living"] = True
+        # 谱籍地既作祖籍，也落到「出生地」「逝世地」结构化字段——比生平文字更利于
+        # 按地区搜索/收录。逝世地仅对已故者设置。
+        if hometown and is_lineage:
+            obj["ancestralHometown"] = hometown
+            obj["birthPlace"] = {"region": hometown}
+            if not living:
+                obj["deathPlace"] = {"region": hometown}
         people[pid_] = obj
         by_gen_name.setdefault((gen, given), []).append(pid_)
         return pid_
@@ -123,7 +129,14 @@ def build(inter):
                    + e.get("extraSpouses", [])):
             name = (sp.get("spouse") or "").strip()
             if name and name not in ("失考", "失记", "姓失考"):
-                sid = add_person(gen, name, gender="female", is_lineage=False)
+                # 旧谱里妇女多只记「某氏」无名。突出为「{夫}之妻」更利于识别，
+                # 原「张氏」留作可搜索别名；有全名的（如张华珍）保留本名。
+                husband = people[gid]["name"]
+                if re.match(r"^.{1,2}氏$", name):
+                    sid = add_person(gen, f"{husband}之妻", gender="female",
+                                     is_lineage=False, aliases=[name])
+                else:
+                    sid = add_person(gen, name, gender="female", is_lineage=False)
                 a, b = sorted([gid, sid])
                 add_rel({"kind": "spouse", "a": a, "b": b})
         # leaf children: given names in 生：list that have no explicit next-gen entry
