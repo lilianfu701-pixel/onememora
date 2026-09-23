@@ -164,6 +164,7 @@ function buildInput(
     ...(person.ancestralHometown
       ? { ancestralHometown: person.ancestralHometown }
       : {}),
+    ...(person.clanName ? { clanName: person.clanName } : {}),
     ...(locations.length > 0 ? { locations } : {}),
     visibility: "public",
     searchEngineIndexable: true,

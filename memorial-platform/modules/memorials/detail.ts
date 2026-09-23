@@ -34,6 +34,8 @@ export type MemorialDetail = {
   status: "draft" | "published" | "restricted";
   searchEngineIndexable: boolean;
   primaryName: string;
+  /** 家族/宗族名，显示在姓名之前；导入的族谱页有，普通页多为 null。 */
+  clanName: string | null;
   /** Other recorded names, minus any the family kept out of search. */
   alternateNames: MemorialName[];
   birthDate: string | null;
@@ -104,6 +106,7 @@ export async function loadMemorialDetail(
       birthDatePrecision: deceasedPeople.birthDatePrecision,
       deathDate: deceasedPeople.deathDate,
       deathDatePrecision: deceasedPeople.deathDatePrecision,
+      clanName: deceasedPeople.clanName,
     })
     .from(memorials)
     .innerJoin(
@@ -161,6 +164,7 @@ export async function loadMemorialDetail(
       status: row.status as "draft" | "published" | "restricted",
       searchEngineIndexable: row.searchEngineIndexable,
       primaryName: names[headingIndex]?.value ?? "",
+      clanName: row.clanName,
       alternateNames,
       birthDate: row.birthDate,
       birthDatePrecision: row.birthDatePrecision,

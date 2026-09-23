@@ -11,6 +11,7 @@ import {
 import type { SQL } from "drizzle-orm";
 import { db } from "@/db/client";
 import {
+  deceasedPeople,
   memorialLocations,
   memorialNames,
   memorials,
@@ -33,6 +34,8 @@ export type SearchHit = {
   /** Where they died — region text and country code, for a readable place. */
   deathRegion: string | null;
   deathCountry: string | null;
+  /** 家族/宗族名，导入的族谱页有；普通页为 null。 */
+  clanName: string | null;
 };
 
 export type SearchPage = {
@@ -165,9 +168,11 @@ export async function searchMemorials(
       deathYear: searchDocuments.deathYear,
       countryCodes: searchDocuments.countryCodes,
       publishedAt: memorials.publishedAt,
+      clanName: deceasedPeople.clanName,
     })
     .from(searchDocuments)
     .innerJoin(memorials, eq(memorials.id, searchDocuments.memorialId))
+    .leftJoin(deceasedPeople, eq(deceasedPeople.id, memorials.deceasedPersonId))
     .where(and(...conditions))
     // Newest first. Deliberately not by popularity: doc 01 section 4.3 rules out
     // anything that ranks one family's memorial above another's.
@@ -217,6 +222,7 @@ export async function searchMemorials(
       countryCodes: row.countryCodes ?? [],
       deathRegion: death?.region ?? null,
       deathCountry: death?.country ?? null,
+      clanName: row.clanName ?? null,
     });
   }
 

@@ -152,6 +152,8 @@ export const deceasedPeople = pgTable("deceased_people", {
   /** Optional by design: doc 06 section 5 requires data minimization. */
   gender: text("gender"),
   ancestralHometown: text("ancestral_hometown"),
+  /** 家族/宗族名（如「陇西李氏·李代龙支系」），显示在姓名之前、写入 SEO。 */
+  clanName: text("clan_name"),
   faith: text("faith"),
   causeOfDeath: text("cause_of_death"),
   createdAt: timestamp("created_at", { withTimezone: true })

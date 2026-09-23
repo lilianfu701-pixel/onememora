@@ -250,7 +250,12 @@ export default async function SearchPage(props: {
                       className="resultRow"
                       href={`/${locale}/memorials/${hit.slug}`}
                     >
-                      <span className="resultName">{hit.primaryName}</span>
+                      <span className="resultName">
+                        {hit.clanName ? (
+                          <span className="resultClan">{hit.clanName}</span>
+                        ) : null}
+                        {hit.primaryName}
+                      </span>
                       {years || deathPlace ? (
                         <span className="resultMeta">
                           {years ? (

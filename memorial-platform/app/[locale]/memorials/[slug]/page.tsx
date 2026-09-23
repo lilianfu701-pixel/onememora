@@ -126,15 +126,20 @@ export async function generateMetadata(props: {
       }
     : undefined;
 
-  const title = years
-    ? `${detail.primaryName} (${years})`
+  // 家族名前置，让「李士雄」这类常见名在搜索引擎里凭家族可区分、可收录。
+  const nameForSeo = detail.clanName
+    ? `${detail.clanName}·${detail.primaryName}`
     : detail.primaryName;
+  const title = years ? `${nameForSeo} (${years})` : nameForSeo;
 
   // A name-forward description so search engines index who this page is for.
   const tMeta = await getTranslations({ locale, namespace: "memorial" });
-  const description = years
+  const baseDescription = years
     ? tMeta("metaDescriptionYears", { name: detail.primaryName, years })
     : tMeta("metaDescription", { name: detail.primaryName });
+  const description = detail.clanName
+    ? `${detail.clanName} · ${baseDescription}`
+    : baseDescription;
 
   // The portrait, for social share cards (WeChat / X / Facebook) and search.
   // Point at the stable bytes route, never the signed storage URL — a crawler
@@ -565,6 +570,12 @@ export default async function MemorialPage(props: {
            * primary name is the page's H1 — the strongest signal to search
            * engines about who this page is for. */}
           <div className="memorialNames">
+            {detail.clanName ? (
+              <p className="memorialClan">
+                <span className="memorialClanLabel">家族</span>
+                {detail.clanName}
+              </p>
+            ) : null}
             <h1 className="memorialName">{detail.primaryName}</h1>
             {detail.alternateNames.map((name, index) => (
               <span key={`${name.type}-${index}`} className="memorialAlias">

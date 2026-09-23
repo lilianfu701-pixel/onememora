@@ -53,6 +53,11 @@ export type SourcePerson = {
    */
   generationName?: string;
   /**
+   * 家族/宗族名（如「陇西李氏·李代龙支系」）。显示在姓名之前、写入页面标题与描述，
+   * 让一个「李士雄」这样的常见名在搜索引擎里可凭家族区分、被收录。
+   */
+  clanName?: string;
+  /**
    * Whether this person is living. A living person is seeded as a masked graph
    * node (surname only, no page), never a public memorial — importing 近现代
    * generations must not publish a living individual's full record. Default is

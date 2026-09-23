@@ -1,0 +1,1 @@
+ALTER TABLE "deceased_people" ADD COLUMN "clan_name" text;

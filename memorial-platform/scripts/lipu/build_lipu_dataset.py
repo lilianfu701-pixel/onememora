@@ -74,6 +74,8 @@ def build(inter):
         gc = gen_chars.get(str(gen))
         if gc and is_lineage:
             obj["generationName"] = gc
+        if is_lineage:
+            obj["clanName"] = clan
         yb, yd = year_of(birth), year_of(death)
         if yb:
             obj["birth"] = {"year": yb}
