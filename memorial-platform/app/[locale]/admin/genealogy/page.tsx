@@ -9,6 +9,10 @@ import {
   zhwikiFamilyList,
   zhwikiImportedCounts,
 } from "@/modules/genealogy/import/sources/zhwiki-families";
+import {
+  lipuFamilyList,
+  lipuImportedCounts,
+} from "@/modules/genealogy/import/sources/lipu-families";
 import { importedWikidataExternalIds } from "@/modules/genealogy/import/status";
 import { GenealogySeed } from "./genealogy-seed";
 
@@ -36,8 +40,9 @@ export default async function AdminGenealogyPage(props: {
   const imported = wikidataImportedCounts(importedIds);
 
   const zhwikiImported = zhwikiImportedCounts(importedIds);
-  const mergedImported = { ...imported, ...zhwikiImported };
-  const mergedFamilies = [...wikidataFamilyList, ...zhwikiFamilyList];
+  const lipuImported = lipuImportedCounts(importedIds);
+  const mergedImported = { ...imported, ...zhwikiImported, ...lipuImported };
+  const mergedFamilies = [...lipuFamilyList, ...wikidataFamilyList, ...zhwikiFamilyList];
 
   return (
     <div className="stack-lg">

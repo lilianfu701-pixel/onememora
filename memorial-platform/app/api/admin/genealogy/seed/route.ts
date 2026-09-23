@@ -12,6 +12,7 @@ import {
   zhwikiFamilySource,
   ZHWIKI_CLEANUP_KEY,
 } from "@/modules/genealogy/import/sources/zhwiki-families";
+import { lipuFamilySource } from "@/modules/genealogy/import/sources/lipu-families";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -25,6 +26,8 @@ export const maxDuration = 60;
 function resolveSource(key: string): GenealogySource | undefined {
   if (key === "kong") return kongLineageSource;
   if (key === "song") return songSuFamilySource;
+  const lipu = lipuFamilySource(key);
+  if (lipu) return lipu;
   const zhwiki = zhwikiFamilySource(key);
   if (zhwiki) return zhwiki;
   return wikidataFamilySource(key);

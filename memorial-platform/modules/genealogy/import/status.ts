@@ -28,6 +28,7 @@ export async function importedWikidataExternalIds(): Promise<Set<string>> {
         or(
           like(memorials.creationIdempotencyKey, "import:wikidata:%"),
           like(memorials.creationIdempotencyKey, "import:cbdb:%"),
+          like(memorials.creationIdempotencyKey, "import:lipu-lidailong:%"),
         ),
         isNull(memorials.deletionRequestedAt),
       ),
@@ -38,7 +39,7 @@ export async function importedWikidataExternalIds(): Promise<Set<string>> {
     if (!key) continue;
     const lastSegment = key.split(":").pop();
     if (lastSegment) ids.add(lastSegment);
-    const afterNamespace = key.match(/^import:(?:wikidata|cbdb):(.+)$/);
+    const afterNamespace = key.match(/^import:(?:wikidata|cbdb|lipu-lidailong):(.+)$/);
     if (afterNamespace?.[1]) ids.add(afterNamespace[1]);
   }
   return ids;
