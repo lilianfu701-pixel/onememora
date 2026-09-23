@@ -303,6 +303,7 @@ export function CreateMemorialForm(props: {
   const [deathRegion, setDeathRegion] = useState("");
 
   const [ancestralHometown, setAncestralHometown] = useState("");
+  const [clanName, setClanName] = useState("");
   const [faith, setFaith] = useState("");
   const [causeOfDeath, setCauseOfDeath] = useState("");
 
@@ -555,6 +556,7 @@ export function CreateMemorialForm(props: {
       ...(ancestralHometown.trim()
         ? { ancestralHometown: ancestralHometown.trim() }
         : {}),
+      ...(clanName.trim() ? { clanName: clanName.trim() } : {}),
       ...(faith.trim() ? { faith: faith.trim() } : {}),
       ...(causeOfDeath.trim() ? { causeOfDeath: causeOfDeath.trim() } : {}),
       ...(validRelatives.length > 0 ? { relatives: validRelatives } : {}),
@@ -899,6 +901,16 @@ export function CreateMemorialForm(props: {
       <fieldset className="formSection">
         <legend className="eyebrow">{t("personalInfoLabel")}</legend>
         <div className="personalInfoGrid">
+          <label className="field">
+            <span className="fieldLabel">{t("clanNameLabel")}</span>
+            <input
+              className="input"
+              type="text"
+              maxLength={200}
+              value={clanName}
+              onChange={(e) => setClanName(e.target.value)}
+            />
+          </label>
           <label className="field">
             <span className="fieldLabel">{t("ancestralHometownLabel")}</span>
             <input

@@ -241,6 +241,17 @@ export default async function SearchPage(props: {
                   .map((p) => p?.trim())
                   .filter((p) => p && p.length > 0)
                   .join(" · ");
+                const isZh = locale.startsWith("zh");
+                const genderLabel =
+                  hit.gender === "male"
+                    ? isZh
+                      ? "男"
+                      : "M"
+                    : hit.gender === "female"
+                      ? isZh
+                        ? "女"
+                        : "F"
+                      : "";
 
                 return (
                   <li className="resultItem" key={hit.memorialId}>
@@ -256,10 +267,13 @@ export default async function SearchPage(props: {
                         ) : null}
                         {hit.primaryName}
                       </span>
-                      {years || deathPlace ? (
+                      {years || genderLabel || deathPlace ? (
                         <span className="resultMeta">
                           {years ? (
                             <span className="resultYears">{years}</span>
+                          ) : null}
+                          {genderLabel ? (
+                            <span className="resultGender">{genderLabel}</span>
                           ) : null}
                           {deathPlace ? (
                             <span className="resultPlace">{deathPlace}</span>

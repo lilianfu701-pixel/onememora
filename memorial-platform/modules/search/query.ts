@@ -36,6 +36,8 @@ export type SearchHit = {
   deathCountry: string | null;
   /** 家族/宗族名，导入的族谱页有；普通页为 null。 */
   clanName: string | null;
+  /** 性别："male" | "female" | null（未记）。 */
+  gender: string | null;
 };
 
 export type SearchPage = {
@@ -169,6 +171,7 @@ export async function searchMemorials(
       countryCodes: searchDocuments.countryCodes,
       publishedAt: memorials.publishedAt,
       clanName: deceasedPeople.clanName,
+      gender: deceasedPeople.gender,
     })
     .from(searchDocuments)
     .innerJoin(memorials, eq(memorials.id, searchDocuments.memorialId))
@@ -223,6 +226,7 @@ export async function searchMemorials(
       deathRegion: death?.region ?? null,
       deathCountry: death?.country ?? null,
       clanName: row.clanName ?? null,
+      gender: row.gender ?? null,
     });
   }
 
