@@ -45,6 +45,10 @@ def build(inter):
     clan = inter.get("clanName", "陇西李氏·李代龙支系")
     hometown = inter.get("hometown")  # 谱籍地/村，如 "贵州织金·桂果镇马场村"
     gen_chars = inter.get("generationChars", {})  # {"19":"崇", ...} 字辈
+    # 整支无生卒时的隐私兜底：世代 >= 此值且无卒年者推定在世（隐藏）。
+    # 本谱据有日期的支推算：第18代≈1950年代，故通常设 18。
+    presume_gen = inter.get("presumeLivingFromGen")
+    gen_by_pid = {}
 
     people = {}      # id -> obj
     relations = []
@@ -92,6 +96,7 @@ def build(inter):
             if not living:
                 obj["deathPlace"] = {"region": hometown}
         people[pid_] = obj
+        gen_by_pid[pid_] = gen
         by_gen_name.setdefault((gen, given), []).append(pid_)
         return pid_
 
@@ -188,6 +193,14 @@ def build(inter):
                 obj["living"] = True
                 obj.pop("deathPlace", None)
                 changed = True
+    # 世代阈值兜底（整支无日期时）：gen >= presume_gen 且无卒年 → 推定在世。
+    if presume_gen:
+        for pid_, obj in people.items():
+            if obj.get("living") or "death" in obj:
+                continue
+            if gen_by_pid.get(pid_, 0) >= presume_gen:
+                obj["living"] = True
+                obj.pop("deathPlace", None)
 
     # Pass 3: compose an identity bio for each explicit lineage member, so a page
     # is more than a name — 世代/字辈/谱籍地/排行 + the book's own 履历 (if any).
