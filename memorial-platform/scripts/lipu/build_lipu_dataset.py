@@ -127,18 +127,30 @@ def build(inter):
                 e["_orphanFather"] = fa
         # spouse(s)
         for sp in ([{"spouse": e.get("spouse"), "note": e.get("spouseNote"),
+                     "birth": e.get("spouseBirth"), "death": e.get("spouseDeath"),
                      "children": e.get("children", [])}]
                    + e.get("extraSpouses", [])):
             name = (sp.get("spouse") or "").strip()
             if name and name not in ("失考", "失记", "姓失考"):
                 # 旧谱里妇女多只记「某氏」无名。突出为「{夫}之妻」更利于识别，
                 # 原「张氏」留作可搜索别名；有全名的（如张华珍）保留本名。
+                # 配偶若带生卒（多为近代娶进的在世妻子），一并带上——1940 后出生者
+                # 会自动标 living 成隐藏节点，绝不给在世妇女建公开页。
                 husband = people[gid]["name"]
+                sbirth, sdeath = sp.get("birth"), sp.get("death")
+                # 配偶性别与本人相反（女性族人「婚配」的是丈夫，为男性）。
+                sp_gender = "male" if people[gid].get("gender") == "female" else "female"
                 if re.match(r"^.{1,2}氏$", name):
-                    sid = add_person(gen, f"{husband}之妻", gender="female",
-                                     is_lineage=False, aliases=[name])
+                    sid = add_person(gen, f"{husband}之妻", gender=sp_gender,
+                                     is_lineage=False, aliases=[name],
+                                     birth=sbirth, death=sdeath)
                 else:
-                    sid = add_person(gen, name, gender="female", is_lineage=False)
+                    sid = add_person(gen, name, gender=sp_gender, is_lineage=False,
+                                     birth=sbirth, death=sdeath)
+                # 隐私：在世者的配偶若无自身卒年，也按在世隐藏，不建公开页。
+                if people[gid].get("living") and "death" not in people[sid]:
+                    people[sid]["living"] = True
+                    people[sid].pop("deathPlace", None)
                 a, b = sorted([gid, sid])
                 add_rel({"kind": "spouse", "a": a, "b": b})
         # leaf children: given names in 生：list that have no explicit next-gen entry
@@ -151,6 +163,31 @@ def build(inter):
                     continue  # explicit entry exists; its own father= links it
                 cid = add_person(gen + 1, ch)
                 add_rel({"kind": "parent", "parent": gid, "child": cid})
+
+    # Pass 2.5: presume-living for undated modern descendants (privacy-safe).
+    # A person with neither birth nor death whose father was born in the 20th
+    # century (or is himself living) is very likely alive — mask them so the
+    # book's youngest, dateless generations never get a public page.
+    child_to_parent = {}
+    for r in relations:
+        if r["kind"] == "parent":
+            child_to_parent[r["child"]] = r["parent"]
+    MODERN_BIRTH = 1911
+    changed = True
+    while changed:
+        changed = False
+        for pid_, obj in people.items():
+            if obj.get("living") or "birth" in obj or "death" in obj:
+                continue
+            par = child_to_parent.get(pid_)
+            pobj = people.get(par) if par else None
+            if not pobj:
+                continue
+            pby = pobj.get("birth", {}).get("year")
+            if pobj.get("living") or (pby and pby >= MODERN_BIRTH):
+                obj["living"] = True
+                obj.pop("deathPlace", None)
+                changed = True
 
     # Pass 3: compose an identity bio for each explicit lineage member, so a page
     # is more than a name — 世代/字辈/谱籍地/排行 + the book's own 履历 (if any).
