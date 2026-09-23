@@ -1348,7 +1348,7 @@ const FAMILIES: { key: string; label: string; dataset: GenealogyDataset }[] = [
   { key: "fengdao", label: "馮氏·馮道支（五代官員·882-954·馮吉子·2人）", dataset: fengdao as GenealogyDataset },
   // CBDB 第三十五批：唐代将帅·五代沙陀·关陇长孙氏·安史战将
   { key: "likeyong", label: "沙陀李氏·李克用支（五代后唐开国·-908·李存勖等·13人）", dataset: likeyong as GenealogyDataset },
-  { key: "xuenengui", label: "河东薛氏·薛仁贵支（唐代将门·-682·薛嵩至薛平·45人）", dataset: xuenengui as GenealogyDataset },
+  { key: "xuenengui", label: "河东薛氏·薛仁贵支（唐代将门·-682·薛嵩至薛平·90人）", dataset: xuenengui as GenealogyDataset },
   { key: "weichigang", label: "鄯善尉迟氏·尉迟恭支（唐初凌烟阁·585-658·尉迟宝琳等·6人）", dataset: weichigang as GenealogyDataset },
   { key: "duruihui", label: "京兆杜氏·杜如晦支（房谋杜断·585-630·杜构杜荷·5人）", dataset: duruihui as GenealogyDataset },
   { key: "lmaozhen", label: "凤翔李氏·李茂贞支（五代岐王·856-924·李继密等·8人）", dataset: lmaozhen as GenealogyDataset },
@@ -1362,7 +1362,7 @@ const FAMILIES: { key: string; label: string; dataset: GenealogyDataset }[] = [
   { key: "zhejiazhun", label: "府州折氏·折家军（五代宋初北方边帅世家·折从阮-折彦质·22人）", dataset: zhejiazhun as GenealogyDataset },
   { key: "guowei", label: "后周郭氏·郭威支（五代后周开国·904-953·5人）", dataset: guowei as GenealogyDataset },
   // CBDB 第三十三批：五代吴越·金代双段·南唐宋初·宋元之际
-  { key: "qianliu", label: "吴越钱氏·钱镠支（五代吴越国王·852-932·钱惟演至·45人）", dataset: qianliu as GenealogyDataset },
+  { key: "qianliu", label: "吴越钱氏·钱镠支（五代吴越国王·852-932·钱惟演至·90人）", dataset: qianliu as GenealogyDataset },
   { key: "duanjicheng", label: "稷山段氏·段克己段成己支（金代双段词人·1194-1279·15人）", dataset: duanjicheng as GenealogyDataset },
   { key: "zhangjie", label: "淮南张氏·张洎支（南唐宋初官员·933-996·12人）", dataset: zhangjie as GenealogyDataset },
   { key: "xieangde", label: "弋阳谢氏·谢枋得支（南宋遗民·信州先生·1225-·6人）", dataset: xieangde as GenealogyDataset },
@@ -1467,7 +1467,7 @@ const FAMILIES: { key: string; label: string; dataset: GenealogyDataset }[] = [
   { key: "luzhi", label: "嘉兴陆氏·陆贽支（唐代名相·贞元宰相·754-805·5人）", dataset: luzhi as GenealogyDataset },
   { key: "yushinan", label: "越州虞氏·虞世南支（唐代书法家·初唐四友·558-638·3人）", dataset: yushinan as GenealogyDataset },
   // CBDB 第十九批：隋唐薛氏·唐代崔氏·北宋官员
-  { key: "xueshou", label: "河东薛氏·薛收支（隋末唐初官员·592-624·45人）", dataset: xueshou as GenealogyDataset },
+  { key: "xueshou", label: "河东薛氏·薛收支（隋末唐初官员·592-624·90人）", dataset: xueshou as GenealogyDataset },
   { key: "cuiying", label: "博陵崔氏·崔瑛支（唐代官员·702-728）", dataset: cuiying as GenealogyDataset },
   { key: "zhouqi", label: "汝南周氏·周起支（北宋官员·970-1028）", dataset: zhouqi as GenealogyDataset },
   { key: "chengzhao", label: "新安程氏·程昭支（宋代官员·多代记录）", dataset: chengzhao as GenealogyDataset },
@@ -1570,7 +1570,7 @@ const FAMILIES: { key: string; label: string; dataset: GenealogyDataset }[] = [
   { key: "lianxixian", label: "维吾尔廉氏·廉希宪支（元代宰相·布鲁海牙之后·1231-1280）", dataset: lianxixian as GenealogyDataset },
   { key: "liangshi", label: "郓州梁氏·梁适支（北宋宰相·979-1052）", dataset: liangshi as GenealogyDataset },
   { key: "chenzhizhong", label: "沧州陈氏·陈执中支（北宋宰相·990-1059）", dataset: chenzhizhong as GenealogyDataset },
-  { key: "weicheng", label: "京兆韦氏·韦澄支（唐代官员·韦承彦后裔·45人）", dataset: weicheng as GenealogyDataset },
+  { key: "weicheng", label: "京兆韦氏·韦澄支（唐代官员·韦承彦后裔·90人）", dataset: weicheng as GenealogyDataset },
   { key: "lvdafang", label: "冯翊吕氏·吕大防支（北宋宰相·1027-1097）", dataset: lvdafang as GenealogyDataset },
   { key: "gaorounne", label: "幽州高氏·高若讷支（北宋官员·997-1055）", dataset: gaorounne as GenealogyDataset },
   { key: "chengrong", label: "博野程氏·程琳支（北宋官员·988-1056）", dataset: chengrong as GenealogyDataset },

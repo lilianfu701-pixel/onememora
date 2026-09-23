@@ -379,6 +379,57 @@
       "death": {
         "year": 898
       }
+    },
+    {
+      "externalId": "195398",
+      "name": "于濤",
+      "citation": "CBDB 中国历代人物传记资料库 person 195398",
+      "gender": "male",
+      "death": {
+        "year": 898
+      }
+    },
+    {
+      "externalId": "31466",
+      "name": "于栗磾",
+      "citation": "CBDB 中国历代人物传记资料库 person 31466",
+      "gender": "male"
+    },
+    {
+      "externalId": "160420",
+      "name": "孫四譙",
+      "citation": "CBDB 中国历代人物传记资料库 person 160420",
+      "gender": "female"
+    },
+    {
+      "externalId": "160421",
+      "name": "孫汶娘",
+      "citation": "CBDB 中国历代人物传记资料库 person 160421",
+      "gender": "female"
+    },
+    {
+      "externalId": "160422",
+      "name": "孫鳳娘",
+      "citation": "CBDB 中国历代人物传记资料库 person 160422",
+      "gender": "female"
+    },
+    {
+      "externalId": "160423",
+      "name": "孫猧兒",
+      "citation": "CBDB 中国历代人物传记资料库 person 160423",
+      "gender": "male"
+    },
+    {
+      "externalId": "160424",
+      "name": "孫天奴",
+      "citation": "CBDB 中国历代人物传记资料库 person 160424",
+      "gender": "male"
+    },
+    {
+      "externalId": "160425",
+      "name": "孫道全",
+      "citation": "CBDB 中国历代人物传记资料库 person 160425",
+      "gender": "male"
     }
   ],
   "relations": [
@@ -588,14 +639,54 @@
       "child": "195397"
     },
     {
+      "kind": "parent",
+      "parent": "31503",
+      "child": "195398"
+    },
+    {
       "kind": "spouse",
       "a": "194177",
       "b": "31505"
     },
     {
+      "kind": "parent",
+      "parent": "31466",
+      "child": "31467"
+    },
+    {
       "kind": "spouse",
       "a": "141790",
       "b": "141992"
+    },
+    {
+      "kind": "parent",
+      "parent": "141992",
+      "child": "160420"
+    },
+    {
+      "kind": "parent",
+      "parent": "141992",
+      "child": "160421"
+    },
+    {
+      "kind": "parent",
+      "parent": "141992",
+      "child": "160422"
+    },
+    {
+      "kind": "parent",
+      "parent": "141992",
+      "child": "160423"
+    },
+    {
+      "kind": "parent",
+      "parent": "141992",
+      "child": "160424"
+    },
+    {
+      "kind": "parent",
+      "parent": "141992",
+      "child": "160425"
     },
     {
       "kind": "spouse",

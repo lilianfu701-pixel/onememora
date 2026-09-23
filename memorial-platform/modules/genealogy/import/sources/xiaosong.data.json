@@ -379,6 +379,93 @@
       "death": {
         "year": 902
       }
+    },
+    {
+      "externalId": "12269",
+      "name": "蕭遘",
+      "citation": "CBDB 中国历代人物传记资料库 person 12269",
+      "gender": "male"
+    },
+    {
+      "externalId": "12255",
+      "name": "蕭統",
+      "citation": "CBDB 中国历代人物传记资料库 person 12255",
+      "gender": "male",
+      "birth": {
+        "year": 501
+      },
+      "death": {
+        "year": 531
+      }
+    },
+    {
+      "externalId": "444995",
+      "name": "龔氏(蕭詧之母)",
+      "citation": "CBDB 中国历代人物传记资料库 person 444995",
+      "gender": "female"
+    },
+    {
+      "externalId": "171712",
+      "name": "蕭愿",
+      "citation": "CBDB 中国历代人物传记资料库 person 171712",
+      "gender": "male",
+      "death": {
+        "year": 974
+      }
+    },
+    {
+      "externalId": "12254",
+      "name": "蕭衍",
+      "citation": "CBDB 中国历代人物传记资料库 person 12254",
+      "gender": "male",
+      "death": {
+        "year": 549
+      }
+    },
+    {
+      "externalId": "148978",
+      "name": "蕭衍",
+      "citation": "CBDB 中国历代人物传记资料库 person 148978",
+      "gender": "male"
+    },
+    {
+      "externalId": "32064",
+      "name": "蕭順之",
+      "citation": "CBDB 中国历代人物传记资料库 person 32064",
+      "gender": "male"
+    },
+    {
+      "externalId": "162162",
+      "name": "蕭順之",
+      "citation": "CBDB 中国历代人物传记资料库 person 162162",
+      "gender": "male"
+    },
+    {
+      "externalId": "32063",
+      "name": "蕭副",
+      "citation": "CBDB 中国历代人物传记资料库 person 32063",
+      "gender": "male"
+    },
+    {
+      "externalId": "193966",
+      "name": "蕭道賜",
+      "citation": "CBDB 中国历代人物传记资料库 person 193966",
+      "gender": "male",
+      "death": {
+        "year": 455
+      }
+    },
+    {
+      "externalId": "12252",
+      "name": "蕭",
+      "citation": "CBDB 中国历代人物传记资料库 person 12252",
+      "gender": "male"
+    },
+    {
+      "externalId": "12250",
+      "name": "蕭整",
+      "citation": "CBDB 中国历代人物传记资料库 person 12250",
+      "gender": "male"
     }
   ],
   "relations": [
@@ -608,9 +695,69 @@
       "child": "171726"
     },
     {
+      "kind": "parent",
+      "parent": "12268",
+      "child": "12269"
+    },
+    {
+      "kind": "parent",
+      "parent": "12255",
+      "child": "12256"
+    },
+    {
+      "kind": "parent",
+      "parent": "444995",
+      "child": "12256"
+    },
+    {
       "kind": "spouse",
       "a": "12256",
       "b": "444996"
+    },
+    {
+      "kind": "parent",
+      "parent": "171711",
+      "child": "171712"
+    },
+    {
+      "kind": "parent",
+      "parent": "12254",
+      "child": "12255"
+    },
+    {
+      "kind": "parent",
+      "parent": "148978",
+      "child": "12255"
+    },
+    {
+      "kind": "parent",
+      "parent": "32064",
+      "child": "12254"
+    },
+    {
+      "kind": "parent",
+      "parent": "162162",
+      "child": "148978"
+    },
+    {
+      "kind": "parent",
+      "parent": "32063",
+      "child": "32064"
+    },
+    {
+      "kind": "parent",
+      "parent": "193966",
+      "child": "162162"
+    },
+    {
+      "kind": "parent",
+      "parent": "12252",
+      "child": "32063"
+    },
+    {
+      "kind": "parent",
+      "parent": "12250",
+      "child": "12252"
     }
   ]
 }
