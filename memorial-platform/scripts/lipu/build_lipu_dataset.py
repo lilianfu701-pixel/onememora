@@ -42,6 +42,9 @@ def build(inter):
     branch = inter["branchKey"]
     cutoff = inter.get("livingCutoff", 1940)
     citation = inter.get("citation", "《李氏族谱·陇西贵州李代龙支系谱》第二卷")
+    clan = inter.get("clanName", "陇西李氏·李代龙支系")
+    hometown = inter.get("hometown")  # 谱籍地/村，如 "贵州织金·桂果镇马场村"
+    gen_chars = inter.get("generationChars", {})  # {"19":"崇", ...} 字辈
 
     people = {}      # id -> obj
     relations = []
@@ -54,7 +57,7 @@ def build(inter):
         return base if disamb == 0 else f"{base}#{disamb}"
 
     def add_person(gen, given, birth=None, death=None, gender=None, bio=None,
-                   is_lineage=True):
+                   is_lineage=True, aliases=None):
         # disambiguate same given-name in same generation
         disamb = 0
         while pid(gen, given, disamb) in people:
@@ -66,6 +69,13 @@ def build(inter):
         obj = {"externalId": pid_, "name": display, "citation": citation}
         if gender:
             obj["gender"] = gender
+        if aliases:
+            obj["aliases"] = aliases
+        gc = gen_chars.get(str(gen))
+        if gc and is_lineage:
+            obj["generationName"] = gc
+        if hometown and is_lineage:
+            obj["ancestralHometown"] = hometown
         yb, yd = year_of(birth), year_of(death)
         if yb:
             obj["birth"] = {"year": yb}
@@ -88,7 +98,8 @@ def build(inter):
     # Pass 1: create a node for every explicit 第N代 entry.
     for e in entries:
         e["_id"] = add_person(e["gen"], e["name"], e.get("birth"),
-                              e.get("death"), e.get("gender"), e.get("bio"))
+                              e.get("death"), e.get("gender"), e.get("bio"),
+                              aliases=e.get("aliases"))
 
     # helper: resolve a father entry-id from (childGen, fatherGivenName)
     def father_id(child_gen, father_name):
@@ -125,6 +136,22 @@ def build(inter):
                     continue  # explicit entry exists; its own father= links it
                 cid = add_person(gen + 1, ch)
                 add_rel({"kind": "parent", "parent": gid, "child": cid})
+
+    # Pass 3: compose an identity bio for each explicit lineage member, so a page
+    # is more than a name — 世代/字辈/谱籍地/排行 + the book's own 履历 (if any).
+    for e in entries:
+        obj = people[e["_id"]]
+        parts = [f"{clan}第{e['gen']}代"]
+        gc = gen_chars.get(str(e["gen"]))
+        if gc:
+            parts[0] += f"（字辈“{gc}”）"
+        if hometown:
+            parts.append(hometown)
+        if e.get("rank"):
+            parts.append(e["rank"])  # 排行，如 "崇彬长子"
+        head = "，".join(parts) + "。"
+        book_bio = (e.get("bio") or "").strip()
+        obj["bio"] = (head + book_bio) if book_bio else head
 
     ds = {"key": f"lipu:{branch}", "namespace": NAMESPACE,
           "people": list(people.values()), "relations": relations}
