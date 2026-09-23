@@ -61,12 +61,18 @@ def build(inter):
         return base if disamb == 0 else f"{base}#{disamb}"
 
     def add_person(gen, given, birth=None, death=None, gender=None, bio=None,
-                   is_lineage=True, aliases=None):
-        # disambiguate same given-name in same generation
-        disamb = 0
-        while pid(gen, given, disamb) in people:
-            disamb += 1
-        pid_ = pid(gen, given, disamb)
+                   is_lineage=True, aliases=None, explicit_id=None):
+        # An explicit_id anchors this person on an already-imported node from
+        # another branch (a 上承X分支 continuation) so shared ancestors dedup by
+        # externalId instead of duplicating a page. Otherwise generate a
+        # branch-local id, disambiguating a repeated given-name in one generation.
+        if explicit_id:
+            pid_ = explicit_id
+        else:
+            disamb = 0
+            while pid(gen, given, disamb) in people:
+                disamb += 1
+            pid_ = pid(gen, given, disamb)
         # Married-in spouses keep their own name (张氏 / 张华珍); only patrilineal
         # members take the branch surname prepended.
         display = norm_name(surname, given) if is_lineage else given.strip()
@@ -112,7 +118,8 @@ def build(inter):
     for e in entries:
         e["_id"] = add_person(e["gen"], e["name"], e.get("birth"),
                               e.get("death"), e.get("gender"), e.get("bio"),
-                              aliases=e.get("aliases"))
+                              aliases=e.get("aliases"),
+                              explicit_id=e.get("externalId"))
 
     # helper: resolve a father entry-id from (childGen, fatherGivenName)
     def father_id(child_gen, father_name):
