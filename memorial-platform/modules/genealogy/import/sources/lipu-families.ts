@@ -24,6 +24,13 @@ import lipu_lichunhong from "./lichunhong.lipu.data.json";
 import lipu_likexian from "./likexian.lipu.data.json";
 import lipu_liziqing from "./liziqing.lipu.data.json";
 import lipu_lixinchunbn from "./lixinchunbn.lipu.data.json";
+import lipu_liyingke from "./liyingke.lipu.data.json";
+import lipu_liboshou from "./liboshou.lipu.data.json";
+import lipu_lixuewu from "./lixuewu.lipu.data.json";
+import lipu_lihongshunlh from "./lihongshunlh.lipu.data.json";
+import lipu_liyuanfu from "./liyuanfu.lipu.data.json";
+import lipu_lichaofeng from "./lichaofeng.lipu.data.json";
+import lipu_lishiyu from "./lishiyu.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -43,6 +50,13 @@ const LABELS: Record<string, string> = {
   likexian: "李氏·李克贤一支（李代龙支系谱·白泥乡喻家坝村）",
   liziqing: "李氏·李子清一支（李代龙支系谱·白泥乡大树脚村）",
   lixinchunbn: "李氏·李新春一支（李代龙支系谱·白泥乡大树脚）",
+  liyingke: "李氏·李应科一支（李代龙支系谱·白泥乡前进村卢家坝）",
+  liboshou: "李氏·李伯寿一支（李代龙支系谱·白泥乡白泥村）",
+  lixuewu: "李氏·李学武一支（李代龙支系谱·白泥乡三合村）",
+  lihongshunlh: "李氏·李洪顺一支（李代龙支系谱·白泥联合村）",
+  liyuanfu: "李氏·李元富一支（李代龙支系谱·白泥乡三合村）",
+  lichaofeng: "李氏·李朝凤一支（李代龙支系谱·白泥乡那台联合村）",
+  lishiyu: "李氏·李士玉一支（李代龙支系谱·白泥乡云碧村）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -62,6 +76,13 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["likexian", lipu_likexian as GenealogyDataset],
   ["liziqing", lipu_liziqing as GenealogyDataset],
   ["lixinchunbn", lipu_lixinchunbn as GenealogyDataset],
+  ["liyingke", lipu_liyingke as GenealogyDataset],
+  ["liboshou", lipu_liboshou as GenealogyDataset],
+  ["lixuewu", lipu_lixuewu as GenealogyDataset],
+  ["lihongshunlh", lipu_lihongshunlh as GenealogyDataset],
+  ["liyuanfu", lipu_liyuanfu as GenealogyDataset],
+  ["lichaofeng", lipu_lichaofeng as GenealogyDataset],
+  ["lishiyu", lipu_lishiyu as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {

@@ -1,0 +1,150 @@
+{
+  "key": "lipu:liyuanfu",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyuanfu:18-元富",
+      "name": "李元富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡三合村。字亮枝，生于三塘洋坑。"
+    },
+    {
+      "externalId": "lipu:liyuanfu:19-秀文",
+      "name": "李秀文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1928
+      },
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡三合村。生于三塘路载河。"
+    },
+    {
+      "externalId": "lipu:liyuanfu:20-先华",
+      "name": "李先华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1971
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡三合村。生于梯子岩。"
+    },
+    {
+      "externalId": "lipu:liyuanfu:20-先有",
+      "name": "李先有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1973
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡三合村。生于梯子岩。"
+    },
+    {
+      "externalId": "lipu:liyuanfu:20-先辉",
+      "name": "李先辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1973
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡三合村。生于梯子岩。"
+    },
+    {
+      "externalId": "lipu:liyuanfu:18-李元富之妻",
+      "name": "李元富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanfu:19-秀明",
+      "name": "李秀明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanfu:19-李秀文之妻",
+      "name": "李秀文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡三合村（第14页）",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanfu:18-元富",
+      "b": "lipu:liyuanfu:18-李元富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanfu:18-元富",
+      "child": "lipu:liyuanfu:19-秀明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanfu:18-元富",
+      "child": "lipu:liyuanfu:19-秀文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanfu:19-李秀文之妻",
+      "b": "lipu:liyuanfu:19-秀文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanfu:19-秀文",
+      "child": "lipu:liyuanfu:20-先华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanfu:19-秀文",
+      "child": "lipu:liyuanfu:20-先有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanfu:19-秀文",
+      "child": "lipu:liyuanfu:20-先辉"
+    }
+  ]
+}
