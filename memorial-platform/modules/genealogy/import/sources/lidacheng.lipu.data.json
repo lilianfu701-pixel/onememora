@@ -1,0 +1,120 @@
+{
+  "key": "lipu:lidacheng",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lidacheng:16-大成",
+      "name": "李大成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·阿弓镇吊井村",
+      "birthPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·阿弓镇吊井村。上承珠藏镇坑分支15代李克贤从16代起。"
+    },
+    {
+      "externalId": "lipu:lidacheng:17-永才",
+      "name": "李永才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·阿弓镇吊井村",
+      "birthPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·阿弓镇吊井村。生鸡场坡土坝头，迁居卢家冲，葬向阳地，妣安氏生于卢家冲头。有三女。"
+    },
+    {
+      "externalId": "lipu:lidacheng:18-盛德",
+      "name": "李盛德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·阿弓镇吊井村",
+      "birthPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·阿弓镇吊井村。生于卢家冲，葬地卢家冲。有三女。"
+    },
+    {
+      "externalId": "lipu:lidacheng:19-定明",
+      "name": "李定明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·阿弓镇吊井村",
+      "birthPlace": {
+        "region": "贵州织金·阿弓镇吊井村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·阿弓镇吊井村。生于卢家冲。"
+    },
+    {
+      "externalId": "lipu:lidacheng:17-李永才之妻",
+      "name": "李永才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "gender": "female",
+      "aliases": [
+        "安氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidacheng:18-李盛德之妻",
+      "name": "李盛德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidacheng:19-李定明之妻",
+      "name": "李定明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·阿弓镇吊井村（第46页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lidacheng:16-大成",
+      "child": "lipu:lidacheng:17-永才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidacheng:17-李永才之妻",
+      "b": "lipu:lidacheng:17-永才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidacheng:17-永才",
+      "child": "lipu:lidacheng:18-盛德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidacheng:18-李盛德之妻",
+      "b": "lipu:lidacheng:18-盛德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidacheng:18-盛德",
+      "child": "lipu:lidacheng:19-定明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidacheng:19-定明",
+      "b": "lipu:lidacheng:19-李定明之妻"
+    }
+  ]
+}
