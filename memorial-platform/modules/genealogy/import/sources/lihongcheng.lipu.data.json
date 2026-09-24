@@ -1,0 +1,636 @@
+{
+  "key": "lipu:lihongcheng",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lihongcheng:10-洪成",
+      "name": "李洪成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第10代，贵州织金·白泥乡白泥村。上承威宁河湾分支。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:11-应君",
+      "name": "李应君",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·白泥乡白泥村。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:12-朝远",
+      "name": "李朝远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·白泥乡白泥村。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:13-文仲",
+      "name": "李文仲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·白泥乡白泥村。迁居威宁河湾开口洞。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:17-国安",
+      "name": "李国安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡白泥村。生殁小龙场，葬金家半坡。第十五、十六代失记。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:17-国荣",
+      "name": "李国荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡白泥村。生殁葬于白桥。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:17-国富",
+      "name": "李国富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡白泥村。生殁葬于白桥。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:18-正元",
+      "name": "李正元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡白泥村。生于白桥小龙场。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:18-正清",
+      "name": "李正清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡白泥村。生于白桥小龙场，迁徙织金县白泥街上，殁于白泥，葬于白泥半坡寨。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:19-天明",
+      "name": "李天明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡白泥村。生于白泥，殁葬于白泥。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:19-天光",
+      "name": "李天光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1934
+      },
+      "death": {
+        "year": 2001
+      },
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡白泥村。字德光，生于白泥街上，终年69岁，葬前进村木桥陈家房背后。原配王氏生女珍妹。继妣吴学芬生于那拢，殁于2002年，葬于溃坝背后山。另有女志群、志艳、幺妹。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:20-志文",
+      "name": "李志文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1962
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村。生于白泥街上。另有女彩霞。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:20-志刚",
+      "name": "李志刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1965
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村。生于白泥街上，偶谢光秀生于那拢。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:20-志林",
+      "name": "李志林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1971
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村。生于白泥街上，生有一女。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:21-萍果",
+      "name": "李萍果",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡白泥村。生于白泥街上。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:21-志三",
+      "name": "李志三",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡白泥村。生于白泥街上。原谱子嗣列作「老三」。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:21-旭",
+      "name": "李旭",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡白泥村。生于白泥街上。"
+    },
+    {
+      "externalId": "lipu:lihongcheng:10-李洪成之妻",
+      "name": "李洪成之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:11-应初",
+      "name": "李应初",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:11-应举",
+      "name": "李应举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:11-李应君之妻",
+      "name": "李应君之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:13-李文仲之妻",
+      "name": "李文仲之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:14-相龙",
+      "name": "李相龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:14-相虎",
+      "name": "李相虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:14-相胜",
+      "name": "李相胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:17-李国安之妻",
+      "name": "李国安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "郝氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:18-正祥",
+      "name": "李正祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:17-李国荣之妻",
+      "name": "李国荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:17-李国富之妻",
+      "name": "李国富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:18-李正元之妻",
+      "name": "李正元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:19-玉才",
+      "name": "李玉才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:19-有才",
+      "name": "李有才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:18-李正清之妻",
+      "name": "李正清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "aliases": [
+        "邓氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongcheng:19-吴学芬",
+      "name": "吴学芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "birth": {
+        "year": 1936
+      }
+    },
+    {
+      "externalId": "lipu:lihongcheng:20-张龙飞",
+      "name": "张龙飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongcheng:20-谢光秀",
+      "name": "谢光秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongcheng:21-进",
+      "name": "李进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongcheng:20-刘小芹",
+      "name": "刘小芹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县千一系·白泥乡白泥村（第17-18页）",
+      "gender": "female",
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:10-李洪成之妻",
+      "b": "lipu:lihongcheng:10-洪成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:10-洪成",
+      "child": "lipu:lihongcheng:11-应初"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:10-洪成",
+      "child": "lipu:lihongcheng:11-应举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:10-洪成",
+      "child": "lipu:lihongcheng:11-应君"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:11-应君",
+      "b": "lipu:lihongcheng:11-李应君之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:11-应君",
+      "child": "lipu:lihongcheng:12-朝远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:12-朝远",
+      "child": "lipu:lihongcheng:13-文仲"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:13-文仲",
+      "b": "lipu:lihongcheng:13-李文仲之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:13-文仲",
+      "child": "lipu:lihongcheng:14-相龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:13-文仲",
+      "child": "lipu:lihongcheng:14-相虎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:13-文仲",
+      "child": "lipu:lihongcheng:14-相胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:17-国安",
+      "b": "lipu:lihongcheng:17-李国安之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:17-国安",
+      "child": "lipu:lihongcheng:18-正祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:17-国荣",
+      "b": "lipu:lihongcheng:17-李国荣之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:17-国富",
+      "b": "lipu:lihongcheng:17-李国富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:17-国安",
+      "child": "lipu:lihongcheng:18-正元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:18-李正元之妻",
+      "b": "lipu:lihongcheng:18-正元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:18-正元",
+      "child": "lipu:lihongcheng:19-玉才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:18-正元",
+      "child": "lipu:lihongcheng:19-有才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:17-国安",
+      "child": "lipu:lihongcheng:18-正清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:18-李正清之妻",
+      "b": "lipu:lihongcheng:18-正清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:18-正清",
+      "child": "lipu:lihongcheng:19-天明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:18-正清",
+      "child": "lipu:lihongcheng:19-天光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:19-吴学芬",
+      "b": "lipu:lihongcheng:19-天光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:19-天光",
+      "child": "lipu:lihongcheng:20-志文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:20-张龙飞",
+      "b": "lipu:lihongcheng:20-志文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:19-天光",
+      "child": "lipu:lihongcheng:20-志刚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:20-志刚",
+      "b": "lipu:lihongcheng:20-谢光秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:20-志刚",
+      "child": "lipu:lihongcheng:21-进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:19-天光",
+      "child": "lipu:lihongcheng:20-志林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongcheng:20-刘小芹",
+      "b": "lipu:lihongcheng:20-志林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:20-志文",
+      "child": "lipu:lihongcheng:21-萍果"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:20-志文",
+      "child": "lipu:lihongcheng:21-志三"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongcheng:20-志刚",
+      "child": "lipu:lihongcheng:21-旭"
+    }
+  ]
+}
