@@ -63,6 +63,11 @@ import lipu_lijinhuai from "./lijinhuai.lipu.data.json";
 import lipu_lijinhuaizongqing from "./lijinhuaizongqing.lipu.data.json";
 import lipu_lijinhuaizongxuan from "./lijinhuaizongxuan.lipu.data.json";
 import lipu_lijinhuaizongshun from "./lijinhuaizongshun.lipu.data.json";
+import lipu_lidayong from "./lidayong.lipu.data.json";
+import lipu_lidayongzongxue from "./lidayongzongxue.lipu.data.json";
+import lipu_lidayongzongchao from "./lidayongzongchao.lipu.data.json";
+import lipu_lidayongzongxiang from "./lidayongzongxiang.lipu.data.json";
+import lipu_lidayongothers from "./lidayongothers.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -121,6 +126,11 @@ const LABELS: Record<string, string> = {
   lijinhuaizongqing: "李氏·李进槐支·宗清分支（李代龙支系谱·化起村下坝田村·十七至二十代）",
   lijinhuaizongxuan: "李氏·李进槐支·宗选分支（李代龙支系谱·化起村下坝田村·十七至二十代）",
   lijinhuaizongshun: "李氏·李进槐支·宗顺宗新分支（李代龙支系谱·化起村下坝田村·十七至二十代）",
+  lidayong: "李氏·李大勇一支（李代龙支系谱·化起镇庙上田坝·十三至十七代）",
+  lidayongzongxue: "李氏·李大勇支·宗学分支（李代龙支系谱·化起镇庙上田坝·十七至二十代）",
+  lidayongzongchao: "李氏·李大勇支·宗朝分支（李代龙支系谱·化起镇庙上田坝·十七至二十一代）",
+  lidayongzongxiang: "李氏·李大勇支·宗相分支（李代龙支系谱·化起镇庙上田坝·十七至二十代）",
+  lidayongothers: "李氏·李大勇支·其他分支（李代龙支系谱·化起镇庙上田坝·十七至二十代）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -179,6 +189,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lijinhuaizongqing", lipu_lijinhuaizongqing as GenealogyDataset],
   ["lijinhuaizongxuan", lipu_lijinhuaizongxuan as GenealogyDataset],
   ["lijinhuaizongshun", lipu_lijinhuaizongshun as GenealogyDataset],
+  ["lidayong", lipu_lidayong as GenealogyDataset],
+  ["lidayongzongxue", lipu_lidayongzongxue as GenealogyDataset],
+  ["lidayongzongchao", lipu_lidayongzongchao as GenealogyDataset],
+  ["lidayongzongxiang", lipu_lidayongzongxiang as GenealogyDataset],
+  ["lidayongothers", lipu_lidayongothers as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {
