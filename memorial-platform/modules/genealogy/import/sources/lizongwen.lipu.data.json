@@ -1,0 +1,647 @@
+{
+  "key": "lipu:lizongwen",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongwen:17-宗文",
+      "name": "李宗文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·龙场镇阳光村。上承金龙乡龙麻寨李世举分支十六代李天德。"
+    },
+    {
+      "externalId": "lipu:lizongwen:18-德云",
+      "name": "李德云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·龙场镇阳光村。1846年9月29日生于金龙乡龙窝寨，迁本县龙场镇阳光村。妣陈氏1844年8月4日生于金龙洞口，殁于1915年，葬金龙中平村。生:崇相、崇安、崇培。"
+    },
+    {
+      "externalId": "lipu:lizongwen:19-崇相",
+      "name": "李崇相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·龙场镇阳光村。1863年冬月15日生于龙窝岩背后，殁于1913年9月10日，葬化起老鹰嘴。妣陈氏1876年4月18日生于镇雄平坝，殁于1931年4月22日，葬化起老鹰嘴。生:隆武。"
+    },
+    {
+      "externalId": "lipu:lizongwen:19-崇安",
+      "name": "李崇安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1865
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·龙场镇阳光村。1865年生于龙场阳光村。（谱载无传。）"
+    },
+    {
+      "externalId": "lipu:lizongwen:19-崇培",
+      "name": "李崇培",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1884
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·龙场镇阳光村。1884年5月12日生，妣杨氏1880年6月22日生于自强金家坝，殁于阳光村，葬化起落村。生:隆清、隆平。"
+    },
+    {
+      "externalId": "lipu:lizongwen:20-隆武",
+      "name": "李隆武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1898
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·龙场镇阳光村。1898年12月21日生于阳光华卢落村。解放后任乡干部数年。生:发明、发荣、发武、发万。（另有子发文，迁清镇丫街。）"
+    },
+    {
+      "externalId": "lipu:lizongwen:20-隆清",
+      "name": "李隆清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1911
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·龙场镇阳光村。1911年9月19日生于化起落，殁于1951年清镇丫乡街，葬站乡街。妣郭氏生于1911年。生:发文（劳模）、发荣（1934年生，偶陈氏，生裕学/裕华/裕杰等）。"
+    },
+    {
+      "externalId": "lipu:lizongwen:20-隆平",
+      "name": "李隆平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1921
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·龙场镇阳光村。1921年9月29日生于化起落，迁自强乡偏坡村定居，殁于2001年，葬偏坡村。偶安氏生于自强偏坡寨，殁于2001年6月。生:发光、发祥、发志。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发明",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1917
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。1917年腊月18日生于化起落，1992年殁于老鹰嘴。妣王氏1917年6月20日生于自强乡背后。生:裕祥、裕文、裕龙。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。偶安氏。生:裕林。（另有子老二、克发。）"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发武",
+      "name": "李发武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。生于自强阳光村化起落，解放后任乡干部数年。偶罗氏、袁氏。生:裕洪、裕伦、裕江。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发万",
+      "name": "李发万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。生:裕忠、裕全、裕书、裕俊。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发文",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1932
+      },
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。1932年生于阳光村，任大队支书数十年，全国著名劳模，1958年参加全国劳模大会，荣获毛主席接见。偶罗氏，殁于2002年。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发光",
+      "name": "李发光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。生于自强偏坡村。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。生于自强偏坡村。"
+    },
+    {
+      "externalId": "lipu:lizongwen:21-发志",
+      "name": "李发志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·龙场镇阳光村。生于自强偏坡村。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕祥",
+      "name": "李裕祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1942
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。1942年7月20日生于干河桥上，偶周氏1942年4月12日生于自强街上。生:长贵、长年、长有。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕文",
+      "name": "李裕文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1949
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。1949年4月17日生于干河桥上，偶张氏1955年12月6日生于龙场镇平寨村。生:长云、长平、长海、长龙。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕龙",
+      "name": "李裕龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。生:长凯、洋洋。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕洪",
+      "name": "李裕洪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。生于干河桥上，偶冯氏。生:长凯、洋洋。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕伦",
+      "name": "李裕伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。生于干河桥上。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕江",
+      "name": "李裕江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。生于干河桥上。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕忠",
+      "name": "李裕忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1962
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。1962年8月12日生于桥上，偶王氏1966年生。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕全",
+      "name": "李裕全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。大学文化，现在公安厅工作，偶王氏。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕书",
+      "name": "李裕书",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1968
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。1968年3月18日生于桥上，偶王氏1972年11月28日生。生:长龙、长成。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕俊",
+      "name": "李裕俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。生:长兴。"
+    },
+    {
+      "externalId": "lipu:lizongwen:22-裕林",
+      "name": "李裕林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇阳光村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇阳光村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·龙场镇阳光村。偶安氏。生:李华、李老二、李克发。"
+    },
+    {
+      "externalId": "lipu:lizongwen:18-李德云之妻",
+      "name": "李德云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:19-李崇相之妻",
+      "name": "李崇相之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:19-李崇培之妻",
+      "name": "李崇培之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:20-李隆清之妻",
+      "name": "李隆清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:20-李隆平之妻",
+      "name": "李隆平之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "安氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:21-李发明之妻",
+      "name": "李发明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:21-李发荣之妻",
+      "name": "李发荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "安氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:21-李发武之妻",
+      "name": "李发武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongwen:21-李发文之妻",
+      "name": "李发文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·龙场镇阳光村（第85-86页）",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:17-宗文",
+      "child": "lipu:lizongwen:18-德云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:18-德云",
+      "b": "lipu:lizongwen:18-李德云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:18-德云",
+      "child": "lipu:lizongwen:19-崇相"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:19-崇相",
+      "b": "lipu:lizongwen:19-李崇相之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:18-德云",
+      "child": "lipu:lizongwen:19-崇安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:18-德云",
+      "child": "lipu:lizongwen:19-崇培"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:19-崇培",
+      "b": "lipu:lizongwen:19-李崇培之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:19-崇相",
+      "child": "lipu:lizongwen:20-隆武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:19-崇培",
+      "child": "lipu:lizongwen:20-隆清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:20-李隆清之妻",
+      "b": "lipu:lizongwen:20-隆清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:19-崇培",
+      "child": "lipu:lizongwen:20-隆平"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:20-李隆平之妻",
+      "b": "lipu:lizongwen:20-隆平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆武",
+      "child": "lipu:lizongwen:21-发明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:21-发明",
+      "b": "lipu:lizongwen:21-李发明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆武",
+      "child": "lipu:lizongwen:21-发荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:21-发荣",
+      "b": "lipu:lizongwen:21-李发荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆武",
+      "child": "lipu:lizongwen:21-发武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:21-发武",
+      "b": "lipu:lizongwen:21-李发武之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆武",
+      "child": "lipu:lizongwen:21-发万"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆清",
+      "child": "lipu:lizongwen:21-发文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwen:21-发文",
+      "b": "lipu:lizongwen:21-李发文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆平",
+      "child": "lipu:lizongwen:21-发光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆平",
+      "child": "lipu:lizongwen:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:20-隆平",
+      "child": "lipu:lizongwen:21-发志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发明",
+      "child": "lipu:lizongwen:22-裕祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发明",
+      "child": "lipu:lizongwen:22-裕文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发明",
+      "child": "lipu:lizongwen:22-裕龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发武",
+      "child": "lipu:lizongwen:22-裕洪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发武",
+      "child": "lipu:lizongwen:22-裕伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发武",
+      "child": "lipu:lizongwen:22-裕江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发万",
+      "child": "lipu:lizongwen:22-裕忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发万",
+      "child": "lipu:lizongwen:22-裕全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发万",
+      "child": "lipu:lizongwen:22-裕书"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发万",
+      "child": "lipu:lizongwen:22-裕俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwen:21-发荣",
+      "child": "lipu:lizongwen:22-裕林"
+    }
+  ]
+}

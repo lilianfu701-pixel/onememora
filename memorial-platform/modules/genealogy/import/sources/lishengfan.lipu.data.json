@@ -1,0 +1,501 @@
+{
+  "key": "lipu:lishengfan",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishengfan:17-盛藩",
+      "name": "李盛藩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡龙井村苏兴。上承本境分支。生:成明、成林。"
+    },
+    {
+      "externalId": "lipu:lishengfan:18-成明",
+      "name": "李成明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1914
+      },
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡龙井村苏兴。1914年冬月十五日生于魁书李家寨，殁1978年9月11日，葬维彩祖坟右，有碑记。妣杨氏生于1919年5月13日八步化起乡宝杉，殁于1996年2月2日，葬何家坟，有碑记。生:良君、良文、良字。"
+    },
+    {
+      "externalId": "lipu:lishengfan:18-成林",
+      "name": "李成林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡龙井村苏兴。妣左氏。生:良勋。"
+    },
+    {
+      "externalId": "lipu:lishengfan:19-良君",
+      "name": "李良君",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1947
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡龙井村苏兴。1947年3月5日生于板桥龙井苏兴，偶肖荣鲜1950年5月8日生于龙井村破岩。生:玉骐、玉赤、玉兵。"
+    },
+    {
+      "externalId": "lipu:lishengfan:19-良文",
+      "name": "李良文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1953
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡龙井村苏兴。1953年腊月十六日生于板桥龙井，偶孙秀芬1952年7月22日生于八步华处宝杉。生:玉彩。"
+    },
+    {
+      "externalId": "lipu:lishengfan:19-良字",
+      "name": "李良字",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1955
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡龙井村苏兴。1955年冬月二十九日生于板桥苏兴，偶杨秀辉1962年7月14日生于化处宝杉。生:玉科、玉流。"
+    },
+    {
+      "externalId": "lipu:lishengfan:19-良勋",
+      "name": "李良勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡龙井村苏兴。生于板桥龙井苏兴，偶左氏生于落作村米落。生:玉才、玉凯。"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉骐",
+      "name": "李玉骐",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1970
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。1970年正月二十四日生于以那卫生院，偶杨春艳1976年10月17日生于茶店胡坝。生:顺意。"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉赤",
+      "name": "李玉赤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1975
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。1975年正月二十六日生于龙井苏兴，偶周文琴1979年冬月二十日生于金龙丫口寨。生:黄敬。"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉兵",
+      "name": "李玉兵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1987
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。1987年4月7日生于龙井苏兴。"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉彩",
+      "name": "李玉彩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1979
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。1979年腊月十一日生于苏兴，偶张锡敏1979年9月15日生于王龙村火龙洞。生:许炎。（谱第二十一代又见「喜炎」，应为同一人。）"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉科",
+      "name": "李玉科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1982
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。1982年4月27日生于龙井苏兴。"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉流",
+      "name": "李玉流",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1987
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。生于龙井苏兴。（谱载「187年」系笔误，据排列约1987年。）"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉才",
+      "name": "李玉才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。生于壬子年4月5日生于苏兴，偶张氏生于壬子年7月17日生于板桥。生:李桃。"
+    },
+    {
+      "externalId": "lipu:lishengfan:20-玉凯",
+      "name": "李玉凯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡龙井村苏兴。生于丁卯年正月十三日。"
+    },
+    {
+      "externalId": "lipu:lishengfan:21-黄敬",
+      "name": "李黄敬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 2000
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·板桥乡龙井村苏兴。2000年冬月二十日生于苏兴。"
+    },
+    {
+      "externalId": "lipu:lishengfan:21-许炎",
+      "name": "李许炎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 2000
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·板桥乡龙井村苏兴。2000年8月5日生于苏兴。（谱第二十一代又见「喜炎」。）"
+    },
+    {
+      "externalId": "lipu:lishengfan:21-顺意",
+      "name": "李顺意",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·板桥乡龙井村苏兴。生于以那卫生院。"
+    },
+    {
+      "externalId": "lipu:lishengfan:21-李桃",
+      "name": "李桃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 2001
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡龙井村苏兴",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡龙井村苏兴"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·板桥乡龙井村苏兴。2001年6月27日生于云南省宜良县夏官。"
+    },
+    {
+      "externalId": "lipu:lishengfan:18-李成明之妻",
+      "name": "李成明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishengfan:18-李成林之妻",
+      "name": "李成林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishengfan:19-肖荣鲜",
+      "name": "肖荣鲜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:19-孙秀芬",
+      "name": "孙秀芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:19-杨秀辉",
+      "name": "杨秀辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:19-李良勋之妻",
+      "name": "李良勋之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:20-杨春艳",
+      "name": "杨春艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:20-周文琴",
+      "name": "周文琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:20-张锡敏",
+      "name": "张锡敏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishengfan:20-李玉才之妻",
+      "name": "李玉才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡龙井村魁书（第65页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:17-盛藩",
+      "child": "lipu:lishengfan:18-成明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:18-成明",
+      "b": "lipu:lishengfan:18-李成明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:17-盛藩",
+      "child": "lipu:lishengfan:18-成林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:18-成林",
+      "b": "lipu:lishengfan:18-李成林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:18-成明",
+      "child": "lipu:lishengfan:19-良君"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:19-肖荣鲜",
+      "b": "lipu:lishengfan:19-良君"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:18-成明",
+      "child": "lipu:lishengfan:19-良文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:19-孙秀芬",
+      "b": "lipu:lishengfan:19-良文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:18-成明",
+      "child": "lipu:lishengfan:19-良字"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:19-杨秀辉",
+      "b": "lipu:lishengfan:19-良字"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:18-成林",
+      "child": "lipu:lishengfan:19-良勋"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:19-李良勋之妻",
+      "b": "lipu:lishengfan:19-良勋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良君",
+      "child": "lipu:lishengfan:20-玉骐"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:20-杨春艳",
+      "b": "lipu:lishengfan:20-玉骐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良君",
+      "child": "lipu:lishengfan:20-玉赤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:20-周文琴",
+      "b": "lipu:lishengfan:20-玉赤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良君",
+      "child": "lipu:lishengfan:20-玉兵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良文",
+      "child": "lipu:lishengfan:20-玉彩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:20-张锡敏",
+      "b": "lipu:lishengfan:20-玉彩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良字",
+      "child": "lipu:lishengfan:20-玉科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良字",
+      "child": "lipu:lishengfan:20-玉流"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良勋",
+      "child": "lipu:lishengfan:20-玉才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishengfan:20-李玉才之妻",
+      "b": "lipu:lishengfan:20-玉才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:19-良勋",
+      "child": "lipu:lishengfan:20-玉凯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:20-玉赤",
+      "child": "lipu:lishengfan:21-黄敬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:20-玉彩",
+      "child": "lipu:lishengfan:21-许炎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:20-玉骐",
+      "child": "lipu:lishengfan:21-顺意"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishengfan:20-玉才",
+      "child": "lipu:lishengfan:21-李桃"
+    }
+  ]
+}
