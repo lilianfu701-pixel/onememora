@@ -54,6 +54,11 @@ import lipu_litianshun from "./litianshun.lipu.data.json";
 import lipu_lideishun from "./lideishun.lipu.data.json";
 import lipu_litianxiang from "./litianxiang.lipu.data.json";
 import lipu_lishixiong from "./lishixiong.lipu.data.json";
+import lipu_liruyunqb from "./liruyunqb.lipu.data.json";
+import lipu_liminglong from "./liminglong.lipu.data.json";
+import lipu_lishifangzimei from "./lishifangzimei.lipu.data.json";
+import lipu_lichongguang from "./lichongguang.lipu.data.json";
+import lipu_lixingzheng from "./lixingzheng.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -103,6 +108,11 @@ const LABELS: Record<string, string> = {
   lideishun: "李氏·李德顺一支（李代龙支系谱·织金县化起镇鱼塘大平子果者面）",
   litianxiang: "李氏·李天祥一支（李代龙支系谱·织金县茶店乡吴家寨）",
   lishixiong: "李氏·李世雄一支（李代龙支系谱·织金县茶店乡安乐村）",
+  liruyunqb: "李氏·李如云一支（李代龙支系谱·织金县茶店乡茶店桥边）",
+  liminglong: "李氏·李明龙一支（李代龙支系谱·织金县波云乡小冲田）",
+  lishifangzimei: "李氏·李世芳一支·自美支（李代龙支系谱·织金县波云乡小冲田）",
+  lichongguang: "李氏·李崇光一支（李代龙支系谱·织金县茶店乡安乐村）",
+  lixingzheng: "李氏·李兴正一支（李代龙支系谱·织金县波云乡小冲田）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -152,6 +162,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lideishun", lipu_lideishun as GenealogyDataset],
   ["litianxiang", lipu_litianxiang as GenealogyDataset],
   ["lishixiong", lipu_lishixiong as GenealogyDataset],
+  ["liruyunqb", lipu_liruyunqb as GenealogyDataset],
+  ["liminglong", lipu_liminglong as GenealogyDataset],
+  ["lishifangzimei", lipu_lishifangzimei as GenealogyDataset],
+  ["lichongguang", lipu_lichongguang as GenealogyDataset],
+  ["lixingzheng", lipu_lixingzheng as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {

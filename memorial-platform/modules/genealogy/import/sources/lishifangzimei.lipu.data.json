@@ -1,0 +1,731 @@
+{
+  "key": "lipu:lishifangzimei",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishifangzimei:11-世方",
+      "name": "李世方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·波云乡小冲田。妣杨氏生：成明、成奇、成俊。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:12-成明",
+      "name": "李成明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·波云乡小冲田。（谱载世方子：成明，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:12-成奇",
+      "name": "李成奇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·波云乡小冲田。妣卢氏生：兴照、兴周。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:12-成俊",
+      "name": "李成俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·波云乡小冲田。（谱载世方子：成俊，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:13-兴照",
+      "name": "李兴照",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·波云乡小冲田。（谱载成奇子：兴照，无独立传记；子建林见下。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:13-兴周",
+      "name": "李兴周",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·波云乡小冲田。妣陈氏生：洪莲、洪政、李勋、李芬、李翠、李毓。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-洪莲",
+      "name": "李洪莲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。（兴周子女：洪莲，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-洪政",
+      "name": "李洪政",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。（兴周子女：洪政，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-勋",
+      "name": "李勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。（兴周子女：李勋，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-芬",
+      "name": "李芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。（兴周子女：李芬，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-翠",
+      "name": "李翠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。（兴周子女：李翠，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-毓",
+      "name": "李毓",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。（兴周子女：李毓，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-建林",
+      "name": "李建林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·波云乡小冲田。妣王氏生：如珍、如明、如云。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:15-如珍",
+      "name": "李如珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·波云乡小冲田。（建林子女：如珍，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:15-如明",
+      "name": "李如明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·波云乡小冲田。生于波营乡小冲田，妣钱氏生于波营乡小冲田。生：天云、天才、于顺。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:15-如云",
+      "name": "李如云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·波云乡小冲田。（建林子女：如云，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:16-天云",
+      "name": "李天云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·波云乡小冲田。生于波营乡小冲田，妣杨氏生于波营乡小冲田。生：宗和。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:16-天才",
+      "name": "李天才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·波云乡小冲田。生于波营乡小冲田，妣钱氏生于波营乡小冲田。生：宗海。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:16-于顺",
+      "name": "李于顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·波云乡小冲田。（如明子：于顺，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:17-宗和",
+      "name": "李宗和",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·波云乡小冲田。生于波营乡小冲田，偶张氏生于波营乡小冲田。生：德全、德荣。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:17-宗海",
+      "name": "李宗海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·波云乡小冲田。生于波营乡小冲田，偶王氏生于波营乡小冲田。生：（谱载生：，未列名。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:18-德全",
+      "name": "李德全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·波云乡小冲田。生于波营乡小冲田，偶刘氏生于底那河。生：崇文、崇元、崇先。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·波云乡小冲田。（宗和子：德荣，无传。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·波云乡小冲田。生于底那河，葬茶店小田寨，妣赵氏、周氏。生：隆华、隆军、隆俊、隆海、隆发。"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:19-崇元",
+      "name": "李崇元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·波云乡小冲田。（德全子：崇元。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:19-崇先",
+      "name": "李崇先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·波云乡小冲田。（德全子：崇先。）"
+    },
+    {
+      "externalId": "lipu:lishifangzimei:11-李世方之妻",
+      "name": "李世方之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:12-李成奇之妻",
+      "name": "李成奇之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:13-李兴周之妻",
+      "name": "李兴周之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:14-李建林之妻",
+      "name": "李建林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:15-李如明之妻",
+      "name": "李如明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "钱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:16-李天云之妻",
+      "name": "李天云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:16-李天才之妻",
+      "name": "李天才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "钱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:17-李宗和之妻",
+      "name": "李宗和之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:17-李宗海之妻",
+      "name": "李宗海之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:18-李德全之妻",
+      "name": "李德全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:19-李崇文之妻",
+      "name": "李崇文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangzimei:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangzimei:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangzimei:20-隆俊",
+      "name": "李隆俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangzimei:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangzimei:20-隆发",
+      "name": "李隆发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·波云乡·小冲田（第78-79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·波云乡小冲田",
+      "birthPlace": {
+        "region": "贵州织金·波云乡小冲田"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:11-世方",
+      "b": "lipu:lishifangzimei:11-李世方之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:11-世方",
+      "child": "lipu:lishifangzimei:12-成明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:11-世方",
+      "child": "lipu:lishifangzimei:12-成奇"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:12-成奇",
+      "b": "lipu:lishifangzimei:12-李成奇之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:11-世方",
+      "child": "lipu:lishifangzimei:12-成俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:12-成奇",
+      "child": "lipu:lishifangzimei:13-兴照"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:12-成奇",
+      "child": "lipu:lishifangzimei:13-兴周"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:13-兴周",
+      "b": "lipu:lishifangzimei:13-李兴周之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴周",
+      "child": "lipu:lishifangzimei:14-洪莲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴周",
+      "child": "lipu:lishifangzimei:14-洪政"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴周",
+      "child": "lipu:lishifangzimei:14-勋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴周",
+      "child": "lipu:lishifangzimei:14-芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴周",
+      "child": "lipu:lishifangzimei:14-翠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴周",
+      "child": "lipu:lishifangzimei:14-毓"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:13-兴照",
+      "child": "lipu:lishifangzimei:14-建林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:14-建林",
+      "b": "lipu:lishifangzimei:14-李建林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:14-建林",
+      "child": "lipu:lishifangzimei:15-如珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:14-建林",
+      "child": "lipu:lishifangzimei:15-如明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:15-如明",
+      "b": "lipu:lishifangzimei:15-李如明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:14-建林",
+      "child": "lipu:lishifangzimei:15-如云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:15-如明",
+      "child": "lipu:lishifangzimei:16-天云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:16-天云",
+      "b": "lipu:lishifangzimei:16-李天云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:15-如明",
+      "child": "lipu:lishifangzimei:16-天才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:16-天才",
+      "b": "lipu:lishifangzimei:16-李天才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:15-如明",
+      "child": "lipu:lishifangzimei:16-于顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:16-天云",
+      "child": "lipu:lishifangzimei:17-宗和"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:17-宗和",
+      "b": "lipu:lishifangzimei:17-李宗和之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:16-天才",
+      "child": "lipu:lishifangzimei:17-宗海"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:17-宗海",
+      "b": "lipu:lishifangzimei:17-李宗海之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:17-宗和",
+      "child": "lipu:lishifangzimei:18-德全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:18-德全",
+      "b": "lipu:lishifangzimei:18-李德全之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:17-宗和",
+      "child": "lipu:lishifangzimei:18-德荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:18-德全",
+      "child": "lipu:lishifangzimei:19-崇文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangzimei:19-崇文",
+      "b": "lipu:lishifangzimei:19-李崇文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:19-崇文",
+      "child": "lipu:lishifangzimei:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:19-崇文",
+      "child": "lipu:lishifangzimei:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:19-崇文",
+      "child": "lipu:lishifangzimei:20-隆俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:19-崇文",
+      "child": "lipu:lishifangzimei:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:19-崇文",
+      "child": "lipu:lishifangzimei:20-隆发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:18-德全",
+      "child": "lipu:lishifangzimei:19-崇元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangzimei:18-德全",
+      "child": "lipu:lishifangzimei:19-崇先"
+    }
+  ]
+}

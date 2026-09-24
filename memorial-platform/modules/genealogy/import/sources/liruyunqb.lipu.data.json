@@ -1,0 +1,152 @@
+{
+  "key": "lipu:liruyunqb",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liruyunqb:16-如云",
+      "name": "李如云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·茶店乡茶店桥边",
+      "birthPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "deathPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·茶店乡茶店桥边。生于茶店桥边，偶黄氏生于坡营乡茶店。生：天顺。"
+    },
+    {
+      "externalId": "lipu:liruyunqb:17-天顺",
+      "name": "李天顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·茶店乡茶店桥边",
+      "birthPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "deathPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·茶店乡茶店桥边。生于湖坝本店，偶韩氏生于茶店桥边。生：宗云。"
+    },
+    {
+      "externalId": "lipu:liruyunqb:18-宗云",
+      "name": "李宗云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·茶店乡茶店桥边",
+      "birthPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "deathPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·茶店乡茶店桥边。生于茶店上寨，偶何氏。生：德龙。"
+    },
+    {
+      "externalId": "lipu:liruyunqb:19-德龙",
+      "name": "李德龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·茶店乡茶店桥边",
+      "birthPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "deathPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·茶店乡茶店桥边。生于茶让公力坡，偶张氏生于茶店何家山。生：崇云。"
+    },
+    {
+      "externalId": "lipu:liruyunqb:20-崇云",
+      "name": "李崇云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·茶店乡茶店桥边",
+      "birthPlace": {
+        "region": "贵州织金·茶店乡茶店桥边"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·茶店乡茶店桥边。生于茶店寨上。"
+    },
+    {
+      "externalId": "lipu:liruyunqb:16-李如云之妻",
+      "name": "李如云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyunqb:17-李天顺之妻",
+      "name": "李天顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "gender": "female",
+      "aliases": [
+        "韩氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyunqb:18-李宗云之妻",
+      "name": "李宗云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyunqb:19-李德龙之妻",
+      "name": "李德龙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·茶店乡·茶店桥边（第79页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyunqb:16-如云",
+      "b": "lipu:liruyunqb:16-李如云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyunqb:16-如云",
+      "child": "lipu:liruyunqb:17-天顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyunqb:17-天顺",
+      "b": "lipu:liruyunqb:17-李天顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyunqb:17-天顺",
+      "child": "lipu:liruyunqb:18-宗云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyunqb:18-宗云",
+      "b": "lipu:liruyunqb:18-李宗云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyunqb:18-宗云",
+      "child": "lipu:liruyunqb:19-德龙"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyunqb:19-德龙",
+      "b": "lipu:liruyunqb:19-李德龙之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyunqb:19-德龙",
+      "child": "lipu:liruyunqb:20-崇云"
+    }
+  ]
+}
