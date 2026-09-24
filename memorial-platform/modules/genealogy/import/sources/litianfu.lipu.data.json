@@ -1,0 +1,623 @@
+{
+  "key": "lipu:litianfu",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litianfu:16-天复",
+      "name": "李天复",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·平寨乡大荒坡母鸡井。上承李世杰分支十五代李如槺分支从十六代起。妣张氏生：宗银。"
+    },
+    {
+      "externalId": "lipu:litianfu:17-宗银",
+      "name": "李宗银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·平寨乡大荒坡母鸡井。妣张氏生：德友、德贞（德真）、德香。"
+    },
+    {
+      "externalId": "lipu:litianfu:18-德友",
+      "name": "李德友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·平寨乡大荒坡母鸡井。妣张氏生：崇发。"
+    },
+    {
+      "externalId": "lipu:litianfu:18-德真",
+      "name": "李德真",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·平寨乡大荒坡母鸡井。（谱或作「德贞」）妣彭氏生：崇友、崇禄。"
+    },
+    {
+      "externalId": "lipu:litianfu:18-德香",
+      "name": "李德香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·平寨乡大荒坡母鸡井。妣段氏生：崇兴。"
+    },
+    {
+      "externalId": "lipu:litianfu:19-崇发",
+      "name": "李崇发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·平寨乡大荒坡母鸡井。妣张氏生：隆祥。"
+    },
+    {
+      "externalId": "lipu:litianfu:19-崇友",
+      "name": "李崇友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·平寨乡大荒坡母鸡井。妣郭氏生：隆学、隆志、隆福、隆全、隆富、隆财。（数子众多，数据集仅录隆志、隆全。）"
+    },
+    {
+      "externalId": "lipu:litianfu:19-崇禄",
+      "name": "李崇禄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·平寨乡大荒坡母鸡井。偶贺氏生：隆光、隆贵。"
+    },
+    {
+      "externalId": "lipu:litianfu:19-崇兴",
+      "name": "李崇兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·平寨乡大荒坡母鸡井。妣田氏生：隆先。"
+    },
+    {
+      "externalId": "lipu:litianfu:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·平寨乡大荒坡母鸡井。偶王氏、刘氏。生：发俊、发春、发兵。"
+    },
+    {
+      "externalId": "lipu:litianfu:20-隆志",
+      "name": "李隆志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·平寨乡大荒坡母鸡井。妣郭氏生：发祥、发贵、发举、发全。"
+    },
+    {
+      "externalId": "lipu:litianfu:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·平寨乡大荒坡母鸡井。偶王氏生：发财、发顺、发真、发会、发幺。"
+    },
+    {
+      "externalId": "lipu:litianfu:20-隆光",
+      "name": "李隆光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·平寨乡大荒坡母鸡井。偶陈氏生：发林、发松。"
+    },
+    {
+      "externalId": "lipu:litianfu:20-隆贵",
+      "name": "李隆贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·平寨乡大荒坡母鸡井。（谱载崇禄子：隆光、隆贵，隆贵后裔见另页。）"
+    },
+    {
+      "externalId": "lipu:litianfu:20-隆先",
+      "name": "李隆先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·平寨乡大荒坡母鸡井。偶徐氏生：发能。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发俊",
+      "name": "李发俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶阎氏生：裕连、裕军。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发春",
+      "name": "李发春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶高氏生：裕德、裕林。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶张氏生：裕杰。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发举",
+      "name": "李发举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶杨氏生：裕阳。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发财",
+      "name": "李发财",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶张氏生：裕竹、裕漾。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发顺",
+      "name": "李发顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶杨氏生：裕勇。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发林",
+      "name": "李发林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。偶吴氏生：裕军、裕泽、裕雄。"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发松",
+      "name": "李发松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。（谱载隆光子：发林、发松。）"
+    },
+    {
+      "externalId": "lipu:litianfu:21-发能",
+      "name": "李发能",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·平寨乡大荒坡母鸡井",
+      "birthPlace": {
+        "region": "贵州织金·平寨乡大荒坡母鸡井"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·平寨乡大荒坡母鸡井。（谱载隆先子：发能。）"
+    },
+    {
+      "externalId": "lipu:litianfu:16-李天复之妻",
+      "name": "李天复之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:17-李宗银之妻",
+      "name": "李宗银之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:18-李德友之妻",
+      "name": "李德友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:18-李德真之妻",
+      "name": "李德真之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:18-李德香之妻",
+      "name": "李德香之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:19-李崇发之妻",
+      "name": "李崇发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:19-李崇友之妻",
+      "name": "李崇友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:19-李崇禄之妻",
+      "name": "李崇禄之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "贺氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:19-李崇兴之妻",
+      "name": "李崇兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:20-李隆志之妻",
+      "name": "李隆志之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:20-李隆全之妻",
+      "name": "李隆全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:20-李隆光之妻",
+      "name": "李隆光之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianfu:20-李隆先之妻",
+      "name": "李隆先之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·平寨乡大荒坡母鸡井（第76-77页）",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:16-天复",
+      "b": "lipu:litianfu:16-李天复之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:16-天复",
+      "child": "lipu:litianfu:17-宗银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:17-宗银",
+      "b": "lipu:litianfu:17-李宗银之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:17-宗银",
+      "child": "lipu:litianfu:18-德友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:18-德友",
+      "b": "lipu:litianfu:18-李德友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:17-宗银",
+      "child": "lipu:litianfu:18-德真"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:18-德真",
+      "b": "lipu:litianfu:18-李德真之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:17-宗银",
+      "child": "lipu:litianfu:18-德香"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:18-德香",
+      "b": "lipu:litianfu:18-李德香之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:18-德友",
+      "child": "lipu:litianfu:19-崇发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:19-崇发",
+      "b": "lipu:litianfu:19-李崇发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:18-德真",
+      "child": "lipu:litianfu:19-崇友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:19-崇友",
+      "b": "lipu:litianfu:19-李崇友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:18-德真",
+      "child": "lipu:litianfu:19-崇禄"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:19-崇禄",
+      "b": "lipu:litianfu:19-李崇禄之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:18-德香",
+      "child": "lipu:litianfu:19-崇兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:19-崇兴",
+      "b": "lipu:litianfu:19-李崇兴之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:19-崇发",
+      "child": "lipu:litianfu:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:19-崇友",
+      "child": "lipu:litianfu:20-隆志"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:20-李隆志之妻",
+      "b": "lipu:litianfu:20-隆志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:19-崇友",
+      "child": "lipu:litianfu:20-隆全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:20-李隆全之妻",
+      "b": "lipu:litianfu:20-隆全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:19-崇禄",
+      "child": "lipu:litianfu:20-隆光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:20-李隆光之妻",
+      "b": "lipu:litianfu:20-隆光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:19-崇禄",
+      "child": "lipu:litianfu:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:19-崇兴",
+      "child": "lipu:litianfu:20-隆先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianfu:20-李隆先之妻",
+      "b": "lipu:litianfu:20-隆先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆祥",
+      "child": "lipu:litianfu:21-发俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆祥",
+      "child": "lipu:litianfu:21-发春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆志",
+      "child": "lipu:litianfu:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆志",
+      "child": "lipu:litianfu:21-发举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆全",
+      "child": "lipu:litianfu:21-发财"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆全",
+      "child": "lipu:litianfu:21-发顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆光",
+      "child": "lipu:litianfu:21-发林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆光",
+      "child": "lipu:litianfu:21-发松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianfu:20-隆先",
+      "child": "lipu:litianfu:21-发能"
+    }
+  ]
+}
