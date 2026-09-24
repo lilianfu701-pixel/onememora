@@ -59,6 +59,10 @@ import lipu_liminglong from "./liminglong.lipu.data.json";
 import lipu_lishifangzimei from "./lishifangzimei.lipu.data.json";
 import lipu_lichongguang from "./lichongguang.lipu.data.json";
 import lipu_lixingzheng from "./lixingzheng.lipu.data.json";
+import lipu_lijinhuai from "./lijinhuai.lipu.data.json";
+import lipu_lijinhuaizongqing from "./lijinhuaizongqing.lipu.data.json";
+import lipu_lijinhuaizongxuan from "./lijinhuaizongxuan.lipu.data.json";
+import lipu_lijinhuaizongshun from "./lijinhuaizongshun.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -113,6 +117,10 @@ const LABELS: Record<string, string> = {
   lishifangzimei: "李氏·李世芳一支·自美支（李代龙支系谱·织金县波云乡小冲田）",
   lichongguang: "李氏·李崇光一支（李代龙支系谱·织金县茶店乡安乐村）",
   lixingzheng: "李氏·李兴正一支（李代龙支系谱·织金县波云乡小冲田）",
+  lijinhuai: "李氏·李进槐一支·上承应璋支系（李代龙支系谱·化起镇化起村下坝田村·十一至十七代）",
+  lijinhuaizongqing: "李氏·李进槐支·宗清分支（李代龙支系谱·化起村下坝田村·十七至二十代）",
+  lijinhuaizongxuan: "李氏·李进槐支·宗选分支（李代龙支系谱·化起村下坝田村·十七至二十代）",
+  lijinhuaizongshun: "李氏·李进槐支·宗顺宗新分支（李代龙支系谱·化起村下坝田村·十七至二十代）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -167,6 +175,10 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishifangzimei", lipu_lishifangzimei as GenealogyDataset],
   ["lichongguang", lipu_lichongguang as GenealogyDataset],
   ["lixingzheng", lipu_lixingzheng as GenealogyDataset],
+  ["lijinhuai", lipu_lijinhuai as GenealogyDataset],
+  ["lijinhuaizongqing", lipu_lijinhuaizongqing as GenealogyDataset],
+  ["lijinhuaizongxuan", lipu_lijinhuaizongxuan as GenealogyDataset],
+  ["lijinhuaizongshun", lipu_lijinhuaizongshun as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {
