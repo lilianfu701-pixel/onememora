@@ -1,0 +1,809 @@
+{
+  "key": "lipu:liyingshi",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyingshi:11-应实",
+      "name": "李应实",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·板桥乡白果村。上承李显支系10代李洪泰分支。妣刘氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:12-朝禄",
+      "name": "李朝禄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·板桥乡白果村。生：士进、士周。注：朝禄支系克、廷两代失记，另有永富（生盛荣、盛明、盛林）1955年移居兴义地区兴仁县人民法院工作，家住城关西关大水沟。"
+    },
+    {
+      "externalId": "lipu:liyingshi:12-朝宣",
+      "name": "李朝宣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:12-朝栋",
+      "name": "李朝栋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·板桥乡白果村。后裔迁纳雍县菠萝沟。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士进",
+      "name": "李士进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士周",
+      "name": "李士周",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士林",
+      "name": "李士林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士通",
+      "name": "李士通",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士惟",
+      "name": "李士惟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。葬于白果树黄大土老寨土。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士勋",
+      "name": "李士勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。葬于白果树黄大土大坟边，妣韩氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:13-士献",
+      "name": "李士献",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:14-廷科",
+      "name": "李廷科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:14-廷柏",
+      "name": "李廷柏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:14-廷发",
+      "name": "李廷发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:14-克明",
+      "name": "李克明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·板桥乡白果村。（注：克廷两代失记，父辈归属朝禄支系，此处暂列士进名下。）妣李氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:15-廷科(克明子)",
+      "name": "李廷科(克明子)",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·板桥乡白果村。妣杨氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:16-永鸿",
+      "name": "李永鸿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·板桥乡白果村。妣陈氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:16-永龙",
+      "name": "李永龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:17-盛相",
+      "name": "李盛相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:17-盛文",
+      "name": "李盛文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:17-盛武",
+      "name": "李盛武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1909
+      },
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡白果村。1909年2月28日子时生，1980年9月18日殁，1981年2月初二葬于白果树上寨黄大土大坟边。妣王氏、杨氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:18-成禄",
+      "name": "李成禄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1942
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡白果村。1942年冬月初生于白果树上寨，偶许氏1943年6月23日生于织金县八步凉水井。"
+    },
+    {
+      "externalId": "lipu:liyingshi:18-成本",
+      "name": "李成本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡白果村。腊月18日生于白果树上寨，偶王氏1946年3月初十生于莱保田，乙丑年2月初七殁，葬转坡田。（注：谱载1964年腊月生，疑误。）"
+    },
+    {
+      "externalId": "lipu:liyingshi:18-成德",
+      "name": "李成德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1950
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡白果村。1950年3月27日生于白果树上寨，偶王氏生于板桥王家寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良余",
+      "name": "李良余",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良缘",
+      "name": "李良缘",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1971
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。1971年5月18日生于白果树上寨，偶张氏1976年8月11日生于镇平。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良益",
+      "name": "李良益",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1966
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。1966年冬月初十生于白果树上寨，偶张氏。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良银",
+      "name": "李良银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。癸亥年10月初五生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良祥",
+      "name": "李良祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1967
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。1967年7月23日生于白果树上寨，偶黄氏1967年10月初二生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良伦",
+      "name": "李良伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1970
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。1970年10月12日生于白果树上寨，偶黄氏1973年8月28日生于三甲黄土坡。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良福",
+      "name": "李良福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。已未年腊月28日生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良书",
+      "name": "李良书",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良永",
+      "name": "李良永",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。"
+    },
+    {
+      "externalId": "lipu:liyingshi:19-良荣",
+      "name": "李良荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1980
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·板桥乡白果村。1980年4月27日生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉弘",
+      "name": "李玉弘",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1991
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。1991年9月14日生于云南省。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉发",
+      "name": "李玉发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1997
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。1997年8月28日生三甲以节。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉泽",
+      "name": "李玉泽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。辛已年正月27日生于织金星秀田。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉福",
+      "name": "李玉福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉富",
+      "name": "李玉富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉堂",
+      "name": "李玉堂",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-艳菊",
+      "name": "李艳菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。生于白果树上寨。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-玉宽",
+      "name": "李玉宽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 2001
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。2001年9月27日生于以那正平。"
+    },
+    {
+      "externalId": "lipu:liyingshi:20-书萍",
+      "name": "李书萍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·织金县·板桥乡白果村（第62-63页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡白果村",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡白果村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·板桥乡白果村。生于白果树上寨。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:11-应实",
+      "child": "lipu:liyingshi:12-朝禄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:11-应实",
+      "child": "lipu:liyingshi:12-朝宣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:11-应实",
+      "child": "lipu:liyingshi:12-朝栋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝禄",
+      "child": "lipu:liyingshi:13-士进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝禄",
+      "child": "lipu:liyingshi:13-士周"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝宣",
+      "child": "lipu:liyingshi:13-士林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝宣",
+      "child": "lipu:liyingshi:13-士通"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝宣",
+      "child": "lipu:liyingshi:13-士惟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝宣",
+      "child": "lipu:liyingshi:13-士勋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:12-朝宣",
+      "child": "lipu:liyingshi:13-士献"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:13-士勋",
+      "child": "lipu:liyingshi:14-廷科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:13-士勋",
+      "child": "lipu:liyingshi:14-廷柏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:13-士勋",
+      "child": "lipu:liyingshi:14-廷发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:13-士进",
+      "child": "lipu:liyingshi:14-克明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:14-克明",
+      "child": "lipu:liyingshi:15-廷科(克明子)"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:15-廷科(克明子)",
+      "child": "lipu:liyingshi:16-永鸿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:15-廷科(克明子)",
+      "child": "lipu:liyingshi:16-永龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:16-永鸿",
+      "child": "lipu:liyingshi:17-盛相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:16-永鸿",
+      "child": "lipu:liyingshi:17-盛文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:16-永鸿",
+      "child": "lipu:liyingshi:17-盛武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:17-盛武",
+      "child": "lipu:liyingshi:18-成禄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:17-盛武",
+      "child": "lipu:liyingshi:18-成本"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:17-盛武",
+      "child": "lipu:liyingshi:18-成德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成禄",
+      "child": "lipu:liyingshi:19-良余"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成禄",
+      "child": "lipu:liyingshi:19-良缘"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成禄",
+      "child": "lipu:liyingshi:19-良益"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成禄",
+      "child": "lipu:liyingshi:19-良银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成本",
+      "child": "lipu:liyingshi:19-良祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成本",
+      "child": "lipu:liyingshi:19-良伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成本",
+      "child": "lipu:liyingshi:19-良福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成德",
+      "child": "lipu:liyingshi:19-良书"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成德",
+      "child": "lipu:liyingshi:19-良永"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:18-成德",
+      "child": "lipu:liyingshi:19-良荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良祥",
+      "child": "lipu:liyingshi:20-玉弘"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良祥",
+      "child": "lipu:liyingshi:20-玉发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良余",
+      "child": "lipu:liyingshi:20-玉泽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良伦",
+      "child": "lipu:liyingshi:20-玉福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良伦",
+      "child": "lipu:liyingshi:20-玉富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良益",
+      "child": "lipu:liyingshi:20-玉堂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良益",
+      "child": "lipu:liyingshi:20-艳菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良缘",
+      "child": "lipu:liyingshi:20-玉宽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingshi:19-良缘",
+      "child": "lipu:liyingshi:20-书萍"
+    }
+  ]
+}
