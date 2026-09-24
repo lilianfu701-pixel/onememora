@@ -33,6 +33,9 @@ import lipu_lichaofeng from "./lichaofeng.lipu.data.json";
 import lipu_lishiyu from "./lishiyu.lipu.data.json";
 import lipu_lihongcheng from "./lihongcheng.lipu.data.json";
 import lipu_liyinghua from "./liyinghua.lipu.data.json";
+import lipu_liyingzhen from "./liyingzhen.lipu.data.json";
+import lipu_liyongxiang from "./liyongxiang.lipu.data.json";
+import lipu_liguangshun from "./liguangshun.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -61,6 +64,9 @@ const LABELS: Record<string, string> = {
   lishiyu: "李氏·李士玉一支（李代龙支系谱·白泥乡云碧村）",
   lihongcheng: "李氏·李洪成一支（李代龙支系谱·白泥乡白泥村）",
   liyinghua: "李氏·李应华一支（李代龙支系谱·熊家长乡干坝村）",
+  liyingzhen: "李氏·李应祯一支（李代龙支系谱·珠长镇中部村）",
+  liyongxiang: "李氏·李永相一支（李代龙支系谱·珠长镇木汪村蒙棋）",
+  liguangshun: "李氏·李光顺一支（李代龙支系谱·珠藏镇龙河村）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -89,6 +95,9 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishiyu", lipu_lishiyu as GenealogyDataset],
   ["lihongcheng", lipu_lihongcheng as GenealogyDataset],
   ["liyinghua", lipu_liyinghua as GenealogyDataset],
+  ["liyingzhen", lipu_liyingzhen as GenealogyDataset],
+  ["liyongxiang", lipu_liyongxiang as GenealogyDataset],
+  ["liguangshun", lipu_liguangshun as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {
