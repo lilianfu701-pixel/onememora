@@ -1,0 +1,117 @@
+{
+  "key": "lipu:litianming",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litianming:16-天铭",
+      "name": "李天铭",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·化起镇·罗家寨（第101-107页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇罗家寨",
+      "birthPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇罗家寨。生：宗云。"
+    },
+    {
+      "externalId": "lipu:litianming:17-宗云",
+      "name": "李宗云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·化起镇·罗家寨（第101-107页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇罗家寨",
+      "birthPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·化起镇罗家寨。生：德须、德孝。"
+    },
+    {
+      "externalId": "lipu:litianming:18-德须",
+      "name": "李德须",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·化起镇·罗家寨（第101-107页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇罗家寨",
+      "birthPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇罗家寨。生于马安山，葬于下坝坡。"
+    },
+    {
+      "externalId": "lipu:litianming:18-德孝",
+      "name": "李德孝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·化起镇·罗家寨（第101-107页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇罗家寨",
+      "birthPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇罗家寨。1946年3月15日生于罗家寨，偶何氏1946年5月生。生：崇方、崇松。"
+    },
+    {
+      "externalId": "lipu:litianming:19-崇方",
+      "name": "李崇方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·化起镇·罗家寨（第101-107页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇罗家寨",
+      "birthPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇罗家寨。"
+    },
+    {
+      "externalId": "lipu:litianming:19-崇松",
+      "name": "李崇松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷·化起镇·罗家寨（第101-107页）",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇罗家寨",
+      "birthPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇罗家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇罗家寨。生于下坝坡。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:litianming:16-天铭",
+      "child": "lipu:litianming:17-宗云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianming:17-宗云",
+      "child": "lipu:litianming:18-德须"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianming:17-宗云",
+      "child": "lipu:litianming:18-德孝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianming:18-德孝",
+      "child": "lipu:litianming:19-崇方"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianming:18-德孝",
+      "child": "lipu:litianming:19-崇松"
+    }
+  ]
+}

@@ -72,6 +72,8 @@ import lipu_lizaixue from "./lizaixue.lipu.data.json";
 import lipu_lijinrong from "./lijinrong.lipu.data.json";
 import lipu_liRugold from "./liRugold.lipu.data.json";
 import lipu_litianjin from "./litianjin.lipu.data.json";
+import lipu_litianlang from "./litianlang.lipu.data.json";
+import lipu_litianming from "./litianming.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -139,6 +141,8 @@ const LABELS: Record<string, string> = {
   lijinrong: "李氏·李进荣一支（李代龙支系谱·化起镇罗家寨·十一至十八代）",
   liRugold: "李氏·李如金一支（李代龙支系谱·化起镇九甲大山脚·十四至十九代）",
   litianjin: "李氏·李天锦一支（李代龙支系谱·化起镇罗家寨·十六至二十二代）",
+  litianlang: "李氏·李天朗一支（李代龙支系谱·化起镇罗家寨·十六至二十代）",
+  litianming: "李氏·李天铭一支（李代龙支系谱·化起镇罗家寨·十六至二十二代）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -206,6 +210,8 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lijinrong", lipu_lijinrong as GenealogyDataset],
   ["liRugold", lipu_liRugold as GenealogyDataset],
   ["litianjin", lipu_litianjin as GenealogyDataset],
+  ["litianlang", lipu_litianlang as GenealogyDataset],
+  ["litianming", lipu_litianming as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {
