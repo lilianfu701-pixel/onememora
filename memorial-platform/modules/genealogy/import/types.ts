@@ -21,6 +21,13 @@ export type SourceDate = {
   year: number;
   month?: number;
   day?: number;
+  /**
+   * The source's verbatim date string when it is not a clean Gregorian date —
+   * lunar, 干支 or 民国, e.g. "辛亥年2月29日" or "民国二十年正月16日". Kept so a
+   * living person's full birthday survives for claim-time matching even when it
+   * cannot be reduced to numeric month/day. Never displayed publicly.
+   */
+  raw?: string;
 };
 
 export type SourcePlace = {

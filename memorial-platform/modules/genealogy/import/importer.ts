@@ -631,7 +631,14 @@ async function seedLivingNode(
     actor,
     {
       displayName: person.name,
-      ...(person.birth ? { birthYear: person.birth.year } : {}),
+      ...(person.birth
+        ? {
+            ...(person.birth.year ? { birthYear: person.birth.year } : {}),
+            ...(person.birth.month ? { birthMonth: person.birth.month } : {}),
+            ...(person.birth.day ? { birthDay: person.birth.day } : {}),
+            ...(person.birth.raw ? { birthDateRaw: person.birth.raw } : {}),
+          }
+        : {}),
     },
     correlationId,
   );

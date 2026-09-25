@@ -94,6 +94,14 @@ export async function addMemorialSubject(
 export type LivingRelativeInput = {
   displayName: string;
   birthYear?: number | undefined;
+  /**
+   * Full birth month/day and the source's raw date string, seeded from a
+   * published 族谱. Stored for claim-time matching (a descendant confirms
+   * themselves by entering their own birthday) and never rendered publicly.
+   */
+  birthMonth?: number | undefined;
+  birthDay?: number | undefined;
+  birthDateRaw?: string | undefined;
 };
 
 /**
@@ -134,6 +142,9 @@ export async function addLivingRelative(
       displayName: name,
       lifeStatus: "living",
       ...(input.birthYear !== undefined ? { birthYear: input.birthYear } : {}),
+      ...(input.birthMonth !== undefined ? { birthMonth: input.birthMonth } : {}),
+      ...(input.birthDay !== undefined ? { birthDay: input.birthDay } : {}),
+      ...(input.birthDateRaw ? { birthDateRaw: input.birthDateRaw } : {}),
       createdByUserId: actor.userId,
     })
     .returning({ id: familyPeople.id });

@@ -126,12 +126,22 @@ export const familyPeople = pgTable(
     importKey: text("import_key"),
     lifeStatus: lifeStatus("life_status").default("unknown").notNull(),
     /**
-     * Years only, never full dates, for a living person recorded by someone
-     * else. Enough to tell two cousins apart, not enough to be an identity
-     * document.
+     * Birth year. For a public tree this is all that is ever shown for a living
+     * person — the month/day below are stored but never rendered.
      */
     birthYear: integer("birth_year"),
     deathYear: integer("death_year"),
+    /**
+     * Full birth month/day, plus the source's raw date string (which may be
+     * lunar/干支/民国, e.g. "辛亥年2月29日" or "1946年3月15日"). Seeded from a
+     * published 族谱 so a registering descendant can confirm themselves by
+     * entering their own birthday, which is matched against these **server-side
+     * and never displayed**. The public tree still shows a masked name + year
+     * only; the finer date is a claim-time secret, not a rendered field.
+     */
+    birthMonth: integer("birth_month"),
+    birthDay: integer("birth_day"),
+    birthDateRaw: text("birth_date_raw"),
     /**
      * The account this node *is*, when someone puts themselves in their own
      * tree. Nobody else may claim a node on a living person's behalf.

@@ -37,6 +37,67 @@ def year_of(s):
     return int(m.group(1)) if m else None
 
 
+def _greg_ymd(seg):
+    """Pull a Gregorian 年[月[日]] out of a fragment → {year, month?, day?} or None."""
+    if not seg:
+        return None
+    m = re.search(
+        r"(1[89]\d{2}|20[0-2]\d)\s*年(?:\s*(\d{1,2})\s*月)?(?:\s*(\d{1,2})\s*[日号])?",
+        str(seg))
+    if not m:
+        return None
+    d = {"year": int(m.group(1))}
+    if m.group(2):
+        d["month"] = int(m.group(2))
+    if m.group(3):
+        d["day"] = int(m.group(3))
+    return d
+
+
+def norm_indate(v):
+    """Normalize an inter.json-supplied birth/death: a {year,month,day,raw} dict,
+    or a string we try to read as Gregorian, else keep verbatim as raw."""
+    if v is None:
+        return None
+    if isinstance(v, dict):
+        out = {}
+        for k in ("year", "month", "day"):
+            if v.get(k):
+                out[k] = int(v[k])
+        if v.get("raw"):
+            out["raw"] = str(v["raw"])
+        return out or None
+    g = _greg_ymd(v)
+    return g if g else {"raw": str(v)}
+
+
+def parse_birth(bio):
+    """A person's own birthday sits at the head of their 族谱 bio: 「<date>生于…」
+    or 「<date>生，」. Gregorian → numeric y/m/d; lunar/干支/民国 → kept as raw
+    (full birthday preserved for claim-time matching, never displayed). Anchored
+    to the first clause only, so a spouse's 「偶X氏…生」 and 「生：children」 are
+    never mistaken for it."""
+    if not bio:
+        return None
+    m = re.match(r"^\s*([^，。；、]*?)\s*生(?:于|，|。|、|$)", bio.strip())
+    if not m:
+        return None
+    seg = m.group(1).strip()
+    if not seg or ("年" not in seg and "月" not in seg):
+        return None
+    g = _greg_ymd(seg)
+    return g if g else {"raw": seg}
+
+
+def parse_death_year(bio):
+    """Death year: first 「<Gregorian year>…殁/卒/终/逝/故」. A comma bounds the
+    clause so a birth year is never read as a death year."""
+    if not bio:
+        return None
+    m = re.search(r"(1[89]\d{2}|20[0-2]\d)\s*年[^，。；、]*?(殁|卒|终|逝|去世|故)", bio)
+    return int(m.group(1)) if m else None
+
+
 def build(inter):
     surname = inter.get("surname", "李")
     branch = inter["branchKey"]
@@ -86,11 +147,19 @@ def build(inter):
             obj["generationName"] = gc
         if is_lineage:
             obj["clanName"] = clan
-        yb, yd = year_of(birth), year_of(death)
-        if yb:
-            obj["birth"] = {"year": yb}
+        # 生卒：inter 结构化优先；否则从本人 bio 文本解析（配偶无 bio，仅用结构化）。
+        # 完整生日（含月/日/农历原文）落到 birth，供在世者认领时后台比对——不公开显示。
+        b = norm_indate(birth)
+        if b is None and bio:
+            b = parse_birth(bio)
+        yd = year_of(death)
+        if yd is None and bio:
+            yd = parse_death_year(bio)
+        if b:
+            obj["birth"] = b
         if yd:
             obj["death"] = {"year": yd}
+        yb = b.get("year") if b else None
         living = bool(yb and not yd and yb >= cutoff)
         if living:
             obj["living"] = True
