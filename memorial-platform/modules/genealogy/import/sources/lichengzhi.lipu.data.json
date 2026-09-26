@@ -1,0 +1,450 @@
+{
+  "key": "lipu:lichengzhi",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengzhi:11-成枝",
+      "name": "李成枝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·白泥乡云碧村中寨。上承应府18代李金贵分支从11代起。生于清镇，迁织金化起木奈河（原平远州怀中里），后转白泥牛黄大屋基，葬于牛黄赵家背后。另有子子成、子林、子相、子元、子敬，见五房分支"
+    },
+    {
+      "externalId": "lipu:lichengzhi:12-子明",
+      "name": "李子明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "顺治六年10月初"
+      },
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·白泥乡云碧村中寨。顺治六年10月初生于木奈河，殁于雍正十二年2月初二，葬三合石老虎，姙杨氏顺治5年3月15日生于贵筑县谷池里下五甲杨有湾，殁于雍正12年2月初六，葬小坝头上"
+    },
+    {
+      "externalId": "lipu:lichengzhi:13-正坤",
+      "name": "李正坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·白泥乡云碧村中寨。生于中寨，葬普定鸡场芦茅塘，姙王氏同葬一处"
+    },
+    {
+      "externalId": "lipu:lichengzhi:14-朝明",
+      "name": "李朝明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·白泥乡云碧村中寨。葬水井梁岗，姙王氏葬中寨院脚"
+    },
+    {
+      "externalId": "lipu:lichengzhi:15-学曾",
+      "name": "李学曾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·白泥乡云碧村中寨。葬中寨院边，姙张氏葬水井边"
+    },
+    {
+      "externalId": "lipu:lichengzhi:16-云国",
+      "name": "李云国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·白泥乡云碧村中寨。生于中寨，云江西做生意多次，最后没有回来，招魂葬于小鱼塘，姙陈氏葬水井背后"
+    },
+    {
+      "externalId": "lipu:lichengzhi:16-云政",
+      "name": "李云政",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·白泥乡云碧村中寨。葬中寨院边，姙张氏葬中寨院边"
+    },
+    {
+      "externalId": "lipu:lichengzhi:17-有羲",
+      "name": "李有羲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡云碧村中寨。生于中寨，葬水井梁岗，姙赵氏葬水井背后。子在清、在文、在明见在清房、在文房分支"
+    },
+    {
+      "externalId": "lipu:lichengzhi:11-李成枝之妻",
+      "name": "李成枝之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "安氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:12-李子明之妻",
+      "name": "李子明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:13-正乾",
+      "name": "李正乾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:13-正祥",
+      "name": "李正祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:13-正先",
+      "name": "李正先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:13-李正坤之妻",
+      "name": "李正坤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:14-朝富",
+      "name": "李朝富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:14-朝美",
+      "name": "李朝美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:14-李朝明之妻",
+      "name": "李朝明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:15-学贤",
+      "name": "李学贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:15-学孟",
+      "name": "李学孟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:15-李学曾之妻",
+      "name": "李学曾之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:16-李云国之妻",
+      "name": "李云国之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:16-李云政之妻",
+      "name": "李云政之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:17-有文",
+      "name": "李有文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:17-有武",
+      "name": "李有武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi:17-李有羲之妻",
+      "name": "李有羲之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi:18-在武",
+      "name": "李在武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:11-成枝",
+      "b": "lipu:lichengzhi:11-李成枝之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:11-成枝",
+      "child": "lipu:lichengzhi:12-子明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:12-子明",
+      "b": "lipu:lichengzhi:12-李子明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:12-子明",
+      "child": "lipu:lichengzhi:13-正乾"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:12-子明",
+      "child": "lipu:lichengzhi:13-正祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:12-子明",
+      "child": "lipu:lichengzhi:13-正先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:12-子明",
+      "child": "lipu:lichengzhi:13-正坤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:13-李正坤之妻",
+      "b": "lipu:lichengzhi:13-正坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:13-正坤",
+      "child": "lipu:lichengzhi:14-朝富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:13-正坤",
+      "child": "lipu:lichengzhi:14-朝美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:13-正坤",
+      "child": "lipu:lichengzhi:14-朝明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:14-朝明",
+      "b": "lipu:lichengzhi:14-李朝明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:14-朝明",
+      "child": "lipu:lichengzhi:15-学贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:14-朝明",
+      "child": "lipu:lichengzhi:15-学孟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:14-朝明",
+      "child": "lipu:lichengzhi:15-学曾"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:15-学曾",
+      "b": "lipu:lichengzhi:15-李学曾之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:15-学曾",
+      "child": "lipu:lichengzhi:16-云国"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:16-云国",
+      "b": "lipu:lichengzhi:16-李云国之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:15-学曾",
+      "child": "lipu:lichengzhi:16-云政"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:16-云政",
+      "b": "lipu:lichengzhi:16-李云政之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:16-云政",
+      "child": "lipu:lichengzhi:17-有文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:16-云政",
+      "child": "lipu:lichengzhi:17-有武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:16-云国",
+      "child": "lipu:lichengzhi:17-有羲"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:17-有羲",
+      "b": "lipu:lichengzhi:17-李有羲之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:17-有羲",
+      "child": "lipu:lichengzhi:18-在武"
+    }
+  ]
+}
