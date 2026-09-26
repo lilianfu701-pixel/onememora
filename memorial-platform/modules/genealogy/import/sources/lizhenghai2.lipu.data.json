@@ -1,0 +1,725 @@
+{
+  "key": "lipu:lizhenghai2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizhenghai:18-德伸",
+      "name": "李德伸",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡干河上坝。"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:19-崇应",
+      "name": "李崇应",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡干河上坝。由西北迁往干河杨猫寨居住，葬于西北磅坝小山脚，姙卢氏葬于来该挖煤冲"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-隆灯",
+      "name": "李隆灯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·实兴乡干河上坝。葬于干河上坝杨毛田关地良子"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-隆亮",
+      "name": "李隆亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·实兴乡干河上坝。葬于干河上坝杨毛田关发良子"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-隆远",
+      "name": "李隆远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·实兴乡干河上坝。葬于鸭寨挖煤冲，续偶秦世英1934年5月13日生于实头乡鸭寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发明",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937,
+        "month": 3,
+        "day": 28
+      },
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1937年3月28日生于平远州管下向化里杨猫寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发银",
+      "name": "李发银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1941,
+        "month": 4,
+        "day": 25
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1941年4月25日生于大猫场白果树"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发武",
+      "name": "李发武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1946,
+        "month": 11,
+        "day": 3
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1946年11月3日生于平远州管老龙乡杨猫寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发超",
+      "name": "李发超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1953,
+        "month": 3,
+        "day": 4
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1953年3月4日生于干河杨猫场寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发连",
+      "name": "李发连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1956,
+        "month": 7,
+        "day": 8
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1956年7月8日生于干河杨猫寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1960,
+        "month": 2,
+        "day": 25
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1960年2月25日生于干河杨猫寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-发辉",
+      "name": "李发辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1968,
+        "month": 6,
+        "day": 18
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·实兴乡干河上坝。1968年6月18日生于干河杨猫寨"
+    },
+    {
+      "externalId": "lipu:lizhenghai2:19-李崇应之妻",
+      "name": "李崇应之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-隆香",
+      "name": "李隆香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      }
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-李隆灯之妻",
+      "name": "李隆灯之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-李隆亮之妻",
+      "name": "李隆亮之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhenghai2:20-李隆远之妻",
+      "name": "李隆远之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-李发明之妻",
+      "name": "李发明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1943
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕友",
+      "name": "李裕友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕才",
+      "name": "李裕才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-买珍",
+      "name": "李买珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-王开秀",
+      "name": "王开秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1946
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕平",
+      "name": "李裕平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕军",
+      "name": "李裕军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕昌",
+      "name": "李裕昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕林",
+      "name": "李裕林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-张瑞芬",
+      "name": "张瑞芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1946
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕能",
+      "name": "李裕能",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-云",
+      "name": "李云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕春",
+      "name": "李裕春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕群",
+      "name": "李裕群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-刘德英",
+      "name": "刘德英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1959
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕学",
+      "name": "李裕学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕凯",
+      "name": "李裕凯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-卢凤群",
+      "name": "卢凤群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1956
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕国",
+      "name": "李裕国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕江",
+      "name": "李裕江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕松",
+      "name": "李裕松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:21-龙礼群",
+      "name": "龙礼群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1964
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕彩",
+      "name": "李裕彩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕贵",
+      "name": "李裕贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhenghai2:22-裕红",
+      "name": "李裕红",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河上坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河上坝"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai:18-德伸",
+      "child": "lipu:lizhenghai2:19-崇应"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:19-崇应",
+      "b": "lipu:lizhenghai2:19-李崇应之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:19-崇应",
+      "child": "lipu:lizhenghai2:20-隆香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:19-崇应",
+      "child": "lipu:lizhenghai2:20-隆灯"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:20-李隆灯之妻",
+      "b": "lipu:lizhenghai2:20-隆灯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:19-崇应",
+      "child": "lipu:lizhenghai2:20-隆亮"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:20-李隆亮之妻",
+      "b": "lipu:lizhenghai2:20-隆亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:19-崇应",
+      "child": "lipu:lizhenghai2:20-隆远"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:20-李隆远之妻",
+      "b": "lipu:lizhenghai2:20-隆远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆灯",
+      "child": "lipu:lizhenghai2:21-发明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:21-发明",
+      "b": "lipu:lizhenghai2:21-李发明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发明",
+      "child": "lipu:lizhenghai2:22-裕友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发明",
+      "child": "lipu:lizhenghai2:22-裕才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发明",
+      "child": "lipu:lizhenghai2:22-买珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆灯",
+      "child": "lipu:lizhenghai2:21-发银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:21-发银",
+      "b": "lipu:lizhenghai2:21-王开秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发银",
+      "child": "lipu:lizhenghai2:22-裕平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发银",
+      "child": "lipu:lizhenghai2:22-裕军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发银",
+      "child": "lipu:lizhenghai2:22-裕昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发银",
+      "child": "lipu:lizhenghai2:22-裕林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆亮",
+      "child": "lipu:lizhenghai2:21-发武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:21-发武",
+      "b": "lipu:lizhenghai2:21-张瑞芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发武",
+      "child": "lipu:lizhenghai2:22-裕能"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发武",
+      "child": "lipu:lizhenghai2:22-云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发武",
+      "child": "lipu:lizhenghai2:22-裕春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发武",
+      "child": "lipu:lizhenghai2:22-裕群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆远",
+      "child": "lipu:lizhenghai2:21-发超"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:21-刘德英",
+      "b": "lipu:lizhenghai2:21-发超"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发超",
+      "child": "lipu:lizhenghai2:22-裕学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发超",
+      "child": "lipu:lizhenghai2:22-裕凯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆远",
+      "child": "lipu:lizhenghai2:21-发连"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:21-卢凤群",
+      "b": "lipu:lizhenghai2:21-发连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发连",
+      "child": "lipu:lizhenghai2:22-裕国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发连",
+      "child": "lipu:lizhenghai2:22-裕江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发连",
+      "child": "lipu:lizhenghai2:22-裕松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆远",
+      "child": "lipu:lizhenghai2:21-发忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhenghai2:21-发忠",
+      "b": "lipu:lizhenghai2:21-龙礼群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发忠",
+      "child": "lipu:lizhenghai2:22-裕彩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发忠",
+      "child": "lipu:lizhenghai2:22-裕贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:21-发忠",
+      "child": "lipu:lizhenghai2:22-裕红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhenghai2:20-隆远",
+      "child": "lipu:lizhenghai2:21-发辉"
+    }
+  ]
+}
