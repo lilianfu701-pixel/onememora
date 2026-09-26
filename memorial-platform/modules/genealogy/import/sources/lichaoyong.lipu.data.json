@@ -1,0 +1,503 @@
+{
+  "key": "lipu:lichaoyong",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaoyong:13-朝用",
+      "name": "李朝用",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·桂果戈仲坞。上承本县以那分支，支名不详"
+    },
+    {
+      "externalId": "lipu:lichaoyong:14-国荣",
+      "name": "李国荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·桂果戈仲坞。"
+    },
+    {
+      "externalId": "lipu:lichaoyong:15-如翠",
+      "name": "李如翠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·桂果戈仲坞。"
+    },
+    {
+      "externalId": "lipu:lichaoyong:16-天祥",
+      "name": "李天祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果戈仲坞。子景林后裔居织金小木戛"
+    },
+    {
+      "externalId": "lipu:lichaoyong:16-天成",
+      "name": "李天成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果戈仲坞。"
+    },
+    {
+      "externalId": "lipu:lichaoyong:17-宗云",
+      "name": "李宗云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1961
+      },
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果戈仲坞。殁于1961年8月，葬桂果戈仲坞，姙张氏殁于1973年，葬桂果学校背后"
+    },
+    {
+      "externalId": "lipu:lichaoyong:18-德才",
+      "name": "李德才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬申年8月13日"
+      },
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果戈仲坞。壬申年8月13日生，偶王氏生于丙午年下红岩"
+    },
+    {
+      "externalId": "lipu:lichaoyong:18-德志",
+      "name": "李德志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1948,
+        "month": 2,
+        "day": 14
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果戈仲坞。1948年2月14日生"
+    },
+    {
+      "externalId": "lipu:lichaoyong:13-李朝用之妻",
+      "name": "李朝用之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaoyong:14-李国荣之妻",
+      "name": "李国荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaoyong:15-如玲",
+      "name": "李如玲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:16-天明",
+      "name": "李天明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:17-景林",
+      "name": "李景林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:17-宗少",
+      "name": "李宗少",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:16-李天成之妻",
+      "name": "李天成之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaoyong:17-李宗云之妻",
+      "name": "李宗云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "death": {
+        "year": 1973
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:18-德胜",
+      "name": "李德胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:18-德全",
+      "name": "李德全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:18-李德才之妻",
+      "name": "李德才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇龙",
+      "name": "李崇龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇秀",
+      "name": "李崇秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇珍",
+      "name": "李崇珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇群",
+      "name": "李崇群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇芬",
+      "name": "李崇芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyong:18-李德志之妻",
+      "name": "李德志之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "birth": {
+        "year": 1948
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇辉",
+      "name": "李崇辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyong:19-崇国",
+      "name": "李崇国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果戈仲坞",
+      "birthPlace": {
+        "region": "贵州织金·桂果戈仲坞"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyong:13-朝用",
+      "b": "lipu:lichaoyong:13-李朝用之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:13-朝用",
+      "child": "lipu:lichaoyong:14-国荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyong:14-国荣",
+      "b": "lipu:lichaoyong:14-李国荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:14-国荣",
+      "child": "lipu:lichaoyong:15-如玲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:14-国荣",
+      "child": "lipu:lichaoyong:15-如翠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:15-如翠",
+      "child": "lipu:lichaoyong:16-天明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:15-如翠",
+      "child": "lipu:lichaoyong:16-天祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:16-天祥",
+      "child": "lipu:lichaoyong:17-景林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:16-天祥",
+      "child": "lipu:lichaoyong:17-宗少"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:15-如翠",
+      "child": "lipu:lichaoyong:16-天成"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyong:16-天成",
+      "b": "lipu:lichaoyong:16-李天成之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:16-天成",
+      "child": "lipu:lichaoyong:17-宗云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyong:17-宗云",
+      "b": "lipu:lichaoyong:17-李宗云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:17-宗云",
+      "child": "lipu:lichaoyong:18-德胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:17-宗云",
+      "child": "lipu:lichaoyong:18-德全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:17-宗云",
+      "child": "lipu:lichaoyong:18-德才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyong:18-德才",
+      "b": "lipu:lichaoyong:18-李德才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德才",
+      "child": "lipu:lichaoyong:19-崇明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德才",
+      "child": "lipu:lichaoyong:19-崇龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德才",
+      "child": "lipu:lichaoyong:19-崇秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德才",
+      "child": "lipu:lichaoyong:19-崇珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德才",
+      "child": "lipu:lichaoyong:19-崇群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德才",
+      "child": "lipu:lichaoyong:19-崇芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:17-宗云",
+      "child": "lipu:lichaoyong:18-德志"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyong:18-德志",
+      "b": "lipu:lichaoyong:18-李德志之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德志",
+      "child": "lipu:lichaoyong:19-崇辉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyong:18-德志",
+      "child": "lipu:lichaoyong:19-崇国"
+    }
+  ]
+}

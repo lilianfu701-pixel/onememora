@@ -133,6 +133,11 @@ import lipu_lidelong2 from "./lidelong2.lipu.data.json";
 import lipu_lidesheng from "./lidesheng.lipu.data.json";
 import lipu_lideyun from "./lideyun.lipu.data.json";
 import lipu_lideyue from "./lideyue.lipu.data.json";
+import lipu_lichaoyong from "./lichaoyong.lipu.data.json";
+import lipu_lishicaifh from "./lishicaifh.lipu.data.json";
+import lipu_lishiyuanag from "./lishiyuanag.lipu.data.json";
+import lipu_lishaoyu from "./lishaoyu.lipu.data.json";
+import lipu_lifengqing from "./lifengqing.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -265,6 +270,11 @@ const LABELS: Record<string, string> = {
   lidesheng: "李氏·李德胜一支（李代龙支系谱·戈仲场树林脚·十七至二十代）",
   lideyun: "李氏·李德云一支（李代龙支系谱·桂果镇新化箐脚·十七至十九代）",
   lideyue: "李氏·李德跃一支（李代龙支系谱·桂果镇新华小平寨·十七至二十代）",
+  lichaoyong: "李氏·李朝用一支（李代龙支系谱·以那分支名不详·十三至二十代）",
+  lishicaifh: "李氏·李世才一支（李代龙支系谱·珠藏镇凤凰村·十三至二十二代）",
+  lishiyuanag: "李氏·李世元一支·阿弓天香房（李代龙支系谱·阿弓镇屯上村新田·十六至二十二代）",
+  lishaoyu: "李氏·李绍禹一支（李代龙支系谱·阿弓镇吊井村·十四至二十二代）",
+  lifengqing: "李氏·李凤卿一支（李代龙支系谱·阿弓镇大田村菜子地·十二至二十一代）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -397,6 +407,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lidesheng", lipu_lidesheng as GenealogyDataset],
   ["lideyun", lipu_lideyun as GenealogyDataset],
   ["lideyue", lipu_lideyue as GenealogyDataset],
+  ["lichaoyong", lipu_lichaoyong as GenealogyDataset],
+  ["lishicaifh", lipu_lishicaifh as GenealogyDataset],
+  ["lishiyuanag", lipu_lishiyuanag as GenealogyDataset],
+  ["lishaoyu", lipu_lishaoyu as GenealogyDataset],
+  ["lifengqing", lipu_lifengqing as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

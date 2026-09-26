@@ -1,0 +1,643 @@
+{
+  "key": "lipu:lishicaifh",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishicaifh:13-士才",
+      "name": "李士才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·珠藏镇凤凰村。上承李建臣支系12代李万贵分支（谱题作李世才一支）"
+    },
+    {
+      "externalId": "lipu:lishicaifh:14-绍尧",
+      "name": "李绍尧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·珠藏镇凤凰村。又作绍唐"
+    },
+    {
+      "externalId": "lipu:lishicaifh:15-如琢",
+      "name": "李如琢",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·珠藏镇凤凰村。"
+    },
+    {
+      "externalId": "lipu:lishicaifh:16-天元",
+      "name": "李天元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·珠藏镇凤凰村。"
+    },
+    {
+      "externalId": "lipu:lishicaifh:17-宗庭",
+      "name": "李宗庭",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·珠藏镇凤凰村。"
+    },
+    {
+      "externalId": "lipu:lishicaifh:18-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙戌年3月16日丑时"
+      },
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·珠藏镇凤凰村。丙戌年3月16日丑时生，住织金城关镇洗麻沟河头上，葬于珠藏凤凰山箐脚良子上，姙郭氏丙戌年腊月19日辰时生，葬于骂丫村华山包包上"
+    },
+    {
+      "externalId": "lipu:lishicaifh:19-崇龙",
+      "name": "李崇龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲子年10月23日戌时"
+      },
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·珠藏镇凤凰村。甲子年10月23日戌时生于中寨乡松树河坝，姙张氏甲子年2月16日生"
+    },
+    {
+      "externalId": "lipu:lishicaifh:20-隆发",
+      "name": "李隆发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁亥年10月10日"
+      },
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·珠藏镇凤凰村。丁亥年10月10日生于珠藏镇凤凰村箐脚组"
+    },
+    {
+      "externalId": "lipu:lishicaifh:20-隆先",
+      "name": "李隆先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲午年九月15日"
+      },
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·珠藏镇凤凰村。甲午年九月15日生于箐脚组，葬于骂丫华山村笼窝背后，偶谢氏丙申年6月初八生"
+    },
+    {
+      "externalId": "lipu:lishicaifh:20-隆友",
+      "name": "李隆友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1958,
+        "month": 10,
+        "day": 9
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·珠藏镇凤凰村。1958年10月9日生于箐脚组"
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-发举",
+      "name": "李发举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊申年7月15日"
+      },
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·珠藏镇凤凰村。戊申年7月15日生于箐脚组"
+    },
+    {
+      "externalId": "lipu:lishicaifh:13-李士才之妻",
+      "name": "李士才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishicaifh:14-绍舜",
+      "name": "李绍舜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:14-绍瑚",
+      "name": "李绍瑚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:14-绍连",
+      "name": "李绍连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:14-绍甫",
+      "name": "李绍甫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:14-李绍尧之妻",
+      "name": "李绍尧之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishicaifh:15-如琦",
+      "name": "李如琦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:15-如林",
+      "name": "李如林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:15-李如琢之妻",
+      "name": "李如琢之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishicaifh:16-天润",
+      "name": "李天润",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:16-天仁",
+      "name": "李天仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:16-天义",
+      "name": "李天义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishicaifh:18-李德昌之妻",
+      "name": "李德昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishicaifh:19-李崇龙之妻",
+      "name": "李崇龙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:20-李隆发之妻",
+      "name": "李隆发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-发勇",
+      "name": "李发勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-发贵",
+      "name": "李发贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:20-李隆先之妻",
+      "name": "李隆先之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "谢氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-健",
+      "name": "李健",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-鑫",
+      "name": "李鑫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-应",
+      "name": "李应",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:20-李隆友之妻",
+      "name": "李隆友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-二平",
+      "name": "李二平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:21-李发举之妻",
+      "name": "李发举之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "谢氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:22-小林",
+      "name": "李小林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicaifh:22-松林",
+      "name": "李松林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·珠藏镇凤凰村",
+      "birthPlace": {
+        "region": "贵州织金·珠藏镇凤凰村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:13-士才",
+      "b": "lipu:lishicaifh:13-李士才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:13-士才",
+      "child": "lipu:lishicaifh:14-绍舜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:13-士才",
+      "child": "lipu:lishicaifh:14-绍瑚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:13-士才",
+      "child": "lipu:lishicaifh:14-绍连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:13-士才",
+      "child": "lipu:lishicaifh:14-绍甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:13-士才",
+      "child": "lipu:lishicaifh:14-绍尧"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:14-李绍尧之妻",
+      "b": "lipu:lishicaifh:14-绍尧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:14-绍尧",
+      "child": "lipu:lishicaifh:15-如琦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:14-绍尧",
+      "child": "lipu:lishicaifh:15-如林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:14-绍尧",
+      "child": "lipu:lishicaifh:15-如琢"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:15-如琢",
+      "b": "lipu:lishicaifh:15-李如琢之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:15-如琢",
+      "child": "lipu:lishicaifh:16-天润"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:15-如琢",
+      "child": "lipu:lishicaifh:16-天仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:15-如琢",
+      "child": "lipu:lishicaifh:16-天义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:15-如琢",
+      "child": "lipu:lishicaifh:16-天元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:16-天元",
+      "child": "lipu:lishicaifh:17-宗庭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:17-宗庭",
+      "child": "lipu:lishicaifh:18-德昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:18-德昌",
+      "b": "lipu:lishicaifh:18-李德昌之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:18-德昌",
+      "child": "lipu:lishicaifh:19-崇龙"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:19-崇龙",
+      "b": "lipu:lishicaifh:19-李崇龙之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:19-崇龙",
+      "child": "lipu:lishicaifh:20-隆发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:20-李隆发之妻",
+      "b": "lipu:lishicaifh:20-隆发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆发",
+      "child": "lipu:lishicaifh:21-发勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆发",
+      "child": "lipu:lishicaifh:21-发贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:19-崇龙",
+      "child": "lipu:lishicaifh:20-隆先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:20-李隆先之妻",
+      "b": "lipu:lishicaifh:20-隆先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆先",
+      "child": "lipu:lishicaifh:21-健"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆先",
+      "child": "lipu:lishicaifh:21-鑫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆先",
+      "child": "lipu:lishicaifh:21-应"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:19-崇龙",
+      "child": "lipu:lishicaifh:20-隆友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:20-李隆友之妻",
+      "b": "lipu:lishicaifh:20-隆友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆友",
+      "child": "lipu:lishicaifh:21-二平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:20-隆发",
+      "child": "lipu:lishicaifh:21-发举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicaifh:21-发举",
+      "b": "lipu:lishicaifh:21-李发举之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:21-发举",
+      "child": "lipu:lishicaifh:22-小林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicaifh:21-发举",
+      "child": "lipu:lishicaifh:22-松林"
+    }
+  ]
+}
