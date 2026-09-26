@@ -1,0 +1,419 @@
+{
+  "key": "lipu:lijinzhongdegui",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lijinzhong:17-宗元",
+      "name": "李宗元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·牛场镇千二系。"
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:18-德贵",
+      "name": "李德贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·牛场镇千二系。生于坝田，殁，葬下坝"
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-崇志",
+      "name": "李崇志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "民国35年4月14日"
+      },
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场镇千二系。民国35年4月14日生，偶王佳华生于牛场二坡"
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "民国37年5月9日"
+      },
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场镇千二系。民国37年5月9日生，姙潭氏葬于下坝"
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-崇平",
+      "name": "李崇平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1957,
+        "month": 4
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场镇千二系。1957年4月初十生于下边田，偶杨氏生于普翁"
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-崇清",
+      "name": "李崇清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1962,
+        "month": 6,
+        "day": 15
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场镇千二系。1962年6月15日生于半处下边田，偶秦氏生于同村"
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:18-李德贵之妻",
+      "name": "李德贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-崇凤",
+      "name": "李崇凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-王佳华",
+      "name": "王佳华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆进",
+      "name": "李隆进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆前",
+      "name": "李隆前",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆芹",
+      "name": "李隆芹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-艳",
+      "name": "李艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-李崇明之妻",
+      "name": "李崇明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "潭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆俊",
+      "name": "李隆俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-李崇平之妻",
+      "name": "李崇平之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆云",
+      "name": "李隆云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-艳群",
+      "name": "李艳群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-桃英",
+      "name": "李桃英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:19-李崇清之妻",
+      "name": "李崇清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "秦氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-隆举",
+      "name": "李隆举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongdegui:20-卖琼",
+      "name": "李卖琼",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhong:17-宗元",
+      "child": "lipu:lijinzhongdegui:18-德贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijinzhongdegui:18-德贵",
+      "b": "lipu:lijinzhongdegui:18-李德贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:18-德贵",
+      "child": "lipu:lijinzhongdegui:19-崇凤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:18-德贵",
+      "child": "lipu:lijinzhongdegui:19-崇志"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijinzhongdegui:19-崇志",
+      "b": "lipu:lijinzhongdegui:19-王佳华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇志",
+      "child": "lipu:lijinzhongdegui:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇志",
+      "child": "lipu:lijinzhongdegui:20-隆进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇志",
+      "child": "lipu:lijinzhongdegui:20-隆前"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇志",
+      "child": "lipu:lijinzhongdegui:20-隆芹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇志",
+      "child": "lipu:lijinzhongdegui:20-艳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:18-德贵",
+      "child": "lipu:lijinzhongdegui:19-崇明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijinzhongdegui:19-崇明",
+      "b": "lipu:lijinzhongdegui:19-李崇明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇明",
+      "child": "lipu:lijinzhongdegui:20-隆俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇明",
+      "child": "lipu:lijinzhongdegui:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:18-德贵",
+      "child": "lipu:lijinzhongdegui:19-崇平"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijinzhongdegui:19-崇平",
+      "b": "lipu:lijinzhongdegui:19-李崇平之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇平",
+      "child": "lipu:lijinzhongdegui:20-隆云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇平",
+      "child": "lipu:lijinzhongdegui:20-艳群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇平",
+      "child": "lipu:lijinzhongdegui:20-桃英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:18-德贵",
+      "child": "lipu:lijinzhongdegui:19-崇清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijinzhongdegui:19-崇清",
+      "b": "lipu:lijinzhongdegui:19-李崇清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇清",
+      "child": "lipu:lijinzhongdegui:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇清",
+      "child": "lipu:lijinzhongdegui:20-隆举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdegui:19-崇清",
+      "child": "lipu:lijinzhongdegui:20-卖琼"
+    }
+  ]
+}
