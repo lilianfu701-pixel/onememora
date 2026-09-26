@@ -113,6 +113,11 @@ import lipu_liwen from "./liwen.lipu.data.json";
 import lipu_lizongbaohm from "./lizongbaohm.lipu.data.json";
 import lipu_lizongxiu from "./lizongxiu.lipu.data.json";
 import lipu_lizongxiu2 from "./lizongxiu2.lipu.data.json";
+import lipu_lizhilong from "./lizhilong.lipu.data.json";
+import lipu_lishichen from "./lishichen.lipu.data.json";
+import lipu_lishichen2 from "./lishichen2.lipu.data.json";
+import lipu_lishichen3 from "./lishichen3.lipu.data.json";
+import lipu_lishizheng from "./lishizheng.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -225,6 +230,11 @@ const LABELS: Record<string, string> = {
   lizongbaohm: "李氏·李宗保一支·后麻窝宗保宗育房（李代龙支系谱·桂果新华后麻窝·十六至二十代）",
   lizongxiu: "李氏·李宗秀房·德怀德润（李代龙支系谱·桂果新华后麻窝·十六至二十代）",
   lizongxiu2: "李氏·李宗秀房·德方德佩德安（李代龙支系谱·桂果新华后麻窝·十七至二十代）",
+  lizhilong: "李氏·李之龙一支（李代龙支系谱·桂果毛坪小岩上·十一至十九代）",
+  lishichen: "李氏·李士臣一支·主干及德昌房（李代龙支系谱·桂果乡马路脚·十三至二十代）",
+  lishichen2: "李氏·李士臣一支·德梦德荣房（李代龙支系谱·桂果乡马路脚·十七至二十代）",
+  lishichen3: "李氏·李士臣一支·宗保房（李代龙支系谱·桂果乡马路脚·十六至二十代）",
+  lishizheng: "李氏·李世政一支（李代龙支系谱·桂果乡花竹寨·十一至二十一代）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -337,6 +347,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lizongbaohm", lipu_lizongbaohm as GenealogyDataset],
   ["lizongxiu", lipu_lizongxiu as GenealogyDataset],
   ["lizongxiu2", lipu_lizongxiu2 as GenealogyDataset],
+  ["lizhilong", lipu_lizhilong as GenealogyDataset],
+  ["lishichen", lipu_lishichen as GenealogyDataset],
+  ["lishichen2", lipu_lishichen2 as GenealogyDataset],
+  ["lishichen3", lipu_lishichen3 as GenealogyDataset],
+  ["lishizheng", lipu_lishizheng as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

@@ -1,0 +1,413 @@
+{
+  "key": "lipu:lishichen3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishichen:16-天长",
+      "name": "李天长",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果乡马路脚。"
+    },
+    {
+      "externalId": "lipu:lishichen3:17-宗保",
+      "name": "李宗保",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "前清丙子年12月17日"
+      },
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果乡马路脚。前清丙子年12月17日生于织金桂果，民国丁丑年2月6日殁，葬果张家屋基弯土，有碑记，偶徐氏乙亥年11月25日生，丙子年12月6日殁，葬桂果大坟坝；续偶徐氏生德芬"
+    },
+    {
+      "externalId": "lipu:lishichen3:18-德新",
+      "name": "李德新",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬子年3月1日"
+      },
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果乡马路脚。壬子年3月1日生于织金桂果，辛卯年4月21日殁，葬桂果张家屋基，偶张氏丙戌年10月11日生"
+    },
+    {
+      "externalId": "lipu:lishichen3:19-崇虎",
+      "name": "李崇虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1946,
+        "month": 3,
+        "day": 11
+      },
+      "death": {
+        "year": 1991
+      },
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果乡马路脚。1946年3月11日生于织金桂果，偶徐氏1941年5月25日生，1991年9月12日殁，葬桂果大坟坝"
+    },
+    {
+      "externalId": "lipu:lishichen3:19-崇举",
+      "name": "李崇举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1949,
+        "month": 4,
+        "day": 8
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果乡马路脚。1949年4月8日生于织金桂果"
+    },
+    {
+      "externalId": "lipu:lishichen3:17-李宗保之妻",
+      "name": "李宗保之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichen3:18-德珍",
+      "name": "李德珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      }
+    },
+    {
+      "externalId": "lipu:lishichen3:18-德英",
+      "name": "李德英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      }
+    },
+    {
+      "externalId": "lipu:lishichen3:18-德秀",
+      "name": "李德秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      }
+    },
+    {
+      "externalId": "lipu:lishichen3:18-德芬",
+      "name": "李德芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      }
+    },
+    {
+      "externalId": "lipu:lishichen3:18-李德新之妻",
+      "name": "李德新之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichen3:19-李崇虎之妻",
+      "name": "李崇虎之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ],
+      "birth": {
+        "year": 1941
+      },
+      "death": {
+        "year": 1991
+      }
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆松",
+      "name": "李隆松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆春",
+      "name": "李隆春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆庭",
+      "name": "李隆庭",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆风",
+      "name": "李隆风",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆芳",
+      "name": "李隆芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆莲",
+      "name": "李隆莲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆丽",
+      "name": "李隆丽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:19-李崇举之妻",
+      "name": "李崇举之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "谢氏"
+      ],
+      "birth": {
+        "year": 1955
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆杰",
+      "name": "李隆杰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichen3:20-隆琴",
+      "name": "李隆琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡马路脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡马路脚"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen:16-天长",
+      "child": "lipu:lishichen3:17-宗保"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichen3:17-宗保",
+      "b": "lipu:lishichen3:17-李宗保之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:17-宗保",
+      "child": "lipu:lishichen3:18-德珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:17-宗保",
+      "child": "lipu:lishichen3:18-德英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:17-宗保",
+      "child": "lipu:lishichen3:18-德秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:17-宗保",
+      "child": "lipu:lishichen3:18-德芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:17-宗保",
+      "child": "lipu:lishichen3:18-德新"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichen3:18-德新",
+      "b": "lipu:lishichen3:18-李德新之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:18-德新",
+      "child": "lipu:lishichen3:19-崇虎"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichen3:19-崇虎",
+      "b": "lipu:lishichen3:19-李崇虎之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆庭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆风"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆莲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇虎",
+      "child": "lipu:lishichen3:20-隆丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:18-德新",
+      "child": "lipu:lishichen3:19-崇举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichen3:19-崇举",
+      "b": "lipu:lishichen3:19-李崇举之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇举",
+      "child": "lipu:lishichen3:20-隆全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇举",
+      "child": "lipu:lishichen3:20-隆杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen3:19-崇举",
+      "child": "lipu:lishichen3:20-隆琴"
+    }
+  ]
+}
