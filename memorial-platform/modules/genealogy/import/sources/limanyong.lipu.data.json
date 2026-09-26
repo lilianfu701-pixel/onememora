@@ -1,0 +1,474 @@
+{
+  "key": "lipu:limanyong",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lipengchen:11-鹏臣",
+      "name": "李鹏臣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·实兴乡王家寨。"
+    },
+    {
+      "externalId": "lipu:limanyong:12-万用",
+      "name": "李万用",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·实兴乡王家寨。"
+    },
+    {
+      "externalId": "lipu:limanyong:13-子亮",
+      "name": "李子亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·实兴乡王家寨。"
+    },
+    {
+      "externalId": "lipu:limanyong:14-少美",
+      "name": "李少美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·实兴乡王家寨。"
+    },
+    {
+      "externalId": "lipu:limanyong:15-如山",
+      "name": "李如山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·实兴乡王家寨。葬织金大荒坡"
+    },
+    {
+      "externalId": "lipu:limanyong:16-天举",
+      "name": "李天举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·实兴乡王家寨。葬大猫场所魁营盘上"
+    },
+    {
+      "externalId": "lipu:limanyong:17-宗武",
+      "name": "李宗武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·实兴乡王家寨。生于猫场所魁，葬于实兴乡甲鸭寨新屋基，姙田氏生于实兴补蚱大烂坝，葬于实兴乡补蚱五桐田"
+    },
+    {
+      "externalId": "lipu:limanyong:18-德凤",
+      "name": "李德凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡王家寨。生于大猫场所魁罕米冲，葬于李家寨油菜冲，姙田氏生于织金实兴大干坝，葬于李家寨背后二皮梁子"
+    },
+    {
+      "externalId": "lipu:limanyong:18-德贵",
+      "name": "李德贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1906
+      },
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡王家寨。1906年生于织金猫场所魁罕米冲，葬于田家寨龙井田，姙田氏生于田家寨二皮梁子"
+    },
+    {
+      "externalId": "lipu:limanyong:19-崇盖",
+      "name": "李崇盖",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1925
+      },
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡王家寨。1925年生于实兴乡田家寨，葬于田家寨牛路顶"
+    },
+    {
+      "externalId": "lipu:limanyong:19-崇周",
+      "name": "李崇周",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1928
+      },
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡王家寨。1928年生于田家寨，葬于田家寨田家荒田"
+    },
+    {
+      "externalId": "lipu:limanyong:19-崇智",
+      "name": "李崇智",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1944
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡王家寨。1944年生于田家寨"
+    },
+    {
+      "externalId": "lipu:limanyong:15-李如山之妻",
+      "name": "李如山之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:limanyong:16-李天举之妻",
+      "name": "李天举之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:limanyong:17-李宗武之妻",
+      "name": "李宗武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ]
+    },
+    {
+      "externalId": "lipu:limanyong:18-李德凤之妻",
+      "name": "李德凤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ]
+    },
+    {
+      "externalId": "lipu:limanyong:18-李德贵之妻",
+      "name": "李德贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ]
+    },
+    {
+      "externalId": "lipu:limanyong:19-李崇盖之妻",
+      "name": "李崇盖之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1919
+      }
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆超",
+      "name": "李隆超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆辉",
+      "name": "李隆辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆义",
+      "name": "李隆义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:19-李崇智之妻",
+      "name": "李崇智之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1941
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆举",
+      "name": "李隆举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-隆凯",
+      "name": "李隆凯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:limanyong:20-刚",
+      "name": "李刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡王家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡王家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lipengchen:11-鹏臣",
+      "child": "lipu:limanyong:12-万用"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:12-万用",
+      "child": "lipu:limanyong:13-子亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:13-子亮",
+      "child": "lipu:limanyong:14-少美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:14-少美",
+      "child": "lipu:limanyong:15-如山"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:15-如山",
+      "b": "lipu:limanyong:15-李如山之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:15-如山",
+      "child": "lipu:limanyong:16-天举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:16-天举",
+      "b": "lipu:limanyong:16-李天举之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:16-天举",
+      "child": "lipu:limanyong:17-宗武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:17-宗武",
+      "b": "lipu:limanyong:17-李宗武之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:17-宗武",
+      "child": "lipu:limanyong:18-德凤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:18-德凤",
+      "b": "lipu:limanyong:18-李德凤之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:17-宗武",
+      "child": "lipu:limanyong:18-德贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:18-德贵",
+      "b": "lipu:limanyong:18-李德贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:18-德凤",
+      "child": "lipu:limanyong:19-崇盖"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:19-崇盖",
+      "b": "lipu:limanyong:19-李崇盖之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇盖",
+      "child": "lipu:limanyong:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:18-德凤",
+      "child": "lipu:limanyong:19-崇周"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇周",
+      "child": "lipu:limanyong:20-隆超"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇周",
+      "child": "lipu:limanyong:20-隆辉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇周",
+      "child": "lipu:limanyong:20-隆义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇周",
+      "child": "lipu:limanyong:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:18-德贵",
+      "child": "lipu:limanyong:19-崇智"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:limanyong:19-崇智",
+      "b": "lipu:limanyong:19-李崇智之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇智",
+      "child": "lipu:limanyong:20-隆举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇智",
+      "child": "lipu:limanyong:20-隆凯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:19-崇智",
+      "child": "lipu:limanyong:20-刚"
+    }
+  ]
+}
