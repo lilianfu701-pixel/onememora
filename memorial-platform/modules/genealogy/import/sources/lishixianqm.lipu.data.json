@@ -120,7 +120,7 @@
       "deathPlace": {
         "region": "贵州织金·桂果绮陌村李家寨"
       },
-      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果绮陌村李家寨。谱载1893年8月9日生于织金绮陌桂果，1894年10月13日殁（原谱日期如此，疑有误），葬桂果绮陌邬元坝，姙段氏生二女，续姙孙氏生于织金小河坝二塘，1913年正月29日殁，葬桂果打油寨"
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果绮陌村李家寨。谱载1893年8月9日生于织金绮陌桂果，1894年10月13日殁（原谱日期如此，疑有误），葬桂果绮陌邬元坝，姙段氏生二女，续姙孙氏生于织金小河坝二塘，1913年正月29日殁，葬桂果打油寨。另有子德文，见德文房分支"
     },
     {
       "externalId": "lipu:lishixianqm:18-德成",
@@ -363,19 +363,6 @@
       ]
     },
     {
-      "externalId": "lipu:lishixianqm:18-德文",
-      "name": "李德文",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
-      "birthPlace": {
-        "region": "贵州织金·桂果绮陌村李家寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果绮陌村李家寨"
-      }
-    },
-    {
       "externalId": "lipu:lishixianqm:18-李德成之妻",
       "name": "李德成之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -584,11 +571,6 @@
       "kind": "spouse",
       "a": "lipu:lishixianqm:17-宗才",
       "b": "lipu:lishixianqm:17-李宗才之妻"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishixianqm:17-宗才",
-      "child": "lipu:lishixianqm:18-德文"
     },
     {
       "kind": "parent",

@@ -1,0 +1,352 @@
+{
+  "key": "lipu:lishixianqm5",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishixianqm:17-宗才",
+      "name": "李宗才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果绮陌村李家寨。"
+    },
+    {
+      "externalId": "lipu:lishixianqm5:18-德文",
+      "name": "李德文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1887
+      },
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果绮陌村李家寨。1887年正月22日生于桂果马路寨（原谱误作1987），葬桂果小河沟大土后，偶杨氏1887年5月5日生，葬桂果马路小河沟"
+    },
+    {
+      "externalId": "lipu:lishixianqm5:19-崇本",
+      "name": "李崇本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1912
+      },
+      "death": {
+        "year": 1957
+      },
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果绮陌村李家寨。1912年生于桂果马路脚，1957年正月15日殁，葬李家寨朱家包包，姙张华秀1914年8月12日生于实兴龙井歹池，葬桂果大坟坝"
+    },
+    {
+      "externalId": "lipu:lishixianqm5:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1940,
+        "month": 4,
+        "day": 15
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果绮陌村李家寨。1940年4月15日生于桂果国营农场，偶周发秀1937年8月12日生于桂果李家寨"
+    },
+    {
+      "externalId": "lipu:lishixianqm5:20-隆贵",
+      "name": "李隆贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1946,
+        "month": 12,
+        "day": 26
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果绮陌村李家寨。1946年12月26日生于桂果街上，偶彭赵珍1947年3月16日生于桂果马路脚"
+    },
+    {
+      "externalId": "lipu:lishixianqm5:18-李德文之妻",
+      "name": "李德文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "birth": {
+        "year": 1887
+      }
+    },
+    {
+      "externalId": "lipu:lishixianqm5:19-崇雨",
+      "name": "李崇雨",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishixianqm5:19-张华秀",
+      "name": "张华秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1914
+      }
+    },
+    {
+      "externalId": "lipu:lishixianqm5:20-周发秀",
+      "name": "周发秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1937
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-发勇",
+      "name": "李发勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-发红",
+      "name": "李发红",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-发永",
+      "name": "李发永",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-发杰",
+      "name": "李发杰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-发芬",
+      "name": "李发芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-发艳",
+      "name": "李发艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:20-彭赵珍",
+      "name": "彭赵珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1947
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-铁",
+      "name": "李铁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-平",
+      "name": "李平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-祝",
+      "name": "李祝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm5:21-白芝",
+      "name": "李白芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm:17-宗才",
+      "child": "lipu:lishixianqm5:18-德文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixianqm5:18-德文",
+      "b": "lipu:lishixianqm5:18-李德文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:18-德文",
+      "child": "lipu:lishixianqm5:19-崇雨"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:18-德文",
+      "child": "lipu:lishixianqm5:19-崇本"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixianqm5:19-崇本",
+      "b": "lipu:lishixianqm5:19-张华秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:19-崇本",
+      "child": "lipu:lishixianqm5:20-隆军"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixianqm5:20-周发秀",
+      "b": "lipu:lishixianqm5:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆军",
+      "child": "lipu:lishixianqm5:21-发勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆军",
+      "child": "lipu:lishixianqm5:21-发红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆军",
+      "child": "lipu:lishixianqm5:21-发永"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆军",
+      "child": "lipu:lishixianqm5:21-发杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆军",
+      "child": "lipu:lishixianqm5:21-发芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆军",
+      "child": "lipu:lishixianqm5:21-发艳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:19-崇本",
+      "child": "lipu:lishixianqm5:20-隆贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixianqm5:20-彭赵珍",
+      "b": "lipu:lishixianqm5:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆贵",
+      "child": "lipu:lishixianqm5:21-铁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆贵",
+      "child": "lipu:lishixianqm5:21-平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆贵",
+      "child": "lipu:lishixianqm5:21-祝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm5:20-隆贵",
+      "child": "lipu:lishixianqm5:21-白芝"
+    }
+  ]
+}

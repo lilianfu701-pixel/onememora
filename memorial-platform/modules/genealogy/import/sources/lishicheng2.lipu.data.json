@@ -1,0 +1,338 @@
+{
+  "key": "lipu:lishicheng2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishicheng:19-崇发",
+      "name": "李崇发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇核桃寨。"
+    },
+    {
+      "externalId": "lipu:lishicheng2:20-隆贵",
+      "name": "李隆贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1933,
+        "month": 2,
+        "day": 17
+      },
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇核桃寨。1933年2月17日生于尖山脚，偶郭太英1933年5月28日生于核桃寨"
+    },
+    {
+      "externalId": "lipu:lishicheng2:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1935,
+        "month": 9,
+        "day": 7
+      },
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇核桃寨。1935年9月7日生于本兴，偶黄正英1939年5月26日生于熊家场猫猫窝"
+    },
+    {
+      "externalId": "lipu:lishicheng2:20-郭太英",
+      "name": "郭太英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1933
+      }
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发品",
+      "name": "李发品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-九国",
+      "name": "李九国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-联妹",
+      "name": "李联妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-大妹",
+      "name": "李大妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-盆妹",
+      "name": "李盆妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-幺妹",
+      "name": "李幺妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:20-黄正英",
+      "name": "黄正英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1939
+      }
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发先",
+      "name": "李发先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发军",
+      "name": "李发军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发才",
+      "name": "李发才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发义",
+      "name": "李发义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发群",
+      "name": "李发群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发学",
+      "name": "李发学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发秀",
+      "name": "李发秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng2:21-发英",
+      "name": "李发英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng:19-崇发",
+      "child": "lipu:lishicheng2:20-隆贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicheng2:20-郭太英",
+      "b": "lipu:lishicheng2:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-发品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-九国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-联妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-大妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-盆妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆贵",
+      "child": "lipu:lishicheng2:21-幺妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng:19-崇发",
+      "child": "lipu:lishicheng2:20-隆华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishicheng2:20-隆华",
+      "b": "lipu:lishicheng2:20-黄正英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng2:20-隆华",
+      "child": "lipu:lishicheng2:21-发英"
+    }
+  ]
+}
