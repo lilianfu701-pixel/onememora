@@ -1,0 +1,605 @@
+{
+  "key": "lipu:lichaochen",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaochen:11-朝臣",
+      "name": "李朝臣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·实兴乡大干坝。上承应璋支系10代李洪舟分支从11代起"
+    },
+    {
+      "externalId": "lipu:lichaochen:12-万富",
+      "name": "李万富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·实兴乡大干坝。"
+    },
+    {
+      "externalId": "lipu:lichaochen:13-世华",
+      "name": "李世华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·实兴乡大干坝。"
+    },
+    {
+      "externalId": "lipu:lichaochen:14-见才",
+      "name": "李见才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·实兴乡大干坝。"
+    },
+    {
+      "externalId": "lipu:lichaochen:15-春乾",
+      "name": "李春乾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·实兴乡大干坝。"
+    },
+    {
+      "externalId": "lipu:lichaochen:16-天玉",
+      "name": "李天玉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·实兴乡大干坝。"
+    },
+    {
+      "externalId": "lipu:lichaochen:17-正田",
+      "name": "李正田",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·实兴乡大干坝。生于煤洞坡，后迁岔河居住，年老告终，葬于桂果街背后林场半坡"
+    },
+    {
+      "externalId": "lipu:lichaochen:18-德富",
+      "name": "李德富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡大干坝。生于岔河又迁居大干坝田家寨，葬于大干坝田家青杠坡，姙郭氏葬于大干坝新屋基石灰岩路背后"
+    },
+    {
+      "externalId": "lipu:lichaochen:19-崇功",
+      "name": "李崇功",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1932,
+        "month": 10,
+        "day": 20
+      },
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡大干坝。1932年10月20日生于岔河，随父移居大干坝，姙郭氏葬于竹林冲半坡上"
+    },
+    {
+      "externalId": "lipu:lichaochen:19-崇志",
+      "name": "李崇志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "民国25年腊月初三丑时"
+      },
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡大干坝。民国25年腊月初三丑时生于岔河，随父迁大干坝居住，姙王氏葬于杉树寨木桥车路背后"
+    },
+    {
+      "externalId": "lipu:lichaochen:19-崇书",
+      "name": "李崇书",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡大干坝。葬于马长田小屋基同墓"
+    },
+    {
+      "externalId": "lipu:lichaochen:19-崇友",
+      "name": "李崇友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1951
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡大干坝。1951年冬月17日生于大干坝田家寨"
+    },
+    {
+      "externalId": "lipu:lichaochen:11-李朝臣之妻",
+      "name": "李朝臣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:12-李万富之妻",
+      "name": "李万富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:13-李世华之妻",
+      "name": "李世华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:14-李见才之妻",
+      "name": "李见才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:15-李春乾之妻",
+      "name": "李春乾之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:16-李天玉之妻",
+      "name": "李天玉之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:17-李正田之妻",
+      "name": "李正田之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:18-德恩",
+      "name": "李德恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      }
+    },
+    {
+      "externalId": "lipu:lichaochen:18-德贵",
+      "name": "李德贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      }
+    },
+    {
+      "externalId": "lipu:lichaochen:18-李德富之妻",
+      "name": "李德富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:19-李崇功之妻",
+      "name": "李崇功之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆品",
+      "name": "李隆品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆兴",
+      "name": "李隆兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:19-李崇志之妻",
+      "name": "李崇志之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆美",
+      "name": "李隆美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆江",
+      "name": "李隆江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆元",
+      "name": "李隆元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:19-李崇书之妻",
+      "name": "李崇书之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆发",
+      "name": "李隆发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:19-张怀英",
+      "name": "张怀英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1954
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆才",
+      "name": "李隆才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆刚",
+      "name": "李隆刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaochen:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡大干坝",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡大干坝"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:11-朝臣",
+      "b": "lipu:lichaochen:11-李朝臣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:11-朝臣",
+      "child": "lipu:lichaochen:12-万富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:12-万富",
+      "b": "lipu:lichaochen:12-李万富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:12-万富",
+      "child": "lipu:lichaochen:13-世华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:13-世华",
+      "b": "lipu:lichaochen:13-李世华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:13-世华",
+      "child": "lipu:lichaochen:14-见才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:14-李见才之妻",
+      "b": "lipu:lichaochen:14-见才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:14-见才",
+      "child": "lipu:lichaochen:15-春乾"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:15-春乾",
+      "b": "lipu:lichaochen:15-李春乾之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:15-春乾",
+      "child": "lipu:lichaochen:16-天玉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:16-天玉",
+      "b": "lipu:lichaochen:16-李天玉之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:16-天玉",
+      "child": "lipu:lichaochen:17-正田"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:17-李正田之妻",
+      "b": "lipu:lichaochen:17-正田"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:17-正田",
+      "child": "lipu:lichaochen:18-德恩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:17-正田",
+      "child": "lipu:lichaochen:18-德贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:17-正田",
+      "child": "lipu:lichaochen:18-德富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:18-德富",
+      "b": "lipu:lichaochen:18-李德富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:18-德富",
+      "child": "lipu:lichaochen:19-崇功"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:19-崇功",
+      "b": "lipu:lichaochen:19-李崇功之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇功",
+      "child": "lipu:lichaochen:20-隆品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇功",
+      "child": "lipu:lichaochen:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇功",
+      "child": "lipu:lichaochen:20-隆兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:18-德富",
+      "child": "lipu:lichaochen:19-崇志"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:19-崇志",
+      "b": "lipu:lichaochen:19-李崇志之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇志",
+      "child": "lipu:lichaochen:20-隆美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇志",
+      "child": "lipu:lichaochen:20-隆江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇志",
+      "child": "lipu:lichaochen:20-隆元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:18-德富",
+      "child": "lipu:lichaochen:19-崇书"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:19-崇书",
+      "b": "lipu:lichaochen:19-李崇书之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇书",
+      "child": "lipu:lichaochen:20-隆发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:18-德富",
+      "child": "lipu:lichaochen:19-崇友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaochen:19-崇友",
+      "b": "lipu:lichaochen:19-张怀英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇友",
+      "child": "lipu:lichaochen:20-隆才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇友",
+      "child": "lipu:lichaochen:20-隆刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaochen:19-崇友",
+      "child": "lipu:lichaochen:20-隆军"
+    }
+  ]
+}
