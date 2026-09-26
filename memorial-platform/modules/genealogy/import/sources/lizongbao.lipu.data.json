@@ -1,0 +1,507 @@
+{
+  "key": "lipu:lizongbao",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongbao:17-宗保",
+      "name": "李宗保",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·牛场乡大鱼塘。上承桂果克窝大乔地16代李天位分支。生于织金中寨大院，葬织金桂果克窝三岔沟"
+    },
+    {
+      "externalId": "lipu:lizongbao:18-德生",
+      "name": "李德生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·牛场乡大鱼塘。葬于织金星秀村黑坡，有碑记，姙陶玉英生于织金桂果，葬织金星秀黑坡"
+    },
+    {
+      "externalId": "lipu:lizongbao:19-崇兴",
+      "name": "李崇兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己未年7月30日"
+      },
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场乡大鱼塘。己未年7月30日生于织金桂果克窝三岔沟，殁于甲寅年9月15日，葬于牛场杨家弯，偶陶学珍丁卯元月27日生于织金城关小木嘎"
+    },
+    {
+      "externalId": "lipu:lizongbao:19-崇恩",
+      "name": "李崇恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场乡大鱼塘。生于织金桂果克窝三岔沟，葬于织金大荒坡，偶陶学义1964年12月生于织金桂果新华箐脚，葬织金八大碗；续姙张加英生于织金少普"
+    },
+    {
+      "externalId": "lipu:lizongbao:19-崇昌",
+      "name": "李崇昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937,
+        "month": 3,
+        "day": 12
+      },
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·牛场乡大鱼塘。1937年3月12日生于织金牛场大鱼塘，殁于1997年11月11日，偶余存芬1937年3月5日生于织金牛场"
+    },
+    {
+      "externalId": "lipu:lizongbao:17-李宗保之妻",
+      "name": "李宗保之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongbao:18-德富",
+      "name": "李德富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      }
+    },
+    {
+      "externalId": "lipu:lizongbao:18-陶玉英",
+      "name": "陶玉英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lizongbao:19-学文",
+      "name": "李学文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "deathPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      }
+    },
+    {
+      "externalId": "lipu:lizongbao:19-陶学珍",
+      "name": "陶学珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆珍",
+      "name": "李隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:19-陶学义",
+      "name": "陶学义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆明",
+      "name": "李隆明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆芬",
+      "name": "李隆芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆伟",
+      "name": "李隆伟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-森",
+      "name": "李森",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-春富",
+      "name": "李春富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆庆",
+      "name": "李隆庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆凤",
+      "name": "李隆凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:19-余存芬",
+      "name": "余存芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1937
+      }
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆友",
+      "name": "李隆友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆虎",
+      "name": "李隆虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆松",
+      "name": "李隆松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆林",
+      "name": "李隆林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆萍",
+      "name": "李隆萍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆群",
+      "name": "李隆群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbao:20-隆敏",
+      "name": "李隆敏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场乡大鱼塘",
+      "birthPlace": {
+        "region": "贵州织金·牛场乡大鱼塘"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbao:17-宗保",
+      "b": "lipu:lizongbao:17-李宗保之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:17-宗保",
+      "child": "lipu:lizongbao:18-德富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:17-宗保",
+      "child": "lipu:lizongbao:18-德生"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbao:18-德生",
+      "b": "lipu:lizongbao:18-陶玉英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:18-德生",
+      "child": "lipu:lizongbao:19-学文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:18-德生",
+      "child": "lipu:lizongbao:19-崇兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbao:19-崇兴",
+      "b": "lipu:lizongbao:19-陶学珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇兴",
+      "child": "lipu:lizongbao:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇兴",
+      "child": "lipu:lizongbao:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇兴",
+      "child": "lipu:lizongbao:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇兴",
+      "child": "lipu:lizongbao:20-隆珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:18-德生",
+      "child": "lipu:lizongbao:19-崇恩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbao:19-崇恩",
+      "b": "lipu:lizongbao:19-陶学义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-隆明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-隆芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-隆伟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-森"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-春富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-隆庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇恩",
+      "child": "lipu:lizongbao:20-隆凤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:18-德生",
+      "child": "lipu:lizongbao:19-崇昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbao:19-余存芬",
+      "b": "lipu:lizongbao:19-崇昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆虎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆萍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbao:19-崇昌",
+      "child": "lipu:lizongbao:20-隆敏"
+    }
+  ]
+}
