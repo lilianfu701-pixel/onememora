@@ -82,6 +82,9 @@ import lipu_lijinzhongruxian from "./lijinzhongruxian.lipu.data.json";
 import lipu_lijinrongnc from "./lijinrongnc.lipu.data.json";
 import lipu_lijinrongnc2 from "./lijinrongnc2.lipu.data.json";
 import lipu_lizongbao from "./lizongbao.lipu.data.json";
+import lipu_lizaichen from "./lizaichen.lipu.data.json";
+import lipu_lijiyongfu from "./lijiyongfu.lipu.data.json";
+import lipu_lijiyongfu2 from "./lijiyongfu2.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -163,6 +166,9 @@ const LABELS: Record<string, string> = {
   lijinrongnc: "李氏·李进荣一支·主干及宗相房（李代龙支系谱·牛场镇千二系·十一至二十代）",
   lijinrongnc2: "李氏·李进荣一支·天福宗辅房及宗元房（李代龙支系谱·牛场镇千二系·十六至十九代）",
   lizongbao: "李氏·李宗保一支（李代龙支系谱·牛场乡大鱼塘·十七至二十代）",
+  lizaichen: "李氏·李在臣一支·凹河岩脚寨李隆文分支（李代龙支系谱·牛场乡凹河大秋村·十三至二十代）",
+  lijiyongfu: "李氏·李永富一支·主干及崇发房（李代龙支系谱·牛场镇沙坝水银上·十二至二十一代）",
+  lijiyongfu2: "李氏·李永富一支·崇富房（李代龙支系谱·牛场镇沙坝水银上·十八至二十一代）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -244,6 +250,9 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lijinrongnc", lipu_lijinrongnc as GenealogyDataset],
   ["lijinrongnc2", lipu_lijinrongnc2 as GenealogyDataset],
   ["lizongbao", lipu_lizongbao as GenealogyDataset],
+  ["lizaichen", lipu_lizaichen as GenealogyDataset],
+  ["lijiyongfu", lipu_lijiyongfu as GenealogyDataset],
+  ["lijiyongfu2", lipu_lijiyongfu2 as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
