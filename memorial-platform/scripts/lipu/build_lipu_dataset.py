@@ -94,7 +94,11 @@ def parse_death_year(bio):
     clause so a birth year is never read as a death year."""
     if not bio:
         return None
-    m = re.search(r"(1[89]\d{2}|20[0-2]\d)\s*年[^，。；、]*?(殁|卒|终|逝|去世|故)", bio)
+    # The book records the person first, then 「偶/姙/妣/续姙…」 spouse details
+    # (often with the spouse's own death). Only search the person's own part,
+    # or a living person is mis-marked dead and exposed publicly.
+    own = re.split(r"[，。；、]\s*(?:续|再)?(?:偶|姙|妣|配)", bio, maxsplit=1)[0]
+    m = re.search(r"(1[89]\d{2}|20[0-2]\d)\s*年[^，。；、]*?(殁|卒|终|逝|去世|故)", own)
     return int(m.group(1)) if m else None
 
 

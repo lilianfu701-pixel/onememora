@@ -1,0 +1,306 @@
+{
+  "key": "lipu:lidesheng",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengcong2:17-宗勋",
+      "name": "李宗勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果镇戈仲场葫芦井树林脚。"
+    },
+    {
+      "externalId": "lipu:lidesheng:18-德胜",
+      "name": "李德胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1918
+      },
+      "death": {
+        "year": 1995
+      },
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇戈仲场葫芦井树林脚。宗勋长子，民国7年生于树林脚，1995年4月殁，姙周氏民国5年生于箐脚，1985年殁，二老同葬老麻窝"
+    },
+    {
+      "externalId": "lipu:lidesheng:18-德邻",
+      "name": "李德邻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇戈仲场葫芦井树林脚。宗勋次子，民国20年10月29日生于树林脚，偶左德珍民国16年7月初二生于幺井，1991年4月27日殁，葬老麻窝"
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇尧",
+      "name": "李崇尧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1954,
+        "month": 3
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇戈仲场葫芦井树林脚。1954年3月初七生于树林脚，偶左光珍1952年5月16日生于幺井"
+    },
+    {
+      "externalId": "lipu:lidesheng:18-李德胜之妻",
+      "name": "李德胜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇秀",
+      "name": "李崇秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇芬",
+      "name": "李崇芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇美",
+      "name": "李崇美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:18-左德珍",
+      "name": "左德珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇仙",
+      "name": "李崇仙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇智",
+      "name": "李崇智",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:19-崇惠",
+      "name": "李崇惠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:19-幺妹",
+      "name": "李幺妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:19-左光珍",
+      "name": "左光珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1952
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:20-隆远",
+      "name": "李隆远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:20-三银",
+      "name": "李三银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:20-菊",
+      "name": "李菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidesheng:20-蕾",
+      "name": "李蕾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇戈仲场葫芦井树林脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇戈仲场葫芦井树林脚"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengcong2:17-宗勋",
+      "child": "lipu:lidesheng:18-德胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidesheng:18-德胜",
+      "b": "lipu:lidesheng:18-李德胜之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德胜",
+      "child": "lipu:lidesheng:19-崇秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德胜",
+      "child": "lipu:lidesheng:19-崇芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德胜",
+      "child": "lipu:lidesheng:19-崇美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengcong2:17-宗勋",
+      "child": "lipu:lidesheng:18-德邻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidesheng:18-左德珍",
+      "b": "lipu:lidesheng:18-德邻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德邻",
+      "child": "lipu:lidesheng:19-崇仙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德邻",
+      "child": "lipu:lidesheng:19-崇智"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德邻",
+      "child": "lipu:lidesheng:19-崇惠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德邻",
+      "child": "lipu:lidesheng:19-幺妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:18-德邻",
+      "child": "lipu:lidesheng:19-崇尧"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidesheng:19-崇尧",
+      "b": "lipu:lidesheng:19-左光珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:19-崇尧",
+      "child": "lipu:lidesheng:20-隆远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:19-崇尧",
+      "child": "lipu:lidesheng:20-三银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:19-崇尧",
+      "child": "lipu:lidesheng:20-菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidesheng:19-崇尧",
+      "child": "lipu:lidesheng:20-蕾"
+    }
+  ]
+}

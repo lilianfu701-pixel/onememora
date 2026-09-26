@@ -1,0 +1,147 @@
+{
+  "key": "lipu:lideyun",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengcong:17-宗林",
+      "name": "李宗林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新化箐脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果镇新化箐脚。"
+    },
+    {
+      "externalId": "lipu:lideyun:18-德云",
+      "name": "李德云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1949
+      },
+      "death": {
+        "year": 1989
+      },
+      "ancestralHometown": "贵州织金·桂果镇新化箐脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇新化箐脚。1949年生于落圈麻窝，1989年9月殁，葬小落坑，偶何国凤1950年6月初一生于牛场大煤场，有二女"
+    },
+    {
+      "externalId": "lipu:lideyun:18-德全",
+      "name": "李德全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1957,
+        "month": 3,
+        "day": 27
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇新化箐脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇新化箐脚。1957年3月27日生于落圈麻窝，偶杨玲秀1960年2月生于新庄阿烈"
+    },
+    {
+      "externalId": "lipu:lideyun:18-何国凤",
+      "name": "何国凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1950
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyun:19-崇海",
+      "name": "李崇海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新化箐脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyun:18-杨玲秀",
+      "name": "杨玲秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1960
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyun:19-崇敬",
+      "name": "李崇敬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新化箐脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyun:19-崇敏",
+      "name": "李崇敏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新化箐脚",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新化箐脚"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengcong:17-宗林",
+      "child": "lipu:lideyun:18-德云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyun:18-何国凤",
+      "b": "lipu:lideyun:18-德云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyun:18-德云",
+      "child": "lipu:lideyun:19-崇海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengcong:17-宗林",
+      "child": "lipu:lideyun:18-德全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyun:18-德全",
+      "b": "lipu:lideyun:18-杨玲秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyun:18-德全",
+      "child": "lipu:lideyun:19-崇敬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyun:18-德全",
+      "child": "lipu:lideyun:19-崇敏"
+    }
+  ]
+}

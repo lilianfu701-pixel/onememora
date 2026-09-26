@@ -1,0 +1,523 @@
+{
+  "key": "lipu:lideyue",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengcong:17-宗发",
+      "name": "李宗发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果镇新华小平寨。"
+    },
+    {
+      "externalId": "lipu:lideyue:18-德跃",
+      "name": "李德跃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇新华小平寨。民国20年10月25日生于小平寨，葬小平寨，偶张氏民国16年2月5日生于化起老稿龙井湾"
+    },
+    {
+      "externalId": "lipu:lideyue:18-德辉",
+      "name": "李德辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1939
+      },
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇新华小平寨。民国28年4月18日生于小平寨，偶杨林英民国30年2月15日生于高山"
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇合",
+      "name": "李崇合",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1953,
+        "month": 3,
+        "day": 26
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华小平寨。1953年3月26日生于小平寨，偶郭氏1953年9月初一生于三甲阿珠坝，1986年8月初一殁"
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇富",
+      "name": "李崇富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1960,
+        "month": 7,
+        "day": 30
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华小平寨。1960年7月30日生于小平寨，偶张怀菊1958年3月初九生于中寨乡小干河"
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇仁",
+      "name": "李崇仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1962,
+        "month": 2,
+        "day": 30
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华小平寨。1962年2月30日生于小平寨，偶郭氏1959年冬月初九生于中寨"
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇昌",
+      "name": "李崇昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1967,
+        "month": 3,
+        "day": 9
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华小平寨。1967年3月9日生于小平寨，偶伍氏生于紫云"
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇全",
+      "name": "李崇全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1974,
+        "month": 3
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华小平寨。1974年3月初三生于小平寨，偶周发琼1972年7月14日生于小平寨"
+    },
+    {
+      "externalId": "lipu:lideyue:18-李德跃之妻",
+      "name": "李德跃之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideyue:19-福英",
+      "name": "李福英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-金妹",
+      "name": "李金妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:18-杨林英",
+      "name": "杨林英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇秀",
+      "name": "李崇秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇美",
+      "name": "李崇美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-崇敏",
+      "name": "李崇敏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-李崇合之妻",
+      "name": "李崇合之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "birth": {
+        "year": 1953
+      },
+      "death": {
+        "year": 1986
+      }
+    },
+    {
+      "externalId": "lipu:lideyue:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-国仙",
+      "name": "李国仙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-张怀菊",
+      "name": "张怀菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1958
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-隆俊",
+      "name": "李隆俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-李崇仁之妻",
+      "name": "李崇仁之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "birth": {
+        "year": 1959
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-彬",
+      "name": "李彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-元有",
+      "name": "李元有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-江琼",
+      "name": "李江琼",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-艳平",
+      "name": "李艳平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-李崇昌之妻",
+      "name": "李崇昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "伍氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-金凯",
+      "name": "李金凯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-金科",
+      "name": "李金科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:19-周发琼",
+      "name": "周发琼",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1972
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyue:20-海林",
+      "name": "李海林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华小平寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华小平寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengcong:17-宗发",
+      "child": "lipu:lideyue:18-德跃"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:18-德跃",
+      "b": "lipu:lideyue:18-李德跃之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德跃",
+      "child": "lipu:lideyue:19-福英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德跃",
+      "child": "lipu:lideyue:19-金妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengcong:17-宗发",
+      "child": "lipu:lideyue:18-德辉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:18-德辉",
+      "b": "lipu:lideyue:18-杨林英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德辉",
+      "child": "lipu:lideyue:19-崇秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德辉",
+      "child": "lipu:lideyue:19-崇美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德辉",
+      "child": "lipu:lideyue:19-崇敏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德跃",
+      "child": "lipu:lideyue:19-崇合"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:19-崇合",
+      "b": "lipu:lideyue:19-李崇合之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇合",
+      "child": "lipu:lideyue:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇合",
+      "child": "lipu:lideyue:20-国仙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德跃",
+      "child": "lipu:lideyue:19-崇富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:19-崇富",
+      "b": "lipu:lideyue:19-张怀菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇富",
+      "child": "lipu:lideyue:20-隆俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德辉",
+      "child": "lipu:lideyue:19-崇仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:19-崇仁",
+      "b": "lipu:lideyue:19-李崇仁之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇仁",
+      "child": "lipu:lideyue:20-彬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇仁",
+      "child": "lipu:lideyue:20-元有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇仁",
+      "child": "lipu:lideyue:20-江琼"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇仁",
+      "child": "lipu:lideyue:20-艳平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德辉",
+      "child": "lipu:lideyue:19-崇昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:19-崇昌",
+      "b": "lipu:lideyue:19-李崇昌之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇昌",
+      "child": "lipu:lideyue:20-金凯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇昌",
+      "child": "lipu:lideyue:20-金科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:18-德辉",
+      "child": "lipu:lideyue:19-崇全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyue:19-周发琼",
+      "b": "lipu:lideyue:19-崇全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyue:19-崇全",
+      "child": "lipu:lideyue:20-海林"
+    }
+  ]
+}
