@@ -1,5 +1,92 @@
 {
-    "branchKey":  null,
-    "branchLabel":  null,
-    "people":  null
+  "key": "lipu:lihongshun",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lihongshun:15-洪顺",
+      "name": "李洪顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡鼠场三苍土",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "deathPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·纳雍乡鼠场三苍土。"
+    },
+    {
+      "externalId": "lipu:lihongshun:16-洪陶",
+      "name": "李洪陶",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡鼠场三苍土",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "deathPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·纳雍乡鼠场三苍土。"
+    },
+    {
+      "externalId": "lipu:lihongshun:17-天高",
+      "name": "李天高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡鼠场三苍土",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "deathPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·纳雍乡鼠场三苍土。"
+    },
+    {
+      "externalId": "lipu:lihongshun:18-宗银",
+      "name": "李宗银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡鼠场三苍土",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡鼠场三苍土"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·纳雍乡鼠场三苍土。"
+    },
+    {
+      "externalId": "lipu:lihongshun:18-李宗银之妻",
+      "name": "李宗银之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "李氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongshun:15-洪顺",
+      "child": "lipu:lihongshun:16-洪陶"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongshun:16-洪陶",
+      "child": "lipu:lihongshun:17-天高"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongshun:17-天高",
+      "child": "lipu:lihongshun:18-宗银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongshun:18-宗银",
+      "b": "lipu:lihongshun:18-李宗银之妻"
+    }
+  ]
 }

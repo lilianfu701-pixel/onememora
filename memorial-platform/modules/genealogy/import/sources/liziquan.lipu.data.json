@@ -1,5 +1,85 @@
 {
-    "branchKey":  null,
-    "branchLabel":  null,
-    "people":  null
+  "key": "lipu:liziquan",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liziquan:17-自全",
+      "name": "李自全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡八耳岩脚",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡八耳岩脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·纳雍乡八耳岩脚"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·纳雍乡八耳岩脚。"
+    },
+    {
+      "externalId": "lipu:liziquan:18-永昌",
+      "name": "李永昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡八耳岩脚",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡八耳岩脚"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·纳雍乡八耳岩脚。"
+    },
+    {
+      "externalId": "lipu:liziquan:19-永达",
+      "name": "李永达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡八耳岩脚",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡八耳岩脚"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·纳雍乡八耳岩脚。"
+    },
+    {
+      "externalId": "lipu:liziquan:17-李自全之妻",
+      "name": "李自全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liziquan:18-李永昌之妻",
+      "name": "李永昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liziquan:17-李自全之妻",
+      "b": "lipu:liziquan:17-自全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liziquan:17-自全",
+      "child": "lipu:liziquan:18-永昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liziquan:18-李永昌之妻",
+      "b": "lipu:liziquan:18-永昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liziquan:18-永昌",
+      "child": "lipu:liziquan:19-永达"
+    }
+  ]
 }

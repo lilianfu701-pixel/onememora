@@ -1,5 +1,84 @@
 {
-    "branchKey":  null,
-    "branchLabel":  null,
-    "people":  null
+  "key": "lipu:lihonglian",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lihonglian:18-洪连",
+      "name": "李洪连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡·纳雍张杨柳村",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡·纳雍张杨柳村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·纳雍乡·纳雍张杨柳村。"
+    },
+    {
+      "externalId": "lipu:lihonglian:19-崇富",
+      "name": "李崇富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡·纳雍张杨柳村",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡·纳雍张杨柳村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·纳雍乡·纳雍张杨柳村。"
+    },
+    {
+      "externalId": "lipu:lihonglian:20-发学",
+      "name": "李发学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·纳雍乡·纳雍张杨柳村",
+      "birthPlace": {
+        "region": "贵州织金·纳雍乡·纳雍张杨柳村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·纳雍乡·纳雍张杨柳村。"
+    },
+    {
+      "externalId": "lipu:lihonglian:18-李洪连之妻",
+      "name": "李洪连之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihonglian:19-李崇富之妻",
+      "name": "李崇富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "李氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lihonglian:18-李洪连之妻",
+      "b": "lipu:lihonglian:18-洪连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihonglian:18-洪连",
+      "child": "lipu:lihonglian:19-崇富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihonglian:19-崇富",
+      "b": "lipu:lihonglian:19-李崇富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihonglian:19-崇富",
+      "child": "lipu:lihonglian:20-发学"
+    }
+  ]
 }

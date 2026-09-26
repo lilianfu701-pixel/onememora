@@ -1,5 +1,118 @@
 {
-    "branchKey":  null,
-    "branchLabel":  null,
-    "people":  null
+  "key": "lipu:lizongwu",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongwu:17-宗武",
+      "name": "李宗武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·自强乡·自强张寨脚村",
+      "birthPlace": {
+        "region": "贵州织金·自强乡·自强张寨脚村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·自强乡·自强张寨脚村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·自强乡·自强张寨脚村。"
+    },
+    {
+      "externalId": "lipu:lizongwu:18-发学",
+      "name": "李发学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·自强乡·自强张寨脚村",
+      "birthPlace": {
+        "region": "贵州织金·自强乡·自强张寨脚村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·自强乡·自强张寨脚村。"
+    },
+    {
+      "externalId": "lipu:lizongwu:19-发刚",
+      "name": "李发刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·自强乡·自强张寨脚村",
+      "birthPlace": {
+        "region": "贵州织金·自强乡·自强张寨脚村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·自强乡·自强张寨脚村。"
+    },
+    {
+      "externalId": "lipu:lizongwu:20-发榕",
+      "name": "李发榕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·自强乡·自强张寨脚村",
+      "birthPlace": {
+        "region": "贵州织金·自强乡·自强张寨脚村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·自强乡·自强张寨脚村。"
+    },
+    {
+      "externalId": "lipu:lizongwu:18-李发学之妻",
+      "name": "李发学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongwu:19-李发刚之妻",
+      "name": "李发刚之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongwu:20-李发榕之妻",
+      "name": "李发榕之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "李氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwu:17-宗武",
+      "child": "lipu:lizongwu:18-发学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwu:18-发学",
+      "b": "lipu:lizongwu:18-李发学之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwu:18-发学",
+      "child": "lipu:lizongwu:19-发刚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwu:19-发刚",
+      "b": "lipu:lizongwu:19-李发刚之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongwu:19-发刚",
+      "child": "lipu:lizongwu:20-发榕"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongwu:20-发榕",
+      "b": "lipu:lizongwu:20-李发榕之妻"
+    }
+  ]
 }

@@ -1,0 +1,741 @@
+{
+  "key": "lipu:litianyuan",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litianyuan:16-天元",
+      "name": "李天元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·猫场镇勾腰岩。上承云南正雄西·北照14代李起圣15代李正义分支从16代起"
+    },
+    {
+      "externalId": "lipu:litianyuan:16-天长",
+      "name": "李天长",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·猫场镇勾腰岩。"
+    },
+    {
+      "externalId": "lipu:litianyuan:17-俊宗",
+      "name": "李俊宗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·猫场镇勾腰岩。"
+    },
+    {
+      "externalId": "lipu:litianyuan:18-德兴",
+      "name": "李德兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·猫场镇勾腰岩。生于织金猫场区银勾腰，葬于银合乡滥坝"
+    },
+    {
+      "externalId": "lipu:litianyuan:18-德圣",
+      "name": "李德圣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·猫场镇勾腰岩。生于织金猫场区银勾腰，葬于织金马场小河"
+    },
+    {
+      "externalId": "lipu:litianyuan:18-德珍",
+      "name": "李德珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·猫场镇勾腰岩。生于织金猫场区银勾腰，葬于马场小河大丫口"
+    },
+    {
+      "externalId": "lipu:litianyuan:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·猫场镇勾腰岩。葬马场小河村"
+    },
+    {
+      "externalId": "lipu:litianyuan:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·猫场镇勾腰岩。生于织金马场小河村，葬马场过方"
+    },
+    {
+      "externalId": "lipu:litianyuan:19-崇才",
+      "name": "李崇才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1934
+      },
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·猫场镇勾腰岩。1934年生，葬织金马场布底村"
+    },
+    {
+      "externalId": "lipu:litianyuan:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1934
+      },
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·猫场镇勾腰岩。1934年生于织金猫场镇街上，葬织金猫场"
+    },
+    {
+      "externalId": "lipu:litianyuan:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1950,
+        "month": 6
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·猫场镇勾腰岩。1950年6月生于织金马场小河"
+    },
+    {
+      "externalId": "lipu:litianyuan:20-隆武",
+      "name": "李隆武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1959
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·猫场镇勾腰岩。1959年生于织金马场小河村"
+    },
+    {
+      "externalId": "lipu:litianyuan:20-隆艳",
+      "name": "李隆艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1968
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·猫场镇勾腰岩。1968年生"
+    },
+    {
+      "externalId": "lipu:litianyuan:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1975,
+        "month": 6
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·猫场镇勾腰岩。1975年6月生"
+    },
+    {
+      "externalId": "lipu:litianyuan:21-发金",
+      "name": "李发金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1983,
+        "month": 5
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·猫场镇勾腰岩。1983年5月生"
+    },
+    {
+      "externalId": "lipu:litianyuan:21-金国",
+      "name": "李金国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1987,
+        "month": 6
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·猫场镇勾腰岩。1987年6月生"
+    },
+    {
+      "externalId": "lipu:litianyuan:21-和平",
+      "name": "李和平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1985,
+        "month": 6
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·猫场镇勾腰岩。1985年6月生"
+    },
+    {
+      "externalId": "lipu:litianyuan:21-发江",
+      "name": "李发江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1992,
+        "month": 2,
+        "day": 3
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·猫场镇勾腰岩。1992年2月3日生"
+    },
+    {
+      "externalId": "lipu:litianyuan:21-发红",
+      "name": "李发红",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1994,
+        "month": 6,
+        "day": 7
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·猫场镇勾腰岩。1994年6月7日生"
+    },
+    {
+      "externalId": "lipu:litianyuan:22-海军",
+      "name": "李海军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1995,
+        "month": 7,
+        "day": 8
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·猫场镇勾腰岩。1995年7月8日生"
+    },
+    {
+      "externalId": "lipu:litianyuan:22-先贵",
+      "name": "李先贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1997,
+        "month": 5,
+        "day": 6
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "bio": "陇西李氏·李代龙支系第22代，贵州织金·猫场镇勾腰岩。1997年5月6日生"
+    },
+    {
+      "externalId": "lipu:litianyuan:16-李天元之妻",
+      "name": "李天元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:17-李俊宗之妻",
+      "name": "李俊宗之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:18-李德兴之妻",
+      "name": "李德兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:18-李德圣之妻",
+      "name": "李德圣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:18-李德珍之妻",
+      "name": "李德珍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:19-李崇明之妻",
+      "name": "李崇明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:20-裕文",
+      "name": "李裕文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      }
+    },
+    {
+      "externalId": "lipu:litianyuan:20-裕武",
+      "name": "李裕武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "deathPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      }
+    },
+    {
+      "externalId": "lipu:litianyuan:19-李崇才之妻",
+      "name": "李崇才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianyuan:20-焦树德",
+      "name": "焦树德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1934
+      }
+    },
+    {
+      "externalId": "lipu:litianyuan:21-艳",
+      "name": "李艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-斌",
+      "name": "李斌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-三",
+      "name": "李三",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-四",
+      "name": "李四",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-子英",
+      "name": "李子英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:20-肖发秀",
+      "name": "肖发秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1953
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-发平",
+      "name": "李发平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:20-苟云群",
+      "name": "苟云群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1959,
+        "month": 12,
+        "day": 24
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-全国",
+      "name": "李全国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·猫场镇勾腰岩",
+      "birthPlace": {
+        "region": "贵州织金·猫场镇勾腰岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:20-陈继婵",
+      "name": "陈继婵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1972
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianyuan:21-张妹幺",
+      "name": "张妹幺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:16-天元",
+      "b": "lipu:litianyuan:16-李天元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:16-天元",
+      "child": "lipu:litianyuan:17-俊宗"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:17-俊宗",
+      "b": "lipu:litianyuan:17-李俊宗之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:17-俊宗",
+      "child": "lipu:litianyuan:18-德兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:18-德兴",
+      "b": "lipu:litianyuan:18-李德兴之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:17-俊宗",
+      "child": "lipu:litianyuan:18-德圣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:18-德圣",
+      "b": "lipu:litianyuan:18-李德圣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:17-俊宗",
+      "child": "lipu:litianyuan:18-德珍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:18-德珍",
+      "b": "lipu:litianyuan:18-李德珍之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:18-德兴",
+      "child": "lipu:litianyuan:19-崇明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:19-崇明",
+      "b": "lipu:litianyuan:19-李崇明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:18-德圣",
+      "child": "lipu:litianyuan:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:19-崇贵",
+      "b": "lipu:litianyuan:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:19-崇贵",
+      "child": "lipu:litianyuan:20-裕文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:19-崇贵",
+      "child": "lipu:litianyuan:20-裕武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:19-崇才",
+      "b": "lipu:litianyuan:19-李崇才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:19-崇明",
+      "child": "lipu:litianyuan:20-隆昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:20-焦树德",
+      "b": "lipu:litianyuan:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆昌",
+      "child": "lipu:litianyuan:21-艳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆昌",
+      "child": "lipu:litianyuan:21-斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆昌",
+      "child": "lipu:litianyuan:21-三"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆昌",
+      "child": "lipu:litianyuan:21-四"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆昌",
+      "child": "lipu:litianyuan:21-子英"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:20-肖发秀",
+      "b": "lipu:litianyuan:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆文",
+      "child": "lipu:litianyuan:21-发平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆文",
+      "child": "lipu:litianyuan:21-发全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:20-苟云群",
+      "b": "lipu:litianyuan:20-隆武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆武",
+      "child": "lipu:litianyuan:21-全国"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:20-陈继婵",
+      "b": "lipu:litianyuan:20-隆艳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianyuan:21-发忠",
+      "b": "lipu:litianyuan:21-张妹幺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆武",
+      "child": "lipu:litianyuan:21-和平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆艳",
+      "child": "lipu:litianyuan:21-发江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:20-隆艳",
+      "child": "lipu:litianyuan:21-发红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:21-发忠",
+      "child": "lipu:litianyuan:22-海军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianyuan:21-发忠",
+      "child": "lipu:litianyuan:22-先贵"
+    }
+  ]
+}
