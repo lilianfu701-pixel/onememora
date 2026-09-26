@@ -75,6 +75,7 @@ import lipu_litianjin from "./litianjin.lipu.data.json";
 import lipu_litianlang from "./litianlang.lipu.data.json";
 import lipu_litianming from "./litianming.lipu.data.json";
 import lipu_litianyuan from "./litianyuan.lipu.data.json";
+import lipu_lijinzhong from "./lijinzhong.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -149,6 +150,7 @@ const LABELS: Record<string, string> = {
   litianlang: "李氏·李天朗一支（李代龙支系谱·化起镇罗家寨·十六至二十代）",
   litianming: "李氏·李天铭一支（李代龙支系谱·化起镇罗家寨·十六至二十二代）",
   litianyuan: "李氏·李天元一支（李代龙支系谱·猫场镇勾腰岩·十六至二十二代）",
+  lijinzhong: "李氏·李进忠一支（李代龙支系谱·牛场镇千二系·主干及德盛德富房·十至二十代）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -223,6 +225,7 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["litianlang", lipu_litianlang as GenealogyDataset],
   ["litianming", lipu_litianming as GenealogyDataset],
   ["litianyuan", lipu_litianyuan as GenealogyDataset],
+  ["lijinzhong", lipu_lijinzhong as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
