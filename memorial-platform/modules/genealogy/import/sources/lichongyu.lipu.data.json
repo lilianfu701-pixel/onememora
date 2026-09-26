@@ -1,0 +1,109 @@
+{
+  "key": "lipu:lichongyu",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishide:16-天位",
+      "name": "李天位",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果镇克窝大荞地。"
+    },
+    {
+      "externalId": "lipu:lichongyu:17-崇羽",
+      "name": "李崇羽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果镇克窝大荞地。即天位之子宗羽（谱中作崇羽）。生于中寨大院"
+    },
+    {
+      "externalId": "lipu:lichongyu:17-李崇羽之妻",
+      "name": "李崇羽之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichongyu:18-元英",
+      "name": "李元英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      }
+    },
+    {
+      "externalId": "lipu:lichongyu:18-秀珍",
+      "name": "李秀珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      }
+    },
+    {
+      "externalId": "lipu:lichongyu:18-幺妹",
+      "name": "李幺妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishide:16-天位",
+      "child": "lipu:lichongyu:17-崇羽"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongyu:17-崇羽",
+      "b": "lipu:lichongyu:17-李崇羽之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongyu:17-崇羽",
+      "child": "lipu:lichongyu:18-元英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongyu:17-崇羽",
+      "child": "lipu:lichongyu:18-秀珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongyu:17-崇羽",
+      "child": "lipu:lichongyu:18-幺妹"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "key": "lipu:lidrong",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishide:17-宗武",
+      "name": "李宗武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果镇克窝大荞地。"
+    },
+    {
+      "externalId": "lipu:lidrong:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1985
+      },
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇克窝大荞地。生于克窝，1985年5月8日殁于克窝，葬克窝小寨，有碑记，偶杨氏生于桂果小河沟，葬新华三岔沟"
+    },
+    {
+      "externalId": "lipu:lidrong:19-崇厚",
+      "name": "李崇厚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1921,
+        "month": 12,
+        "day": 2
+      },
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇克窝大荞地。1921年12月2日生于桂果小河沟，殁，葬桂大桥地，姙张氏生于桂果龙井干河，葬克窝长岭岗"
+    },
+    {
+      "externalId": "lipu:lidrong:19-崇先",
+      "name": "李崇先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1924,
+        "month": 1,
+        "day": 15
+      },
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇克窝大荞地。1924年1月15日生于克窝大桥地，姙张珍生于桂果可乐冲，葬克窝三岔沟"
+    },
+    {
+      "externalId": "lipu:lidrong:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1933,
+        "month": 3,
+        "day": 2
+      },
+      "death": {
+        "year": 1982
+      },
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇克窝大荞地。1933年3月2日生于克窝大桥地，1982年殁，葬织金南门三棵树，姙张银秀生于织金珠藏草耷"
+    },
+    {
+      "externalId": "lipu:lidrong:18-李德荣之妻",
+      "name": "李德荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "death": {
+        "year": 1978
+      }
+    },
+    {
+      "externalId": "lipu:lidrong:19-端阳",
+      "name": "李端阳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      }
+    },
+    {
+      "externalId": "lipu:lidrong:19-李崇厚之妻",
+      "name": "李崇厚之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1921
+      },
+      "death": {
+        "year": 1952
+      }
+    },
+    {
+      "externalId": "lipu:lidrong:20-隆勇",
+      "name": "李隆勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-隆芬",
+      "name": "李隆芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-隆秀",
+      "name": "李隆秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:19-张珍",
+      "name": "张珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1925
+      },
+      "death": {
+        "year": 1996
+      }
+    },
+    {
+      "externalId": "lipu:lidrong:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-隆俊",
+      "name": "李隆俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-晓飞",
+      "name": "李晓飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:19-张银秀",
+      "name": "张银秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1932
+      }
+    },
+    {
+      "externalId": "lipu:lidrong:20-晓祥",
+      "name": "李晓祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-晓翠",
+      "name": "李晓翠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-晓凤",
+      "name": "李晓凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidrong:20-冬梅",
+      "name": "李冬梅",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishide:17-宗武",
+      "child": "lipu:lidrong:18-德荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidrong:18-德荣",
+      "b": "lipu:lidrong:18-李德荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:18-德荣",
+      "child": "lipu:lidrong:19-端阳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:18-德荣",
+      "child": "lipu:lidrong:19-崇厚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidrong:19-崇厚",
+      "b": "lipu:lidrong:19-李崇厚之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇厚",
+      "child": "lipu:lidrong:20-隆勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇厚",
+      "child": "lipu:lidrong:20-隆芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇厚",
+      "child": "lipu:lidrong:20-隆秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:18-德荣",
+      "child": "lipu:lidrong:19-崇先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidrong:19-崇先",
+      "b": "lipu:lidrong:19-张珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇先",
+      "child": "lipu:lidrong:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇先",
+      "child": "lipu:lidrong:20-隆俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇先",
+      "child": "lipu:lidrong:20-晓飞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:18-德荣",
+      "child": "lipu:lidrong:19-崇文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidrong:19-崇文",
+      "b": "lipu:lidrong:19-张银秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇文",
+      "child": "lipu:lidrong:20-晓祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇文",
+      "child": "lipu:lidrong:20-晓翠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇文",
+      "child": "lipu:lidrong:20-晓凤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidrong:19-崇文",
+      "child": "lipu:lidrong:20-冬梅"
+    }
+  ]
+}

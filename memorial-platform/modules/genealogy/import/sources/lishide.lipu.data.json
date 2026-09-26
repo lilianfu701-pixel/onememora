@@ -98,7 +98,7 @@
       "deathPlace": {
         "region": "贵州织金·桂果乡克窝大乔地"
       },
-      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果乡克窝大乔地。生于中寨大院，葬桂果可乐冲，有碑记，姙杨氏生于织金以那杨宝寨，葬桂果卖牛市"
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果乡克窝大乔地。生于中寨大院，葬桂果可乐冲，有碑记，姙杨氏生于织金以那杨宝寨，葬桂果卖牛市。另有子德荣，见李德荣一支"
     },
     {
       "externalId": "lipu:lishide:18-德元",
@@ -115,7 +115,7 @@
       "deathPlace": {
         "region": "贵州织金·桂果乡克窝大乔地"
       },
-      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果乡克窝大乔地。生于大院大新厂，1963年10月28日殁于大新厂，葬克窝三岔沟大坪上，姙张氏生于织金中寨大蒙弄，1975年11月9日殁"
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果乡克窝大乔地。生于大院大新厂，1963年10月28日殁于大新厂，葬克窝三岔沟大坪上，姙张氏生于织金中寨大蒙弄，1975年11月9日殁。另有子崇珍，见李崇珍一支"
     },
     {
       "externalId": "lipu:lishide:19-崇元",
@@ -307,19 +307,6 @@
       ]
     },
     {
-      "externalId": "lipu:lishide:18-德荣",
-      "name": "李德荣",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果乡克窝大乔地",
-      "birthPlace": {
-        "region": "贵州织金·桂果乡克窝大乔地"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果乡克窝大乔地"
-      }
-    },
-    {
       "externalId": "lipu:lishide:18-小妹",
       "name": "李小妹",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -366,19 +353,6 @@
       "aliases": [
         "张氏"
       ]
-    },
-    {
-      "externalId": "lipu:lishide:19-崇珍",
-      "name": "李崇珍",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果乡克窝大乔地",
-      "birthPlace": {
-        "region": "贵州织金·桂果乡克窝大乔地"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果乡克窝大乔地"
-      }
     },
     {
       "externalId": "lipu:lishide:19-崇秀",
@@ -512,11 +486,6 @@
     {
       "kind": "parent",
       "parent": "lipu:lishide:17-宗武",
-      "child": "lipu:lishide:18-德荣"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishide:17-宗武",
       "child": "lipu:lishide:18-小妹"
     },
     {
@@ -538,11 +507,6 @@
       "kind": "spouse",
       "a": "lipu:lishide:18-德元",
       "b": "lipu:lishide:18-李德元之妻"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishide:18-德元",
-      "child": "lipu:lishide:19-崇珍"
     },
     {
       "kind": "parent",
