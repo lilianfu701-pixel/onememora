@@ -1,0 +1,644 @@
+{
+  "key": "lipu:liruyan",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liruyan:15-儒彦",
+      "name": "李儒彦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·桂果镇新华冒龙井。上承威宁14代李文通分支从15代起。生于威宁包谷山。另有子文凤，见文凤房分支"
+    },
+    {
+      "externalId": "lipu:liruyan:16-文龙",
+      "name": "李文龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果镇新华冒龙井。生于威宁包谷山"
+    },
+    {
+      "externalId": "lipu:liruyan:17-成贵",
+      "name": "李成贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果镇新华冒龙井。生于威宁包谷山"
+    },
+    {
+      "externalId": "lipu:liruyan:18-应康",
+      "name": "李应康",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙申年5月5日"
+      },
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇新华冒龙井。丙申年5月5日生于织金冒龙井，殁于乙未年9月30日，葬于新华黑头坡，祖氏葬于头坡窑上"
+    },
+    {
+      "externalId": "lipu:liruyan:19-举富",
+      "name": "李举富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华冒龙井。生于织金冒龙井"
+    },
+    {
+      "externalId": "lipu:liruyan:19-举会",
+      "name": "李举会",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华冒龙井。生于新华冒龙井"
+    },
+    {
+      "externalId": "lipu:liruyan:19-举禄",
+      "name": "李举禄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "庚寅年8月18日"
+      },
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华冒龙井。庚寅年8月18日生于新华冒龙井，殁于庚寅年12月22日，葬黑头坡，姙钟、蔡氏葬果保落冲"
+    },
+    {
+      "externalId": "lipu:liruyan:19-举银",
+      "name": "李举银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华冒龙井。生于新华冒龙井"
+    },
+    {
+      "externalId": "lipu:liruyan:19-举贵",
+      "name": "李举贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇新华冒龙井。生于新华冒龙井"
+    },
+    {
+      "externalId": "lipu:liruyan:15-李儒彦之妻",
+      "name": "李儒彦之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:16-李文龙之妻",
+      "name": "李文龙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "藏氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:17-成朋",
+      "name": "李成朋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:17-成北",
+      "name": "李成北",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:17-成先",
+      "name": "李成先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:17-成科",
+      "name": "李成科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:17-李成贵之妻",
+      "name": "李成贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:18-应桥",
+      "name": "李应桥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:18-应配",
+      "name": "李应配",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:18-应庆",
+      "name": "李应庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:18-应发",
+      "name": "李应发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyan:19-李举富之妻",
+      "name": "李举富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "尧氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴思",
+      "name": "李兴思",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴林",
+      "name": "李兴林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴科",
+      "name": "李兴科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴祥",
+      "name": "李兴祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴顺",
+      "name": "李兴顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:19-李举会之妻",
+      "name": "李举会之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:20-银祥",
+      "name": "李银祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴臣",
+      "name": "李兴臣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴邦",
+      "name": "李兴邦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴文",
+      "name": "李兴文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:19-李举禄之妻",
+      "name": "李举禄之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "钟氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴云",
+      "name": "李兴云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:19-李举银之妻",
+      "name": "李举银之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴丹",
+      "name": "李兴丹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴会",
+      "name": "李兴会",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:19-李举贵之妻",
+      "name": "李举贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴青",
+      "name": "李兴青",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:15-儒彦",
+      "b": "lipu:liruyan:15-李儒彦之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:15-儒彦",
+      "child": "lipu:liruyan:16-文龙"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:16-文龙",
+      "b": "lipu:liruyan:16-李文龙之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:16-文龙",
+      "child": "lipu:liruyan:17-成朋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:16-文龙",
+      "child": "lipu:liruyan:17-成北"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:16-文龙",
+      "child": "lipu:liruyan:17-成先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:16-文龙",
+      "child": "lipu:liruyan:17-成科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:16-文龙",
+      "child": "lipu:liruyan:17-成贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:17-成贵",
+      "b": "lipu:liruyan:17-李成贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:17-成贵",
+      "child": "lipu:liruyan:18-应桥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:17-成贵",
+      "child": "lipu:liruyan:18-应配"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:17-成贵",
+      "child": "lipu:liruyan:18-应庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:17-成贵",
+      "child": "lipu:liruyan:18-应发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:17-成贵",
+      "child": "lipu:liruyan:18-应康"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:18-应康",
+      "child": "lipu:liruyan:19-举富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:19-举富",
+      "b": "lipu:liruyan:19-李举富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举富",
+      "child": "lipu:liruyan:20-兴思"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举富",
+      "child": "lipu:liruyan:20-兴林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举富",
+      "child": "lipu:liruyan:20-兴科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举富",
+      "child": "lipu:liruyan:20-兴祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举富",
+      "child": "lipu:liruyan:20-兴顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:18-应康",
+      "child": "lipu:liruyan:19-举会"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:19-举会",
+      "b": "lipu:liruyan:19-李举会之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举会",
+      "child": "lipu:liruyan:20-银祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举会",
+      "child": "lipu:liruyan:20-兴臣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举会",
+      "child": "lipu:liruyan:20-兴邦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举会",
+      "child": "lipu:liruyan:20-兴文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:18-应康",
+      "child": "lipu:liruyan:19-举禄"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:19-举禄",
+      "b": "lipu:liruyan:19-李举禄之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举禄",
+      "child": "lipu:liruyan:20-兴云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:18-应康",
+      "child": "lipu:liruyan:19-举银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:19-举银",
+      "b": "lipu:liruyan:19-李举银之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举银",
+      "child": "lipu:liruyan:20-兴丹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举银",
+      "child": "lipu:liruyan:20-兴会"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:18-应康",
+      "child": "lipu:liruyan:19-举贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyan:19-举贵",
+      "b": "lipu:liruyan:19-李举贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举贵",
+      "child": "lipu:liruyan:20-兴青"
+    }
+  ]
+}

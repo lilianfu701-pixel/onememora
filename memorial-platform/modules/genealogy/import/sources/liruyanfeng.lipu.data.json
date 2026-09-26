@@ -1,0 +1,145 @@
+{
+  "key": "lipu:liruyanfeng",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liruyan:15-儒彦",
+      "name": "李儒彦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·桂果镇新华冒龙井。"
+    },
+    {
+      "externalId": "lipu:liruyanfeng:16-文凤",
+      "name": "李文凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果镇新华冒龙井。生于威宁包谷山，姙晏、黄氏"
+    },
+    {
+      "externalId": "lipu:liruyanfeng:16-李文凤之妻",
+      "name": "李文凤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "晏氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruyanfeng:17-成芳",
+      "name": "李成芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyanfeng:17-成材",
+      "name": "李成材",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyanfeng:17-成富",
+      "name": "李成富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyanfeng:17-成明",
+      "name": "李成明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    },
+    {
+      "externalId": "lipu:liruyanfeng:17-成荣",
+      "name": "李成荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:15-儒彦",
+      "child": "lipu:liruyanfeng:16-文凤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruyanfeng:16-文凤",
+      "b": "lipu:liruyanfeng:16-李文凤之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyanfeng:16-文凤",
+      "child": "lipu:liruyanfeng:17-成芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyanfeng:16-文凤",
+      "child": "lipu:liruyanfeng:17-成材"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyanfeng:16-文凤",
+      "child": "lipu:liruyanfeng:17-成富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyanfeng:16-文凤",
+      "child": "lipu:liruyanfeng:17-成明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyanfeng:16-文凤",
+      "child": "lipu:liruyanfeng:17-成荣"
+    }
+  ]
+}
