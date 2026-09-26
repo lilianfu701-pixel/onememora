@@ -1,0 +1,501 @@
+{
+  "key": "lipu:lichongzhen",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishide:18-德元",
+      "name": "李德元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果镇克窝大荞地。"
+    },
+    {
+      "externalId": "lipu:lichongzhen:19-崇珍",
+      "name": "李崇珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1923,
+        "month": 6,
+        "day": 15
+      },
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果镇克窝大荞地。1923年6月15日生于克窝大荞地"
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1943,
+        "month": 12,
+        "day": 5
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇克窝大荞地。1943年12月5日生于克窝大荞地"
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-隆刚",
+      "name": "李隆刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1946,
+        "month": 8,
+        "day": 26
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇克窝大荞地。1946年8月26日生于克窝大荞地"
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-隆跃",
+      "name": "李隆跃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1950,
+        "month": 10,
+        "day": 16
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇克窝大荞地。1950年10月16日生于克窝大荞地"
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-隆明",
+      "name": "李隆明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1952,
+        "month": 10,
+        "day": 9
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇克窝大荞地。1952年10月9日生于克窝大荞地"
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-隆美",
+      "name": "李隆美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1954,
+        "month": 10,
+        "day": 4
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·桂果镇克窝大荞地。1954年10月4日生于克窝大荞地"
+    },
+    {
+      "externalId": "lipu:lichongzhen:19-杨光秀",
+      "name": "杨光秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1921
+      }
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-毛朝珍",
+      "name": "毛朝珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1956
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-代群",
+      "name": "李代群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-张槐义",
+      "name": "张槐义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1947
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发琴",
+      "name": "李发琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发燕",
+      "name": "李发燕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发菊",
+      "name": "李发菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-小红",
+      "name": "李小红",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-杨世芬",
+      "name": "杨世芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1954
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发江",
+      "name": "李发江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发慧",
+      "name": "李发慧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发翠",
+      "name": "李发翠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-张燕",
+      "name": "张燕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1955
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发英",
+      "name": "李发英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-小琴",
+      "name": "李小琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-桂琴",
+      "name": "李桂琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:20-周兴云",
+      "name": "周兴云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1947
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发友",
+      "name": "李发友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-发松",
+      "name": "李发松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhen:21-英",
+      "name": "李英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇克窝大荞地",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇克窝大荞地"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishide:18-德元",
+      "child": "lipu:lichongzhen:19-崇珍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhen:19-崇珍",
+      "b": "lipu:lichongzhen:19-杨光秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:19-崇珍",
+      "child": "lipu:lichongzhen:20-隆华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhen:20-毛朝珍",
+      "b": "lipu:lichongzhen:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆华",
+      "child": "lipu:lichongzhen:21-代群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:19-崇珍",
+      "child": "lipu:lichongzhen:20-隆刚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhen:20-张槐义",
+      "b": "lipu:lichongzhen:20-隆刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆刚",
+      "child": "lipu:lichongzhen:21-发荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆刚",
+      "child": "lipu:lichongzhen:21-发琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆刚",
+      "child": "lipu:lichongzhen:21-发燕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆刚",
+      "child": "lipu:lichongzhen:21-发菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆刚",
+      "child": "lipu:lichongzhen:21-小红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:19-崇珍",
+      "child": "lipu:lichongzhen:20-隆跃"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhen:20-杨世芬",
+      "b": "lipu:lichongzhen:20-隆跃"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆跃",
+      "child": "lipu:lichongzhen:21-发江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆跃",
+      "child": "lipu:lichongzhen:21-发慧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆跃",
+      "child": "lipu:lichongzhen:21-发翠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:19-崇珍",
+      "child": "lipu:lichongzhen:20-隆明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhen:20-张燕",
+      "b": "lipu:lichongzhen:20-隆明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆明",
+      "child": "lipu:lichongzhen:21-发全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆明",
+      "child": "lipu:lichongzhen:21-发英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆明",
+      "child": "lipu:lichongzhen:21-小琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆明",
+      "child": "lipu:lichongzhen:21-桂琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:19-崇珍",
+      "child": "lipu:lichongzhen:20-隆美"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhen:20-周兴云",
+      "b": "lipu:lichongzhen:20-隆美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆美",
+      "child": "lipu:lichongzhen:21-发友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆美",
+      "child": "lipu:lichongzhen:21-发松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhen:20-隆美",
+      "child": "lipu:lichongzhen:21-英"
+    }
+  ]
+}
