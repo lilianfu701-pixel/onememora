@@ -1,0 +1,472 @@
+{
+  "key": "lipu:lijianyouzm",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lijianyou:16-天恩",
+      "name": "李天恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·实兴乡干河老蒙寨。"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:17-宗明",
+      "name": "李宗明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸丑年腊月14日"
+      },
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·实兴乡干河老蒙寨。癸丑年腊月14日生于桂果干河老蒙寨，殁于1948年，葬桂果干河水库大滩坝，姙杨氏壬子年9月20日生，殁于1970年，葬桂果干河老蒙寨岗架"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:18-德仁",
+      "name": "李德仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1935
+      },
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡干河老蒙寨。1935年正月30日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:18-德兴",
+      "name": "李德兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1939,
+        "month": 8,
+        "day": 30
+      },
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡干河老蒙寨。1939年8月30日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:18-德智",
+      "name": "李德智",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1943,
+        "month": 10,
+        "day": 24
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·实兴乡干河老蒙寨。1943年10月24日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1954,
+        "month": 6,
+        "day": 15
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡干河老蒙寨。1954年6月15日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-崇伦",
+      "name": "李崇伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1951,
+        "month": 6,
+        "day": 25
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡干河老蒙寨。1951年6月25日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-崇学",
+      "name": "李崇学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1961,
+        "month": 8,
+        "day": 25
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡干河老蒙寨。1961年8月25日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-崇光",
+      "name": "李崇光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1963,
+        "month": 10
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡干河老蒙寨。1963年10月初六生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-崇建",
+      "name": "李崇建",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1970,
+        "month": 9,
+        "day": 16
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·实兴乡干河老蒙寨。1970年9月16日生于老蒙寨"
+    },
+    {
+      "externalId": "lipu:lijianyouzm:17-李宗明之妻",
+      "name": "李宗明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lijianyouzm:18-李德仁之妻",
+      "name": "李德仁之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "birth": {
+        "year": 1932
+      }
+    },
+    {
+      "externalId": "lipu:lijianyouzm:18-郭太芝",
+      "name": "郭太芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1943
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-崇川",
+      "name": "李崇川",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:18-龙从秀",
+      "name": "龙从秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1950
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-刘德英",
+      "name": "刘德英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1955
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-陶登飞",
+      "name": "陶登飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1951
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:20-隆贵",
+      "name": "李隆贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:20-隆义",
+      "name": "李隆义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-严发菊",
+      "name": "严发菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1966
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:20-隆胜",
+      "name": "李隆胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-施少英",
+      "name": "施少英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1965
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:20-隆成",
+      "name": "李隆成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:20-隆永",
+      "name": "李隆永",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡干河老蒙寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡干河老蒙寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijianyouzm:19-李崇建之妻",
+      "name": "李崇建之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "侯氏"
+      ],
+      "birth": {
+        "year": 1970
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyou:16-天恩",
+      "child": "lipu:lijianyouzm:17-宗明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:17-宗明",
+      "b": "lipu:lijianyouzm:17-李宗明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:17-宗明",
+      "child": "lipu:lijianyouzm:18-德仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:18-德仁",
+      "b": "lipu:lijianyouzm:18-李德仁之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:17-宗明",
+      "child": "lipu:lijianyouzm:18-德兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:18-德兴",
+      "b": "lipu:lijianyouzm:18-郭太芝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:18-德兴",
+      "child": "lipu:lijianyouzm:19-崇川"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:17-宗明",
+      "child": "lipu:lijianyouzm:18-德智"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:18-德智",
+      "b": "lipu:lijianyouzm:18-龙从秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:18-德仁",
+      "child": "lipu:lijianyouzm:19-崇文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:19-刘德英",
+      "b": "lipu:lijianyouzm:19-崇文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:19-崇文",
+      "child": "lipu:lijianyouzm:20-隆富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:18-德仁",
+      "child": "lipu:lijianyouzm:19-崇伦"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:19-崇伦",
+      "b": "lipu:lijianyouzm:19-陶登飞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:19-崇伦",
+      "child": "lipu:lijianyouzm:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:19-崇伦",
+      "child": "lipu:lijianyouzm:20-隆义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:18-德仁",
+      "child": "lipu:lijianyouzm:19-崇学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:19-严发菊",
+      "b": "lipu:lijianyouzm:19-崇学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:19-崇学",
+      "child": "lipu:lijianyouzm:20-隆胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:18-德兴",
+      "child": "lipu:lijianyouzm:19-崇光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:19-崇光",
+      "b": "lipu:lijianyouzm:19-施少英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:19-崇光",
+      "child": "lipu:lijianyouzm:20-隆成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:19-崇光",
+      "child": "lipu:lijianyouzm:20-隆永"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijianyouzm:18-德智",
+      "child": "lipu:lijianyouzm:19-崇建"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijianyouzm:19-崇建",
+      "b": "lipu:lijianyouzm:19-李崇建之妻"
+    }
+  ]
+}
