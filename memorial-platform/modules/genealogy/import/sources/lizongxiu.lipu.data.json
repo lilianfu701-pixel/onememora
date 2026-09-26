@@ -1,0 +1,467 @@
+{
+  "key": "lipu:lizongxiu",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishixian:16-天明",
+      "name": "李天明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果新华后麻窝。"
+    },
+    {
+      "externalId": "lipu:lizongxiu:17-宗秀",
+      "name": "李宗秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·桂果新华后麻窝。姙张氏葬甲上石庄，续姙雷氏葬于老鹰山。续娶生德佩、德安；另子德方，见宗秀房·德方德佩德安分支"
+    },
+    {
+      "externalId": "lipu:lizongxiu:18-德怀",
+      "name": "李德怀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1881
+      },
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果新华后麻窝。1881年生于桂果克窝，葬克窝荞地，偶刘氏葬于新华山岔沟"
+    },
+    {
+      "externalId": "lipu:lizongxiu:18-德润",
+      "name": "李德润",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·桂果新华后麻窝。生于新华后麻窝"
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙午年5月12日"
+      },
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果新华后麻窝。丙午年5月12日生于桂果克窝，偶刘氏丙午年生于实兴干河长冲，葬新华公花"
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-崇安",
+      "name": "李崇安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1910,
+        "month": 11,
+        "day": 12
+      },
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果新华后麻窝。1910年11月12日生于桂果克窝，葬克窝鱼洞口，偶徐氏葬马路脚大水井"
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-崇海",
+      "name": "李崇海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果新华后麻窝。生于桂果克窝"
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-崇庆",
+      "name": "李崇庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲辰年3月22日"
+      },
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·桂果新华后麻窝。甲辰年3月22日生于新华后麻窝，偶王氏壬寅年12月10日生于新华后麻窝，葬水坝石庄"
+    },
+    {
+      "externalId": "lipu:lizongxiu:17-李宗秀之妻",
+      "name": "李宗秀之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongxiu:18-李德怀之妻",
+      "name": "李德怀之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "birth": {
+        "year": 1882
+      }
+    },
+    {
+      "externalId": "lipu:lizongxiu:18-李德润之妻",
+      "name": "李德润之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-华友",
+      "name": "李华友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆方",
+      "name": "李隆方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-李崇安之妻",
+      "name": "李崇安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ],
+      "birth": {
+        "year": 1901
+      }
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆顺",
+      "name": "李隆顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-李崇海之妻",
+      "name": "李崇海之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆仕",
+      "name": "李隆仕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆举",
+      "name": "李隆举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆珍",
+      "name": "李隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆芬",
+      "name": "李隆芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:19-李崇庆之妻",
+      "name": "李崇庆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆章",
+      "name": "李隆章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆安",
+      "name": "李隆安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆香",
+      "name": "李隆香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongxiu:20-隆兴",
+      "name": "李隆兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixian:16-天明",
+      "child": "lipu:lizongxiu:17-宗秀"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:17-宗秀",
+      "b": "lipu:lizongxiu:17-李宗秀之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:17-宗秀",
+      "child": "lipu:lizongxiu:18-德怀"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:18-德怀",
+      "b": "lipu:lizongxiu:18-李德怀之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:17-宗秀",
+      "child": "lipu:lizongxiu:18-德润"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:18-德润",
+      "b": "lipu:lizongxiu:18-李德润之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:18-德润",
+      "child": "lipu:lizongxiu:19-华友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:18-德怀",
+      "child": "lipu:lizongxiu:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:19-崇贵",
+      "b": "lipu:lizongxiu:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇贵",
+      "child": "lipu:lizongxiu:20-隆方"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇贵",
+      "child": "lipu:lizongxiu:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:18-德怀",
+      "child": "lipu:lizongxiu:19-崇安"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:19-崇安",
+      "b": "lipu:lizongxiu:19-李崇安之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇安",
+      "child": "lipu:lizongxiu:20-隆顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:18-德润",
+      "child": "lipu:lizongxiu:19-崇海"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:19-崇海",
+      "b": "lipu:lizongxiu:19-李崇海之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇海",
+      "child": "lipu:lizongxiu:20-隆仕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇海",
+      "child": "lipu:lizongxiu:20-隆举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇海",
+      "child": "lipu:lizongxiu:20-隆珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇海",
+      "child": "lipu:lizongxiu:20-隆芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:18-德润",
+      "child": "lipu:lizongxiu:19-崇庆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongxiu:19-崇庆",
+      "b": "lipu:lizongxiu:19-李崇庆之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇庆",
+      "child": "lipu:lizongxiu:20-隆章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇庆",
+      "child": "lipu:lizongxiu:20-隆安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇庆",
+      "child": "lipu:lizongxiu:20-隆香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu:19-崇庆",
+      "child": "lipu:lizongxiu:20-隆兴"
+    }
+  ]
+}

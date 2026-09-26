@@ -42,7 +42,7 @@
       "deathPlace": {
         "region": "贵州织金·桂果克窝村下寨"
       },
-      "bio": "陇西李氏·李代龙支系第13代，贵州织金·桂果克窝村下寨。"
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·桂果克窝村下寨。子文另立李文一支"
     },
     {
       "externalId": "lipu:lishixian:14-昙",
@@ -90,7 +90,7 @@
       "deathPlace": {
         "region": "贵州织金·桂果克窝村下寨"
       },
-      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果克窝村下寨。庚寅年正月23日生于桂果新华后麻窝，葬新华学校背后，姙龙氏戊子年2月13日生，葬实兴乡龙井打桶寨。另有子宗富，见李宗富一支"
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·桂果克窝村下寨。庚寅年正月23日生于桂果新华后麻窝，葬新华学校背后，姙龙氏戊子年2月13日生，葬实兴乡龙井打桶寨。另有子宗富（见李宗富一支）、宗保、宗育、宗秀（见后麻窝宗保宗育房、宗秀房分支）"
     },
     {
       "externalId": "lipu:lishixian:17-宗寿",
@@ -266,19 +266,6 @@
       }
     },
     {
-      "externalId": "lipu:lishixian:14-文",
-      "name": "李文",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果克窝村下寨",
-      "birthPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      }
-    },
-    {
       "externalId": "lipu:lishixian:14-堂",
       "name": "李堂",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -382,45 +369,6 @@
       "aliases": [
         "龙氏"
       ]
-    },
-    {
-      "externalId": "lipu:lishixian:17-宗保",
-      "name": "李宗保",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果克窝村下寨",
-      "birthPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      }
-    },
-    {
-      "externalId": "lipu:lishixian:17-宗育",
-      "name": "李宗育",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果克窝村下寨",
-      "birthPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      }
-    },
-    {
-      "externalId": "lipu:lishixian:17-宗秀",
-      "name": "李宗秀",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·桂果克窝村下寨",
-      "birthPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·桂果克窝村下寨"
-      }
     },
     {
       "externalId": "lipu:lishixian:17-李宗寿之妻",
@@ -527,11 +475,6 @@
     {
       "kind": "parent",
       "parent": "lipu:lishixian:13-士先",
-      "child": "lipu:lishixian:14-文"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishixian:13-士先",
       "child": "lipu:lishixian:14-堂"
     },
     {
@@ -588,21 +531,6 @@
       "kind": "spouse",
       "a": "lipu:lishixian:16-天明",
       "b": "lipu:lishixian:16-李天明之妻"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishixian:16-天明",
-      "child": "lipu:lishixian:17-宗保"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishixian:16-天明",
-      "child": "lipu:lishixian:17-宗育"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishixian:16-天明",
-      "child": "lipu:lishixian:17-宗秀"
     },
     {
       "kind": "parent",
