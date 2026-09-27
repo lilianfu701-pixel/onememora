@@ -1,0 +1,850 @@
+{
+  "key": "lipu:lishiqing",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiqing:13-之繁",
+      "name": "李之繁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·以那镇化泥田。上承以那五凹寨支系13代起（谱题作李世清一支）"
+    },
+    {
+      "externalId": "lipu:lishiqing:14-绍清",
+      "name": "李绍清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·以那镇化泥田。"
+    },
+    {
+      "externalId": "lipu:lishiqing:15-如伸",
+      "name": "李如伸",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇化泥田。"
+    },
+    {
+      "externalId": "lipu:lishiqing:16-天用",
+      "name": "李天用",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇化泥田。葬于纳雍"
+    },
+    {
+      "externalId": "lipu:lishiqing:17-宗山",
+      "name": "李宗山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1899,
+        "month": 11,
+        "day": 11
+      },
+      "death": {
+        "year": 1899
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·以那镇化泥田。谱载1899年11月11日生（与子德凤卒年相矛盾，疑误），葬于水草坝，姙陈、卢氏"
+    },
+    {
+      "externalId": "lipu:lishiqing:18-德凤",
+      "name": "李德凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲寅年3月23日"
+      },
+      "death": {
+        "year": 1903
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇化泥田。甲寅年3月23日生，殁于1903年6月11日，葬于纳雍，姙周氏殁于1903年1月19日，葬于小麻窝寨子脚"
+    },
+    {
+      "externalId": "lipu:lishiqing:18-德金",
+      "name": "李德金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇化泥田。葬于二塘兴寨，姙周氏葬于底那河木桥"
+    },
+    {
+      "externalId": "lipu:lishiqing:19-崇有",
+      "name": "李崇有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲午年11月25日"
+      },
+      "death": {
+        "year": 1937
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇化泥田。甲午年11月25日生，殁于1937年6月29日，葬于纳雍，姙杨氏甲午年3月12日，殁于庚寅年2月27日，葬于小麻窝寨子脚"
+    },
+    {
+      "externalId": "lipu:lishiqing:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙申年"
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇化泥田。丙申年生，殁于壬申年11月9日，葬于上坪偏坡山，姙王氏癸卯年1月14日生（德凤房亦列崇贵）"
+    },
+    {
+      "externalId": "lipu:lishiqing:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛酉年8月1日"
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇化泥田。辛酉年8月1日生于以那架化泥田，殁于辛巳年4月8日，葬于化泥田黄家寨，偶胡氏戊辰年8月12日生于八步区万人坟"
+    },
+    {
+      "externalId": "lipu:lishiqing:20-隆安",
+      "name": "李隆安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇化泥田。"
+    },
+    {
+      "externalId": "lipu:lishiqing:20-隆明",
+      "name": "李隆明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇化泥田。"
+    },
+    {
+      "externalId": "lipu:lishiqing:20-隆兴",
+      "name": "李隆兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "庚午年6月27日"
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇化泥田。庚午年6月27日生，偶唐氏甲戌年6月2日生于马倒岩"
+    },
+    {
+      "externalId": "lipu:lishiqing:13-李之繁之妻",
+      "name": "李之繁之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:14-绍仲",
+      "name": "李绍仲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:14-李绍清之妻",
+      "name": "李绍清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:15-如林",
+      "name": "李如林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:15-李如伸之妻",
+      "name": "李如伸之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:16-天文",
+      "name": "李天文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:16-天成",
+      "name": "李天成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:16-李天用之妻",
+      "name": "李天用之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:17-宗其",
+      "name": "李宗其",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:17-宗武",
+      "name": "李宗武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:17-李宗山之妻",
+      "name": "李宗山之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:18-德银",
+      "name": "李德银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:18-李德凤之妻",
+      "name": "李德凤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "death": {
+        "year": 1903
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:19-崇芳",
+      "name": "李崇芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:18-李德金之妻",
+      "name": "李德金之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:19-李崇有之妻",
+      "name": "李崇有之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:20-盛全",
+      "name": "李盛全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
+      "externalId": "lipu:lishiqing:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:20-李隆昌之妻",
+      "name": "李隆昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "胡氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发品",
+      "name": "李发品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发航",
+      "name": "李发航",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发松",
+      "name": "李发松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:20-李隆安之妻",
+      "name": "李隆安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发元",
+      "name": "李发元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发点",
+      "name": "李发点",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:20-李隆明之妻",
+      "name": "李隆明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发昌",
+      "name": "李发昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发成",
+      "name": "李发成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发银",
+      "name": "李发银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:20-李隆兴之妻",
+      "name": "李隆兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "唐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发明",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发达",
+      "name": "李发达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发仁",
+      "name": "李发仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiqing:21-发应",
+      "name": "李发应",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:13-之繁",
+      "b": "lipu:lishiqing:13-李之繁之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:13-之繁",
+      "child": "lipu:lishiqing:14-绍仲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:13-之繁",
+      "child": "lipu:lishiqing:14-绍清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:14-李绍清之妻",
+      "b": "lipu:lishiqing:14-绍清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:14-绍清",
+      "child": "lipu:lishiqing:15-如林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:14-绍清",
+      "child": "lipu:lishiqing:15-如伸"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:15-如伸",
+      "b": "lipu:lishiqing:15-李如伸之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:15-如伸",
+      "child": "lipu:lishiqing:16-天文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:15-如伸",
+      "child": "lipu:lishiqing:16-天成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:15-如伸",
+      "child": "lipu:lishiqing:16-天用"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:16-天用",
+      "b": "lipu:lishiqing:16-李天用之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:16-天用",
+      "child": "lipu:lishiqing:17-宗其"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:16-天用",
+      "child": "lipu:lishiqing:17-宗武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:16-天用",
+      "child": "lipu:lishiqing:17-宗山"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:17-宗山",
+      "b": "lipu:lishiqing:17-李宗山之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:17-宗山",
+      "child": "lipu:lishiqing:18-德银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:17-宗山",
+      "child": "lipu:lishiqing:18-德凤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:18-德凤",
+      "b": "lipu:lishiqing:18-李德凤之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:18-德凤",
+      "child": "lipu:lishiqing:19-崇芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:17-宗山",
+      "child": "lipu:lishiqing:18-德金"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:18-德金",
+      "b": "lipu:lishiqing:18-李德金之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:18-德凤",
+      "child": "lipu:lishiqing:19-崇有"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:19-崇有",
+      "b": "lipu:lishiqing:19-李崇有之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:19-崇有",
+      "child": "lipu:lishiqing:20-盛全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:18-德金",
+      "child": "lipu:lishiqing:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:19-崇贵",
+      "b": "lipu:lishiqing:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:19-崇有",
+      "child": "lipu:lishiqing:20-隆昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:20-李隆昌之妻",
+      "b": "lipu:lishiqing:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆昌",
+      "child": "lipu:lishiqing:21-发品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆昌",
+      "child": "lipu:lishiqing:21-发航"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆昌",
+      "child": "lipu:lishiqing:21-发松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆昌",
+      "child": "lipu:lishiqing:21-发云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:19-崇有",
+      "child": "lipu:lishiqing:20-隆安"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:20-李隆安之妻",
+      "b": "lipu:lishiqing:20-隆安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆安",
+      "child": "lipu:lishiqing:21-发元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆安",
+      "child": "lipu:lishiqing:21-发点"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆安",
+      "child": "lipu:lishiqing:21-发荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:19-崇有",
+      "child": "lipu:lishiqing:20-隆明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:20-李隆明之妻",
+      "b": "lipu:lishiqing:20-隆明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆明",
+      "child": "lipu:lishiqing:21-发昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆明",
+      "child": "lipu:lishiqing:21-发成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆明",
+      "child": "lipu:lishiqing:21-发银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:19-崇贵",
+      "child": "lipu:lishiqing:20-隆兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiqing:20-李隆兴之妻",
+      "b": "lipu:lishiqing:20-隆兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆兴",
+      "child": "lipu:lishiqing:21-发明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆兴",
+      "child": "lipu:lishiqing:21-发达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆兴",
+      "child": "lipu:lishiqing:21-发仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:20-隆兴",
+      "child": "lipu:lishiqing:21-发应"
+    }
+  ]
+}

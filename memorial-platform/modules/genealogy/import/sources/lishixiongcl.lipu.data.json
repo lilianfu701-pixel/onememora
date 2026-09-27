@@ -1,0 +1,436 @@
+{
+  "key": "lipu:lishixiongcl",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishixionglbz:14-绍聪",
+      "name": "李绍聪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·以那镇对门寨茶林。此谱载世雄生明凤，明凤生子亮，子亮生绍聪"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:15-如亮",
+      "name": "李如亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇对门寨茶林。"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:16-天文",
+      "name": "李天文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1814
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇对门寨茶林。1814年4月生于大定府管辖平远州大有里以那架对门寨坡头明家营脚，葬于对门寨坡头上棕树坡"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:17-宗奎",
+      "name": "李宗奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1854
+      },
+      "death": {
+        "year": 1933
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·以那镇对门寨茶林。1854年正月初一生于大定府管辖平远州大有里以那架对门寨坡头上，殁于1933年五月初三，享年80岁，葬于以那镇梁山上田坝头。姙刘氏1856年7月11日生于板桥乡程家河小搭腰，1935年2月2日殁，享年79岁，葬于黄家水井背后"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德祥",
+      "name": "李德祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1877
+      },
+      "death": {
+        "year": 1913
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。号景玄，1877年腊月二十生于以那架坡头上，殁于1913年九月初二，葬于高家箐大竹林，姙张氏乙亥年冬月十三生于小白岩，葬于松树坪小寨。子见德祥德兴房分支"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德兴",
+      "name": "李德兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1882
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。1882年2月24日生，葬于半坡上竹林头，姙张氏1881年五月初六生于化泥村大沟边，葬于茶林对门寨小赖坡。子见德祥德兴房分支"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德隆",
+      "name": "李德隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1888
+      },
+      "death": {
+        "year": 1960
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。1888年4月24日生于坡头上，殁于1960年四月初四，葬于板桥富阳大屯上，姙张氏1887年9月30日生于箐脚，殁于1965年10月31日，葬于茅坪哨棚梁子脚。子见德隆德朝房分支"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德朝",
+      "name": "李德朝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1891
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。字景昌，1891年四月初八生，姙张氏1897年4月11日生于黄泥井，殁于1941年腊月初一。子见德隆德朝房分支"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德盛",
+      "name": "李德盛",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1894
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。1894年二月初十生，姙卢氏1893年2月15日生，殁于1974年，享年81岁；续姙张氏1894年冬月初七生，殁于1962年2月11日，葬于茶林村高家箐"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德君",
+      "name": "李德君",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1896
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。1896年十月初五生，姙刘氏1897年6月11日生于周家岩脚"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:14-李绍聪之妻",
+      "name": "李绍聪之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishixiongcl:15-李如亮之妻",
+      "name": "李如亮之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishixiongcl:17-宗发",
+      "name": "李宗发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:17-宗渊",
+      "name": "李宗渊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:17-宗琦",
+      "name": "李宗琦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:17-李宗奎之妻",
+      "name": "李宗奎之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "birth": {
+        "year": 1856
+      },
+      "death": {
+        "year": 1935
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-李德祥之妻",
+      "name": "李德祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-李德兴之妻",
+      "name": "李德兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1881
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-李德隆之妻",
+      "name": "李德隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1887
+      },
+      "death": {
+        "year": 1965
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-李德朝之妻",
+      "name": "李德朝之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1897
+      },
+      "death": {
+        "year": 1941
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-李德盛之妻",
+      "name": "李德盛之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1893
+      },
+      "death": {
+        "year": 1974
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-李德君之妻",
+      "name": "李德君之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "birth": {
+        "year": 1897
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:14-李绍聪之妻",
+      "b": "lipu:lishixionglbz:14-绍聪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixionglbz:14-绍聪",
+      "child": "lipu:lishixiongcl:15-如亮"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:15-如亮",
+      "b": "lipu:lishixiongcl:15-李如亮之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:15-如亮",
+      "child": "lipu:lishixiongcl:16-天文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:16-天文",
+      "child": "lipu:lishixiongcl:17-宗发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:16-天文",
+      "child": "lipu:lishixiongcl:17-宗渊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:16-天文",
+      "child": "lipu:lishixiongcl:17-宗琦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:16-天文",
+      "child": "lipu:lishixiongcl:17-宗奎"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:17-宗奎",
+      "b": "lipu:lishixiongcl:17-李宗奎之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:17-宗奎",
+      "child": "lipu:lishixiongcl:18-德祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:18-德祥",
+      "b": "lipu:lishixiongcl:18-李德祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:17-宗奎",
+      "child": "lipu:lishixiongcl:18-德兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:18-德兴",
+      "b": "lipu:lishixiongcl:18-李德兴之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:17-宗奎",
+      "child": "lipu:lishixiongcl:18-德隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:18-德隆",
+      "b": "lipu:lishixiongcl:18-李德隆之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:17-宗奎",
+      "child": "lipu:lishixiongcl:18-德朝"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:18-德朝",
+      "b": "lipu:lishixiongcl:18-李德朝之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:17-宗奎",
+      "child": "lipu:lishixiongcl:18-德盛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:18-德盛",
+      "b": "lipu:lishixiongcl:18-李德盛之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:17-宗奎",
+      "child": "lipu:lishixiongcl:18-德君"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl:18-德君",
+      "b": "lipu:lishixiongcl:18-李德君之妻"
+    }
+  ]
+}

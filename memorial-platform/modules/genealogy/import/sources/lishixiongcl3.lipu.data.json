@@ -1,0 +1,723 @@
+{
+  "key": "lipu:lishixiongcl3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishixiongcl:18-德隆",
+      "name": "李德隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。"
+    },
+    {
+      "externalId": "lipu:lishixiongcl:18-德朝",
+      "name": "李德朝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇对门寨茶林。"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇顺",
+      "name": "李崇顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1911
+      },
+      "death": {
+        "year": 1997
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。1911年4月23日生于板桥，殁于1997年2月11日，姙张氏1911年8月16日生于以那镇底那河，殁于1976年11月5日，葬于扇子山坡头"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇君",
+      "name": "李崇君",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1920
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。1920年冬月二十五生于程家河，姙郭氏1915年腊月二十九生于桂果镇干河，殁于2000年8月15日，葬于孙家寨周兴武家背后"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇英",
+      "name": "李崇英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1938
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。1938年7月25日生，偶张槐珍1937年2月16日生"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇云",
+      "name": "李崇云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1912
+      },
+      "death": {
+        "year": 1962
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。1912年1月5日生于对门寨，殁于1962年四月初二，葬于大尖山旁。偶刘永珍1915年11月14日生于金龙洞口，殁于1984年正月初一，葬于对门寨小赖坡"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇本",
+      "name": "李崇本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1913
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。1913年正月初五生"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇模",
+      "name": "李崇模",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1924
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。1924年九月初七生，高中文化，教师，高级职称。姙汪明郁1927年3月28日生于大方县坡脚鼎新场，殁于1962年8月25日，葬于大尖山旁；续偶杨定珍1938年10月13日生"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇凤",
+      "name": "李崇凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1927
+      },
+      "death": {
+        "year": 1986
+      },
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。谱列子作崇奉，下文作崇凤。1927年9月29日生，殁于1986年3月14日，偶张璐珍1925年12月21日生，殁于1963年腊月十四"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-崇华",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇对门寨茶林。"
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-李崇顺之妻",
+      "name": "李崇顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1911
+      },
+      "death": {
+        "year": 1976
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆龚",
+      "name": "李隆龚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-李崇君之妻",
+      "name": "李崇君之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "birth": {
+        "year": 1915
+      },
+      "death": {
+        "year": 2000
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-张槐珍",
+      "name": "张槐珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1937
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆学",
+      "name": "李隆学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆甫",
+      "name": "李隆甫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆奎",
+      "name": "李隆奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆进",
+      "name": "李隆进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆美",
+      "name": "李隆美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆菊",
+      "name": "李隆菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-刘永珍",
+      "name": "刘永珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1915
+      },
+      "death": {
+        "year": 1984
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆庆",
+      "name": "李隆庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆琴",
+      "name": "李隆琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆芝",
+      "name": "李隆芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-慧芳",
+      "name": "李慧芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-汪明郁",
+      "name": "汪明郁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1927
+      },
+      "death": {
+        "year": 1962
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-爱平",
+      "name": "李爱平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-漫龙",
+      "name": "李漫龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-龙芬",
+      "name": "李龙芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆忠",
+      "name": "李隆忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆远",
+      "name": "李隆远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-麒麟",
+      "name": "李麒麟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-丹",
+      "name": "李丹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:19-张璐珍",
+      "name": "张璐珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1925
+      },
+      "death": {
+        "year": 1963
+      }
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆生",
+      "name": "李隆生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆先",
+      "name": "李隆先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-春仙",
+      "name": "李春仙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-孝宇",
+      "name": "李孝宇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiongcl3:20-隆萍",
+      "name": "李隆萍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德隆",
+      "child": "lipu:lishixiongcl3:19-崇顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl3:19-崇顺",
+      "b": "lipu:lishixiongcl3:19-李崇顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇顺",
+      "child": "lipu:lishixiongcl3:20-隆龚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德隆",
+      "child": "lipu:lishixiongcl3:19-崇君"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl3:19-崇君",
+      "b": "lipu:lishixiongcl3:19-李崇君之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇君",
+      "child": "lipu:lishixiongcl3:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德隆",
+      "child": "lipu:lishixiongcl3:19-崇英"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl3:19-崇英",
+      "b": "lipu:lishixiongcl3:19-张槐珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇英",
+      "child": "lipu:lishixiongcl3:20-隆学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇英",
+      "child": "lipu:lishixiongcl3:20-隆甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇英",
+      "child": "lipu:lishixiongcl3:20-隆奎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇英",
+      "child": "lipu:lishixiongcl3:20-隆进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇英",
+      "child": "lipu:lishixiongcl3:20-隆美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇英",
+      "child": "lipu:lishixiongcl3:20-隆菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德朝",
+      "child": "lipu:lishixiongcl3:19-崇云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl3:19-刘永珍",
+      "b": "lipu:lishixiongcl3:19-崇云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇云",
+      "child": "lipu:lishixiongcl3:20-隆庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇云",
+      "child": "lipu:lishixiongcl3:20-隆琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇云",
+      "child": "lipu:lishixiongcl3:20-隆芝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇云",
+      "child": "lipu:lishixiongcl3:20-慧芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德朝",
+      "child": "lipu:lishixiongcl3:19-崇本"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德朝",
+      "child": "lipu:lishixiongcl3:19-崇模"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl3:19-崇模",
+      "b": "lipu:lishixiongcl3:19-汪明郁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-爱平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-漫龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-龙芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-隆忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-隆远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-麒麟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-丹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德朝",
+      "child": "lipu:lishixiongcl3:19-崇凤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiongcl3:19-崇凤",
+      "b": "lipu:lishixiongcl3:19-张璐珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇凤",
+      "child": "lipu:lishixiongcl3:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇凤",
+      "child": "lipu:lishixiongcl3:20-隆生"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇凤",
+      "child": "lipu:lishixiongcl3:20-隆先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇凤",
+      "child": "lipu:lishixiongcl3:20-春仙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇凤",
+      "child": "lipu:lishixiongcl3:20-孝宇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇凤",
+      "child": "lipu:lishixiongcl3:20-隆萍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl:18-德朝",
+      "child": "lipu:lishixiongcl3:19-崇华"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "key": "lipu:lifengbei",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lifengbei:13-朝贵",
+      "name": "李朝贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·以那镇朱家小坡。上承纳雍义毛栗园（谱题作李凤杯一支）。生于尖山脚大坡头，葬于高家箐大洞口"
+    },
+    {
+      "externalId": "lipu:lifengbei:14-成富",
+      "name": "李成富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·以那镇朱家小坡。"
+    },
+    {
+      "externalId": "lipu:lifengbei:15-良甫",
+      "name": "李良甫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇朱家小坡。生于大方现上官广"
+    },
+    {
+      "externalId": "lipu:lifengbei:16-天宗",
+      "name": "李天宗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇朱家小坡。生于大方上官寨"
+    },
+    {
+      "externalId": "lipu:lifengbei:17-宗发",
+      "name": "李宗发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·以那镇朱家小坡。生于以敛五凹寨"
+    },
+    {
+      "externalId": "lipu:lifengbei:18-德寿",
+      "name": "李德寿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇朱家小坡。生于以敛五凹寨，姙王氏生于大方"
+    },
+    {
+      "externalId": "lipu:lifengbei:19-崇富",
+      "name": "李崇富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇朱家小坡。生于大方坡脚，葬于以那架朱家小坡，姙陈氏生于纳雍县大方官大厂"
+    },
+    {
+      "externalId": "lipu:lifengbei:20-隆平",
+      "name": "李隆平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲辰年4月20日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇朱家小坡。甲辰年4月20日生于以那架朱家小坡，姙代氏戊子年10月20日生于纳雍县大方官大厂"
+    },
+    {
+      "externalId": "lipu:lifengbei:21-发俊",
+      "name": "李发俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲子年6月27日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·以那镇朱家小坡。甲子年6月27日生于朱家小坡，偶夏氏生于以那架以那大队"
+    },
+    {
+      "externalId": "lipu:lifengbei:14-成学",
+      "name": "李成学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      }
+    },
+    {
+      "externalId": "lipu:lifengbei:14-李成富之妻",
+      "name": "李成富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lifengbei:15-良山",
+      "name": "李良山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      }
+    },
+    {
+      "externalId": "lipu:lifengbei:15-良佐",
+      "name": "李良佐",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      }
+    },
+    {
+      "externalId": "lipu:lifengbei:16-天相",
+      "name": "李天相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      }
+    },
+    {
+      "externalId": "lipu:lifengbei:16-天银",
+      "name": "李天银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      }
+    },
+    {
+      "externalId": "lipu:lifengbei:17-李宗发之妻",
+      "name": "李宗发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lifengbei:18-李德寿之妻",
+      "name": "李德寿之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lifengbei:19-李崇富之妻",
+      "name": "李崇富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lifengbei:20-李隆平之妻",
+      "name": "李隆平之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "代氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lifengbei:21-李发俊之妻",
+      "name": "李发俊之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "夏氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lifengbei:22-裕华",
+      "name": "李裕华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lifengbei:22-裕友",
+      "name": "李裕友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家小坡",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家小坡"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:13-朝贵",
+      "child": "lipu:lifengbei:14-成学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:13-朝贵",
+      "child": "lipu:lifengbei:14-成富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lifengbei:14-成富",
+      "b": "lipu:lifengbei:14-李成富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:14-成富",
+      "child": "lipu:lifengbei:15-良山"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:14-成富",
+      "child": "lipu:lifengbei:15-良佐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:14-成富",
+      "child": "lipu:lifengbei:15-良甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:15-良甫",
+      "child": "lipu:lifengbei:16-天相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:15-良甫",
+      "child": "lipu:lifengbei:16-天银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:15-良甫",
+      "child": "lipu:lifengbei:16-天宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:16-天宗",
+      "child": "lipu:lifengbei:17-宗发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lifengbei:17-宗发",
+      "b": "lipu:lifengbei:17-李宗发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:17-宗发",
+      "child": "lipu:lifengbei:18-德寿"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lifengbei:18-德寿",
+      "b": "lipu:lifengbei:18-李德寿之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:18-德寿",
+      "child": "lipu:lifengbei:19-崇富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lifengbei:19-崇富",
+      "b": "lipu:lifengbei:19-李崇富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:19-崇富",
+      "child": "lipu:lifengbei:20-隆平"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lifengbei:20-李隆平之妻",
+      "b": "lipu:lifengbei:20-隆平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:20-隆平",
+      "child": "lipu:lifengbei:21-发俊"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lifengbei:21-发俊",
+      "b": "lipu:lifengbei:21-李发俊之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:21-发俊",
+      "child": "lipu:lifengbei:22-裕华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifengbei:21-发俊",
+      "child": "lipu:lifengbei:22-裕友"
+    }
+  ]
+}
