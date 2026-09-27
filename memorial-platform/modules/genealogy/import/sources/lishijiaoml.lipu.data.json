@@ -1,0 +1,344 @@
+{
+  "key": "lipu:lishijiaoml",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishijiao:14-宣友",
+      "name": "李宣友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·以那镇毛栗村。此谱载世蛟生于杨保寨老王冲；子朝生于老王冲，生宣友、宣举、宣亩、宣召、宣仲；宣友生于老王冲"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:15-裕奉",
+      "name": "李裕奉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇毛栗村。生于老黄冲"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:16-永德",
+      "name": "李永德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛酉年腊月初八"
+      },
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇毛栗村。辛酉年腊月初八生于老王冲，殁于丙宣年十二月初七，葬于小苗冲，姙陈氏葬于小麻窝；续姙芦氏殁于甲戌年四月初一，葬于小麻窝"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:17-宗元",
+      "name": "李宗元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙戌年5月18日"
+      },
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·以那镇毛栗村。丙戌年5月18日生于老王冲，殁于丙午年十月初四，葬于小麻窝，姙鄂氏壬午年生于海子中坝，殁于丙寅年八月初七，葬于园子头"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:18-德林",
+      "name": "李德林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛亥年后八月初九"
+      },
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇毛栗村。辛亥年后八月初九生于老王冲，殁于戊辰年，葬于小岩脚，姙张氏乙卯年正月十六生于偏坡寨，殁于甲子年10月27日"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:19-崇喜",
+      "name": "李崇喜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁亥年十月初三"
+      },
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇毛栗村。丁亥年十月初三生于老王冲，殁己丑年4月13日，葬于红稗土，姙周氏丙戌年九月初二生于周家岩脚"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:20-隆盛",
+      "name": "李隆盛",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸丑年"
+      },
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇毛栗村。癸丑年生于老王冲，殁于己巳年4月21日，葬于老王冲，偶芦氏壬子年腊月二十二生于小田冲；续偶王井银癸亥年10月25日生"
+    },
+    {
+      "externalId": "lipu:lishijiaoml:14-李宣友之妻",
+      "name": "李宣友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijiaoml:15-李裕奉之妻",
+      "name": "李裕奉之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijiaoml:16-李永德之妻",
+      "name": "李永德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijiaoml:17-李宗元之妻",
+      "name": "李宗元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "鄂氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijiaoml:18-李德林之妻",
+      "name": "李德林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijiaoml:19-李崇喜之妻",
+      "name": "李崇喜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijiaoml:20-李隆盛之妻",
+      "name": "李隆盛之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "芦氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijiaoml:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijiaoml:21-发义",
+      "name": "李发义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijiaoml:21-发银",
+      "name": "李发银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijiaoml:21-发国",
+      "name": "李发国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijiaoml:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijiaoml:21-发品",
+      "name": "李发品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇毛栗村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇毛栗村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiao:14-宣友",
+      "b": "lipu:lishijiaoml:14-李宣友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiao:14-宣友",
+      "child": "lipu:lishijiaoml:15-裕奉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiaoml:15-李裕奉之妻",
+      "b": "lipu:lishijiaoml:15-裕奉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:15-裕奉",
+      "child": "lipu:lishijiaoml:16-永德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiaoml:16-李永德之妻",
+      "b": "lipu:lishijiaoml:16-永德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:16-永德",
+      "child": "lipu:lishijiaoml:17-宗元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiaoml:17-宗元",
+      "b": "lipu:lishijiaoml:17-李宗元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:17-宗元",
+      "child": "lipu:lishijiaoml:18-德林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiaoml:18-德林",
+      "b": "lipu:lishijiaoml:18-李德林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:18-德林",
+      "child": "lipu:lishijiaoml:19-崇喜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiaoml:19-崇喜",
+      "b": "lipu:lishijiaoml:19-李崇喜之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:19-崇喜",
+      "child": "lipu:lishijiaoml:20-隆盛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijiaoml:20-李隆盛之妻",
+      "b": "lipu:lishijiaoml:20-隆盛"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:20-隆盛",
+      "child": "lipu:lishijiaoml:21-发荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:20-隆盛",
+      "child": "lipu:lishijiaoml:21-发义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:20-隆盛",
+      "child": "lipu:lishijiaoml:21-发银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:20-隆盛",
+      "child": "lipu:lishijiaoml:21-发国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:20-隆盛",
+      "child": "lipu:lishijiaoml:21-发全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiaoml:20-隆盛",
+      "child": "lipu:lishijiaoml:21-发品"
+    }
+  ]
+}
