@@ -1,0 +1,185 @@
+{
+  "key": "lipu:lilongyinghsz",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liruxinyk:20-隆英",
+      "name": "李隆英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇和尚庄村。生于和尚庄，葬于和尚庄大梁子，姙张氏生于以那果永小白岩，葬于大寨山林脚。此谱载天仲生宗（名缺），宗生德隆，德隆生崇科、崇金、崇和、崇凯、崇陆、崇春",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛未年"
+      },
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·以那镇和尚庄村。辛未年生于和尚庄，葬于和尚羊义土，偶张氏生于以那果永小白岩"
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙子年"
+      },
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·以那镇和尚庄村。丙子年生于和尚庄，偶张氏生于小白岩"
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:20-李隆英之妻",
+      "name": "李隆英之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:21-李发荣之妻",
+      "name": "李发荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:22-裕良",
+      "name": "李裕良",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:21-李发全之妻",
+      "name": "李发全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:22-裕龙",
+      "name": "李裕龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:22-裕仁",
+      "name": "李裕仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:22-虎",
+      "name": "李虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongyinghsz:22-鹏",
+      "name": "李鹏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇和尚庄村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇和尚庄村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lilongyinghsz:20-李隆英之妻",
+      "b": "lipu:liruxinyk:20-隆英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruxinyk:20-隆英",
+      "child": "lipu:lilongyinghsz:21-发荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilongyinghsz:21-发荣",
+      "b": "lipu:lilongyinghsz:21-李发荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongyinghsz:21-发荣",
+      "child": "lipu:lilongyinghsz:22-裕良"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruxinyk:20-隆英",
+      "child": "lipu:lilongyinghsz:21-发全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilongyinghsz:21-发全",
+      "b": "lipu:lilongyinghsz:21-李发全之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongyinghsz:21-发全",
+      "child": "lipu:lilongyinghsz:22-裕龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongyinghsz:21-发全",
+      "child": "lipu:lilongyinghsz:22-裕仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongyinghsz:21-发全",
+      "child": "lipu:lilongyinghsz:22-虎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongyinghsz:21-发全",
+      "child": "lipu:lilongyinghsz:22-鹏"
+    }
+  ]
+}

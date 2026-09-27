@@ -1,0 +1,151 @@
+{
+  "key": "lipu:lichongzhihn",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongfulbz:19-崇支",
+      "name": "李崇支",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇化泥村。此谱作崇一（崇枝）。己亥年12月26日生于李保寨，殁于癸巳年7月17日，葬于白虎山，偶陈氏己亥年9月25日，殁于辛巳年10月10日。此谱载宗福1841年3月30日生于化泥田，姙张氏1842年9月9日生；德昌丙子年7月27日生于李保寨，殁于戊子年10月13日"
+    },
+    {
+      "externalId": "lipu:lichongzhihn:20-隆奎",
+      "name": "李隆奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己巳年12月19日"
+      },
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇化泥村。己巳年12月19日生于李保寨，偶杨氏戊辰年2月12日生"
+    },
+    {
+      "externalId": "lipu:lichongzhihn:19-李崇支之妻",
+      "name": "李崇支之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichongzhihn:20-李隆奎之妻",
+      "name": "李隆奎之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhihn:21-发俊",
+      "name": "李发俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhihn:21-发伦",
+      "name": "李发伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhihn:21-发诒",
+      "name": "李发诒",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhihn:21-发兴",
+      "name": "李发兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongzhihn:21-发庆",
+      "name": "李发庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhihn:19-李崇支之妻",
+      "b": "lipu:lizongfulbz:19-崇支"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfulbz:19-崇支",
+      "child": "lipu:lichongzhihn:20-隆奎"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongzhihn:20-李隆奎之妻",
+      "b": "lipu:lichongzhihn:20-隆奎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhihn:20-隆奎",
+      "child": "lipu:lichongzhihn:21-发俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhihn:20-隆奎",
+      "child": "lipu:lichongzhihn:21-发伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhihn:20-隆奎",
+      "child": "lipu:lichongzhihn:21-发诒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhihn:20-隆奎",
+      "child": "lipu:lichongzhihn:21-发兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongzhihn:20-隆奎",
+      "child": "lipu:lichongzhihn:21-发庆"
+    }
+  ]
+}
