@@ -22,7 +22,10 @@
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
       "birth": {
-        "raw": "顺治六年10月初"
+        "year": 1649
+      },
+      "death": {
+        "year": 1734
       },
       "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
       "birthPlace": {
@@ -31,7 +34,7 @@
       "deathPlace": {
         "region": "贵州织金·白泥乡云碧村中寨"
       },
-      "bio": "陇西李氏·李代龙支系第12代，贵州织金·白泥乡云碧村中寨。顺治六年10月初生于木奈河，殁于雍正十二年2月初二，葬三合石老虎，姙杨氏顺治5年3月15日生于贵筑县谷池里下五甲杨有湾，殁于雍正12年2月初六，葬小坝头上"
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·白泥乡云碧村中寨。顺治六年10月初生于木奈河，殁于雍正十二年2月初二，葬三合石老虎，姙杨氏顺治5年3月15日生于贵筑县谷池里下五甲杨有湾，殁于雍正12年2月初六，葬小坝头上。另有子正乾、正祥，见正乾房、正祥房分支"
     },
     {
       "externalId": "lipu:lichengzhi:13-正坤",
@@ -115,7 +118,7 @@
       "deathPlace": {
         "region": "贵州织金·白泥乡云碧村中寨"
       },
-      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡云碧村中寨。生于中寨，葬水井梁岗，姙赵氏葬水井背后。子在清、在文、在明见在清房、在文房分支"
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡云碧村中寨。生于中寨，葬水井梁岗，姙赵氏葬水井背后。子在清、在文、在明、在武见各房分支"
     },
     {
       "externalId": "lipu:lichengzhi:11-李成枝之妻",
@@ -134,32 +137,6 @@
       "aliases": [
         "杨氏"
       ]
-    },
-    {
-      "externalId": "lipu:lichengzhi:13-正乾",
-      "name": "李正乾",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
-      "birthPlace": {
-        "region": "贵州织金·白泥乡云碧村中寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·白泥乡云碧村中寨"
-      }
-    },
-    {
-      "externalId": "lipu:lichengzhi:13-正祥",
-      "name": "李正祥",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
-      "birthPlace": {
-        "region": "贵州织金·白泥乡云碧村中寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·白泥乡云碧村中寨"
-      }
     },
     {
       "externalId": "lipu:lichengzhi:13-正先",
@@ -305,19 +282,6 @@
       "aliases": [
         "赵氏"
       ]
-    },
-    {
-      "externalId": "lipu:lichengzhi:18-在武",
-      "name": "李在武",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
-      "birthPlace": {
-        "region": "贵州织金·白泥乡云碧村中寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·白泥乡云碧村中寨"
-      }
     }
   ],
   "relations": [
@@ -335,16 +299,6 @@
       "kind": "spouse",
       "a": "lipu:lichengzhi:12-子明",
       "b": "lipu:lichengzhi:12-李子明之妻"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lichengzhi:12-子明",
-      "child": "lipu:lichengzhi:13-正乾"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lichengzhi:12-子明",
-      "child": "lipu:lichengzhi:13-正祥"
     },
     {
       "kind": "parent",
@@ -440,11 +394,6 @@
       "kind": "spouse",
       "a": "lipu:lichengzhi:17-有羲",
       "b": "lipu:lichengzhi:17-李有羲之妻"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lichengzhi:17-有羲",
-      "child": "lipu:lichengzhi:18-在武"
     }
   ]
 }

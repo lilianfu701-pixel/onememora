@@ -1,0 +1,328 @@
+{
+  "key": "lipu:lichengzhi5",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengzhi:17-有羲",
+      "name": "李有羲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡云碧村中寨。"
+    },
+    {
+      "externalId": "lipu:lichengzhi:18-在武",
+      "name": "李在武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡云碧村中寨。生于中寨，迁白泥乡联合那车住，葬马场大寨后边，偶张氏葬水营那杜坡"
+    },
+    {
+      "externalId": "lipu:lichengzhi5:19-德芳",
+      "name": "李德芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1927,
+        "month": 4,
+        "day": 22
+      },
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡云碧村中寨。1927年4月22日生于中寨，偶张氏1927年11月3日生，葬联合那车大杉林"
+    },
+    {
+      "externalId": "lipu:lichengzhi5:20-安胜",
+      "name": "李安胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1951,
+        "month": 4,
+        "day": 13
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡云碧村中寨。1951年4月13日生于那车，偶陶氏1950年5月4日生于白泥"
+    },
+    {
+      "externalId": "lipu:lichengzhi5:20-安信",
+      "name": "李安信",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1957,
+        "month": 10,
+        "day": 24
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡云碧村中寨。1957年10月24日生于那车，偶石氏1959年3月6日生于联合石家寨"
+    },
+    {
+      "externalId": "lipu:lichengzhi5:20-安贵",
+      "name": "李安贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1968,
+        "month": 10,
+        "day": 24
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡云碧村中寨。1968年10月24日生于那车，偶陈氏1970年生于那车下寨"
+    },
+    {
+      "externalId": "lipu:lichengzhi5:18-李在武之妻",
+      "name": "李在武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhi5:19-李德芳之妻",
+      "name": "李德芳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1927
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhi5:20-李安胜之妻",
+      "name": "李安胜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陶氏"
+      ],
+      "birth": {
+        "year": 1950
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-国刚",
+      "name": "李国刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-国权",
+      "name": "李国权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-国祥",
+      "name": "李国祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:20-李安信之妻",
+      "name": "李安信之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "石氏"
+      ],
+      "birth": {
+        "year": 1959
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-国龙",
+      "name": "李国龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-国虎",
+      "name": "李国虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-富贵",
+      "name": "李富贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:20-李安贵之妻",
+      "name": "李安贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "birth": {
+        "year": 1970
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhi5:21-权权",
+      "name": "李权权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡云碧村中寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡云碧村中寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:17-有羲",
+      "child": "lipu:lichengzhi:18-在武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi5:18-李在武之妻",
+      "b": "lipu:lichengzhi:18-在武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:18-在武",
+      "child": "lipu:lichengzhi5:19-德芳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi5:19-德芳",
+      "b": "lipu:lichengzhi5:19-李德芳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:19-德芳",
+      "child": "lipu:lichengzhi5:20-安胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi5:20-安胜",
+      "b": "lipu:lichengzhi5:20-李安胜之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安胜",
+      "child": "lipu:lichengzhi5:21-国刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安胜",
+      "child": "lipu:lichengzhi5:21-国权"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安胜",
+      "child": "lipu:lichengzhi5:21-国祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:19-德芳",
+      "child": "lipu:lichengzhi5:20-安信"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi5:20-安信",
+      "b": "lipu:lichengzhi5:20-李安信之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安信",
+      "child": "lipu:lichengzhi5:21-国龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安信",
+      "child": "lipu:lichengzhi5:21-国虎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安信",
+      "child": "lipu:lichengzhi5:21-富贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:19-德芳",
+      "child": "lipu:lichengzhi5:20-安贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi5:20-安贵",
+      "b": "lipu:lichengzhi5:20-李安贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi5:20-安贵",
+      "child": "lipu:lichengzhi5:21-权权"
+    }
+  ]
+}
