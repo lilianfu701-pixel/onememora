@@ -243,6 +243,15 @@ import lipu_liguochen from "./liguochen.lipu.data.json";
 import lipu_lishilun from "./lishilun.lipu.data.json";
 import lipu_lishijienjc from "./lishijienjc.lipu.data.json";
 import lipu_lishijienjc2 from "./lishijienjc2.lipu.data.json";
+import lipu_lishiyuanxc from "./lishiyuanxc.lipu.data.json";
+import lipu_lishiyuanxc2 from "./lishiyuanxc2.lipu.data.json";
+import lipu_lishiyuanxc3 from "./lishiyuanxc3.lipu.data.json";
+import lipu_lishijiedmz from "./lishijiedmz.lipu.data.json";
+import lipu_lishijiedmz2 from "./lishijiedmz2.lipu.data.json";
+import lipu_lishijiedmz3 from "./lishijiedmz3.lipu.data.json";
+import lipu_lishixionglbz from "./lishixionglbz.lipu.data.json";
+import lipu_liwenying from "./liwenying.lipu.data.json";
+import lipu_liwenying2 from "./liwenying2.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -485,6 +494,15 @@ const LABELS: Record<string, string> = {
   lishilun: "李氏·李世伦一支（李代龙支系谱·八步镇倒马坎·十一至二十一代）",
   lishijienjc: "李氏·李世杰一支（李代龙支系谱·八步镇牛角冲·十一至二十代·接李士臣与少普李大明）",
   lishijienjc2: "李氏·李世杰一支·德全德华房（李代龙支系谱·八步镇牛角冲）",
+  lishiyuanxc: "李氏·李世元一支·主干（李代龙支系谱·八步镇新场小寨·十三至十八代·接绮陌李世先士学）",
+  lishiyuanxc2: "李氏·李世元一支·崇富房（李代龙支系谱·八步镇新场小寨）",
+  lishiyuanxc3: "李氏·李世元一支·崇贵崇友崇元房（李代龙支系谱·八步镇新场小寨）",
+  lishijiedmz: "李氏·李世杰一支·大元士伦房（李代龙支系谱·以那镇对门寨·十二至十八代）",
+  lishijiedmz2: "李氏·李世杰一支·宗禄诸孙房（李代龙支系谱·以那镇对门寨）",
+  lishijiedmz3: "李氏·李世杰一支·德圹德芳房（李代龙支系谱·以那镇对门寨）",
+  lishixionglbz: "李氏·李世雄一支（李代龙支系谱·以那镇李保寨·十一至二十二代）",
+  liwenying: "李氏·李文英一支（李代龙支系谱·以那镇凉山村·十三至二十代·接李士举一支子清）",
+  liwenying2: "李氏·李文英一支·春隆永隆房（李代龙支系谱·以那镇凉山村）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -727,6 +745,15 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishilun", lipu_lishilun as GenealogyDataset],
   ["lishijienjc", lipu_lishijienjc as GenealogyDataset],
   ["lishijienjc2", lipu_lishijienjc2 as GenealogyDataset],
+  ["lishiyuanxc", lipu_lishiyuanxc as GenealogyDataset],
+  ["lishiyuanxc2", lipu_lishiyuanxc2 as GenealogyDataset],
+  ["lishiyuanxc3", lipu_lishiyuanxc3 as GenealogyDataset],
+  ["lishijiedmz", lipu_lishijiedmz as GenealogyDataset],
+  ["lishijiedmz2", lipu_lishijiedmz2 as GenealogyDataset],
+  ["lishijiedmz3", lipu_lishijiedmz3 as GenealogyDataset],
+  ["lishixionglbz", lipu_lishixionglbz as GenealogyDataset],
+  ["liwenying", lipu_liwenying as GenealogyDataset],
+  ["liwenying2", lipu_liwenying2 as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
