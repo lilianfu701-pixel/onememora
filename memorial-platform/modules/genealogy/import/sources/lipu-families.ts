@@ -280,6 +280,8 @@ import lipu_lifengbei from "./lifengbei.lipu.data.json";
 import lipu_lishixiongcl from "./lishixiongcl.lipu.data.json";
 import lipu_lishixiongcl2 from "./lishixiongcl2.lipu.data.json";
 import lipu_lishixiongcl3 from "./lishixiongcl3.lipu.data.json";
+import lipu_lishiqing2 from "./lishiqing2.lipu.data.json";
+import lipu_lishixiongcl4 from "./lishixiongcl4.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -559,6 +561,8 @@ const LABELS: Record<string, string> = {
   lishixiongcl: "李氏·李世雄一支·茶林主干（李代龙支系谱·以那镇对门寨茶林·天文1814起）",
   lishixiongcl2: "李氏·李世雄一支·茶林德祥德兴房（李代龙支系谱·以那镇对门寨茶林）",
   lishixiongcl3: "李氏·李世雄一支·茶林德隆德朝房（李代龙支系谱·以那镇对门寨茶林）",
+  lishiqing2: "李氏·李世清一支·崇有崇贵房（李代龙支系谱·以那镇化泥田）",
+  lishixiongcl4: "李氏·李世雄一支·茶林德兴房（李代龙支系谱·以那镇对门寨茶林）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -838,6 +842,8 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishixiongcl", lipu_lishixiongcl as GenealogyDataset],
   ["lishixiongcl2", lipu_lishixiongcl2 as GenealogyDataset],
   ["lishixiongcl3", lipu_lishixiongcl3 as GenealogyDataset],
+  ["lishiqing2", lipu_lishiqing2 as GenealogyDataset],
+  ["lishixiongcl4", lipu_lishixiongcl4 as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
