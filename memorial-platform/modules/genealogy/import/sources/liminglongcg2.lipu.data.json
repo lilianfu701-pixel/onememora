@@ -1,0 +1,335 @@
+{
+  "key": "lipu:liminglongcg2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liminglongcg:17-宗发",
+      "name": "李宗发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1825
+      },
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·城关镇后冲。1825年5月19日生于化垮，殁于甲申年7月21日，葬于化垮，姙周氏1822年3月28日生，殁于乙巳年7月13日，葬于石门坎。此谱载本枝辛未年十二月初二生；天金己酉年8月22日生，殁于壬申年11月14日，葬于化垮"
+    },
+    {
+      "externalId": "lipu:liminglongcg2:18-德祥",
+      "name": "李德祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊申年2月27日"
+      },
+      "death": {
+        "year": 1994
+      },
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·城关镇后冲。戊申年2月27日生，殁于1994年12月17日，葬于大石坡石冲，姙陈氏癸卯年12月17日生，殁于1978年10月16日，葬于冷坝黄汞洞"
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-崇本",
+      "name": "李崇本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937
+      },
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇后冲。1937年7月12日生于后冲，姙朱氏1937年9月12日生"
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-崇伍",
+      "name": "李崇伍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1934
+      },
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇后冲。1934年5月28日生于后冲，姙孙氏1930年九月初三生，殁于1973年十二月初三，葬于后冲火石坡"
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1940
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇后冲。1940年6月12日生于后冲，姙周氏1956年6月13日生"
+    },
+    {
+      "externalId": "lipu:liminglongcg2:17-李宗发之妻",
+      "name": "李宗发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "birth": {
+        "year": 1822
+      }
+    },
+    {
+      "externalId": "lipu:liminglongcg2:18-德云",
+      "name": "李德云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇后冲"
+      }
+    },
+    {
+      "externalId": "lipu:liminglongcg2:18-李德祥之妻",
+      "name": "李德祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "death": {
+        "year": 1978
+      }
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-崇先",
+      "name": "李崇先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇后冲"
+      }
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-李崇本之妻",
+      "name": "李崇本之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朱氏"
+      ],
+      "birth": {
+        "year": 1937
+      }
+    },
+    {
+      "externalId": "lipu:liminglongcg2:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liminglongcg2:20-隆明",
+      "name": "李隆明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-李崇伍之妻",
+      "name": "李崇伍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "孙氏"
+      ],
+      "birth": {
+        "year": 1930
+      },
+      "death": {
+        "year": 1973
+      }
+    },
+    {
+      "externalId": "lipu:liminglongcg2:20-隆才",
+      "name": "李隆才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liminglongcg2:20-隆万",
+      "name": "李隆万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liminglongcg2:20-隆举",
+      "name": "李隆举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liminglongcg2:20-隆品",
+      "name": "李隆品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇后冲",
+      "birthPlace": {
+        "region": "贵州织金·城关镇后冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liminglongcg2:19-李崇明之妻",
+      "name": "李崇明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "birth": {
+        "year": 1956
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liminglongcg2:17-李宗发之妻",
+      "b": "lipu:liminglongcg:17-宗发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg:17-宗发",
+      "child": "lipu:liminglongcg2:18-德云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg:17-宗发",
+      "child": "lipu:liminglongcg2:18-德祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liminglongcg2:18-德祥",
+      "b": "lipu:liminglongcg2:18-李德祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:18-德祥",
+      "child": "lipu:liminglongcg2:19-崇先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:18-德祥",
+      "child": "lipu:liminglongcg2:19-崇本"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liminglongcg2:19-崇本",
+      "b": "lipu:liminglongcg2:19-李崇本之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:19-崇本",
+      "child": "lipu:liminglongcg2:20-隆全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:19-崇本",
+      "child": "lipu:liminglongcg2:20-隆明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:18-德祥",
+      "child": "lipu:liminglongcg2:19-崇伍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liminglongcg2:19-崇伍",
+      "b": "lipu:liminglongcg2:19-李崇伍之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:19-崇伍",
+      "child": "lipu:liminglongcg2:20-隆才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:19-崇伍",
+      "child": "lipu:liminglongcg2:20-隆万"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:19-崇伍",
+      "child": "lipu:liminglongcg2:20-隆举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:19-崇伍",
+      "child": "lipu:liminglongcg2:20-隆品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liminglongcg2:18-德祥",
+      "child": "lipu:liminglongcg2:19-崇明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liminglongcg2:19-崇明",
+      "b": "lipu:liminglongcg2:19-李崇明之妻"
+    }
+  ]
+}
