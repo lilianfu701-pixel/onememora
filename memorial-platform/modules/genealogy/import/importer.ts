@@ -117,6 +117,11 @@ function legacyIdentityPattern(
 /** A source date to the memorial's partial-date shape, at the precision known. */
 function toPartialDate(d: SourceDate | undefined): PartialDate | undefined {
   if (!d) return undefined;
+  // A 族谱 date that is only lunar/干支/民国 arrives as `{ raw }` with no numeric
+  // year (the JSON is imported untyped, so `year` can be missing at runtime).
+  // Formatting it would send "undefined-01-01" to Postgres, which throws and
+  // aborts the whole family's import on every retry. No year → no date.
+  if (typeof d.year !== "number" || !Number.isFinite(d.year)) return undefined;
   // The platform stores dates as `YYYY-MM-DD`, so a BCE (or year 0) date can't
   // be represented — 孔子 (551 BCE) and other pre-CE figures keep their page but
   // go without a structured birth/death rather than failing to create.

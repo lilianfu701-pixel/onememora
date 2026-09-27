@@ -379,6 +379,10 @@ function RowStatus(props: {
   // No live run this session: fall back to the real DB baseline, so a reloaded
   // page shows what is already seeded instead of a blank 待导入.
   if (!state || state.status === "idle") {
+    // A family of only living (masked) people has no public pages to count, so
+    // "0 imported" says nothing about whether it was seeded — don't nag.
+    if (props.deceased === 0)
+      return <span className="muted">全为在世隐藏节点（无公开页）</span>;
     if (props.importedCount === 0) return <span className="muted">待导入</span>;
     if (props.importedCount >= props.deceased)
       return (
