@@ -311,11 +311,16 @@ import lipu_lishiwanhl2 from "./lishiwanhl2.lipu.data.json";
 import lipu_lishiwanhl3 from "./lishiwanhl3.lipu.data.json";
 import lipu_liminglongcg from "./liminglongcg.lipu.data.json";
 import lipu_lishikui from "./lishikui.lipu.data.json";
-import lipu_lishikui4 from "./lishikui4.lipu.data.json";
 import lipu_lishikui2 from "./lishikui2.lipu.data.json";
 import lipu_lishikui3 from "./lishikui3.lipu.data.json";
 import lipu_lishiyuanyl from "./lishiyuanyl.lipu.data.json";
 import lipu_lichongmingcg from "./lichongmingcg.lipu.data.json";
+import lipu_lishifangxjc from "./lishifangxjc.lipu.data.json";
+import lipu_lideronghsc from "./lideronghsc.lipu.data.json";
+import lipu_lishixianxy from "./lishixianxy.lipu.data.json";
+import lipu_lishixianxy2 from "./lishixianxy2.lipu.data.json";
+import lipu_lishixianxy3 from "./lishixianxy3.lipu.data.json";
+import lipu_lizongguiyjh from "./lizongguiyjh.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -626,11 +631,16 @@ const LABELS: Record<string, string> = {
   lishiwanhl3: "李世万一支·洪连房·崇华房",
   liminglongcg: "织金城关后冲·李明龙一支·绍明房",
   lishikui: "城关南门·龙场以支·李世魁一支",
-  lishikui4: "李世魁一支·宗应房",
   lishikui2: "李世魁一支·宗元房德全德寿",
   lishikui3: "李世魁一支·宗应房德明德昌",
   lishiyuanyl: "城关镇杨柳河·李世元一支·大成士学房",
   lichongmingcg: "织金城关镇·19代李崇明一支",
+  lishifangxjc: "城关小教厂·李仕芳一支",
+  lideronghsc: "城关镇黑石村·李德荣一支",
+  lishixianxy: "中寨乡小院村·李世先一支",
+  lishixianxy2: "中寨乡小院村·李世先一支·士荣绪房",
+  lishixianxy3: "中寨乡小院村·李世先一支·之龙之元房",
+  lizongguiyjh: "城关镇三甲以结河·李宗贵一支",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -941,11 +951,16 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishiwanhl3", lipu_lishiwanhl3 as GenealogyDataset],
   ["liminglongcg", lipu_liminglongcg as GenealogyDataset],
   ["lishikui", lipu_lishikui as GenealogyDataset],
-  ["lishikui4", lipu_lishikui4 as GenealogyDataset],
   ["lishikui2", lipu_lishikui2 as GenealogyDataset],
   ["lishikui3", lipu_lishikui3 as GenealogyDataset],
   ["lishiyuanyl", lipu_lishiyuanyl as GenealogyDataset],
   ["lichongmingcg", lipu_lichongmingcg as GenealogyDataset],
+  ["lishifangxjc", lipu_lishifangxjc as GenealogyDataset],
+  ["lideronghsc", lipu_lideronghsc as GenealogyDataset],
+  ["lishixianxy", lipu_lishixianxy as GenealogyDataset],
+  ["lishixianxy2", lipu_lishixianxy2 as GenealogyDataset],
+  ["lishixianxy3", lipu_lishixianxy3 as GenealogyDataset],
+  ["lizongguiyjh", lipu_lizongguiyjh as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

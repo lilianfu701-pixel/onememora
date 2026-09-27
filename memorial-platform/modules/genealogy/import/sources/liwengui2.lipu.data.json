@@ -45,7 +45,7 @@
       "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。"
     },
     {
-      "externalId": "lipu:liwengui:19-崇顺",
+      "externalId": "lipu:liwengui5:19-崇顺",
       "name": "李崇顺",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -512,7 +512,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇顺",
+      "parent": "lipu:liwengui5:19-崇顺",
       "child": "lipu:liwengui2:20-福隆"
     },
     {

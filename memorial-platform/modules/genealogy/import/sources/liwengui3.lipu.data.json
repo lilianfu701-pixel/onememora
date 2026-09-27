@@ -3,7 +3,7 @@
   "namespace": "lipu-lidailong",
   "people": [
     {
-      "externalId": "lipu:liwengui:19-崇诗",
+      "externalId": "lipu:liwengui5:19-崇诗",
       "name": "李崇诗",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -17,7 +17,7 @@
       "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。"
     },
     {
-      "externalId": "lipu:liwengui:19-崇润",
+      "externalId": "lipu:liwengui5:19-崇润",
       "name": "李崇润",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -31,7 +31,7 @@
       "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。"
     },
     {
-      "externalId": "lipu:liwengui:19-崇秀",
+      "externalId": "lipu:liwengui5:19-崇秀",
       "name": "李崇秀",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -501,7 +501,7 @@
   "relations": [
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇诗",
+      "parent": "lipu:liwengui5:19-崇诗",
       "child": "lipu:liwengui3:20-隆庆"
     },
     {
@@ -511,7 +511,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇诗",
+      "parent": "lipu:liwengui5:19-崇诗",
       "child": "lipu:liwengui3:20-隆富"
     },
     {
@@ -521,7 +521,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇润",
+      "parent": "lipu:liwengui5:19-崇润",
       "child": "lipu:liwengui3:20-胜隆"
     },
     {
@@ -536,7 +536,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇秀",
+      "parent": "lipu:liwengui5:19-崇秀",
       "child": "lipu:liwengui3:20-定隆"
     },
     {
@@ -546,7 +546,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇秀",
+      "parent": "lipu:liwengui5:19-崇秀",
       "child": "lipu:liwengui3:20-芳隆"
     },
     {

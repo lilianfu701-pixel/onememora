@@ -3,7 +3,7 @@
   "namespace": "lipu-lidailong",
   "people": [
     {
-      "externalId": "lipu:liwengui:19-崇学",
+      "externalId": "lipu:liwengui5:19-崇学",
       "name": "李崇学",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -17,7 +17,7 @@
       "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。"
     },
     {
-      "externalId": "lipu:liwengui:19-崇开",
+      "externalId": "lipu:liwengui5:19-崇开",
       "name": "李崇开",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -34,7 +34,7 @@
       "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。"
     },
     {
-      "externalId": "lipu:liwengui:19-崇兴",
+      "externalId": "lipu:liwengui5:19-崇兴",
       "name": "李崇兴",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
@@ -386,17 +386,17 @@
   "relations": [
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇学",
+      "parent": "lipu:liwengui5:19-崇学",
       "child": "lipu:liwengui4:20-隆恩"
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇学",
+      "parent": "lipu:liwengui5:19-崇学",
       "child": "lipu:liwengui4:20-隆林"
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇学",
+      "parent": "lipu:liwengui5:19-崇学",
       "child": "lipu:liwengui4:20-隆发"
     },
     {
@@ -406,7 +406,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇开",
+      "parent": "lipu:liwengui5:19-崇开",
       "child": "lipu:liwengui4:20-隆明"
     },
     {
@@ -416,7 +416,7 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:liwengui:19-崇兴",
+      "parent": "lipu:liwengui5:19-崇兴",
       "child": "lipu:liwengui4:20-隆盛"
     },
     {

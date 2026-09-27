@@ -1,0 +1,156 @@
+{
+  "key": "lipu:lideronghsc",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishilun:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·城关镇黑石村。此谱载德荣姙陈氏，由织金八步倒马坎迁城关镇黑石村"
+    },
+    {
+      "externalId": "lipu:lideronghsc:19-崇全",
+      "name": "李崇全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸丑年4月14日"
+      },
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇黑石村。癸丑年4月14日生于平远州管下向化里八甲旧院，殁于癸亥年二月初十，葬于织金城关黑石村嘟噜组马鞍山，姙张氏癸丑年6月11日生于黄泥坡，殁于庚子年2月18日，葬于织金城关黑石村嘟噜组"
+    },
+    {
+      "externalId": "lipu:lideronghsc:19-崇厚",
+      "name": "李崇厚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      }
+    },
+    {
+      "externalId": "lipu:lideronghsc:19-李崇全之妻",
+      "name": "李崇全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideronghsc:20-隆明",
+      "name": "李隆明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideronghsc:20-隆友",
+      "name": "李隆友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideronghsc:20-隆云",
+      "name": "李隆云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideronghsc:20-隆英",
+      "name": "李隆英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideronghsc:20-隆珍",
+      "name": "李隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇黑石村",
+      "birthPlace": {
+        "region": "贵州织金·城关镇黑石村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:18-德荣",
+      "child": "lipu:lideronghsc:19-崇厚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:18-德荣",
+      "child": "lipu:lideronghsc:19-崇全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideronghsc:19-崇全",
+      "b": "lipu:lideronghsc:19-李崇全之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideronghsc:19-崇全",
+      "child": "lipu:lideronghsc:20-隆明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideronghsc:19-崇全",
+      "child": "lipu:lideronghsc:20-隆友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideronghsc:19-崇全",
+      "child": "lipu:lideronghsc:20-隆云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideronghsc:19-崇全",
+      "child": "lipu:lideronghsc:20-隆英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideronghsc:19-崇全",
+      "child": "lipu:lideronghsc:20-隆珍"
+    }
+  ]
+}
