@@ -1,0 +1,796 @@
+{
+  "key": "lipu:lichaoyangljc",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaoyangljc:11-成学",
+      "name": "李成学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·马场镇陈家寨。上承李应怀支系10代李元帷，与黔西县中平镇飞蛾寨同支。生于黔西县石桐树四方井，迁大定府小绿塘，姙不详"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:12-再前",
+      "name": "李再前",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·马场镇陈家寨。生于小绿塘，殁葬小绿塘"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:13-志明",
+      "name": "李志明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·马场镇陈家寨。生于小绿塘，迁黔西卫空桐树"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:14-朝阳",
+      "name": "李朝阳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·马场镇陈家寨。生于黔西卫空桐树，卒葬地失考，姙范氏"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:15-天荣",
+      "name": "李天荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·马场镇陈家寨。生于黔西空桐树途迁纳雍县果尾阳长新店居住，又迁普定县马场镇陈家寨，卒葬于陈家寨坟坝坝，姙唐氏卒于新店，葬于新店坡，偶林氏卒于陈家寨，葬于陈家寨癞子洞"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:16-春友",
+      "name": "李春友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1849
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·马场镇陈家寨。父条作春有。生于1849年12月30日，葬于癞子洞，姙林氏1853年生于盆河林家寨，殁于陈家寨，葬于屯上坡"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-正祥",
+      "name": "李正祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1874
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇陈家寨。1874年11月27日生于陈家寨，葬于癞子洞，姙吴氏1882年3月19日生于六枝特区龙场乡那背，葬于癞子洞"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-正云",
+      "name": "李正云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1884
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇陈家寨。生于1884年3月25日，葬于林家寨寨脚，偶林氏1890年3月24日生于普定县马场落水洞"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-正发",
+      "name": "李正发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1887
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇陈家寨。生于1887年8月1日，葬于大园，偶杨氏生于1894年3月3日生于六枝特区龙场乡下佘底，葬于癞子洞。子嗣见春友房正发正元"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-正元",
+      "name": "李正元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1890
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇陈家寨。1890年9月1日生于陈家寨，葬大高田，姙林氏1892年6月12日生于六枝特区龙场乡鸡窝寨，葬于大高田。子嗣见春友房正发正元"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-灿文",
+      "name": "李灿文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1911
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇陈家寨。生于1911年3月20日，葬于小冲，偶王氏生于1913年3月2日"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-灿明",
+      "name": "李灿明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1920
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇陈家寨。生于1920年"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-灿美",
+      "name": "李灿美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1922
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇陈家寨。生于1922年8月27日，偶杨永珍1927年生于鸡场乡小洞"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-灿荣",
+      "name": "李灿荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1925
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇陈家寨。生于1925年2月28日，葬于癞子洞，姙陈氏生于1928年，葬于癞子洞"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-灿光",
+      "name": "李灿光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1927
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇陈家寨。生于1927年11月24日，葬于小滥坝，姙熊氏生于1930年7月24日，葬于大园"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-灿有",
+      "name": "李灿有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1916
+      },
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇陈家寨。谱列第十八代，未载其父。生于1916年4月7日。姙刘氏生于1913年9月13日，葬于坡背后"
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:12-再清",
+      "name": "李再清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:13-志斌",
+      "name": "李志斌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:14-朝贵",
+      "name": "李朝贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:14-李朝阳之妻",
+      "name": "李朝阳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "范氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:15-李天荣之妻",
+      "name": "李天荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "唐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:16-春先",
+      "name": "李春先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:16-春南",
+      "name": "李春南",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:16-李春友之妻",
+      "name": "李春友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "林氏"
+      ],
+      "birth": {
+        "year": 1853
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-李正祥之妻",
+      "name": "李正祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "吴氏"
+      ],
+      "birth": {
+        "year": 1882
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-李正云之妻",
+      "name": "李正云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "林氏"
+      ],
+      "birth": {
+        "year": 1890
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-李正发之妻",
+      "name": "李正发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "birth": {
+        "year": 1894
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:17-李正元之妻",
+      "name": "李正元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "林氏"
+      ],
+      "birth": {
+        "year": 1892
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-李灿文之妻",
+      "name": "李灿文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1913
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇贤",
+      "name": "李崇贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇武",
+      "name": "李崇武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-杨永珍",
+      "name": "杨永珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1927
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇元",
+      "name": "李崇元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇俊",
+      "name": "李崇俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇胜",
+      "name": "李崇胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-李灿荣之妻",
+      "name": "李灿荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "birth": {
+        "year": 1928
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-李灿光之妻",
+      "name": "李灿光之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "熊氏"
+      ],
+      "birth": {
+        "year": 1930
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇庆",
+      "name": "李崇庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇高",
+      "name": "李崇高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇祥",
+      "name": "李崇祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:18-李灿有之妻",
+      "name": "李灿有之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "birth": {
+        "year": 1913
+      }
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇德",
+      "name": "李崇德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaoyangljc:19-崇兴",
+      "name": "李崇兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇陈家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇陈家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:11-成学",
+      "child": "lipu:lichaoyangljc:12-再清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:11-成学",
+      "child": "lipu:lichaoyangljc:12-再前"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:12-再前",
+      "child": "lipu:lichaoyangljc:13-志斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:12-再前",
+      "child": "lipu:lichaoyangljc:13-志明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:13-志明",
+      "child": "lipu:lichaoyangljc:14-朝贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:13-志明",
+      "child": "lipu:lichaoyangljc:14-朝阳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:14-朝阳",
+      "b": "lipu:lichaoyangljc:14-李朝阳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:14-朝阳",
+      "child": "lipu:lichaoyangljc:15-天荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:15-天荣",
+      "b": "lipu:lichaoyangljc:15-李天荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:15-天荣",
+      "child": "lipu:lichaoyangljc:16-春先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:15-天荣",
+      "child": "lipu:lichaoyangljc:16-春南"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:15-天荣",
+      "child": "lipu:lichaoyangljc:16-春友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:16-春友",
+      "b": "lipu:lichaoyangljc:16-李春友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:16-春友",
+      "child": "lipu:lichaoyangljc:17-正祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:17-李正祥之妻",
+      "b": "lipu:lichaoyangljc:17-正祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:16-春友",
+      "child": "lipu:lichaoyangljc:17-正云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:17-李正云之妻",
+      "b": "lipu:lichaoyangljc:17-正云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:16-春友",
+      "child": "lipu:lichaoyangljc:17-正发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:17-李正发之妻",
+      "b": "lipu:lichaoyangljc:17-正发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:16-春友",
+      "child": "lipu:lichaoyangljc:17-正元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:17-李正元之妻",
+      "b": "lipu:lichaoyangljc:17-正元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:17-正祥",
+      "child": "lipu:lichaoyangljc:18-灿文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:18-李灿文之妻",
+      "b": "lipu:lichaoyangljc:18-灿文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿文",
+      "child": "lipu:lichaoyangljc:19-崇贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿文",
+      "child": "lipu:lichaoyangljc:19-崇武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:17-正云",
+      "child": "lipu:lichaoyangljc:18-灿明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:17-正云",
+      "child": "lipu:lichaoyangljc:18-灿美"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:18-杨永珍",
+      "b": "lipu:lichaoyangljc:18-灿美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿美",
+      "child": "lipu:lichaoyangljc:19-崇元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿美",
+      "child": "lipu:lichaoyangljc:19-崇俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿美",
+      "child": "lipu:lichaoyangljc:19-崇胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:17-正云",
+      "child": "lipu:lichaoyangljc:18-灿荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:18-李灿荣之妻",
+      "b": "lipu:lichaoyangljc:18-灿荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿荣",
+      "child": "lipu:lichaoyangljc:19-崇明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:17-正云",
+      "child": "lipu:lichaoyangljc:18-灿光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:18-李灿光之妻",
+      "b": "lipu:lichaoyangljc:18-灿光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿光",
+      "child": "lipu:lichaoyangljc:19-崇庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿光",
+      "child": "lipu:lichaoyangljc:19-崇高"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿光",
+      "child": "lipu:lichaoyangljc:19-崇祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaoyangljc:18-李灿有之妻",
+      "b": "lipu:lichaoyangljc:18-灿有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿有",
+      "child": "lipu:lichaoyangljc:19-崇德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaoyangljc:18-灿有",
+      "child": "lipu:lichaoyangljc:19-崇兴"
+    }
+  ]
+}
