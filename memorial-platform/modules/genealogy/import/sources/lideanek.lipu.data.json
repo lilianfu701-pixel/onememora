@@ -1,0 +1,736 @@
+{
+  "key": "lipu:lideanek",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishifangert:18-德安",
+      "name": "李德安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1868
+      },
+      "death": {
+        "year": 1923
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡二圹村。1868年五月初八生于墙干边，1923年冬月二十一日殁于墙干边，葬于水淹冲，姙王氏1857年4月28日生于兴寨半坡，葬于鱼摆坡，生崇万；续姙杨氏1871年5月15日生，殁于1926年冬月二十一，葬于金家箐，生崇志、崇芳、崇连、崇银、崇羲"
+    },
+    {
+      "externalId": "lipu:lideanek:19-崇万",
+      "name": "李崇万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。偶杨氏"
+    },
+    {
+      "externalId": "lipu:lideanek:19-崇连",
+      "name": "李崇连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1906
+      },
+      "death": {
+        "year": 1966
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。1906年四月初二生于墙干边，1966年8月19日殁于墙干边，葬于杉树林队，姙王隆珍1905年正月二十一生于绮步，殁于1985年冬月十二，葬于文家坝"
+    },
+    {
+      "externalId": "lipu:lideanek:19-崇银",
+      "name": "李崇银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。生于冲头组，葬于大落坡，姙卢氏生于冲头组"
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆元",
+      "name": "李隆元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1936
+      },
+      "death": {
+        "year": 1997
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·绮陌乡二圹村。1936年4月14日生于墙干边，1997年4月29日殁于墙干边，葬于石板井，偶王志英1936年正月二十一生于绮步"
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆修",
+      "name": "李隆修",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1945
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·绮陌乡二圹村。1945年3月26日生于墙干边，偶彭友芝1945年六月初五生"
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆春",
+      "name": "李隆春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1928
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·绮陌乡二圹村。1928年2月15日生于冲头组，偶卢氏1926年7月29日生"
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆光",
+      "name": "李隆光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·绮陌乡二圹村。生于冲头组"
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937
+      },
+      "death": {
+        "year": 1993
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·绮陌乡二圹村。1937年九月初五生于冲头组，殁于1993年五月初五，葬于周家坝，姙张成英殁于1993年3月30日，葬于西湖"
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆连",
+      "name": "李隆连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "庚辰年7月12日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·绮陌乡二圹村。庚辰年7月12日生于冲头组，葬于大箐，偶王氏生于沙冲"
+    },
+    {
+      "externalId": "lipu:lideanek:18-李德安之妻",
+      "name": "李德安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1857
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:19-崇志",
+      "name": "李崇志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:19-崇芳",
+      "name": "李崇芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:19-崇羲",
+      "name": "李崇羲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:19-李崇万之妻",
+      "name": "李崇万之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideanek:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:19-王隆珍",
+      "name": "王隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1905
+      },
+      "death": {
+        "year": 1985
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:19-李崇银之妻",
+      "name": "李崇银之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideanek:20-王志英",
+      "name": "王志英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1936
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:21-发炳",
+      "name": "李发炳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发仁",
+      "name": "李发仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发富",
+      "name": "李发富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:20-彭友芝",
+      "name": "彭友芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1945
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发斌",
+      "name": "李发斌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发勇",
+      "name": "李发勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:20-李隆春之妻",
+      "name": "李隆春之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1926
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:21-发兴",
+      "name": "李发兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发应",
+      "name": "李发应",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发品",
+      "name": "李发品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发章",
+      "name": "李发章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发开",
+      "name": "李发开",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发文",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发军",
+      "name": "李发军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:20-张成英",
+      "name": "张成英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "death": {
+        "year": 1993
+      }
+    },
+    {
+      "externalId": "lipu:lideanek:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发银",
+      "name": "李发银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:20-李隆连之妻",
+      "name": "李隆连之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideanek:21-永发",
+      "name": "李永发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发亮",
+      "name": "李发亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发红",
+      "name": "李发红",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideanek:21-发起",
+      "name": "李发起",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:18-李德安之妻",
+      "b": "lipu:lishifangert:18-德安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lideanek:19-崇志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lideanek:19-崇芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lideanek:19-崇羲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lideanek:19-崇万"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:19-崇万",
+      "b": "lipu:lideanek:19-李崇万之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇万",
+      "child": "lipu:lideanek:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lideanek:19-崇连"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:19-崇连",
+      "b": "lipu:lideanek:19-王隆珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lideanek:19-崇银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:19-崇银",
+      "b": "lipu:lideanek:19-李崇银之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇连",
+      "child": "lipu:lideanek:20-隆元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:20-王志英",
+      "b": "lipu:lideanek:20-隆元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆元",
+      "child": "lipu:lideanek:21-发炳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆元",
+      "child": "lipu:lideanek:21-发仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆元",
+      "child": "lipu:lideanek:21-发富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇连",
+      "child": "lipu:lideanek:20-隆修"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:20-彭友芝",
+      "b": "lipu:lideanek:20-隆修"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆修",
+      "child": "lipu:lideanek:21-发斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆修",
+      "child": "lipu:lideanek:21-发勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇银",
+      "child": "lipu:lideanek:20-隆春"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:20-李隆春之妻",
+      "b": "lipu:lideanek:20-隆春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆春",
+      "child": "lipu:lideanek:21-发兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆春",
+      "child": "lipu:lideanek:21-发应"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆春",
+      "child": "lipu:lideanek:21-发忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆春",
+      "child": "lipu:lideanek:21-发品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇银",
+      "child": "lipu:lideanek:20-隆光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆光",
+      "child": "lipu:lideanek:21-发章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆光",
+      "child": "lipu:lideanek:21-发开"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆光",
+      "child": "lipu:lideanek:21-发文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆光",
+      "child": "lipu:lideanek:21-发军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇银",
+      "child": "lipu:lideanek:20-隆军"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:20-张成英",
+      "b": "lipu:lideanek:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆军",
+      "child": "lipu:lideanek:21-发全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆军",
+      "child": "lipu:lideanek:21-发银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:19-崇银",
+      "child": "lipu:lideanek:20-隆连"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideanek:20-李隆连之妻",
+      "b": "lipu:lideanek:20-隆连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆连",
+      "child": "lipu:lideanek:21-永发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆连",
+      "child": "lipu:lideanek:21-发亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆连",
+      "child": "lipu:lideanek:21-发红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideanek:20-隆连",
+      "child": "lipu:lideanek:21-发起"
+    }
+  ]
+}

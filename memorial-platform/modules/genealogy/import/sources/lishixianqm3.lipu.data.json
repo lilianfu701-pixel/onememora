@@ -210,6 +210,28 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishixianqm3:20-隆英#1",
+      "name": "李隆英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixianqm3:20-隆芬#1",
+      "name": "李隆芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishixianqm3:20-琴",
       "name": "李琴",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -505,6 +527,16 @@
       "kind": "parent",
       "parent": "lipu:lishixianqm3:19-崇模",
       "child": "lipu:lishixianqm3:20-品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm3:19-崇模",
+      "child": "lipu:lishixianqm3:20-隆英#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm3:19-崇模",
+      "child": "lipu:lishixianqm3:20-隆芬#1"
     },
     {
       "kind": "parent",

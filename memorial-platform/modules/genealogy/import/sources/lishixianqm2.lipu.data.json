@@ -380,6 +380,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishixianqm2:21-发秀#1",
+      "name": "李发秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果绮陌村李家寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果绮陌村李家寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishixianqm2:21-发芝",
       "name": "李发芝",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -670,6 +681,11 @@
       "kind": "parent",
       "parent": "lipu:lishixianqm2:20-勋",
       "child": "lipu:lishixianqm2:21-发富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixianqm2:20-勋",
+      "child": "lipu:lishixianqm2:21-发秀#1"
     },
     {
       "kind": "parent",

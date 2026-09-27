@@ -1,0 +1,789 @@
+{
+  "key": "lipu:lishifangert",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishifangert:11-世芳",
+      "name": "李世芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·绮陌乡二圹村。上承应连支系10代李自银分支11代起"
+    },
+    {
+      "externalId": "lipu:lishifangert:12-成美",
+      "name": "李成美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·绮陌乡二圹村。"
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦信",
+      "name": "李彦信",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬戌年5月14日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·绮陌乡二圹村。壬戌年5月14日生，殁于乙酉年4月10日，葬于嘉乐，姙吴氏辛巳年9月17日生，殁于甲寅年9月13日，葬于嘉乐"
+    },
+    {
+      "externalId": "lipu:lishifangert:14-起梅",
+      "name": "李起梅",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬戌年"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·绮陌乡二圹村。壬戌年生"
+    },
+    {
+      "externalId": "lipu:lishifangert:15-如柏",
+      "name": "李如柏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛亥年2月23日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·绮陌乡二圹村。辛亥年2月23日生于出水洞，殁于出水洞，姙王氏"
+    },
+    {
+      "externalId": "lipu:lishifangert:16-天珍",
+      "name": "李天珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊寅年5月3日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·绮陌乡二圹村。戊寅年5月3日生，殁于癸卯年11月22日，葬于大园子，姙张氏癸酉年4月19日生，葬于杨家湾"
+    },
+    {
+      "externalId": "lipu:lishifangert:17-宗贵",
+      "name": "李宗贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛丑年8月26日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·绮陌乡二圹村。辛丑年8月26日生于出水洞，葬于青岗林，姙张氏丙申年4月18日生于以那，葬于平桥河湾"
+    },
+    {
+      "externalId": "lipu:lishifangert:18-德清",
+      "name": "李德清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬戌年前8月19日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡二圹村。壬戌年前8月19日生于出水洞，殁于辛酉年9月28日，葬于金家箐，姙张氏己未年正月二十四生于偏坡寨，庚午年12月28日殁于大沟边"
+    },
+    {
+      "externalId": "lipu:lishifangert:18-德安",
+      "name": "李德安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1868
+      },
+      "death": {
+        "year": 1923
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡二圹村。1868年五月初八生于墙干边，1923年冬月二十一日殁于墙干边，葬于水淹冲。子孙见德安房分支"
+    },
+    {
+      "externalId": "lipu:lishifangert:19-崇全",
+      "name": "李崇全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。谱题「李崇全一支——上承18代李德明分支19代起」，然本谱世芳一支列崇全为德清之子。己亥年2月26日生，殁于甲子年，葬于鸡兆包包，姙郭氏戊戌年8月5日生，殁于壬申年，葬于二塘猫猫山"
+    },
+    {
+      "externalId": "lipu:lishifangert:19-崇学",
+      "name": "李崇学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬寅年正月二十"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。壬寅年正月二十生于大沟边，丙寅年八月二十七殁于大沟边，葬于新寨半坡，姙张氏辛丑年5月25日生于二塘，丙辰年11月18日殁于大沟边，葬于青岗林"
+    },
+    {
+      "externalId": "lipu:lishifangert:12-成秀",
+      "name": "李成秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:12-成龙",
+      "name": "李成龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:12-成宗",
+      "name": "李成宗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:12-成录",
+      "name": "李成录",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦斌",
+      "name": "李彦斌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦顺",
+      "name": "李彦顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦章",
+      "name": "李彦章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦学",
+      "name": "李彦学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦仕",
+      "name": "李彦仕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦芳",
+      "name": "李彦芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-彦富",
+      "name": "李彦富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:13-李彦信之妻",
+      "name": "李彦信之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "吴氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:14-起连",
+      "name": "李起连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:14-起寿",
+      "name": "李起寿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:15-如极",
+      "name": "李如极",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:15-如柄",
+      "name": "李如柄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:15-李如柏之妻",
+      "name": "李如柏之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:16-李天珍之妻",
+      "name": "李天珍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:17-宗连",
+      "name": "李宗连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:17-李宗贵之妻",
+      "name": "李宗贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:18-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:18-德芳",
+      "name": "李德芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:18-李德清之妻",
+      "name": "李德清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:19-崇杰",
+      "name": "李崇杰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifangert:18-李德安之妻",
+      "name": "李德安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:19-李崇全之妻",
+      "name": "李崇全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:20-隆银",
+      "name": "李隆银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangert:19-李崇学之妻",
+      "name": "李崇学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifangert:20-隆生",
+      "name": "李隆生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangert:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangert:20-隆轩",
+      "name": "李隆轩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangert:20-隆品",
+      "name": "李隆品",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifangert:20-隆甫",
+      "name": "李隆甫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:11-世芳",
+      "child": "lipu:lishifangert:12-成秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:11-世芳",
+      "child": "lipu:lishifangert:12-成龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:11-世芳",
+      "child": "lipu:lishifangert:12-成宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:11-世芳",
+      "child": "lipu:lishifangert:12-成录"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:11-世芳",
+      "child": "lipu:lishifangert:12-成美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦仕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:12-成美",
+      "child": "lipu:lishifangert:13-彦信"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:13-彦信",
+      "b": "lipu:lishifangert:13-李彦信之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:13-彦信",
+      "child": "lipu:lishifangert:14-起连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:13-彦信",
+      "child": "lipu:lishifangert:14-起寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:13-彦信",
+      "child": "lipu:lishifangert:14-起梅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:14-起梅",
+      "child": "lipu:lishifangert:15-如极"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:14-起梅",
+      "child": "lipu:lishifangert:15-如柄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:14-起梅",
+      "child": "lipu:lishifangert:15-如柏"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:15-如柏",
+      "b": "lipu:lishifangert:15-李如柏之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:15-如柏",
+      "child": "lipu:lishifangert:16-天珍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:16-天珍",
+      "b": "lipu:lishifangert:16-李天珍之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:16-天珍",
+      "child": "lipu:lishifangert:17-宗连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:16-天珍",
+      "child": "lipu:lishifangert:17-宗贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:17-宗贵",
+      "b": "lipu:lishifangert:17-李宗贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:17-宗贵",
+      "child": "lipu:lishifangert:18-德明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:17-宗贵",
+      "child": "lipu:lishifangert:18-德芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:17-宗贵",
+      "child": "lipu:lishifangert:18-德清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:18-德清",
+      "b": "lipu:lishifangert:18-李德清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德清",
+      "child": "lipu:lishifangert:19-崇杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:17-宗贵",
+      "child": "lipu:lishifangert:18-德安"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:18-德安",
+      "b": "lipu:lishifangert:18-李德安之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德清",
+      "child": "lipu:lishifangert:19-崇全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:19-崇全",
+      "b": "lipu:lishifangert:19-李崇全之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:19-崇全",
+      "child": "lipu:lishifangert:20-隆银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德清",
+      "child": "lipu:lishifangert:19-崇学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifangert:19-崇学",
+      "b": "lipu:lishifangert:19-李崇学之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:19-崇学",
+      "child": "lipu:lishifangert:20-隆生"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:19-崇学",
+      "child": "lipu:lishifangert:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:19-崇学",
+      "child": "lipu:lishifangert:20-隆轩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:19-崇学",
+      "child": "lipu:lishifangert:20-隆品"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:19-崇学",
+      "child": "lipu:lishifangert:20-隆甫"
+    }
+  ]
+}

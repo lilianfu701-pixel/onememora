@@ -231,6 +231,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishiju3:22-裕江#1",
+      "name": "李裕江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishiju3:22-裕山",
       "name": "李裕山",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -322,6 +333,11 @@
       "kind": "parent",
       "parent": "lipu:lishiju2:21-发书",
       "child": "lipu:lishiju3:22-裕坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发书",
+      "child": "lipu:lishiju3:22-裕江#1"
     },
     {
       "kind": "parent",

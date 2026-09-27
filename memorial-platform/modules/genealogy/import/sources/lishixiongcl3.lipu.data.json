@@ -379,6 +379,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishixiongcl3:20-隆菊#1",
+      "name": "李隆菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇对门寨茶林",
+      "birthPlace": {
+        "region": "贵州织金·以那镇对门寨茶林"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishixiongcl3:20-漫龙",
       "name": "李漫龙",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -643,6 +654,11 @@
       "kind": "parent",
       "parent": "lipu:lishixiongcl3:19-崇模",
       "child": "lipu:lishixiongcl3:20-爱平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiongcl3:19-崇模",
+      "child": "lipu:lishixiongcl3:20-隆菊#1"
     },
     {
       "kind": "parent",

@@ -350,6 +350,32 @@
       ]
     },
     {
+      "externalId": "lipu:liqimingyjb:18-德明#1",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡喻家坝",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡喻家坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡喻家坝"
+      }
+    },
+    {
+      "externalId": "lipu:liqimingyjb:18-德先#1",
+      "name": "李德先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡喻家坝",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡喻家坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡喻家坝"
+      }
+    },
+    {
       "externalId": "lipu:liqimingyjb:18-德荣",
       "name": "李德荣",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -465,6 +491,17 @@
       ],
       "birth": {
         "year": 1959
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqimingyjb:19-崇华#1",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡喻家坝",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡喻家坝"
       },
       "living": true
     },
@@ -653,6 +690,16 @@
     {
       "kind": "parent",
       "parent": "lipu:liqimingyjb:17-宗祥",
+      "child": "lipu:liqimingyjb:18-德明#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqimingyjb:17-宗祥",
+      "child": "lipu:liqimingyjb:18-德先#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqimingyjb:17-宗祥",
       "child": "lipu:liqimingyjb:18-德荣"
     },
     {
@@ -724,6 +771,11 @@
       "kind": "spouse",
       "a": "lipu:liqimingyjb:18-德亮",
       "b": "lipu:liqimingyjb:18-李德亮之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqimingyjb:18-德亮",
+      "child": "lipu:liqimingyjb:19-崇华#1"
     },
     {
       "kind": "parent",

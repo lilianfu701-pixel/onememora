@@ -1,0 +1,194 @@
+{
+  "key": "lipu:lidekaiek",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lidekaiek:17-宗朝",
+      "name": "李宗朝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·绮陌乡二圹村。毛栗园十七代，生德凯"
+    },
+    {
+      "externalId": "lipu:lidekaiek:18-德凯",
+      "name": "李德凯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛未年3月5日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡二圹村。辛未年3月5日生，葬于板桥，姙张氏生于辛未年冬月十七，殁于戊寅年正月三"
+    },
+    {
+      "externalId": "lipu:lidekaiek:19-崇秀",
+      "name": "李崇秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己亥年10月3日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。己亥年10月3日生，葬于金家箐，姙张氏戊戌年腊月十七"
+    },
+    {
+      "externalId": "lipu:lidekaiek:19-崇修",
+      "name": "李崇修",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁未年正月二十九"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村。丁未年正月二十九生，殁于辛巳年腊月初二，葬于土地丫，偶段氏丁未年10月2日生，殁于丁未年9月11日，葬于煤洞坡"
+    },
+    {
+      "externalId": "lipu:lidekaiek:18-李德凯之妻",
+      "name": "李德凯之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidekaiek:19-李崇秀之妻",
+      "name": "李崇秀之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidekaiek:20-隆乾",
+      "name": "李隆乾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidekaiek:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidekaiek:19-李崇修之妻",
+      "name": "李崇修之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidekaiek:20-隆旺",
+      "name": "李隆旺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidekaiek:20-隆学",
+      "name": "李隆学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:17-宗朝",
+      "child": "lipu:lidekaiek:18-德凯"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidekaiek:18-德凯",
+      "b": "lipu:lidekaiek:18-李德凯之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:18-德凯",
+      "child": "lipu:lidekaiek:19-崇秀"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidekaiek:19-崇秀",
+      "b": "lipu:lidekaiek:19-李崇秀之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:19-崇秀",
+      "child": "lipu:lidekaiek:20-隆乾"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:19-崇秀",
+      "child": "lipu:lidekaiek:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:18-德凯",
+      "child": "lipu:lidekaiek:19-崇修"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidekaiek:19-崇修",
+      "b": "lipu:lidekaiek:19-李崇修之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:19-崇修",
+      "child": "lipu:lidekaiek:20-隆旺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidekaiek:19-崇修",
+      "child": "lipu:lidekaiek:20-隆学"
+    }
+  ]
+}

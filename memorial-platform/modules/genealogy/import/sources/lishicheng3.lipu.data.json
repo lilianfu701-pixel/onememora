@@ -324,6 +324,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishicheng3:21-发勇#1",
+      "name": "李发勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishicheng3:21-发桃",
       "name": "李发桃",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -421,6 +432,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishicheng3:21-发勇#2",
+      "name": "李发勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishicheng3:21-发文",
       "name": "李发文",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -434,6 +456,39 @@
     {
       "externalId": "lipu:lishicheng3:21-发逃",
       "name": "李发逃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng3:21-发艳#1",
+      "name": "李发艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng3:21-发菊#1",
+      "name": "李发菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇核桃寨",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇核桃寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishicheng3:21-发静#1",
+      "name": "李发静",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
       "ancestralHometown": "贵州织金·桂果镇核桃寨",
@@ -562,6 +617,11 @@
     {
       "kind": "parent",
       "parent": "lipu:lishicheng3:20-隆全",
+      "child": "lipu:lishicheng3:21-发勇#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng3:20-隆全",
       "child": "lipu:lishicheng3:21-发桃"
     },
     {
@@ -617,12 +677,32 @@
     {
       "kind": "parent",
       "parent": "lipu:lishicheng3:20-隆富",
+      "child": "lipu:lishicheng3:21-发勇#2"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng3:20-隆富",
       "child": "lipu:lishicheng3:21-发文"
     },
     {
       "kind": "parent",
       "parent": "lipu:lishicheng3:20-隆富",
       "child": "lipu:lishicheng3:21-发逃"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng3:20-隆富",
+      "child": "lipu:lishicheng3:21-发艳#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng3:20-隆富",
+      "child": "lipu:lishicheng3:21-发菊#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishicheng3:20-隆富",
+      "child": "lipu:lishicheng3:21-发静#1"
     }
   ]
 }

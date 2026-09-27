@@ -435,6 +435,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lizongxiu2:20-隆军#1",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果新华后麻窝",
+      "birthPlace": {
+        "region": "贵州织金·桂果新华后麻窝"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lizongxiu2:20-隆永",
       "name": "李隆永",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -621,6 +632,11 @@
       "kind": "parent",
       "parent": "lipu:lizongxiu2:19-崇兵",
       "child": "lipu:lizongxiu2:20-隆忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongxiu2:19-崇兵",
+      "child": "lipu:lizongxiu2:20-隆军#1"
     },
     {
       "kind": "parent",

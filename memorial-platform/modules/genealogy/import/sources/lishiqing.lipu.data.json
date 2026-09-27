@@ -313,6 +313,19 @@
       }
     },
     {
+      "externalId": "lipu:lishiqing:19-崇贵#1",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥田",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇化泥田"
+      }
+    },
+    {
       "externalId": "lipu:lishiqing:18-李德金之妻",
       "name": "李德金之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -435,6 +448,11 @@
       "kind": "parent",
       "parent": "lipu:lishiqing:18-德凤",
       "child": "lipu:lishiqing:19-崇芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiqing:18-德凤",
+      "child": "lipu:lishiqing:19-崇贵#1"
     },
     {
       "kind": "parent",

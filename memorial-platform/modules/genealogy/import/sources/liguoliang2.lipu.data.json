@@ -221,6 +221,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:liguoliang2:21-发明#1",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:liguoliang2:21-发文",
       "name": "李发文",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -239,6 +250,17 @@
       "aliases": [
         "陶氏"
       ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang2:21-发俊#1",
+      "name": "李发俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
       "living": true
     },
     {
@@ -369,6 +391,11 @@
     {
       "kind": "parent",
       "parent": "lipu:liguoliang2:20-隆全",
+      "child": "lipu:liguoliang2:21-发明#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang2:20-隆全",
       "child": "lipu:liguoliang2:21-发文"
     },
     {
@@ -380,6 +407,11 @@
       "kind": "spouse",
       "a": "lipu:liguoliang2:20-李隆达之妻",
       "b": "lipu:liguoliang2:20-隆达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang2:20-隆达",
+      "child": "lipu:liguoliang2:21-发俊#1"
     },
     {
       "kind": "parent",

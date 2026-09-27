@@ -260,6 +260,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lifuting2:21-发祥#1",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果乡克窝村",
+      "birthPlace": {
+        "region": "贵州织金·桂果乡克窝村"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lifuting2:21-发学",
       "name": "李发学",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -376,6 +387,11 @@
       "kind": "parent",
       "parent": "lipu:lifuting2:20-隆芳",
       "child": "lipu:lifuting2:21-发友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lifuting2:20-隆芳",
+      "child": "lipu:lifuting2:21-发祥#1"
     },
     {
       "kind": "parent",

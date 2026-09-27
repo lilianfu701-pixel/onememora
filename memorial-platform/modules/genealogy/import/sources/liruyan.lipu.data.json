@@ -452,6 +452,17 @@
         "region": "贵州织金·桂果镇新华冒龙井"
       },
       "living": true
+    },
+    {
+      "externalId": "lipu:liruyan:20-兴文#1",
+      "name": "李兴文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·桂果镇新华冒龙井",
+      "birthPlace": {
+        "region": "贵州织金·桂果镇新华冒龙井"
+      },
+      "living": true
     }
   ],
   "relations": [
@@ -639,6 +650,11 @@
       "kind": "parent",
       "parent": "lipu:liruyan:19-举贵",
       "child": "lipu:liruyan:20-兴青"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruyan:19-举贵",
+      "child": "lipu:liruyan:20-兴文#1"
     }
   ]
 }

@@ -443,6 +443,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:liwengui3:22-裕刚#1",
+      "name": "李裕刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:liwengui3:22-裕勇",
       "name": "李裕勇",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -456,6 +467,17 @@
     {
       "externalId": "lipu:liwengui3:22-裕军",
       "name": "李裕军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liwengui3:22-裕梅#1",
+      "name": "李裕梅",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
       "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
@@ -635,12 +657,22 @@
     {
       "kind": "parent",
       "parent": "lipu:liwengui3:21-发良",
+      "child": "lipu:liwengui3:22-裕刚#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liwengui3:21-发良",
       "child": "lipu:liwengui3:22-裕勇"
     },
     {
       "kind": "parent",
       "parent": "lipu:liwengui3:21-发良",
       "child": "lipu:liwengui3:22-裕军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liwengui3:21-发良",
+      "child": "lipu:liwengui3:22-裕梅#1"
     },
     {
       "kind": "parent",

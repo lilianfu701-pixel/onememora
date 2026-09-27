@@ -405,6 +405,17 @@
       "gender": "female"
     },
     {
+      "externalId": "lipu:lirongzhi2:21-发文#1",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新寨村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lirongzhi2:21-发平",
       "name": "李发平",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -577,6 +588,11 @@
       "kind": "spouse",
       "a": "lipu:lirongzhi2:20-朱新秀",
       "b": "lipu:lirongzhi2:20-隆章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lirongzhi2:20-隆章",
+      "child": "lipu:lirongzhi2:21-发文#1"
     },
     {
       "kind": "parent",

@@ -252,6 +252,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lishijiao2:20-隆祥#1",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇蒿枝冲",
+      "birthPlace": {
+        "region": "贵州织金·以那镇蒿枝冲"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lishijiao2:19-李崇益之妻",
       "name": "李崇益之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -259,6 +270,17 @@
       "aliases": [
         "段氏"
       ]
+    },
+    {
+      "externalId": "lipu:lishijiao2:20-隆祥#2",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇蒿枝冲",
+      "birthPlace": {
+        "region": "贵州织金·以那镇蒿枝冲"
+      },
+      "living": true
     },
     {
       "externalId": "lipu:lishijiao2:20-李隆真之妻",
@@ -528,6 +550,11 @@
     },
     {
       "kind": "parent",
+      "parent": "lipu:lishijiao2:19-崇发",
+      "child": "lipu:lishijiao2:20-隆祥#1"
+    },
+    {
+      "kind": "parent",
       "parent": "lipu:lishijiao:18-德科",
       "child": "lipu:lishijiao2:19-崇益"
     },
@@ -535,6 +562,11 @@
       "kind": "spouse",
       "a": "lipu:lishijiao2:19-崇益",
       "b": "lipu:lishijiao2:19-李崇益之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiao2:19-崇益",
+      "child": "lipu:lishijiao2:20-隆祥#2"
     },
     {
       "kind": "parent",

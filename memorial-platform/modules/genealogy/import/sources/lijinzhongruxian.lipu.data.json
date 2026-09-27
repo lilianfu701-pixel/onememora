@@ -494,6 +494,28 @@
       "living": true
     },
     {
+      "externalId": "lipu:lijinzhongruxian:19-崇文#1",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijinzhongruxian:19-崇英#1",
+      "name": "李崇英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lijinzhongruxian:19-秀",
       "name": "李秀",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -710,6 +732,16 @@
       "kind": "parent",
       "parent": "lipu:lijinzhongruxian:18-德权",
       "child": "lipu:lijinzhongruxian:19-崇伍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongruxian:18-德权",
+      "child": "lipu:lijinzhongruxian:19-崇文#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongruxian:18-德权",
+      "child": "lipu:lijinzhongruxian:19-崇英#1"
     },
     {
       "kind": "parent",

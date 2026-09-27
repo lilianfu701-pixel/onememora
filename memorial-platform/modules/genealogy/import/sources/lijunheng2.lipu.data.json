@@ -492,8 +492,30 @@
       "living": true
     },
     {
+      "externalId": "lipu:lijunheng2:21-发明#1",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lijunheng2:21-发祥",
       "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发军#1",
+      "name": "李发军",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
       "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
@@ -545,8 +567,30 @@
       "living": true
     },
     {
+      "externalId": "lipu:lijunheng2:21-发贵#1",
+      "name": "李发贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lijunheng2:21-发连",
       "name": "李发连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发龙#1",
+      "name": "李发龙",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
       "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
@@ -745,7 +789,17 @@
     {
       "kind": "parent",
       "parent": "lipu:lijunheng2:20-隆明",
+      "child": "lipu:lijunheng2:21-发明#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆明",
       "child": "lipu:lijunheng2:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆明",
+      "child": "lipu:lijunheng2:21-发军#1"
     },
     {
       "kind": "parent",
@@ -780,7 +834,17 @@
     {
       "kind": "parent",
       "parent": "lipu:lijunheng2:20-隆富",
+      "child": "lipu:lijunheng2:21-发贵#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆富",
       "child": "lipu:lijunheng2:21-发连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆富",
+      "child": "lipu:lijunheng2:21-发龙#1"
     }
   ]
 }

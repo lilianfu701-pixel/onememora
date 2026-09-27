@@ -361,6 +361,19 @@
       ]
     },
     {
+      "externalId": "lipu:lishijiao:18-德科#1",
+      "name": "李德科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇蒿枝冲",
+      "birthPlace": {
+        "region": "贵州织金·以那镇蒿枝冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇蒿枝冲"
+      }
+    },
+    {
       "externalId": "lipu:lishijiao:18-德云",
       "name": "李德云",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -535,6 +548,11 @@
       "kind": "spouse",
       "a": "lipu:lishijiao:17-宗文",
       "b": "lipu:lishijiao:17-李宗文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijiao:17-宗文",
+      "child": "lipu:lishijiao:18-德科#1"
     },
     {
       "kind": "parent",

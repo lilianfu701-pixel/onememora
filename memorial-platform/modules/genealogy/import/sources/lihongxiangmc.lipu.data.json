@@ -351,6 +351,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lihongxiangmc:20-隆军#1",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡下木楚",
+      "birthPlace": {
+        "region": "贵州织金·少普乡下木楚"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lihongxiangmc:20-隆义",
       "name": "李隆义",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -539,6 +550,11 @@
       "kind": "spouse",
       "a": "lipu:lihongxiangmc:19-崇芳",
       "b": "lipu:lihongxiangmc:19-李崇芳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongxiangmc:19-崇芳",
+      "child": "lipu:lihongxiangmc:20-隆军#1"
     },
     {
       "kind": "parent",

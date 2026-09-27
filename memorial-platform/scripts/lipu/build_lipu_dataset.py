@@ -212,6 +212,17 @@ def build(inter):
         cands = by_gen_name.get((child_gen - 1, father_name), [])
         return cands[0] if len(cands) == 1 else (cands[0] if cands else None)
 
+    # A 生：name is already covered when an explicit entry of that name either
+    # names this parent as father or has no stated father. Otherwise (a same-name
+    # cousin under another father) it is a distinct person and needs its own leaf.
+    explicit_father = {e["_id"]: e.get("father") for e in entries}
+
+    def leaf_taken(child_gen, child_name, parent_name):
+        for cid_ in by_gen_name.get((child_gen, child_name), []):
+            if cid_ in explicit_father and explicit_father[cid_] in (None, parent_name):
+                return True
+        return False
+
     # Pass 2: parent edges (child -> father) + spouse edges + leaf children.
     for e in entries:
         gen, gid = e["gen"], e["_id"]
@@ -257,7 +268,7 @@ def build(inter):
                 ch = ch.strip()
                 if not ch:
                     continue
-                if by_gen_name.get((gen + 1, ch)):
+                if leaf_taken(gen + 1, ch, e["name"]):
                     continue  # explicit entry exists; its own father= links it
                 cid = add_person(gen + 1, ch)
                 add_rel({"kind": "parent", "parent": gid, "child": cid})

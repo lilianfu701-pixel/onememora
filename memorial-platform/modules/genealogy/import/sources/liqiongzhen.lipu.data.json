@@ -209,6 +209,17 @@
       "gender": "female"
     },
     {
+      "externalId": "lipu:liqiongzhen:21-隆祥#1",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·阿弓镇大寨村黄泥硐",
+      "birthPlace": {
+        "region": "贵州织金·阿弓镇大寨村黄泥硐"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:liqiongzhen:21-隆元",
       "name": "李隆元",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -349,6 +360,11 @@
       "kind": "spouse",
       "a": "lipu:liqiongzhen:20-崇富",
       "b": "lipu:liqiongzhen:20-陈秀珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqiongzhen:20-崇富",
+      "child": "lipu:liqiongzhen:21-隆祥#1"
     },
     {
       "kind": "parent",

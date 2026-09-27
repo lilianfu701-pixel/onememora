@@ -211,6 +211,17 @@
       ]
     },
     {
+      "externalId": "lipu:lizhengguixhg2:20-隆军#1",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lizhengguixhg2:19-李崇亮之妻",
       "name": "李崇亮之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -473,6 +484,11 @@
       "kind": "spouse",
       "a": "lipu:lizhengguixhg2:19-崇文",
       "b": "lipu:lizhengguixhg2:19-李崇文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇文",
+      "child": "lipu:lizhengguixhg2:20-隆军#1"
     },
     {
       "kind": "parent",

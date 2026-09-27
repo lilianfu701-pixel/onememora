@@ -563,6 +563,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lipengchen:20-隆华#1",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·实兴乡李家寨",
+      "birthPlace": {
+        "region": "贵州织金·实兴乡李家寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lipengchen:19-李崇云之妻",
       "name": "李崇云之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -783,6 +794,11 @@
       "kind": "parent",
       "parent": "lipu:lipengchen:19-崇林",
       "child": "lipu:lipengchen:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lipengchen:19-崇林",
+      "child": "lipu:lipengchen:20-隆华#1"
     },
     {
       "kind": "spouse",

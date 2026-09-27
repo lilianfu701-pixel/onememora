@@ -452,6 +452,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lijinzhongdelong:20-艳#1",
+      "name": "李艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·牛场镇千二系",
+      "birthPlace": {
+        "region": "贵州织金·牛场镇千二系"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lijinzhongdelong:20-海燕",
       "name": "李海燕",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -639,6 +650,11 @@
       "kind": "spouse",
       "a": "lipu:lijinzhongdelong:19-崇义",
       "b": "lipu:lijinzhongdelong:19-李崇义之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijinzhongdelong:19-崇义",
+      "child": "lipu:lijinzhongdelong:20-艳#1"
     },
     {
       "kind": "parent",

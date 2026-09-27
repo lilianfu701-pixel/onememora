@@ -274,6 +274,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lizailong3:21-发全#1",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡街上村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡街上村"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lizailong3:21-发学",
       "name": "李发学",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -455,6 +466,11 @@
       "kind": "spouse",
       "a": "lipu:lizailong3:20-李隆高之妻",
       "b": "lipu:lizailong3:20-隆高"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizailong3:20-隆高",
+      "child": "lipu:lizailong3:21-发全#1"
     },
     {
       "kind": "parent",

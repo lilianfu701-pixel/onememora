@@ -204,6 +204,17 @@
       "living": true
     },
     {
+      "externalId": "lipu:lizongfulbz2:21-军#1",
+      "name": "李军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇化泥村李宝寨",
+      "birthPlace": {
+        "region": "贵州织金·以那镇化泥村李宝寨"
+      },
+      "living": true
+    },
+    {
       "externalId": "lipu:lizongfulbz2:21-贵",
       "name": "李贵",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -285,6 +296,11 @@
       "kind": "parent",
       "parent": "lipu:lizongfulbz2:20-隆凤",
       "child": "lipu:lizongfulbz2:21-发勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfulbz2:20-隆凤",
+      "child": "lipu:lizongfulbz2:21-军#1"
     },
     {
       "kind": "parent",
