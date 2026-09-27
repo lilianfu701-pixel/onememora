@@ -1,0 +1,173 @@
+{
+  "key": "lipu:lichuntingyp",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichuntingyp:15-春廷",
+      "name": "李春廷",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇云盘村",
+      "birthPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·马场镇云盘村。上接六枝岩脚支系"
+    },
+    {
+      "externalId": "lipu:lichuntingyp:16-正学",
+      "name": "李正学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇云盘村",
+      "birthPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·马场镇云盘村。偶赵氏"
+    },
+    {
+      "externalId": "lipu:lichuntingyp:17-灿文",
+      "name": "李灿文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇云盘村",
+      "birthPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇云盘村。偶彭氏"
+    },
+    {
+      "externalId": "lipu:lichuntingyp:18-崇武",
+      "name": "李崇武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1903
+      },
+      "death": {
+        "year": 1976
+      },
+      "ancestralHometown": "贵州普定·马场镇云盘村",
+      "birthPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇云盘村。1903年生于云盘，亡于1976年正月，共产党员，任大队村支书26年，葬于马场镇猪场，终年73岁，偶韩氏1903生于蒋家寨，亡于1983年9月享年80岁，葬于马场镇猪场"
+    },
+    {
+      "externalId": "lipu:lichuntingyp:19-德进",
+      "name": "李德进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1946
+      },
+      "ancestralHometown": "贵州普定·马场镇云盘村",
+      "birthPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马场镇云盘村。生于云盘，1946年去逝，终年20岁"
+    },
+    {
+      "externalId": "lipu:lichuntingyp:16-李正学之妻",
+      "name": "李正学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichuntingyp:17-李灿文之妻",
+      "name": "李灿文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichuntingyp:18-李崇武之妻",
+      "name": "李崇武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "韩氏"
+      ],
+      "birth": {
+        "year": 1903
+      },
+      "death": {
+        "year": 1983
+      }
+    },
+    {
+      "externalId": "lipu:lichuntingyp:19-德忠",
+      "name": "李德忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇云盘村",
+      "birthPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇云盘村"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichuntingyp:15-春廷",
+      "child": "lipu:lichuntingyp:16-正学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichuntingyp:16-李正学之妻",
+      "b": "lipu:lichuntingyp:16-正学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichuntingyp:16-正学",
+      "child": "lipu:lichuntingyp:17-灿文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichuntingyp:17-李灿文之妻",
+      "b": "lipu:lichuntingyp:17-灿文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichuntingyp:17-灿文",
+      "child": "lipu:lichuntingyp:18-崇武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichuntingyp:18-崇武",
+      "b": "lipu:lichuntingyp:18-李崇武之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichuntingyp:18-崇武",
+      "child": "lipu:lichuntingyp:19-德忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichuntingyp:18-崇武",
+      "child": "lipu:lichuntingyp:19-德进"
+    }
+  ]
+}

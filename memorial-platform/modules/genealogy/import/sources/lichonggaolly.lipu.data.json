@@ -1,0 +1,155 @@
+{
+  "key": "lipu:lichonggaolly",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichonggaolly:18-崇高",
+      "name": "李崇高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·化处镇腊柳寨。上承沙泡村支系18代起。生于腊柳寨，殁、葬黄兴厂，姙张氏葬腊柳寨学校背后"
+    },
+    {
+      "externalId": "lipu:lichonggaolly:19-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·化处镇腊柳寨。生、殁、葬于腊柳寨，姙陈氏葬腊柳寨"
+    },
+    {
+      "externalId": "lipu:lichonggaolly:18-李崇高之妻",
+      "name": "李崇高之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichonggaolly:19-德云",
+      "name": "李德云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichonggaolly:19-德科",
+      "name": "李德科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichonggaolly:19-德富",
+      "name": "李德富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichonggaolly:19-李德明之妻",
+      "name": "李德明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichonggaolly:20-树云",
+      "name": "李树云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichonggaolly:20-伯年",
+      "name": "李伯年",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇腊柳寨",
+      "birthPlace": {
+        "region": "贵州普定·化处镇腊柳寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichonggaolly:18-崇高",
+      "b": "lipu:lichonggaolly:18-李崇高之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichonggaolly:18-崇高",
+      "child": "lipu:lichonggaolly:19-德云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichonggaolly:18-崇高",
+      "child": "lipu:lichonggaolly:19-德科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichonggaolly:18-崇高",
+      "child": "lipu:lichonggaolly:19-德富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichonggaolly:18-崇高",
+      "child": "lipu:lichonggaolly:19-德明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichonggaolly:19-德明",
+      "b": "lipu:lichonggaolly:19-李德明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichonggaolly:19-德明",
+      "child": "lipu:lichonggaolly:20-树云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichonggaolly:19-德明",
+      "child": "lipu:lichonggaolly:20-伯年"
+    }
+  ]
+}
