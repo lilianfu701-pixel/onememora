@@ -84,7 +84,7 @@
       "deathPlace": {
         "region": "贵州织金·以那镇李保寨"
       },
-      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇李保寨。"
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇李保寨。子宗福一房见李世雄一支·宗福房"
     },
     {
       "externalId": "lipu:lishixionglbz:17-宗寿",
@@ -272,19 +272,6 @@
       ]
     },
     {
-      "externalId": "lipu:lishixionglbz:17-宗福",
-      "name": "李宗福",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州织金·以那镇李保寨",
-      "birthPlace": {
-        "region": "贵州织金·以那镇李保寨"
-      },
-      "deathPlace": {
-        "region": "贵州织金·以那镇李保寨"
-      }
-    },
-    {
       "externalId": "lipu:lishixionglbz:17-宗庚",
       "name": "李宗庚",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -447,11 +434,6 @@
       "kind": "spouse",
       "a": "lipu:lishixionglbz:16-天长",
       "b": "lipu:lishixionglbz:16-李天长之妻"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishixionglbz:16-天长",
-      "child": "lipu:lishixionglbz:17-宗福"
     },
     {
       "kind": "parent",
