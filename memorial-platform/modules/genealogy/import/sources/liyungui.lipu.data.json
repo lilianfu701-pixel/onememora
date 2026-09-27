@@ -1,0 +1,505 @@
+{
+  "key": "lipu:liyungui",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litingjie:16-学崇",
+      "name": "李学崇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·后寨乡花树村。"
+    },
+    {
+      "externalId": "lipu:liyungui:17-云贵",
+      "name": "李云贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·后寨乡花树村。葬后寨子火烧寨老熊井西山卯向，姙张氏葬花树村牛硐麻地头甲山庚向"
+    },
+    {
+      "externalId": "lipu:liyungui:18-德祥",
+      "name": "李德祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·后寨乡花树村。葬纳雍县张维镇山羊庙，与张氏同茔，姙郭氏葬地同上"
+    },
+    {
+      "externalId": "lipu:liyungui:19-崇林",
+      "name": "李崇林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·后寨乡花树村。"
+    },
+    {
+      "externalId": "lipu:liyungui:19-崇发",
+      "name": "李崇发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·后寨乡花树村。生于张维镇，迁居本县熊家场，死熊家场华口嘴，姙张氏，葬地二老同茔"
+    },
+    {
+      "externalId": "lipu:liyungui:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·后寨乡花树村。生于张维镇，迁后寨乡，葬后寨偏岩村郎基坝猴子硐背后，甲山庚向，姙罗氏葬花树村马硐"
+    },
+    {
+      "externalId": "lipu:liyungui:20-隆国",
+      "name": "李隆国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·后寨乡花树村。又名文少青，葬于华口嘴"
+    },
+    {
+      "externalId": "lipu:liyungui:20-龙",
+      "name": "李龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·后寨乡花树村。谱列于第二十代崇发、崇贵房间，未载其父"
+    },
+    {
+      "externalId": "lipu:liyungui:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·后寨乡花树村。葬后寨，花树村、牛硐苗冲背后"
+    },
+    {
+      "externalId": "lipu:liyungui:20-隆英",
+      "name": "李隆英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·后寨乡花树村。葬后葬花树村牛硐石山上。子嗣见隆英房"
+    },
+    {
+      "externalId": "lipu:liyungui:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·后寨乡花树村。子嗣见隆富房"
+    },
+    {
+      "externalId": "lipu:liyungui:17-李云贵之妻",
+      "name": "李云贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyungui:18-李德祥之妻",
+      "name": "李德祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyungui:19-李崇发之妻",
+      "name": "李崇发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyungui:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyungui:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:20-隆珍",
+      "name": "李隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:20-李隆国之妻",
+      "name": "李隆国之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:20-李龙之妻",
+      "name": "李龙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-昌荣",
+      "name": "李昌荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-昌发",
+      "name": "李昌发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:20-李隆昌之妻",
+      "name": "李隆昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发群",
+      "name": "李发群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发凤",
+      "name": "李发凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发英",
+      "name": "李发英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发秀",
+      "name": "李发秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发敏",
+      "name": "李发敏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发先",
+      "name": "李发先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:21-发珍",
+      "name": "李发珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui:20-李隆富之妻",
+      "name": "李隆富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:litingjie:16-学崇",
+      "child": "lipu:liyungui:17-云贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:17-云贵",
+      "b": "lipu:liyungui:17-李云贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:17-云贵",
+      "child": "lipu:liyungui:18-德祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:18-德祥",
+      "b": "lipu:liyungui:18-李德祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:18-德祥",
+      "child": "lipu:liyungui:19-崇林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:18-德祥",
+      "child": "lipu:liyungui:19-崇发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:19-崇发",
+      "b": "lipu:liyungui:19-李崇发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:18-德祥",
+      "child": "lipu:liyungui:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:19-崇贵",
+      "b": "lipu:liyungui:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:19-崇贵",
+      "child": "lipu:liyungui:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:19-崇贵",
+      "child": "lipu:liyungui:20-隆珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:19-崇发",
+      "child": "lipu:liyungui:20-隆国"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:20-李隆国之妻",
+      "b": "lipu:liyungui:20-隆国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆国",
+      "child": "lipu:liyungui:21-发全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:20-李龙之妻",
+      "b": "lipu:liyungui:20-龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-龙",
+      "child": "lipu:liyungui:21-昌荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-龙",
+      "child": "lipu:liyungui:21-昌发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:19-崇贵",
+      "child": "lipu:liyungui:20-隆昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:20-李隆昌之妻",
+      "b": "lipu:liyungui:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发凤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发敏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆昌",
+      "child": "lipu:liyungui:21-发珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:19-崇贵",
+      "child": "lipu:liyungui:20-隆英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:19-崇贵",
+      "child": "lipu:liyungui:20-隆富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui:20-李隆富之妻",
+      "b": "lipu:liyungui:20-隆富"
+    }
+  ]
+}

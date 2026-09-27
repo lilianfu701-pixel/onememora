@@ -1,0 +1,304 @@
+{
+  "key": "lipu:liyungui3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyungui:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·后寨乡花树村。"
+    },
+    {
+      "externalId": "lipu:liyungui3:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1964
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·后寨乡花树村。生于1964年（癸卯岁七月一日）"
+    },
+    {
+      "externalId": "lipu:liyungui3:21-发元",
+      "name": "李发元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1970
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·后寨乡花树村。生于1970年（庚戌九月九日）"
+    },
+    {
+      "externalId": "lipu:liyungui3:21-发文",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1970
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·后寨乡花树村。生于1970年（庚戌七月九日）"
+    },
+    {
+      "externalId": "lipu:liyungui3:21-发贵",
+      "name": "李发贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1980
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·后寨乡花树村。生于1980年（庚申六月十二日），现住城关"
+    },
+    {
+      "externalId": "lipu:liyungui3:21-李发云之妻",
+      "name": "李发云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕国",
+      "name": "李裕国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕珍",
+      "name": "李裕珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕兰",
+      "name": "李裕兰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:21-李发元之妻",
+      "name": "李发元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "侯氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕泰",
+      "name": "李裕泰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕友",
+      "name": "李裕友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕桃",
+      "name": "李裕桃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:21-李发文之妻",
+      "name": "李发文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕平",
+      "name": "李裕平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-小菊",
+      "name": "李小菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:22-裕芬",
+      "name": "李裕芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·后寨乡花树村",
+      "birthPlace": {
+        "region": "贵州织金·后寨乡花树村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyungui3:21-李发贵之妻",
+      "name": "李发贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "常氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆富",
+      "child": "lipu:liyungui3:21-发云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui3:21-发云",
+      "b": "lipu:liyungui3:21-李发云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发云",
+      "child": "lipu:liyungui3:22-裕国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发云",
+      "child": "lipu:liyungui3:22-裕珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发云",
+      "child": "lipu:liyungui3:22-裕兰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆富",
+      "child": "lipu:liyungui3:21-发元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui3:21-发元",
+      "b": "lipu:liyungui3:21-李发元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发元",
+      "child": "lipu:liyungui3:22-裕泰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发元",
+      "child": "lipu:liyungui3:22-裕友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发元",
+      "child": "lipu:liyungui3:22-裕桃"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆富",
+      "child": "lipu:liyungui3:21-发文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui3:21-发文",
+      "b": "lipu:liyungui3:21-李发文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发文",
+      "child": "lipu:liyungui3:22-裕平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发文",
+      "child": "lipu:liyungui3:22-小菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui3:21-发文",
+      "child": "lipu:liyungui3:22-裕芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyungui:20-隆富",
+      "child": "lipu:liyungui3:21-发贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyungui3:21-发贵",
+      "b": "lipu:liyungui3:21-李发贵之妻"
+    }
+  ]
+}

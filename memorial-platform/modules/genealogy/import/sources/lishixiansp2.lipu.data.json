@@ -1,0 +1,351 @@
+{
+  "key": "lipu:lishixiansp2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishixiansp:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡丫口寨村。"
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-隆辉",
+      "name": "李隆辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1959
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡丫口寨村。1959年8月生于丫口寨，偶王志飞1958年正月生于小河"
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-隆俊",
+      "name": "李隆俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1971
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡丫口寨村。1971年3月生于大麻窝，偶杜氏生于白坟田坝"
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-隆信",
+      "name": "李隆信",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1974
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡丫口寨村。1974年腊月生于丫口寨，偶刘梅1980年3月生于磨中山上寨"
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-隆胜",
+      "name": "李隆胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1977
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡丫口寨村。1977年5月生于丫口寨，偶曾桃生于白坟云盘"
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-隆秀",
+      "name": "李隆秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-幺妹",
+      "name": "李幺妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-幺大",
+      "name": "李幺大",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-幺细",
+      "name": "李幺细",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-王志飞",
+      "name": "王志飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1958
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-发权",
+      "name": "李发权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-发玉",
+      "name": "李发玉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-李隆俊之妻",
+      "name": "李隆俊之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杜氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-松",
+      "name": "李松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-金焕",
+      "name": "李金焕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-文丽",
+      "name": "李文丽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-刘梅",
+      "name": "刘梅",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1980
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-江兰",
+      "name": "李江兰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:20-曾桃",
+      "name": "曾桃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishixiansp2:21-磊",
+      "name": "李磊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡丫口寨村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡丫口寨村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-隆秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-幺妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-幺大"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-幺细"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-隆辉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiansp2:20-王志飞",
+      "b": "lipu:lishixiansp2:20-隆辉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆辉",
+      "child": "lipu:lishixiansp2:21-发权"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆辉",
+      "child": "lipu:lishixiansp2:21-发云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆辉",
+      "child": "lipu:lishixiansp2:21-发玉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-隆俊"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiansp2:20-李隆俊之妻",
+      "b": "lipu:lishixiansp2:20-隆俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆俊",
+      "child": "lipu:lishixiansp2:21-松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆俊",
+      "child": "lipu:lishixiansp2:21-金焕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆俊",
+      "child": "lipu:lishixiansp2:21-文丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-隆信"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiansp2:20-刘梅",
+      "b": "lipu:lishixiansp2:20-隆信"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆信",
+      "child": "lipu:lishixiansp2:21-江兰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp:19-崇文",
+      "child": "lipu:lishixiansp2:20-隆胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishixiansp2:20-曾桃",
+      "b": "lipu:lishixiansp2:20-隆胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishixiansp2:20-隆胜",
+      "child": "lipu:lishixiansp2:21-磊"
+    }
+  ]
+}
