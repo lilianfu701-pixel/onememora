@@ -168,6 +168,11 @@ import lipu_lishaozhou from "./lishaozhou.lipu.data.json";
 import lipu_lishenglong from "./lishenglong.lipu.data.json";
 import lipu_lilongchangsh from "./lilongchangsh.lipu.data.json";
 import lipu_lijinhai from "./lijinhai.lipu.data.json";
+import lipu_litingyan from "./litingyan.lipu.data.json";
+import lipu_lizhengtang from "./lizhengtang.lipu.data.json";
+import lipu_liwenxian from "./liwenxian.lipu.data.json";
+import lipu_lihongzhen from "./lihongzhen.lipu.data.json";
+import lipu_liyingxue from "./liyingxue.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -335,6 +340,11 @@ const LABELS: Record<string, string> = {
   lishenglong: "李氏·李生隆一支（李代龙支系谱·白泥乡新黔村王家寨·十八至二十代）",
   lilongchangsh: "李氏·李隆昌一支（李代龙支系谱·白泥乡三合村·二十至二十一代）",
   lijinhai: "李氏·李金海一支（李代龙支系谱·白泥乡倮木村石牛角·二十至二十三代）",
+  litingyan: "李氏·李廷彦一支（李代龙支系谱·白泥乡新寨村·十五至二十一代）",
+  lizhengtang: "李氏·李正堂一支（李代龙支系谱·白泥乡联合村·十四至二十代）",
+  liwenxian: "李氏·李文先一支（李代龙支系谱·白泥乡前进村蜂子岩·十五至二十二代）",
+  lihongzhen: "李氏·李洪珍一支（李代龙支系谱·白泥大树脚村·十五至二十代）",
+  liyingxue: "李氏·李应学一支（李代龙支系谱·白泥乡前进村·十四至二十一代）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -502,6 +512,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishenglong", lipu_lishenglong as GenealogyDataset],
   ["lilongchangsh", lipu_lilongchangsh as GenealogyDataset],
   ["lijinhai", lipu_lijinhai as GenealogyDataset],
+  ["litingyan", lipu_litingyan as GenealogyDataset],
+  ["lizhengtang", lipu_lizhengtang as GenealogyDataset],
+  ["liwenxian", lipu_liwenxian as GenealogyDataset],
+  ["lihongzhen", lipu_lihongzhen as GenealogyDataset],
+  ["liyingxue", lipu_liyingxue as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

@@ -1,0 +1,152 @@
+{
+  "key": "lipu:litingyan",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litingyan:15-廷彦",
+      "name": "李廷彦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新寨村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·白泥乡新寨村。上承纳雍乡家湾补仲李耳荣分支从15代起。生于纳雍张家湾。谱将廷彦、廷富、廷玉并列，未载其下各代的父子承接，今以廷彦为首，余者存名待考"
+    },
+    {
+      "externalId": "lipu:litingyan:15-廷富",
+      "name": "李廷富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新寨村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·白泥乡新寨村。上承纳雍补仲李耳荣分支（与廷彦同代）"
+    },
+    {
+      "externalId": "lipu:litingyan:15-廷玉",
+      "name": "李廷玉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新寨村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·白泥乡新寨村。上承纳雍补仲李耳荣分支（与廷彦同代）"
+    },
+    {
+      "externalId": "lipu:litingyan:18-德富",
+      "name": "李德富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新寨村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡新寨村。李廷彦一支（父子承接谱未载）。生地织金县白泥乡新寨村山脚组"
+    },
+    {
+      "externalId": "lipu:litingyan:19-崇清",
+      "name": "李崇清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新寨村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新寨村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡新寨村。生于织金县白泥乡新寨村山脚组"
+    },
+    {
+      "externalId": "lipu:litingyan:15-李廷彦之妻",
+      "name": "李廷彦之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litingyan:15-李廷富之妻",
+      "name": "李廷富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litingyan:15-李廷玉之妻",
+      "name": "李廷玉之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litingyan:18-李德富之妻",
+      "name": "李德富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litingyan:19-李崇清之妻",
+      "name": "李崇清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:litingyan:15-廷彦",
+      "b": "lipu:litingyan:15-李廷彦之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litingyan:15-廷富",
+      "b": "lipu:litingyan:15-李廷富之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litingyan:15-廷玉",
+      "b": "lipu:litingyan:15-李廷玉之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litingyan:18-德富",
+      "b": "lipu:litingyan:18-李德富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litingyan:18-德富",
+      "child": "lipu:litingyan:19-崇清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litingyan:19-崇清",
+      "b": "lipu:litingyan:19-李崇清之妻"
+    }
+  ]
+}
