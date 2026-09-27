@@ -1,0 +1,142 @@
+{
+  "key": "lipu:lishaolianht2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishaolianht:16-天训",
+      "name": "李天训",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·中寨乡核桃村荒田",
+      "birthPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·中寨乡核桃村荒田。"
+    },
+    {
+      "externalId": "lipu:lishaolianht2:17-宗斌",
+      "name": "李宗斌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己卯年前三月二十三日"
+      },
+      "ancestralHometown": "贵州织金·中寨乡核桃村荒田",
+      "birthPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·中寨乡核桃村荒田。己卯年前三月二十三日生，葬于陈家寨，姙郭氏戊寅年生于包包寨，葬于陈家寨，亡于辛丑年冬月二十一"
+    },
+    {
+      "externalId": "lipu:lishaolianht2:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己亥年十二月初"
+      },
+      "ancestralHometown": "贵州织金·中寨乡核桃村荒田",
+      "birthPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "deathPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·中寨乡核桃村荒田。己亥年十二月初生，殁于丁亥年十月初八，葬于田坝组陈家寨，姙刘氏己亥年2月14日生于小洞头，殁于辛卯年七月初七，葬于陈家寨丫口田"
+    },
+    {
+      "externalId": "lipu:lishaolianht2:17-李宗斌之妻",
+      "name": "李宗斌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaolianht2:18-李德荣之妻",
+      "name": "李德荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaolianht2:19-崇甫",
+      "name": "李崇甫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·中寨乡核桃村荒田",
+      "birthPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaolianht2:19-崇智",
+      "name": "李崇智",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·中寨乡核桃村荒田",
+      "birthPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaolianht2:19-崇义",
+      "name": "李崇义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·中寨乡核桃村荒田",
+      "birthPlace": {
+        "region": "贵州织金·中寨乡核桃村荒田"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaolianht:16-天训",
+      "child": "lipu:lishaolianht2:17-宗斌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaolianht2:17-宗斌",
+      "b": "lipu:lishaolianht2:17-李宗斌之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaolianht2:17-宗斌",
+      "child": "lipu:lishaolianht2:18-德荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaolianht2:18-德荣",
+      "b": "lipu:lishaolianht2:18-李德荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaolianht2:18-德荣",
+      "child": "lipu:lishaolianht2:19-崇甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaolianht2:18-德荣",
+      "child": "lipu:lishaolianht2:19-崇智"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaolianht2:18-德荣",
+      "child": "lipu:lishaolianht2:19-崇义"
+    }
+  ]
+}
