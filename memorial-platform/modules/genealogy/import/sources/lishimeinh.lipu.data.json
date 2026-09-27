@@ -1,0 +1,515 @@
+{
+  "key": "lipu:lishimeinh",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishimeinh:15-时美",
+      "name": "李时美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡纳黑村。上承赫章县妈姑镇支系从15代。姙林氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:16-文章",
+      "name": "李文章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡纳黑村。姙肖氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:16-文龙",
+      "name": "李文龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡纳黑村。文龙一支居赫章妈姑"
+    },
+    {
+      "externalId": "lipu:lishimeinh:16-文新",
+      "name": "李文新",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡纳黑村。文新一支迁修文县"
+    },
+    {
+      "externalId": "lipu:lishimeinh:17-春太",
+      "name": "李春太",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡纳黑村。姙杨氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:17-春元",
+      "name": "李春元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡纳黑村。姙杨氏生定国；续姙张氏生银山、银成"
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-正明",
+      "name": "李正明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。姙杨氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-正启",
+      "name": "李正启",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。偶何氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-正祥",
+      "name": "李正祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。此一支居马场镇三合村黄家大冲"
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-定国",
+      "name": "李定国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。下落不明"
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-银山",
+      "name": "李银山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。葬于鸡场坡坡脚鹌鹑田"
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-银成",
+      "name": "李银成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。姙周氏。子嗣见春元银成房"
+    },
+    {
+      "externalId": "lipu:lishimeinh:19-宗保",
+      "name": "李宗保",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡纳黑村。偶夏氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:19-炳芝",
+      "name": "李炳芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡纳黑村。父条作丙芝。偶张氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:19-老幺",
+      "name": "李老幺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡纳黑村。英年早逝"
+    },
+    {
+      "externalId": "lipu:lishimeinh:20-国武",
+      "name": "李国武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·鸡场坡乡纳黑村。居织金县白泥大坝村，偶陈氏"
+    },
+    {
+      "externalId": "lipu:lishimeinh:15-李时美之妻",
+      "name": "李时美之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "林氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:16-李文章之妻",
+      "name": "李文章之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "肖氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:17-李春太之妻",
+      "name": "李春太之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:17-李春元之妻",
+      "name": "李春元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-李正明之妻",
+      "name": "李正明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-李正启之妻",
+      "name": "李正启之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:19-灿荣",
+      "name": "李灿荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      }
+    },
+    {
+      "externalId": "lipu:lishimeinh:18-李银成之妻",
+      "name": "李银成之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:19-李宗保之妻",
+      "name": "李宗保之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "夏氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:19-李炳芝之妻",
+      "name": "李炳芝之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:20-国益",
+      "name": "李国益",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      }
+    },
+    {
+      "externalId": "lipu:lishimeinh:20-李国武之妻",
+      "name": "李国武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishimeinh:21-友志",
+      "name": "李友志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishimeinh:21-友祥",
+      "name": "李友祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:15-时美",
+      "b": "lipu:lishimeinh:15-李时美之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:15-时美",
+      "child": "lipu:lishimeinh:16-文章"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:16-文章",
+      "b": "lipu:lishimeinh:16-李文章之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:15-时美",
+      "child": "lipu:lishimeinh:16-文龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:15-时美",
+      "child": "lipu:lishimeinh:16-文新"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:16-文章",
+      "child": "lipu:lishimeinh:17-春太"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:17-春太",
+      "b": "lipu:lishimeinh:17-李春太之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:16-文章",
+      "child": "lipu:lishimeinh:17-春元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:17-春元",
+      "b": "lipu:lishimeinh:17-李春元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:17-春太",
+      "child": "lipu:lishimeinh:18-正明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:18-李正明之妻",
+      "b": "lipu:lishimeinh:18-正明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:17-春太",
+      "child": "lipu:lishimeinh:18-正启"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:18-李正启之妻",
+      "b": "lipu:lishimeinh:18-正启"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:18-正启",
+      "child": "lipu:lishimeinh:19-灿荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:17-春太",
+      "child": "lipu:lishimeinh:18-正祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:17-春元",
+      "child": "lipu:lishimeinh:18-定国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:17-春元",
+      "child": "lipu:lishimeinh:18-银山"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:17-春元",
+      "child": "lipu:lishimeinh:18-银成"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:18-李银成之妻",
+      "b": "lipu:lishimeinh:18-银成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:18-正明",
+      "child": "lipu:lishimeinh:19-宗保"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:19-宗保",
+      "b": "lipu:lishimeinh:19-李宗保之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:18-正明",
+      "child": "lipu:lishimeinh:19-炳芝"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:19-李炳芝之妻",
+      "b": "lipu:lishimeinh:19-炳芝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:19-炳芝",
+      "child": "lipu:lishimeinh:20-国益"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:18-正明",
+      "child": "lipu:lishimeinh:19-老幺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:19-宗保",
+      "child": "lipu:lishimeinh:20-国武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishimeinh:20-国武",
+      "b": "lipu:lishimeinh:20-李国武之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:20-国武",
+      "child": "lipu:lishimeinh:21-友志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishimeinh:20-国武",
+      "child": "lipu:lishimeinh:21-友祥"
+    }
+  ]
+}

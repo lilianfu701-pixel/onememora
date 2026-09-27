@@ -1,0 +1,614 @@
+{
+  "key": "lipu:liyuanxiangnyz",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyuanxiangnyz:10-应初",
+      "name": "李应初",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第10代，贵州普定·鸡场坡乡纳雍支。谱以应初为第十代（果陇村李应华支系列应初为第十一代，生元龙、元虎、元相，或即同一人，世代计法不同）"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:11-元相",
+      "name": "李元相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡纳雍支。"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-文伸",
+      "name": "李文伸",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡纳雍支。姙张氏"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:13-子明",
+      "name": "李子明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡纳雍支。姙龙氏、刘氏"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:14-如海",
+      "name": "李如海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·鸡场坡乡纳雍支。葬于纳雍县杜家湾，姙刘氏葬于普定县鸡场坡，后迁葬于纳雍支老马坡"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:15-春林",
+      "name": "李春林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1852
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡纳雍支。生于1852年1月30日，葬于纳雍县庆维乡赵家冲左边梁子上，姙龙氏纳雍县大台子马腰梁子"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:16-宗银",
+      "name": "李宗银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡纳雍支。生于纳雍县花鱼洞，迁徙普定县鸡场坡乡苗寨头定居，葬于普定县鸡场坡乡大水尧树林头。姙王氏葬于鸡场坡乡苗寨头大坡背后"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:16-宗弟",
+      "name": "李宗弟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡纳雍支。生于纳雍县花鱼洞，迁徙普鸡场坡乡纳雍支定居，葬于烂坝脚，后迁葬于纳雍支水头上，姙王氏葬于纳雍支土坝头"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:17-德祥",
+      "name": "李德祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1896
+      },
+      "death": {
+        "year": 1939
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡纳雍支。1896年生于纳雍县花鱼洞，迁普定县鸡场坡乡苗寨头定居，故于1939年，葬于小田林场上，姙王氏故于1948年，葬于果骂杨家寨。子嗣见宗银德祥房"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:17-德贵",
+      "name": "李德贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1907
+      },
+      "death": {
+        "year": 1967
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡纳雍支。1907年生于普定县鸡场坡乡纳雍支，故于1967年，葬于小田。姙张氏故于1947年，葬于鸡场坡乡纳雍支水头上，姙王氏故于1989年，葬于纳雍支小尖坡。子嗣见宗弟德贵房"
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:11-元龙",
+      "name": "李元龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:11-元甫",
+      "name": "李元甫",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-文朝",
+      "name": "李文朝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-文秀",
+      "name": "李文秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-文仲",
+      "name": "李文仲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-文才",
+      "name": "李文才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-文龙",
+      "name": "李文龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:12-李文伸之妻",
+      "name": "李文伸之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:13-子亮",
+      "name": "李子亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:13-李子明之妻",
+      "name": "李子明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:14-明先",
+      "name": "李明先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:14-李如海之妻",
+      "name": "李如海之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:15-春余",
+      "name": "李春余",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:15-春堂",
+      "name": "李春堂",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:15-春寿",
+      "name": "李春寿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:15-李春林之妻",
+      "name": "李春林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:16-宗全",
+      "name": "李宗全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:16-宗文",
+      "name": "李宗文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:16-李宗银之妻",
+      "name": "李宗银之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:16-李宗弟之妻",
+      "name": "李宗弟之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:17-德全",
+      "name": "李德全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:17-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳雍支",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳雍支"
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:17-李德祥之妻",
+      "name": "李德祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "death": {
+        "year": 1948
+      }
+    },
+    {
+      "externalId": "lipu:liyuanxiangnyz:17-李德贵之妻",
+      "name": "李德贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "death": {
+        "year": 1947
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:10-应初",
+      "child": "lipu:liyuanxiangnyz:11-元龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:10-应初",
+      "child": "lipu:liyuanxiangnyz:11-元甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:10-应初",
+      "child": "lipu:liyuanxiangnyz:11-元相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:11-元相",
+      "child": "lipu:liyuanxiangnyz:12-文朝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:11-元相",
+      "child": "lipu:liyuanxiangnyz:12-文秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:11-元相",
+      "child": "lipu:liyuanxiangnyz:12-文仲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:11-元相",
+      "child": "lipu:liyuanxiangnyz:12-文才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:11-元相",
+      "child": "lipu:liyuanxiangnyz:12-文龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:11-元相",
+      "child": "lipu:liyuanxiangnyz:12-文伸"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:12-文伸",
+      "b": "lipu:liyuanxiangnyz:12-李文伸之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:12-文伸",
+      "child": "lipu:liyuanxiangnyz:13-子亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:12-文伸",
+      "child": "lipu:liyuanxiangnyz:13-子明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:13-子明",
+      "b": "lipu:liyuanxiangnyz:13-李子明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:13-子明",
+      "child": "lipu:liyuanxiangnyz:14-明先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:13-子明",
+      "child": "lipu:liyuanxiangnyz:14-如海"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:14-如海",
+      "b": "lipu:liyuanxiangnyz:14-李如海之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:14-如海",
+      "child": "lipu:liyuanxiangnyz:15-春余"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:14-如海",
+      "child": "lipu:liyuanxiangnyz:15-春堂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:14-如海",
+      "child": "lipu:liyuanxiangnyz:15-春寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:14-如海",
+      "child": "lipu:liyuanxiangnyz:15-春林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:15-春林",
+      "b": "lipu:liyuanxiangnyz:15-李春林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:15-春林",
+      "child": "lipu:liyuanxiangnyz:16-宗全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:15-春林",
+      "child": "lipu:liyuanxiangnyz:16-宗文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:15-春林",
+      "child": "lipu:liyuanxiangnyz:16-宗银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:16-宗银",
+      "b": "lipu:liyuanxiangnyz:16-李宗银之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:15-春林",
+      "child": "lipu:liyuanxiangnyz:16-宗弟"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:16-宗弟",
+      "b": "lipu:liyuanxiangnyz:16-李宗弟之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:16-宗弟",
+      "child": "lipu:liyuanxiangnyz:17-德全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:16-宗弟",
+      "child": "lipu:liyuanxiangnyz:17-德明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:16-宗银",
+      "child": "lipu:liyuanxiangnyz:17-德祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:17-德祥",
+      "b": "lipu:liyuanxiangnyz:17-李德祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyuanxiangnyz:16-宗弟",
+      "child": "lipu:liyuanxiangnyz:17-德贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyuanxiangnyz:17-德贵",
+      "b": "lipu:liyuanxiangnyz:17-李德贵之妻"
+    }
+  ]
+}
