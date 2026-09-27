@@ -1,0 +1,115 @@
+{
+  "key": "lipu:lichaolongxz5",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaolongxz5:20-安福",
+      "name": "李安福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1913
+      },
+      "ancestralHometown": "贵州普定·化处镇新寨村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·化处镇新寨村。谱列第二十代，未载其父。生于1913年4月12日，1954年倡导创建新寨学校，葬于八斗种坟山，偶皮安宽生于1921年9月19日；女全萍、全翠、全云"
+    },
+    {
+      "externalId": "lipu:lichaolongxz5:20-安德",
+      "name": "李安德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇新寨村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·化处镇新寨村。谱列第二十代，未载其父。葬于浸水坡"
+    },
+    {
+      "externalId": "lipu:lichaolongxz5:20-安全",
+      "name": "李安全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇新寨村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·化处镇新寨村。谱列第二十代，未载其父。葬于八斗种坟山，有碑记，少年亡"
+    },
+    {
+      "externalId": "lipu:lichaolongxz5:20-皮安宽",
+      "name": "皮安宽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1921
+      }
+    },
+    {
+      "externalId": "lipu:lichaolongxz5:21-全鹏",
+      "name": "李全鹏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇新寨村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaolongxz5:21-全春",
+      "name": "李全春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇新寨村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaolongxz5:21-全江",
+      "name": "李全江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇新寨村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇新寨村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolongxz5:20-安福",
+      "b": "lipu:lichaolongxz5:20-皮安宽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolongxz5:20-安福",
+      "child": "lipu:lichaolongxz5:21-全鹏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolongxz5:20-安福",
+      "child": "lipu:lichaolongxz5:21-全春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolongxz5:20-安福",
+      "child": "lipu:lichaolongxz5:21-全江"
+    }
+  ]
+}
