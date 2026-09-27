@@ -1,0 +1,703 @@
+{
+  "key": "lipu:lichaolong",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiju:14-朝龙",
+      "name": "李朝龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "1726年5月13日"
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·金龙乡细木村龙窝寨。1726年5月13日生于杨保寨，殁于1770年8月29日（李士举一支作8月2日），葬于龙窝寨，有碑云「迪功郎」。姙张氏1738年6月17日生于高家箐，殁于1805年2月11日，葬于老苗寨龙潭后边"
+    },
+    {
+      "externalId": "lipu:lishiju:15-文元",
+      "name": "李文元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1757
+      },
+      "death": {
+        "year": 1829
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·金龙乡细木村龙窝寨。1757年正月十八生于水头寨，殁于1829年九月初九，葬于龙窝寨田坝头，有碑云「修织郎」。姙张氏1757年三月初四生于连三坡，殁于1827年正月十四，葬于老苗寨水井后边"
+    },
+    {
+      "externalId": "lipu:lichaolong:16-天崇",
+      "name": "李天崇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1795
+      },
+      "death": {
+        "year": 1827
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·金龙乡细木村龙窝寨。李子正一支作天堂。1795年冬月初四生于龙窝寨，殁于1827年正月二十七，葬于老苗寨龙潭后边，有碑云「文林郎」。姙陈氏1791年腊月十八生于金龙乡，殁于1827年二月初一，与李天崇全葬"
+    },
+    {
+      "externalId": "lipu:lichaolong:17-宗尧",
+      "name": "李宗尧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1811
+      },
+      "death": {
+        "year": 1884
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·金龙乡细木村龙窝寨。1811年冬月二十九生于龙窝寨，殁于1884年7月29日，葬于李天崇左边，有碑云「迪功郎」。姙张氏1809年正月十七生于尖山脚，殁于1877年后五月十一，葬于李文元右边。李子正一支载其子作德明、德后"
+    },
+    {
+      "externalId": "lipu:lichaolong:17-宗琳",
+      "name": "李宗琳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·金龙乡细木村龙窝寨。生于龙窝寨"
+    },
+    {
+      "externalId": "lipu:lichaolong:18-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1828
+      },
+      "death": {
+        "year": 1901
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·金龙乡细木村龙窝寨。李子正一支作德明（姙陈、罗氏）。1828年10月19日生于龙窝寨，殁于1901年7月15日，葬于龙潭坡松树边，武秀才。姙罗章陈1828年7月11日生于尖坡脚，殁于1880年6月17日，葬于龙窝寨"
+    },
+    {
+      "externalId": "lipu:lichaolong:18-德俊",
+      "name": "李德俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛丑年3月19日"
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·金龙乡细木村龙窝寨。辛丑年3月19日生于龙窝寨，殁于甲午年正月二十四，葬于龙窝寨，姙王氏辛丑年正月十九生于黑龙潭，殁于戊寅年腊月十七"
+    },
+    {
+      "externalId": "lipu:lichaolong:18-德萃",
+      "name": "李德萃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·金龙乡细木村龙窝寨。生于龙窝寨"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇本",
+      "name": "李崇本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙午年腊月二十"
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。丙午年腊月二十生于龙窝寨，殁于戊申年冬月十六，葬于老苗寨，文秀才，姙张氏1844年冬月初七生于龙窝寨"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇善",
+      "name": "李崇善",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。生于龙窝寨，葬于龙窝寨。子嗣见崇才崇善房"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇才",
+      "name": "李崇才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。生于龙窝寨，葬于龙窝寨，姙张氏癸丑年腊月二十七生于龙窝寨。子嗣见崇才崇善房"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲寅年9月31日（谱载如此）"
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。甲寅年9月31日（谱载如此）生于龙窝寨，葬于龙窝寨（李子正一支作殁于1875年10月12日，葬于细木底），姙罗氏丙辰年腊月初八生于金龙乡腊仲沟。子嗣见崇贵房"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇高",
+      "name": "李崇高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。号崇亮，丁巳年10月23日生于龙窝寨，殁于壬寅年9月29日，葬于中寨村蔡腰岩，姙王氏丙辰年10月11日生于龙窝寨，殁于戊申年三月初六，葬于安乐村简家冲。子嗣见崇高崇爵崇志崇胜房"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇爵",
+      "name": "李崇爵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。生于龙窝寨，葬于龙窝寨。子嗣见崇高崇爵崇志崇胜房"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇志",
+      "name": "李崇志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊午年8月15日"
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。戊午年8月15日生于龙窝寨，姙张氏乙卯年9月26日生于金龙乡，殁于庚戌年6月17日。子嗣见崇高崇爵崇志崇胜房"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇宣",
+      "name": "李崇宣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁卯年腊月二十"
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。丁卯年腊月二十生于龙窝寨，姙张氏丁卯年十月初六生于纳雍县行脚村五左河"
+    },
+    {
+      "externalId": "lipu:lichaolong:19-崇胜",
+      "name": "李崇胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。葬于清镇市沙鹅十字，姙杨氏葬于自强寨脚坟冲。子嗣见崇高崇爵崇志崇胜房"
+    },
+    {
+      "externalId": "lipu:lichaolong:20-秀隆",
+      "name": "李秀隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。谱列于第二十代，未载其父。乙未年后五月十六生于龙窝寨，偶王氏丁酉年正月二十五生于鼠场坝"
+    },
+    {
+      "externalId": "lipu:lichaolong:14-李朝龙之妻",
+      "name": "李朝龙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:15-李文元之妻",
+      "name": "李文元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:16-李天崇之妻",
+      "name": "李天崇之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:17-李宗尧之妻",
+      "name": "李宗尧之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:17-李宗琳之妻",
+      "name": "李宗琳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:18-德宣",
+      "name": "李德宣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaolong:18-德安",
+      "name": "李德安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaolong:18-罗章陈",
+      "name": "罗章陈",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lichaolong:18-李德俊之妻",
+      "name": "李德俊之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:18-李德萃之妻",
+      "name": "李德萃之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇本之妻",
+      "name": "李崇本之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇善之妻",
+      "name": "李崇善之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇才之妻",
+      "name": "李崇才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇高之妻",
+      "name": "李崇高之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇爵之妻",
+      "name": "李崇爵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇志之妻",
+      "name": "李崇志之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇宣之妻",
+      "name": "李崇宣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:19-李崇胜之妻",
+      "name": "李崇胜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:20-李秀隆之妻",
+      "name": "李秀隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaolong:21-发伍",
+      "name": "李发伍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    },
+    {
+      "externalId": "lipu:lichaolong:21-发文",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:14-李朝龙之妻",
+      "b": "lipu:lishiju:14-朝龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju:14-朝龙",
+      "child": "lipu:lishiju:15-文元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:15-李文元之妻",
+      "b": "lipu:lishiju:15-文元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju:15-文元",
+      "child": "lipu:lichaolong:16-天崇"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:16-天崇",
+      "b": "lipu:lichaolong:16-李天崇之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:16-天崇",
+      "child": "lipu:lichaolong:17-宗尧"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:17-宗尧",
+      "b": "lipu:lichaolong:17-李宗尧之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:16-天崇",
+      "child": "lipu:lichaolong:17-宗琳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:17-宗琳",
+      "b": "lipu:lichaolong:17-李宗琳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:17-宗琳",
+      "child": "lipu:lichaolong:18-德宣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:17-宗琳",
+      "child": "lipu:lichaolong:18-德安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:17-宗尧",
+      "child": "lipu:lichaolong:18-德昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:18-德昌",
+      "b": "lipu:lichaolong:18-罗章陈"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:17-宗尧",
+      "child": "lipu:lichaolong:18-德俊"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:18-德俊",
+      "b": "lipu:lichaolong:18-李德俊之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:17-宗琳",
+      "child": "lipu:lichaolong:18-德萃"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:18-德萃",
+      "b": "lipu:lichaolong:18-李德萃之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德昌",
+      "child": "lipu:lichaolong:19-崇本"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇本",
+      "b": "lipu:lichaolong:19-李崇本之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德昌",
+      "child": "lipu:lichaolong:19-崇善"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇善",
+      "b": "lipu:lichaolong:19-李崇善之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德昌",
+      "child": "lipu:lichaolong:19-崇才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇才",
+      "b": "lipu:lichaolong:19-李崇才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德昌",
+      "child": "lipu:lichaolong:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇贵",
+      "b": "lipu:lichaolong:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德昌",
+      "child": "lipu:lichaolong:19-崇高"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇高",
+      "b": "lipu:lichaolong:19-李崇高之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德昌",
+      "child": "lipu:lichaolong:19-崇爵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇爵",
+      "b": "lipu:lichaolong:19-李崇爵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德俊",
+      "child": "lipu:lichaolong:19-崇志"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇志",
+      "b": "lipu:lichaolong:19-李崇志之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德俊",
+      "child": "lipu:lichaolong:19-崇宣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇宣",
+      "b": "lipu:lichaolong:19-李崇宣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:18-德萃",
+      "child": "lipu:lichaolong:19-崇胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:19-崇胜",
+      "b": "lipu:lichaolong:19-李崇胜之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaolong:20-李秀隆之妻",
+      "b": "lipu:lichaolong:20-秀隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:20-秀隆",
+      "child": "lipu:lichaolong:21-发伍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaolong:20-秀隆",
+      "child": "lipu:lichaolong:21-发文"
+    }
+  ]
+}
