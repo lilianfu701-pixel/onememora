@@ -1,0 +1,634 @@
+{
+  "key": "lipu:liguoliang",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liguoliang:14-国良",
+      "name": "李国良",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·少普乡化董。上承纳雍县支系12代李光枝13代李子海分支14代起。生于纳雍，殁于化董，葬于化董"
+    },
+    {
+      "externalId": "lipu:liguoliang:15-文彬",
+      "name": "李文彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang:15-文端",
+      "name": "李文端",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang:16-凤彩",
+      "name": "李凤彩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang:17-荣昌",
+      "name": "李荣昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang:18-德举",
+      "name": "李德举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang:18-德发",
+      "name": "李德发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang:19-崇本",
+      "name": "李崇本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡化董。生于化董。子嗣见崇本房"
+    },
+    {
+      "externalId": "lipu:liguoliang:19-崇仁",
+      "name": "李崇仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡化董。生于化董"
+    },
+    {
+      "externalId": "lipu:liguoliang:19-崇华",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡化董。子嗣见崇华崇伦房"
+    },
+    {
+      "externalId": "lipu:liguoliang:19-崇伦",
+      "name": "李崇伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡化董。谱列其子作隆举、隆勇、隆全、隆冰、隆达、隆举、隆平、隆有、隆杰（隆举重出，隆全与崇华房重出）。子嗣见崇华崇伦房"
+    },
+    {
+      "externalId": "lipu:liguoliang:20-隆贤",
+      "name": "李隆贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。生于化董"
+    },
+    {
+      "externalId": "lipu:liguoliang:20-隆森",
+      "name": "李隆森",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。生于化董"
+    },
+    {
+      "externalId": "lipu:liguoliang:20-隆永",
+      "name": "李隆永",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。谱列于李国良一支第二十代，未载其父。高中文化，1958年入伍，历任连、营、团、师级干部，偶严氏生一女"
+    },
+    {
+      "externalId": "lipu:liguoliang:20-隆庆",
+      "name": "李隆庆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。谱列于李国良一支第二十代，未载其父。生于小桥"
+    },
+    {
+      "externalId": "lipu:liguoliang:14-李国良之妻",
+      "name": "李国良之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陆氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:15-李文彬之妻",
+      "name": "李文彬之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:16-光彩",
+      "name": "李光彩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      }
+    },
+    {
+      "externalId": "lipu:liguoliang:16-春光",
+      "name": "李春光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      }
+    },
+    {
+      "externalId": "lipu:liguoliang:15-李文端之妻",
+      "name": "李文端之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:16-李凤彩之妻",
+      "name": "李凤彩之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:17-李荣昌之妻",
+      "name": "李荣昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "向氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:18-李德举之妻",
+      "name": "李德举之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:19-崇林",
+      "name": "李崇林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      }
+    },
+    {
+      "externalId": "lipu:liguoliang:18-李德发之妻",
+      "name": "李德发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "熊氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:19-李崇本之妻",
+      "name": "李崇本之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "焦氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:19-李崇仁之妻",
+      "name": "李崇仁之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:20-隆友",
+      "name": "李隆友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:19-李崇华之妻",
+      "name": "李崇华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "樊氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:19-李崇伦之妻",
+      "name": "李崇伦之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "高氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguoliang:20-李隆贤之妻",
+      "name": "李隆贤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "高氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:21-发胜",
+      "name": "李发胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:21-发利",
+      "name": "李发利",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:20-李隆森之妻",
+      "name": "李隆森之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:21-彬",
+      "name": "李彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:20-李隆永之妻",
+      "name": "李隆永之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "严氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:20-李隆庆之妻",
+      "name": "李隆庆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:21-超",
+      "name": "李超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang:21-蓬",
+      "name": "李蓬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:14-国良",
+      "b": "lipu:liguoliang:14-李国良之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:14-国良",
+      "child": "lipu:liguoliang:15-文彬"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:15-文彬",
+      "b": "lipu:liguoliang:15-李文彬之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:15-文彬",
+      "child": "lipu:liguoliang:16-光彩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:15-文彬",
+      "child": "lipu:liguoliang:16-春光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:14-国良",
+      "child": "lipu:liguoliang:15-文端"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:15-文端",
+      "b": "lipu:liguoliang:15-李文端之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:15-文端",
+      "child": "lipu:liguoliang:16-凤彩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:16-凤彩",
+      "b": "lipu:liguoliang:16-李凤彩之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:16-凤彩",
+      "child": "lipu:liguoliang:17-荣昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:17-李荣昌之妻",
+      "b": "lipu:liguoliang:17-荣昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:17-荣昌",
+      "child": "lipu:liguoliang:18-德举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:18-德举",
+      "b": "lipu:liguoliang:18-李德举之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:18-德举",
+      "child": "lipu:liguoliang:19-崇林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:17-荣昌",
+      "child": "lipu:liguoliang:18-德发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:18-德发",
+      "b": "lipu:liguoliang:18-李德发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:18-德举",
+      "child": "lipu:liguoliang:19-崇本"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:19-崇本",
+      "b": "lipu:liguoliang:19-李崇本之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:18-德举",
+      "child": "lipu:liguoliang:19-崇仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:19-崇仁",
+      "b": "lipu:liguoliang:19-李崇仁之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:19-崇仁",
+      "child": "lipu:liguoliang:20-隆友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:18-德发",
+      "child": "lipu:liguoliang:19-崇华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:19-崇华",
+      "b": "lipu:liguoliang:19-李崇华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:18-德发",
+      "child": "lipu:liguoliang:19-崇伦"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:19-崇伦",
+      "b": "lipu:liguoliang:19-李崇伦之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:19-崇仁",
+      "child": "lipu:liguoliang:20-隆贤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:20-李隆贤之妻",
+      "b": "lipu:liguoliang:20-隆贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:20-隆贤",
+      "child": "lipu:liguoliang:21-发胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:20-隆贤",
+      "child": "lipu:liguoliang:21-发利"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:19-崇仁",
+      "child": "lipu:liguoliang:20-隆森"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:20-李隆森之妻",
+      "b": "lipu:liguoliang:20-隆森"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:20-隆森",
+      "child": "lipu:liguoliang:21-彬"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:20-李隆永之妻",
+      "b": "lipu:liguoliang:20-隆永"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang:20-李隆庆之妻",
+      "b": "lipu:liguoliang:20-隆庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:20-隆庆",
+      "child": "lipu:liguoliang:21-超"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:20-隆庆",
+      "child": "lipu:liguoliang:21-蓬"
+    }
+  ]
+}

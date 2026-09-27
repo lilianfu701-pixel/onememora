@@ -1,0 +1,732 @@
+{
+  "key": "lipu:lishifulm",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishifubsb:14-启明",
+      "name": "李启明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·少普乡联盟村。"
+    },
+    {
+      "externalId": "lipu:lishifubsb:15-正发",
+      "name": "李正发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·少普乡联盟村。此处谱载姙龙氏，生洪德、洪元（播梭坝一支载偶郭氏，生洪金）"
+    },
+    {
+      "externalId": "lipu:lishifulm:16-洪德",
+      "name": "李洪德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·少普乡联盟村。生于张维阿雍大良子，葬于少普马场，姙赵氏葬于阿雍"
+    },
+    {
+      "externalId": "lipu:lishifulm:17-宗清",
+      "name": "李宗清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·少普乡联盟村。生于阿雍，殁于湾河，葬于湾河"
+    },
+    {
+      "externalId": "lipu:lishifulm:17-宗福",
+      "name": "李宗福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·少普乡联盟村。生于阿雍，葬于湾河，姙王氏生于张家湾马槽田，殁于少普"
+    },
+    {
+      "externalId": "lipu:lishifulm:18-德先",
+      "name": "李德先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·少普乡联盟村。生于少普，殁于少普，姙郭氏生于八甲。谱列其子作崇举、崇高、崇万、崇成，下文作崇盛"
+    },
+    {
+      "externalId": "lipu:lishifulm:18-德跃",
+      "name": "李德跃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·少普乡联盟村。生于阿雍、殁于少普，葬于联盟"
+    },
+    {
+      "externalId": "lipu:lishifulm:19-崇举",
+      "name": "李崇举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1952
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡联盟村。壬辰年（1952）3月3日生于箐脚，偶陈少芬癸巳年5月17日生于普良子上"
+    },
+    {
+      "externalId": "lipu:lishifulm:19-崇高",
+      "name": "李崇高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1955
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡联盟村。乙未年（1955）1月11日生于箐脚，偶张氏癸巳年5月13日生"
+    },
+    {
+      "externalId": "lipu:lishifulm:19-崇万",
+      "name": "李崇万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1967
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡联盟村。丁未年（1967）1月8日生于箐脚"
+    },
+    {
+      "externalId": "lipu:lishifulm:19-崇盛",
+      "name": "李崇盛",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1972
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡联盟村。壬子年（1972）3月6日生"
+    },
+    {
+      "externalId": "lipu:lishifulm:19-崇轩",
+      "name": "李崇轩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡联盟村。"
+    },
+    {
+      "externalId": "lipu:lishifulm:20-隆玉",
+      "name": "李隆玉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1976
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡联盟村。丙辰年（1976）2月24日生，偶戊午年9月2日生"
+    },
+    {
+      "externalId": "lipu:lishifulm:20-隆江",
+      "name": "李隆江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1980
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡联盟村。庚申年（1980）1月7日生，偶王氏庚申年1月3日生"
+    },
+    {
+      "externalId": "lipu:lishifulm:15-正开",
+      "name": "李正开",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifulm:16-洪元",
+      "name": "李洪元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifulm:16-李洪德之妻",
+      "name": "李洪德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifulm:17-宗有",
+      "name": "李宗有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifulm:17-李宗清之妻",
+      "name": "李宗清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifulm:18-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifulm:17-李宗福之妻",
+      "name": "李宗福之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifulm:18-德元",
+      "name": "李德元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifulm:18-李德先之妻",
+      "name": "李德先之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifulm:18-李德跃之妻",
+      "name": "李德跃之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "焦氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifulm:19-崇奎",
+      "name": "李崇奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      }
+    },
+    {
+      "externalId": "lipu:lishifulm:19-陈少芬",
+      "name": "陈少芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1953
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:19-李崇高之妻",
+      "name": "李崇高之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1953
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-隆刚",
+      "name": "李隆刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-福芬",
+      "name": "李福芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-幺平",
+      "name": "李幺平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-沙沙",
+      "name": "李沙沙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:19-李崇万之妻",
+      "name": "李崇万之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-隆杰",
+      "name": "李隆杰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:19-李崇盛之妻",
+      "name": "李崇盛之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-华",
+      "name": "李华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-杰",
+      "name": "李杰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:19-李崇轩之妻",
+      "name": "李崇轩之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishifulm:20-丙钱",
+      "name": "李丙钱",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-平山",
+      "name": "李平山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-老峦",
+      "name": "李老峦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:21-发达",
+      "name": "李发达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:21-发远",
+      "name": "李发远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡联盟村",
+      "birthPlace": {
+        "region": "贵州织金·少普乡联盟村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishifulm:20-李隆江之妻",
+      "name": "李隆江之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifubsb:14-启明",
+      "child": "lipu:lishifulm:15-正开"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifubsb:15-正发",
+      "child": "lipu:lishifulm:16-洪元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifubsb:15-正发",
+      "child": "lipu:lishifulm:16-洪德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:16-李洪德之妻",
+      "b": "lipu:lishifulm:16-洪德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:16-洪德",
+      "child": "lipu:lishifulm:17-宗有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:16-洪德",
+      "child": "lipu:lishifulm:17-宗清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:17-宗清",
+      "b": "lipu:lishifulm:17-李宗清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:17-宗清",
+      "child": "lipu:lishifulm:18-德昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:16-洪德",
+      "child": "lipu:lishifulm:17-宗福"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:17-宗福",
+      "b": "lipu:lishifulm:17-李宗福之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:17-宗福",
+      "child": "lipu:lishifulm:18-德元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:17-宗福",
+      "child": "lipu:lishifulm:18-德先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:18-德先",
+      "b": "lipu:lishifulm:18-李德先之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:17-宗清",
+      "child": "lipu:lishifulm:18-德跃"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:18-德跃",
+      "b": "lipu:lishifulm:18-李德跃之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:18-德跃",
+      "child": "lipu:lishifulm:19-崇奎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:18-德先",
+      "child": "lipu:lishifulm:19-崇举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:19-崇举",
+      "b": "lipu:lishifulm:19-陈少芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:18-德先",
+      "child": "lipu:lishifulm:19-崇高"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:19-崇高",
+      "b": "lipu:lishifulm:19-李崇高之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇高",
+      "child": "lipu:lishifulm:20-隆刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇高",
+      "child": "lipu:lishifulm:20-福芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇高",
+      "child": "lipu:lishifulm:20-幺平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇高",
+      "child": "lipu:lishifulm:20-沙沙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:18-德先",
+      "child": "lipu:lishifulm:19-崇万"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:19-崇万",
+      "b": "lipu:lishifulm:19-李崇万之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇万",
+      "child": "lipu:lishifulm:20-隆杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:18-德先",
+      "child": "lipu:lishifulm:19-崇盛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:19-崇盛",
+      "b": "lipu:lishifulm:19-李崇盛之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇盛",
+      "child": "lipu:lishifulm:20-华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇盛",
+      "child": "lipu:lishifulm:20-杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:18-德跃",
+      "child": "lipu:lishifulm:19-崇轩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:19-崇轩",
+      "b": "lipu:lishifulm:19-李崇轩之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇轩",
+      "child": "lipu:lishifulm:20-丙钱"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇轩",
+      "child": "lipu:lishifulm:20-平山"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇轩",
+      "child": "lipu:lishifulm:20-老峦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇举",
+      "child": "lipu:lishifulm:20-隆玉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:20-隆玉",
+      "child": "lipu:lishifulm:21-发达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:20-隆玉",
+      "child": "lipu:lishifulm:21-发远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifulm:19-崇举",
+      "child": "lipu:lishifulm:20-隆江"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishifulm:20-李隆江之妻",
+      "b": "lipu:lishifulm:20-隆江"
+    }
+  ]
+}

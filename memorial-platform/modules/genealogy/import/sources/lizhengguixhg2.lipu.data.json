@@ -1,0 +1,633 @@
+{
+  "key": "lipu:lizhengguixhg2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizhengguixhg:18-德龙",
+      "name": "李德龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg:18-德洪",
+      "name": "李德洪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-崇炳",
+      "name": "李崇炳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-崇亮",
+      "name": "李崇亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆江",
+      "name": "李隆江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。崇文房亦有一子名隆军"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-老三",
+      "name": "李老三",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆彬",
+      "name": "李隆彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆举",
+      "name": "李隆举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇小河沟。"
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-崇开",
+      "name": "李崇开",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      }
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-李崇炳之妻",
+      "name": "李崇炳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-小林",
+      "name": "李小林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-李崇文之妻",
+      "name": "李崇文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:19-李崇亮之妻",
+      "name": "李崇亮之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-隆权",
+      "name": "李隆权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆江之妻",
+      "name": "李隆江之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "焦氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-华江",
+      "name": "李华江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆军之妻",
+      "name": "李隆军之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-云勇",
+      "name": "李云勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-长有",
+      "name": "李长有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆文之妻",
+      "name": "李隆文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "谢氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-发海",
+      "name": "李发海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李老三之妻",
+      "name": "李老三之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "马氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-发万",
+      "name": "李发万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-发伦",
+      "name": "李发伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆海之妻",
+      "name": "李隆海之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-发乾",
+      "name": "李发乾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-发坤",
+      "name": "李发坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆富之妻",
+      "name": "李隆富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-勇",
+      "name": "李勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-松",
+      "name": "李松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆彬之妻",
+      "name": "李隆彬之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-发权",
+      "name": "李发权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:20-李隆举之妻",
+      "name": "李隆举之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "吴氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizhengguixhg2:21-小军",
+      "name": "李小军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇小河沟",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇小河沟"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg:18-德洪",
+      "child": "lipu:lizhengguixhg2:19-崇开"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg:18-德龙",
+      "child": "lipu:lizhengguixhg2:19-崇炳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:19-崇炳",
+      "b": "lipu:lizhengguixhg2:19-李崇炳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇炳",
+      "child": "lipu:lizhengguixhg2:20-小林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg:18-德洪",
+      "child": "lipu:lizhengguixhg2:19-崇文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:19-崇文",
+      "b": "lipu:lizhengguixhg2:19-李崇文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg:18-德洪",
+      "child": "lipu:lizhengguixhg2:19-崇亮"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:19-崇亮",
+      "b": "lipu:lizhengguixhg2:19-李崇亮之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇亮",
+      "child": "lipu:lizhengguixhg2:20-隆权"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇亮",
+      "child": "lipu:lizhengguixhg2:20-隆江"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆江之妻",
+      "b": "lipu:lizhengguixhg2:20-隆江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆江",
+      "child": "lipu:lizhengguixhg2:21-华江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇炳",
+      "child": "lipu:lizhengguixhg2:20-隆军"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆军之妻",
+      "b": "lipu:lizhengguixhg2:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆军",
+      "child": "lipu:lizhengguixhg2:21-云勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆军",
+      "child": "lipu:lizhengguixhg2:21-长有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇炳",
+      "child": "lipu:lizhengguixhg2:20-隆文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆文之妻",
+      "b": "lipu:lizhengguixhg2:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆文",
+      "child": "lipu:lizhengguixhg2:21-发海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇炳",
+      "child": "lipu:lizhengguixhg2:20-老三"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李老三之妻",
+      "b": "lipu:lizhengguixhg2:20-老三"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-老三",
+      "child": "lipu:lizhengguixhg2:21-发万"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-老三",
+      "child": "lipu:lizhengguixhg2:21-发伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇炳",
+      "child": "lipu:lizhengguixhg2:20-隆海"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆海之妻",
+      "b": "lipu:lizhengguixhg2:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆海",
+      "child": "lipu:lizhengguixhg2:21-发乾"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆海",
+      "child": "lipu:lizhengguixhg2:21-发坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇亮",
+      "child": "lipu:lizhengguixhg2:20-隆富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆富之妻",
+      "b": "lipu:lizhengguixhg2:20-隆富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆富",
+      "child": "lipu:lizhengguixhg2:21-勇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆富",
+      "child": "lipu:lizhengguixhg2:21-松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇亮",
+      "child": "lipu:lizhengguixhg2:20-隆彬"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆彬之妻",
+      "b": "lipu:lizhengguixhg2:20-隆彬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆彬",
+      "child": "lipu:lizhengguixhg2:21-发权"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:19-崇文",
+      "child": "lipu:lizhengguixhg2:20-隆举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizhengguixhg2:20-李隆举之妻",
+      "b": "lipu:lizhengguixhg2:20-隆举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizhengguixhg2:20-隆举",
+      "child": "lipu:lizhengguixhg2:21-小军"
+    }
+  ]
+}

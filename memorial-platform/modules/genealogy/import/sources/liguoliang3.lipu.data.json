@@ -1,0 +1,249 @@
+{
+  "key": "lipu:liguoliang3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liguoliang:19-崇本",
+      "name": "李崇本",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "deathPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang3:20-隆光",
+      "name": "李隆光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。"
+    },
+    {
+      "externalId": "lipu:liguoliang3:20-隆云",
+      "name": "李隆云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1938
+      },
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。1938年生于化董，部队任连长，偶马氏生于化董"
+    },
+    {
+      "externalId": "lipu:liguoliang3:20-隆武",
+      "name": "李隆武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·少普乡化董。生于化董（谱另有「隆武：偶喻氏生发贵、发有、发忠、发昌」一条，疑重出）"
+    },
+    {
+      "externalId": "lipu:liguoliang3:20-李隆光之妻",
+      "name": "李隆光之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发开",
+      "name": "李发开",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发军",
+      "name": "李发军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:20-李隆云之妻",
+      "name": "李隆云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "马氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发元",
+      "name": "李发元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发达",
+      "name": "李发达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:20-李隆武之妻",
+      "name": "李隆武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "喻氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发贵",
+      "name": "李发贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发发",
+      "name": "李发发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguoliang3:21-发昌",
+      "name": "李发昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·少普乡化董",
+      "birthPlace": {
+        "region": "贵州织金·少普乡化董"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:19-崇本",
+      "child": "lipu:liguoliang3:20-隆光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang3:20-李隆光之妻",
+      "b": "lipu:liguoliang3:20-隆光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆光",
+      "child": "lipu:liguoliang3:21-发开"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆光",
+      "child": "lipu:liguoliang3:21-发军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:19-崇本",
+      "child": "lipu:liguoliang3:20-隆云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang3:20-李隆云之妻",
+      "b": "lipu:liguoliang3:20-隆云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆云",
+      "child": "lipu:liguoliang3:21-发元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆云",
+      "child": "lipu:liguoliang3:21-发达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang:19-崇本",
+      "child": "lipu:liguoliang3:20-隆武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguoliang3:20-李隆武之妻",
+      "b": "lipu:liguoliang3:20-隆武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆武",
+      "child": "lipu:liguoliang3:21-发贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆武",
+      "child": "lipu:liguoliang3:21-发发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆武",
+      "child": "lipu:liguoliang3:21-发忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguoliang3:20-隆武",
+      "child": "lipu:liguoliang3:21-发昌"
+    }
+  ]
+}
