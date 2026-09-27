@@ -229,7 +229,11 @@ def build(inter):
         # link to father
         fa = e.get("father")
         if fa:
-            fid = father_id(gen, fa)
+            # fatherIndex picks among same-name fathers in one generation (0-based,
+            # in entry order) — e.g. two 灿文 cousins, each with their own sons.
+            cands = by_gen_name.get((gen - 1, fa), [])
+            fi = e.get("fatherIndex")
+            fid = cands[fi] if fi is not None and fi < len(cands) else father_id(gen, fa)
             if fid:
                 add_rel({"kind": "parent", "parent": fid, "child": gid})
             else:

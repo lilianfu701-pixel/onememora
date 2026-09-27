@@ -3,6 +3,26 @@
   "namespace": "lipu-lidailong",
   "people": [
     {
+      "externalId": "lipu:litingxiangsb:13-朝忠",
+      "name": "李朝忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1755
+      },
+      "death": {
+        "year": 1835
+      },
+      "ancestralHometown": "贵州普定·化处镇沙包村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇沙包村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇沙包村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·化处镇沙包村。马场镇下排村李枝远支系十三代。1755年生于凉水井，迁普定管下大用磺锌厂，1835年殁于磺锌厂，享年80岁，葬于大用黑菜路口，姙江氏葬于磺锌厂，生廷柏、廷赞、廷相；续姙何氏搬迁普定化处熊家林，生廷富。廷赞子孙迁普定马场大河边中排，廷相子孙迁本镇沙包村小滥田"
+    },
+    {
       "externalId": "lipu:litingxiangsb:14-廷相",
       "name": "李廷相",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -52,6 +72,12 @@
       "name": "李廷富",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1810
+      },
+      "death": {
+        "year": 1886
+      },
       "ancestralHometown": "贵州普定·化处镇沙包村",
       "birthPlace": {
         "region": "贵州普定·化处镇沙包村"
@@ -59,7 +85,7 @@
       "deathPlace": {
         "region": "贵州普定·化处镇沙包村"
       },
-      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇沙包村。姙彭氏。廷富子孙迁普定化处熊家林"
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇沙包村。1810年生于普定大用磺锌厂，道光16年迁徙落别斗篷，又迁化处熊家林，1886年殁于熊家林，葬于熊家林大众坟。姙彭氏殁于四十八岁，葬于木岗斗篷山，1998年2月迁葬于熊家林对家坟脚，石氏殁于68岁，葬于肖家林青杠坡背后。子孙见化处镇熊家林村李廷富一支"
     },
     {
       "externalId": "lipu:litingxiangsb:15-春茂",
@@ -159,6 +185,15 @@
       },
       "living": true,
       "bio": "陇西李氏·李代龙支系第19代，贵州普定·化处镇沙包村。1939年11月14日生于沙包，偶郭家秀1942年10月生于六枝特区龙场黄泥包，2000年殁于滥坝，葬于本寨子背后"
+    },
+    {
+      "externalId": "lipu:litingxiangsb:13-李朝忠之妻",
+      "name": "李朝忠之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "江氏"
+      ]
     },
     {
       "externalId": "lipu:litingxiangsb:14-李廷相之妻",
@@ -522,6 +557,16 @@
   "relations": [
     {
       "kind": "spouse",
+      "a": "lipu:litingxiangsb:13-朝忠",
+      "b": "lipu:litingxiangsb:13-李朝忠之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litingxiangsb:13-朝忠",
+      "child": "lipu:litingxiangsb:14-廷相"
+    },
+    {
+      "kind": "spouse",
       "a": "lipu:litingxiangsb:14-廷相",
       "b": "lipu:litingxiangsb:14-李廷相之妻"
     },
@@ -534,6 +579,11 @@
       "kind": "parent",
       "parent": "lipu:litingxiangsb:14-廷相",
       "child": "lipu:litingxiangsb:15-春有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litingxiangsb:13-朝忠",
+      "child": "lipu:litingxiangsb:14-廷柏"
     },
     {
       "kind": "spouse",
@@ -554,6 +604,11 @@
       "kind": "parent",
       "parent": "lipu:litingxiangsb:14-廷柏",
       "child": "lipu:litingxiangsb:15-春贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litingxiangsb:13-朝忠",
+      "child": "lipu:litingxiangsb:14-廷赞"
     },
     {
       "kind": "spouse",
@@ -584,6 +639,11 @@
       "kind": "parent",
       "parent": "lipu:litingxiangsb:14-廷赞",
       "child": "lipu:litingxiangsb:15-春荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litingxiangsb:13-朝忠",
+      "child": "lipu:litingxiangsb:14-廷富"
     },
     {
       "kind": "spouse",
