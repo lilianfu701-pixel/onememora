@@ -1,0 +1,109 @@
+{
+  "key": "lipu:lichongyiek",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishifangert:18-德安",
+      "name": "李德安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1868
+      },
+      "death": {
+        "year": 1923
+      },
+      "ancestralHometown": "贵州织金·绮陌乡二圹村大沟边",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡二圹村大沟边。"
+    },
+    {
+      "externalId": "lipu:lichongyiek:19-崇义",
+      "name": "李崇义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村大沟边",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡二圹村大沟边。谱题「上承李德安分支」（德安一支所列诸子有崇羲，或即此人）。辛亥年2月23日生于阿烈大沟头，殁于庚寅年冬月初九，葬于贵阳关，姙段氏丁亥年冬月二十三生于三甲，葬于石灰冲"
+    },
+    {
+      "externalId": "lipu:lichongyiek:19-李崇义之妻",
+      "name": "李崇义之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichongyiek:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村大沟边",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongyiek:20-隆孝",
+      "name": "李隆孝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村大沟边",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongyiek:20-隆飞",
+      "name": "李隆飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡二圹村大沟边",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡二圹村大沟边"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishifangert:18-德安",
+      "child": "lipu:lichongyiek:19-崇义"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongyiek:19-崇义",
+      "b": "lipu:lichongyiek:19-李崇义之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongyiek:19-崇义",
+      "child": "lipu:lichongyiek:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongyiek:19-崇义",
+      "child": "lipu:lichongyiek:20-隆孝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongyiek:19-崇义",
+      "child": "lipu:lichongyiek:20-隆飞"
+    }
+  ]
+}

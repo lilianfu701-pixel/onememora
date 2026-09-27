@@ -1,0 +1,525 @@
+{
+  "key": "lipu:lishiwanhl3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiwanhl:19-崇华",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1946
+      },
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇太平羊角冲。"
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-隆贵",
+      "name": "李隆贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1922
+      },
+      "death": {
+        "year": 1950
+      },
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇太平羊角冲。1922年生，殁于1950年，葬于化起太平羊角冲十六岗，姙杨氏1922年生，殁于1998年，葬于化起太平羊角冲"
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-隆珍",
+      "name": "李隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1927
+      },
+      "death": {
+        "year": 1984
+      },
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇太平羊角冲。1927年生于化起太平羊角冲，殁于1984年，葬于化起太平河冲头，偶何氏生发英；续偶张氏1935年生于牛场小岩寨，生发荣、李伟、发贵、李刚、李明、发群"
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-隆元",
+      "name": "李隆元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1939
+      },
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "deathPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇太平羊角冲。1939年生于化起太平羊角冲，殁于癸酉年，葬于化起太平岩口小弯田，偶张氏1939年生于化起太平黄家庄徐家寨，殁于2002年，葬于牛场岩寨洞口"
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-隆飞",
+      "name": "李隆飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1941
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇太平羊角冲。1941年生于化起太平羊角冲，偶王氏1939年生于化起太平黄家庄"
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-李隆贵之妻",
+      "name": "李隆贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "birth": {
+        "year": 1922
+      },
+      "death": {
+        "year": 1998
+      }
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发举",
+      "name": "李发举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-李隆珍之妻",
+      "name": "李隆珍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发英",
+      "name": "李发英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-伟",
+      "name": "李伟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发贵",
+      "name": "李发贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-刚",
+      "name": "李刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-明",
+      "name": "李明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发群",
+      "name": "李发群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-李隆元之妻",
+      "name": "李隆元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1939
+      },
+      "death": {
+        "year": 2002
+      }
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-军",
+      "name": "李军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-强",
+      "name": "李强",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-进",
+      "name": "李进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-福平",
+      "name": "李福平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-筛群",
+      "name": "李筛群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-鹅群",
+      "name": "李鹅群",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:20-李隆飞之妻",
+      "name": "李隆飞之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1939
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发学",
+      "name": "李发学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发全",
+      "name": "李发全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-发昌",
+      "name": "李发昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-健",
+      "name": "李健",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-金兰",
+      "name": "李金兰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwanhl3:21-银兰",
+      "name": "李银兰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·化起镇太平羊角冲",
+      "birthPlace": {
+        "region": "贵州织金·化起镇太平羊角冲"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl:19-崇华",
+      "child": "lipu:lishiwanhl3:20-隆贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwanhl3:20-李隆贵之妻",
+      "b": "lipu:lishiwanhl3:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆贵",
+      "child": "lipu:lishiwanhl3:21-发举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆贵",
+      "child": "lipu:lishiwanhl3:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl:19-崇华",
+      "child": "lipu:lishiwanhl3:20-隆珍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwanhl3:20-李隆珍之妻",
+      "b": "lipu:lishiwanhl3:20-隆珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-发英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-发荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-伟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-发贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆珍",
+      "child": "lipu:lishiwanhl3:21-发群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl:19-崇华",
+      "child": "lipu:lishiwanhl3:20-隆元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwanhl3:20-李隆元之妻",
+      "b": "lipu:lishiwanhl3:20-隆元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆元",
+      "child": "lipu:lishiwanhl3:21-军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆元",
+      "child": "lipu:lishiwanhl3:21-强"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆元",
+      "child": "lipu:lishiwanhl3:21-进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆元",
+      "child": "lipu:lishiwanhl3:21-福平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆元",
+      "child": "lipu:lishiwanhl3:21-筛群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆元",
+      "child": "lipu:lishiwanhl3:21-鹅群"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl:19-崇华",
+      "child": "lipu:lishiwanhl3:20-隆飞"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwanhl3:20-李隆飞之妻",
+      "b": "lipu:lishiwanhl3:20-隆飞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆飞",
+      "child": "lipu:lishiwanhl3:21-发学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆飞",
+      "child": "lipu:lishiwanhl3:21-发全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆飞",
+      "child": "lipu:lishiwanhl3:21-发昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆飞",
+      "child": "lipu:lishiwanhl3:21-健"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆飞",
+      "child": "lipu:lishiwanhl3:21-金兰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwanhl3:20-隆飞",
+      "child": "lipu:lishiwanhl3:21-银兰"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "key": "lipu:lishaoenmf",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishaoenmf:14-绍恩",
+      "name": "李绍恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·绮陌乡墨峰村。上承盘县上城分支。生于盘县土城，姙王氏生于盘县土城"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:15-如恩",
+      "name": "李如恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·绮陌乡墨峰村。生于盘县土城，姙陈氏生于盘县土城"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:16-天福",
+      "name": "李天福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·绮陌乡墨峰村。生于盘县土城，后迁至普安县新寨村。民国年间，从普安迁到水城、大方、以那、八步等地，后定居于织金县绮陌乡墨峰村桃树弯乡至亡，葬于芦家冲段家丫口，姙陈氏生于盘县土城，殁于桃树弯组，葬于芦家冲段家丫口"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:17-宗福",
+      "name": "李宗福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲午年7月11日"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·绮陌乡墨峰村。甲午年7月11日生于新寨，殁于桃树弯，葬于桃树弯，姙张氏丁丑年2月22日生于织金牛场，殁于桃树弯，葬于鸡布算地；女金芝、三妹"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:17-宗贵",
+      "name": "李宗贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬午年5月11日"
+      },
+      "death": {
+        "year": 1941
+      },
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·绮陌乡墨峰村。壬午年5月11日生于新寨，殁于1941年五月初三，葬于桃树弯小冲口，姙左氏乙丑年腊月二十九生于桃树弯，殁于1940年9月15日，葬于芦家冲余家丫口；女银芝"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:18-德万",
+      "name": "李德万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1919
+      },
+      "death": {
+        "year": 1943
+      },
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡墨峰村。1919年五月初十生于黑峰村桃树弯，殁于1943年十月初七，姙张氏1918年7月21日生于兴荣村，殁于1939年冬月十八，二老共茔芦家冲余家丫口，生崇先、崇秀、崇珍；续段氏1921年5月18日生于织金县阿烈乡岭岗，殁于1930年3月14日（谱载如此），葬于桃树弯，生崇化、崇举、崇高、崇信、崇香、崇秀"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:18-德胜",
+      "name": "李德胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "乙卯年腊月十九"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡墨峰村。乙卯年腊月十九生于绮陌乡桃树弯，殁于戊子年冬月初六，葬于芦家冲段家丫口，姙张氏甲辰年3月20日生于八步黄泥坡，殁于戊子年腊月初六，葬于桃树弯小冲口"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:18-德安",
+      "name": "李德安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊午年腊月十七"
+      },
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·绮陌乡墨峰村。戊午年腊月十七生于绮陌乡桃树弯，殁于丁丑年4月11日，葬于墨峰村屯脚组，姙左氏1961年五月初八生于绮陌乡兴荣村把那组（谱载如此）。子嗣见绮陌乡墨峰村·李绍恩一支·德安房"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇华",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1947
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·绮陌乡墨峰村。谱列第十九代，未载其父。1947年正月十四生于桃树弯，姙王氏1945年生于北门乡水阴沟，葬于吴家丫口"
+    },
+    {
+      "externalId": "lipu:lishaoenmf:14-李绍恩之妻",
+      "name": "李绍恩之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaoenmf:15-李如恩之妻",
+      "name": "李如恩之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaoenmf:16-天寿",
+      "name": "李天寿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      }
+    },
+    {
+      "externalId": "lipu:lishaoenmf:16-李天福之妻",
+      "name": "李天福之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaoenmf:17-李宗福之妻",
+      "name": "李宗福之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaoenmf:17-李宗贵之妻",
+      "name": "李宗贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ],
+      "death": {
+        "year": 1940
+      }
+    },
+    {
+      "externalId": "lipu:lishaoenmf:18-李德万之妻",
+      "name": "李德万之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1918
+      },
+      "death": {
+        "year": 1939
+      }
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇先",
+      "name": "李崇先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇秀",
+      "name": "李崇秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇珍",
+      "name": "李崇珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇化",
+      "name": "李崇化",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇举",
+      "name": "李崇举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇高",
+      "name": "李崇高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇信",
+      "name": "李崇信",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇香",
+      "name": "李崇香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:18-李德胜之妻",
+      "name": "李德胜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇兴",
+      "name": "李崇兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-崇英",
+      "name": "李崇英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:18-李德安之妻",
+      "name": "李德安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaoenmf:19-李崇华之妻",
+      "name": "李崇华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1945
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:20-隆兴",
+      "name": "李隆兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:20-国",
+      "name": "李国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaoenmf:20-杰",
+      "name": "李杰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·绮陌乡墨峰村",
+      "birthPlace": {
+        "region": "贵州织金·绮陌乡墨峰村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:14-李绍恩之妻",
+      "b": "lipu:lishaoenmf:14-绍恩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:14-绍恩",
+      "child": "lipu:lishaoenmf:15-如恩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:15-如恩",
+      "b": "lipu:lishaoenmf:15-李如恩之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:15-如恩",
+      "child": "lipu:lishaoenmf:16-天寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:15-如恩",
+      "child": "lipu:lishaoenmf:16-天福"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:16-天福",
+      "b": "lipu:lishaoenmf:16-李天福之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:16-天福",
+      "child": "lipu:lishaoenmf:17-宗福"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:17-宗福",
+      "b": "lipu:lishaoenmf:17-李宗福之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:16-天福",
+      "child": "lipu:lishaoenmf:17-宗贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:17-宗贵",
+      "b": "lipu:lishaoenmf:17-李宗贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:17-宗福",
+      "child": "lipu:lishaoenmf:18-德万"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:18-德万",
+      "b": "lipu:lishaoenmf:18-李德万之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇化"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇高"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇信"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德万",
+      "child": "lipu:lishaoenmf:19-崇香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:17-宗贵",
+      "child": "lipu:lishaoenmf:18-德胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:18-德胜",
+      "b": "lipu:lishaoenmf:18-李德胜之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德胜",
+      "child": "lipu:lishaoenmf:19-崇兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:18-德胜",
+      "child": "lipu:lishaoenmf:19-崇英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:17-宗贵",
+      "child": "lipu:lishaoenmf:18-德安"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:18-德安",
+      "b": "lipu:lishaoenmf:18-李德安之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaoenmf:19-崇华",
+      "b": "lipu:lishaoenmf:19-李崇华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:19-崇华",
+      "child": "lipu:lishaoenmf:20-隆全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:19-崇华",
+      "child": "lipu:lishaoenmf:20-隆兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:19-崇华",
+      "child": "lipu:lishaoenmf:20-国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaoenmf:19-崇华",
+      "child": "lipu:lishaoenmf:20-杰"
+    }
+  ]
+}

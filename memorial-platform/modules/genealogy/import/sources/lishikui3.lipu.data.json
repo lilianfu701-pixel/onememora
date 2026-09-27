@@ -1,0 +1,175 @@
+{
+  "key": "lipu:lishikui3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishikui:18-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·龙场镇以支村。"
+    },
+    {
+      "externalId": "lipu:lishikui:18-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1995
+      },
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·龙场镇以支村。"
+    },
+    {
+      "externalId": "lipu:lishikui3:19-崇江",
+      "name": "李崇江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己丑年3月19日"
+      },
+      "death": {
+        "year": 1990
+      },
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·龙场镇以支村。己丑年3月19日生于猫场镇，殁于1990年3月，葬于丁子寨旧若坟，姙周氏"
+    },
+    {
+      "externalId": "lipu:lishikui3:19-崇方",
+      "name": "李崇方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishikui3:19-崇高",
+      "name": "李崇高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishikui3:19-崇远",
+      "name": "李崇远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishikui3:19-崇义",
+      "name": "李崇义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishikui3:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishikui3:19-李崇江之妻",
+      "name": "李崇江之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishikui3:20-隆友",
+      "name": "李隆友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·龙场镇以支村",
+      "birthPlace": {
+        "region": "贵州织金·龙场镇以支村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui:18-德明",
+      "child": "lipu:lishikui3:19-崇方"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui:18-德昌",
+      "child": "lipu:lishikui3:19-崇高"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui:18-德昌",
+      "child": "lipu:lishikui3:19-崇远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui:18-德昌",
+      "child": "lipu:lishikui3:19-崇义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui:18-德昌",
+      "child": "lipu:lishikui3:19-崇贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui:18-德明",
+      "child": "lipu:lishikui3:19-崇江"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishikui3:19-崇江",
+      "b": "lipu:lishikui3:19-李崇江之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishikui3:19-崇江",
+      "child": "lipu:lishikui3:20-隆友"
+    }
+  ]
+}

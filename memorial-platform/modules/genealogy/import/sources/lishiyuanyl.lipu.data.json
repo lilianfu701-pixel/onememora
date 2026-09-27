@@ -1,0 +1,564 @@
+{
+  "key": "lipu:lishiyuanyl",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiyuan:12-大成",
+      "name": "李大成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·城关镇杨柳河。此谱载世元生大成、大用；大成生士学、士敏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:13-士学",
+      "name": "李士学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·城关镇杨柳河。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:14-绍宗",
+      "name": "李绍宗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·城关镇杨柳河。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-如柏",
+      "name": "李如柏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·城关镇杨柳河。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:16-天尧",
+      "name": "李天尧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·城关镇杨柳河。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:17-宗银",
+      "name": "李宗银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·城关镇杨柳河。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:18-德顺",
+      "name": "李德顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·城关镇杨柳河。由以那迁新场小寨，姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇杨柳河。由小寨迁杨柳河，姙郭氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:19-崇友",
+      "name": "李崇友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇杨柳河。由小寨迁杨柳河，姙侯氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:13-士敏",
+      "name": "李士敏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:13-李士学之妻",
+      "name": "李士学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:14-李绍宗之妻",
+      "name": "李绍宗之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-如楷",
+      "name": "李如楷",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-如惠",
+      "name": "李如惠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-如槿",
+      "name": "李如槿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-如域",
+      "name": "李如域",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-如朴",
+      "name": "李如朴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:15-李如柏之妻",
+      "name": "李如柏之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:16-天贵",
+      "name": "李天贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:16-天舜",
+      "name": "李天舜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:16-小幺",
+      "name": "李小幺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:16-李天尧之妻",
+      "name": "李天尧之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:17-李宗银之妻",
+      "name": "李宗银之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:18-德林",
+      "name": "李德林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:18-德春",
+      "name": "李德春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:18-李德顺之妻",
+      "name": "李德顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:20-隆发",
+      "name": "李隆发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:19-李崇友之妻",
+      "name": "李崇友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "侯氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:20-隆贵",
+      "name": "李隆贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:20-隆香",
+      "name": "李隆香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanyl:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇杨柳河",
+      "birthPlace": {
+        "region": "贵州织金·城关镇杨柳河"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuan:12-大成",
+      "child": "lipu:lishiyuanyl:13-士敏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuan:12-大成",
+      "child": "lipu:lishiyuanyl:13-士学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:13-士学",
+      "b": "lipu:lishiyuanyl:13-李士学之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:13-士学",
+      "child": "lipu:lishiyuanyl:14-绍宗"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:14-李绍宗之妻",
+      "b": "lipu:lishiyuanyl:14-绍宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanyl:15-如楷"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanyl:15-如惠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanyl:15-如槿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanyl:15-如域"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanyl:15-如朴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanyl:15-如柏"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:15-如柏",
+      "b": "lipu:lishiyuanyl:15-李如柏之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:15-如柏",
+      "child": "lipu:lishiyuanyl:16-天贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:15-如柏",
+      "child": "lipu:lishiyuanyl:16-天舜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:15-如柏",
+      "child": "lipu:lishiyuanyl:16-小幺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:15-如柏",
+      "child": "lipu:lishiyuanyl:16-天尧"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:16-天尧",
+      "b": "lipu:lishiyuanyl:16-李天尧之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:16-天尧",
+      "child": "lipu:lishiyuanyl:17-宗银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:17-宗银",
+      "b": "lipu:lishiyuanyl:17-李宗银之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:17-宗银",
+      "child": "lipu:lishiyuanyl:18-德林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:17-宗银",
+      "child": "lipu:lishiyuanyl:18-德春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:17-宗银",
+      "child": "lipu:lishiyuanyl:18-德顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:18-德顺",
+      "b": "lipu:lishiyuanyl:18-李德顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:18-德顺",
+      "child": "lipu:lishiyuanyl:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:19-崇贵",
+      "b": "lipu:lishiyuanyl:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:19-崇贵",
+      "child": "lipu:lishiyuanyl:20-隆富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:19-崇贵",
+      "child": "lipu:lishiyuanyl:20-隆发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:18-德顺",
+      "child": "lipu:lishiyuanyl:19-崇友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanyl:19-崇友",
+      "b": "lipu:lishiyuanyl:19-李崇友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:19-崇友",
+      "child": "lipu:lishiyuanyl:20-隆贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:19-崇友",
+      "child": "lipu:lishiyuanyl:20-隆香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:19-崇友",
+      "child": "lipu:lishiyuanyl:20-隆全"
+    }
+  ]
+}

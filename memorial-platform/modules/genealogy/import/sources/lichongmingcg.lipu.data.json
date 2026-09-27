@@ -1,0 +1,109 @@
+{
+  "key": "lipu:lichongmingcg",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichongmingcg:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊午年4月5日"
+      },
+      "death": {
+        "year": 1996
+      },
+      "ancestralHometown": "贵州织金·城关镇",
+      "birthPlace": {
+        "region": "贵州织金·城关镇"
+      },
+      "deathPlace": {
+        "region": "贵州织金·城关镇"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·城关镇。戊午年4月5日生，殁于1996年8月2日，葬于中寨，姙张氏己巳年12月19日生，殁于1988年6月5日，葬于中寨"
+    },
+    {
+      "externalId": "lipu:lichongmingcg:19-李崇明之妻",
+      "name": "李崇明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "death": {
+        "year": 1988
+      }
+    },
+    {
+      "externalId": "lipu:lichongmingcg:20-隆兵",
+      "name": "李隆兵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇",
+      "birthPlace": {
+        "region": "贵州织金·城关镇"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongmingcg:20-隆军",
+      "name": "李隆军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇",
+      "birthPlace": {
+        "region": "贵州织金·城关镇"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongmingcg:20-隆进",
+      "name": "李隆进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇",
+      "birthPlace": {
+        "region": "贵州织金·城关镇"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongmingcg:20-隆元",
+      "name": "李隆元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·城关镇",
+      "birthPlace": {
+        "region": "贵州织金·城关镇"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongmingcg:19-崇明",
+      "b": "lipu:lichongmingcg:19-李崇明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongmingcg:19-崇明",
+      "child": "lipu:lichongmingcg:20-隆兵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongmingcg:19-崇明",
+      "child": "lipu:lichongmingcg:20-隆军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongmingcg:19-崇明",
+      "child": "lipu:lichongmingcg:20-隆进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongmingcg:19-崇明",
+      "child": "lipu:lichongmingcg:20-隆元"
+    }
+  ]
+}
