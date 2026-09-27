@@ -1,0 +1,815 @@
+{
+  "key": "lipu:lishilun",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishilun:11-世伦",
+      "name": "李世伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州织金·八步镇倒马坎。上承李应璋支系10代李自友分支11代起"
+    },
+    {
+      "externalId": "lipu:lishilun:12-瑜",
+      "name": "李瑜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·八步镇倒马坎。葬于以那，黄鹰扇翅，有碑记"
+    },
+    {
+      "externalId": "lipu:lishilun:13-伦",
+      "name": "李伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·八步镇倒马坎。"
+    },
+    {
+      "externalId": "lipu:lishilun:14-学圣",
+      "name": "李学圣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·八步镇倒马坎。"
+    },
+    {
+      "externalId": "lipu:lishilun:15-正万",
+      "name": "李正万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·八步镇倒马坎。"
+    },
+    {
+      "externalId": "lipu:lishilun:16-天聪",
+      "name": "李天聪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己卯年六月初五"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·八步镇倒马坎。己卯年六月初五生于大定府管下大有里四甲小荒田，亡于平远州管下向化里七甲，葬于海子后移迁花红方竹林山顶上。姙张氏己卯年腊月二十六生，葬于平远州管下向化里七甲海子小寨"
+    },
+    {
+      "externalId": "lipu:lishilun:17-宗祥",
+      "name": "李宗祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙辰年"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·八步镇倒马坎。丙辰年生于平远州管下向化里七甲，甲子年五月初六殁于小黑寨，葬于莲花塘。姙陈氏辛亥年腊月二十四生于大定府管下大有里五家苗寨，殁于庚寅年五月初八"
+    },
+    {
+      "externalId": "lipu:lishilun:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲申年9月29日"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·八步镇倒马坎。甲申年9月29日生于平远州管下向化里八甲小黑寨，庚子年3月15日殁于织金花红嘟噜寨，葬于织金花江嘟噜寨花儿冲山顶，姙陈氏丙戌年三月初八生于大定府管下大有里二甲旧官寨，殁于八步小黑寨，葬于牛角冲背后雷神冲"
+    },
+    {
+      "externalId": "lipu:lishilun:19-崇厚",
+      "name": "李崇厚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1919
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·八步镇倒马坎。己未年（1919）2月17日生于向化里八甲旧院，壬午年腊月十四殁于八步倒马坎，葬于倒马坎大坟坡脚，姙张氏戊辰年8月18日生于八步倒马坎大扇磨背后"
+    },
+    {
+      "externalId": "lipu:lishilun:19-崇芝",
+      "name": "李崇芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·八步镇倒马坎。婚配小黑寨张坤林"
+    },
+    {
+      "externalId": "lipu:lishilun:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁亥年3月14日"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·八步镇倒马坎。丁亥年3月14日生于牛角冲水井冲，姙周氏己丑年二月初六生于在板桥街背后"
+    },
+    {
+      "externalId": "lipu:lishilun:20-隆发",
+      "name": "李隆发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛卯年9月12日"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·八步镇倒马坎。辛卯年9月12日生于倒马坎大毛窝背后，偶邓光会丁酉年3月17日生于安龙县龙广瓦街"
+    },
+    {
+      "externalId": "lipu:lishilun:20-隆银",
+      "name": "李隆银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲午年5月27日"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·八步镇倒马坎。甲午年5月27日生于管下向化里八甲地名大扇磨麻窝后坎，偶何志琴甲午年5月27日生于管下上坪寨"
+    },
+    {
+      "externalId": "lipu:lishilun:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁酉年四月初一"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·八步镇倒马坎。丁酉年四月初一生于管下向化里八甲地名倒马坎大麻窝后坝，偶张达香己亥年四月初六生于八步小黑寨"
+    },
+    {
+      "externalId": "lipu:lishilun:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙午年3月18日"
+      },
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·八步镇倒马坎。丙午年3月18日生于八步倒马坎，偶杨艳春乙巳年冬月二十生于八步倒马坎"
+    },
+    {
+      "externalId": "lipu:lishilun:20-隆琴",
+      "name": "李隆琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·八步镇倒马坎。婚配龙石板寨唐永兴"
+    },
+    {
+      "externalId": "lipu:lishilun:12-李瑜之妻",
+      "name": "李瑜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishilun:13-李伦之妻",
+      "name": "李伦之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishilun:14-怀林",
+      "name": "李怀林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      }
+    },
+    {
+      "externalId": "lipu:lishilun:16-李天聪之妻",
+      "name": "李天聪之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishilun:17-宗美",
+      "name": "李宗美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      }
+    },
+    {
+      "externalId": "lipu:lishilun:17-李宗祥之妻",
+      "name": "李宗祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishilun:18-德俊",
+      "name": "李德俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      }
+    },
+    {
+      "externalId": "lipu:lishilun:18-李德荣之妻",
+      "name": "李德荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishilun:19-崇全",
+      "name": "李崇全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      }
+    },
+    {
+      "externalId": "lipu:lishilun:19-崇芬",
+      "name": "李崇芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "deathPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      }
+    },
+    {
+      "externalId": "lipu:lishilun:19-李崇厚之妻",
+      "name": "李崇厚之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishilun:20-李隆昌之妻",
+      "name": "李隆昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发洋",
+      "name": "李发洋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发艳",
+      "name": "李发艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发梅",
+      "name": "李发梅",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发玲",
+      "name": "李发玲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发琴",
+      "name": "李发琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:20-邓光会",
+      "name": "邓光会",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发森",
+      "name": "李发森",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发钦",
+      "name": "李发钦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:20-何志琴",
+      "name": "何志琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发超",
+      "name": "李发超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发达",
+      "name": "李发达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发飞",
+      "name": "李发飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:20-张达香",
+      "name": "张达香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发翔",
+      "name": "李发翔",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-会",
+      "name": "李会",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-菊",
+      "name": "李菊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:20-杨艳春",
+      "name": "杨艳春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-发涛",
+      "name": "李发涛",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-英",
+      "name": "李英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishilun:21-娅",
+      "name": "李娅",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·八步镇倒马坎",
+      "birthPlace": {
+        "region": "贵州织金·八步镇倒马坎"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:11-世伦",
+      "child": "lipu:lishilun:12-瑜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:12-李瑜之妻",
+      "b": "lipu:lishilun:12-瑜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:12-瑜",
+      "child": "lipu:lishilun:13-伦"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:13-伦",
+      "b": "lipu:lishilun:13-李伦之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:13-伦",
+      "child": "lipu:lishilun:14-怀林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:13-伦",
+      "child": "lipu:lishilun:14-学圣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:14-学圣",
+      "child": "lipu:lishilun:15-正万"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:15-正万",
+      "child": "lipu:lishilun:16-天聪"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:16-天聪",
+      "b": "lipu:lishilun:16-李天聪之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:16-天聪",
+      "child": "lipu:lishilun:17-宗美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:16-天聪",
+      "child": "lipu:lishilun:17-宗祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:17-宗祥",
+      "b": "lipu:lishilun:17-李宗祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:17-宗祥",
+      "child": "lipu:lishilun:18-德俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:17-宗祥",
+      "child": "lipu:lishilun:18-德荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:18-德荣",
+      "b": "lipu:lishilun:18-李德荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:18-德荣",
+      "child": "lipu:lishilun:19-崇全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:18-德荣",
+      "child": "lipu:lishilun:19-崇芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:18-德荣",
+      "child": "lipu:lishilun:19-崇厚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:19-崇厚",
+      "b": "lipu:lishilun:19-李崇厚之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:18-德荣",
+      "child": "lipu:lishilun:19-崇芝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:19-崇厚",
+      "child": "lipu:lishilun:20-隆昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:20-李隆昌之妻",
+      "b": "lipu:lishilun:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆昌",
+      "child": "lipu:lishilun:21-发洋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆昌",
+      "child": "lipu:lishilun:21-发艳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆昌",
+      "child": "lipu:lishilun:21-发梅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆昌",
+      "child": "lipu:lishilun:21-发玲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆昌",
+      "child": "lipu:lishilun:21-发琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:19-崇厚",
+      "child": "lipu:lishilun:20-隆发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:20-邓光会",
+      "b": "lipu:lishilun:20-隆发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆发",
+      "child": "lipu:lishilun:21-发森"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆发",
+      "child": "lipu:lishilun:21-发钦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:19-崇厚",
+      "child": "lipu:lishilun:20-隆银"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:20-何志琴",
+      "b": "lipu:lishilun:20-隆银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆银",
+      "child": "lipu:lishilun:21-发超"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆银",
+      "child": "lipu:lishilun:21-发达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆银",
+      "child": "lipu:lishilun:21-发飞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:19-崇厚",
+      "child": "lipu:lishilun:20-隆文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:20-张达香",
+      "b": "lipu:lishilun:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆文",
+      "child": "lipu:lishilun:21-发翔"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆文",
+      "child": "lipu:lishilun:21-会"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆文",
+      "child": "lipu:lishilun:21-菊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:19-崇厚",
+      "child": "lipu:lishilun:20-隆华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishilun:20-杨艳春",
+      "b": "lipu:lishilun:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆华",
+      "child": "lipu:lishilun:21-发涛"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆华",
+      "child": "lipu:lishilun:21-英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:20-隆华",
+      "child": "lipu:lishilun:21-娅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishilun:19-崇厚",
+      "child": "lipu:lishilun:20-隆琴"
+    }
+  ]
+}
