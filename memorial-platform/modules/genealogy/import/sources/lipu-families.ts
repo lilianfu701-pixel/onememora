@@ -252,6 +252,11 @@ import lipu_lishijiedmz3 from "./lishijiedmz3.lipu.data.json";
 import lipu_lishixionglbz from "./lishixionglbz.lipu.data.json";
 import lipu_liwenying from "./liwenying.lipu.data.json";
 import lipu_liwenying2 from "./liwenying2.lipu.data.json";
+import lipu_lixuegui from "./lixuegui.lipu.data.json";
+import lipu_lishichenhsz from "./lishichenhsz.lipu.data.json";
+import lipu_lishijiao from "./lishijiao.lipu.data.json";
+import lipu_lishijiao2 from "./lishijiao2.lipu.data.json";
+import lipu_lishijiejs from "./lishijiejs.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -503,6 +508,11 @@ const LABELS: Record<string, string> = {
   lishixionglbz: "李氏·李世雄一支（李代龙支系谱·以那镇李保寨·十一至二十二代）",
   liwenying: "李氏·李文英一支（李代龙支系谱·以那镇凉山村·十三至二十代·接李士举一支子清）",
   liwenying2: "李氏·李文英一支·春隆永隆房（李代龙支系谱·以那镇凉山村）",
+  lixuegui: "李氏·李学贵一支（李代龙支系谱·以那镇杨宝寨·十六至二十一代）",
+  lishichenhsz: "李氏·李士臣一支（李代龙支系谱·以那镇朱家岩脚和尚庄·接马路脚李士臣绍贵绍华）",
+  lishijiao: "李氏·李世蛟一支（李代龙支系谱·以那镇蒿枝冲·十一至十八代）",
+  lishijiao2: "李氏·李世蛟一支·德恩德科房（李代龙支系谱·以那镇蒿枝冲）",
+  lishijiejs: "李氏·李世杰一支·士相绍义房（李代龙支系谱·以那镇尖山·接对门寨士伦）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -754,6 +764,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishixionglbz", lipu_lishixionglbz as GenealogyDataset],
   ["liwenying", lipu_liwenying as GenealogyDataset],
   ["liwenying2", lipu_liwenying2 as GenealogyDataset],
+  ["lixuegui", lipu_lixuegui as GenealogyDataset],
+  ["lishichenhsz", lipu_lishichenhsz as GenealogyDataset],
+  ["lishijiao", lipu_lishijiao as GenealogyDataset],
+  ["lishijiao2", lipu_lishijiao2 as GenealogyDataset],
+  ["lishijiejs", lipu_lishijiejs as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

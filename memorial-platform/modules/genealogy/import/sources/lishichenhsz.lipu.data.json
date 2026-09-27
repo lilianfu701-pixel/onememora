@@ -1,0 +1,717 @@
+{
+  "key": "lipu:lishichenhsz",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishichen:14-绍贵",
+      "name": "李绍贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·以那镇朱家岩脚和尚庄。此谱载绍贵姙张氏，生如启、如楠、如培、如科、如彦、如云（马路脚一支载生如春、如遥、如熬）"
+    },
+    {
+      "externalId": "lipu:lishichen:14-绍华",
+      "name": "李绍华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·以那镇朱家岩脚和尚庄。生如相、如金"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:15-如楠",
+      "name": "李如楠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇朱家岩脚和尚庄。"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:15-如培",
+      "name": "李如培",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇朱家岩脚和尚庄。"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:15-如金",
+      "name": "李如金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·以那镇朱家岩脚和尚庄。"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天申",
+      "name": "李天申",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·以那镇朱家岩脚和尚庄。"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:17-宗柄",
+      "name": "李宗柄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·以那镇朱家岩脚和尚庄。姙张氏葬于高石坝"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:18-德超",
+      "name": "李德超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·以那镇朱家岩脚和尚庄。生于大岩脚，葬于罗贵小坡，姙张氏葬于罗贵小坡"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:19-崇善",
+      "name": "李崇善",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸未年6月9日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·以那镇朱家岩脚和尚庄。癸未年6月9日生于大岩脚，殁于乙亥10月18日，葬于大元子，姙王氏庚寅年5月8日，殁于丙午年葬于大元子"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:20-隆义",
+      "name": "李隆义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲子年2月22日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·以那镇朱家岩脚和尚庄。甲子年2月22日生于大岩脚，偶龙氏辛酉年生，续偶王氏丁卯年6月19日生"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己丑3月5日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·以那镇朱家岩脚和尚庄。己丑3月5日生于大岩脚，殁于丙子年9月30日，葬于大元子，偶杨氏癸卯年生于沙田"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:21-发均",
+      "name": "李发均",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙午年11月19日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·以那镇朱家岩脚和尚庄。丙午年11月19日生于大岩脚，偶张氏丁未年生于高石坝"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:21-发元",
+      "name": "李发元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "戊午年3月7日"
+      },
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·以那镇朱家岩脚和尚庄。戊午年3月7日生于大岩脚，偶周氏庚戌年8月20日生于平坝"
+    },
+    {
+      "externalId": "lipu:lishichenhsz:14-李绍华之妻",
+      "name": "李绍华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:15-李如楠之妻",
+      "name": "李如楠之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天奇",
+      "name": "李天奇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:15-李如培之妻",
+      "name": "李如培之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天顺",
+      "name": "李天顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天翠",
+      "name": "李天翠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天仲",
+      "name": "李天仲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天覆",
+      "name": "李天覆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:15-李如金之妻",
+      "name": "李如金之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天位",
+      "name": "李天位",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-天信",
+      "name": "李天信",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:16-李天申之妻",
+      "name": "李天申之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:17-宗桂",
+      "name": "李宗桂",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:17-李宗柄之妻",
+      "name": "李宗柄之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:18-李德超之妻",
+      "name": "李德超之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:19-崇发",
+      "name": "李崇发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "deathPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenhsz:19-李崇善之妻",
+      "name": "李崇善之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:20-李隆义之妻",
+      "name": "李隆义之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenhsz:21-李发云之妻",
+      "name": "李发云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-捡得",
+      "name": "李捡得",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:21-李发均之妻",
+      "name": "李发均之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-裕荣",
+      "name": "李裕荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-裕华",
+      "name": "李裕华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-裕富",
+      "name": "李裕富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-裕贵",
+      "name": "李裕贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:21-李发元之妻",
+      "name": "李发元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-语语",
+      "name": "李语语",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishichenhsz:22-谱谱",
+      "name": "李谱谱",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·以那镇朱家岩脚和尚庄",
+      "birthPlace": {
+        "region": "贵州织金·以那镇朱家岩脚和尚庄"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichen:14-绍华",
+      "b": "lipu:lishichenhsz:14-李绍华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen:14-绍贵",
+      "child": "lipu:lishichenhsz:15-如楠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:15-如楠",
+      "b": "lipu:lishichenhsz:15-李如楠之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如楠",
+      "child": "lipu:lishichenhsz:16-天奇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen:14-绍贵",
+      "child": "lipu:lishichenhsz:15-如培"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:15-如培",
+      "b": "lipu:lishichenhsz:15-李如培之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如培",
+      "child": "lipu:lishichenhsz:16-天顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如培",
+      "child": "lipu:lishichenhsz:16-天翠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如培",
+      "child": "lipu:lishichenhsz:16-天仲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如培",
+      "child": "lipu:lishichenhsz:16-天覆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichen:14-绍华",
+      "child": "lipu:lishichenhsz:15-如金"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:15-如金",
+      "b": "lipu:lishichenhsz:15-李如金之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如金",
+      "child": "lipu:lishichenhsz:16-天位"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如金",
+      "child": "lipu:lishichenhsz:16-天信"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:15-如楠",
+      "child": "lipu:lishichenhsz:16-天申"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:16-天申",
+      "b": "lipu:lishichenhsz:16-李天申之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:16-天申",
+      "child": "lipu:lishichenhsz:17-宗桂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:16-天申",
+      "child": "lipu:lishichenhsz:17-宗柄"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:17-宗柄",
+      "b": "lipu:lishichenhsz:17-李宗柄之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:17-宗柄",
+      "child": "lipu:lishichenhsz:18-德超"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:18-德超",
+      "b": "lipu:lishichenhsz:18-李德超之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:18-德超",
+      "child": "lipu:lishichenhsz:19-崇发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:18-德超",
+      "child": "lipu:lishichenhsz:19-崇贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:18-德超",
+      "child": "lipu:lishichenhsz:19-崇善"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:19-崇善",
+      "b": "lipu:lishichenhsz:19-李崇善之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:19-崇善",
+      "child": "lipu:lishichenhsz:20-隆义"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:20-李隆义之妻",
+      "b": "lipu:lishichenhsz:20-隆义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:20-隆义",
+      "child": "lipu:lishichenhsz:21-发云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:21-发云",
+      "b": "lipu:lishichenhsz:21-李发云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发云",
+      "child": "lipu:lishichenhsz:22-捡得"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:20-隆义",
+      "child": "lipu:lishichenhsz:21-发均"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:21-发均",
+      "b": "lipu:lishichenhsz:21-李发均之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发均",
+      "child": "lipu:lishichenhsz:22-裕荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发均",
+      "child": "lipu:lishichenhsz:22-裕华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发均",
+      "child": "lipu:lishichenhsz:22-裕富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发均",
+      "child": "lipu:lishichenhsz:22-裕贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:20-隆义",
+      "child": "lipu:lishichenhsz:21-发元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenhsz:21-发元",
+      "b": "lipu:lishichenhsz:21-李发元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发元",
+      "child": "lipu:lishichenhsz:22-语语"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenhsz:21-发元",
+      "child": "lipu:lishichenhsz:22-谱谱"
+    }
+  ]
+}
