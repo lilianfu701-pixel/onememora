@@ -1,0 +1,420 @@
+{
+  "key": "lipu:lizongrongtjd2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongrongtjd:20-隆先",
+      "name": "李隆先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "deathPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·熊家场乡陶家硐。"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "deathPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·熊家场乡陶家硐。"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd:20-隆芳",
+      "name": "李隆芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "deathPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·熊家场乡陶家硐。"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-发能",
+      "name": "李发能",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲申年正月七日"
+      },
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·熊家场乡陶家硐。甲申年正月七日生，偶毛氏、张氏"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-发文",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸巳年10月27日"
+      },
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·熊家场乡陶家硐。癸巳年10月27日生，偶褚氏乙未年10月12日生"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-发顺",
+      "name": "李发顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "辛卯年5月25日"
+      },
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·熊家场乡陶家硐。辛卯年5月25日生于熊家场"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸巳年正月八日"
+      },
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·熊家场乡陶家硐。癸巳年正月八日生于熊家场"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸卯年4月12日"
+      },
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·熊家场乡陶家硐。癸卯年4月12日生于熊家场"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-发荣",
+      "name": "李发荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙申年2月16日"
+      },
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·熊家场乡陶家硐。丙申年2月16日生于熊家场，偶王氏丁酉年7月16日生"
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-李发能之妻",
+      "name": "李发能之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "毛氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕文",
+      "name": "李裕文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-李发文之妻",
+      "name": "李发文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "褚氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕洪",
+      "name": "李裕洪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕芳",
+      "name": "李裕芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕松",
+      "name": "李裕松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-李发顺之妻",
+      "name": "李发顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕虎",
+      "name": "李裕虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-李发祥之妻",
+      "name": "李发祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "芦氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕军",
+      "name": "李裕军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕平",
+      "name": "李裕平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-李发忠之妻",
+      "name": "李发忠之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:21-李发荣之妻",
+      "name": "李发荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕合",
+      "name": "李裕合",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕江",
+      "name": "李裕江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongrongtjd2:22-裕勇",
+      "name": "李裕勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·熊家场乡陶家硐",
+      "birthPlace": {
+        "region": "贵州织金·熊家场乡陶家硐"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd:20-隆祥",
+      "child": "lipu:lizongrongtjd2:21-发能"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongrongtjd2:21-发能",
+      "b": "lipu:lizongrongtjd2:21-李发能之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发能",
+      "child": "lipu:lizongrongtjd2:22-裕文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd:20-隆芳",
+      "child": "lipu:lizongrongtjd2:21-发文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongrongtjd2:21-发文",
+      "b": "lipu:lizongrongtjd2:21-李发文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发文",
+      "child": "lipu:lizongrongtjd2:22-裕洪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发文",
+      "child": "lipu:lizongrongtjd2:22-裕芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发文",
+      "child": "lipu:lizongrongtjd2:22-裕松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd:20-隆先",
+      "child": "lipu:lizongrongtjd2:21-发顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongrongtjd2:21-发顺",
+      "b": "lipu:lizongrongtjd2:21-李发顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发顺",
+      "child": "lipu:lizongrongtjd2:22-裕虎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd:20-隆先",
+      "child": "lipu:lizongrongtjd2:21-发祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongrongtjd2:21-发祥",
+      "b": "lipu:lizongrongtjd2:21-李发祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发祥",
+      "child": "lipu:lizongrongtjd2:22-裕军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发祥",
+      "child": "lipu:lizongrongtjd2:22-裕平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd:20-隆先",
+      "child": "lipu:lizongrongtjd2:21-发忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongrongtjd2:21-发忠",
+      "b": "lipu:lizongrongtjd2:21-李发忠之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd:20-隆芳",
+      "child": "lipu:lizongrongtjd2:21-发荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongrongtjd2:21-发荣",
+      "b": "lipu:lizongrongtjd2:21-李发荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发荣",
+      "child": "lipu:lizongrongtjd2:22-裕合"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发荣",
+      "child": "lipu:lizongrongtjd2:22-裕江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongrongtjd2:21-发荣",
+      "child": "lipu:lizongrongtjd2:22-裕勇"
+    }
+  ]
+}

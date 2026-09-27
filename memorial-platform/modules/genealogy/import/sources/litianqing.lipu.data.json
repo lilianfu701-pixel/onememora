@@ -1,0 +1,136 @@
+{
+  "key": "lipu:litianqing",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litianqing:16-天清",
+      "name": "李天清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇高石坝",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·三圹镇高石坝。谱列于李朝阳一支之后，未载上承。生于三塘高石坝，葬于高石坝杜家坟"
+    },
+    {
+      "externalId": "lipu:litianqing:17-宗圣",
+      "name": "李宗圣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇高石坝",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·三圹镇高石坝。葬于那八河牛场"
+    },
+    {
+      "externalId": "lipu:litianqing:18-德法",
+      "name": "李德法",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇高石坝",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·三圹镇高石坝。生于那八河"
+    },
+    {
+      "externalId": "lipu:litianqing:19-崇江",
+      "name": "李崇江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇高石坝",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇高石坝。"
+    },
+    {
+      "externalId": "lipu:litianqing:16-李天清之妻",
+      "name": "李天清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianqing:18-李德法之妻",
+      "name": "李德法之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianqing:19-李崇江之妻",
+      "name": "李崇江之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "浓氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianqing:20-隆磷",
+      "name": "李隆磷",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇高石坝",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇高石坝"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:litianqing:16-天清",
+      "b": "lipu:litianqing:16-李天清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianqing:16-天清",
+      "child": "lipu:litianqing:17-宗圣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianqing:17-宗圣",
+      "child": "lipu:litianqing:18-德法"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianqing:18-德法",
+      "b": "lipu:litianqing:18-李德法之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianqing:18-德法",
+      "child": "lipu:litianqing:19-崇江"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianqing:19-崇江",
+      "b": "lipu:litianqing:19-李崇江之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianqing:19-崇江",
+      "child": "lipu:litianqing:20-隆磷"
+    }
+  ]
+}
