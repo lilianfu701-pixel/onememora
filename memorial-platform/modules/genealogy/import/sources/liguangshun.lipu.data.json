@@ -179,10 +179,13 @@
       "birthPlace": {
         "region": "贵州织金·珠藏镇龙河村"
       },
-      "deathPlace": {
-        "region": "贵州织金·珠藏镇龙河村"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·珠藏镇龙河村。1947年4月17日生于小寨。",
+      "birth": {
+        "year": 1947,
+        "month": 4,
+        "day": 17
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·珠藏镇龙河村。1947年4月17日生于小寨。"
+      "living": true
     },
     {
       "externalId": "lipu:liguangshun:19-秀奎",

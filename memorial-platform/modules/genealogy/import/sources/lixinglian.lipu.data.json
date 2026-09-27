@@ -1,0 +1,174 @@
+{
+  "key": "lipu:lixinglian",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lixinglian:18-兴连",
+      "name": "李兴连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡新黔村下岩脚。上承纳雍长应岗分支从18代起"
+    },
+    {
+      "externalId": "lipu:lixinglian:19-德顺",
+      "name": "李德顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡新黔村下岩脚。生于下岩脚"
+    },
+    {
+      "externalId": "lipu:lixinglian:20-玉光",
+      "name": "李玉光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡新黔村下岩脚。1931年1月生，偶黄氏1934年生"
+    },
+    {
+      "externalId": "lipu:lixinglian:18-李兴连之妻",
+      "name": "李兴连之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lixinglian:19-李德顺之妻",
+      "name": "李德顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "严氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lixinglian:20-玉方",
+      "name": "李玉方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      }
+    },
+    {
+      "externalId": "lipu:lixinglian:20-李玉光之妻",
+      "name": "李玉光之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ],
+      "birth": {
+        "year": 1934
+      }
+    },
+    {
+      "externalId": "lipu:lixinglian:21-万中",
+      "name": "李万中",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lixinglian:21-万发",
+      "name": "李万发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lixinglian:21-九发",
+      "name": "李九发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村下岩脚",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村下岩脚"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lixinglian:18-兴连",
+      "b": "lipu:lixinglian:18-李兴连之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixinglian:18-兴连",
+      "child": "lipu:lixinglian:19-德顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lixinglian:19-德顺",
+      "b": "lipu:lixinglian:19-李德顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixinglian:19-德顺",
+      "child": "lipu:lixinglian:20-玉方"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixinglian:19-德顺",
+      "child": "lipu:lixinglian:20-玉光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lixinglian:20-李玉光之妻",
+      "b": "lipu:lixinglian:20-玉光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixinglian:20-玉光",
+      "child": "lipu:lixinglian:21-万中"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixinglian:20-玉光",
+      "child": "lipu:lixinglian:21-万发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixinglian:20-玉光",
+      "child": "lipu:lixinglian:21-九发"
+    }
+  ]
+}

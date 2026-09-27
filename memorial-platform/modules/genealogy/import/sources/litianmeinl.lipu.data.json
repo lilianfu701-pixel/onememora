@@ -1,0 +1,432 @@
+{
+  "key": "lipu:litianmeinl",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litianmeinl:15-天美",
+      "name": "李天美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·白泥乡白泥村那拢。上承纳雍李士先支系14代李国贤分支。生葬纳雍"
+    },
+    {
+      "externalId": "lipu:litianmeinl:16-连福",
+      "name": "李连福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·白泥乡白泥村那拢。生于利中龙场，迁马场官寨，后迁白泥那拢，葬五岔口，姙马氏葬于五冲岔口，生有四子一女"
+    },
+    {
+      "externalId": "lipu:litianmeinl:17-洪保",
+      "name": "李洪保",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡白泥村那拢。生于利中龙场，葬马场才家坝，偶马氏葬于冷坝苗寨"
+    },
+    {
+      "externalId": "lipu:litianmeinl:18-宗清",
+      "name": "李宗清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡白泥村那拢。生于马场关寨，葬于五子山，生有一女"
+    },
+    {
+      "externalId": "lipu:litianmeinl:19-德兴",
+      "name": "李德兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡白泥村那拢。1931年生于鱼塘，阿弓区供销社工作，现已退休，偶林氏1929年生于菜子地"
+    },
+    {
+      "externalId": "lipu:litianmeinl:19-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1934
+      },
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡白泥村那拢。1934年生于白塘，偶卢氏葬于那陇"
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-崇祥",
+      "name": "李崇祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村那拢。生于白泥鱼塘，偶彭氏1966年生"
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村那拢。生于白泥鱼塘，偶胡氏1974年生"
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-崇太",
+      "name": "李崇太",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村那拢。生于盘县电厂，大学文化，任科长，偶肖氏1981年生，生有一女"
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-崇富",
+      "name": "李崇富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村那拢。生于白泥鱼塘，偶王氏1966年生"
+    },
+    {
+      "externalId": "lipu:litianmeinl:16-李连福之妻",
+      "name": "李连福之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "马氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeinl:17-李洪保之妻",
+      "name": "李洪保之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "马氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeinl:18-李宗清之妻",
+      "name": "李宗清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "熊氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeinl:19-李德兴之妻",
+      "name": "李德兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "林氏"
+      ],
+      "birth": {
+        "year": 1929
+      }
+    },
+    {
+      "externalId": "lipu:litianmeinl:19-李德昌之妻",
+      "name": "李德昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-李崇祥之妻",
+      "name": "李崇祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ],
+      "birth": {
+        "year": 1966
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:21-隆金",
+      "name": "李隆金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:21-海",
+      "name": "李海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:21-江",
+      "name": "李江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "胡氏"
+      ],
+      "birth": {
+        "year": 1974
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:21-燕国",
+      "name": "李燕国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-李崇太之妻",
+      "name": "李崇太之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "肖氏"
+      ],
+      "birth": {
+        "year": 1981
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:20-李崇富之妻",
+      "name": "李崇富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1966
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:21-虎",
+      "name": "李虎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeinl:21-隆脊",
+      "name": "李隆脊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村那拢",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村那拢"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:15-天美",
+      "child": "lipu:litianmeinl:16-连福"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:16-李连福之妻",
+      "b": "lipu:litianmeinl:16-连福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:16-连福",
+      "child": "lipu:litianmeinl:17-洪保"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:17-李洪保之妻",
+      "b": "lipu:litianmeinl:17-洪保"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:17-洪保",
+      "child": "lipu:litianmeinl:18-宗清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:18-宗清",
+      "b": "lipu:litianmeinl:18-李宗清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:18-宗清",
+      "child": "lipu:litianmeinl:19-德兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:19-德兴",
+      "b": "lipu:litianmeinl:19-李德兴之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:18-宗清",
+      "child": "lipu:litianmeinl:19-德昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:19-德昌",
+      "b": "lipu:litianmeinl:19-李德昌之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:19-德兴",
+      "child": "lipu:litianmeinl:20-崇祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:20-崇祥",
+      "b": "lipu:litianmeinl:20-李崇祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:20-崇祥",
+      "child": "lipu:litianmeinl:21-隆金"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:20-崇祥",
+      "child": "lipu:litianmeinl:21-海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:20-崇祥",
+      "child": "lipu:litianmeinl:21-江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:19-德兴",
+      "child": "lipu:litianmeinl:20-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:20-崇贵",
+      "b": "lipu:litianmeinl:20-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:20-崇贵",
+      "child": "lipu:litianmeinl:21-燕国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:19-德昌",
+      "child": "lipu:litianmeinl:20-崇太"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:20-崇太",
+      "b": "lipu:litianmeinl:20-李崇太之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:19-德昌",
+      "child": "lipu:litianmeinl:20-崇富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeinl:20-崇富",
+      "b": "lipu:litianmeinl:20-李崇富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:20-崇富",
+      "child": "lipu:litianmeinl:21-虎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeinl:20-崇富",
+      "child": "lipu:litianmeinl:21-隆脊"
+    }
+  ]
+}

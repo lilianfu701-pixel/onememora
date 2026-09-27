@@ -1,0 +1,223 @@
+{
+  "key": "lipu:litianmeilh",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:litianmeilh:16-天美",
+      "name": "李天美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·白泥乡联合村那车。上承纳雍黄泥坡马路14代李文秀15代李敏分支。生、葬纳雍，生有三子。谱中另有同村一支所载那车 正贵→宗有→德昌(1922/壬戌)→崇武/崇伍(1954/甲午)，疑为同一家，代数与孙辈名不同，今两存待考"
+    },
+    {
+      "externalId": "lipu:litianmeilh:17-正贵",
+      "name": "李正贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡联合村那车。生于纳雍，葬于那车下寨，偶朱氏生有三子"
+    },
+    {
+      "externalId": "lipu:litianmeilh:18-宗有",
+      "name": "李宗有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡联合村那车。生于那车，偶时氏生有一子"
+    },
+    {
+      "externalId": "lipu:litianmeilh:19-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬戌年"
+      },
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡联合村那车。壬戌年生于那车，偶胡氏生有一子二女"
+    },
+    {
+      "externalId": "lipu:litianmeilh:20-崇伍",
+      "name": "李崇伍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲午年"
+      },
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡联合村那车。甲午年生于那车，偶张氏生有四子二女"
+    },
+    {
+      "externalId": "lipu:litianmeilh:17-李正贵之妻",
+      "name": "李正贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeilh:18-李宗有之妻",
+      "name": "李宗有之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "时氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeilh:19-李德昌之妻",
+      "name": "李德昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "胡氏"
+      ]
+    },
+    {
+      "externalId": "lipu:litianmeilh:20-李崇伍之妻",
+      "name": "李崇伍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeilh:21-隆生",
+      "name": "李隆生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeilh:21-隆君",
+      "name": "李隆君",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeilh:21-隆勋",
+      "name": "李隆勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:litianmeilh:21-老三",
+      "name": "李老三",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村那车",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村那车"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:16-天美",
+      "child": "lipu:litianmeilh:17-正贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeilh:17-李正贵之妻",
+      "b": "lipu:litianmeilh:17-正贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:17-正贵",
+      "child": "lipu:litianmeilh:18-宗有"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeilh:18-宗有",
+      "b": "lipu:litianmeilh:18-李宗有之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:18-宗有",
+      "child": "lipu:litianmeilh:19-德昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeilh:19-德昌",
+      "b": "lipu:litianmeilh:19-李德昌之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:19-德昌",
+      "child": "lipu:litianmeilh:20-崇伍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:litianmeilh:20-崇伍",
+      "b": "lipu:litianmeilh:20-李崇伍之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:20-崇伍",
+      "child": "lipu:litianmeilh:21-隆生"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:20-崇伍",
+      "child": "lipu:litianmeilh:21-隆君"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:20-崇伍",
+      "child": "lipu:litianmeilh:21-隆勋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:litianmeilh:20-崇伍",
+      "child": "lipu:litianmeilh:21-老三"
+    }
+  ]
+}

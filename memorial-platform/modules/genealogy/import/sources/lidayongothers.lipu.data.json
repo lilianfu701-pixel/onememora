@@ -193,10 +193,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇庙上田坝"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇庙上田坝"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1996年4月9日生。",
+      "birth": {
+        "year": 1996,
+        "month": 4,
+        "day": 9
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1996年4月9日生。"
+      "living": true
     },
     {
       "externalId": "lipu:lidayongothers:17-李宗齐之妻",

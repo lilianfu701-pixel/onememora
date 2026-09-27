@@ -1,0 +1,180 @@
+{
+  "key": "lipu:lilongchangsh",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lilongchangsh:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1941,
+        "month": 12,
+        "day": 29
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡三合村。上承纳雍水头寨分支从20代起。1941年12月29日生于梯子岩"
+    },
+    {
+      "externalId": "lipu:lilongchangsh:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1945
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡三合村。上承纳雍水头寨分支。1945年生"
+    },
+    {
+      "externalId": "lipu:lilongchangsh:20-隆华",
+      "name": "李隆华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1955
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡三合村。上承纳雍水头寨分支。1955年生"
+    },
+    {
+      "externalId": "lipu:lilongchangsh:20-李隆昌之妻",
+      "name": "李隆昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "叶氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:21-发明",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:20-李隆富之妻",
+      "name": "李隆富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "邓氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:20-李隆华之妻",
+      "name": "李隆华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "宋氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:21-发学",
+      "name": "李发学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lilongchangsh:21-发江",
+      "name": "李发江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡三合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡三合村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lilongchangsh:20-李隆昌之妻",
+      "b": "lipu:lilongchangsh:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongchangsh:20-隆昌",
+      "child": "lipu:lilongchangsh:21-发明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilongchangsh:20-李隆富之妻",
+      "b": "lipu:lilongchangsh:20-隆富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongchangsh:20-隆富",
+      "child": "lipu:lilongchangsh:21-发云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongchangsh:20-隆富",
+      "child": "lipu:lilongchangsh:21-发忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilongchangsh:20-李隆华之妻",
+      "b": "lipu:lilongchangsh:20-隆华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongchangsh:20-隆华",
+      "child": "lipu:lilongchangsh:21-发学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilongchangsh:20-隆华",
+      "child": "lipu:lilongchangsh:21-发江"
+    }
+  ]
+}

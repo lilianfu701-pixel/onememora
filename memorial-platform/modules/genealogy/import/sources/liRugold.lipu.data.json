@@ -25,10 +25,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇九甲大山脚"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇九甲大山脚"
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·化起镇九甲大山脚。1979年8月22日生于九甲大树脚",
+      "birth": {
+        "year": 1979,
+        "month": 8,
+        "day": 22
       },
-      "bio": "陇西李氏·李代龙支系第15代，贵州织金·化起镇九甲大山脚。1979年8月22日生于九甲大树脚"
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-宗仁",
@@ -39,10 +42,8 @@
       "birthPlace": {
         "region": "贵州织金·化起镇九甲大山脚"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇九甲大山脚"
-      },
-      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。"
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。",
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-宗桶",
@@ -53,10 +54,8 @@
       "birthPlace": {
         "region": "贵州织金·化起镇九甲大山脚"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇九甲大山脚"
-      },
-      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。"
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。",
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-宗塘",
@@ -67,10 +66,8 @@
       "birthPlace": {
         "region": "贵州织金·化起镇九甲大山脚"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇九甲大山脚"
-      },
-      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。"
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。",
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-宗堂",
@@ -81,10 +78,8 @@
       "birthPlace": {
         "region": "贵州织金·化起镇九甲大山脚"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇九甲大山脚"
-      },
-      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。"
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·化起镇九甲大山脚。",
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:17-宗云",
@@ -95,10 +90,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇九甲大山脚"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇九甲大山脚"
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·化起镇九甲大山脚。1955年6月2日生",
+      "birth": {
+        "year": 1955,
+        "month": 6,
+        "day": 2
       },
-      "bio": "陇西李氏·李代龙支系第17代，贵州织金·化起镇九甲大山脚。1955年6月2日生"
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:17-宗富",
@@ -118,7 +116,8 @@
       "externalId": "lipu:liRugold:15-陈隆氏,1914年3月生",
       "name": "陈隆氏,1914年3月生",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "gender": "female"
+      "gender": "female",
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-李宗仁之妻",
@@ -127,7 +126,8 @@
       "gender": "female",
       "aliases": [
         "宗氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-李宗桶之妻",
@@ -136,7 +136,8 @@
       "gender": "female",
       "aliases": [
         "桶氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-李宗塘之妻",
@@ -145,7 +146,8 @@
       "gender": "female",
       "aliases": [
         "塘氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:16-李宗堂之妻",
@@ -154,7 +156,8 @@
       "gender": "female",
       "aliases": [
         "堂氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:17-李宗云之妻",
@@ -163,7 +166,8 @@
       "gender": "female",
       "aliases": [
         "云氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:liRugold:17-李宗富之妻",

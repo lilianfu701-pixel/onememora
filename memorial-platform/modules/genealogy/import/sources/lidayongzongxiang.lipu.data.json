@@ -25,10 +25,11 @@
       "birthPlace": {
         "region": "贵州织金·化起镇庙上田坝"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇庙上田坝"
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇庙上田坝。1960年正月7日生于坝田，偶徐氏1957年腊月19日生于马场柏果树。生：隆义、隆贵。",
+      "birth": {
+        "year": 1960
       },
-      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇庙上田坝。1960年正月7日生于坝田，偶徐氏1957年腊月19日生于马场柏果树。生：隆义、隆贵。"
+      "living": true
     },
     {
       "externalId": "lipu:lidayongzongxiang:18-德龙",
@@ -109,10 +110,11 @@
       "birthPlace": {
         "region": "贵州织金·化起镇庙上田坝"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇庙上田坝"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1983年正月初六日生于下坝田。",
+      "birth": {
+        "year": 1983
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1983年正月初六日生于下坝田。"
+      "living": true
     },
     {
       "externalId": "lipu:lidayongzongxiang:19-隆贵",
@@ -123,10 +125,12 @@
       "birthPlace": {
         "region": "贵州织金·化起镇庙上田坝"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇庙上田坝"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1984年10月初六日生。",
+      "birth": {
+        "year": 1984,
+        "month": 10
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1984年10月初六日生。"
+      "living": true
     },
     {
       "externalId": "lipu:lidayongzongxiang:18-李德友之妻",
@@ -135,7 +139,8 @@
       "gender": "female",
       "aliases": [
         "徐氏"
-      ]
+      ],
+      "living": true
     }
   ],
   "relations": [

@@ -1,0 +1,161 @@
+{
+  "key": "lipu:lishaozhou",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishaozhou:19-绍舟",
+      "name": "李绍舟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1928
+      },
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡新黔村王家寨。上承安顺分支从19代起。1928年2月2日生，原住安顺，后迁王家寨，偶高克秀1925年7月7日生"
+    },
+    {
+      "externalId": "lipu:lishaozhou:20-隆达",
+      "name": "李隆达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1948,
+        "month": 7,
+        "day": 5
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡新黔村王家寨。1948年7月5日生于王家寨，偶陈学芬1949年生"
+    },
+    {
+      "externalId": "lipu:lishaozhou:20-龙祥",
+      "name": "李龙祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1966,
+        "month": 11,
+        "day": 8
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡新黔村王家寨。1966年11月8日生于王家寨，偶曹发琴1969年生"
+    },
+    {
+      "externalId": "lipu:lishaozhou:19-高克秀",
+      "name": "高克秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1925
+      }
+    },
+    {
+      "externalId": "lipu:lishaozhou:20-陈学芬",
+      "name": "陈学芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1949
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaozhou:21-超",
+      "name": "李超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaozhou:21-明",
+      "name": "李明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaozhou:20-曹发琴",
+      "name": "曹发琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1969
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishaozhou:21-勇",
+      "name": "李勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaozhou:19-绍舟",
+      "b": "lipu:lishaozhou:19-高克秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaozhou:19-绍舟",
+      "child": "lipu:lishaozhou:20-隆达"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaozhou:20-陈学芬",
+      "b": "lipu:lishaozhou:20-隆达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaozhou:20-隆达",
+      "child": "lipu:lishaozhou:21-超"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaozhou:20-隆达",
+      "child": "lipu:lishaozhou:21-明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaozhou:19-绍舟",
+      "child": "lipu:lishaozhou:20-龙祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaozhou:20-曹发琴",
+      "b": "lipu:lishaozhou:20-龙祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaozhou:20-龙祥",
+      "child": "lipu:lishaozhou:21-勇"
+    }
+  ]
+}

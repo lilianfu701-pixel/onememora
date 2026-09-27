@@ -25,10 +25,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇罗家寨"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇罗家寨"
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·化起镇罗家寨。1944年12月2日生",
+      "birth": {
+        "year": 1944,
+        "month": 12,
+        "day": 2
       },
-      "bio": "陇西李氏·李代龙支系第17代，贵州织金·化起镇罗家寨。1944年12月2日生"
+      "living": true
     },
     {
       "externalId": "lipu:litianjin:17-德顺",
@@ -54,7 +57,12 @@
         "region": "贵州织金·化起镇罗家寨"
       },
       "living": true,
-      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇罗家寨。1975年2月5日生于九甲"
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇罗家寨。1975年2月5日生于九甲",
+      "birth": {
+        "year": 1975,
+        "month": 2,
+        "day": 5
+      }
     },
     {
       "externalId": "lipu:litianjin:18-崇风",
@@ -66,7 +74,12 @@
         "region": "贵州织金·化起镇罗家寨"
       },
       "living": true,
-      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇罗家寨。1968年12月26日生于九甲"
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·化起镇罗家寨。1968年12月26日生于九甲",
+      "birth": {
+        "year": 1968,
+        "month": 12,
+        "day": 26
+      }
     },
     {
       "externalId": "lipu:litianjin:18-崇秀",
@@ -87,7 +100,8 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:litianjin:17-李德顺之妻",

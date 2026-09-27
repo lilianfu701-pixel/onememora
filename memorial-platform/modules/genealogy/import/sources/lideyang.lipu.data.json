@@ -1,0 +1,219 @@
+{
+  "key": "lipu:lideyang",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lideyang:18-德杨",
+      "name": "李德杨",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡白泥村。上承16代李如彬17代李宗跃分支"
+    },
+    {
+      "externalId": "lipu:lideyang:19-崇政",
+      "name": "李崇政",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1911
+      },
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡白泥村。1911年生于小水井"
+    },
+    {
+      "externalId": "lipu:lideyang:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡白泥村。生于普定马场毛粟坡，任过管理区村书记、白泥乡粮站管理员，葬于蛇场坡，偶简氏生于中寨，生有五女"
+    },
+    {
+      "externalId": "lipu:lideyang:21-发武",
+      "name": "李发武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1965
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡白泥村。1965年生于梭过组，偶高氏生于那拢寨子"
+    },
+    {
+      "externalId": "lipu:lideyang:21-发万",
+      "name": "李发万",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡白泥村。生于梭过，偶袁氏生于新桥，生有一女"
+    },
+    {
+      "externalId": "lipu:lideyang:18-李德杨之妻",
+      "name": "李德杨之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideyang:19-李崇政之妻",
+      "name": "李崇政之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideyang:20-李隆昌之妻",
+      "name": "李隆昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "简氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyang:21-李发武之妻",
+      "name": "李发武之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "高氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyang:22-裕谋",
+      "name": "李裕谋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyang:22-裕彬",
+      "name": "李裕彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyang:22-裕刚",
+      "name": "李裕刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡白泥村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡白泥村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lideyang:21-李发万之妻",
+      "name": "李发万之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "袁氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyang:18-德杨",
+      "b": "lipu:lideyang:18-李德杨之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:18-德杨",
+      "child": "lipu:lideyang:19-崇政"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyang:19-崇政",
+      "b": "lipu:lideyang:19-李崇政之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:19-崇政",
+      "child": "lipu:lideyang:20-隆昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyang:20-李隆昌之妻",
+      "b": "lipu:lideyang:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:20-隆昌",
+      "child": "lipu:lideyang:21-发武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyang:21-发武",
+      "b": "lipu:lideyang:21-李发武之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:21-发武",
+      "child": "lipu:lideyang:22-裕谋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:21-发武",
+      "child": "lipu:lideyang:22-裕彬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:21-发武",
+      "child": "lipu:lideyang:22-裕刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideyang:20-隆昌",
+      "child": "lipu:lideyang:21-发万"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideyang:21-发万",
+      "b": "lipu:lideyang:21-李发万之妻"
+    }
+  ]
+}

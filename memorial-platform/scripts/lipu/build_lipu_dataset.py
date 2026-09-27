@@ -80,13 +80,26 @@ def parse_birth(bio):
     if not bio:
         return None
     m = re.match(r"^\s*([^，。；、]*?)\s*生(?:于|，|。|、|$)", bio.strip())
-    if not m:
-        return None
-    seg = m.group(1).strip()
-    if not seg or ("年" not in seg and "月" not in seg):
-        return None
-    g = _greg_ymd(seg)
-    return g if g else {"raw": seg}
+    seg = m.group(1).strip() if m else ""
+    if seg and ("年" in seg or "月" in seg):
+        g = _greg_ymd(seg)
+        return g if g else {"raw": seg}
+    # The first clause often isn't the birthday — 「上承X分支。1941年…生」 or
+    # 「生于1955年2月初二」. Missing it leaves a post-1940 person marked public.
+    # Fall back to the first clause of the person's OWN part (before the spouse)
+    # holding a Gregorian year next to 生 (not 生有, which counts children).
+    own = re.split(r"[，。；、]\s*(?:续|再)?(?:偶|姙|妣|配)", bio.strip(), maxsplit=1)[0]
+    yr = r"(1[89]\d{2}|20[0-2]\d)\s*年(?:\s*(\d{1,2})\s*月)?(?:\s*(\d{1,2})\s*[日号])?"
+    for clause in re.split(r"[，。；]", own):
+        g = re.search(yr + r"[^，。；]*?生(?!有)", clause) or re.search(r"生于\s*" + yr, clause)
+        if g:
+            d = {"year": int(g.group(1))}
+            if g.group(2) and 1 <= int(g.group(2)) <= 12:
+                d["month"] = int(g.group(2))
+                if g.group(3) and 1 <= int(g.group(3)) <= 31:
+                    d["day"] = int(g.group(3))
+            return d
+    return None
 
 
 def parse_death_year(bio):

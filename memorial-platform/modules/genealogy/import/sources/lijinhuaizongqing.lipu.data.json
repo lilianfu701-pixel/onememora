@@ -95,10 +95,11 @@
       "birthPlace": {
         "region": "贵州织金·化起镇化起村下坝田村"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇化起村下坝田村"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1960年正月7日生于坝田，偶徐氏1957年腊月19日生于马场柏果树。生：隆义、隆贵。",
+      "birth": {
+        "year": 1960
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1960年正月7日生于坝田，偶徐氏1957年腊月19日生于马场柏果树。生：隆义、隆贵。"
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-崇荣",
@@ -109,10 +110,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇化起村下坝田村"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇化起村下坝田村"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1965年2月19日生于下坝田，偶张氏1979年5月29日生于鱼砂。生：隆春。",
+      "birth": {
+        "year": 1965,
+        "month": 2,
+        "day": 19
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1965年2月19日生于下坝田，偶张氏1979年5月29日生于鱼砂。生：隆春。"
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-崇燕",
@@ -123,10 +127,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇化起村下坝田村"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇化起村下坝田村"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1968年3月8日生于下坝田大冲，偶黄氏同年9月23日生于大水井。生：隆榜、隆芳。",
+      "birth": {
+        "year": 1968,
+        "month": 3,
+        "day": 8
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1968年3月8日生于下坝田大冲，偶黄氏同年9月23日生于大水井。生：隆榜、隆芳。"
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-崇开",
@@ -137,10 +144,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇化起村下坝田村"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇化起村下坝田村"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1975年9月16日生于下坝田，偶张氏1982年生于岩脚寨。",
+      "birth": {
+        "year": 1975,
+        "month": 9,
+        "day": 16
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1975年9月16日生于下坝田，偶张氏1982年生于岩脚寨。"
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-崇书",
@@ -221,10 +231,12 @@
       "birthPlace": {
         "region": "贵州织金·化起镇化起村下坝田村"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇化起村下坝田村"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1982年3月初四生于下坝田蒙家屋基。",
+      "birth": {
+        "year": 1982,
+        "month": 3
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇化起村下坝田村。1982年3月初四生于下坝田蒙家屋基。"
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:20-隆义",
@@ -236,7 +248,10 @@
         "region": "贵州织金·化起镇化起村下坝田村"
       },
       "living": true,
-      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇化起村下坝田村。1983年正月初六日生于下坝田。"
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇化起村下坝田村。1983年正月初六日生于下坝田。",
+      "birth": {
+        "year": 1983
+      }
     },
     {
       "externalId": "lipu:lijinhuaizongqing:20-隆贵",
@@ -248,7 +263,11 @@
         "region": "贵州织金·化起镇化起村下坝田村"
       },
       "living": true,
-      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇化起村下坝田村。1984年10月初六日生。"
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇化起村下坝田村。1984年10月初六日生。",
+      "birth": {
+        "year": 1984,
+        "month": 10
+      }
     },
     {
       "externalId": "lipu:lijinhuaizongqing:20-隆春",
@@ -260,7 +279,12 @@
         "region": "贵州织金·化起镇化起村下坝田村"
       },
       "living": true,
-      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇化起村下坝田村。1996年4月9日生。"
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇化起村下坝田村。1996年4月9日生。",
+      "birth": {
+        "year": 1996,
+        "month": 4,
+        "day": 9
+      }
     },
     {
       "externalId": "lipu:lijinhuaizongqing:20-隆榜",
@@ -329,7 +353,8 @@
       "gender": "female",
       "aliases": [
         "徐氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-李崇荣之妻",
@@ -338,7 +363,8 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-李崇燕之妻",
@@ -347,7 +373,8 @@
       "gender": "female",
       "aliases": [
         "黄氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:lijinhuaizongqing:19-李崇开之妻",
@@ -356,7 +383,8 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ]
+      ],
+      "living": true
     }
   ],
   "relations": [

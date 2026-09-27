@@ -39,10 +39,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇罗家寨"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇罗家寨"
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1978年3月19日生于大田边",
+      "birth": {
+        "year": 1978,
+        "month": 3,
+        "day": 19
       },
-      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1978年3月19日生于大田边"
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-发平",
@@ -53,10 +56,11 @@
       "birthPlace": {
         "region": "贵州织金·化起镇罗家寨"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇罗家寨"
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1984年冬月15日生于大田边",
+      "birth": {
+        "year": 1984
       },
-      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1984年冬月15日生于大田边"
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-发万",
@@ -67,10 +71,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇罗家寨"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇罗家寨"
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1995年5月10日生于大田边",
+      "birth": {
+        "year": 1995,
+        "month": 5,
+        "day": 10
       },
-      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1995年5月10日生于大田边"
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-发云",
@@ -81,34 +88,41 @@
       "birthPlace": {
         "region": "贵州织金·化起镇罗家寨"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇罗家寨"
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1983年3月6日生于大田边",
+      "birth": {
+        "year": 1983,
+        "month": 3,
+        "day": 6
       },
-      "bio": "陇西李氏·李代龙支系第13代，贵州织金·化起镇罗家寨。1983年3月6日生于大田边"
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-女",
       "name": "女",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "gender": "female"
+      "gender": "female",
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-女#1",
       "name": "女",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "gender": "female"
+      "gender": "female",
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-女#2",
       "name": "女",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "gender": "female"
+      "gender": "female",
+      "living": true
     },
     {
       "externalId": "lipu:lijinrong:13-女#3",
       "name": "女",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "gender": "female"
+      "gender": "female",
+      "living": true
     }
   ],
   "relations": [

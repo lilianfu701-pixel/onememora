@@ -1,0 +1,214 @@
+{
+  "key": "lipu:lishenglong",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishenglong:18-生隆",
+      "name": "李生隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1926
+      },
+      "death": {
+        "year": 1995
+      },
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡新黔村王家寨。上承纳雍兔场分支。1926年7月16日生于马场，教师，殁于1995年正月15日"
+    },
+    {
+      "externalId": "lipu:lishenglong:19-登云",
+      "name": "李登云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1939
+      },
+      "death": {
+        "year": 2000
+      },
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡新黔村王家寨。1939年10月13日生于王家寨，殁于2000年7月，偶刘广珍1939年生"
+    },
+    {
+      "externalId": "lipu:lishenglong:19-登科",
+      "name": "李登科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1945,
+        "month": 5,
+        "day": 16
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡新黔村王家寨。1945年5月16日生于水城，偶谢永芬1948年8月13日生"
+    },
+    {
+      "externalId": "lipu:lishenglong:18-李生隆之妻",
+      "name": "李生隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishenglong:19-刘广珍",
+      "name": "刘广珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1939
+      }
+    },
+    {
+      "externalId": "lipu:lishenglong:20-隆恒",
+      "name": "李隆恒",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishenglong:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishenglong:20-隆伍",
+      "name": "李隆伍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishenglong:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishenglong:19-谢永芬",
+      "name": "谢永芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1948
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishenglong:20-隆鹏",
+      "name": "李隆鹏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishenglong:20-隆举",
+      "name": "李隆举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡新黔村王家寨",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡新黔村王家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishenglong:18-李生隆之妻",
+      "b": "lipu:lishenglong:18-生隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:18-生隆",
+      "child": "lipu:lishenglong:19-登云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishenglong:19-刘广珍",
+      "b": "lipu:lishenglong:19-登云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:19-登云",
+      "child": "lipu:lishenglong:20-隆恒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:19-登云",
+      "child": "lipu:lishenglong:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:19-登云",
+      "child": "lipu:lishenglong:20-隆伍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:19-登云",
+      "child": "lipu:lishenglong:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:18-生隆",
+      "child": "lipu:lishenglong:19-登科"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishenglong:19-登科",
+      "b": "lipu:lishenglong:19-谢永芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:19-登科",
+      "child": "lipu:lishenglong:20-隆鹏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishenglong:19-登科",
+      "child": "lipu:lishenglong:20-隆举"
+    }
+  ]
+}

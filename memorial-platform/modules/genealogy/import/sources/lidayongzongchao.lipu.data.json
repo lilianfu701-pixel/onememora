@@ -81,10 +81,13 @@
       "birthPlace": {
         "region": "贵州织金·化起镇庙上田坝"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇庙上田坝"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1962年10月30日生于朗冲，偶杨氏六盘市人，生有一女。",
+      "birth": {
+        "year": 1962,
+        "month": 10,
+        "day": 30
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1962年10月30日生于朗冲，偶杨氏六盘市人，生有一女。"
+      "living": true
     },
     {
       "externalId": "lipu:lidayongzongchao:19-崇发",
@@ -95,10 +98,11 @@
       "birthPlace": {
         "region": "贵州织金·化起镇庙上田坝"
       },
-      "deathPlace": {
-        "region": "贵州织金·化起镇庙上田坝"
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1967年冬月12日生于朗冲。",
+      "birth": {
+        "year": 1967
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州织金·化起镇庙上田坝。1967年冬月12日生于朗冲。"
+      "living": true
     },
     {
       "externalId": "lipu:lidayongzongchao:19-崇宽",
@@ -250,7 +254,10 @@
         "region": "贵州织金·化起镇庙上田坝"
       },
       "living": true,
-      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇庙上田坝。1996年冬月初四生。"
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·化起镇庙上田坝。1996年冬月初四生。",
+      "birth": {
+        "year": 1996
+      }
     },
     {
       "externalId": "lipu:lidayongzongchao:17-李宗朝之妻",
@@ -286,7 +293,8 @@
       "gender": "female",
       "aliases": [
         "杨氏"
-      ]
+      ],
+      "living": true
     },
     {
       "externalId": "lipu:lidayongzongchao:19-李崇文之妻",

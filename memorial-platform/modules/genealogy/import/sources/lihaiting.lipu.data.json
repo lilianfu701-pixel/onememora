@@ -1,0 +1,133 @@
+{
+  "key": "lipu:lihaiting",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lihaiting:18-清华",
+      "name": "李清华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡联合村。上接威宁海岛分支从18代起（谱题作李海廷一支）。住联合那台"
+    },
+    {
+      "externalId": "lipu:lihaiting:19-大泽",
+      "name": "李大泽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡联合村。生于丙子年7月28日，偶夏氏生于乙亥年正月20日"
+    },
+    {
+      "externalId": "lipu:lihaiting:20-俊",
+      "name": "李俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡联合村。生于癸丑年正月十日，偶陈氏生于乙卯年6月16日"
+    },
+    {
+      "externalId": "lipu:lihaiting:18-李清华之妻",
+      "name": "李清华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihaiting:19-李大泽之妻",
+      "name": "李大泽之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "夏氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihaiting:20-李俊之妻",
+      "name": "李俊之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihaiting:21-洪文",
+      "name": "李洪文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihaiting:21-洪国",
+      "name": "李洪国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡联合村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡联合村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lihaiting:18-李清华之妻",
+      "b": "lipu:lihaiting:18-清华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihaiting:18-清华",
+      "child": "lipu:lihaiting:19-大泽"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihaiting:19-大泽",
+      "b": "lipu:lihaiting:19-李大泽之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihaiting:19-大泽",
+      "child": "lipu:lihaiting:20-俊"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihaiting:20-俊",
+      "b": "lipu:lihaiting:20-李俊之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihaiting:20-俊",
+      "child": "lipu:lihaiting:21-洪文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihaiting:20-俊",
+      "child": "lipu:lihaiting:21-洪国"
+    }
+  ]
+}

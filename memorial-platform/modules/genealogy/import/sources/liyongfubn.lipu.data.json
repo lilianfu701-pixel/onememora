@@ -1,0 +1,530 @@
+{
+  "key": "lipu:liyongfubn",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyongfubn:16-永福",
+      "name": "李永福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·白泥乡那里村。上接纳雍七甲大龙场分支从16代起"
+    },
+    {
+      "externalId": "lipu:liyongfubn:17-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:18-兴风",
+      "name": "李兴风",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:19-金乍",
+      "name": "李金乍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:20-天元",
+      "name": "李天元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·白泥乡那里村。迁白泥蛇场坡"
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-长进",
+      "name": "李长进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-长远",
+      "name": "李长远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-长明",
+      "name": "李长明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-长阳",
+      "name": "李长阳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·白泥乡那里村。"
+    },
+    {
+      "externalId": "lipu:liyongfubn:17-胜忠",
+      "name": "李胜忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      }
+    },
+    {
+      "externalId": "lipu:liyongfubn:17-行忠",
+      "name": "李行忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      }
+    },
+    {
+      "externalId": "lipu:liyongfubn:17-李发忠之妻",
+      "name": "李发忠之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "钱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyongfubn:18-兴来",
+      "name": "李兴来",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      }
+    },
+    {
+      "externalId": "lipu:liyongfubn:18-兴龙",
+      "name": "李兴龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      }
+    },
+    {
+      "externalId": "lipu:liyongfubn:18-李兴风之妻",
+      "name": "李兴风之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "宋氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyongfubn:19-李金乍之妻",
+      "name": "李金乍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyongfubn:20-李天元之妻",
+      "name": "李天元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郑氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-李长进之妻",
+      "name": "李长进之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "谌氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福学",
+      "name": "李福学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福友",
+      "name": "李福友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福刚",
+      "name": "李福刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福龙",
+      "name": "李福龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福红",
+      "name": "李福红",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福海",
+      "name": "李福海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福剑",
+      "name": "李福剑",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-李长远之妻",
+      "name": "李长远之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福明",
+      "name": "李福明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-李长明之妻",
+      "name": "李长明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福德",
+      "name": "李福德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福志",
+      "name": "李福志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:21-李长阳之妻",
+      "name": "李长阳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "离氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyongfubn:22-福顺",
+      "name": "李福顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:16-永福",
+      "child": "lipu:liyongfubn:17-胜忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:16-永福",
+      "child": "lipu:liyongfubn:17-行忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:16-永福",
+      "child": "lipu:liyongfubn:17-发忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:17-发忠",
+      "b": "lipu:liyongfubn:17-李发忠之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:17-发忠",
+      "child": "lipu:liyongfubn:18-兴来"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:17-发忠",
+      "child": "lipu:liyongfubn:18-兴龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:17-发忠",
+      "child": "lipu:liyongfubn:18-兴风"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:18-兴风",
+      "b": "lipu:liyongfubn:18-李兴风之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:18-兴风",
+      "child": "lipu:liyongfubn:19-金乍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:19-李金乍之妻",
+      "b": "lipu:liyongfubn:19-金乍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:19-金乍",
+      "child": "lipu:liyongfubn:20-天元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:20-天元",
+      "b": "lipu:liyongfubn:20-李天元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:20-天元",
+      "child": "lipu:liyongfubn:21-长进"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:21-李长进之妻",
+      "b": "lipu:liyongfubn:21-长进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长进",
+      "child": "lipu:liyongfubn:22-福剑"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:20-天元",
+      "child": "lipu:liyongfubn:21-长远"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:21-李长远之妻",
+      "b": "lipu:liyongfubn:21-长远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长远",
+      "child": "lipu:liyongfubn:22-福明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:20-天元",
+      "child": "lipu:liyongfubn:21-长明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:21-李长明之妻",
+      "b": "lipu:liyongfubn:21-长明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长明",
+      "child": "lipu:liyongfubn:22-福德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长明",
+      "child": "lipu:liyongfubn:22-福志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:20-天元",
+      "child": "lipu:liyongfubn:21-长阳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyongfubn:21-李长阳之妻",
+      "b": "lipu:liyongfubn:21-长阳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyongfubn:21-长阳",
+      "child": "lipu:liyongfubn:22-福顺"
+    }
+  ]
+}
