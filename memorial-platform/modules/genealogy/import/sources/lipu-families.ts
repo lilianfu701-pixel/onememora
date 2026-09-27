@@ -365,6 +365,11 @@ import lipu_likunxiuzl2 from "./likunxiuzl2.lipu.data.json";
 import lipu_lizhiyuanxp from "./lizhiyuanxp.lipu.data.json";
 import lipu_lizhiyuanxp2 from "./lizhiyuanxp2.lipu.data.json";
 import lipu_lizhiyuanxp3 from "./lizhiyuanxp3.lipu.data.json";
+import lipu_lizihongwz from "./lizihongwz.lipu.data.json";
+import lipu_lishirentb from "./lishirentb.lipu.data.json";
+import lipu_lishangchaowj from "./lishangchaowj.lipu.data.json";
+import lipu_lishengxunly from "./lishengxunly.lipu.data.json";
+import lipu_lichunyunml from "./lichunyunml.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -729,6 +734,11 @@ const LABELS: Record<string, string> = {
   lizhiyuanxp: "普定马场镇下排村·李枝远一支",
   lizhiyuanxp2: "下排村·李枝远一支·进魁朝忠房",
   lizhiyuanxp3: "下排村·李枝远一支·春山房盛正发正",
+  lizihongwz: "普定马场镇湾寨村·李子洪一支",
+  lishirentb: "普定马场镇田坝村·李士仁一支",
+  lishangchaowj: "普定马场镇田坝村汪家寨·李尚朝一支",
+  lishengxunly: "普定坪上乡老鹰岩·李盛勋一支",
+  lichunyunml: "普定坪上乡毛栗村·李春云一支",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -1093,6 +1103,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lizhiyuanxp", lipu_lizhiyuanxp as GenealogyDataset],
   ["lizhiyuanxp2", lipu_lizhiyuanxp2 as GenealogyDataset],
   ["lizhiyuanxp3", lipu_lizhiyuanxp3 as GenealogyDataset],
+  ["lizihongwz", lipu_lizihongwz as GenealogyDataset],
+  ["lishirentb", lipu_lishirentb as GenealogyDataset],
+  ["lishangchaowj", lipu_lishangchaowj as GenealogyDataset],
+  ["lishengxunly", lipu_lishengxunly as GenealogyDataset],
+  ["lichunyunml", lipu_lichunyunml as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
