@@ -1,0 +1,229 @@
+{
+  "key": "lipu:lihongyu",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lihongyu:16-洪玉",
+      "name": "李洪玉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·白泥乡那里村。上承纳雍杉树脚李正文分支"
+    },
+    {
+      "externalId": "lipu:lihongyu:17-宗荣",
+      "name": "李宗荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·白泥乡那里村。生于丙申年8月，偶杨氏生于乙未年正月"
+    },
+    {
+      "externalId": "lipu:lihongyu:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1939
+      },
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "deathPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·白泥乡那里村。1939年5月生，偶徐、熊氏"
+    },
+    {
+      "externalId": "lipu:lihongyu:19-崇友",
+      "name": "李崇友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1964
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡那里村。1964年3月生，偶毛氏1961年8月生"
+    },
+    {
+      "externalId": "lipu:lihongyu:19-崇才",
+      "name": "李崇才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1968
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·白泥乡那里村。1968年2月生，偶熊氏1968年11月生"
+    },
+    {
+      "externalId": "lipu:lihongyu:16-李洪玉之妻",
+      "name": "李洪玉之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "焦氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongyu:17-李宗荣之妻",
+      "name": "李宗荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongyu:18-李德荣之妻",
+      "name": "李德荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongyu:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongyu:19-李崇友之妻",
+      "name": "李崇友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "毛氏"
+      ],
+      "birth": {
+        "year": 1961
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongyu:20-伟",
+      "name": "李伟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongyu:19-李崇才之妻",
+      "name": "李崇才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "熊氏"
+      ],
+      "birth": {
+        "year": 1968
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongyu:20-隆江",
+      "name": "李隆江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·白泥乡那里村",
+      "birthPlace": {
+        "region": "贵州织金·白泥乡那里村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongyu:16-李洪玉之妻",
+      "b": "lipu:lihongyu:16-洪玉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:16-洪玉",
+      "child": "lipu:lihongyu:17-宗荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongyu:17-宗荣",
+      "b": "lipu:lihongyu:17-李宗荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:17-宗荣",
+      "child": "lipu:lihongyu:18-德荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongyu:18-德荣",
+      "b": "lipu:lihongyu:18-李德荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:18-德荣",
+      "child": "lipu:lihongyu:19-崇文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:18-德荣",
+      "child": "lipu:lihongyu:19-崇友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongyu:19-崇友",
+      "b": "lipu:lihongyu:19-李崇友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:19-崇友",
+      "child": "lipu:lihongyu:20-伟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:18-德荣",
+      "child": "lipu:lihongyu:19-崇才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongyu:19-崇才",
+      "b": "lipu:lihongyu:19-李崇才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongyu:19-崇才",
+      "child": "lipu:lihongyu:20-隆江"
+    }
+  ]
+}
