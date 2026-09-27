@@ -1,0 +1,816 @@
+{
+  "key": "lipu:lizide",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:limanyong:12-万用",
+      "name": "李万用",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州织金·板桥乡千二系小凸桥。此谱载鹏臣葬于果义寨子对门，姙杨氏葬于核桃园，生万富、万凤、万用；续姙胡氏葬于果义对门坡。万用姙张氏生子亮、子德"
+    },
+    {
+      "externalId": "lipu:lizide:13-子德",
+      "name": "李子德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州织金·板桥乡千二系小凸桥。生于果义石笋子老屋基，姙张氏生于果义石笋子老屋基"
+    },
+    {
+      "externalId": "lipu:lizide:14-绍岐",
+      "name": "李绍岐",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·板桥乡千二系小凸桥。"
+    },
+    {
+      "externalId": "lipu:lizide:14-绍先",
+      "name": "李绍先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州织金·板桥乡千二系小凸桥。生于正平打桶寨，葬于铜厂坡，姙左氏生于正平打桶寨，葬于铜厂坡"
+    },
+    {
+      "externalId": "lipu:lizide:15-如林",
+      "name": "李如林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·板桥乡千二系小凸桥。生于平远州米家寨，葬于以那小凸桥安家大田背后，姙冯氏生于以那小凸桥，葬于安家大田背后"
+    },
+    {
+      "externalId": "lipu:lizide:15-如元",
+      "name": "李如元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·板桥乡千二系小凸桥。葬于马路河杨家寨，姙张氏生于铜厂坡小落坡"
+    },
+    {
+      "externalId": "lipu:lizide:15-如贤",
+      "name": "李如贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州织金·板桥乡千二系小凸桥。葬于绮陌乡碗厂，姙焦氏生天有、天云；续姙陈氏葬于板桥大偏土，生天久、天万。子孙见如贤房分支"
+    },
+    {
+      "externalId": "lipu:lizide:16-天全",
+      "name": "李天全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·板桥乡千二系小凸桥。葬于小凸桥雷神坡，姙陈氏1882年3月15日生于小凸桥，殁于1955年4月8日，葬于小凸桥；续姙刘氏生于小凸桥"
+    },
+    {
+      "externalId": "lipu:lizide:16-天贵",
+      "name": "李天贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·板桥乡千二系小凸桥。葬于三甲大木戛茶林，姙田氏葬于大木戛蚕地上"
+    },
+    {
+      "externalId": "lipu:lizide:16-天海",
+      "name": "李天海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州织金·板桥乡千二系小凸桥。葬于大戛枫香坝，姙张氏葬于大木戛下大园"
+    },
+    {
+      "externalId": "lipu:lizide:17-宗发",
+      "name": "李宗发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1914
+      },
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡千二系小凸桥。1914年10月3日生于小凸桥，姙王氏葬于四角田背后；续姙王氏1912年12月25日生，殁于1947年3月15日，葬于安家大田背后"
+    },
+    {
+      "externalId": "lipu:lizide:17-宗前",
+      "name": "李宗前",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1924
+      },
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡千二系小凸桥。1924年12月5日生于小凸桥，偶张氏1925年12月25日生，殁于1959年5月25日，葬安有大田"
+    },
+    {
+      "externalId": "lipu:lizide:17-宗元",
+      "name": "李宗元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1920
+      },
+      "death": {
+        "year": 1980
+      },
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡千二系小凸桥。1920年8月4日生于大木戛，殁于1980年12月12日，葬于大木戛，姙王氏1928年1月15日生"
+    },
+    {
+      "externalId": "lipu:lizide:17-宗华",
+      "name": "李宗华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1982
+      },
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·板桥乡千二系小凸桥。殁于1982年4月1日，葬于大木戛高坪，姙张氏1922年11月26日生于箐头"
+    },
+    {
+      "externalId": "lipu:lizide:18-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1936
+      },
+      "death": {
+        "year": 1996
+      },
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡千二系小凸桥。1936年9月4日生，殁于1996年9月30日，葬于沙子坡，偶黄氏1934年12月9日生"
+    },
+    {
+      "externalId": "lipu:lizide:18-德林",
+      "name": "李德林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1938
+      },
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·板桥乡千二系小凸桥。1938年9月18日生，偶张氏1936年1月15日生"
+    },
+    {
+      "externalId": "lipu:lizide:13-李子德之妻",
+      "name": "李子德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:14-李绍岐之妻",
+      "name": "李绍岐之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:15-如才",
+      "name": "李如才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      }
+    },
+    {
+      "externalId": "lipu:lizide:14-李绍先之妻",
+      "name": "李绍先之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:15-李如林之妻",
+      "name": "李如林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "冯氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:15-李如元之妻",
+      "name": "李如元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:15-李如贤之妻",
+      "name": "李如贤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "焦氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:16-李天全之妻",
+      "name": "李天全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "birth": {
+        "year": 1882
+      },
+      "death": {
+        "year": 1955
+      }
+    },
+    {
+      "externalId": "lipu:lizide:16-李天贵之妻",
+      "name": "李天贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:16-李天海之妻",
+      "name": "李天海之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizide:17-李宗发之妻",
+      "name": "李宗发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "death": {
+        "year": 1947
+      }
+    },
+    {
+      "externalId": "lipu:lizide:17-李宗前之妻",
+      "name": "李宗前之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1925
+      },
+      "death": {
+        "year": 1959
+      }
+    },
+    {
+      "externalId": "lipu:lizide:18-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:17-李宗元之妻",
+      "name": "李宗元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1928
+      }
+    },
+    {
+      "externalId": "lipu:lizide:18-德有",
+      "name": "李德有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:18-德军",
+      "name": "李德军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:17-李宗华之妻",
+      "name": "李宗华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1922
+      }
+    },
+    {
+      "externalId": "lipu:lizide:18-德荣",
+      "name": "李德荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      }
+    },
+    {
+      "externalId": "lipu:lizide:18-德富",
+      "name": "李德富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      }
+    },
+    {
+      "externalId": "lipu:lizide:18-德才",
+      "name": "李德才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "deathPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      }
+    },
+    {
+      "externalId": "lipu:lizide:18-李德明之妻",
+      "name": "李德明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ],
+      "birth": {
+        "year": 1934
+      }
+    },
+    {
+      "externalId": "lipu:lizide:19-崇光",
+      "name": "李崇光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:19-崇举",
+      "name": "李崇举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:18-李德林之妻",
+      "name": "李德林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1936
+      }
+    },
+    {
+      "externalId": "lipu:lizide:19-崇伦",
+      "name": "李崇伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:19-崇才",
+      "name": "李崇才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:19-崇国",
+      "name": "李崇国",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:19-崇军",
+      "name": "李崇军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:19-崇兵",
+      "name": "李崇兵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizide:19-崇刚",
+      "name": "李崇刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·板桥乡千二系小凸桥",
+      "birthPlace": {
+        "region": "贵州织金·板桥乡千二系小凸桥"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:limanyong:12-万用",
+      "child": "lipu:lizide:13-子德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:13-子德",
+      "b": "lipu:lizide:13-李子德之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:13-子德",
+      "child": "lipu:lizide:14-绍岐"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:14-李绍岐之妻",
+      "b": "lipu:lizide:14-绍岐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:14-绍岐",
+      "child": "lipu:lizide:15-如才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:13-子德",
+      "child": "lipu:lizide:14-绍先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:14-李绍先之妻",
+      "b": "lipu:lizide:14-绍先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:14-绍先",
+      "child": "lipu:lizide:15-如林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:15-如林",
+      "b": "lipu:lizide:15-李如林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:14-绍先",
+      "child": "lipu:lizide:15-如元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:15-如元",
+      "b": "lipu:lizide:15-李如元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:14-绍先",
+      "child": "lipu:lizide:15-如贤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:15-如贤",
+      "b": "lipu:lizide:15-李如贤之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:15-如林",
+      "child": "lipu:lizide:16-天全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:16-天全",
+      "b": "lipu:lizide:16-李天全之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:15-如元",
+      "child": "lipu:lizide:16-天贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:16-天贵",
+      "b": "lipu:lizide:16-李天贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:15-如元",
+      "child": "lipu:lizide:16-天海"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:16-天海",
+      "b": "lipu:lizide:16-李天海之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:16-天全",
+      "child": "lipu:lizide:17-宗发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:17-宗发",
+      "b": "lipu:lizide:17-李宗发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:16-天全",
+      "child": "lipu:lizide:17-宗前"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:17-宗前",
+      "b": "lipu:lizide:17-李宗前之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗前",
+      "child": "lipu:lizide:18-德昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:16-天海",
+      "child": "lipu:lizide:17-宗元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:17-宗元",
+      "b": "lipu:lizide:17-李宗元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗元",
+      "child": "lipu:lizide:18-德有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗元",
+      "child": "lipu:lizide:18-德军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:16-天海",
+      "child": "lipu:lizide:17-宗华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:17-宗华",
+      "b": "lipu:lizide:17-李宗华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗华",
+      "child": "lipu:lizide:18-德荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗华",
+      "child": "lipu:lizide:18-德富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗华",
+      "child": "lipu:lizide:18-德才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗发",
+      "child": "lipu:lizide:18-德明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:18-德明",
+      "b": "lipu:lizide:18-李德明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德明",
+      "child": "lipu:lizide:19-崇光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德明",
+      "child": "lipu:lizide:19-崇举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:17-宗发",
+      "child": "lipu:lizide:18-德林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizide:18-德林",
+      "b": "lipu:lizide:18-李德林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德林",
+      "child": "lipu:lizide:19-崇伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德林",
+      "child": "lipu:lizide:19-崇才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德林",
+      "child": "lipu:lizide:19-崇国"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德林",
+      "child": "lipu:lizide:19-崇军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德林",
+      "child": "lipu:lizide:19-崇兵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizide:18-德林",
+      "child": "lipu:lizide:19-崇刚"
+    }
+  ]
+}
