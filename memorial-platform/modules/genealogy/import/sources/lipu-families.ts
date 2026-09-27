@@ -222,6 +222,10 @@ import lipu_lijunheng2 from "./lijunheng2.lipu.data.json";
 import lipu_lizongfa from "./lizongfa.lipu.data.json";
 import lipu_lideshenglw from "./lideshenglw.lipu.data.json";
 import lipu_lizongwenlw from "./lizongwenlw.lipu.data.json";
+import lipu_lishiju from "./lishiju.lipu.data.json";
+import lipu_lishiju2 from "./lishiju2.lipu.data.json";
+import lipu_lishiju3 from "./lishiju3.lipu.data.json";
+import lipu_litianpei from "./litianpei.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -443,6 +447,10 @@ const LABELS: Record<string, string> = {
   lizongfa: "李氏·李宗法一支（李代龙支系谱·金龙乡细木村龙窝寨·十六至二十二代）",
   lideshenglw: "李氏·李德升一支（李代龙支系谱·金龙乡细木村龙窝寨·十七至二十三代）",
   lizongwenlw: "李氏·李宗文一支（李代龙支系谱·金龙乡龙窝寨岩脚背后·十六至二十二代）",
+  lishiju: "李氏·李士举一支·主干（李代龙支系谱·金龙乡细木村龙窝寨·十一至十九代·龙窝开辟始祖）",
+  lishiju2: "李氏·李士举一支·崇钦房（李代龙支系谱·金龙乡细木村龙窝寨）",
+  lishiju3: "李氏·李士举一支·发昌发忠发书房（李代龙支系谱·金龙乡细木村龙窝寨）",
+  litianpei: "李氏·李天培一支（李代龙支系谱·金龙乡中平村·十五至二十三代）",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -664,6 +672,10 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lizongfa", lipu_lizongfa as GenealogyDataset],
   ["lideshenglw", lipu_lideshenglw as GenealogyDataset],
   ["lizongwenlw", lipu_lizongwenlw as GenealogyDataset],
+  ["lishiju", lipu_lishiju as GenealogyDataset],
+  ["lishiju2", lipu_lishiju2 as GenealogyDataset],
+  ["lishiju3", lipu_lishiju3 as GenealogyDataset],
+  ["litianpei", lipu_litianpei as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

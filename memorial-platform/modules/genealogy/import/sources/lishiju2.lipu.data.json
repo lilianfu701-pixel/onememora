@@ -1,0 +1,630 @@
+{
+  "key": "lipu:lishiju2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongfa:19-崇钦",
+      "name": "李崇钦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·金龙乡细木村龙窝寨。"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-斌隆",
+      "name": "李斌隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1894
+      },
+      "death": {
+        "year": 1927
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。1894年腊月初四生于平寨大土头，1927年冬月十四殁于中平村陈家寨，姙张氏1899年10月30日生于以那黑龙潭刘家寨，殁于1946年2月13日，二老共茔"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-坤隆",
+      "name": "李坤隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1902
+      },
+      "death": {
+        "year": 1974
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。1902年冬月初五生于平寨大土头，殁于1974年7月12日，葬于小寨谌家冲，姙张氏1907年生，殁于1961年腊月十六，葬于杉树林，迁葬马槽硐山脚"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-春隆",
+      "name": "李春隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1901
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。1901年生于平寨大土头"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-银隆",
+      "name": "李银隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1904
+      },
+      "death": {
+        "year": 1957
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。甲辰年（1904）八月初十生，殁于丁酉年（1957），葬于茶店湖坝村茶场上，偶卢氏生于八步"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-邻隆",
+      "name": "李邻隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1910
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。庚戌年（1910）7月12日生，殁于丙寅年4月20日，葬于龙潭大坡，偶刘氏生于己亥年十月初三生于黑龙潭，殁于丙戌年2月13日，葬于安乐村吴家山"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-炎隆",
+      "name": "李炎隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1912
+      },
+      "death": {
+        "year": 1984
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·金龙乡细木村龙窝寨。壬子年（1912）10月22日生于平寨，殁于甲子年（1984）4月24日，葬于龙潭大坡小岩上，姙廖氏己未年8月12日生"
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发顺",
+      "name": "李发顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1922
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·金龙乡细木村龙窝寨。1922年7月16日生于陈家寨撮箕麻高，偶刘氏1930年5月21日生于安乐村大坡上"
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发昌",
+      "name": "李发昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1932
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·金龙乡细木村龙窝寨。1932年4月24日生于大屯脚榜上，中共党员，任农协会主任、区供销社副主任、水电站站长等职，偶陈昌芬1928年腊月坡背后生，1952年殁，葬于五星村岩芳口，生裕华；续偶张发芬1938年8月10日生于果永大屯脚。子嗣见发昌发忠发书房"
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1948
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·金龙乡细木村龙窝寨。戊子年（1948）腊月初七生，偶杜氏壬辰年10月13日生于湖坝"
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1949
+      },
+      "living": true,
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·金龙乡细木村龙窝寨。己丑年（1949）正月三十生于龙井湾，模范，偶王氏辛卯年冬月初七生。子嗣见发昌发忠发书房"
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发书",
+      "name": "李发书",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1952
+      },
+      "death": {
+        "year": 2001
+      },
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "bio": "陇西李氏·李代龙支系第21代，贵州织金·金龙乡细木村龙窝寨。壬辰年（1952）九月初八生于安乐村中坝，殁于辛巳年（2001）正月元日，偶何氏庚寅年三月初七生于八步化窝冲。子嗣见发昌发忠发书房"
+    },
+    {
+      "externalId": "lipu:lishiju2:20-李斌隆之妻",
+      "name": "李斌隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1899
+      },
+      "death": {
+        "year": 1946
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:20-李坤隆之妻",
+      "name": "李坤隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1907
+      },
+      "death": {
+        "year": 1961
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发英",
+      "name": "李发英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发珍",
+      "name": "李发珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:20-李银隆之妻",
+      "name": "李银隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiju2:20-李邻隆之妻",
+      "name": "李邻隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiju2:21-发明",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "deathPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:20-李炎隆之妻",
+      "name": "李炎隆之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "廖氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiju2:21-李发顺之妻",
+      "name": "李发顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "birth": {
+        "year": 1930
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:22-裕富",
+      "name": "李裕富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-裕贵",
+      "name": "李裕贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-长英",
+      "name": "李长英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-小妹",
+      "name": "李小妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-马保",
+      "name": "李马保",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-买妹",
+      "name": "李买妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:21-张发芬",
+      "name": "张发芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1938
+      }
+    },
+    {
+      "externalId": "lipu:lishiju2:21-李发祥之妻",
+      "name": "李发祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杜氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-裕才",
+      "name": "李裕才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-裕明",
+      "name": "李裕明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:22-裕伦",
+      "name": "李裕伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·金龙乡细木村龙窝寨",
+      "birthPlace": {
+        "region": "贵州织金·金龙乡细木村龙窝寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:21-李发忠之妻",
+      "name": "李发忠之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiju2:21-李发书之妻",
+      "name": "李发书之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfa:19-崇钦",
+      "child": "lipu:lishiju2:20-斌隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:20-斌隆",
+      "b": "lipu:lishiju2:20-李斌隆之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfa:19-崇钦",
+      "child": "lipu:lishiju2:20-坤隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:20-坤隆",
+      "b": "lipu:lishiju2:20-李坤隆之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-坤隆",
+      "child": "lipu:lishiju2:21-发英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-坤隆",
+      "child": "lipu:lishiju2:21-发珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfa:19-崇钦",
+      "child": "lipu:lishiju2:20-春隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfa:19-崇钦",
+      "child": "lipu:lishiju2:20-银隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:20-李银隆之妻",
+      "b": "lipu:lishiju2:20-银隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfa:19-崇钦",
+      "child": "lipu:lishiju2:20-邻隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:20-李邻隆之妻",
+      "b": "lipu:lishiju2:20-邻隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-邻隆",
+      "child": "lipu:lishiju2:21-发明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongfa:19-崇钦",
+      "child": "lipu:lishiju2:20-炎隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:20-李炎隆之妻",
+      "b": "lipu:lishiju2:20-炎隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-斌隆",
+      "child": "lipu:lishiju2:21-发顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:21-发顺",
+      "b": "lipu:lishiju2:21-李发顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发顺",
+      "child": "lipu:lishiju2:22-裕富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发顺",
+      "child": "lipu:lishiju2:22-裕贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发顺",
+      "child": "lipu:lishiju2:22-长英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发顺",
+      "child": "lipu:lishiju2:22-小妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发顺",
+      "child": "lipu:lishiju2:22-马保"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发顺",
+      "child": "lipu:lishiju2:22-买妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-坤隆",
+      "child": "lipu:lishiju2:21-发昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:21-发昌",
+      "b": "lipu:lishiju2:21-张发芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-银隆",
+      "child": "lipu:lishiju2:21-发祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:21-发祥",
+      "b": "lipu:lishiju2:21-李发祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发祥",
+      "child": "lipu:lishiju2:22-裕才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发祥",
+      "child": "lipu:lishiju2:22-裕明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:21-发祥",
+      "child": "lipu:lishiju2:22-裕伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-炎隆",
+      "child": "lipu:lishiju2:21-发忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:21-发忠",
+      "b": "lipu:lishiju2:21-李发忠之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiju2:20-炎隆",
+      "child": "lipu:lishiju2:21-发书"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiju2:21-发书",
+      "b": "lipu:lishiju2:21-李发书之妻"
+    }
+  ]
+}
