@@ -1,0 +1,786 @@
+{
+  "key": "lipu:lijunheng2",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lijunheng:17-宗富",
+      "name": "李宗富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州织金·三圹镇鱼多猓丫口上。"
+    },
+    {
+      "externalId": "lipu:lijunheng2:18-德孟",
+      "name": "李德孟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬戌年三月初八"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·三圹镇鱼多猓丫口上。壬戌年三月初八生于三塘镇鱼多猓，葬于三塘陈家坟，偶张氏庚寅年五月初三生，葬于石街路"
+    },
+    {
+      "externalId": "lipu:lijunheng2:18-德绿",
+      "name": "李德绿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁卯年9月14日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "deathPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州织金·三圹镇鱼多猓丫口上。丁卯年9月14日生于三塘鱼多猓，葬于三塘安氏寨包包上，姙陈氏己巳年2月25日生，殁于癸酉年，葬于化石踏梁子上"
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-崇开",
+      "name": "李崇开",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸巳年4月16日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇鱼多猓丫口上。癸巳年4月16日生于三塘镇鱼多猓，葬于反背沟，姙张氏葬于化十竹林；续姙彭氏己酉年八月初六生，葬于陈家鱼"
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-崇生",
+      "name": "李崇生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丙戌年4月14日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇鱼多猓丫口上。丙戌年4月14日生于三塘鱼多猓，偶彭氏丁酉年9月生"
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-崇发",
+      "name": "李崇发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁酉年9月20日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇鱼多猓丫口上。丁酉年9月20日生于华石踏，殁于丙午年5月20日，葬于方家背后"
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-崇林",
+      "name": "李崇林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬子年10月24日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州织金·三圹镇鱼多猓丫口上。壬子年10月24日生于三塘鱼多猓，葬于大方寨花树坡顶上，姙杨氏辛未年7月22日生"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆伍",
+      "name": "李隆伍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "壬子年2月21日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。壬子年2月21日生于三塘镇鱼多猓，殁于己丑年4月15日，葬于青岗坝"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆英",
+      "name": "李隆英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "庚申年5月"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。庚申年5月生于三塘镇鱼多猓"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆兴",
+      "name": "李隆兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "甲戌年二月初七"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。甲戌年二月初七生于三塘"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆书",
+      "name": "李隆书",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "己亥年冬月初九"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。己亥年冬月初九生于三塘鱼多猓，续偶杜开针"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆学",
+      "name": "李隆学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "癸未年三月初八"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。癸未年三月初八生于三塘鱼多猓"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆明",
+      "name": "李隆明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁卯年四月初六"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。丁卯年四月初六生于王家寨大河弯"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆芳",
+      "name": "李隆芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "丁卯年4月19日"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。丁卯年4月19日生于华石踏"
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "raw": "乙亥年正月十七"
+      },
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州织金·三圹镇鱼多猓丫口上。乙亥年正月十七生于三塘小碗井"
+    },
+    {
+      "externalId": "lipu:lijunheng2:18-李德孟之妻",
+      "name": "李德孟之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lijunheng2:18-李德绿之妻",
+      "name": "李德绿之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-李崇开之妻",
+      "name": "李崇开之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-李崇生之妻",
+      "name": "李崇生之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-李崇发之妻",
+      "name": "李崇发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:19-李崇林之妻",
+      "name": "李崇林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆伍之妻",
+      "name": "李隆伍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发斜",
+      "name": "李发斜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发高",
+      "name": "李发高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发胜",
+      "name": "李发胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆英之妻",
+      "name": "李隆英之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发明",
+      "name": "李发明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆兴之妻",
+      "name": "李隆兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发权",
+      "name": "李发权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆书之妻",
+      "name": "李隆书之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发龙",
+      "name": "李发龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发富",
+      "name": "李发富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆学之妻",
+      "name": "李隆学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发智",
+      "name": "李发智",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发兴",
+      "name": "李发兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发义",
+      "name": "李发义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发军",
+      "name": "李发军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发跃",
+      "name": "李发跃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆明之妻",
+      "name": "李隆明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发贵",
+      "name": "李发贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆芳之妻",
+      "name": "李隆芳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:20-李隆富之妻",
+      "name": "李隆富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lijunheng2:21-发连",
+      "name": "李发连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州织金·三圹镇鱼多猓丫口上",
+      "birthPlace": {
+        "region": "贵州织金·三圹镇鱼多猓丫口上"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng:17-宗富",
+      "child": "lipu:lijunheng2:18-德孟"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:18-德孟",
+      "b": "lipu:lijunheng2:18-李德孟之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng:17-宗富",
+      "child": "lipu:lijunheng2:18-德绿"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:18-德绿",
+      "b": "lipu:lijunheng2:18-李德绿之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:18-德孟",
+      "child": "lipu:lijunheng2:19-崇开"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:19-崇开",
+      "b": "lipu:lijunheng2:19-李崇开之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:18-德绿",
+      "child": "lipu:lijunheng2:19-崇生"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:19-崇生",
+      "b": "lipu:lijunheng2:19-李崇生之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:18-德绿",
+      "child": "lipu:lijunheng2:19-崇发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:19-崇发",
+      "b": "lipu:lijunheng2:19-李崇发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:18-德绿",
+      "child": "lipu:lijunheng2:19-崇林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:19-崇林",
+      "b": "lipu:lijunheng2:19-李崇林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇开",
+      "child": "lipu:lijunheng2:20-隆伍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆伍之妻",
+      "b": "lipu:lijunheng2:20-隆伍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆伍",
+      "child": "lipu:lijunheng2:21-发斜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆伍",
+      "child": "lipu:lijunheng2:21-发高"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆伍",
+      "child": "lipu:lijunheng2:21-发胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇开",
+      "child": "lipu:lijunheng2:20-隆英"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆英之妻",
+      "b": "lipu:lijunheng2:20-隆英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆英",
+      "child": "lipu:lijunheng2:21-发明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇开",
+      "child": "lipu:lijunheng2:20-隆兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆兴之妻",
+      "b": "lipu:lijunheng2:20-隆兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆兴",
+      "child": "lipu:lijunheng2:21-发权"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆兴",
+      "child": "lipu:lijunheng2:21-发云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇开",
+      "child": "lipu:lijunheng2:20-隆书"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆书之妻",
+      "b": "lipu:lijunheng2:20-隆书"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆书",
+      "child": "lipu:lijunheng2:21-发龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆书",
+      "child": "lipu:lijunheng2:21-发富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇开",
+      "child": "lipu:lijunheng2:20-隆学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆学之妻",
+      "b": "lipu:lijunheng2:20-隆学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆学",
+      "child": "lipu:lijunheng2:21-发智"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆学",
+      "child": "lipu:lijunheng2:21-发兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆学",
+      "child": "lipu:lijunheng2:21-发义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆学",
+      "child": "lipu:lijunheng2:21-发军"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆学",
+      "child": "lipu:lijunheng2:21-发跃"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇生",
+      "child": "lipu:lijunheng2:20-隆明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆明之妻",
+      "b": "lipu:lijunheng2:20-隆明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆明",
+      "child": "lipu:lijunheng2:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆明",
+      "child": "lipu:lijunheng2:21-发贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇发",
+      "child": "lipu:lijunheng2:20-隆芳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆芳之妻",
+      "b": "lipu:lijunheng2:20-隆芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆芳",
+      "child": "lipu:lijunheng2:21-发忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:19-崇林",
+      "child": "lipu:lijunheng2:20-隆富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lijunheng2:20-李隆富之妻",
+      "b": "lipu:lijunheng2:20-隆富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lijunheng2:20-隆富",
+      "child": "lipu:lijunheng2:21-发连"
+    }
+  ]
+}
