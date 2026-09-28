@@ -1,0 +1,782 @@
+{
+  "key": "lipu:lishichenxb",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishichenxb:11-世臣",
+      "name": "李世臣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·猴场乡西北煤冲后麻窝。上承10代李农忙分支"
+    },
+    {
+      "externalId": "lipu:lishichenxb:12-大龙",
+      "name": "李大龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·猴场乡西北煤冲后麻窝。"
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-子云",
+      "name": "李子云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·猴场乡西北煤冲后麻窝。姙彭氏生永珍、永安；续姙张氏生永太"
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-子奉",
+      "name": "李子奉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·猴场乡西北煤冲后麻窝。姙刘氏，迁普定马场梅子关屯脚"
+    },
+    {
+      "externalId": "lipu:lishichenxb:14-永珍",
+      "name": "李永珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·猴场乡西北煤冲后麻窝。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishichenxb:15-正举",
+      "name": "李正举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·猴场乡西北煤冲后麻窝。姙陈氏"
+    },
+    {
+      "externalId": "lipu:lishichenxb:16-君才",
+      "name": "李君才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·猴场乡西北煤冲后麻窝。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishichenxb:17-宗华",
+      "name": "李宗华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·猴场乡西北煤冲后麻窝。生于大定府水东岩脚寨，葬于水东。姙王氏生于大定府管下，葬于水东岩脚寨，生德久、德盛、德金。续姙卢氏生于大定府管下，由水东迁居普定补郎西北岩脚寨居住，葬于西北岩脚寨柿花树"
+    },
+    {
+      "externalId": "lipu:lishichenxb:18-德盛",
+      "name": "李德盛",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·猴场乡西北煤冲后麻窝。生于大定府水东岩脚寨，葬于普定西北乡煤冲上块瓦水井背后。姙张氏生于大定府管下水东，葬于西北乡煤冲上块瓦水井背后"
+    },
+    {
+      "externalId": "lipu:lishichenxb:19-崇发",
+      "name": "李崇发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1861
+      },
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·猴场乡西北煤冲后麻窝。1861年生于大定府管下纳雍县水东岩脚寨。葬于西北下块瓦。姙张氏生于织金县以哪架黑石头，葬于西北乡上块瓦大塘右边"
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-隆象",
+      "name": "李隆象",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡西北煤冲后麻窝。生于普定县补郎区西北乡岩脚寨，由西北乡后麻窝迁往织金县猫场区小牛场夏家庄居住，葬于织金县猫场镇小牛场夏家庄小冲头。姙张氏1887年生于织金县黑提马场，葬于织金县猫场镇小牛场夏家庄小冲头；女金凤、银凤、三妹。子嗣见崇发隆象隆帮房"
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-隆帮",
+      "name": "李隆帮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1892
+      },
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡西北煤冲后麻窝。1892年生于西北乡后麻窝，葬于西北乡豹子冲。姙卢氏1891年冬月初五生于织金县黄家河旧院。葬于西北乡上块瓦新屋基。子嗣见崇发隆象隆帮房"
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-隆成",
+      "name": "李隆成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1896
+      },
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡西北煤冲后麻窝。1896年5月17日生于西北乡后麻窝，葬于西北上块牛滚塘。姙王氏1897年5月15日生于西北乡老鸡场，葬于西北煤冲村打冷冲；女兴妹、幺妹。子嗣见崇发隆成隆坤房"
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-隆坤",
+      "name": "李隆坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1898
+      },
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡西北煤冲后麻窝。1898年冬月十一生于西北乡麻窝，葬于西背煤冲村上块瓦郭家屋基。姙张贵英1903年8月14日生于织金县猫场区云峰村云盘上。葬于后麻窝背后坟窝窝；女双妹、金支、金秀、幺妹、发英。子嗣见崇发隆成隆坤房"
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-隆云",
+      "name": "李隆云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1902
+      },
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡西北煤冲后麻窝。1902年8月生于西北乡后麻窝，迁于织金县猫场区小牛场乡岩脚村夏家庄居住。葬于小牛场夏家庄青杠林。姙郭群英1903年2月2日生于织金县大定府大龙场马路上。葬于织金县猫场镇小牛场夏家庄岩脚包包地后坎。子嗣见崇发隆云房"
+    },
+    {
+      "externalId": "lipu:lishichenxb:12-大富",
+      "name": "李大富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-子相",
+      "name": "李子相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-子奇",
+      "name": "李子奇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-子春",
+      "name": "李子春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-李子云之妻",
+      "name": "李子云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:14-永安",
+      "name": "李永安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:14-永太",
+      "name": "李永太",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:13-李子奉之妻",
+      "name": "李子奉之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:14-如申",
+      "name": "李如申",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:14-李永珍之妻",
+      "name": "李永珍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:15-正海",
+      "name": "李正海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:15-李正举之妻",
+      "name": "李正举之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:16-君有",
+      "name": "李君有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:16-李君才之妻",
+      "name": "李君才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:17-宗富",
+      "name": "李宗富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:17-宗贵",
+      "name": "李宗贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:17-宗仁",
+      "name": "李宗仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:17-李宗华之妻",
+      "name": "李宗华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:18-德久",
+      "name": "李德久",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:18-德金",
+      "name": "李德金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:18-李德盛之妻",
+      "name": "李德盛之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:19-崇德",
+      "name": "李崇德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:19-崇喜",
+      "name": "李崇喜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡西北煤冲后麻窝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡西北煤冲后麻窝"
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:19-李崇发之妻",
+      "name": "李崇发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-李隆象之妻",
+      "name": "李隆象之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1887
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-李隆帮之妻",
+      "name": "李隆帮之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1891
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-李隆成之妻",
+      "name": "李隆成之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1897
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-张贵英",
+      "name": "张贵英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1903
+      }
+    },
+    {
+      "externalId": "lipu:lishichenxb:20-郭群英",
+      "name": "郭群英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1903
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:11-世臣",
+      "child": "lipu:lishichenxb:12-大富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:11-世臣",
+      "child": "lipu:lishichenxb:12-大龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:12-大龙",
+      "child": "lipu:lishichenxb:13-子相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:12-大龙",
+      "child": "lipu:lishichenxb:13-子奇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:12-大龙",
+      "child": "lipu:lishichenxb:13-子春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:12-大龙",
+      "child": "lipu:lishichenxb:13-子云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:13-子云",
+      "b": "lipu:lishichenxb:13-李子云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:13-子云",
+      "child": "lipu:lishichenxb:14-永安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:13-子云",
+      "child": "lipu:lishichenxb:14-永太"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:12-大龙",
+      "child": "lipu:lishichenxb:13-子奉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:13-子奉",
+      "b": "lipu:lishichenxb:13-李子奉之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:13-子奉",
+      "child": "lipu:lishichenxb:14-如申"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:13-子云",
+      "child": "lipu:lishichenxb:14-永珍"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:14-李永珍之妻",
+      "b": "lipu:lishichenxb:14-永珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:14-永珍",
+      "child": "lipu:lishichenxb:15-正海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:14-永珍",
+      "child": "lipu:lishichenxb:15-正举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:15-李正举之妻",
+      "b": "lipu:lishichenxb:15-正举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:15-正举",
+      "child": "lipu:lishichenxb:16-君有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:15-正举",
+      "child": "lipu:lishichenxb:16-君才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:16-君才",
+      "b": "lipu:lishichenxb:16-李君才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:16-君才",
+      "child": "lipu:lishichenxb:17-宗富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:16-君才",
+      "child": "lipu:lishichenxb:17-宗贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:16-君才",
+      "child": "lipu:lishichenxb:17-宗仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:16-君才",
+      "child": "lipu:lishichenxb:17-宗华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:17-宗华",
+      "b": "lipu:lishichenxb:17-李宗华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:17-宗华",
+      "child": "lipu:lishichenxb:18-德久"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:17-宗华",
+      "child": "lipu:lishichenxb:18-德金"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:17-宗华",
+      "child": "lipu:lishichenxb:18-德盛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:18-德盛",
+      "b": "lipu:lishichenxb:18-李德盛之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:18-德盛",
+      "child": "lipu:lishichenxb:19-崇德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:18-德盛",
+      "child": "lipu:lishichenxb:19-崇喜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:18-德盛",
+      "child": "lipu:lishichenxb:19-崇发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:19-崇发",
+      "b": "lipu:lishichenxb:19-李崇发之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:19-崇发",
+      "child": "lipu:lishichenxb:20-隆象"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:20-李隆象之妻",
+      "b": "lipu:lishichenxb:20-隆象"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:19-崇发",
+      "child": "lipu:lishichenxb:20-隆帮"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:20-李隆帮之妻",
+      "b": "lipu:lishichenxb:20-隆帮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:19-崇发",
+      "child": "lipu:lishichenxb:20-隆成"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:20-李隆成之妻",
+      "b": "lipu:lishichenxb:20-隆成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:19-崇发",
+      "child": "lipu:lishichenxb:20-隆坤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:20-张贵英",
+      "b": "lipu:lishichenxb:20-隆坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:19-崇发",
+      "child": "lipu:lishichenxb:20-隆云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishichenxb:20-郭群英",
+      "b": "lipu:lishichenxb:20-隆云"
+    }
+  ]
+}
