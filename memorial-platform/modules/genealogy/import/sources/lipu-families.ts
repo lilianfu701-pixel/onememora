@@ -399,6 +399,11 @@ import lipu_liyoubinnz5 from "./liyoubinnz5.lipu.data.json";
 import lipu_liyoubinnz6 from "./liyoubinnz6.lipu.data.json";
 import lipu_liyoubinnz7 from "./liyoubinnz7.lipu.data.json";
 import lipu_liyoubinnz8 from "./liyoubinnz8.lipu.data.json";
+import lipu_lidingcaiyzy from "./lidingcaiyzy.lipu.data.json";
+import lipu_lideqingyp from "./lideqingyp.lipu.data.json";
+import lipu_liyouchunnr from "./liyouchunnr.lipu.data.json";
+import lipu_liyouchunnr2 from "./liyouchunnr2.lipu.data.json";
+import lipu_likuizhengdb from "./likuizhengdb.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -797,6 +802,11 @@ const LABELS: Record<string, string> = {
   liyoubinnz6: "纳支村·李有宾一支·时洪汉雄房",
   liyoubinnz7: "纳支村·李有宾一支·友纯春馥房",
   liyoubinnz8: "纳支村·李有宾一支·友桐房",
+  lidingcaiyzy: "普定鸡场坡乡燕子岩·李永相一支·定才房",
+  lideqingyp: "普定鸡场乡白桥村云盘·李德清一支",
+  liyouchunnr: "普定鸡场坡乡那芮村·李有纯一支",
+  liyouchunnr2: "那芮村·李有纯一支·未载父者",
+  likuizhengdb: "普定鸡场坡乡新寨地坝·李魁政一支",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -1195,6 +1205,11 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["liyoubinnz6", lipu_liyoubinnz6 as GenealogyDataset],
   ["liyoubinnz7", lipu_liyoubinnz7 as GenealogyDataset],
   ["liyoubinnz8", lipu_liyoubinnz8 as GenealogyDataset],
+  ["lidingcaiyzy", lipu_lidingcaiyzy as GenealogyDataset],
+  ["lideqingyp", lipu_lideqingyp as GenealogyDataset],
+  ["liyouchunnr", lipu_liyouchunnr as GenealogyDataset],
+  ["liyouchunnr2", lipu_liyouchunnr2 as GenealogyDataset],
+  ["likuizhengdb", lipu_likuizhengdb as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

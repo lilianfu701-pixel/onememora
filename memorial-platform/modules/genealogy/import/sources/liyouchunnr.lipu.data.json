@@ -1,0 +1,757 @@
+{
+  "key": "lipu:liyouchunnr",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyouchunnr:11-友纯",
+      "name": "李友纯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡那芮村。支题作有纯。上承本乡纳雍支长田十代李洪义分支（与纳支村李有宾一支之友纯同名，所载子嗣不同，今分立）。姙张氏"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:12-应芳",
+      "name": "李应芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡那芮村。"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:13-守富",
+      "name": "李守富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡那芮村。"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:14-如龙",
+      "name": "李如龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·鸡场坡乡那芮村。葬戛木，姙王氏葬戛木"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:15-春高",
+      "name": "李春高",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡那芮村。葬戛木，姙王氏葬地戛木"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:16-开正",
+      "name": "李开正",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡那芮村。葬纳雍支"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:16-方正",
+      "name": "李方正",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡那芮村。葬地坝，姙陈氏葬川泊塘"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:17-灿明",
+      "name": "李灿明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡那芮村。生于那芮，葬张家坝。姙黄氏生于白泥黄家寨，殁那芮葬小河坝，生良荣。续姙罗氏生于石头寨，葬川婆塘"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:17-灿德",
+      "name": "李灿德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡那芮村。生于那芮，葬那芮小河坝，有碑记，姙左氏生于部处（新华）殁那芮，葬坡脚"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:17-灿兴",
+      "name": "李灿兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡那芮村。生于那芮，殁、葬老槽坝，姙张氏生于岩丫口，殁那芮，葬长岩庆岗"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-良荣",
+      "name": "李良荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡那芮村。生于那芮，葬小河口，姙毛氏生于阿岔河头上，殁、葬那芮寨边；另生一女"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-良贵",
+      "name": "李良贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡那芮村。生于那芮，葬张家坝，姙陈氏生于砂子坡，葬张家坝"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-良富",
+      "name": "李良富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡那芮村。生于那芮，葬那芮，姙彭氏生于落洞，殁葬砂子寨"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永康",
+      "name": "李永康",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1934
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡那芮村。1934年生于那芮，中师文化，国家职工，退休，偶黄氏1937年生于织金白泥黄家寨；生有三女"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永太",
+      "name": "李永太",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡那芮村。1937年正月15日生于那芮，偶伍发美生于干坝"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永文",
+      "name": "李永文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡那芮村。生于那芮，葬老蛇田，偶武氏生于广坝，葬张家坝，生女大妹。再偶张氏生于骂若，葬石头寨，生女定翠。再偶何氏生于纳雍张家湾生一男，婚后解放破产逃往水成南开西流村与陶姓再婚，随带男孩徐改陶姓，现还宗姓李"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:11-李友纯之妻",
+      "name": "李友纯之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:12-应弟",
+      "name": "李应弟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:13-守约",
+      "name": "李守约",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:13-守诚",
+      "name": "李守诚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:13-守刚",
+      "name": "李守刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:14-如凤",
+      "name": "李如凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:14-李如龙之妻",
+      "name": "李如龙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:15-李春高之妻",
+      "name": "李春高之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:16-李方正之妻",
+      "name": "李方正之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:17-李灿明之妻",
+      "name": "李灿明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:17-李灿德之妻",
+      "name": "李灿德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-良吕",
+      "name": "李良吕",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-良芝",
+      "name": "李良芝",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:17-李灿兴之妻",
+      "name": "李灿兴之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-李良荣之妻",
+      "name": "李良荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "毛氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-李良贵之妻",
+      "name": "李良贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永贤",
+      "name": "李永贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永福",
+      "name": "李永福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永录",
+      "name": "李永录",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:18-李良富之妻",
+      "name": "李良富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-永才",
+      "name": "李永才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-李永康之妻",
+      "name": "李永康之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ],
+      "birth": {
+        "year": 1937
+      }
+    },
+    {
+      "externalId": "lipu:liyouchunnr:20-定伦",
+      "name": "李定伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-伍发美",
+      "name": "伍发美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:liyouchunnr:20-保林",
+      "name": "李保林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyouchunnr:20-平安",
+      "name": "李平安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyouchunnr:20-六发",
+      "name": "李六发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡那芮村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡那芮村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyouchunnr:19-李永文之妻",
+      "name": "李永文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "武氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:11-友纯",
+      "b": "lipu:liyouchunnr:11-李友纯之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:11-友纯",
+      "child": "lipu:liyouchunnr:12-应弟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:11-友纯",
+      "child": "lipu:liyouchunnr:12-应芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:12-应芳",
+      "child": "lipu:liyouchunnr:13-守约"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:12-应芳",
+      "child": "lipu:liyouchunnr:13-守诚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:12-应芳",
+      "child": "lipu:liyouchunnr:13-守刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:12-应芳",
+      "child": "lipu:liyouchunnr:13-守富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:13-守富",
+      "child": "lipu:liyouchunnr:14-如凤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:13-守富",
+      "child": "lipu:liyouchunnr:14-如龙"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:14-如龙",
+      "b": "lipu:liyouchunnr:14-李如龙之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:14-如龙",
+      "child": "lipu:liyouchunnr:15-春高"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:15-春高",
+      "b": "lipu:liyouchunnr:15-李春高之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:15-春高",
+      "child": "lipu:liyouchunnr:16-开正"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:15-春高",
+      "child": "lipu:liyouchunnr:16-方正"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:16-方正",
+      "b": "lipu:liyouchunnr:16-李方正之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:16-方正",
+      "child": "lipu:liyouchunnr:17-灿明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:17-李灿明之妻",
+      "b": "lipu:liyouchunnr:17-灿明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:16-方正",
+      "child": "lipu:liyouchunnr:17-灿德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:17-李灿德之妻",
+      "b": "lipu:liyouchunnr:17-灿德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:17-灿德",
+      "child": "lipu:liyouchunnr:18-良吕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:17-灿德",
+      "child": "lipu:liyouchunnr:18-良芝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:16-方正",
+      "child": "lipu:liyouchunnr:17-灿兴"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:17-李灿兴之妻",
+      "b": "lipu:liyouchunnr:17-灿兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:17-灿明",
+      "child": "lipu:liyouchunnr:18-良荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:18-李良荣之妻",
+      "b": "lipu:liyouchunnr:18-良荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:17-灿德",
+      "child": "lipu:liyouchunnr:18-良贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:18-李良贵之妻",
+      "b": "lipu:liyouchunnr:18-良贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良贵",
+      "child": "lipu:liyouchunnr:19-永贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良贵",
+      "child": "lipu:liyouchunnr:19-永福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良贵",
+      "child": "lipu:liyouchunnr:19-永录"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:17-灿德",
+      "child": "lipu:liyouchunnr:18-良富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:18-李良富之妻",
+      "b": "lipu:liyouchunnr:18-良富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良富",
+      "child": "lipu:liyouchunnr:19-永才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良荣",
+      "child": "lipu:liyouchunnr:19-永康"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:19-李永康之妻",
+      "b": "lipu:liyouchunnr:19-永康"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:19-永康",
+      "child": "lipu:liyouchunnr:20-定伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良荣",
+      "child": "lipu:liyouchunnr:19-永太"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:19-伍发美",
+      "b": "lipu:liyouchunnr:19-永太"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:19-永太",
+      "child": "lipu:liyouchunnr:20-保林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:19-永太",
+      "child": "lipu:liyouchunnr:20-平安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:19-永太",
+      "child": "lipu:liyouchunnr:20-六发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyouchunnr:18-良贵",
+      "child": "lipu:liyouchunnr:19-永文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyouchunnr:19-李永文之妻",
+      "b": "lipu:liyouchunnr:19-永文"
+    }
+  ]
+}

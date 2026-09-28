@@ -1,0 +1,85 @@
+{
+  "key": "lipu:lideqingyp",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lideqingyp:19-德清",
+      "name": "李德清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡白桥村云盘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡白桥村云盘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡白桥村云盘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡白桥村云盘。上承吹聋湾子头李先魁支系18代李崇星分支。曾名陈亮清（李德清还宗），生于六枝新华猫猫岩，葬王家坟。此支从织金雨麦吹聋迁居六枝猫猫岩，又迁丁棋木岗，再迁普定鸡场坡乡白桥云盘落居，接陈姓，三代后，还宗改姓李"
+    },
+    {
+      "externalId": "lipu:lideqingyp:20-树益",
+      "name": "李树益",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡白桥村云盘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡白桥村云盘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡白桥村云盘"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·鸡场坡乡白桥村云盘。曾名陈仲益，生于六枝木岗青杠坡，殁于云盘，葬白蜡冲。偶罗进德1931年生于云盘"
+    },
+    {
+      "externalId": "lipu:lideqingyp:19-李德清之妻",
+      "name": "李德清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lideqingyp:20-罗进德",
+      "name": "罗进德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1931
+      }
+    },
+    {
+      "externalId": "lipu:lideqingyp:21-恒雄",
+      "name": "李恒雄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡白桥村云盘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡白桥村云盘"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lideqingyp:19-德清",
+      "b": "lipu:lideqingyp:19-李德清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideqingyp:19-德清",
+      "child": "lipu:lideqingyp:20-树益"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lideqingyp:20-树益",
+      "b": "lipu:lideqingyp:20-罗进德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lideqingyp:20-树益",
+      "child": "lipu:lideqingyp:21-恒雄"
+    }
+  ]
+}

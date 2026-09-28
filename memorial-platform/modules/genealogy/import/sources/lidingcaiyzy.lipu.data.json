@@ -1,0 +1,244 @@
+{
+  "key": "lipu:lidingcaiyzy",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:likexian:19-定才",
+      "name": "李定才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡燕子岩。此谱载17代永相、18代盛文，19代迁普定鸡场坡燕子岩等地。定才生、殁、葬燕子岩，偶魏氏生于燕子岩"
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-昌权",
+      "name": "李昌权",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·鸡场坡乡燕子岩。生于燕子岩，偶郭氏，生有三女"
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-昌明",
+      "name": "李昌明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·鸡场坡乡燕子岩。生于燕子岩，偶毕氏，生有五女"
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-昌文",
+      "name": "李昌文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·鸡场坡乡燕子岩。生于燕子岩，偶雷氏，生有一女"
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-昌友",
+      "name": "李昌友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·鸡场坡乡燕子岩。生于燕子岩，偶王氏"
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:19-李定才之妻",
+      "name": "李定才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "魏氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-李昌权之妻",
+      "name": "李昌权之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-李昌明之妻",
+      "name": "李昌明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "毕氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:21-国华",
+      "name": "李国华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-李昌文之妻",
+      "name": "李昌文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "雷氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:21-国祥",
+      "name": "李国祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:21-国胜",
+      "name": "李国胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:21-国荣",
+      "name": "李国荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:20-李昌友之妻",
+      "name": "李昌友之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidingcaiyzy:21-国跃",
+      "name": "李国跃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡燕子岩",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡燕子岩"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lidingcaiyzy:19-李定才之妻",
+      "b": "lipu:likexian:19-定才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:likexian:19-定才",
+      "child": "lipu:lidingcaiyzy:20-昌权"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidingcaiyzy:20-昌权",
+      "b": "lipu:lidingcaiyzy:20-李昌权之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:likexian:19-定才",
+      "child": "lipu:lidingcaiyzy:20-昌明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidingcaiyzy:20-昌明",
+      "b": "lipu:lidingcaiyzy:20-李昌明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidingcaiyzy:20-昌明",
+      "child": "lipu:lidingcaiyzy:21-国华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:likexian:19-定才",
+      "child": "lipu:lidingcaiyzy:20-昌文"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidingcaiyzy:20-昌文",
+      "b": "lipu:lidingcaiyzy:20-李昌文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidingcaiyzy:20-昌文",
+      "child": "lipu:lidingcaiyzy:21-国祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidingcaiyzy:20-昌文",
+      "child": "lipu:lidingcaiyzy:21-国胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidingcaiyzy:20-昌文",
+      "child": "lipu:lidingcaiyzy:21-国荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:likexian:19-定才",
+      "child": "lipu:lidingcaiyzy:20-昌友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidingcaiyzy:20-昌友",
+      "b": "lipu:lidingcaiyzy:20-李昌友之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidingcaiyzy:20-昌友",
+      "child": "lipu:lidingcaiyzy:21-国跃"
+    }
+  ]
+}
