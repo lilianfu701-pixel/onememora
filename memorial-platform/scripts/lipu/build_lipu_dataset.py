@@ -326,7 +326,9 @@ def build(inter):
         book_bio = (e.get("bio") or "").strip()
         obj["bio"] = (head + book_bio) if book_bio else head
 
-    ds = {"key": f"lipu:{branch}", "namespace": NAMESPACE,
+    # A different book/clan sets its own namespace in the inter file, so its
+    # people never collide with 李代龙谱 ids; omitted means 李代龙谱.
+    ds = {"key": f"lipu:{branch}", "namespace": inter.get("namespace", NAMESPACE),
           "people": list(people.values()), "relations": relations}
     orphans = [e for e in entries if e.get("_orphanFather")]
     return ds, orphans
