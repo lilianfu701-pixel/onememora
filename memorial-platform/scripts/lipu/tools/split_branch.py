@@ -39,8 +39,11 @@ for spec in sys.argv[3:]:
     # Re-splitting an already-published split still breaks — run check_stubs.py.
     for m in moved:
         if "externalId" not in m:
-            for st in stub_refs.get(f"lipu:{key}:{m['gen']}-{m['name']}", []):
-                st["externalId"] = f"lipu:{newkey}:{m['gen']}-{m['name']}"
+            # Only the very head object an earlier stub was made for — a same-name
+            # cousin moving elsewhere must not steal that stub.
+            for st, head in stub_refs.get(f"lipu:{key}:{m['gen']}-{m['name']}", []):
+                if head is m:
+                    st["externalId"] = f"lipu:{newkey}:{m['gen']}-{m['name']}"
     stubs = []
     for h in heads:
         pid = h.get("externalId") or f"lipu:{key}:{h['gen']}-{h['name']}"
@@ -48,7 +51,7 @@ for spec in sys.argv[3:]:
                       "children": [c for c in h["children"] if not any(m["name"] == c and m["gen"] == h["gen"] + 1 for m in moved)],
                       "externalId": pid,
                       **{k: h[k] for k in ("birth", "death") if k in h}})
-        stub_refs.setdefault(pid, []).append(stubs[-1])
+        stub_refs.setdefault(pid, []).append((stubs[-1], h))
         h["children"] = []
         h["bio"] = (h.get("bio") or "") + ("。" if h.get("bio") else "") + f"子嗣见{label}"
     people = [p for p in people if p not in moved]
