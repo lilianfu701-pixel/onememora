@@ -1,0 +1,127 @@
+{
+  "key": "lipu:liyupeigm",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyupeigm:12-玉配",
+      "name": "李玉配",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡果骂村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡果骂村。上承李洪舟支系11代李君相。由清镇阳雀小岩迁织金县八步小河边居住。姙龙氏，玉配、龙氏葬于坪上寨"
+    },
+    {
+      "externalId": "lipu:liyupeigm:13-文学",
+      "name": "李文学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡果骂村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡果骂村。生士贵、士进、士林。谱载士贵、士进、士林未注谁生如才、如贵；如才、如贵未注谁生天才、天富、天贵、天德、天祥、天有、天云、天禄"
+    },
+    {
+      "externalId": "lipu:liyupeigm:12-李玉配之妻",
+      "name": "李玉配之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyupeigm:13-文子",
+      "name": "李文子",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡果骂村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      }
+    },
+    {
+      "externalId": "lipu:liyupeigm:14-士贵",
+      "name": "李士贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡果骂村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      }
+    },
+    {
+      "externalId": "lipu:liyupeigm:14-士进",
+      "name": "李士进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡果骂村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      }
+    },
+    {
+      "externalId": "lipu:liyupeigm:14-士林",
+      "name": "李士林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡果骂村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡果骂村"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liyupeigm:12-李玉配之妻",
+      "b": "lipu:liyupeigm:12-玉配"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyupeigm:12-玉配",
+      "child": "lipu:liyupeigm:13-文子"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyupeigm:12-玉配",
+      "child": "lipu:liyupeigm:13-文学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyupeigm:13-文学",
+      "child": "lipu:liyupeigm:14-士贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyupeigm:13-文学",
+      "child": "lipu:liyupeigm:14-士进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyupeigm:13-文学",
+      "child": "lipu:liyupeigm:14-士林"
+    }
+  ]
+}
