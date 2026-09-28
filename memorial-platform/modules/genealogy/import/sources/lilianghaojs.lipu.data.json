@@ -1,0 +1,631 @@
+{
+  "key": "lipu:lilianghaojs",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lilianghaojs:11-良灏",
+      "name": "李良灏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良文",
+      "name": "李良文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良进",
+      "name": "李良进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶杨氏"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良彩",
+      "name": "李良彩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶郭氏"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良用",
+      "name": "李良用",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶刘氏。子嗣见良用良英房"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良英",
+      "name": "李良英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶张氏。子嗣见良用良英房"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良贵",
+      "name": "李良贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶左氏。子嗣见良洪良贵良富房"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良富",
+      "name": "李良富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶左氏。子嗣见良洪良贵良富房"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-良洪",
+      "name": "李良洪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡街上村。上承10代李自奇从11代起。偶周氏。子嗣见良洪良贵良富房"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-元进",
+      "name": "李元进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡街上村。偶张氏"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-元伯",
+      "name": "李元伯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡街上村。"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-永松",
+      "name": "李永松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡街上村。偶刘氏"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-永德",
+      "name": "李永德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡街上村。"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-元魁",
+      "name": "李元魁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡街上村。偶左氏"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-永学",
+      "name": "李永学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡街上村。谱列第十二代，未载其父。偶郭氏"
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-远才",
+      "name": "李远才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-进功",
+      "name": "李进功",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良进之妻",
+      "name": "李良进之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-永臣",
+      "name": "李永臣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良彩之妻",
+      "name": "李良彩之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-永芳",
+      "name": "李永芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-永秉",
+      "name": "李永秉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良用之妻",
+      "name": "李良用之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良英之妻",
+      "name": "李良英之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良贵之妻",
+      "name": "李良贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良富之妻",
+      "name": "李良富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:11-李良洪之妻",
+      "name": "李良洪之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-李元进之妻",
+      "name": "李元进之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-士元",
+      "name": "李士元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-士英",
+      "name": "李士英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-李永松之妻",
+      "name": "李永松之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-士龙",
+      "name": "李士龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-在乾",
+      "name": "李在乾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-在兴",
+      "name": "李在兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-李元魁之妻",
+      "name": "李元魁之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "左氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-在明",
+      "name": "李在明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-在友",
+      "name": "李在友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    },
+    {
+      "externalId": "lipu:lilianghaojs:12-李永学之妻",
+      "name": "李永学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lilianghaojs:13-士勋",
+      "name": "李士勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡街上村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡街上村"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良灏",
+      "child": "lipu:lilianghaojs:12-远才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良文",
+      "child": "lipu:lilianghaojs:12-进功"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良进之妻",
+      "b": "lipu:lilianghaojs:11-良进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良进",
+      "child": "lipu:lilianghaojs:12-永臣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良彩之妻",
+      "b": "lipu:lilianghaojs:11-良彩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良彩",
+      "child": "lipu:lilianghaojs:12-永芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良彩",
+      "child": "lipu:lilianghaojs:12-永秉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良用之妻",
+      "b": "lipu:lilianghaojs:11-良用"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良英之妻",
+      "b": "lipu:lilianghaojs:11-良英"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良贵之妻",
+      "b": "lipu:lilianghaojs:11-良贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良富之妻",
+      "b": "lipu:lilianghaojs:11-良富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:11-李良洪之妻",
+      "b": "lipu:lilianghaojs:11-良洪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良灏",
+      "child": "lipu:lilianghaojs:12-元进"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:12-元进",
+      "b": "lipu:lilianghaojs:12-李元进之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-元进",
+      "child": "lipu:lilianghaojs:13-士元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良文",
+      "child": "lipu:lilianghaojs:12-元伯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-元伯",
+      "child": "lipu:lilianghaojs:13-士英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良进",
+      "child": "lipu:lilianghaojs:12-永松"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:12-李永松之妻",
+      "b": "lipu:lilianghaojs:12-永松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-永松",
+      "child": "lipu:lilianghaojs:13-士龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良彩",
+      "child": "lipu:lilianghaojs:12-永德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-永德",
+      "child": "lipu:lilianghaojs:13-在乾"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-永德",
+      "child": "lipu:lilianghaojs:13-在兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:11-良彩",
+      "child": "lipu:lilianghaojs:12-元魁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:12-元魁",
+      "b": "lipu:lilianghaojs:12-李元魁之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-元魁",
+      "child": "lipu:lilianghaojs:13-在明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-元魁",
+      "child": "lipu:lilianghaojs:13-在友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lilianghaojs:12-李永学之妻",
+      "b": "lipu:lilianghaojs:12-永学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lilianghaojs:12-永学",
+      "child": "lipu:lilianghaojs:13-士勋"
+    }
+  ]
+}
