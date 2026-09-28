@@ -1,0 +1,110 @@
+{
+  "key": "lipu:lidemingnh",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lidemingnh:18-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡纳黑村。上承纳雍囊拜躲贡支系。生于纳雍县囊拜躲贡，后迁移普定县鸡场坡塞耳冲，殁后葬于塞耳冲，其子崇才又移墓葬于纳黑汪家房背后，有碑记。姙彭氏生于落洞，后改嫁于大岩田吴发坤，葬于大箐头三块田，有碑记"
+    },
+    {
+      "externalId": "lipu:lidemingnh:19-崇才",
+      "name": "李崇才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1921
+      },
+      "death": {
+        "year": 2001
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡纳黑村。1921年10月11日生于塞耳冲，2001年后四月初一殁于纳黑，葬于纳黑汪家房背后。偶曾永秀1932年4月25日生于鸡场村黄泥田，1999年8月17日殁于纳黑，同年8月23日葬于大龙井；女隆英、隆珍、隆艳"
+    },
+    {
+      "externalId": "lipu:lidemingnh:18-李德明之妻",
+      "name": "李德明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidemingnh:19-曾永秀",
+      "name": "曾永秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1932
+      },
+      "death": {
+        "year": 1999
+      }
+    },
+    {
+      "externalId": "lipu:lidemingnh:20-隆升",
+      "name": "李隆升",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingnh:20-隆辉",
+      "name": "李隆辉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡纳黑村",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡纳黑村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lidemingnh:18-德明",
+      "b": "lipu:lidemingnh:18-李德明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingnh:18-德明",
+      "child": "lipu:lidemingnh:19-崇才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidemingnh:19-崇才",
+      "b": "lipu:lidemingnh:19-曾永秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingnh:19-崇才",
+      "child": "lipu:lidemingnh:20-隆升"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingnh:19-崇才",
+      "child": "lipu:lidemingnh:20-隆辉"
+    }
+  ]
+}
