@@ -1,0 +1,758 @@
+{
+  "key": "lipu:lishizhengsj",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishizheng:13-士瑶",
+      "name": "李士瑶",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·猴场乡小革枝。此谱作仕尧，载世政生大景、大英；大景住高石坎，生仕瑶、仕祥、仕珍、仕品。仕尧生于织金县高石坎后迁织金县熊家场罗贵寨，葬于熊家场白马洞中坝水安塘。姙张氏；仕尧逝后张氏带三个儿子迁住普定县白岩乡窝子桃子冲。后随子李永德迁住猫洞乡大坡上。葬于猴场乡望场坡，有碑记"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:14-永德",
+      "name": "李永德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·猴场乡小革枝。生于熊家场罗贵寨，随母迁居白岩乡窝子桃子冲，后迁猫洞乡大坡，葬于猴场乡望场坡与母并排有碑记。姙陈氏葬于猴场小革枝坟边，有碑记"
+    },
+    {
+      "externalId": "lipu:liruxiudp:15-如秀",
+      "name": "李如秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·猴场乡小革枝。子孙见猫洞乡大坡上李如秀一支"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:15-如清",
+      "name": "李如清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·猴场乡小革枝。住猫洞乡大坡，葬于大坡上，有碑记。姙蒋氏葬于猴场乡小革枝坟边，有碑记"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:16-天元",
+      "name": "李天元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1860
+      },
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·猴场乡小革枝。1860年10月24日生于猴场乡小革枝，葬于小革村坟边。姙张氏1860年6月生，葬于小革枝长地大坡"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:16-天才",
+      "name": "李天才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·猴场乡小革枝。生润生，字宗祥"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:17-宗廷",
+      "name": "李宗廷",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1890
+      },
+      "death": {
+        "year": 1950
+      },
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·猴场乡小革枝。此谱作宗庭。1890年生于猴场乡小革枝，殁于1950年11月，葬于小革枝长地大坡独石岩前面。姙彭氏1890年生于猴场乡石街路。殁于1961年9月小革枝，葬于小革枝长地大坡（后冲哑口背后），土坟与长息同在一支"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-德成",
+      "name": "李德成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1908
+      },
+      "death": {
+        "year": 1988
+      },
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·猴场乡小革枝。号少成。1908年11月14日生于猴场小革枝，殁于1988年7月17日，葬于小革枝箐头。姙杨氏1908年生于猴场乡青杠脚狗甲洞。殁于1978年猴场乡小革枝，葬小革枝长地大坡，后冲垭口背后"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-德华",
+      "name": "李德华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1911
+      },
+      "death": {
+        "year": 1961
+      },
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·猴场乡小革枝。号少华。1911年生于猴场乡小革枝殁于1961年，葬于小革枝坟边，有碑记。姙陈氏1909年9月14日生于猫洞乡大坡上，殁于1968年9月26日猴场乡小革枝，葬小革枝长地大坡"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1917
+      },
+      "death": {
+        "year": 1994
+      },
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·猴场乡小革枝。号仲益。1917年9月14日生于猴场乡小革枝，殁于1994年5月3日葬小革枝挖沙坡。姙杨氏1921年11月3日生于织金县干河乡龙井。殁于1998年8月19日猴场乡小革枝葬小革枝；女鹅妹"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-德超",
+      "name": "李德超",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1929
+      },
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·猴场乡小革枝。1929年3月3日生于猴场乡小革枝，住普定县城关镇塔山路48号。科长（副县级）、普定县政协委员。姙彭忠兰1927年7月5日生于坪上乡杜仲林，殁于1989年4月23日。葬于小革枝老玉诗坟，生崇英、崇莲。偶杜仕芬1957年12月16日生于干河乡补蚱小营上，生崇涯、崇飞"
+    },
+    {
+      "externalId": "lipu:lishizhengsj:13-李士瑶之妻",
+      "name": "李士瑶之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishizhengsj:14-永奎",
+      "name": "李永奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:14-永锡",
+      "name": "李永锡",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:14-李永德之妻",
+      "name": "李永德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishizhengsj:15-如坤",
+      "name": "李如坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:15-如相",
+      "name": "李如相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:15-李如清之妻",
+      "name": "李如清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "蒋氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishizhengsj:16-天富",
+      "name": "李天富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:16-李天元之妻",
+      "name": "李天元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1860
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:17-宗奎",
+      "name": "李宗奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:17-宗祥",
+      "name": "李宗祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:17-润生",
+      "name": "李润生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:17-李宗廷之妻",
+      "name": "李宗廷之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ],
+      "birth": {
+        "year": 1890
+      },
+      "death": {
+        "year": 1961
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-李德成之妻",
+      "name": "李德成之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "birth": {
+        "year": 1908
+      },
+      "death": {
+        "year": 1978
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇香",
+      "name": "李崇香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇斌",
+      "name": "李崇斌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇芬",
+      "name": "李崇芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-李德华之妻",
+      "name": "李德华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "birth": {
+        "year": 1909
+      },
+      "death": {
+        "year": 1968
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇芳",
+      "name": "李崇芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇福",
+      "name": "李崇福",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇目",
+      "name": "李崇目",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-从珍",
+      "name": "李从珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-李德明之妻",
+      "name": "李德明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "birth": {
+        "year": 1921
+      },
+      "death": {
+        "year": 1998
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇景",
+      "name": "李崇景",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:18-彭忠兰",
+      "name": "彭忠兰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1927
+      },
+      "death": {
+        "year": 1989
+      }
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇英",
+      "name": "李崇英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇莲",
+      "name": "李崇莲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇涯",
+      "name": "李崇涯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishizhengsj:19-崇飞",
+      "name": "李崇飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡小革枝",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡小革枝"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizheng:13-士瑶",
+      "b": "lipu:lishizhengsj:13-李士瑶之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizheng:13-士瑶",
+      "child": "lipu:lishizhengsj:14-永奎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizheng:13-士瑶",
+      "child": "lipu:lishizhengsj:14-永锡"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizheng:13-士瑶",
+      "child": "lipu:lishizhengsj:14-永德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:14-李永德之妻",
+      "b": "lipu:lishizhengsj:14-永德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:14-永德",
+      "child": "lipu:lishizhengsj:15-如坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:14-永德",
+      "child": "lipu:lishizhengsj:15-如相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:14-永德",
+      "child": "lipu:liruxiudp:15-如秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:14-永德",
+      "child": "lipu:lishizhengsj:15-如清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:15-如清",
+      "b": "lipu:lishizhengsj:15-李如清之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:15-如清",
+      "child": "lipu:lishizhengsj:16-天富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:15-如清",
+      "child": "lipu:lishizhengsj:16-天元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:16-天元",
+      "b": "lipu:lishizhengsj:16-李天元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:16-天元",
+      "child": "lipu:lishizhengsj:17-宗奎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:16-天元",
+      "child": "lipu:lishizhengsj:17-宗祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:15-如清",
+      "child": "lipu:lishizhengsj:16-天才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:16-天才",
+      "child": "lipu:lishizhengsj:17-润生"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:16-天元",
+      "child": "lipu:lishizhengsj:17-宗廷"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:17-宗廷",
+      "b": "lipu:lishizhengsj:17-李宗廷之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:17-宗廷",
+      "child": "lipu:lishizhengsj:18-德成"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:18-德成",
+      "b": "lipu:lishizhengsj:18-李德成之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德成",
+      "child": "lipu:lishizhengsj:19-崇香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德成",
+      "child": "lipu:lishizhengsj:19-崇斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德成",
+      "child": "lipu:lishizhengsj:19-崇文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德成",
+      "child": "lipu:lishizhengsj:19-崇芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:17-宗廷",
+      "child": "lipu:lishizhengsj:18-德华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:18-德华",
+      "b": "lipu:lishizhengsj:18-李德华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德华",
+      "child": "lipu:lishizhengsj:19-崇芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德华",
+      "child": "lipu:lishizhengsj:19-崇福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德华",
+      "child": "lipu:lishizhengsj:19-崇目"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德华",
+      "child": "lipu:lishizhengsj:19-从珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:17-宗廷",
+      "child": "lipu:lishizhengsj:18-德明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:18-德明",
+      "b": "lipu:lishizhengsj:18-李德明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德明",
+      "child": "lipu:lishizhengsj:19-崇景"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:17-宗廷",
+      "child": "lipu:lishizhengsj:18-德超"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishizhengsj:18-彭忠兰",
+      "b": "lipu:lishizhengsj:18-德超"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德超",
+      "child": "lipu:lishizhengsj:19-崇英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德超",
+      "child": "lipu:lishizhengsj:19-崇莲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德超",
+      "child": "lipu:lishizhengsj:19-崇涯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishizhengsj:18-德超",
+      "child": "lipu:lishizhengsj:19-崇飞"
+    }
+  ]
+}
