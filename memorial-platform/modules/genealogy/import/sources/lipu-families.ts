@@ -410,6 +410,9 @@ import lipu_liyanhoubd3 from "./liyanhoubd3.lipu.data.json";
 import lipu_lichunguibd from "./lichunguibd.lipu.data.json";
 import lipu_lichunzhongmd from "./lichunzhongmd.lipu.data.json";
 import lipu_lichunzhongmd2 from "./lichunzhongmd2.lipu.data.json";
+import lipu_lichaofuxj from "./lichaofuxj.lipu.data.json";
+import lipu_liruxiudp from "./liruxiudp.lipu.data.json";
+import lipu_liruxiudp2 from "./liruxiudp2.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -819,6 +822,9 @@ const LABELS: Record<string, string> = {
   lichunguibd: "普定鸡场坡乡波大村·李春贵一支",
   lichunzhongmd: "普定鸡场坡乡煤硐村·李春忠一支",
   lichunzhongmd2: "煤硐村·李春忠一支·吉安少舟房",
+  lichaofuxj: "普定鸡场坡乡肖家村·李朝富一支",
+  liruxiudp: "普定猫洞乡大坡上·李如秀一支",
+  liruxiudp2: "大坡上·李如秀一支·德先德福德昌房",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -1228,6 +1234,9 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lichunguibd", lipu_lichunguibd as GenealogyDataset],
   ["lichunzhongmd", lipu_lichunzhongmd as GenealogyDataset],
   ["lichunzhongmd2", lipu_lichunzhongmd2 as GenealogyDataset],
+  ["lichaofuxj", lipu_lichaofuxj as GenealogyDataset],
+  ["liruxiudp", lipu_liruxiudp as GenealogyDataset],
+  ["liruxiudp2", lipu_liruxiudp2 as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

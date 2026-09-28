@@ -1,0 +1,581 @@
+{
+  "key": "lipu:lichaofuxj",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaofuxj:13-朝富",
+      "name": "李朝富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡肖家村浪厂坡。上承织金县白泥乡新桥支系十二代李进文分支。姙卢氏"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:14-廷刚",
+      "name": "李廷刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·鸡场坡乡肖家村浪厂坡。姙陈氏生春有、春德；续姙周氏生春才、春富"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:15-春才",
+      "name": "李春才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1833
+      },
+      "death": {
+        "year": 1915
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡肖家村浪厂坡。1833年生于织金管下七区王家坟，1915在朗代管下八区老马水井逝世，享年82岁，葬小冲头大田。姙彭氏1846年生于郎岱管下崇正里二甲花箐上，1934年在崇正二甲丁家寨逝世，享年88岁，葬于丁家寨马家岩头"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:16-治正",
+      "name": "李治正",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1881
+      },
+      "death": {
+        "year": 1945
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡肖家村浪厂坡。1881年10月24日生于郎岱管下八区老马水井断龙，1945年在断龙逝世，享年64岁，葬织金县水银那车大坡打磨冲。姙陈氏1875年12月29日生于水城小格戛，1916年在岩脚逝世，享年41岁，葬找牛坝，生灿坤、灿彬；再姙张氏1886年生于纳雍县，1937年于王家寨逝世，享年51岁，葬白泥大坡，生灿厚"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:17-灿坤",
+      "name": "李灿坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1897
+      },
+      "death": {
+        "year": 1979
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡肖家村浪厂坡。1897年生于郎岱管下老马断龙，1979年在煤洞乡肖家村浪厂逝世，享年82岁。姙张氏1913年8月25日生于郎岱管下岩脚寨新桥坡，1987年在浪厂逝世，享年74岁，葬岩丫口看牛坡"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:17-灿厚",
+      "name": "李灿厚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1921
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡肖家村浪厂坡。1921年生，参加抗日战争任排长，偶宋氏1907年生于贵州黄平"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:18-崇阳",
+      "name": "李崇阳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1941
+      },
+      "living": true,
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡肖家村浪厂坡。1941年11月25日生于织金县白泥乡王家寨大屋基，偶高守望1940年3月19日生于六枝大岩上"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:18-崇岗",
+      "name": "李崇岗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1944
+      },
+      "living": true,
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡肖家村浪厂坡。1944年1月25日生于郎岱管下敦孝乡牛圈房，偶邓正莲1948年8月24日生于六枝特区新华秀冷宫前寨"
+    },
+    {
+      "externalId": "lipu:lichaofuxj:13-李朝富之妻",
+      "name": "李朝富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaofuxj:14-廷纪",
+      "name": "李廷纪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:14-李廷刚之妻",
+      "name": "李廷刚之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaofuxj:15-春有",
+      "name": "李春有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:15-春德",
+      "name": "李春德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:15-春富",
+      "name": "李春富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:15-李春才之妻",
+      "name": "李春才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ],
+      "birth": {
+        "year": 1846
+      },
+      "death": {
+        "year": 1934
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:16-国正",
+      "name": "李国正",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:16-李治正之妻",
+      "name": "李治正之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "birth": {
+        "year": 1875
+      },
+      "death": {
+        "year": 1916
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:17-灿彬",
+      "name": "李灿彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:17-李灿坤之妻",
+      "name": "李灿坤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1913
+      },
+      "death": {
+        "year": 1987
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:17-李灿厚之妻",
+      "name": "李灿厚之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "宋氏"
+      ],
+      "birth": {
+        "year": 1907
+      }
+    },
+    {
+      "externalId": "lipu:lichaofuxj:18-崇芬",
+      "name": "李崇芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:18-高守望",
+      "name": "高守望",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1940
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德波",
+      "name": "李德波",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德琴",
+      "name": "李德琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:18-邓正莲",
+      "name": "邓正莲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1948
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德江",
+      "name": "李德江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德海",
+      "name": "李德海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德雄",
+      "name": "李德雄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德鸿",
+      "name": "李德鸿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-德丽",
+      "name": "李德丽",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-春",
+      "name": "李春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichaofuxj:19-娅",
+      "name": "李娅",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡肖家村浪厂坡",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡肖家村浪厂坡"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:13-朝富",
+      "b": "lipu:lichaofuxj:13-李朝富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:13-朝富",
+      "child": "lipu:lichaofuxj:14-廷纪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:13-朝富",
+      "child": "lipu:lichaofuxj:14-廷刚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:14-廷刚",
+      "b": "lipu:lichaofuxj:14-李廷刚之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:14-廷刚",
+      "child": "lipu:lichaofuxj:15-春有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:14-廷刚",
+      "child": "lipu:lichaofuxj:15-春德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:14-廷刚",
+      "child": "lipu:lichaofuxj:15-春富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:14-廷刚",
+      "child": "lipu:lichaofuxj:15-春才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:15-春才",
+      "b": "lipu:lichaofuxj:15-李春才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:15-春才",
+      "child": "lipu:lichaofuxj:16-国正"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:15-春才",
+      "child": "lipu:lichaofuxj:16-治正"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:16-李治正之妻",
+      "b": "lipu:lichaofuxj:16-治正"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:16-治正",
+      "child": "lipu:lichaofuxj:17-灿彬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:16-治正",
+      "child": "lipu:lichaofuxj:17-灿坤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:17-李灿坤之妻",
+      "b": "lipu:lichaofuxj:17-灿坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:16-治正",
+      "child": "lipu:lichaofuxj:17-灿厚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:17-李灿厚之妻",
+      "b": "lipu:lichaofuxj:17-灿厚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:17-灿厚",
+      "child": "lipu:lichaofuxj:18-崇芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:17-灿坤",
+      "child": "lipu:lichaofuxj:18-崇阳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:18-崇阳",
+      "b": "lipu:lichaofuxj:18-高守望"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇阳",
+      "child": "lipu:lichaofuxj:19-德波"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇阳",
+      "child": "lipu:lichaofuxj:19-德琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:17-灿坤",
+      "child": "lipu:lichaofuxj:18-崇岗"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaofuxj:18-崇岗",
+      "b": "lipu:lichaofuxj:18-邓正莲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-德江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-德海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-德雄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-德鸿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-德丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaofuxj:18-崇岗",
+      "child": "lipu:lichaofuxj:19-娅"
+    }
+  ]
+}
