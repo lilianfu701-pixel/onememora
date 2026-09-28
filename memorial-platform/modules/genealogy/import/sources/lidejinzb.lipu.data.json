@@ -1,0 +1,321 @@
+{
+  "key": "lipu:lidejinzb",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishichenxb:18-德金",
+      "name": "李德金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·补郎乡西北中坝。生于大定府水东岩脚寨，葬于补郎区西北乡煤冲砂沟。姙张氏生于大定府水东，葬于补郎区西北乡中坝"
+    },
+    {
+      "externalId": "lipu:lidejinzb:19-崇云",
+      "name": "李崇云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·补郎乡西北中坝。生于西北乡岩脚寨，葬于西北中坝大屯地。姙周氏葬于西北中坝大屯地合墓"
+    },
+    {
+      "externalId": "lipu:lidejinzb:20-春荣",
+      "name": "李春荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1922
+      },
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·补郎乡西北中坝。1922年五月初五生于西北乡中坝组，葬于西北中坝大坝坝。姙刘景珍1922年8月27日生于织金县干河乡龙井代池；女发珍"
+    },
+    {
+      "externalId": "lipu:lidejinzb:18-李德金之妻",
+      "name": "李德金之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidejinzb:19-云青",
+      "name": "李云青",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      }
+    },
+    {
+      "externalId": "lipu:lidejinzb:19-李崇云之妻",
+      "name": "李崇云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidejinzb:20-隆章",
+      "name": "李隆章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      }
+    },
+    {
+      "externalId": "lipu:lidejinzb:20-兴文",
+      "name": "李兴文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      }
+    },
+    {
+      "externalId": "lipu:lidejinzb:20-飞隆",
+      "name": "李飞隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "deathPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      }
+    },
+    {
+      "externalId": "lipu:lidejinzb:20-刘景珍",
+      "name": "刘景珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1922
+      }
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发学",
+      "name": "李发学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发进",
+      "name": "李发进",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发刚",
+      "name": "李发刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发友",
+      "name": "李发友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发恩",
+      "name": "李发恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发宴",
+      "name": "李发宴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发伦",
+      "name": "李发伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发平",
+      "name": "李发平",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidejinzb:21-发凯",
+      "name": "李发凯",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·补郎乡西北中坝",
+      "birthPlace": {
+        "region": "贵州普定·补郎乡西北中坝"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lidejinzb:18-李德金之妻",
+      "b": "lipu:lishichenxb:18-德金"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:18-德金",
+      "child": "lipu:lidejinzb:19-云青"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishichenxb:18-德金",
+      "child": "lipu:lidejinzb:19-崇云"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidejinzb:19-崇云",
+      "b": "lipu:lidejinzb:19-李崇云之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:19-崇云",
+      "child": "lipu:lidejinzb:20-隆章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:19-崇云",
+      "child": "lipu:lidejinzb:20-兴文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:19-崇云",
+      "child": "lipu:lidejinzb:20-飞隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:19-崇云",
+      "child": "lipu:lidejinzb:20-春荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidejinzb:20-刘景珍",
+      "b": "lipu:lidejinzb:20-春荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发恩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发宴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidejinzb:20-春荣",
+      "child": "lipu:lidejinzb:21-发凯"
+    }
+  ]
+}
