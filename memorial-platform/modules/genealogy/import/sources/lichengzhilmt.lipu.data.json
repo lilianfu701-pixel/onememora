@@ -1,0 +1,679 @@
+{
+  "key": "lipu:lichengzhilmt",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengzhi:13-正坤",
+      "name": "李正坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡芦茅塘。此谱载成枝生长平远州怀中里（现金化起牛场镇木奈河），迁居平远州敦仁里牛黄大屋基（现白泥乡银碧村），殁、葬梁子上赵家背后，有碑记，姙安氏，生子成、子林、子明、子相、子元、子敬；子明姙杨氏生正乾、正坤、正光、正祥、正玉。正坤由织金白泥三合中寨迁居普定县鸡场坡芦茅塘，殁后葬于芦茅塘有碑记。姙王氏"
+    },
+    {
+      "externalId": "lipu:lichengzhi:13-正祥",
+      "name": "李正祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡芦茅塘。居织金白泥三合中寨，殁后葬于小坝上面，有碑记。姙陈氏"
+    },
+    {
+      "externalId": "lipu:lichengzhi:14-朝富",
+      "name": "李朝富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·鸡场坡乡芦茅塘。正坤之子。姙毛氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:14-朝崇",
+      "name": "李朝崇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·鸡场坡乡芦茅塘。姙彭氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:15-学周",
+      "name": "李学周",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡芦茅塘。殁后葬于鸡场坡芦茅塘老黄坡，有碑记。姙陈氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:15-学贞",
+      "name": "李学贞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡芦茅塘。生于小坝中寨，葬于小坝梁子。姙陈氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-云甲",
+      "name": "李云甲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡芦茅塘。葬于鸡场坡芦茅塘寨子中，姙杨氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-云德",
+      "name": "李云德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡芦茅塘。姙陈氏、焦氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-有伦",
+      "name": "李有伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡芦茅塘。姙郭氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-有山",
+      "name": "李有山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡芦茅塘。居织金县白泥三合中寨，殁后葬于苗水井梁子一带。姙洪氏。子嗣见云德有山房"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:18-再华",
+      "name": "李再华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡芦茅塘。姙张氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:18-再明",
+      "name": "李再明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡芦茅塘。姙严氏。子嗣见有伦再明房"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:18-再运",
+      "name": "李再运",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡芦茅塘。姙郭氏"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:19-德全",
+      "name": "李德全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "death": {
+        "year": 1946
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡芦茅塘。1946年3月被害于鸡场坡落东河"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:19-德仲",
+      "name": "李德仲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1929
+      },
+      "death": {
+        "year": 1979
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡芦茅塘。1929年9月20日生于鸡场坡芦茅塘，殁于1979年2月7日葬于水头上岩上有碑记。偶卢启英1922年10月10日生于鸡场坡果骂洞背上；女安珍、安琼"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:13-李正坤之妻",
+      "name": "李正坤之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:14-朝举",
+      "name": "李朝举",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:13-李正祥之妻",
+      "name": "李正祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:14-李朝富之妻",
+      "name": "李朝富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "毛氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:15-学武",
+      "name": "李学武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:14-李朝崇之妻",
+      "name": "李朝崇之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "彭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:15-学仁",
+      "name": "李学仁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:15-李学周之妻",
+      "name": "李学周之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:15-李学贞之妻",
+      "name": "李学贞之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-云兴",
+      "name": "李云兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-云贞",
+      "name": "李云贞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-云祭",
+      "name": "李云祭",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-云清",
+      "name": "李云清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-李云甲之妻",
+      "name": "李云甲之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:16-李云德之妻",
+      "name": "李云德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-有先",
+      "name": "李有先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-有恒",
+      "name": "李有恒",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-有海",
+      "name": "李有海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-李有伦之妻",
+      "name": "李有伦之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:17-李有山之妻",
+      "name": "李有山之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "洪氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:18-李再华之妻",
+      "name": "李再华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:18-李再明之妻",
+      "name": "李再明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "严氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:18-李再运之妻",
+      "name": "李再运之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:19-卢启英",
+      "name": "卢启英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1922
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt:20-安学",
+      "name": "李安学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:13-正坤",
+      "b": "lipu:lichengzhilmt:13-李正坤之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:13-正坤",
+      "child": "lipu:lichengzhilmt:14-朝举"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:13-正祥",
+      "b": "lipu:lichengzhilmt:13-李正祥之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhi:14-朝富",
+      "b": "lipu:lichengzhilmt:14-李朝富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:14-朝富",
+      "child": "lipu:lichengzhilmt:15-学武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:13-正祥",
+      "child": "lipu:lichengzhilmt:14-朝崇"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:14-朝崇",
+      "b": "lipu:lichengzhilmt:14-李朝崇之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:14-朝崇",
+      "child": "lipu:lichengzhilmt:15-学仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhi:14-朝富",
+      "child": "lipu:lichengzhilmt:15-学周"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:15-学周",
+      "b": "lipu:lichengzhilmt:15-李学周之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:14-朝崇",
+      "child": "lipu:lichengzhilmt:15-学贞"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:15-学贞",
+      "b": "lipu:lichengzhilmt:15-李学贞之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:15-学贞",
+      "child": "lipu:lichengzhilmt:16-云兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:15-学贞",
+      "child": "lipu:lichengzhilmt:16-云贞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:15-学贞",
+      "child": "lipu:lichengzhilmt:16-云祭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:15-学贞",
+      "child": "lipu:lichengzhilmt:16-云清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:15-学周",
+      "child": "lipu:lichengzhilmt:16-云甲"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:16-云甲",
+      "b": "lipu:lichengzhilmt:16-李云甲之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:15-学贞",
+      "child": "lipu:lichengzhilmt:16-云德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:16-云德",
+      "b": "lipu:lichengzhilmt:16-李云德之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:16-云德",
+      "child": "lipu:lichengzhilmt:17-有先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:16-云德",
+      "child": "lipu:lichengzhilmt:17-有恒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:16-云德",
+      "child": "lipu:lichengzhilmt:17-有海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:16-云甲",
+      "child": "lipu:lichengzhilmt:17-有伦"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:17-有伦",
+      "b": "lipu:lichengzhilmt:17-李有伦之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:16-云德",
+      "child": "lipu:lichengzhilmt:17-有山"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:17-有山",
+      "b": "lipu:lichengzhilmt:17-李有山之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:17-有伦",
+      "child": "lipu:lichengzhilmt:18-再华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:18-再华",
+      "b": "lipu:lichengzhilmt:18-李再华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:17-有伦",
+      "child": "lipu:lichengzhilmt:18-再明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:18-再明",
+      "b": "lipu:lichengzhilmt:18-李再明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:17-有伦",
+      "child": "lipu:lichengzhilmt:18-再运"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:18-再运",
+      "b": "lipu:lichengzhilmt:18-李再运之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:18-再华",
+      "child": "lipu:lichengzhilmt:19-德全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:18-再华",
+      "child": "lipu:lichengzhilmt:19-德仲"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt:19-卢启英",
+      "b": "lipu:lichengzhilmt:19-德仲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:19-德仲",
+      "child": "lipu:lichengzhilmt:20-安学"
+    }
+  ]
+}

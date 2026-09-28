@@ -1,0 +1,161 @@
+{
+  "key": "lipu:lichengzhilmt3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichengzhilmt:18-再明",
+      "name": "李再明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡芦茅塘。"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:19-德元",
+      "name": "李德元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1914
+      },
+      "death": {
+        "year": 1983
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡芦茅塘。1914年6月16日生于鸡场坡芦茅塘，殁于1983年腊月二十五，葬于水头上岩上，任过复兴乡（鸡场坡乡）保长。偶陈国珍1919年9月27日生于六枝特区新华张家寨，生安贵，女安秀、娥妹、玉婵、菊妹、幺妹；续龙氏生安学"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:19-德光",
+      "name": "李德光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡芦茅塘。1931年12月3日生于鸡场坡烂坝脚，偶程国秀1924年生于织金县熊家场化作，殁后葬于鸡场坡烂坝脚陈家包包"
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:19-陈国珍",
+      "name": "陈国珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1919
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:20-安贵",
+      "name": "李安贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:20-安学",
+      "name": "李安学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:19-程国秀",
+      "name": "程国秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1924
+      }
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:20-安华",
+      "name": "李安华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichengzhilmt3:20-安志",
+      "name": "李安志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡芦茅塘",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡芦茅塘"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:18-再明",
+      "child": "lipu:lichengzhilmt3:19-德元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt3:19-德元",
+      "b": "lipu:lichengzhilmt3:19-陈国珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt3:19-德元",
+      "child": "lipu:lichengzhilmt3:20-安贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt3:19-德元",
+      "child": "lipu:lichengzhilmt3:20-安学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt:18-再明",
+      "child": "lipu:lichengzhilmt3:19-德光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichengzhilmt3:19-德光",
+      "b": "lipu:lichengzhilmt3:19-程国秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt3:19-德光",
+      "child": "lipu:lichengzhilmt3:20-安华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichengzhilmt3:19-德光",
+      "child": "lipu:lichengzhilmt3:20-安志"
+    }
+  ]
+}

@@ -28,9 +28,16 @@ for spec in sys.argv[3:]:
     while changed:
         changed = False
         for p in people:
-            # fatherIndex entries have an ambiguous same-name father; never sweep
-            # them by name — name them as a group head instead.
-            if p in moved or not p.get("father") or p.get("fatherIndex") is not None:
+            if p in moved or not p.get("father"):
+                continue
+            fi = p.get("fatherIndex")
+            if fi is not None:
+                # Same-name fathers: follow the exact father object (fi-th of that
+                # gen+name in entry order), and drop the index once it is moved —
+                # the new file holds only that one father.
+                same = [q for q in people if q["gen"] == p["gen"] - 1 and q["name"] == p["father"]]
+                if fi < len(same) and (same[fi] in moved or same[fi] in heads):
+                    moved.append(p); frontier.add((p["gen"], p["name"])); changed = True
                 continue
             if (p["gen"] - 1, p["father"]) in frontier:
                 moved.append(p); frontier.add((p["gen"], p["name"])); changed = True
@@ -54,6 +61,8 @@ for spec in sys.argv[3:]:
         stub_refs.setdefault(pid, []).append((stubs[-1], h))
         h["children"] = []
         h["bio"] = (h.get("bio") or "") + ("。" if h.get("bio") else "") + f"子嗣见{label}"
+    for m in moved:
+        m.pop("fatherIndex", None)
     people = [p for p in people if p not in moved]
     out = dict(src, branchKey=newkey, branchLabel=src["branchLabel"].split("（")[0] + "·" + label + "（上承" + "、".join(parents) + "）",
                people=stubs + moved)
