@@ -1,0 +1,172 @@
+{
+  "key": "lipu:lihongkaimd",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lihongkaimd:16-洪开",
+      "name": "李洪开",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·龙场乡骂渡村。上承纳雍旮期李万芬支系15代李正发分支。生、殁于旮期，姙杨氏殁于骂渡村"
+    },
+    {
+      "externalId": "lipu:lihongkaimd:17-宗良",
+      "name": "李宗良",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·龙场乡骂渡村。姙王氏"
+    },
+    {
+      "externalId": "lipu:lihongkaimd:18-德顺",
+      "name": "李德顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·龙场乡骂渡村。1931年9月22日生于骂渡村，姙高氏1931年8月15日生"
+    },
+    {
+      "externalId": "lipu:lihongkaimd:16-李洪开之妻",
+      "name": "李洪开之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongkaimd:17-李宗良之妻",
+      "name": "李宗良之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lihongkaimd:18-李德顺之妻",
+      "name": "李德顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "高氏"
+      ],
+      "birth": {
+        "year": 1931
+      }
+    },
+    {
+      "externalId": "lipu:lihongkaimd:19-崇荣",
+      "name": "李崇荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongkaimd:19-崇华",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongkaimd:19-崇付",
+      "name": "李崇付",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lihongkaimd:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·龙场乡骂渡村",
+      "birthPlace": {
+        "region": "贵州普定·龙场乡骂渡村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongkaimd:16-李洪开之妻",
+      "b": "lipu:lihongkaimd:16-洪开"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongkaimd:16-洪开",
+      "child": "lipu:lihongkaimd:17-宗良"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongkaimd:17-宗良",
+      "b": "lipu:lihongkaimd:17-李宗良之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongkaimd:17-宗良",
+      "child": "lipu:lihongkaimd:18-德顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lihongkaimd:18-德顺",
+      "b": "lipu:lihongkaimd:18-李德顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongkaimd:18-德顺",
+      "child": "lipu:lihongkaimd:19-崇荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongkaimd:18-德顺",
+      "child": "lipu:lihongkaimd:19-崇华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongkaimd:18-德顺",
+      "child": "lipu:lihongkaimd:19-崇付"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lihongkaimd:18-德顺",
+      "child": "lipu:lihongkaimd:19-崇贵"
+    }
+  ]
+}
