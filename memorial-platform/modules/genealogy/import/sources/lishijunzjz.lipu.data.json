@@ -1,0 +1,666 @@
+{
+  "key": "lipu:lishijunzjz",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishijunzjz:11-世俊",
+      "name": "李世俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·鸡场坡乡赵家寨。上承10代李牙三从11代起"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:12-玉先",
+      "name": "李玉先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1754
+      },
+      "death": {
+        "year": 1830
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·鸡场坡乡赵家寨。1754年8月25日生于平坝县补郎支蒋杨寨卫家庄，殁于1830年6月20日，葬于太平里九甲骂若小寨岩脚小箐，有碑记（1849年立）。姙陈氏"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:13-仕美",
+      "name": "李仕美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·鸡场坡乡赵家寨。谱作杨仕美。殁于骂若，葬于小寨竹林头。姙周氏生杨清、杨浩。续姙陈氏迁米罗仲（待查）"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:14-杨清",
+      "name": "李杨清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·鸡场坡乡赵家寨。生、殁、葬于骂若。姙黄氏、周氏"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:15-文杨",
+      "name": "李文杨",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·鸡场坡乡赵家寨。生于骂若葬于普定化处空山洞前，姙张氏葬址同上"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:16-朝顶",
+      "name": "李朝顶",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·鸡场坡乡赵家寨。生于化处，葬于鸡场坡乡白桥小桥边，姙毛氏葬址同上"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:17-灿发",
+      "name": "李灿发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡赵家寨。生于化处，殁于赵家寨，葬于撂水岩，姙石氏生、殁于赵家寨，葬于支家包，生宗明、宗才；续姙陈氏生于坡脚，殁于赵家寨，葬于撂水岩坡顶，生宗山"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:17-灿祥",
+      "name": "李灿祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·鸡场坡乡赵家寨。生于白桥村赵家寨，后迁居鸡场村周家坝湾子定居。葬于周家坝，姙何氏逝于周家坝，葬于小田茶山"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:18-宗山",
+      "name": "李宗山",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1907
+      },
+      "death": {
+        "year": 1949
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡赵家寨。1907年生于赵家寨，1949年葬对门包包，姙付氏1912年生于织金县白泥乡喻家坝。1995年殁葬沙田，享年85岁"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:18-宗合",
+      "name": "李宗合",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·鸡场坡乡赵家寨。殁于湾子头，葬于湾子头附近，姙余氏殁于湾子头，葬于湾子头附近"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:19-德光",
+      "name": "李德光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1941
+      },
+      "living": true,
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡赵家寨。1941年五月初四生于赵家寨，偶廖苹英1946年6月14日生于织金阿弓镇辣子冲"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:19-德忠",
+      "name": "李德忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1932
+      },
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·鸡场坡乡赵家寨。1932年10月18日生于湾子头，偶张兴凤1937年8月8日生于织金白泥小冲头"
+    },
+    {
+      "externalId": "lipu:lishijunzjz:12-玉连",
+      "name": "李玉连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:12-玉林",
+      "name": "李玉林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:12-玉族",
+      "name": "李玉族",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:12-李玉先之妻",
+      "name": "李玉先之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:13-李仕美之妻",
+      "name": "李仕美之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:14-杨浩",
+      "name": "李杨浩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:14-李杨清之妻",
+      "name": "李杨清之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "黄氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:15-李文杨之妻",
+      "name": "李文杨之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:16-李朝顶之妻",
+      "name": "李朝顶之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "毛氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:17-灿章",
+      "name": "李灿章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:17-李灿发之妻",
+      "name": "李灿发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "石氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:18-宗明",
+      "name": "李宗明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:18-宗才",
+      "name": "李宗才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:17-李灿祥之妻",
+      "name": "李灿祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "何氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:18-李宗山之妻",
+      "name": "李宗山之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "付氏"
+      ],
+      "birth": {
+        "year": 1912
+      },
+      "death": {
+        "year": 1995
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:19-德兴",
+      "name": "李德兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:19-德昌",
+      "name": "李德昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:18-李宗合之妻",
+      "name": "李宗合之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "余氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijunzjz:19-廖苹英",
+      "name": "廖苹英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1946
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijunzjz:20-崇荣",
+      "name": "李崇荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijunzjz:19-张兴凤",
+      "name": "张兴凤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1937
+      }
+    },
+    {
+      "externalId": "lipu:lishijunzjz:20-崇华",
+      "name": "李崇华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijunzjz:20-崇友",
+      "name": "李崇友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijunzjz:20-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijunzjz:20-崇学",
+      "name": "李崇学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishijunzjz:20-崇江",
+      "name": "李崇江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·鸡场坡乡赵家寨",
+      "birthPlace": {
+        "region": "贵州普定·鸡场坡乡赵家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:11-世俊",
+      "child": "lipu:lishijunzjz:12-玉连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:11-世俊",
+      "child": "lipu:lishijunzjz:12-玉林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:11-世俊",
+      "child": "lipu:lishijunzjz:12-玉族"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:11-世俊",
+      "child": "lipu:lishijunzjz:12-玉先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:12-李玉先之妻",
+      "b": "lipu:lishijunzjz:12-玉先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:12-玉先",
+      "child": "lipu:lishijunzjz:13-仕美"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:13-仕美",
+      "b": "lipu:lishijunzjz:13-李仕美之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:13-仕美",
+      "child": "lipu:lishijunzjz:14-杨浩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:13-仕美",
+      "child": "lipu:lishijunzjz:14-杨清"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:14-李杨清之妻",
+      "b": "lipu:lishijunzjz:14-杨清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:14-杨清",
+      "child": "lipu:lishijunzjz:15-文杨"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:15-文杨",
+      "b": "lipu:lishijunzjz:15-李文杨之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:15-文杨",
+      "child": "lipu:lishijunzjz:16-朝顶"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:16-朝顶",
+      "b": "lipu:lishijunzjz:16-李朝顶之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:16-朝顶",
+      "child": "lipu:lishijunzjz:17-灿章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:16-朝顶",
+      "child": "lipu:lishijunzjz:17-灿发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:17-李灿发之妻",
+      "b": "lipu:lishijunzjz:17-灿发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:17-灿发",
+      "child": "lipu:lishijunzjz:18-宗明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:17-灿发",
+      "child": "lipu:lishijunzjz:18-宗才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:16-朝顶",
+      "child": "lipu:lishijunzjz:17-灿祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:17-李灿祥之妻",
+      "b": "lipu:lishijunzjz:17-灿祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:17-灿发",
+      "child": "lipu:lishijunzjz:18-宗山"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:18-宗山",
+      "b": "lipu:lishijunzjz:18-李宗山之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:18-宗山",
+      "child": "lipu:lishijunzjz:19-德兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:18-宗山",
+      "child": "lipu:lishijunzjz:19-德昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:17-灿祥",
+      "child": "lipu:lishijunzjz:18-宗合"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:18-宗合",
+      "b": "lipu:lishijunzjz:18-李宗合之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:18-宗山",
+      "child": "lipu:lishijunzjz:19-德光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:19-廖苹英",
+      "b": "lipu:lishijunzjz:19-德光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:19-德光",
+      "child": "lipu:lishijunzjz:20-崇荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:18-宗合",
+      "child": "lipu:lishijunzjz:19-德忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijunzjz:19-张兴凤",
+      "b": "lipu:lishijunzjz:19-德忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:19-德忠",
+      "child": "lipu:lishijunzjz:20-崇华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:19-德忠",
+      "child": "lipu:lishijunzjz:20-崇友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:19-德忠",
+      "child": "lipu:lishijunzjz:20-崇贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:19-德忠",
+      "child": "lipu:lishijunzjz:20-崇学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijunzjz:19-德忠",
+      "child": "lipu:lishijunzjz:20-崇江"
+    }
+  ]
+}
