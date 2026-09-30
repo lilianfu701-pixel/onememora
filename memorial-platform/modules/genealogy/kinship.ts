@@ -1,4 +1,4 @@
-import { eq } from "drizzle-orm";
+import { and, eq, inArray, isNull, or } from "drizzle-orm";
 import { db } from "@/db/client";
 import { deceasedPeople, familyLinks, familyPeople, memorials } from "@/db/schema";
 
@@ -74,8 +74,9 @@ function yearOf(dateString: string | null): number | null {
 }
 
 /**
- * Loads every confirmed edge and each node's gender and birth year. The graph
- * is small — one extended family — so it is read whole rather than crawled.
+ * Loads every confirmed edge and each node's gender and birth year across the
+ * whole site. Offline tools only: pages use {@link loadGraphAround}, because
+ * imported clans make the full graph far too large to read per request.
  */
 async function loadGraph(): Promise<Graph> {
   const people = await db()
@@ -334,13 +335,119 @@ export function buildGraph(input: {
   return { meta, parents, partners };
 }
 
+export type GraphSource = {
+  /** Current (not dissolved) confirmed partner pairs touching any of `ids`. */
+  partnersOf(ids: string[]): Promise<{ aId: string; bId: string }[]>;
+  /** Confirmed parent edges whose child is one of `ids`. */
+  parentsOf(ids: string[]): Promise<{ parentId: string; childId: string }[]>;
+  metaOf(ids: string[]): Promise<NodeMeta[]>;
+};
+
 /**
- * The kinship of every graph member to the person behind `memorialId`, keyed by
- * `familyPeople.id`. Returns an empty map when the memorial has no node yet —
- * the ordinary case for a memorial nobody has linked.
+ * The part of the graph `classify` can reach from `rootId` and `targetIds`:
+ * each of them and their current partners, plus up to MAX_GEN generations of
+ * ancestors of all of those. Classifying any target over this subgraph gives
+ * the same result as over the whole graph, because classify only walks
+ * parents up to MAX_GEN from the root, the target and their partners.
+ */
+export async function loadGraphAround(
+  rootId: string,
+  targetIds: readonly string[],
+  source: GraphSource,
+): Promise<Graph> {
+  const seeds = [...new Set([rootId, ...targetIds])];
+  const partners = new Map<string, string[]>();
+  const known = new Set(seeds);
+  for (const { aId, bId } of await source.partnersOf(seeds)) {
+    pushInto(partners, aId, bId);
+    pushInto(partners, bId, aId);
+    known.add(aId);
+    known.add(bId);
+  }
+
+  const parents = new Map<string, string[]>();
+  const expanded = new Set<string>();
+  let frontier = [...known];
+  for (let generation = 0; generation < MAX_GEN && frontier.length > 0; generation += 1) {
+    for (const id of frontier) expanded.add(id);
+    const next: string[] = [];
+    for (const { parentId, childId } of await source.parentsOf(frontier)) {
+      pushInto(parents, childId, parentId);
+      known.add(parentId);
+      if (!expanded.has(parentId)) next.push(parentId);
+    }
+    frontier = [...new Set(next)];
+  }
+
+  const meta = new Map<string, NodeMeta>();
+  for (const node of await source.metaOf([...known])) meta.set(node.id, node);
+  return { meta, parents, partners };
+}
+
+/** Postgres caps bind parameters, so very large id lists are queried in chunks. */
+const ID_CHUNK = 5_000;
+
+async function inChunks<T>(ids: string[], query: (chunk: string[]) => Promise<T[]>): Promise<T[]> {
+  const rows: T[] = [];
+  for (let start = 0; start < ids.length; start += ID_CHUNK) {
+    rows.push(...(await query(ids.slice(start, start + ID_CHUNK))));
+  }
+  return rows;
+}
+
+const databaseGraphSource: GraphSource = {
+  partnersOf: (ids) => inChunks(ids, async (chunk) => {
+    const rows = await db()
+      .select({ aId: familyLinks.personAId, bId: familyLinks.personBId })
+      .from(familyLinks)
+      .where(and(
+        eq(familyLinks.status, "confirmed"),
+        eq(familyLinks.kind, "partner"),
+        isNull(familyLinks.dissolvedAt),
+        or(inArray(familyLinks.personAId, chunk), inArray(familyLinks.personBId, chunk)),
+      ));
+    return rows;
+  }),
+  parentsOf: (ids) => inChunks(ids, async (chunk) => {
+    const rows = await db()
+      .select({ parentId: familyLinks.personAId, childId: familyLinks.personBId })
+      .from(familyLinks)
+      .where(and(
+        eq(familyLinks.status, "confirmed"),
+        eq(familyLinks.kind, "parent"),
+        inArray(familyLinks.personBId, chunk),
+      ));
+    return rows;
+  }),
+  metaOf: (ids) => inChunks(ids, async (chunk) => {
+    const rows = await db()
+      .select({
+        id: familyPeople.id,
+        placeholderBirthYear: familyPeople.birthYear,
+        gender: deceasedPeople.gender,
+        birthDate: deceasedPeople.birthDate,
+      })
+      .from(familyPeople)
+      .leftJoin(deceasedPeople, eq(deceasedPeople.id, familyPeople.deceasedPersonId))
+      .where(inArray(familyPeople.id, chunk));
+    return rows.map((row) => ({
+      id: row.id,
+      gender: normalizeGender(row.gender),
+      birthYear: row.placeholderBirthYear ?? yearOf(row.birthDate),
+    }));
+  }),
+};
+
+/**
+ * The kinship to the person behind `memorialId`, keyed by `familyPeople.id`.
+ * With `targetIds`, only those people are classified and only the part of the
+ * graph they need is read; without it, every graph member is (offline tools).
+ * Returns an empty map when the memorial has no node yet — the ordinary case
+ * for a memorial nobody has linked.
  */
 export async function kinshipFromMemorial(
   memorialId: string,
+  targetIds?: readonly string[],
 ): Promise<Map<string, Kinship>> {
   const [memorial] = await db()
     .select({ deceasedPersonId: memorials.deceasedPersonId })
@@ -354,8 +461,14 @@ export async function kinshipFromMemorial(
     .where(eq(familyPeople.deceasedPersonId, memorial.deceasedPersonId));
   if (!rootPerson) return new Map();
 
-  const graph = await loadGraph();
   const result = new Map<string, Kinship>();
+  if (targetIds) {
+    const graph = await loadGraphAround(rootPerson.id, targetIds, databaseGraphSource);
+    for (const id of new Set(targetIds)) result.set(id, classify(rootPerson.id, id, graph));
+    return result;
+  }
+
+  const graph = await loadGraph();
   for (const id of graph.meta.keys()) {
     result.set(id, classify(rootPerson.id, id, graph));
   }

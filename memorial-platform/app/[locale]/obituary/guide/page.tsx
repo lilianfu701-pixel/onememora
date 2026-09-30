@@ -3,8 +3,6 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { GUIDES, RELATED_LABEL, guideTitle } from "@/content/guides";
 
-export const dynamic = "force-dynamic";
-
 export async function generateMetadata(props: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {

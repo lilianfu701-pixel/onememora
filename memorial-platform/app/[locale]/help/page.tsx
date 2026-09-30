@@ -2,8 +2,6 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-export const dynamic = "force-dynamic";
-
 const FAQ_ITEMS = [1, 2, 3, 4, 5, 6] as const;
 
 export async function generateMetadata(props: {

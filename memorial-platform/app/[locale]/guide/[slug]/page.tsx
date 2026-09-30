@@ -10,7 +10,12 @@ import {
   guideTitle,
 } from "@/content/guides";
 
-export const dynamic = "force-dynamic";
+// Pure content: every locale × guide is rendered once at build time.
+export const dynamicParams = false;
+
+export function generateStaticParams(): { slug: string }[] {
+  return GUIDES.map((guide) => ({ slug: guide.slug }));
+}
 
 export async function generateMetadata(props: {
   params: Promise<{ locale: string; slug: string }>;

@@ -88,7 +88,13 @@ export default async function FamilyTreePage(props: {
 
   const familyView =
     graphTree && visible(graphTree) > visible(relativeView?.tree ?? null)
-      ? { tree: graphTree, kinship: await kinshipFromMemorial(detail.memorialId) }
+      ? {
+          tree: graphTree,
+          kinship: await kinshipFromMemorial(
+            detail.memorialId,
+            graphTree.nodes.flatMap((node) => (node.visible ? [node.personId] : [])),
+          ),
+        }
       : relativeView;
 
   // Faces on the chart. Look up which linked people actually have a portrait,
