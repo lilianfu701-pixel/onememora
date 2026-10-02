@@ -469,6 +469,8 @@ import lipu_lishizhengsj from "./lishizhengsj.lipu.data.json";
 import lipu_lizongxiangxgz from "./lizongxiangxgz.lipu.data.json";
 import lipu_lizongkuixgz from "./lizongkuixgz.lipu.data.json";
 import lipu_lizhengjusld from "./lizhengjusld.lipu.data.json";
+import lipu_lirukunsj from "./lirukunsj.lipu.data.json";
+import lipu_liyongxihjz from "./liyongxihjz.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -937,6 +939,8 @@ const LABELS: Record<string, string> = {
   lizongxiangxgz: "普定补郎小革枝·李宗祥一支",
   lizongkuixgz: "普定补郎小革枝·李宗奎一支",
   lizhengjusld: "普定猴场乡西北田坝·李正举一支·宗美房",
+  lirukunsj: "普定补郎石阶路·李如坤一支",
+  liyongxihjz: "普定补郎何家寨·李永锡一支",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -1405,6 +1409,8 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lizongxiangxgz", lipu_lizongxiangxgz as GenealogyDataset],
   ["lizongkuixgz", lipu_lizongkuixgz as GenealogyDataset],
   ["lizhengjusld", lipu_lizhengjusld as GenealogyDataset],
+  ["lirukunsj", lipu_lirukunsj as GenealogyDataset],
+  ["liyongxihjz", lipu_liyongxihjz as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
