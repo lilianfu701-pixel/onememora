@@ -1,0 +1,180 @@
+{
+  "key": "lipu:lishiyuanjs",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiyuanyl:15-如楷",
+      "name": "李如楷",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·坪上乡街上。此谱载世元生大成；大成生士学；士学生绍宗；绍宗生如楷"
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:16-天愧",
+      "name": "李天愧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·坪上乡街上。"
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:17-宗武",
+      "name": "李宗武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·坪上乡街上。"
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:18-德顺",
+      "name": "李德顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·坪上乡街上。葬于坪上小坡上，姙陈荷英葬于坪上望坡"
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:19-崇武",
+      "name": "李崇武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1916
+      },
+      "death": {
+        "year": 1995
+      },
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·坪上乡街上。1916年三月初十生于纳雍猫沟寨，殁于1995年10月12日，享年29岁（谱载如此），葬于坪上村大岩地，有碑记。姙王翠莲1921年八月初五生于坪上，殁于1996年4月，葬于石岩婆婆"
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:18-陈荷英",
+      "name": "陈荷英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female"
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:19-王翠莲",
+      "name": "王翠莲",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1921
+      },
+      "death": {
+        "year": 1996
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanjs:20-隆有",
+      "name": "李隆有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡街上",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡街上"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:15-如楷",
+      "child": "lipu:lishiyuanjs:16-天愧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanjs:16-天愧",
+      "child": "lipu:lishiyuanjs:17-宗武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanjs:17-宗武",
+      "child": "lipu:lishiyuanjs:18-德顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanjs:18-德顺",
+      "b": "lipu:lishiyuanjs:18-陈荷英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanjs:18-德顺",
+      "child": "lipu:lishiyuanjs:19-崇武"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanjs:19-崇武",
+      "b": "lipu:lishiyuanjs:19-王翠莲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanjs:19-崇武",
+      "child": "lipu:lishiyuanjs:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanjs:19-崇武",
+      "child": "lipu:lishiyuanjs:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanjs:19-崇武",
+      "child": "lipu:lishiyuanjs:20-隆有"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "key": "lipu:lidequansg",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lidequansg:18-德全",
+      "name": "李德全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1869
+      },
+      "death": {
+        "year": 1893
+      },
+      "ancestralHometown": "贵州普定·坪上乡砂锅村",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡砂锅村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡砂锅村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·坪上乡砂锅村。上承织金以那拱桥分支。1869年1月8日生于纳雍岩脚寨，1893年殁于本寨，葬于毛栗坝赵家桥，姙罗氏1866年生于织金县三塘，1922年殁于岩脚寨，葬于硝硐扯布垮"
+    },
+    {
+      "externalId": "lipu:lidequansg:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1921
+      },
+      "ancestralHometown": "贵州普定·坪上乡砂锅村",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡砂锅村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡砂锅村"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·坪上乡砂锅村。生于1921年（谱载如此），姙朱氏生于1921年7月，殁于1982年，葬河头付家墓"
+    },
+    {
+      "externalId": "lipu:lidequansg:18-李德全之妻",
+      "name": "李德全之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ],
+      "birth": {
+        "year": 1866
+      },
+      "death": {
+        "year": 1922
+      }
+    },
+    {
+      "externalId": "lipu:lidequansg:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朱氏"
+      ],
+      "birth": {
+        "year": 1921
+      },
+      "death": {
+        "year": 1982
+      }
+    },
+    {
+      "externalId": "lipu:lidequansg:20-隆飞",
+      "name": "李隆飞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡砂锅村",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡砂锅村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lidequansg:18-德全",
+      "b": "lipu:lidequansg:18-李德全之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidequansg:18-德全",
+      "child": "lipu:lidequansg:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidequansg:19-崇贵",
+      "b": "lipu:lidequansg:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidequansg:19-崇贵",
+      "child": "lipu:lidequansg:20-隆飞"
+    }
+  ]
+}
