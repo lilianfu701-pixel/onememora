@@ -500,6 +500,13 @@ import lipu_lirimingwz from "./lirimingwz.lipu.data.json";
 import lipu_lichaomeiltk from "./lichaomeiltk.lipu.data.json";
 import lipu_liyuchush from "./liyuchush.lipu.data.json";
 import lipu_lihongshunyj from "./lihongshunyj.lipu.data.json";
+import lipu_lichaozuodb from "./lichaozuodb.lipu.data.json";
+import lipu_lichaozuodb2 from "./lichaozuodb2.lipu.data.json";
+import lipu_lichaozuodb3 from "./lichaozuodb3.lipu.data.json";
+import lipu_lichaozuodb4 from "./lichaozuodb4.lipu.data.json";
+import lipu_lichaozuodb5 from "./lichaozuodb5.lipu.data.json";
+import lipu_lichaozuodb6 from "./lichaozuodb6.lipu.data.json";
+import lipu_lichaozuodb7 from "./lichaozuodb7.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -999,6 +1006,13 @@ const LABELS: Record<string, string> = {
   lichaomeiltk: "普定马场镇龙潭口村·李朝美一支",
   liyuchush: "普定马场镇三合村·李玉楚一支",
   lihongshunyj: "普定化处镇袁家寨·李洪顺一支",
+  lichaozuodb: "普定化处镇朵贝村·李朝佐一支",
+  lichaozuodb2: "朵贝村·李朝佐一支·烂房春杨春发",
+  lichaozuodb3: "朵贝村·李朝佐一支·琏房及春浓",
+  lichaozuodb4: "朵贝村·李朝佐一支·春馨春芳房",
+  lichaozuodb5: "朵贝村·李朝佐一支·春奎房",
+  lichaozuodb6: "朵贝村·李朝佐一支·春舒春松房",
+  lichaozuodb7: "朵贝村·李朝佐一支·如沙房",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -1498,6 +1512,13 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lichaomeiltk", lipu_lichaomeiltk as GenealogyDataset],
   ["liyuchush", lipu_liyuchush as GenealogyDataset],
   ["lihongshunyj", lipu_lihongshunyj as GenealogyDataset],
+  ["lichaozuodb", lipu_lichaozuodb as GenealogyDataset],
+  ["lichaozuodb2", lipu_lichaozuodb2 as GenealogyDataset],
+  ["lichaozuodb3", lipu_lichaozuodb3 as GenealogyDataset],
+  ["lichaozuodb4", lipu_lichaozuodb4 as GenealogyDataset],
+  ["lichaozuodb5", lipu_lichaozuodb5 as GenealogyDataset],
+  ["lichaozuodb6", lipu_lichaozuodb6 as GenealogyDataset],
+  ["lichaozuodb7", lipu_lichaozuodb7 as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],

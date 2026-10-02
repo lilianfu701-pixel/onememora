@@ -1,0 +1,138 @@
+{
+  "key": "lipu:lichaozuodb7",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaozuodb7:15-如沙",
+      "name": "李如沙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·化处镇朵贝村。谱列第十五代，父名缺（第十四代「李春」名缺字）。姙朝氏"
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:16-长盛",
+      "name": "李长盛",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·化处镇朵贝村。姙胡氏"
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:16-长尧",
+      "name": "李长尧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·化处镇朵贝村。姙饶氏"
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:15-李如沙之妻",
+      "name": "李如沙之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朝氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:16-李长盛之妻",
+      "name": "李长盛之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "胡氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:17-克让",
+      "name": "李克让",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:16-李长尧之妻",
+      "name": "李长尧之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "饶氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb7:17-克忍",
+      "name": "李克忍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb7:15-如沙",
+      "b": "lipu:lichaozuodb7:15-李如沙之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb7:15-如沙",
+      "child": "lipu:lichaozuodb7:16-长盛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb7:16-李长盛之妻",
+      "b": "lipu:lichaozuodb7:16-长盛"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb7:16-长盛",
+      "child": "lipu:lichaozuodb7:17-克让"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb7:15-如沙",
+      "child": "lipu:lichaozuodb7:16-长尧"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb7:16-李长尧之妻",
+      "b": "lipu:lichaozuodb7:16-长尧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb7:16-长尧",
+      "child": "lipu:lichaozuodb7:17-克忍"
+    }
+  ]
+}

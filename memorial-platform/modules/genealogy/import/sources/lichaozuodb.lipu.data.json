@@ -1,0 +1,717 @@
+{
+  "key": "lipu:lichaozuodb",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichaozuodb:11-朝佐",
+      "name": "李朝佐",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·化处镇朵贝村。上承李天茂支系。葬于乡利坡，有碑记。姙刘氏葬于梅家坟，有碑记"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:11-朝圣",
+      "name": "李朝圣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·化处镇朵贝村。葬于野猪洞"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:11-朝玺",
+      "name": "李朝玺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第11代，贵州普定·化处镇朵贝村。葬于平坝坝，有碑记。姙田氏葬于平坝坝，有碑记，生自雄、自明；续姙张氏葬于乡利坡，有碑记"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自扬",
+      "name": "李自扬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·化处镇朵贝村。谱作自杨。葬于老祖坟，有碑记。姙饶氏葬于茶子林，生（名缺）；刘氏葬于梅家坟，有碑记，生璞、衍"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自学",
+      "name": "李自学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·化处镇朵贝村。自学、自坤同出于云南腊码立王位同故土"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自雄",
+      "name": "李自雄",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·化处镇朵贝村。葬于陡坡。姙朱氏葬于尖角地，有碑记"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自明",
+      "name": "李自明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·化处镇朵贝村。葬于牛滚塘左侧，有碑记。姙陈氏、欧氏"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-琏",
+      "name": "李琏",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·化处镇朵贝村。葬于尖角地，姙邹氏。子嗣见琏房及春浓"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-烂",
+      "name": "李烂",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·化处镇朵贝村。姙吴氏、袁氏"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春馨",
+      "name": "李春馨",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。谱第十三代此条名缺，未载其父（其父葬于高寨后迁葬杨柳，姙陈氏葬于银厂冲）。春馨葬于包包顶，姙陈氏葬于包包地。子嗣见春馨春芳房"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春芳",
+      "name": "李春芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。谱第十三代此条名缺，未载其父（其父葬于下寨三岔地，有碑记，姙杨氏）。春芳葬于小龙潭，姙徐、杨氏。子嗣见春馨春芳房"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春奎",
+      "name": "李春奎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。谱第十三代此条名缺，未载其父（其父葬于石牛坡，有碑记，姙陈氏、张氏，生春华、春奎、春舒、春松）。春奎葬于平坝坝，有碑记，姙莱氏葬于茶子林，有碑记；陈氏葬于雷公田。子嗣见春奎房"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春舒",
+      "name": "李春舒",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。春奎之弟。葬于园包包，有碑记，姙陈氏葬于张家园。子嗣见春舒春松房"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春松",
+      "name": "李春松",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。春奎之弟。葬于水井冲，姙陈氏葬于包包顶。生二子，谱作「李如」「李加」，名末字缺。子嗣见春舒春松房"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春浓",
+      "name": "李春浓",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。葬于陈家大田左侧，有碑记，姙张氏、梅氏、孙氏、邓氏。子嗣见琏房及春浓"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春杨",
+      "name": "李春杨",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。葬于张家园；姙孙氏。子嗣见烂房春杨春发"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春发",
+      "name": "李春发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·化处镇朵贝村。葬于未屎坝，姙高氏葬于那吏。子嗣见烂房春杨春发"
+    },
+    {
+      "externalId": "lipu:lichaozuodb:11-李朝佐之妻",
+      "name": "李朝佐之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自起",
+      "name": "李自起",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自义",
+      "name": "李自义",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自乾",
+      "name": "李自乾",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-自坤",
+      "name": "李自坤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:11-李朝玺之妻",
+      "name": "李朝玺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-李自扬之妻",
+      "name": "李自扬之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "饶氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-璞",
+      "name": "李璞",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-衍",
+      "name": "李衍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-李自雄之妻",
+      "name": "李自雄之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-璠",
+      "name": "李璠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-琳",
+      "name": "李琳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:12-李自明之妻",
+      "name": "李自明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-李琏之妻",
+      "name": "李琏之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "邹氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:13-李烂之妻",
+      "name": "李烂之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "吴氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春达",
+      "name": "李春达",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春连",
+      "name": "李春连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-春选",
+      "name": "李春选",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-老七",
+      "name": "李老七",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·化处镇朵贝村",
+      "birthPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·化处镇朵贝村"
+      }
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春馨之妻",
+      "name": "李春馨之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春芳之妻",
+      "name": "李春芳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "徐氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春奎之妻",
+      "name": "李春奎之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "莱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春舒之妻",
+      "name": "李春舒之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春松之妻",
+      "name": "李春松之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春浓之妻",
+      "name": "李春浓之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春杨之妻",
+      "name": "李春杨之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "孙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichaozuodb:14-李春发之妻",
+      "name": "李春发之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "高氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:11-朝佐",
+      "b": "lipu:lichaozuodb:11-李朝佐之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝佐",
+      "child": "lipu:lichaozuodb:12-自起"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝佐",
+      "child": "lipu:lichaozuodb:12-自义"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝佐",
+      "child": "lipu:lichaozuodb:12-自乾"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝佐",
+      "child": "lipu:lichaozuodb:12-自坤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:11-朝玺",
+      "b": "lipu:lichaozuodb:11-李朝玺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝佐",
+      "child": "lipu:lichaozuodb:12-自扬"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:12-李自扬之妻",
+      "b": "lipu:lichaozuodb:12-自扬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:12-自扬",
+      "child": "lipu:lichaozuodb:13-璞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:12-自扬",
+      "child": "lipu:lichaozuodb:13-衍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝佐",
+      "child": "lipu:lichaozuodb:12-自学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝玺",
+      "child": "lipu:lichaozuodb:12-自雄"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:12-李自雄之妻",
+      "b": "lipu:lichaozuodb:12-自雄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:12-自雄",
+      "child": "lipu:lichaozuodb:13-璠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:12-自雄",
+      "child": "lipu:lichaozuodb:13-琳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:11-朝玺",
+      "child": "lipu:lichaozuodb:12-自明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:12-李自明之妻",
+      "b": "lipu:lichaozuodb:12-自明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:12-自雄",
+      "child": "lipu:lichaozuodb:13-琏"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:13-李琏之妻",
+      "b": "lipu:lichaozuodb:13-琏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:12-自明",
+      "child": "lipu:lichaozuodb:13-烂"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:13-李烂之妻",
+      "b": "lipu:lichaozuodb:13-烂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-春达"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-春连"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-春选"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-老七"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春馨",
+      "b": "lipu:lichaozuodb:14-李春馨之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春芳",
+      "b": "lipu:lichaozuodb:14-李春芳之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春奎",
+      "b": "lipu:lichaozuodb:14-李春奎之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春舒",
+      "b": "lipu:lichaozuodb:14-李春舒之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春松",
+      "b": "lipu:lichaozuodb:14-李春松之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-春浓"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春浓",
+      "b": "lipu:lichaozuodb:14-李春浓之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-春杨"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春杨",
+      "b": "lipu:lichaozuodb:14-李春杨之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichaozuodb:13-烂",
+      "child": "lipu:lichaozuodb:14-春发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichaozuodb:14-春发",
+      "b": "lipu:lichaozuodb:14-李春发之妻"
+    }
+  ]
+}
