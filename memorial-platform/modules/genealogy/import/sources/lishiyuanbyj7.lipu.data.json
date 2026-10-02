@@ -1,0 +1,118 @@
+{
+  "key": "lipu:lishiyuanbyj7",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiyuanbyj7:20-隆光",
+      "name": "李隆光",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1922
+      },
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·马官镇湾河白岩脚银子山。谱列第二十代，未载其父。1922年10月20日生于马官镇湾河村老扁山，姙陈秀珍1914年生于鸡场乡，殁于1965年，葬于银子山小麻窝"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj7:20-隆成",
+      "name": "李隆成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·马官镇湾河白岩脚银子山。谱列第二十代，未载其父。葬于银子山茶树林，偶张少珍1925年生于化处镇偏坡村，现在马官镇湾河村老扁山"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj7:20-陈秀珍",
+      "name": "陈秀珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1914
+      },
+      "death": {
+        "year": 1965
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj7:21-发忠",
+      "name": "李发忠",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj7:21-发连",
+      "name": "李发连",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj7:20-张少珍",
+      "name": "张少珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1925
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj7:21-发富",
+      "name": "李发富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj7:20-陈秀珍",
+      "b": "lipu:lishiyuanbyj7:20-隆光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj7:20-隆光",
+      "child": "lipu:lishiyuanbyj7:21-发忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj7:20-隆光",
+      "child": "lipu:lishiyuanbyj7:21-发连"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj7:20-张少珍",
+      "b": "lipu:lishiyuanbyj7:20-隆成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj7:20-隆成",
+      "child": "lipu:lishiyuanbyj7:21-发富"
+    }
+  ]
+}

@@ -154,7 +154,7 @@
       "deathPlace": {
         "region": "贵州普定·马官镇湾河白岩脚银子山"
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马官镇湾河白岩脚银子山。谱列第十九代，未载其父（德明子作崇武，或即此人）。生于银子山白岩脚，葬于毛栗岗，姙罗氏生于木岗桃冲，葬于小麻窝"
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马官镇湾河白岩脚银子山。谱列第十九代，未载其父（德明子作崇武，或即此人）。生于银子山白岩脚，葬于毛栗岗，姙罗氏生于木岗桃冲，葬于小麻窝。子嗣见宗应崇富房及崇文房"
     },
     {
       "externalId": "lipu:lishiyuanbyj:19-崇富",
@@ -168,7 +168,24 @@
       "deathPlace": {
         "region": "贵州普定·马官镇湾河白岩脚银子山"
       },
-      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马官镇湾河白岩脚银子山。生于旧院坝，葬于高枧房背后小坡，姙郭氏"
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马官镇湾河白岩脚银子山。生于旧院坝，葬于高枧房背后小坡，姙郭氏。子嗣见宗应崇富房及崇文房"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:20-隆方",
+      "name": "李隆方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1910
+      },
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·马官镇湾河白岩脚银子山。1910年生，葬于马路边，姙陈氏1908年生于水母焦家村，殁于1988年8月，葬于小麻窝，续杨氏1906年生于木乃洞，殁于1990年7月，葬于大坟包；女发秀、发情、发华、发珍"
     },
     {
       "externalId": "lipu:lishiyuanbyj:14-李绍宗之妻",
@@ -326,28 +343,6 @@
       ]
     },
     {
-      "externalId": "lipu:lishiyuanbyj:20-隆全",
-      "name": "李隆全",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
-      "birthPlace": {
-        "region": "贵州普定·马官镇湾河白岩脚银子山"
-      },
-      "living": true
-    },
-    {
-      "externalId": "lipu:lishiyuanbyj:20-隆珍",
-      "name": "李隆珍",
-      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
-      "birthPlace": {
-        "region": "贵州普定·马官镇湾河白岩脚银子山"
-      },
-      "living": true
-    },
-    {
       "externalId": "lipu:lishiyuanbyj:19-李崇富之妻",
       "name": "李崇富之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
@@ -357,19 +352,23 @@
       ]
     },
     {
-      "externalId": "lipu:lishiyuanbyj:20-隆芳",
-      "name": "李隆芳",
+      "externalId": "lipu:lishiyuanbyj:20-李隆方之妻",
+      "name": "李隆方之妻",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
-      "clanName": "陇西李氏·李代龙支系",
-      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
-      "birthPlace": {
-        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "birth": {
+        "year": 1908
       },
-      "living": true
+      "death": {
+        "year": 1988
+      }
     },
     {
-      "externalId": "lipu:lishiyuanbyj:20-隆周",
-      "name": "李隆周",
+      "externalId": "lipu:lishiyuanbyj:21-发文",
+      "name": "李发文",
       "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
       "clanName": "陇西李氏·李代龙支系",
       "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
@@ -502,16 +501,6 @@
     },
     {
       "kind": "parent",
-      "parent": "lipu:lishiyuanbyj:19-崇文",
-      "child": "lipu:lishiyuanbyj:20-隆全"
-    },
-    {
-      "kind": "parent",
-      "parent": "lipu:lishiyuanbyj:19-崇文",
-      "child": "lipu:lishiyuanbyj:20-隆珍"
-    },
-    {
-      "kind": "parent",
       "parent": "lipu:lishiyuanbyj:18-德富",
       "child": "lipu:lishiyuanbyj:19-崇富"
     },
@@ -521,14 +510,14 @@
       "b": "lipu:lishiyuanbyj:19-李崇富之妻"
     },
     {
-      "kind": "parent",
-      "parent": "lipu:lishiyuanbyj:19-崇富",
-      "child": "lipu:lishiyuanbyj:20-隆芳"
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:20-李隆方之妻",
+      "b": "lipu:lishiyuanbyj:20-隆方"
     },
     {
       "kind": "parent",
-      "parent": "lipu:lishiyuanbyj:19-崇富",
-      "child": "lipu:lishiyuanbyj:20-隆周"
+      "parent": "lipu:lishiyuanbyj:20-隆方",
+      "child": "lipu:lishiyuanbyj:21-发文"
     }
   ]
 }
