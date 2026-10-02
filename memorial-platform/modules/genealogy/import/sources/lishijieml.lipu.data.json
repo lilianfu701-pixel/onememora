@@ -1,0 +1,705 @@
+{
+  "key": "lipu:lishijieml",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lidaming:12-大明",
+      "name": "李大明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·坪上乡毛栗村新寨。此谱载世杰生大元、大明、大贤；大明生士斌、士龙、黄耶、在伯"
+    },
+    {
+      "externalId": "lipu:lishijieml:13-士龙",
+      "name": "李士龙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·坪上乡毛栗村新寨。"
+    },
+    {
+      "externalId": "lipu:lishijieml:14-绍禹",
+      "name": "李绍禹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·坪上乡毛栗村新寨。姙陈氏"
+    },
+    {
+      "externalId": "lipu:lishijieml:15-如士",
+      "name": "李如士",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·坪上乡毛栗村新寨。"
+    },
+    {
+      "externalId": "lipu:lishijieml:16-天谟",
+      "name": "李天谟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·坪上乡毛栗村新寨。姙卢氏"
+    },
+    {
+      "externalId": "lipu:lishijieml:17-宗有",
+      "name": "李宗有",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·坪上乡毛栗村新寨。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishijieml:18-德贵",
+      "name": "李德贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·坪上乡毛栗村新寨。姙龙氏"
+    },
+    {
+      "externalId": "lipu:lishijieml:19-崇学",
+      "name": "李崇学",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1884
+      },
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·坪上乡毛栗村新寨。1884年5月19日生，住大定府大有里四甲克那冲石阶路。葬于织金县花枝牛滚塘，后迁葬普定县毛栗村少年山，有碑记。姙王氏生于1884年7月11日，殁于1974年8月12日，葬于坪上乡毛栗村新寨大坡上"
+    },
+    {
+      "externalId": "lipu:lishijieml:20-隆才",
+      "name": "李隆才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1909
+      },
+      "death": {
+        "year": 1974
+      },
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·坪上乡毛栗村新寨。1909年2月20日生于大定府大有里三甲毛坪箐口，殁于1974年五月初七，葬于坪上乡毛栗村新寨回龙山。姙杨辉珍1911年冬月十五生于织金县以那架多提小红岩四甲。子嗣见崇学房诸子"
+    },
+    {
+      "externalId": "lipu:lishijieml:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1911
+      },
+      "death": {
+        "year": 1985
+      },
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·坪上乡毛栗村新寨。1911年生于大定府大有里三甲毛坪箐口，殁于1985年5月，葬于坪上乡毛栗村新寨皂角树包包。姙周元珍1919年冬月初二生，殁于2002年2月，葬于坪上乡毛栗村新寨大坡上；生女发珍"
+    },
+    {
+      "externalId": "lipu:lishijieml:20-隆秀",
+      "name": "李隆秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1913
+      },
+      "death": {
+        "year": 1995
+      },
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·坪上乡毛栗村新寨。1913年生于大定府大有里三甲毛坪箐口。殁于1995年10月20日，葬于坪上乡毛栗村新寨野牛圈左下方。姙肖亮才1927年九月初六生于织金县向化里四花树，殁于2000年2月，葬于坪上乡毛栗村新寨椅子形；女发秀、发凤。子嗣见崇学房诸子"
+    },
+    {
+      "externalId": "lipu:lishijieml:20-隆章",
+      "name": "李隆章",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1916
+      },
+      "death": {
+        "year": 1995
+      },
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·坪上乡毛栗村新寨。1916年9月27日生于大有里三甲小岭岗，殁于1995年5月17日，葬于坪上乡毛栗村新寨皂角树包包。姙王良秀1914年腊月二十三生于大定府大有里三甲毛栗小坡上，殁于1998年八月初七，葬于坪上乡毛栗村新寨坡头上安家坝丫口；女发英。子嗣见崇学房诸子"
+    },
+    {
+      "externalId": "lipu:lishijieml:20-隆香",
+      "name": "李隆香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1926
+      },
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·坪上乡毛栗村新寨。1926年3月13日生于平元府大有里3甲箐口。姙卢启华1928年3月25日生于平元府大有里二甲箐口；女发慧、发利。子嗣见崇学房诸子"
+    },
+    {
+      "externalId": "lipu:lishijieml:14-绍尧",
+      "name": "李绍尧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:14-绍舜",
+      "name": "李绍舜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:14-绍汤",
+      "name": "李绍汤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:14-绍文",
+      "name": "李绍文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:14-绍武",
+      "name": "李绍武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:14-李绍禹之妻",
+      "name": "李绍禹之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijieml:16-天元",
+      "name": "李天元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:16-天贤",
+      "name": "李天贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:16-李天谟之妻",
+      "name": "李天谟之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijieml:17-宗方",
+      "name": "李宗方",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:17-宗春",
+      "name": "李宗春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:17-宗华",
+      "name": "李宗华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:17-李宗有之妻",
+      "name": "李宗有之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijieml:18-德兴",
+      "name": "李德兴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:18-德恒",
+      "name": "李德恒",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:18-李德贵之妻",
+      "name": "李德贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "龙氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishijieml:19-崇恩",
+      "name": "李崇恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:19-崇相",
+      "name": "李崇相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:19-崇亮",
+      "name": "李崇亮",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·坪上乡毛栗村新寨",
+      "birthPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·坪上乡毛栗村新寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:19-李崇学之妻",
+      "name": "李崇学之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1884
+      },
+      "death": {
+        "year": 1974
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:20-杨辉珍",
+      "name": "杨辉珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1911
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:20-周元珍",
+      "name": "周元珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1919
+      },
+      "death": {
+        "year": 2002
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:20-肖亮才",
+      "name": "肖亮才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1927
+      },
+      "death": {
+        "year": 2000
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:20-王良秀",
+      "name": "王良秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1914
+      },
+      "death": {
+        "year": 1998
+      }
+    },
+    {
+      "externalId": "lipu:lishijieml:20-卢启华",
+      "name": "卢启华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1928
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lidaming:12-大明",
+      "child": "lipu:lishijieml:13-士龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:13-士龙",
+      "child": "lipu:lishijieml:14-绍尧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:13-士龙",
+      "child": "lipu:lishijieml:14-绍舜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:13-士龙",
+      "child": "lipu:lishijieml:14-绍汤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:13-士龙",
+      "child": "lipu:lishijieml:14-绍文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:13-士龙",
+      "child": "lipu:lishijieml:14-绍武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:13-士龙",
+      "child": "lipu:lishijieml:14-绍禹"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:14-李绍禹之妻",
+      "b": "lipu:lishijieml:14-绍禹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:14-绍禹",
+      "child": "lipu:lishijieml:15-如士"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:15-如士",
+      "child": "lipu:lishijieml:16-天元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:15-如士",
+      "child": "lipu:lishijieml:16-天贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:15-如士",
+      "child": "lipu:lishijieml:16-天谟"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:16-天谟",
+      "b": "lipu:lishijieml:16-李天谟之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:16-天谟",
+      "child": "lipu:lishijieml:17-宗方"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:16-天谟",
+      "child": "lipu:lishijieml:17-宗春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:16-天谟",
+      "child": "lipu:lishijieml:17-宗华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:16-天谟",
+      "child": "lipu:lishijieml:17-宗有"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:17-宗有",
+      "b": "lipu:lishijieml:17-李宗有之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:17-宗有",
+      "child": "lipu:lishijieml:18-德兴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:17-宗有",
+      "child": "lipu:lishijieml:18-德恒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:17-宗有",
+      "child": "lipu:lishijieml:18-德贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:18-德贵",
+      "b": "lipu:lishijieml:18-李德贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:18-德贵",
+      "child": "lipu:lishijieml:19-崇恩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:18-德贵",
+      "child": "lipu:lishijieml:19-崇相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:18-德贵",
+      "child": "lipu:lishijieml:19-崇亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:18-德贵",
+      "child": "lipu:lishijieml:19-崇学"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:19-崇学",
+      "b": "lipu:lishijieml:19-李崇学之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:19-崇学",
+      "child": "lipu:lishijieml:20-隆才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:20-杨辉珍",
+      "b": "lipu:lishijieml:20-隆才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:19-崇学",
+      "child": "lipu:lishijieml:20-隆海"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:20-周元珍",
+      "b": "lipu:lishijieml:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:19-崇学",
+      "child": "lipu:lishijieml:20-隆秀"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:20-肖亮才",
+      "b": "lipu:lishijieml:20-隆秀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:19-崇学",
+      "child": "lipu:lishijieml:20-隆章"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:20-王良秀",
+      "b": "lipu:lishijieml:20-隆章"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishijieml:19-崇学",
+      "child": "lipu:lishijieml:20-隆香"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishijieml:20-卢启华",
+      "b": "lipu:lishijieml:20-隆香"
+    }
+  ]
+}
