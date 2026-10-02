@@ -17,6 +17,30 @@ src = json.load(open(path, encoding="utf-8"))
 people = src["people"]
 outs, stub_refs = [], {}
 
+# Resolve each entry's real father object up front (fatherIndex picks among
+# same-name fathers), so indices can be recomputed per output file at the end.
+def _father_of(p, pool):
+    same = [q for q in pool if q["gen"] == p["gen"] - 1 and q["name"] == p.get("father")]
+    fi = p.get("fatherIndex")
+    if fi is not None and fi < len(same):
+        return same[fi]
+    return same[0] if same else None
+
+resolved = {id(p): _father_of(p, people) for p in people if p.get("father")}
+
+def _reindex(plist, stub_for):
+    for p in plist:
+        f = resolved.get(id(p))
+        if f is None:
+            continue
+        target = f if any(q is f for q in plist) else stub_for.get(id(f))
+        cands = [q for q in plist if q["gen"] == p["gen"] - 1 and q["name"] == p.get("father")]
+        idx = next((i for i, q in enumerate(cands) if q is target), None)
+        if idx is not None and len(cands) > 1:
+            p["fatherIndex"] = idx
+        else:
+            p.pop("fatherIndex", None)
+
 for spec in sys.argv[3:]:
     newkey, rest = spec.split("=", 1)
     names, label = rest.split(":", 1)
@@ -61,8 +85,9 @@ for spec in sys.argv[3:]:
         stub_refs.setdefault(pid, []).append((stubs[-1], h))
         h["children"] = []
         h["bio"] = (h.get("bio") or "") + ("。" if h.get("bio") else "") + f"子嗣见{label}"
-    for m in moved:
-        m.pop("fatherIndex", None)
+    order = {id(p): i for i, p in enumerate(people)}
+    moved.sort(key=lambda m: order[id(m)])
+    _reindex(stubs + moved, {id(h): st for st, h in zip(stubs, heads)})
     people = [p for p in people if p not in moved]
     out = dict(src, branchKey=newkey, branchLabel=src["branchLabel"].split("（")[0] + "·" + label + "（上承" + "、".join(parents) + "）",
                people=stubs + moved)
@@ -72,6 +97,7 @@ for newkey, out in outs:
     json.dump(out, open(os.path.join(d_dir, f"{newkey}.inter.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(newkey, len(out["people"]), "explicit")
 
+_reindex(people, {})
 src["people"] = people
 json.dump(src, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(key, len(people), "explicit left")

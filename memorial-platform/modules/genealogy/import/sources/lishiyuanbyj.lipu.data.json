@@ -1,0 +1,534 @@
+{
+  "key": "lipu:lishiyuanbyj",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiyuanyl:14-绍宗",
+      "name": "李绍宗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·马官镇湾河白岩脚银子山。此谱载世元姙彭氏生大成、大进，续姙汪氏生大用、大科；大成姙严氏生士学、士敏、士雄；士学姙张氏生绍宗；绍宗姙张氏生如楷、如械、如朴、如穗、如柏"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:15-如穗",
+      "name": "李如穗",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·马官镇湾河白岩脚银子山。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:16-天奉",
+      "name": "李天奉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·马官镇湾河白岩脚银子山。姙张氏生宗胜、宗堂、宗堂（谱重出）、宗元、宗富、宗应、宗祥"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-宗胜",
+      "name": "李宗胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马官镇湾河白岩脚银子山。生于白岩脚银子山，葬于银子山脚大桥地，姙张氏葬于怀地，有碑记。子嗣见宗胜宗富房"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-宗元",
+      "name": "李宗元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马官镇湾河白岩脚银子山。生于银子山小园，葬于银子山大桥地，姙张氏葬于银子山脚。子嗣见宗元宗祥房"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-宗堂",
+      "name": "李宗堂",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马官镇湾河白岩脚银子山。生于银子白岩脚，葬于银子山大桥地，姙袁氏葬于谭家坟。子嗣见宗堂房"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-宗富",
+      "name": "李宗富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马官镇湾河白岩脚银子山。生于白岩脚，葬于计水塘，姙张氏葬于小麻窝，有碑记。子嗣见宗胜宗富房"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-宗应",
+      "name": "李宗应",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马官镇湾河白岩脚银子山。从织阿弓迁移到本领，从本领迁到旧院坝。葬于高枧房背后小坡。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-宗祥",
+      "name": "李宗祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马官镇湾河白岩脚银子山。姙张氏。子嗣见宗元宗祥房"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:18-德富",
+      "name": "李德富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马官镇湾河白岩脚银子山。生于旧院坝，葬于高枧背后小坡"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:19-崇文",
+      "name": "李崇文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马官镇湾河白岩脚银子山。谱列第十九代，未载其父（德明子作崇武，或即此人）。生于银子山白岩脚，葬于毛栗岗，姙罗氏生于木岗桃冲，葬于小麻窝"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:19-崇富",
+      "name": "李崇富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马官镇湾河白岩脚银子山。生于旧院坝，葬于高枧房背后小坡，姙郭氏"
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:14-李绍宗之妻",
+      "name": "李绍宗之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:15-如械",
+      "name": "李如械",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:15-如朴",
+      "name": "李如朴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:15-李如穗之妻",
+      "name": "李如穗之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:16-天信",
+      "name": "李天信",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:16-李天奉之妻",
+      "name": "李天奉之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-李宗胜之妻",
+      "name": "李宗胜之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-李宗元之妻",
+      "name": "李宗元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-李宗堂之妻",
+      "name": "李宗堂之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "袁氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-李宗富之妻",
+      "name": "李宗富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-李宗应之妻",
+      "name": "李宗应之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:18-德贵",
+      "name": "李德贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:18-德海",
+      "name": "李德海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      }
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:17-李宗祥之妻",
+      "name": "李宗祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:19-李崇文之妻",
+      "name": "李崇文之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:20-隆珍",
+      "name": "李隆珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:19-李崇富之妻",
+      "name": "李崇富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:20-隆芳",
+      "name": "李隆芳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiyuanbyj:20-隆周",
+      "name": "李隆周",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马官镇湾河白岩脚银子山",
+      "birthPlace": {
+        "region": "贵州普定·马官镇湾河白岩脚银子山"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:14-李绍宗之妻",
+      "b": "lipu:lishiyuanyl:14-绍宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanbyj:15-如械"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanbyj:15-如朴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanyl:14-绍宗",
+      "child": "lipu:lishiyuanbyj:15-如穗"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:15-如穗",
+      "b": "lipu:lishiyuanbyj:15-李如穗之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:15-如穗",
+      "child": "lipu:lishiyuanbyj:16-天信"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:15-如穗",
+      "child": "lipu:lishiyuanbyj:16-天奉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:16-天奉",
+      "b": "lipu:lishiyuanbyj:16-李天奉之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:16-天奉",
+      "child": "lipu:lishiyuanbyj:17-宗胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:17-宗胜",
+      "b": "lipu:lishiyuanbyj:17-李宗胜之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:16-天奉",
+      "child": "lipu:lishiyuanbyj:17-宗元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:17-宗元",
+      "b": "lipu:lishiyuanbyj:17-李宗元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:16-天奉",
+      "child": "lipu:lishiyuanbyj:17-宗堂"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:17-宗堂",
+      "b": "lipu:lishiyuanbyj:17-李宗堂之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:16-天奉",
+      "child": "lipu:lishiyuanbyj:17-宗富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:17-宗富",
+      "b": "lipu:lishiyuanbyj:17-李宗富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:16-天奉",
+      "child": "lipu:lishiyuanbyj:17-宗应"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:17-宗应",
+      "b": "lipu:lishiyuanbyj:17-李宗应之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:17-宗应",
+      "child": "lipu:lishiyuanbyj:18-德贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:17-宗应",
+      "child": "lipu:lishiyuanbyj:18-德海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:16-天奉",
+      "child": "lipu:lishiyuanbyj:17-宗祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:17-宗祥",
+      "b": "lipu:lishiyuanbyj:17-李宗祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:17-宗应",
+      "child": "lipu:lishiyuanbyj:18-德富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:19-崇文",
+      "b": "lipu:lishiyuanbyj:19-李崇文之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:19-崇文",
+      "child": "lipu:lishiyuanbyj:20-隆全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:19-崇文",
+      "child": "lipu:lishiyuanbyj:20-隆珍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:18-德富",
+      "child": "lipu:lishiyuanbyj:19-崇富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiyuanbyj:19-崇富",
+      "b": "lipu:lishiyuanbyj:19-李崇富之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:19-崇富",
+      "child": "lipu:lishiyuanbyj:20-隆芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiyuanbyj:19-崇富",
+      "child": "lipu:lishiyuanbyj:20-隆周"
+    }
+  ]
+}
