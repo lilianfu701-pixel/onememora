@@ -1,0 +1,517 @@
+{
+  "key": "lipu:lishiwandf",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishiwan:12-成奇",
+      "name": "李成奇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第12代，贵州普定·马场镇大坟村姚家寨。此谱载世万姙杨氏生成明、成奇、成统。成奇姙杨氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:13-兴荣",
+      "name": "李兴荣",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第13代，贵州普定·马场镇大坟村姚家寨。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:14-中",
+      "name": "李中",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第14代，贵州普定·马场镇大坟村姚家寨。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:15-建伦",
+      "name": "李建伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州普定·马场镇大坟村姚家寨。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:16-如彬",
+      "name": "李如彬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州普定·马场镇大坟村姚家寨。姙张氏。此谱于生子处作崇耀，十七代条作宗耀"
+    },
+    {
+      "externalId": "lipu:lishiwandf:17-宗耀",
+      "name": "李宗耀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇大坟村姚家寨。姙王氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:18-德阳",
+      "name": "李德阳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇大坟村姚家寨。姙张氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:19-崇香",
+      "name": "李崇香",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1913
+      },
+      "death": {
+        "year": 2000
+      },
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马场镇大坟村姚家寨。1913年10月10生，2000年殁于马场那穷姚家寨，享年87岁，葬于簸箕田。姙张氏1917年10月12日生，2001年殁于本村姚家寨，享年84岁，葬于大河边"
+    },
+    {
+      "externalId": "lipu:lishiwandf:19-崇政",
+      "name": "李崇政",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马场镇大坟村姚家寨。姙刘氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1936
+      },
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·马场镇大坟村姚家寨。1936年4月28日生于马场大坟村姚家寨。偶周顺琴1940年11月20日生"
+    },
+    {
+      "externalId": "lipu:lishiwandf:20-隆昌",
+      "name": "李隆昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1933
+      },
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·马场镇大坟村姚家寨。1933年12月13日生，迁织金县白泥乡梭过寨。偶简氏"
+    },
+    {
+      "externalId": "lipu:lishiwandf:12-李成奇之妻",
+      "name": "李成奇之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:13-李兴荣之妻",
+      "name": "李兴荣之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:14-李中之妻",
+      "name": "李中之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:15-李建伦之妻",
+      "name": "李建伦之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:16-李如彬之妻",
+      "name": "李如彬之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:17-李宗耀之妻",
+      "name": "李宗耀之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:18-德元",
+      "name": "李德元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishiwandf:18-德勋",
+      "name": "李德勋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      }
+    },
+    {
+      "externalId": "lipu:lishiwandf:18-李德阳之妻",
+      "name": "李德阳之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:19-李崇香之妻",
+      "name": "李崇香之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1917
+      },
+      "death": {
+        "year": 2001
+      }
+    },
+    {
+      "externalId": "lipu:lishiwandf:19-李崇政之妻",
+      "name": "李崇政之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:20-周顺琴",
+      "name": "周顺琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1940
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwandf:21-发伦",
+      "name": "李发伦",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwandf:21-发文",
+      "name": "李发文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwandf:21-发胜",
+      "name": "李发胜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwandf:21-发阳",
+      "name": "李发阳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwandf:20-李隆昌之妻",
+      "name": "李隆昌之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "简氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishiwandf:21-发武",
+      "name": "李发武",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lishiwandf:21-发华",
+      "name": "李发华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇大坟村姚家寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇大坟村姚家寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwan:12-成奇",
+      "b": "lipu:lishiwandf:12-李成奇之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwan:12-成奇",
+      "child": "lipu:lishiwandf:13-兴荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:13-兴荣",
+      "b": "lipu:lishiwandf:13-李兴荣之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:13-兴荣",
+      "child": "lipu:lishiwandf:14-中"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:14-中",
+      "b": "lipu:lishiwandf:14-李中之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:14-中",
+      "child": "lipu:lishiwandf:15-建伦"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:15-建伦",
+      "b": "lipu:lishiwandf:15-李建伦之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:15-建伦",
+      "child": "lipu:lishiwandf:16-如彬"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:16-如彬",
+      "b": "lipu:lishiwandf:16-李如彬之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:16-如彬",
+      "child": "lipu:lishiwandf:17-宗耀"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:17-宗耀",
+      "b": "lipu:lishiwandf:17-李宗耀之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:17-宗耀",
+      "child": "lipu:lishiwandf:18-德元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:17-宗耀",
+      "child": "lipu:lishiwandf:18-德勋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:17-宗耀",
+      "child": "lipu:lishiwandf:18-德阳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:18-德阳",
+      "b": "lipu:lishiwandf:18-李德阳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:18-德阳",
+      "child": "lipu:lishiwandf:19-崇香"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:19-崇香",
+      "b": "lipu:lishiwandf:19-李崇香之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:18-德阳",
+      "child": "lipu:lishiwandf:19-崇政"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:19-崇政",
+      "b": "lipu:lishiwandf:19-李崇政之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:19-崇香",
+      "child": "lipu:lishiwandf:20-隆祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:20-周顺琴",
+      "b": "lipu:lishiwandf:20-隆祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:20-隆祥",
+      "child": "lipu:lishiwandf:21-发伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:20-隆祥",
+      "child": "lipu:lishiwandf:21-发文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:20-隆祥",
+      "child": "lipu:lishiwandf:21-发胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:20-隆祥",
+      "child": "lipu:lishiwandf:21-发阳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:19-崇政",
+      "child": "lipu:lishiwandf:20-隆昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishiwandf:20-李隆昌之妻",
+      "b": "lipu:lishiwandf:20-隆昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:20-隆昌",
+      "child": "lipu:lishiwandf:21-发武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishiwandf:20-隆昌",
+      "child": "lipu:lishiwandf:21-发华"
+    }
+  ]
+}

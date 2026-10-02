@@ -1,0 +1,91 @@
+{
+  "key": "lipu:lishaowumc",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lishaowumc:18-少伍",
+      "name": "李少伍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇街上",
+      "birthPlace": {
+        "region": "贵州普定·马场镇街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇街上"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇街上。支题作绍武。上承李英宝接水城抓渡河支系。生于水城抓渡河，殁于普定马场街上，葬于松树林龚家背后，姙郭氏殁于马场街上，葬于乱坟山"
+    },
+    {
+      "externalId": "lipu:lishaowumc:19-崇昌",
+      "name": "李崇昌",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州普定·马场镇街上",
+      "birthPlace": {
+        "region": "贵州普定·马场镇街上"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇街上"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马场镇街上。1931年（谱载如此）9月1日生于抓渡河，1915年随父迁住普定沙家马场街上定居。偶严朝珍1939年5月4日生于马场镇白秧村，1995年殁于马场，葬于大坟坡；女隆琼、隆芬、李丽、隆艳、李娜"
+    },
+    {
+      "externalId": "lipu:lishaowumc:18-李少伍之妻",
+      "name": "李少伍之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lishaowumc:19-严朝珍",
+      "name": "严朝珍",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1939
+      },
+      "death": {
+        "year": 1995
+      }
+    },
+    {
+      "externalId": "lipu:lishaowumc:20-隆祥",
+      "name": "李隆祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇街上",
+      "birthPlace": {
+        "region": "贵州普定·马场镇街上"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaowumc:18-少伍",
+      "b": "lipu:lishaowumc:18-李少伍之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaowumc:18-少伍",
+      "child": "lipu:lishaowumc:19-崇昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lishaowumc:19-严朝珍",
+      "b": "lipu:lishaowumc:19-崇昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lishaowumc:19-崇昌",
+      "child": "lipu:lishaowumc:20-隆祥"
+    }
+  ]
+}
