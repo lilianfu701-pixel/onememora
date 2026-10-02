@@ -1,0 +1,121 @@
+{
+  "key": "lipu:lizongbaoqgj4",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lizongbaoqgj4:20-隆才",
+      "name": "李隆才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1923
+      },
+      "ancestralHometown": "贵州普定·猴场乡石阶路青杠脚",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡石阶路青杠脚。谱列第二十代，未载其父。1923年生，葬于青杠脚大坪地牛落洞，偶张氏"
+    },
+    {
+      "externalId": "lipu:lizongbaoqgj4:20-隆全",
+      "name": "李隆全",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1927
+      },
+      "death": {
+        "year": 1960
+      },
+      "ancestralHometown": "贵州普定·猴场乡石阶路青杠脚",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "deathPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·猴场乡石阶路青杠脚。谱列第二十代，未载其父。1927年生于猴场石阶路青杠脚，殁于1960年，葬于青杠脚老虎岩竹林冲丫口。偶张怀英1922年8月15日猴场石阶路格挡拐"
+    },
+    {
+      "externalId": "lipu:lizongbaoqgj4:20-李隆才之妻",
+      "name": "李隆才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lizongbaoqgj4:21-贵友",
+      "name": "李贵友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡石阶路青杠脚",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbaoqgj4:20-张怀英",
+      "name": "张怀英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1922
+      }
+    },
+    {
+      "externalId": "lipu:lizongbaoqgj4:21-发政",
+      "name": "李发政",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡石阶路青杠脚",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lizongbaoqgj4:21-发元",
+      "name": "李发元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·猴场乡石阶路青杠脚",
+      "birthPlace": {
+        "region": "贵州普定·猴场乡石阶路青杠脚"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbaoqgj4:20-李隆才之妻",
+      "b": "lipu:lizongbaoqgj4:20-隆才"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbaoqgj4:20-隆才",
+      "child": "lipu:lizongbaoqgj4:21-贵友"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lizongbaoqgj4:20-张怀英",
+      "b": "lipu:lizongbaoqgj4:20-隆全"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbaoqgj4:20-隆全",
+      "child": "lipu:lizongbaoqgj4:21-发政"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lizongbaoqgj4:20-隆全",
+      "child": "lipu:lizongbaoqgj4:21-发元"
+    }
+  ]
+}
