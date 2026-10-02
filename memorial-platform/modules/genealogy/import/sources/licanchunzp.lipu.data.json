@@ -1,0 +1,187 @@
+{
+  "key": "lipu:licanchunzp",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:licanchunzp:17-灿春",
+      "name": "李灿春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州普定·马场镇中排寨。上承六枝龙场乡继卯支系。姙陈氏"
+    },
+    {
+      "externalId": "lipu:licanchunzp:18-崇元",
+      "name": "李崇元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·马场镇中排寨。姙杨氏"
+    },
+    {
+      "externalId": "lipu:licanchunzp:19-德华",
+      "name": "李德华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·马场镇中排寨。姙朱氏"
+    },
+    {
+      "externalId": "lipu:licanchunzp:20-树新",
+      "name": "李树新",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937
+      },
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·马场镇中排寨。1937年生于六枝特区龙场乡上继卯随下堂到中排，偶王明英1940年生于马场镇马路关寨"
+    },
+    {
+      "externalId": "lipu:licanchunzp:17-李灿春之妻",
+      "name": "李灿春之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:licanchunzp:18-崇清",
+      "name": "李崇清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "deathPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      }
+    },
+    {
+      "externalId": "lipu:licanchunzp:18-李崇元之妻",
+      "name": "李崇元之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:licanchunzp:19-李德华之妻",
+      "name": "李德华之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "朱氏"
+      ]
+    },
+    {
+      "externalId": "lipu:licanchunzp:20-王明英",
+      "name": "王明英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1940
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:licanchunzp:21-恒志",
+      "name": "李恒志",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:licanchunzp:21-恒勇",
+      "name": "李恒勇",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·马场镇中排寨",
+      "birthPlace": {
+        "region": "贵州普定·马场镇中排寨"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:licanchunzp:17-李灿春之妻",
+      "b": "lipu:licanchunzp:17-灿春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:licanchunzp:17-灿春",
+      "child": "lipu:licanchunzp:18-崇清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:licanchunzp:17-灿春",
+      "child": "lipu:licanchunzp:18-崇元"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:licanchunzp:18-崇元",
+      "b": "lipu:licanchunzp:18-李崇元之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:licanchunzp:18-崇元",
+      "child": "lipu:licanchunzp:19-德华"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:licanchunzp:19-德华",
+      "b": "lipu:licanchunzp:19-李德华之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:licanchunzp:19-德华",
+      "child": "lipu:licanchunzp:20-树新"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:licanchunzp:20-树新",
+      "b": "lipu:licanchunzp:20-王明英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:licanchunzp:20-树新",
+      "child": "lipu:licanchunzp:21-恒志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:licanchunzp:20-树新",
+      "child": "lipu:licanchunzp:21-恒勇"
+    }
+  ]
+}
