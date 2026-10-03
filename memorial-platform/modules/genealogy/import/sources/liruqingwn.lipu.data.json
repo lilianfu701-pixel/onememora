@@ -1,0 +1,174 @@
+{
+  "key": "lipu:liruqingwn",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liruqingwn:16-如清",
+      "name": "李如清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "deathPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州威宁·何落冲。上承李文通"
+    },
+    {
+      "externalId": "lipu:liruqingwn:17-宗友",
+      "name": "李宗友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "deathPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州威宁·何落冲。"
+    },
+    {
+      "externalId": "lipu:liruqingwn:18-德才",
+      "name": "李德才",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "deathPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州威宁·何落冲。偶陆氏、张氏"
+    },
+    {
+      "externalId": "lipu:liruqingwn:17-宗发",
+      "name": "李宗发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "deathPlace": {
+        "region": "贵州威宁·何落冲"
+      }
+    },
+    {
+      "externalId": "lipu:liruqingwn:17-宗富",
+      "name": "李宗富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "deathPlace": {
+        "region": "贵州威宁·何落冲"
+      }
+    },
+    {
+      "externalId": "lipu:liruqingwn:18-李德才之妻",
+      "name": "李德才之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陆氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liruqingwn:19-崇明",
+      "name": "李崇明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruqingwn:19-崇富",
+      "name": "李崇富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruqingwn:19-崇科",
+      "name": "李崇科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liruqingwn:19-崇银",
+      "name": "李崇银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州威宁·何落冲",
+      "birthPlace": {
+        "region": "贵州威宁·何落冲"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:16-如清",
+      "child": "lipu:liruqingwn:17-宗发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:16-如清",
+      "child": "lipu:liruqingwn:17-宗富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:16-如清",
+      "child": "lipu:liruqingwn:17-宗友"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:17-宗友",
+      "child": "lipu:liruqingwn:18-德才"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liruqingwn:18-德才",
+      "b": "lipu:liruqingwn:18-李德才之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:18-德才",
+      "child": "lipu:liruqingwn:19-崇明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:18-德才",
+      "child": "lipu:liruqingwn:19-崇富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:18-德才",
+      "child": "lipu:liruqingwn:19-崇科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liruqingwn:18-德才",
+      "child": "lipu:liruqingwn:19-崇银"
+    }
+  ]
+}
