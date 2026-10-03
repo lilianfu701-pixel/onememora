@@ -1,0 +1,330 @@
+{
+  "key": "lipu:liyingkuigd3",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liyingkuigd3:17-志金",
+      "name": "李志金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "deathPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州赫章·古达乡。谱列第十七代，未载其父。偶汪氏"
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:18-广祥",
+      "name": "李广祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1929
+      },
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "deathPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州赫章·古达乡。1929年生，偶卢氏生于1928年"
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:18-广益",
+      "name": "李广益",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1931
+      },
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "deathPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州赫章·古达乡。1931年生，偶宋氏生于1940年"
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:18-广洪",
+      "name": "李广洪",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1937
+      },
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "deathPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州赫章·古达乡。1937年生，偶张氏生于1936年"
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:17-李志金之妻",
+      "name": "李志金之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "汪氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:18-李广祥之妻",
+      "name": "李广祥之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1928
+      }
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-翠英",
+      "name": "李翠英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:18-李广益之妻",
+      "name": "李广益之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "宋氏"
+      ],
+      "birth": {
+        "year": 1940
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大琴",
+      "name": "李大琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大云",
+      "name": "李大云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大棋",
+      "name": "李大棋",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大华",
+      "name": "李大华",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大芬",
+      "name": "李大芬",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大祥",
+      "name": "李大祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:18-李广洪之妻",
+      "name": "李广洪之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "birth": {
+        "year": 1936
+      }
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大刚",
+      "name": "李大刚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大碧",
+      "name": "李大碧",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大江",
+      "name": "李大江",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liyingkuigd3:19-大仙",
+      "name": "李大仙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州赫章·古达乡",
+      "birthPlace": {
+        "region": "贵州赫章·古达乡"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liyingkuigd3:17-志金",
+      "b": "lipu:liyingkuigd3:17-李志金之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:17-志金",
+      "child": "lipu:liyingkuigd3:18-广祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyingkuigd3:18-广祥",
+      "b": "lipu:liyingkuigd3:18-李广祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广祥",
+      "child": "lipu:liyingkuigd3:19-翠英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:17-志金",
+      "child": "lipu:liyingkuigd3:18-广益"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyingkuigd3:18-广益",
+      "b": "lipu:liyingkuigd3:18-李广益之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广益",
+      "child": "lipu:liyingkuigd3:19-大琴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广益",
+      "child": "lipu:liyingkuigd3:19-大云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广益",
+      "child": "lipu:liyingkuigd3:19-大棋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广益",
+      "child": "lipu:liyingkuigd3:19-大华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广益",
+      "child": "lipu:liyingkuigd3:19-大芬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广益",
+      "child": "lipu:liyingkuigd3:19-大祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:17-志金",
+      "child": "lipu:liyingkuigd3:18-广洪"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liyingkuigd3:18-广洪",
+      "b": "lipu:liyingkuigd3:18-李广洪之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广洪",
+      "child": "lipu:liyingkuigd3:19-大刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广洪",
+      "child": "lipu:liyingkuigd3:19-大碧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广洪",
+      "child": "lipu:liyingkuigd3:19-大江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liyingkuigd3:18-广洪",
+      "child": "lipu:liyingkuigd3:19-大仙"
+    }
+  ]
+}

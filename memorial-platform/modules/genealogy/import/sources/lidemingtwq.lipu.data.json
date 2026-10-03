@@ -1,0 +1,208 @@
+{
+  "key": "lipu:lidemingtwq",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lidemingtwq:18-德明",
+      "name": "李德明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·城关镇天王旗村。上承纳雍白泥屯支系。此支由织金白泥屯迁织金熊家场，又迁普定城关。姙江氏"
+    },
+    {
+      "externalId": "lipu:lidemingtwq:18-德顺",
+      "name": "李德顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "deathPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州普定·城关镇天王旗村。姙江氏生有三女"
+    },
+    {
+      "externalId": "lipu:lidemingtwq:19-崇新",
+      "name": "李崇新",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·城关镇天王旗村。偶杨氏；女隆扬"
+    },
+    {
+      "externalId": "lipu:lidemingtwq:19-崇贵",
+      "name": "李崇贵",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·城关镇天王旗村。偶江氏"
+    },
+    {
+      "externalId": "lipu:lidemingtwq:18-李德明之妻",
+      "name": "李德明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "江氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidemingtwq:18-李德顺之妻",
+      "name": "李德顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "江氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lidemingtwq:19-李崇新之妻",
+      "name": "李崇新之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingtwq:20-隆亚",
+      "name": "李隆亚",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingtwq:20-隆宁",
+      "name": "李隆宁",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingtwq:19-李崇贵之妻",
+      "name": "李崇贵之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "江氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingtwq:20-隆艳",
+      "name": "李隆艳",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingtwq:20-隆运",
+      "name": "李隆运",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lidemingtwq:20-隆跃",
+      "name": "李隆跃",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇天王旗村",
+      "birthPlace": {
+        "region": "贵州普定·城关镇天王旗村"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lidemingtwq:18-德明",
+      "b": "lipu:lidemingtwq:18-李德明之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidemingtwq:18-德顺",
+      "b": "lipu:lidemingtwq:18-李德顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:18-德明",
+      "child": "lipu:lidemingtwq:19-崇新"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidemingtwq:19-崇新",
+      "b": "lipu:lidemingtwq:19-李崇新之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:19-崇新",
+      "child": "lipu:lidemingtwq:20-隆亚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:19-崇新",
+      "child": "lipu:lidemingtwq:20-隆宁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:18-德明",
+      "child": "lipu:lidemingtwq:19-崇贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lidemingtwq:19-崇贵",
+      "b": "lipu:lidemingtwq:19-李崇贵之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:19-崇贵",
+      "child": "lipu:lidemingtwq:20-隆艳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:19-崇贵",
+      "child": "lipu:lidemingtwq:20-隆运"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lidemingtwq:19-崇贵",
+      "child": "lipu:lidemingtwq:20-隆跃"
+    }
+  ]
+}

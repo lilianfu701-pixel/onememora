@@ -1,0 +1,132 @@
+{
+  "key": "lipu:lichongshoucg",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lichongshoucg:19-崇寿",
+      "name": "李崇寿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇南门",
+      "birthPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "deathPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·城关镇南门。上承织金戛渡河支系。此支由织金戛渡河迁普定南门。姙陆氏"
+    },
+    {
+      "externalId": "lipu:lichongshoucg:20-顺舟",
+      "name": "李顺舟",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇南门",
+      "birthPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·城关镇南门。偶张氏"
+    },
+    {
+      "externalId": "lipu:lichongshoucg:19-李崇寿之妻",
+      "name": "李崇寿之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陆氏"
+      ]
+    },
+    {
+      "externalId": "lipu:lichongshoucg:20-隆文",
+      "name": "李隆文",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇南门",
+      "birthPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongshoucg:20-隆喜",
+      "name": "李隆喜",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇南门",
+      "birthPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongshoucg:20-隆富",
+      "name": "李隆富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇南门",
+      "birthPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongshoucg:20-李顺舟之妻",
+      "name": "李顺舟之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:lichongshoucg:21-发云",
+      "name": "李发云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇南门",
+      "birthPlace": {
+        "region": "贵州普定·城关镇南门"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongshoucg:19-崇寿",
+      "b": "lipu:lichongshoucg:19-李崇寿之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongshoucg:19-崇寿",
+      "child": "lipu:lichongshoucg:20-隆文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongshoucg:19-崇寿",
+      "child": "lipu:lichongshoucg:20-隆喜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongshoucg:19-崇寿",
+      "child": "lipu:lichongshoucg:20-隆富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongshoucg:19-崇寿",
+      "child": "lipu:lichongshoucg:20-顺舟"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lichongshoucg:20-李顺舟之妻",
+      "b": "lipu:lichongshoucg:20-顺舟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lichongshoucg:20-顺舟",
+      "child": "lipu:lichongshoucg:21-发云"
+    }
+  ]
+}

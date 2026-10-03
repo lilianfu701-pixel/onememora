@@ -1,0 +1,196 @@
+{
+  "key": "lipu:liqingyunsc",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liqingyunsc:19-清云",
+      "name": "李清云",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "deathPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州普定·城关镇。上承织金禄英支系。生于织金禄英支，迁清正站街，又迁普定城关镇，姙张氏"
+    },
+    {
+      "externalId": "lipu:liqingyunsc:20-隆安",
+      "name": "李隆安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·城关镇。偶孟氏"
+    },
+    {
+      "externalId": "lipu:liqingyunsc:20-云先",
+      "name": "李云先",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·城关镇。偶张氏；女发秀、了珍"
+    },
+    {
+      "externalId": "lipu:liqingyunsc:20-隆德",
+      "name": "李隆德",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第20代，贵州普定·城关镇。姙罗氏"
+    },
+    {
+      "externalId": "lipu:liqingyunsc:19-李清云之妻",
+      "name": "李清云之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liqingyunsc:20-李隆安之妻",
+      "name": "李隆安之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "孟氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqingyunsc:21-发康",
+      "name": "李发康",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqingyunsc:20-李云先之妻",
+      "name": "李云先之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqingyunsc:21-发清",
+      "name": "李发清",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqingyunsc:20-李隆德之妻",
+      "name": "李隆德之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "罗氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqingyunsc:21-发祥",
+      "name": "李发祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liqingyunsc:21-发琴",
+      "name": "李发琴",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州普定·城关镇",
+      "birthPlace": {
+        "region": "贵州普定·城关镇"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liqingyunsc:19-李清云之妻",
+      "b": "lipu:liqingyunsc:19-清云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:19-清云",
+      "child": "lipu:liqingyunsc:20-隆安"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liqingyunsc:20-李隆安之妻",
+      "b": "lipu:liqingyunsc:20-隆安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:20-隆安",
+      "child": "lipu:liqingyunsc:21-发康"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:19-清云",
+      "child": "lipu:liqingyunsc:20-云先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liqingyunsc:20-云先",
+      "b": "lipu:liqingyunsc:20-李云先之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:20-云先",
+      "child": "lipu:liqingyunsc:21-发清"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:19-清云",
+      "child": "lipu:liqingyunsc:20-隆德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liqingyunsc:20-李隆德之妻",
+      "b": "lipu:liqingyunsc:20-隆德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:20-隆德",
+      "child": "lipu:liqingyunsc:21-发祥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liqingyunsc:20-隆德",
+      "child": "lipu:liqingyunsc:21-发琴"
+    }
+  ]
+}

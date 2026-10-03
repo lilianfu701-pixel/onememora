@@ -518,6 +518,21 @@ import lipu_lishiyuanbyj5 from "./lishiyuanbyj5.lipu.data.json";
 import lipu_lishiyuanbyj6 from "./lishiyuanbyj6.lipu.data.json";
 import lipu_lishiyuanbyj7 from "./lishiyuanbyj7.lipu.data.json";
 import lipu_lishiyuanbyj8 from "./lishiyuanbyj8.lipu.data.json";
+import lipu_lichongshoucg from "./lichongshoucg.lipu.data.json";
+import lipu_lidemingtwq from "./lidemingtwq.lipu.data.json";
+import lipu_liqingyunsc from "./liqingyunsc.lipu.data.json";
+import lipu_lichengxuefe from "./lichengxuefe.lipu.data.json";
+import lipu_lichengxuefe2 from "./lichengxuefe2.lipu.data.json";
+import lipu_lichengxuefe3 from "./lichengxuefe3.lipu.data.json";
+import lipu_liyingkuigd from "./liyingkuigd.lipu.data.json";
+import lipu_liyingkuigd2 from "./liyingkuigd2.lipu.data.json";
+import lipu_liyingkuigd3 from "./liyingkuigd3.lipu.data.json";
+import lipu_liyingkuigd4 from "./liyingkuigd4.lipu.data.json";
+import lipu_liyingkuigd5 from "./liyingkuigd5.lipu.data.json";
+import lipu_liyingkuigd6 from "./liyingkuigd6.lipu.data.json";
+import lipu_lichengkehz from "./lichengkehz.lipu.data.json";
+import lipu_lichengkehz2 from "./lichengkehz2.lipu.data.json";
+import lipu_lichengkehz3 from "./lichengkehz3.lipu.data.json";
 import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
@@ -1035,6 +1050,21 @@ const LABELS: Record<string, string> = {
   lishiyuanbyj6: "白岩脚·如穗房·宗富德胜房",
   lishiyuanbyj7: "白岩脚·如穗房·未载父者",
   lishiyuanbyj8: "白岩脚·如穗房·宗应崇富房及崇文房",
+  lichongshoucg: "普定城关南门·李崇寿一支",
+  lidemingtwq: "普定城关天王旗村·李德明一支",
+  liqingyunsc: "普定城关镇市场路·李清云一支",
+  lichengxuefe: "黔西县中坪镇飞鹅村·李成学一支",
+  lichengxuefe2: "飞鹅村·李成学一支·廷宣房",
+  lichengxuefe3: "飞鹅村·李成学一支·应具应绿房",
+  liyingkuigd: "赫章县古达乡·李应魁一支",
+  liyingkuigd2: "古达乡·李应魁一支·升屏升发升堂房",
+  liyingkuigd3: "古达乡·李应魁一支·志金房",
+  liyingkuigd4: "古达乡·李应魁一支·志忠志全房",
+  liyingkuigd5: "古达乡·李应魁一支·志成房",
+  liyingkuigd6: "古达乡·李应魁一支·志良房",
+  lichengkehz: "赫章县·李成科一支",
+  lichengkehz2: "赫章·李成科一支·永芳永亮",
+  lichengkehz3: "赫章·李成科一支·自明自友房",
   lizongwu: "李氏·李宗武一支（李代龙支系谱·自强乡自强张寨脚村·十七至二十二代）",
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
@@ -1552,6 +1582,21 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lishiyuanbyj6", lipu_lishiyuanbyj6 as GenealogyDataset],
   ["lishiyuanbyj7", lipu_lishiyuanbyj7 as GenealogyDataset],
   ["lishiyuanbyj8", lipu_lishiyuanbyj8 as GenealogyDataset],
+  ["lichongshoucg", lipu_lichongshoucg as GenealogyDataset],
+  ["lidemingtwq", lipu_lidemingtwq as GenealogyDataset],
+  ["liqingyunsc", lipu_liqingyunsc as GenealogyDataset],
+  ["lichengxuefe", lipu_lichengxuefe as GenealogyDataset],
+  ["lichengxuefe2", lipu_lichengxuefe2 as GenealogyDataset],
+  ["lichengxuefe3", lipu_lichengxuefe3 as GenealogyDataset],
+  ["liyingkuigd", lipu_liyingkuigd as GenealogyDataset],
+  ["liyingkuigd2", lipu_liyingkuigd2 as GenealogyDataset],
+  ["liyingkuigd3", lipu_liyingkuigd3 as GenealogyDataset],
+  ["liyingkuigd4", lipu_liyingkuigd4 as GenealogyDataset],
+  ["liyingkuigd5", lipu_liyingkuigd5 as GenealogyDataset],
+  ["liyingkuigd6", lipu_liyingkuigd6 as GenealogyDataset],
+  ["lichengkehz", lipu_lichengkehz as GenealogyDataset],
+  ["lichengkehz2", lipu_lichengkehz2 as GenealogyDataset],
+  ["lichengkehz3", lipu_lichengkehz3 as GenealogyDataset],
   ["lizongwu", lipu_lizongwu as GenealogyDataset],
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
