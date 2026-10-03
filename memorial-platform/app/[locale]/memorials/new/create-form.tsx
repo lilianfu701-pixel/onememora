@@ -468,7 +468,8 @@ export function CreateMemorialForm(props: {
         name: "",
         relationshipToDeceased: firstAvailableRelationship(),
         isDeceased: false,
-        showFullName: false,
+        // Names are shown in full by default; untick to mask.
+        showFullName: true,
       },
     ]);
   }
@@ -477,11 +478,7 @@ export function CreateMemorialForm(props: {
     setRelatives(
       relatives.map((r, i) => {
         if (i !== idx) return r;
-        const updated = { ...r, ...patch };
-        if ("isDeceased" in patch) {
-          updated.showFullName = patch.isDeceased ?? false;
-        }
-        return updated;
+        return { ...r, ...patch };
       }),
     );
   }

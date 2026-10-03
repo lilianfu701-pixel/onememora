@@ -338,7 +338,7 @@
     "nameVisibility_family": "仅登录用户",
     "nameVisibility_hidden": "完全隐藏",
     "nameHiddenPlaceholder": "家属",
-    "nameVisibilityHelp": "在世亲属默认仅登录用户可见全名，匿名访客看到脱敏姓名；选“完全隐藏”则姓名完全不在页面显示。",
+    "nameVisibilityHelp": "姓名默认对所有人显示全名；可改为“仅登录用户”（匿名访客看到脱敏姓名），或“完全隐藏”使姓名不在页面显示。",
     "shareMore": "更多分享方式…",
     "bornIn": "，出生于{place}",
     "diedIn": "，逝世于{place}",

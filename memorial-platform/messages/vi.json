@@ -338,7 +338,7 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "nameVisibilityHelp": "Theo mặc định, tên được hiển thị đầy đủ cho mọi người. Chọn \"Chỉ người đã đăng nhập\" để che tên với khách ẩn danh, hoặc \"Ẩn\" để không hiển thị trên trang.",
     "shareMore": "Thêm tùy chọn chia sẻ…",
     "bornIn": ", sinh tại {place}",
     "diedIn": ", mất tại {place}",

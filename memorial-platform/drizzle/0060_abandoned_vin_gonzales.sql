@@ -1,0 +1,1 @@
+ALTER TABLE "memorial_relatives" ALTER COLUMN "name_visibility" SET DEFAULT 'public';

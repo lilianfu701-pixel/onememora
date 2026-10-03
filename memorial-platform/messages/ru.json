@@ -338,7 +338,7 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "nameVisibilityHelp": "По умолчанию имена показываются полностью всем. Выберите «Только вошедшим», чтобы скрыть имя от анонимных посетителей, или «Скрыто», чтобы не показывать его вовсе.",
     "shareMore": "Ещё варианты…",
     "bornIn": ", родился(ась) в {place}",
     "diedIn": ", скончался(ась) в {place}",

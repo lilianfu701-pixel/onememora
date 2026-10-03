@@ -6,12 +6,14 @@ import {
   familyPeople,
   memorialNames,
   memorials,
+  users,
 } from "@/db/schema";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { resolveAccessById } from "@/modules/memorials/access";
 import type { Actor } from "@/modules/permissions/types";
-import { maskName } from "./mask";
+import { importedLivingName } from "./mask";
+import type { OwnNameChoice } from "./mask";
 
 export type TreeError = "PERSON_NOT_FOUND" | "DEPTH_TOO_LARGE";
 
@@ -174,6 +176,17 @@ async function mayName(
   return neighbourStewardIds.has(person.id);
 }
 
+/** A claimant's own name-visibility choice; null when unclaimed or unset. */
+async function ownNameChoice(selfUserId: string | null): Promise<OwnNameChoice> {
+  if (!selfUserId) return null;
+  const [row] = await db()
+    .select({ visibility: users.nameVisibility })
+    .from(users)
+    .where(eq(users.id, selfUserId));
+  const value = row?.visibility;
+  return value === "public" || value === "family" || value === "hidden" ? value : null;
+}
+
 type NodeGender = "male" | "female" | "unknown";
 
 async function displayFor(
@@ -287,16 +300,24 @@ export async function readTree(
     }
 
     if (!(await mayName(actor, person, neighbourStewardIds))) {
-      // A living person seeded from a published 族谱 is shown masked (surname
-      // only) rather than fully withheld, so a descendant can recognise and
-      // claim themselves. The exact year is dropped with the given name — the
-      // node keeps its id so it can be claimed, but reveals nothing more.
-      if (person.publicMasked && person.lifeStatus === "living" && person.displayName) {
+      // A living person seeded from a published 族谱 is shown by name (site
+      // policy: names are public by default) so a descendant can recognise and
+      // claim themselves; once claimed, their own name choice applies. Birth
+      // and death years stay withheld — the node keeps its id, nothing more.
+      const shown =
+        person.publicMasked && person.lifeStatus === "living" && person.displayName
+          ? importedLivingName(
+              person.displayName,
+              await ownNameChoice(person.selfUserId),
+              Boolean(actor.userId),
+            )
+          : null;
+      if (shown !== null) {
         nodes.push({
           visible: true,
           ref,
           personId: person.id,
-          name: maskName(person.displayName),
+          name: shown,
           lifeStatus: "living",
           birthYear: null,
           deathYear: null,

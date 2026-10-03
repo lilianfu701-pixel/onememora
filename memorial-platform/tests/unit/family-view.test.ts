@@ -261,6 +261,15 @@ describe("assembleFamilyView — name visibility", () => {
     expect(labelOf(view, "w")).toBe("妻子");
   });
 
+  it("shows a living name in full when no choice was recorded", () => {
+    const view = assembleFamilyView({
+      root,
+      linked: [],
+      relatives: [{ ...living("public"), nameVisibility: null }],
+    })!;
+    expect(nameOf(view, "w")).toBe("张三丰");
+  });
+
   it("lets a profile override beat the row's own setting", () => {
     const view = assembleFamilyView({
       root,

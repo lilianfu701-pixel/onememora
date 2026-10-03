@@ -31,11 +31,12 @@ type InitialRelative = {
 const NAME_VISIBILITIES = ["public", "family", "hidden"] as const;
 
 /** Falls back to a safe default the way the server and tree do. */
-function normalizeVisibility(value: string | null, isDeceased: boolean): string {
+function normalizeVisibility(value: string | null): string {
   if (value === "public" || value === "family" || value === "hidden") {
     return value;
   }
-  return isDeceased ? "public" : "family";
+  // Names are public by default; masking is an explicit choice.
+  return "public";
 }
 
 const SPOUSE_TYPES: ReadonlySet<string> = new Set([
@@ -127,7 +128,7 @@ export function RelativesEditor(props: {
       name: r.name,
       relationshipToDeceased: r.relationshipToDeceased,
       isDeceased: r.isDeceased,
-      nameVisibility: normalizeVisibility(r.nameVisibility, r.isDeceased),
+      nameVisibility: normalizeVisibility(r.nameVisibility),
       coParentRid: r.coParentId,
       spouseOfRid: r.spouseOfId,
     })),
@@ -166,7 +167,7 @@ export function RelativesEditor(props: {
         name: "",
         relationshipToDeceased: firstAvailableRelationship(),
         isDeceased: false,
-        nameVisibility: "family",
+        nameVisibility: "public",
         coParentRid: null,
         spouseOfRid: null,
       },
@@ -178,11 +179,6 @@ export function RelativesEditor(props: {
       relatives.map((r, i) => {
         if (i !== idx) return r;
         const updated = { ...r, ...patch };
-        // Living relatives default to family-only; the deceased to public. A
-        // manual choice of visibility is left alone.
-        if ("isDeceased" in patch && !("nameVisibility" in patch)) {
-          updated.nameVisibility = patch.isDeceased ? "public" : "family";
-        }
         // A co-parent only means something for a child; a spouse-of link only
         // for a relative_spouse.
         if ("relationshipToDeceased" in patch) {

@@ -338,7 +338,7 @@
     "nameVisibility_family": "Solo registrados",
     "nameVisibility_hidden": "Oculto",
     "nameHiddenPlaceholder": "Familiar",
-    "nameVisibilityHelp": "Los familiares vivos solo son visibles para usuarios registrados; los visitantes anónimos ven el nombre enmascarado. Elige Oculto para no mostrarlo.",
+    "nameVisibilityHelp": "Por defecto, los nombres se muestran completos a todos. Elige «Solo usuarios con sesión» para ocultarlo a visitantes anónimos, u «Oculto» para no mostrarlo en la página.",
     "shareMore": "Más opciones para compartir…",
     "bornIn": ", nacido/a en {place}",
     "diedIn": ", fallecido/a en {place}",

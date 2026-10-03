@@ -338,7 +338,7 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "nameVisibilityHelp": "이름은 기본적으로 모두에게 전체 표시됩니다. '로그인 사용자만'을 선택하면 익명 방문자에게는 가려지고, '숨김'을 선택하면 페이지에 표시되지 않습니다.",
     "shareMore": "더 많은 공유 옵션…",
     "bornIn": ", {place} 출생",
     "diedIn": ", {place}에서 별세",

@@ -134,8 +134,8 @@ export async function PUT(
       const rel = relatives[i]!;
       // The 3-state visibility is authoritative; the old boolean is kept in
       // sync (public == "show the full name") for anything still reading it.
-      const visibility =
-        rel.nameVisibility ?? (rel.isDeceased ? "public" : "family");
+      // Names are public by default; masking is the editor's explicit choice.
+      const visibility = rel.nameVisibility ?? "public";
       const [row] = await tx
         .insert(memorialRelatives)
         .values({

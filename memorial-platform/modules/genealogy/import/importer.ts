@@ -594,12 +594,13 @@ async function seedMemorialNode(
 }
 
 /**
- * A living person: a masked graph node, never a page.
+ * A living person: a graph node, never a page.
  *
- * Only a name and a birth year are recorded — enough to place them in the tree
- * and to match a descendant who registers, and no more, since this person has
- * not consented to anything. `publicMasked` lets the tree show a surname-only
- * name rather than a blank; the full name stays for matching, never displayed.
+ * Only a name and a birth date are recorded — enough to place them in the tree
+ * and to match a descendant who registers. `publicMasked` marks the node as
+ * 族谱-seeded so strangers' trees may show it: by name (site policy 2026-09,
+ * names public by default), with dates withheld, until the person claims the
+ * node and chooses otherwise — see `importedLivingName`.
  */
 async function seedLivingNode(
   actor: Actor,

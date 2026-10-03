@@ -13,7 +13,7 @@ import type { Tree, TreeEdge, TreeNode } from "./tree";
 import type { Gender, Kinship } from "./kinship";
 import { buildGraph, classifyKinship } from "./kinship";
 import { immediateLinks } from "./links";
-import { maskName } from "./mask";
+import { importedLivingName } from "./mask";
 
 /**
  * The family tree a memorial shows, assembled at read time from two sources
@@ -155,8 +155,9 @@ function effectiveVisibility(rel: RelativeRow): NameVisibility {
   if (value === "public" || value === "family" || value === "hidden") {
     return value;
   }
-  if (rel.showFullName) return "public";
-  return rel.isDeceased ? "public" : "family";
+  // Site policy (2026-09): names are shown in full unless someone chose to
+  // mask them, so a row with no recorded choice is public.
+  return "public";
 }
 
 /**
@@ -655,14 +656,15 @@ function yearOf(dateString: string | null): number | null {
 
 /**
  * Living relatives seeded from a 族谱, directly linked to this memorial's
- * subject and shown masked (surname only). These have no page, so they surface
- * only through the graph — not through the memorial's own relatives list — and
- * only the strong-privacy, publicly-maskable ones (`public_masked`) are shown;
- * a living person someone recorded by hand stays off a stranger's tree entirely.
- * The full name never leaves the server; only the mask is returned.
+ * subject. These have no page, so they surface only through the graph — not
+ * through the memorial's own relatives list — and only 族谱-seeded ones
+ * (`public_masked`) are shown; a living person someone recorded by hand stays
+ * off a stranger's tree entirely. Names show in full by default; a person who
+ * has claimed their node decides for themselves (see `importedLivingName`).
  */
 async function linkedLivingNodesOf(
   memorialId: string,
+  viewerLoggedIn: boolean,
 ): Promise<LinkedMemorial[]> {
   const [memorial] = await db()
     .select({ deceasedPersonId: memorials.deceasedPersonId })
@@ -683,8 +685,10 @@ async function linkedLivingNodesOf(
     .select({
       id: familyPeople.id,
       displayName: familyPeople.displayName,
+      ownChoice: users.nameVisibility,
     })
     .from(familyPeople)
+    .leftJoin(users, eq(users.id, familyPeople.selfUserId))
     .where(
       and(
         inArray(
@@ -701,9 +705,16 @@ async function linkedLivingNodesOf(
   const result: LinkedMemorial[] = [];
   for (const row of rows) {
     if (!row.displayName) continue;
+    const choice = row.ownChoice;
+    const name = importedLivingName(
+      row.displayName,
+      choice === "public" || choice === "family" || choice === "hidden" ? choice : null,
+      viewerLoggedIn,
+    );
+    if (name === null) continue;
     result.push({
       personId: row.id,
-      name: maskName(row.displayName),
+      name,
       slug: null,
       role: roleByPerson.get(row.id) ?? "child",
       gender: "unknown",
@@ -764,7 +775,7 @@ export async function familyViewForMemorial(
 ): Promise<{ tree: Tree; kinship: Map<string, Kinship> } | null> {
   const [linked, livingLinked, nameOverrides] = await Promise.all([
     linkedMemorialsOf(memorialId, options?.recurse ?? false),
-    linkedLivingNodesOf(memorialId),
+    linkedLivingNodesOf(memorialId, options?.viewerLoggedIn ?? false),
     nameOverridesForMemorial(memorialId),
   ]);
   return assembleFamilyView({

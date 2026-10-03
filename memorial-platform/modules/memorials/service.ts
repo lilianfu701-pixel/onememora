@@ -295,13 +295,16 @@ export async function createMemorial(
         name: relName,
         relationshipToDeceased: rel.relationshipToDeceased,
         isDeceased: rel.isDeceased,
-        showFullName: rel.showFullName ?? rel.isDeceased,
+        // Names are public by default; an unticked "show name" masks it.
+        showFullName: rel.showFullName ?? true,
+        nameVisibility: (rel.showFullName ?? true) ? "public" : "family",
         displayOrder: relativeOrder++,
       });
     }
 
     // Co-creators are living family who will manage the memorial once they
-    // register; recorded here as relatives (masked, living) so the recognition
+    // register; recorded here as relatives (living, named in full until they claim
+    // and choose otherwise) so the recognition
     // flow can link them by name and relationship.
     for (const co of input.coCreators ?? []) {
       const coName = co.name.trim();
@@ -314,7 +317,8 @@ export async function createMemorial(
         name: coName,
         relationshipToDeceased: co.relationshipToDeceased,
         isDeceased: false,
-        showFullName: false,
+        showFullName: true,
+        nameVisibility: "public",
         displayOrder: relativeOrder++,
       });
     }

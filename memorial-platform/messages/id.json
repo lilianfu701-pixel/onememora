@@ -338,7 +338,7 @@
     "nameVisibility_family": "Signed-in only",
     "nameVisibility_hidden": "Hidden",
     "nameHiddenPlaceholder": "Family member",
-    "nameVisibilityHelp": "Living relatives default to signed-in viewers only; anonymous visitors see a masked name. Choose Hidden to keep the name off the page entirely.",
+    "nameVisibilityHelp": "Secara default, nama ditampilkan lengkap untuk semua orang. Pilih \"Hanya yang masuk\" untuk menyamarkan nama bagi pengunjung anonim, atau \"Disembunyikan\" agar tidak tampil sama sekali.",
     "shareMore": "Opsi berbagi lainnya…",
     "bornIn": ", lahir di {place}",
     "diedIn": ", meninggal di {place}",

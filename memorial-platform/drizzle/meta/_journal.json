@@ -421,6 +421,13 @@
       "when": 1790303682807,
       "tag": "0059_breezy_cerise",
       "breakpoints": true
+    },
+    {
+      "idx": 60,
+      "version": "7",
+      "when": 1790988934792,
+      "tag": "0060_abandoned_vin_gonzales",
+      "breakpoints": true
     }
   ]
 }
