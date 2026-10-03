@@ -32,6 +32,7 @@ import { TakeoverPanel } from "./takeover-panel";
 import { ClaimBanner } from "./claim-banner";
 import { AdminReclaim } from "./admin-reclaim";
 import { offeringSummary } from "@/modules/offerings/display";
+import { paidOfferingsClosed } from "@/modules/offerings/gating";
 import { listPublicChapters } from "@/modules/memorials/life-chapters";
 import { getDisposition } from "@/modules/memorials/disposition";
 import { DispositionCard } from "./disposition-card";
@@ -562,7 +563,10 @@ export default async function MemorialPage(props: {
           paymentEnabled={Boolean(
             process.env.PAYPAL_CLIENT_ID && process.env.PAYPAL_CLIENT_SECRET,
           )}
-          awaitingClaim={awaitingClaim}
+          awaitingClaim={paidOfferingsClosed(
+            offeringFlags?.stewardedByAdminAt,
+            offeringFlags?.creationIdempotencyKey,
+          )}
           disabledSlugs={disabledSlugs}
           details={
             <header className="memorialHead">
