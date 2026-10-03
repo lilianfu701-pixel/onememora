@@ -1,0 +1,36 @@
+{
+  "key": "lipu:lixiantingdf8",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lixiantingdf8:17-宗恩",
+      "name": "李宗恩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州大方·核桃乡木寨村李家湾子",
+      "birthPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "deathPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州大方·核桃乡木寨村李家湾子。谱列第十七代，未载其父。葬于大方县双山羊叉路大猓土，姙梅氏无嗣，葬于大方县双叉路大猓土"
+    },
+    {
+      "externalId": "lipu:lixiantingdf8:17-李宗恩之妻",
+      "name": "李宗恩之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "梅氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:lixiantingdf8:17-宗恩",
+      "b": "lipu:lixiantingdf8:17-李宗恩之妻"
+    }
+  ]
+}

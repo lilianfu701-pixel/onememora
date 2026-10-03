@@ -1,0 +1,125 @@
+{
+  "key": "lipu:lixiantingdf10",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:lixiantingdf:15-志能",
+      "name": "李志能",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1811
+      },
+      "death": {
+        "year": 1862
+      },
+      "ancestralHometown": "贵州大方·核桃乡木寨村李家湾子",
+      "birthPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "deathPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "bio": "陇西李氏·李代龙支系第15代，贵州大方·核桃乡木寨村李家湾子。"
+    },
+    {
+      "externalId": "lipu:lixiantingdf10:16-天良",
+      "name": "李天良",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1835
+      },
+      "ancestralHometown": "贵州大方·核桃乡木寨村李家湾子",
+      "birthPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "deathPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州大方·核桃乡木寨村李家湾子。1835年五月初四日巳时，生于大定府乐贡里五甲洒雨黄泥坡。葬于大方县达溪镇，雨沙村火石坝。偶邓氏生于1847年冬月廿一日亥时云南镇雄，葬于大方县核桃乡新寨罗家大坡。子嗣见志能天良房"
+    },
+    {
+      "externalId": "lipu:lixiantingdf10:16-天申",
+      "name": "李天申",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1838
+      },
+      "ancestralHometown": "贵州大方·核桃乡木寨村李家湾子",
+      "birthPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "deathPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州大方·核桃乡木寨村李家湾子。1838年三月初七日卯时生于大定府乐贡里五甲洒雨黄泥坡，葬于大方县双山镇羊叉路过路红湾。偶卢氏。子嗣见志能天申房"
+    },
+    {
+      "externalId": "lipu:lixiantingdf10:16-天叙",
+      "name": "李天叙",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1843
+      },
+      "ancestralHometown": "贵州大方·核桃乡木寨村李家湾子",
+      "birthPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "deathPlace": {
+        "region": "贵州大方·核桃乡木寨村李家湾子"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州大方·核桃乡木寨村李家湾子。1843年生于大定府乐贡里五甲洒雨黄泥坡，无嗣"
+    },
+    {
+      "externalId": "lipu:lixiantingdf10:16-李天良之妻",
+      "name": "李天良之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "邓氏"
+      ],
+      "birth": {
+        "year": 1847
+      }
+    },
+    {
+      "externalId": "lipu:lixiantingdf10:16-李天申之妻",
+      "name": "李天申之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:lixiantingdf:15-志能",
+      "child": "lipu:lixiantingdf10:16-天良"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lixiantingdf10:16-天良",
+      "b": "lipu:lixiantingdf10:16-李天良之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixiantingdf:15-志能",
+      "child": "lipu:lixiantingdf10:16-天申"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:lixiantingdf10:16-天申",
+      "b": "lipu:lixiantingdf10:16-李天申之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:lixiantingdf:15-志能",
+      "child": "lipu:lixiantingdf10:16-天叙"
+    }
+  ]
+}
