@@ -100,6 +100,9 @@ export function GenealogySeed(props: {
     const order = new Map(props.families.map((f, i) => [f.key, i]));
     const recency = props.recency ?? {};
     const isDone = (f: FamilyMeta): boolean => {
+      // An all-living family seeds no pages, so its page count stays 0 forever;
+      // it has nothing to wait for and must not pin itself to the top.
+      if (f.deceased === 0) return true;
       const n = props.imported[f.key] ?? 0;
       return n > 0 && n >= f.deceased;
     };
