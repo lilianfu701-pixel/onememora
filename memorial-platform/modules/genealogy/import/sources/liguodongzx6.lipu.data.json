@@ -1,0 +1,225 @@
+{
+  "key": "lipu:liguodongzx6",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liguodongzx6:18-琼成",
+      "name": "李琼成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。谱列第十八代，未载其父。偶安氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx6:19-元泰",
+      "name": "李元泰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1884
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州·金盆乡则雄。1884年10月生，葬兴帮坟，偶陈氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx6:20-炳隆",
+      "name": "李炳隆",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1918
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第20代，贵州·金盆乡则雄。1918年12月15日生，偶陈珍妹生于1921年1月20日；女长秀、二妹"
+    },
+    {
+      "externalId": "lipu:liguodongzx6:21-姿林",
+      "name": "李姿林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1935
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true,
+      "bio": "陇西李氏·李代龙支系第21代，贵州·金盆乡则雄。谱列于炳隆之下作第二十一代，或为炳隆之子（炳隆条作发林）。1935年生，偶卢氏生于1937年；女大妹、幺妹"
+    },
+    {
+      "externalId": "lipu:liguodongzx6:18-李琼成之妻",
+      "name": "李琼成之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "安氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx6:19-顺泰",
+      "name": "李顺泰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx6:19-李元泰之妻",
+      "name": "李元泰之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx6:20-隆海",
+      "name": "李隆海",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx6:20-陈珍妹",
+      "name": "陈珍妹",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "birth": {
+        "year": 1921
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx6:21-发林",
+      "name": "李发林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx6:21-姿能",
+      "name": "李姿能",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx6:21-李姿林之妻",
+      "name": "李姿林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1937
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx6:22-焕军",
+      "name": "李焕军",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx6:18-李琼成之妻",
+      "b": "lipu:liguodongzx6:18-琼成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:18-琼成",
+      "child": "lipu:liguodongzx6:19-顺泰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:18-琼成",
+      "child": "lipu:liguodongzx6:19-元泰"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx6:19-元泰",
+      "b": "lipu:liguodongzx6:19-李元泰之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:19-元泰",
+      "child": "lipu:liguodongzx6:20-隆海"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:19-元泰",
+      "child": "lipu:liguodongzx6:20-炳隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx6:20-炳隆",
+      "b": "lipu:liguodongzx6:20-陈珍妹"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:20-炳隆",
+      "child": "lipu:liguodongzx6:21-发林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:20-炳隆",
+      "child": "lipu:liguodongzx6:21-姿能"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx6:21-姿林",
+      "b": "lipu:liguodongzx6:21-李姿林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx6:21-姿林",
+      "child": "lipu:liguodongzx6:22-焕军"
+    }
+  ]
+}

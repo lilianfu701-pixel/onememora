@@ -1,0 +1,162 @@
+{
+  "key": "lipu:liguodongzx10",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liguodongzx:17-辉祥",
+      "name": "李辉祥",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。"
+    },
+    {
+      "externalId": "lipu:liguodongzx10:18-琼寿",
+      "name": "李琼寿",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。葬大冲头，偶杨氏葬小冲头；女二妹、三妹、四妹、银妹、唤妹"
+    },
+    {
+      "externalId": "lipu:liguodongzx10:19-福泰",
+      "name": "李福泰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1922
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州·金盆乡则雄。1922年6月1日生，葬三屯地，偶卢氏生于1918年9月7日；女德英、腊英、六英"
+    },
+    {
+      "externalId": "lipu:liguodongzx10:18-李琼寿之妻",
+      "name": "李琼寿之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx10:19-银泰",
+      "name": "李银泰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx10:19-钱泰",
+      "name": "李钱泰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx10:19-李福泰之妻",
+      "name": "李福泰之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1918
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx10:20-隆远",
+      "name": "李隆远",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx10:20-隆俊",
+      "name": "李隆俊",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:17-辉祥",
+      "child": "lipu:liguodongzx10:18-琼寿"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx10:18-李琼寿之妻",
+      "b": "lipu:liguodongzx10:18-琼寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx10:18-琼寿",
+      "child": "lipu:liguodongzx10:19-银泰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx10:18-琼寿",
+      "child": "lipu:liguodongzx10:19-钱泰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx10:18-琼寿",
+      "child": "lipu:liguodongzx10:19-福泰"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx10:19-李福泰之妻",
+      "b": "lipu:liguodongzx10:19-福泰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx10:19-福泰",
+      "child": "lipu:liguodongzx10:20-隆远"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx10:19-福泰",
+      "child": "lipu:liguodongzx10:20-隆俊"
+    }
+  ]
+}

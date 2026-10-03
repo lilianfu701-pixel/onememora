@@ -1,0 +1,654 @@
+{
+  "key": "lipu:liguodongzx5",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liguodongzx:16-忠彩",
+      "name": "李忠彩",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第16代，贵州·金盆乡则雄。"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-辉瑶",
+      "name": "李辉瑶",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。偶周氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-辉顺",
+      "name": "李辉顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。偶张氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-辉林",
+      "name": "李辉林",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。偶刘氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-辉炎",
+      "name": "李辉炎",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。偶周氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼三",
+      "name": "李琼三",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。葬尤家麦地"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-银生",
+      "name": "李银生",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。偶陈氏葬丫口"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼柱",
+      "name": "李琼柱",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。偶卢氏；女二妹、三妹"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼富",
+      "name": "李琼富",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1903
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。1903年生，葬丫口上，偶卢氏生于1901年，葬丫口上，续偶赵氏生于1917年，葬大箐脚；女二妹、小凤"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼幺",
+      "name": "李琼幺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1908
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。1908年生，葬大坪子，偶王氏生于1909年，葬马家屋基"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-桥顺",
+      "name": "李桥顺",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1918
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州·金盆乡则雄。1918年生，葬韩姿岭。偶张氏"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-少明",
+      "name": "李少明",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "birth": {
+        "year": 1930
+      },
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第19代，贵州·金盆乡则雄。1930年8月29日生，葬丫口边，偶杨氏生于1936年12月5日，葬丫口边；女二妹、幺妹"
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-辉科",
+      "name": "李辉科",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-李辉瑶之妻",
+      "name": "李辉瑶之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼佰",
+      "name": "李琼佰",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼奉",
+      "name": "李琼奉",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-李辉顺之妻",
+      "name": "李辉顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-琼玖",
+      "name": "李琼玖",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-李辉林之妻",
+      "name": "李辉林之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:17-李辉炎之妻",
+      "name": "李辉炎之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "周氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-武金",
+      "name": "李武金",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-泰中",
+      "name": "李泰中",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-泰成",
+      "name": "李泰成",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-李银生之妻",
+      "name": "李银生之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-泰发",
+      "name": "李泰发",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-李琼柱之妻",
+      "name": "李琼柱之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-李琼富之妻",
+      "name": "李琼富之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "卢氏"
+      ],
+      "birth": {
+        "year": 1901
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:18-李琼幺之妻",
+      "name": "李琼幺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1909
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-泰元",
+      "name": "李泰元",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-泰安",
+      "name": "李泰安",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-泰英",
+      "name": "李泰英",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-李桥顺之妻",
+      "name": "李桥顺之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:liguodongzx5:20-隆相",
+      "name": "李隆相",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx5:19-李少明之妻",
+      "name": "李少明之妻",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "gender": "female",
+      "aliases": [
+        "杨氏"
+      ],
+      "birth": {
+        "year": 1936
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx5:20-隆显",
+      "name": "李隆显",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx5:20-隆春",
+      "name": "李隆春",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:liguodongzx5:20-隆堂",
+      "name": "李隆堂",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:16-忠彩",
+      "child": "lipu:liguodongzx5:17-辉科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:16-忠彩",
+      "child": "lipu:liguodongzx5:17-辉瑶"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:17-李辉瑶之妻",
+      "b": "lipu:liguodongzx5:17-辉瑶"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉瑶",
+      "child": "lipu:liguodongzx5:18-琼佰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉瑶",
+      "child": "lipu:liguodongzx5:18-琼奉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:16-忠彩",
+      "child": "lipu:liguodongzx5:17-辉顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:17-李辉顺之妻",
+      "b": "lipu:liguodongzx5:17-辉顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉顺",
+      "child": "lipu:liguodongzx5:18-琼玖"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:16-忠彩",
+      "child": "lipu:liguodongzx5:17-辉林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:17-李辉林之妻",
+      "b": "lipu:liguodongzx5:17-辉林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:16-忠彩",
+      "child": "lipu:liguodongzx5:17-辉炎"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:17-李辉炎之妻",
+      "b": "lipu:liguodongzx5:17-辉炎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉炎",
+      "child": "lipu:liguodongzx5:18-武金"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉瑶",
+      "child": "lipu:liguodongzx5:18-琼三"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼三",
+      "child": "lipu:liguodongzx5:19-泰中"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼三",
+      "child": "lipu:liguodongzx5:19-泰成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉顺",
+      "child": "lipu:liguodongzx5:18-银生"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:18-李银生之妻",
+      "b": "lipu:liguodongzx5:18-银生"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-银生",
+      "child": "lipu:liguodongzx5:19-泰发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉林",
+      "child": "lipu:liguodongzx5:18-琼柱"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:18-李琼柱之妻",
+      "b": "lipu:liguodongzx5:18-琼柱"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉林",
+      "child": "lipu:liguodongzx5:18-琼富"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:18-李琼富之妻",
+      "b": "lipu:liguodongzx5:18-琼富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:17-辉林",
+      "child": "lipu:liguodongzx5:18-琼幺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:18-李琼幺之妻",
+      "b": "lipu:liguodongzx5:18-琼幺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼幺",
+      "child": "lipu:liguodongzx5:19-泰元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼幺",
+      "child": "lipu:liguodongzx5:19-泰安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼幺",
+      "child": "lipu:liguodongzx5:19-泰英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼柱",
+      "child": "lipu:liguodongzx5:19-桥顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:19-李桥顺之妻",
+      "b": "lipu:liguodongzx5:19-桥顺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:19-桥顺",
+      "child": "lipu:liguodongzx5:20-隆相"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:18-琼富",
+      "child": "lipu:liguodongzx5:19-少明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:liguodongzx5:19-少明",
+      "b": "lipu:liguodongzx5:19-李少明之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:19-少明",
+      "child": "lipu:liguodongzx5:20-隆显"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:19-少明",
+      "child": "lipu:liguodongzx5:20-隆春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx5:19-少明",
+      "child": "lipu:liguodongzx5:20-隆堂"
+    }
+  ]
+}

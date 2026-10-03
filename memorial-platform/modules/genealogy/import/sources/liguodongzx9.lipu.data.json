@@ -1,0 +1,109 @@
+{
+  "key": "lipu:liguodongzx9",
+  "namespace": "lipu-lidailong",
+  "people": [
+    {
+      "externalId": "lipu:liguodongzx:17-辉秀",
+      "name": "李辉秀",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。"
+    },
+    {
+      "externalId": "lipu:liguodongzx:17-辉贤",
+      "name": "李辉贤",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第17代，贵州·金盆乡则雄。"
+    },
+    {
+      "externalId": "lipu:liguodongzx9:18-银二",
+      "name": "李银二",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "bio": "陇西李氏·李代龙支系第18代，贵州·金盆乡则雄。葬老虎冲"
+    },
+    {
+      "externalId": "lipu:liguodongzx9:18-银",
+      "name": "李银",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx9:18-琼美",
+      "name": "李琼美",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    },
+    {
+      "externalId": "lipu:liguodongzx9:19-泰友",
+      "name": "李泰友",
+      "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+      "clanName": "陇西李氏·李代龙支系",
+      "ancestralHometown": "贵州·金盆乡则雄",
+      "birthPlace": {
+        "region": "贵州·金盆乡则雄"
+      },
+      "deathPlace": {
+        "region": "贵州·金盆乡则雄"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:17-辉秀",
+      "child": "lipu:liguodongzx9:18-银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:17-辉贤",
+      "child": "lipu:liguodongzx9:18-琼美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx:17-辉秀",
+      "child": "lipu:liguodongzx9:18-银二"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:liguodongzx9:18-银二",
+      "child": "lipu:liguodongzx9:19-泰友"
+    }
+  ]
+}
