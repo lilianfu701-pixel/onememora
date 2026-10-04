@@ -563,6 +563,42 @@ import lipu_lizongwu from "./lizongwu.lipu.data.json";
 import lipu_lihongshun from "./lihongshun.lipu.data.json";
 import lipu_lihonglian from "./lihonglian.lipu.data.json";
 import lipu_liziquan from "./liziquan.lipu.data.json";
+import lipu_qxjy_a01 from "./qxjy_a01.lipu.data.json";
+import lipu_qxjy_a02 from "./qxjy_a02.lipu.data.json";
+import lipu_qxjy_a03 from "./qxjy_a03.lipu.data.json";
+import lipu_qxjy_a04 from "./qxjy_a04.lipu.data.json";
+import lipu_qxjy_a05 from "./qxjy_a05.lipu.data.json";
+import lipu_qxjy_a06 from "./qxjy_a06.lipu.data.json";
+import lipu_qxjy_a07 from "./qxjy_a07.lipu.data.json";
+import lipu_qxjy_a08 from "./qxjy_a08.lipu.data.json";
+import lipu_qxjy_a09 from "./qxjy_a09.lipu.data.json";
+import lipu_qxjy_a10 from "./qxjy_a10.lipu.data.json";
+import lipu_qxjy_a11 from "./qxjy_a11.lipu.data.json";
+import lipu_qxjy_a12 from "./qxjy_a12.lipu.data.json";
+import lipu_qxjy_a13 from "./qxjy_a13.lipu.data.json";
+import lipu_qxjy_a14 from "./qxjy_a14.lipu.data.json";
+import lipu_qxjy_a15 from "./qxjy_a15.lipu.data.json";
+import lipu_qxjy_a16 from "./qxjy_a16.lipu.data.json";
+import lipu_qxjy_a17 from "./qxjy_a17.lipu.data.json";
+import lipu_qxjy_a18 from "./qxjy_a18.lipu.data.json";
+import lipu_qxjy_a19 from "./qxjy_a19.lipu.data.json";
+import lipu_qxjy_a20 from "./qxjy_a20.lipu.data.json";
+import lipu_qxjy_a21 from "./qxjy_a21.lipu.data.json";
+import lipu_qxjy_a22 from "./qxjy_a22.lipu.data.json";
+import lipu_qxjy_a23 from "./qxjy_a23.lipu.data.json";
+import lipu_qxjy_a24 from "./qxjy_a24.lipu.data.json";
+import lipu_qxjy_a25 from "./qxjy_a25.lipu.data.json";
+import lipu_qxjy_a26 from "./qxjy_a26.lipu.data.json";
+import lipu_qxjy_a27 from "./qxjy_a27.lipu.data.json";
+import lipu_qxjy_a28 from "./qxjy_a28.lipu.data.json";
+import lipu_qxjy_a29 from "./qxjy_a29.lipu.data.json";
+import lipu_qxjy_a30 from "./qxjy_a30.lipu.data.json";
+import lipu_qxjy_a31 from "./qxjy_a31.lipu.data.json";
+import lipu_qxjy_a32 from "./qxjy_a32.lipu.data.json";
+import lipu_qxjy_a33 from "./qxjy_a33.lipu.data.json";
+import lipu_qxjy_a34 from "./qxjy_a34.lipu.data.json";
+import lipu_qxjy_a35 from "./qxjy_a35.lipu.data.json";
+import lipu_qxjy_a36 from "./qxjy_a36.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -1121,6 +1157,42 @@ const LABELS: Record<string, string> = {
   lihongshun: "李氏·李洪顺一支（李代龙支系谱·纳雍乡鼠场三苍土·十五至二十代）",
   lihonglian: "李氏·李洪连一支（李代龙支系谱·纳雍乡千二系·十八至二十一代）",
   liziquan: "李氏·李自全一支（李代龙支系谱·纳雍乡八耳岩脚·十七至二十代）",
+  qxjy_a01: "清徐集义李氏·一股·李大志之后（十世前世系，第8-11世）",
+  qxjy_a02: "清徐集义李氏·一股·李谭之后（十世前世系，第4-11世）",
+  qxjy_a03: "清徐集义李氏·二股·李大本之后（十世前世系，第8-11世）",
+  qxjy_a04: "清徐集义李氏·二股·李文简之后（十世前世系，第5-11世）",
+  qxjy_a05: "清徐集义李氏·二股·李重山之后（十世前世系，第9-11世）",
+  qxjy_a06: "清徐集义李氏·二股·李大长之后（十世前世系，第8-11世）",
+  qxjy_a07: "清徐集义李氏·二股·李明春之后（十世前世系，第9-11世）",
+  qxjy_a08: "清徐集义李氏·二股·李坚之后（十世前世系，第6-11世）",
+  qxjy_a09: "清徐集义李氏·二股·李坚之后（十世前世系，第6-11世）",
+  qxjy_a10: "清徐集义李氏·三股·李可久之后（十世前世系，第10-11世）",
+  qxjy_a11: "清徐集义李氏·三股·李萌春之后（十世前世系，第9-11世）",
+  qxjy_a12: "清徐集义李氏·三股·李荫春之后（十世前世系，第9-11世）",
+  qxjy_a13: "清徐集义李氏·三股·李大用之后（十世前世系，第8-11世）",
+  qxjy_a14: "清徐集义李氏·三股·李鸾之后（十世前世系，第7-11世）",
+  qxjy_a15: "清徐集义李氏·三股·李鸾之后（十世前世系，第7-11世）",
+  qxjy_a16: "清徐集义李氏·三股·李同春之后（十世前世系，第9-11世）",
+  qxjy_a17: "清徐集义李氏·三股·李凤之后（十世前世系，第7-11世）",
+  qxjy_a18: "清徐集义李氏·三股·李凤之后（十世前世系，第7-11世）",
+  qxjy_a19: "清徐集义李氏·三股·李茂之后（十世前世系，第6-11世）",
+  qxjy_a20: "清徐集义李氏·三股·李端之后（十世前世系，第6-11世）",
+  qxjy_a21: "清徐集义李氏·三股·李文合之后（十世前世系，第5-11世）",
+  qxjy_a22: "清徐集义李氏·三股·李大质之后（十世前世系，第8-11世）",
+  qxjy_a23: "清徐集义李氏·三股·李安之后（十世前世系，第6-11世）",
+  qxjy_a24: "清徐集义李氏·三股·李智春之后（十世前世系，第9-11世）",
+  qxjy_a25: "清徐集义李氏·三股·李文义之后（十世前世系，第5-11世）",
+  qxjy_a26: "清徐集义李氏·三股·李表之后（十世前世系，第4-11世）",
+  qxjy_a27: "清徐集义李氏·四股·李大恩之后（十世前世系，第8-11世）",
+  qxjy_a28: "清徐集义李氏·四股·李奇之后（十世前世系，第7-11世）",
+  qxjy_a29: "清徐集义李氏·四股·李大纲之后（十世前世系，第8-11世）",
+  qxjy_a30: "清徐集义李氏·四股·李节之后（十世前世系，第4-11世）",
+  qxjy_a31: "清徐集义李氏·五股·李大永之后（十世前世系，第8-11世）",
+  qxjy_a32: "清徐集义李氏·五股·李大永之后（十世前世系，第8-11世）",
+  qxjy_a33: "清徐集义李氏·五股·李世忠之后（十世前世系，第3-11世）",
+  qxjy_a34: "清徐集义李氏·二股·李世忠之后（十世前世系，第3-11世）",
+  qxjy_a35: "清徐集义李氏·一股·李世忠之后（十世前世系，第3-10世）",
+  qxjy_a36: "清徐集义李氏·李仁甫（十世前世系，第1-11世）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -1679,6 +1751,42 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["lihongshun", lipu_lihongshun as GenealogyDataset],
   ["lihonglian", lipu_lihonglian as GenealogyDataset],
   ["liziquan", lipu_liziquan as GenealogyDataset],
+  ["qxjy_a01", lipu_qxjy_a01 as GenealogyDataset],
+  ["qxjy_a02", lipu_qxjy_a02 as GenealogyDataset],
+  ["qxjy_a03", lipu_qxjy_a03 as GenealogyDataset],
+  ["qxjy_a04", lipu_qxjy_a04 as GenealogyDataset],
+  ["qxjy_a05", lipu_qxjy_a05 as GenealogyDataset],
+  ["qxjy_a06", lipu_qxjy_a06 as GenealogyDataset],
+  ["qxjy_a07", lipu_qxjy_a07 as GenealogyDataset],
+  ["qxjy_a08", lipu_qxjy_a08 as GenealogyDataset],
+  ["qxjy_a09", lipu_qxjy_a09 as GenealogyDataset],
+  ["qxjy_a10", lipu_qxjy_a10 as GenealogyDataset],
+  ["qxjy_a11", lipu_qxjy_a11 as GenealogyDataset],
+  ["qxjy_a12", lipu_qxjy_a12 as GenealogyDataset],
+  ["qxjy_a13", lipu_qxjy_a13 as GenealogyDataset],
+  ["qxjy_a14", lipu_qxjy_a14 as GenealogyDataset],
+  ["qxjy_a15", lipu_qxjy_a15 as GenealogyDataset],
+  ["qxjy_a16", lipu_qxjy_a16 as GenealogyDataset],
+  ["qxjy_a17", lipu_qxjy_a17 as GenealogyDataset],
+  ["qxjy_a18", lipu_qxjy_a18 as GenealogyDataset],
+  ["qxjy_a19", lipu_qxjy_a19 as GenealogyDataset],
+  ["qxjy_a20", lipu_qxjy_a20 as GenealogyDataset],
+  ["qxjy_a21", lipu_qxjy_a21 as GenealogyDataset],
+  ["qxjy_a22", lipu_qxjy_a22 as GenealogyDataset],
+  ["qxjy_a23", lipu_qxjy_a23 as GenealogyDataset],
+  ["qxjy_a24", lipu_qxjy_a24 as GenealogyDataset],
+  ["qxjy_a25", lipu_qxjy_a25 as GenealogyDataset],
+  ["qxjy_a26", lipu_qxjy_a26 as GenealogyDataset],
+  ["qxjy_a27", lipu_qxjy_a27 as GenealogyDataset],
+  ["qxjy_a28", lipu_qxjy_a28 as GenealogyDataset],
+  ["qxjy_a29", lipu_qxjy_a29 as GenealogyDataset],
+  ["qxjy_a30", lipu_qxjy_a30 as GenealogyDataset],
+  ["qxjy_a31", lipu_qxjy_a31 as GenealogyDataset],
+  ["qxjy_a32", lipu_qxjy_a32 as GenealogyDataset],
+  ["qxjy_a33", lipu_qxjy_a33 as GenealogyDataset],
+  ["qxjy_a34", lipu_qxjy_a34 as GenealogyDataset],
+  ["qxjy_a35", lipu_qxjy_a35 as GenealogyDataset],
+  ["qxjy_a36", lipu_qxjy_a36 as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {

@@ -1,0 +1,700 @@
+{
+  "key": "lipu:qxjy_a15",
+  "namespace": "zupu-qxjy",
+  "people": [
+    {
+      "externalId": "lipu:qxjy_a21:6-鸾",
+      "name": "李鸾",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第6代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:7-大用",
+      "name": "李大用",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第7代，山西清徐·集义乡集义村，李鸾次子。属三股；子嗣另见本谱分支。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-蘖春",
+      "name": "李蘖春",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第8代，山西清徐·集义乡集义村，李大用长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:9-可荐",
+      "name": "李可荐",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第9代，山西清徐·集义乡集义村，李蘖春长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-愈先",
+      "name": "李愈先",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第10代，山西清徐·集义乡集义村，李可荐长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-永贵",
+      "name": "李永贵",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村，李愈先长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-华春",
+      "name": "李华春",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第8代，山西清徐·集义乡集义村，李大用次子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:9-可尚",
+      "name": "李可尚",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第9代，山西清徐·集义乡集义村，李华春长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-愈升",
+      "name": "李愈升",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第10代，山西清徐·集义乡集义村，李可尚三子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-愈昌",
+      "name": "李愈昌",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第10代，山西清徐·集义乡集义村，李可尚长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-永庆",
+      "name": "李永庆",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村，李愈昌长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-永贺",
+      "name": "李永贺",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村，李愈昌次子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-愈早",
+      "name": "李愈早",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第10代，山西清徐·集义乡集义村，李可尚次子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-节时",
+      "name": "李节时",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村，李愈早三子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-节枝",
+      "name": "李节枝",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村，李愈早长子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-节栋",
+      "name": "李节栋",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村，李愈早次子。属三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a15:7-李大用之妻",
+      "name": "李大用之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "贾氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:7-李大用之妻#1",
+      "name": "李大用之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "庞氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-李蘖春之妻",
+      "name": "李蘖春之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-李蘖春之妻#1",
+      "name": "李蘖春之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "闫氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-李蘖春之妻#2",
+      "name": "李蘖春之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:9-李可荐之妻",
+      "name": "李可荐之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "贾氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈先之妻",
+      "name": "李愈先之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "武氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈先之妻#1",
+      "name": "李愈先之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈先之妻#2",
+      "name": "李愈先之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李永贵之妻",
+      "name": "李永贵之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-李华春之妻",
+      "name": "李华春之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:8-李华春之妻#1",
+      "name": "李华春之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:9-李可尚之妻",
+      "name": "李可尚之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "白氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:9-李可尚之妻#1",
+      "name": "李可尚之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "贾氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:9-李可尚之妻#2",
+      "name": "李可尚之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "党氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈升之妻",
+      "name": "李愈升之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "崔氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈昌之妻",
+      "name": "李愈昌之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈昌之妻#1",
+      "name": "李愈昌之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "要氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李永庆之妻",
+      "name": "李永庆之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "侯氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李永贺之妻",
+      "name": "李永贺之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "庞氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈早之妻",
+      "name": "李愈早之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:10-李愈早之妻#1",
+      "name": "李愈早之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "李氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李节时之妻",
+      "name": "李节时之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "史氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李节枝之妻",
+      "name": "李节枝之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "冯氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李节枝之妻#1",
+      "name": "李节枝之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "李氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李节栋之妻",
+      "name": "李节栋之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_a15:11-李节栋之妻#1",
+      "name": "李节栋之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "吕氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a21:6-鸾",
+      "child": "lipu:qxjy_a15:7-大用"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:7-大用",
+      "b": "lipu:qxjy_a15:7-李大用之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:7-大用",
+      "b": "lipu:qxjy_a15:7-李大用之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:7-大用",
+      "child": "lipu:qxjy_a15:8-蘖春"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:8-李蘖春之妻",
+      "b": "lipu:qxjy_a15:8-蘖春"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:8-李蘖春之妻#1",
+      "b": "lipu:qxjy_a15:8-蘖春"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:8-李蘖春之妻#2",
+      "b": "lipu:qxjy_a15:8-蘖春"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:8-蘖春",
+      "child": "lipu:qxjy_a15:9-可荐"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:9-可荐",
+      "b": "lipu:qxjy_a15:9-李可荐之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:9-可荐",
+      "child": "lipu:qxjy_a15:10-愈先"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈先",
+      "b": "lipu:qxjy_a15:10-李愈先之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈先",
+      "b": "lipu:qxjy_a15:10-李愈先之妻#1"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈先",
+      "b": "lipu:qxjy_a15:10-李愈先之妻#2"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:10-愈先",
+      "child": "lipu:qxjy_a15:11-永贵"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李永贵之妻",
+      "b": "lipu:qxjy_a15:11-永贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:7-大用",
+      "child": "lipu:qxjy_a15:8-华春"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:8-华春",
+      "b": "lipu:qxjy_a15:8-李华春之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:8-华春",
+      "b": "lipu:qxjy_a15:8-李华春之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:8-华春",
+      "child": "lipu:qxjy_a15:9-可尚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:9-可尚",
+      "b": "lipu:qxjy_a15:9-李可尚之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:9-可尚",
+      "b": "lipu:qxjy_a15:9-李可尚之妻#1"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:9-可尚",
+      "b": "lipu:qxjy_a15:9-李可尚之妻#2"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:9-可尚",
+      "child": "lipu:qxjy_a15:10-愈升"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈升",
+      "b": "lipu:qxjy_a15:10-李愈升之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:9-可尚",
+      "child": "lipu:qxjy_a15:10-愈昌"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈昌",
+      "b": "lipu:qxjy_a15:10-李愈昌之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈昌",
+      "b": "lipu:qxjy_a15:10-李愈昌之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:10-愈昌",
+      "child": "lipu:qxjy_a15:11-永庆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李永庆之妻",
+      "b": "lipu:qxjy_a15:11-永庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:10-愈昌",
+      "child": "lipu:qxjy_a15:11-永贺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李永贺之妻",
+      "b": "lipu:qxjy_a15:11-永贺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:9-可尚",
+      "child": "lipu:qxjy_a15:10-愈早"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈早",
+      "b": "lipu:qxjy_a15:10-李愈早之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:10-愈早",
+      "b": "lipu:qxjy_a15:10-李愈早之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:10-愈早",
+      "child": "lipu:qxjy_a15:11-节时"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李节时之妻",
+      "b": "lipu:qxjy_a15:11-节时"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:10-愈早",
+      "child": "lipu:qxjy_a15:11-节枝"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李节枝之妻",
+      "b": "lipu:qxjy_a15:11-节枝"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李节枝之妻#1",
+      "b": "lipu:qxjy_a15:11-节枝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a15:10-愈早",
+      "child": "lipu:qxjy_a15:11-节栋"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李节栋之妻",
+      "b": "lipu:qxjy_a15:11-节栋"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_a15:11-李节栋之妻#1",
+      "b": "lipu:qxjy_a15:11-节栋"
+    }
+  ]
+}

@@ -9,7 +9,8 @@ import { memorials } from "@/db/schema";
  * which made fully-imported families look 待导入.
  *
  * Both source namespaces are covered: Wikidata families key on
- * `import:wikidata:{QID}` and CBDB families on `import:cbdb:{personId}`.
+ * `import:wikidata:{QID}` and CBDB families on `import:cbdb:{personId}`; paper
+ * books on `import:lipu-lidailong:…` or a per-book `import:zupu-{book}:…`.
  *
  * The external id can itself contain colons — zh.wikipedia-mined people that
  * never resolved to a QID are keyed `import:wikidata:zhwiki:{name}`, so the id
@@ -29,6 +30,7 @@ export async function importedWikidataExternalIds(): Promise<Set<string>> {
           like(memorials.creationIdempotencyKey, "import:wikidata:%"),
           like(memorials.creationIdempotencyKey, "import:cbdb:%"),
           like(memorials.creationIdempotencyKey, "import:lipu-lidailong:%"),
+          like(memorials.creationIdempotencyKey, "import:zupu-%"),
         ),
         isNull(memorials.deletionRequestedAt),
       ),
@@ -39,7 +41,7 @@ export async function importedWikidataExternalIds(): Promise<Set<string>> {
     if (!key) continue;
     const lastSegment = key.split(":").pop();
     if (lastSegment) ids.add(lastSegment);
-    const afterNamespace = key.match(/^import:(?:wikidata|cbdb|lipu-lidailong):(.+)$/);
+    const afterNamespace = key.match(/^import:(?:wikidata|cbdb|lipu-lidailong|zupu-[a-z0-9]+):(.+)$/);
     if (afterNamespace?.[1]) ids.add(afterNamespace[1]);
   }
   return ids;
@@ -64,6 +66,7 @@ export async function importedExternalIdTimes(): Promise<Map<string, number>> {
           like(memorials.creationIdempotencyKey, "import:wikidata:%"),
           like(memorials.creationIdempotencyKey, "import:cbdb:%"),
           like(memorials.creationIdempotencyKey, "import:lipu-lidailong:%"),
+          like(memorials.creationIdempotencyKey, "import:zupu-%"),
         ),
         isNull(memorials.deletionRequestedAt),
       ),
@@ -79,7 +82,7 @@ export async function importedExternalIdTimes(): Promise<Map<string, number>> {
     const t = row.createdAt ? new Date(row.createdAt).getTime() : 0;
     const lastSegment = key.split(":").pop();
     if (lastSegment) bump(lastSegment, t);
-    const afterNamespace = key.match(/^import:(?:wikidata|cbdb|lipu-lidailong):(.+)$/);
+    const afterNamespace = key.match(/^import:(?:wikidata|cbdb|lipu-lidailong|zupu-[a-z0-9]+):(.+)$/);
     if (afterNamespace?.[1]) bump(afterNamespace[1], t);
   }
   return times;
