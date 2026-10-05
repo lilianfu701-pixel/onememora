@@ -645,6 +645,103 @@ import lipu_qxjy_c40 from "./qxjy_c40.lipu.data.json";
 import lipu_qxjy_c41 from "./qxjy_c41.lipu.data.json";
 import lipu_qxjy_c42 from "./qxjy_c42.lipu.data.json";
 import lipu_qxjy_c43 from "./qxjy_c43.lipu.data.json";
+import lipu_qxjy_d01 from "./qxjy_d01.lipu.data.json";
+import lipu_qxjy_d02 from "./qxjy_d02.lipu.data.json";
+import lipu_qxjy_d03 from "./qxjy_d03.lipu.data.json";
+import lipu_qxjy_d04 from "./qxjy_d04.lipu.data.json";
+import lipu_qxjy_d05 from "./qxjy_d05.lipu.data.json";
+import lipu_qxjy_d06 from "./qxjy_d06.lipu.data.json";
+import lipu_qxjy_d07 from "./qxjy_d07.lipu.data.json";
+import lipu_qxjy_d08 from "./qxjy_d08.lipu.data.json";
+import lipu_qxjy_d09 from "./qxjy_d09.lipu.data.json";
+import lipu_qxjy_d10 from "./qxjy_d10.lipu.data.json";
+import lipu_qxjy_d11 from "./qxjy_d11.lipu.data.json";
+import lipu_qxjy_d12 from "./qxjy_d12.lipu.data.json";
+import lipu_qxjy_d13 from "./qxjy_d13.lipu.data.json";
+import lipu_qxjy_d14 from "./qxjy_d14.lipu.data.json";
+import lipu_qxjy_d15 from "./qxjy_d15.lipu.data.json";
+import lipu_qxjy_d16 from "./qxjy_d16.lipu.data.json";
+import lipu_qxjy_d17 from "./qxjy_d17.lipu.data.json";
+import lipu_qxjy_d18 from "./qxjy_d18.lipu.data.json";
+import lipu_qxjy_d19 from "./qxjy_d19.lipu.data.json";
+import lipu_qxjy_d20 from "./qxjy_d20.lipu.data.json";
+import lipu_qxjy_d21 from "./qxjy_d21.lipu.data.json";
+import lipu_qxjy_d22 from "./qxjy_d22.lipu.data.json";
+import lipu_qxjy_d23 from "./qxjy_d23.lipu.data.json";
+import lipu_qxjy_d24 from "./qxjy_d24.lipu.data.json";
+import lipu_qxjy_d25 from "./qxjy_d25.lipu.data.json";
+import lipu_qxjy_d26 from "./qxjy_d26.lipu.data.json";
+import lipu_qxjy_d27 from "./qxjy_d27.lipu.data.json";
+import lipu_qxjy_d28 from "./qxjy_d28.lipu.data.json";
+import lipu_qxjy_d29 from "./qxjy_d29.lipu.data.json";
+import lipu_qxjy_d30 from "./qxjy_d30.lipu.data.json";
+import lipu_qxjy_d31 from "./qxjy_d31.lipu.data.json";
+import lipu_qxjy_d32 from "./qxjy_d32.lipu.data.json";
+import lipu_qxjy_d33 from "./qxjy_d33.lipu.data.json";
+import lipu_qxjy_d34 from "./qxjy_d34.lipu.data.json";
+import lipu_qxjy_d35 from "./qxjy_d35.lipu.data.json";
+import lipu_qxjy_d36 from "./qxjy_d36.lipu.data.json";
+import lipu_qxjy_d37 from "./qxjy_d37.lipu.data.json";
+import lipu_qxjy_d38 from "./qxjy_d38.lipu.data.json";
+import lipu_qxjy_d39 from "./qxjy_d39.lipu.data.json";
+import lipu_qxjy_d40 from "./qxjy_d40.lipu.data.json";
+import lipu_qxjy_d41 from "./qxjy_d41.lipu.data.json";
+import lipu_qxjy_d42 from "./qxjy_d42.lipu.data.json";
+import lipu_qxjy_d43 from "./qxjy_d43.lipu.data.json";
+import lipu_qxjy_d44 from "./qxjy_d44.lipu.data.json";
+import lipu_qxjy_d45 from "./qxjy_d45.lipu.data.json";
+import lipu_qxjy_d46 from "./qxjy_d46.lipu.data.json";
+import lipu_qxjy_d47 from "./qxjy_d47.lipu.data.json";
+import lipu_qxjy_d48 from "./qxjy_d48.lipu.data.json";
+import lipu_qxjy_d49 from "./qxjy_d49.lipu.data.json";
+import lipu_qxjy_d50 from "./qxjy_d50.lipu.data.json";
+import lipu_qxjy_d51 from "./qxjy_d51.lipu.data.json";
+import lipu_qxjy_d52 from "./qxjy_d52.lipu.data.json";
+import lipu_qxjy_d53 from "./qxjy_d53.lipu.data.json";
+import lipu_qxjy_d54 from "./qxjy_d54.lipu.data.json";
+import lipu_qxjy_d55 from "./qxjy_d55.lipu.data.json";
+import lipu_qxjy_d56 from "./qxjy_d56.lipu.data.json";
+import lipu_qxjy_d57 from "./qxjy_d57.lipu.data.json";
+import lipu_qxjy_d58 from "./qxjy_d58.lipu.data.json";
+import lipu_qxjy_d59 from "./qxjy_d59.lipu.data.json";
+import lipu_qxjy_d60 from "./qxjy_d60.lipu.data.json";
+import lipu_qxjy_d61 from "./qxjy_d61.lipu.data.json";
+import lipu_qxjy_d62 from "./qxjy_d62.lipu.data.json";
+import lipu_qxjy_d63 from "./qxjy_d63.lipu.data.json";
+import lipu_qxjy_d64 from "./qxjy_d64.lipu.data.json";
+import lipu_qxjy_d65 from "./qxjy_d65.lipu.data.json";
+import lipu_qxjy_d66 from "./qxjy_d66.lipu.data.json";
+import lipu_qxjy_d67 from "./qxjy_d67.lipu.data.json";
+import lipu_qxjy_d68 from "./qxjy_d68.lipu.data.json";
+import lipu_qxjy_d69 from "./qxjy_d69.lipu.data.json";
+import lipu_qxjy_d70 from "./qxjy_d70.lipu.data.json";
+import lipu_qxjy_d71 from "./qxjy_d71.lipu.data.json";
+import lipu_qxjy_d72 from "./qxjy_d72.lipu.data.json";
+import lipu_qxjy_d73 from "./qxjy_d73.lipu.data.json";
+import lipu_qxjy_d74 from "./qxjy_d74.lipu.data.json";
+import lipu_qxjy_d75 from "./qxjy_d75.lipu.data.json";
+import lipu_qxjy_d76 from "./qxjy_d76.lipu.data.json";
+import lipu_qxjy_d77 from "./qxjy_d77.lipu.data.json";
+import lipu_qxjy_d78 from "./qxjy_d78.lipu.data.json";
+import lipu_qxjy_d79 from "./qxjy_d79.lipu.data.json";
+import lipu_qxjy_d80 from "./qxjy_d80.lipu.data.json";
+import lipu_qxjy_d81 from "./qxjy_d81.lipu.data.json";
+import lipu_qxjy_d82 from "./qxjy_d82.lipu.data.json";
+import lipu_qxjy_d83 from "./qxjy_d83.lipu.data.json";
+import lipu_qxjy_d84 from "./qxjy_d84.lipu.data.json";
+import lipu_qxjy_d85 from "./qxjy_d85.lipu.data.json";
+import lipu_qxjy_d86 from "./qxjy_d86.lipu.data.json";
+import lipu_qxjy_d87 from "./qxjy_d87.lipu.data.json";
+import lipu_qxjy_d88 from "./qxjy_d88.lipu.data.json";
+import lipu_qxjy_d89 from "./qxjy_d89.lipu.data.json";
+import lipu_qxjy_d90 from "./qxjy_d90.lipu.data.json";
+import lipu_qxjy_d91 from "./qxjy_d91.lipu.data.json";
+import lipu_qxjy_d92 from "./qxjy_d92.lipu.data.json";
+import lipu_qxjy_d93 from "./qxjy_d93.lipu.data.json";
+import lipu_qxjy_d94 from "./qxjy_d94.lipu.data.json";
+import lipu_qxjy_d95 from "./qxjy_d95.lipu.data.json";
+import lipu_qxjy_d96 from "./qxjy_d96.lipu.data.json";
+import lipu_qxjy_d97 from "./qxjy_d97.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -1285,6 +1382,103 @@ const LABELS: Record<string, string> = {
   qxjy_c41: "清徐集义李氏·二股·李现才、李生锦、李应成之后（十一世后二股，第12-15世）",
   qxjy_c42: "清徐集义李氏·二股·李登相、李秉贵、李登成等之后（十一世后二股，第12-14世）",
   qxjy_c43: "清徐集义李氏·二股·李登州、李良才、李生粹等之后（十一世后二股，第12-12世）",
+  qxjy_d01: "清徐集义李氏·前三股·李宽芳之后（十一世后前三股，第12-18世）",
+  qxjy_d02: "清徐集义李氏·前三股·李秀芳之后（十一世后前三股，第12-17世）",
+  qxjy_d03: "清徐集义李氏·前三股·李子清之后（十一世后前三股，第16-23世）",
+  qxjy_d04: "清徐集义李氏·前三股·李宝善之后（十一世后前三股，第21-23世）",
+  qxjy_d05: "清徐集义李氏·前三股·李培瀛之后（十一世后前三股，第20-25世）",
+  qxjy_d06: "清徐集义李氏·前三股·李常福之后（十一世后前三股，第18-24世）",
+  qxjy_d07: "清徐集义李氏·前三股·李居德之后（十一世后前三股，第17-24世）",
+  qxjy_d08: "清徐集义李氏·前三股·李国佐之后（十一世后前三股，第21-25世）",
+  qxjy_d09: "清徐集义李氏·前三股·李国佐之后（十一世后前三股，第21-25世）",
+  qxjy_d10: "清徐集义李氏·前三股·李耕畲之后（十一世后前三股，第19-26世）",
+  qxjy_d11: "清徐集义李氏·前三股·李耕畲之后（十一世后前三股，第19-24世）",
+  qxjy_d12: "清徐集义李氏·前三股·李胜瀛之后（十一世后前三股，第20-24世）",
+  qxjy_d13: "清徐集义李氏·前三股·李珍畲之后（十一世后前三股，第19-24世）",
+  qxjy_d14: "清徐集义李氏·前三股·李常青之后（十一世后前三股，第18-24世）",
+  qxjy_d15: "清徐集义李氏·前三股·李书畲之后（十一世后前三股，第19-23世）",
+  qxjy_d16: "清徐集义李氏·前三股·李子滑之后（十一世后前三股，第16-24世）",
+  qxjy_d17: "清徐集义李氏·前三股·李宏玘之后（十一世后前三股，第15-24世）",
+  qxjy_d18: "清徐集义李氏·前三股·李仙升之后（十一世后前三股，第14-19世）",
+  qxjy_d19: "清徐集义李氏·前三股·李学诗之后（十一世后前三股，第13-21世）",
+  qxjy_d20: "清徐集义李氏·前三股·李宏楠之后（十一世后前三股，第15-20世）",
+  qxjy_d21: "清徐集义李氏·前三股·李茂淑之后（十一世后前三股，第20-24世）",
+  qxjy_d22: "清徐集义李氏·前三股·李连城之后（十一世后前三股，第19-22世）",
+  qxjy_d23: "清徐集义李氏·前三股·李常深之后（十一世后前三股，第18-22世）",
+  qxjy_d24: "清徐集义李氏·前三股·李居华之后（十一世后前三股，第17-22世）",
+  qxjy_d25: "清徐集义李氏·前三股·李春芳之后（十一世后前三股，第21-24世）",
+  qxjy_d26: "清徐集义李氏·前三股·李茂森之后（十一世后前三股，第20-24世）",
+  qxjy_d27: "清徐集义李氏·前三股·李常溱之后（十一世后前三股，第18-24世）",
+  qxjy_d28: "清徐集义李氏·前三股·李居秀之后（十一世后前三股，第17-22世）",
+  qxjy_d29: "清徐集义李氏·前三股·李子润之后（十一世后前三股，第16-23世）",
+  qxjy_d30: "清徐集义李氏·前三股·李子润之后（十一世后前三股，第16-19世）",
+  qxjy_d31: "清徐集义李氏·前三股·李宏辅之后（十一世后前三股，第15-20世）",
+  qxjy_d32: "清徐集义李氏·前三股·李仙桂之后（十一世后前三股，第14-20世）",
+  qxjy_d33: "清徐集义李氏·前三股·李仙桂之后（十一世后前三股，第14-21世）",
+  qxjy_d34: "清徐集义李氏·前三股·李柱之后（十一世后前三股，第12-18世）",
+  qxjy_d35: "清徐集义李氏·前三股·李仙魁之后（十一世后前三股，第14-18世）",
+  qxjy_d36: "清徐集义李氏·前三股·李时荣之后（十一世后前三股，第16-22世）",
+  qxjy_d37: "清徐集义李氏·前三股·李席珍之后（十一世后前三股，第17-20世）",
+  qxjy_d38: "清徐集义李氏·前三股·李朝阳之后（十一世后前三股，第15-21世）",
+  qxjy_d39: "清徐集义李氏·前三股·李仙裔之后（十一世后前三股，第14-21世）",
+  qxjy_d40: "清徐集义李氏·前三股·李如玺之后（十一世后前三股，第13-17世）",
+  qxjy_d41: "清徐集义李氏·前三股·李际唐之后（十一世后前三股，第12-16世）",
+  qxjy_d42: "清徐集义李氏·前三股·李存芳之后（十一世后前三股，第12-21世）",
+  qxjy_d43: "清徐集义李氏·前三股·李存芳之后（十一世后前三股，第12-20世）",
+  qxjy_d44: "清徐集义李氏·前三股·李天助之后（十一世后前三股，第13-16世）",
+  qxjy_d45: "清徐集义李氏·前三股·李永贵之后（十一世后前三股，第12-17世）",
+  qxjy_d46: "清徐集义李氏·前三股·李子结之后（十一世后前三股，第16-21世）",
+  qxjy_d47: "清徐集义李氏·前三股·李宏袭之后（十一世后前三股，第15-21世）",
+  qxjy_d48: "清徐集义李氏·前三股·李节枝之后（十一世后前三股，第12-18世）",
+  qxjy_d49: "清徐集义李氏·前三股·李节栋之后（十一世后前三股，第12-18世）",
+  qxjy_d50: "清徐集义李氏·前三股·李如桧之后（十一世后前三股，第13-17世）",
+  qxjy_d51: "清徐集义李氏·前三股·李殿元之后（十一世后前三股，第16-23世）",
+  qxjy_d52: "清徐集义李氏·前三股·李基昌之后（十一世后前三股，第14-18世）",
+  qxjy_d53: "清徐集义李氏·前三股·李永祥之后（十一世后前三股，第12-18世）",
+  qxjy_d54: "清徐集义李氏·前三股·李仙体之后（十一世后前三股，第14-18世）",
+  qxjy_d55: "清徐集义李氏·前三股·李仙贺之后（十一世后前三股，第14-22世）",
+  qxjy_d56: "清徐集义李氏·前三股·李常法之后（十一世后前三股，第18-23世）",
+  qxjy_d57: "清徐集义李氏·前三股·李宏荣之后（十一世后前三股，第15-23世）",
+  qxjy_d58: "清徐集义李氏·前三股·李培元之后（十一世后前三股，第15-21世）",
+  qxjy_d59: "清徐集义李氏·前三股·李永福之后（十一世后前三股，第12-18世）",
+  qxjy_d60: "清徐集义李氏·前三股·李光宗之后（十一世后前三股，第15-20世）",
+  qxjy_d61: "清徐集义李氏·前三股·李永寿之后（十一世后前三股，第12-19世）",
+  qxjy_d62: "清徐集义李氏·前三股·李建基之后（十一世后前三股，第15-21世）",
+  qxjy_d63: "清徐集义李氏·前三股·李永节之后（十一世后前三股，第12-18世）",
+  qxjy_d64: "清徐集义李氏·前三股·李如栗之后（十一世后前三股，第13-20世）",
+  qxjy_d65: "清徐集义李氏·前三股·李务华之后（十一世后前三股，第19-23世）",
+  qxjy_d66: "清徐集义李氏·前三股·李润笔之后（十一世后前三股，第18-23世）",
+  qxjy_d67: "清徐集义李氏·前三股·李辅臣之后（十一世后前三股，第16-23世）",
+  qxjy_d68: "清徐集义李氏·前三股·李如岭之后（十一世后前三股，第13-19世）",
+  qxjy_d69: "清徐集义李氏·前三股·李如斌之后（十一世后前三股，第13-18世）",
+  qxjy_d70: "清徐集义李氏·前三股·李永良之后（十一世后前三股，第12-17世）",
+  qxjy_d71: "清徐集义李氏·前三股·李振荣之后（十一世后前三股，第16-21世）",
+  qxjy_d72: "清徐集义李氏·前三股·李金芳之后（十一世后前三股，第12-21世）",
+  qxjy_d73: "清徐集义李氏·前三股·李如旃之后（十一世后前三股，第13-21世）",
+  qxjy_d74: "清徐集义李氏·前三股·李玉芳之后（十一世后前三股，第12-17世）",
+  qxjy_d75: "清徐集义李氏·前三股·李永忠之后（十一世后前三股，第12-19世）",
+  qxjy_d76: "清徐集义李氏·前三股·李际唐、李春芳之后（十一世后前三股，第12-18世）",
+  qxjy_d77: "清徐集义李氏·前三股·李永威、李在兹之后（十一世后前三股，第12-17世）",
+  qxjy_d78: "清徐集义李氏·前三股·李永义、李夏芳之后（十一世后前三股，第12-19世）",
+  qxjy_d79: "清徐集义李氏·前三股·李玉芳、李华芳之后（十一世后前三股，第12-17世）",
+  qxjy_d80: "清徐集义李氏·前三股·李永贤、李永孝之后（十一世后前三股，第12-17世）",
+  qxjy_d81: "清徐集义李氏·前三股·李永良、李元芳之后（十一世后前三股，第12-17世）",
+  qxjy_d82: "清徐集义李氏·前三股·李际昌、李永康之后（十一世后前三股，第12-17世）",
+  qxjy_d83: "清徐集义李氏·前三股·李永逸、李永通之后（十一世后前三股，第12-17世）",
+  qxjy_d84: "清徐集义李氏·前三股·李永福、李永宁、李瑞芳之后（十一世后前三股，第12-19世）",
+  qxjy_d85: "清徐集义李氏·前三股·李永尧、李永秀之后（十一世后前三股，第12-18世）",
+  qxjy_d86: "清徐集义李氏·前三股·李永清、李永智之后（十一世后前三股，第12-17世）",
+  qxjy_d87: "清徐集义李氏·前三股·李永焕、李永照之后（十一世后前三股，第12-17世）",
+  qxjy_d88: "清徐集义李氏·前三股·李际荣、李永庆之后（十一世后前三股，第12-18世）",
+  qxjy_d89: "清徐集义李氏·前三股·李永贵、李永英之后（十一世后前三股，第12-19世）",
+  qxjy_d90: "清徐集义李氏·前三股·李永节、李节枝之后（十一世后前三股，第12-18世）",
+  qxjy_d91: "清徐集义李氏·前三股·李宽芳、李永年之后（十一世后前三股，第12-16世）",
+  qxjy_d92: "清徐集义李氏·前三股·李永祥、李存芳、李永贺之后（十一世后前三股，第12-18世）",
+  qxjy_d93: "清徐集义李氏·前三股·李永寿、李秀芳之后（十一世后前三股，第12-15世）",
+  qxjy_d94: "清徐集义李氏·前三股·李节栋、李永法之后（十一世后前三股，第12-17世）",
+  qxjy_d95: "清徐集义李氏·前三股·李柱、李永荣、李永官等之后（十一世后前三股，第12-18世）",
+  qxjy_d96: "清徐集义李氏·前三股·李兴芳、李永明、李兰芳等之后（十一世后前三股，第12-14世）",
+  qxjy_d97: "清徐集义李氏·前三股·李永安、李永元、李永达之后（十一世后前三股，第12-13世）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -1925,6 +2119,103 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["qxjy_c41", lipu_qxjy_c41 as GenealogyDataset],
   ["qxjy_c42", lipu_qxjy_c42 as GenealogyDataset],
   ["qxjy_c43", lipu_qxjy_c43 as GenealogyDataset],
+  ["qxjy_d01", lipu_qxjy_d01 as GenealogyDataset],
+  ["qxjy_d02", lipu_qxjy_d02 as GenealogyDataset],
+  ["qxjy_d03", lipu_qxjy_d03 as GenealogyDataset],
+  ["qxjy_d04", lipu_qxjy_d04 as GenealogyDataset],
+  ["qxjy_d05", lipu_qxjy_d05 as GenealogyDataset],
+  ["qxjy_d06", lipu_qxjy_d06 as GenealogyDataset],
+  ["qxjy_d07", lipu_qxjy_d07 as GenealogyDataset],
+  ["qxjy_d08", lipu_qxjy_d08 as GenealogyDataset],
+  ["qxjy_d09", lipu_qxjy_d09 as GenealogyDataset],
+  ["qxjy_d10", lipu_qxjy_d10 as GenealogyDataset],
+  ["qxjy_d11", lipu_qxjy_d11 as GenealogyDataset],
+  ["qxjy_d12", lipu_qxjy_d12 as GenealogyDataset],
+  ["qxjy_d13", lipu_qxjy_d13 as GenealogyDataset],
+  ["qxjy_d14", lipu_qxjy_d14 as GenealogyDataset],
+  ["qxjy_d15", lipu_qxjy_d15 as GenealogyDataset],
+  ["qxjy_d16", lipu_qxjy_d16 as GenealogyDataset],
+  ["qxjy_d17", lipu_qxjy_d17 as GenealogyDataset],
+  ["qxjy_d18", lipu_qxjy_d18 as GenealogyDataset],
+  ["qxjy_d19", lipu_qxjy_d19 as GenealogyDataset],
+  ["qxjy_d20", lipu_qxjy_d20 as GenealogyDataset],
+  ["qxjy_d21", lipu_qxjy_d21 as GenealogyDataset],
+  ["qxjy_d22", lipu_qxjy_d22 as GenealogyDataset],
+  ["qxjy_d23", lipu_qxjy_d23 as GenealogyDataset],
+  ["qxjy_d24", lipu_qxjy_d24 as GenealogyDataset],
+  ["qxjy_d25", lipu_qxjy_d25 as GenealogyDataset],
+  ["qxjy_d26", lipu_qxjy_d26 as GenealogyDataset],
+  ["qxjy_d27", lipu_qxjy_d27 as GenealogyDataset],
+  ["qxjy_d28", lipu_qxjy_d28 as GenealogyDataset],
+  ["qxjy_d29", lipu_qxjy_d29 as GenealogyDataset],
+  ["qxjy_d30", lipu_qxjy_d30 as GenealogyDataset],
+  ["qxjy_d31", lipu_qxjy_d31 as GenealogyDataset],
+  ["qxjy_d32", lipu_qxjy_d32 as GenealogyDataset],
+  ["qxjy_d33", lipu_qxjy_d33 as GenealogyDataset],
+  ["qxjy_d34", lipu_qxjy_d34 as GenealogyDataset],
+  ["qxjy_d35", lipu_qxjy_d35 as GenealogyDataset],
+  ["qxjy_d36", lipu_qxjy_d36 as GenealogyDataset],
+  ["qxjy_d37", lipu_qxjy_d37 as GenealogyDataset],
+  ["qxjy_d38", lipu_qxjy_d38 as GenealogyDataset],
+  ["qxjy_d39", lipu_qxjy_d39 as GenealogyDataset],
+  ["qxjy_d40", lipu_qxjy_d40 as GenealogyDataset],
+  ["qxjy_d41", lipu_qxjy_d41 as GenealogyDataset],
+  ["qxjy_d42", lipu_qxjy_d42 as GenealogyDataset],
+  ["qxjy_d43", lipu_qxjy_d43 as GenealogyDataset],
+  ["qxjy_d44", lipu_qxjy_d44 as GenealogyDataset],
+  ["qxjy_d45", lipu_qxjy_d45 as GenealogyDataset],
+  ["qxjy_d46", lipu_qxjy_d46 as GenealogyDataset],
+  ["qxjy_d47", lipu_qxjy_d47 as GenealogyDataset],
+  ["qxjy_d48", lipu_qxjy_d48 as GenealogyDataset],
+  ["qxjy_d49", lipu_qxjy_d49 as GenealogyDataset],
+  ["qxjy_d50", lipu_qxjy_d50 as GenealogyDataset],
+  ["qxjy_d51", lipu_qxjy_d51 as GenealogyDataset],
+  ["qxjy_d52", lipu_qxjy_d52 as GenealogyDataset],
+  ["qxjy_d53", lipu_qxjy_d53 as GenealogyDataset],
+  ["qxjy_d54", lipu_qxjy_d54 as GenealogyDataset],
+  ["qxjy_d55", lipu_qxjy_d55 as GenealogyDataset],
+  ["qxjy_d56", lipu_qxjy_d56 as GenealogyDataset],
+  ["qxjy_d57", lipu_qxjy_d57 as GenealogyDataset],
+  ["qxjy_d58", lipu_qxjy_d58 as GenealogyDataset],
+  ["qxjy_d59", lipu_qxjy_d59 as GenealogyDataset],
+  ["qxjy_d60", lipu_qxjy_d60 as GenealogyDataset],
+  ["qxjy_d61", lipu_qxjy_d61 as GenealogyDataset],
+  ["qxjy_d62", lipu_qxjy_d62 as GenealogyDataset],
+  ["qxjy_d63", lipu_qxjy_d63 as GenealogyDataset],
+  ["qxjy_d64", lipu_qxjy_d64 as GenealogyDataset],
+  ["qxjy_d65", lipu_qxjy_d65 as GenealogyDataset],
+  ["qxjy_d66", lipu_qxjy_d66 as GenealogyDataset],
+  ["qxjy_d67", lipu_qxjy_d67 as GenealogyDataset],
+  ["qxjy_d68", lipu_qxjy_d68 as GenealogyDataset],
+  ["qxjy_d69", lipu_qxjy_d69 as GenealogyDataset],
+  ["qxjy_d70", lipu_qxjy_d70 as GenealogyDataset],
+  ["qxjy_d71", lipu_qxjy_d71 as GenealogyDataset],
+  ["qxjy_d72", lipu_qxjy_d72 as GenealogyDataset],
+  ["qxjy_d73", lipu_qxjy_d73 as GenealogyDataset],
+  ["qxjy_d74", lipu_qxjy_d74 as GenealogyDataset],
+  ["qxjy_d75", lipu_qxjy_d75 as GenealogyDataset],
+  ["qxjy_d76", lipu_qxjy_d76 as GenealogyDataset],
+  ["qxjy_d77", lipu_qxjy_d77 as GenealogyDataset],
+  ["qxjy_d78", lipu_qxjy_d78 as GenealogyDataset],
+  ["qxjy_d79", lipu_qxjy_d79 as GenealogyDataset],
+  ["qxjy_d80", lipu_qxjy_d80 as GenealogyDataset],
+  ["qxjy_d81", lipu_qxjy_d81 as GenealogyDataset],
+  ["qxjy_d82", lipu_qxjy_d82 as GenealogyDataset],
+  ["qxjy_d83", lipu_qxjy_d83 as GenealogyDataset],
+  ["qxjy_d84", lipu_qxjy_d84 as GenealogyDataset],
+  ["qxjy_d85", lipu_qxjy_d85 as GenealogyDataset],
+  ["qxjy_d86", lipu_qxjy_d86 as GenealogyDataset],
+  ["qxjy_d87", lipu_qxjy_d87 as GenealogyDataset],
+  ["qxjy_d88", lipu_qxjy_d88 as GenealogyDataset],
+  ["qxjy_d89", lipu_qxjy_d89 as GenealogyDataset],
+  ["qxjy_d90", lipu_qxjy_d90 as GenealogyDataset],
+  ["qxjy_d91", lipu_qxjy_d91 as GenealogyDataset],
+  ["qxjy_d92", lipu_qxjy_d92 as GenealogyDataset],
+  ["qxjy_d93", lipu_qxjy_d93 as GenealogyDataset],
+  ["qxjy_d94", lipu_qxjy_d94 as GenealogyDataset],
+  ["qxjy_d95", lipu_qxjy_d95 as GenealogyDataset],
+  ["qxjy_d96", lipu_qxjy_d96 as GenealogyDataset],
+  ["qxjy_d97", lipu_qxjy_d97 as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {

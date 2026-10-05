@@ -1,0 +1,758 @@
+{
+  "key": "lipu:qxjy_d87",
+  "namespace": "zupu-qxjy",
+  "people": [
+    {
+      "externalId": "lipu:qxjy_a13:11-永焕",
+      "name": "李永焕",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-如榛",
+      "name": "李如榛",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李永焕次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-元成",
+      "name": "李元成",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如榛长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-如桧",
+      "name": "李如桧",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李永焕长子。属前三股；子嗣另见本谱分支。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-基隆",
+      "name": "李基隆",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如桧长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-基盛",
+      "name": "李基盛",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如桧次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:14-圣和",
+      "name": "李圣和",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第14代，山西清徐·集义乡集义村，李基盛次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-兴仁",
+      "name": "李兴仁",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第15代，山西清徐·集义乡集义村，李圣和长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:14-圣全",
+      "name": "李圣全",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第14代，山西清徐·集义乡集义村，李基盛长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-秀仁",
+      "name": "李秀仁",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第15代，山西清徐·集义乡集义村，李圣全长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-殿彩",
+      "name": "李殿彩",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第15代，山西清徐·集义乡集义村，李圣全次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:16-宁树",
+      "name": "李宁树",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第16代，山西清徐·集义乡集义村，李殿彩次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:16-作炳",
+      "name": "李作炳",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第16代，山西清徐·集义乡集义村，李殿彩长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:17-云庆",
+      "name": "李云庆",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李作炳长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_a13:11-永照",
+      "name": "李永照",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-如恺",
+      "name": "李如恺",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李永照长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-如楼",
+      "name": "李如楼",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李永照三子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-如柽",
+      "name": "李如柽",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李永照次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-基凤",
+      "name": "李基凤",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如柽长子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-基桂",
+      "name": "李基桂",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如柽次子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-基林",
+      "name": "李基林",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如柽三子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-基荣",
+      "name": "李基荣",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李如柽四子。属前三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如榛之妻",
+      "name": "李如榛之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "吕氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如榛之妻#1",
+      "name": "李如榛之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "安氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如桧之妻",
+      "name": "李如桧之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "史氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如桧之妻#1",
+      "name": "李如桧之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "石氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-李基盛之妻",
+      "name": "李基盛之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-李基盛之妻#1",
+      "name": "李基盛之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:14-李圣和之妻",
+      "name": "李圣和之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-李兴仁之妻",
+      "name": "李兴仁之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:14-李圣全之妻",
+      "name": "李圣全之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "侯氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:14-李圣全之妻#1",
+      "name": "李圣全之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "常氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:14-李圣全之妻#2",
+      "name": "李圣全之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "闫氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-李秀仁之妻",
+      "name": "李秀仁之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "代氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-李殿彩之妻",
+      "name": "李殿彩之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "温氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:15-李殿彩之妻#1",
+      "name": "李殿彩之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:16-李作炳之妻",
+      "name": "李作炳之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "李氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:16-李作炳之妻#1",
+      "name": "李作炳之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:17-李云庆之妻",
+      "name": "李云庆之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "庞氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如恺之妻",
+      "name": "李如恺之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如楼之妻",
+      "name": "李如楼之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "贾氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如柽之妻",
+      "name": "李如柽之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "要氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:12-李如柽之妻#1",
+      "name": "李如柽之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "苏氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-李基林之妻",
+      "name": "李基林之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_d87:13-李基荣之妻",
+      "name": "李基荣之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "冯氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a13:11-永焕",
+      "child": "lipu:qxjy_d87:12-如榛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如榛",
+      "b": "lipu:qxjy_d87:12-李如榛之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如榛",
+      "b": "lipu:qxjy_d87:12-李如榛之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如榛",
+      "child": "lipu:qxjy_d87:13-元成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a13:11-永焕",
+      "child": "lipu:qxjy_d87:12-如桧"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如桧",
+      "b": "lipu:qxjy_d87:12-李如桧之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如桧",
+      "b": "lipu:qxjy_d87:12-李如桧之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如桧",
+      "child": "lipu:qxjy_d87:13-基隆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如桧",
+      "child": "lipu:qxjy_d87:13-基盛"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:13-基盛",
+      "b": "lipu:qxjy_d87:13-李基盛之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:13-基盛",
+      "b": "lipu:qxjy_d87:13-李基盛之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:13-基盛",
+      "child": "lipu:qxjy_d87:14-圣和"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:14-圣和",
+      "b": "lipu:qxjy_d87:14-李圣和之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:14-圣和",
+      "child": "lipu:qxjy_d87:15-兴仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:15-兴仁",
+      "b": "lipu:qxjy_d87:15-李兴仁之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:13-基盛",
+      "child": "lipu:qxjy_d87:14-圣全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:14-圣全",
+      "b": "lipu:qxjy_d87:14-李圣全之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:14-圣全",
+      "b": "lipu:qxjy_d87:14-李圣全之妻#1"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:14-圣全",
+      "b": "lipu:qxjy_d87:14-李圣全之妻#2"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:14-圣全",
+      "child": "lipu:qxjy_d87:15-秀仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:15-李秀仁之妻",
+      "b": "lipu:qxjy_d87:15-秀仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:14-圣全",
+      "child": "lipu:qxjy_d87:15-殿彩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:15-李殿彩之妻",
+      "b": "lipu:qxjy_d87:15-殿彩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:15-李殿彩之妻#1",
+      "b": "lipu:qxjy_d87:15-殿彩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:15-殿彩",
+      "child": "lipu:qxjy_d87:16-宁树"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:15-殿彩",
+      "child": "lipu:qxjy_d87:16-作炳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:16-作炳",
+      "b": "lipu:qxjy_d87:16-李作炳之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:16-作炳",
+      "b": "lipu:qxjy_d87:16-李作炳之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:16-作炳",
+      "child": "lipu:qxjy_d87:17-云庆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:17-云庆",
+      "b": "lipu:qxjy_d87:17-李云庆之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a13:11-永照",
+      "child": "lipu:qxjy_d87:12-如恺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如恺",
+      "b": "lipu:qxjy_d87:12-李如恺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a13:11-永照",
+      "child": "lipu:qxjy_d87:12-如楼"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如楼",
+      "b": "lipu:qxjy_d87:12-李如楼之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a13:11-永照",
+      "child": "lipu:qxjy_d87:12-如柽"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如柽",
+      "b": "lipu:qxjy_d87:12-李如柽之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:12-如柽",
+      "b": "lipu:qxjy_d87:12-李如柽之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如柽",
+      "child": "lipu:qxjy_d87:13-基凤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如柽",
+      "child": "lipu:qxjy_d87:13-基桂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如柽",
+      "child": "lipu:qxjy_d87:13-基林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:13-基林",
+      "b": "lipu:qxjy_d87:13-李基林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_d87:12-如柽",
+      "child": "lipu:qxjy_d87:13-基荣"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_d87:13-基荣",
+      "b": "lipu:qxjy_d87:13-李基荣之妻"
+    }
+  ]
+}
