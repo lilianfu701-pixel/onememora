@@ -44,7 +44,7 @@
       "deathPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李居华长子。属前三股。"
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李居华长子。属前三股；清从九品（据谱「明清两代功名录」）。"
     },
     {
       "externalId": "lipu:qxjy_d29:17-常深",
@@ -59,7 +59,7 @@
       "deathPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李居华三子。属前三股；子嗣另见本谱分支。"
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李居华三子。属前三股；子嗣另见本谱分支；清从九品（据谱「明清两代功名录」）。"
     },
     {
       "externalId": "lipu:qxjy_d29:18-连科",
@@ -85,7 +85,7 @@
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连科次子。属前三股。"
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连科次子。属前三股；清廪生，岁贡生（据谱「明清两代功名录」）。"
     },
     {
       "externalId": "lipu:qxjy_d29:19-茂蜜",
@@ -98,7 +98,7 @@
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连科长子。属前三股。"
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连科长子。属前三股；清从九品（据谱「明清两代功名录」）。"
     },
     {
       "externalId": "lipu:qxjy_d29:20-春生",
@@ -118,26 +118,28 @@
       "name": "李思年",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "思",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李春生长子。属前三股。"
+      "bio": "清徐集义李氏第21代（字辈“思”），山西清徐·集义乡集义村，李春生长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:22-永强",
       "name": "李永强",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "之",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第22代，山西清徐·集义乡集义村，李思年长子。属前三股。"
+      "bio": "清徐集义李氏第22代（字辈“之”），山西清徐·集义乡集义村，李思年长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:20-春和",
@@ -157,104 +159,112 @@
       "name": "李思禄",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "思",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李春和次子。属前三股；迁移至靳村居住。"
+      "bio": "清徐集义李氏第21代（字辈“思”），山西清徐·集义乡集义村，李春和次子。属前三股；迁移至靳村居住。"
     },
     {
       "externalId": "lipu:qxjy_d29:22-申武",
       "name": "李申武",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "之",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第22代，山西清徐·集义乡集义村，李思禄长子。属前三股。"
+      "bio": "清徐集义李氏第22代（字辈“之”），山西清徐·集义乡集义村，李思禄长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:23-三小",
       "name": "李三小",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "再",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第23代，山西清徐·集义乡集义村，李申武长子。属前三股。"
+      "bio": "清徐集义李氏第23代（字辈“再”），山西清徐·集义乡集义村，李申武长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:21-思福",
       "name": "李思福",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "思",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李春和长子。属前三股；与弟思禄迁移至靳村居住。"
+      "bio": "清徐集义李氏第21代（字辈“思”），山西清徐·集义乡集义村，李春和长子。属前三股；与弟思禄迁移至靳村居住。"
     },
     {
       "externalId": "lipu:qxjy_d29:22-甲武",
       "name": "李甲武",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "之",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第22代，山西清徐·集义乡集义村，李思福长子。属前三股。"
+      "bio": "清徐集义李氏第22代（字辈“之”），山西清徐·集义乡集义村，李思福长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:23-小儿",
       "name": "李小儿",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "再",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第23代，山西清徐·集义乡集义村，李甲武长子。属前三股。"
+      "bio": "清徐集义李氏第23代（字辈“再”），山西清徐·集义乡集义村，李甲武长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:22-计武",
       "name": "李计武",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "之",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第22代，山西清徐·集义乡集义村，李思福次子。属前三股。"
+      "bio": "清徐集义李氏第22代（字辈“之”），山西清徐·集义乡集义村，李思福次子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:23-二小",
       "name": "李二小",
       "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
       "gender": "male",
+      "generationName": "再",
       "clanName": "清徐集义李氏",
       "ancestralHometown": "山西清徐·集义乡集义村",
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
       "living": true,
-      "bio": "清徐集义李氏第23代，山西清徐·集义乡集义村，李计武长子。属前三股。"
+      "bio": "清徐集义李氏第23代（字辈“再”），山西清徐·集义乡集义村，李计武长子。属前三股。"
     },
     {
       "externalId": "lipu:qxjy_d29:16-李居华之妻",
