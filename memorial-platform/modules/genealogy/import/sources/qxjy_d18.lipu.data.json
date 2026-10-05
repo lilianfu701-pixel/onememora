@@ -86,7 +86,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常宁长子。属前三股。"
     },
     {
@@ -99,7 +101,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李通畲长子。属前三股。"
     },
     {
@@ -127,7 +131,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常安次子。属前三股。"
     },
     {
@@ -140,7 +146,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常安长子。属前三股。"
     },
     {
@@ -153,7 +161,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李万畲长子。属前三股。"
     },
     {
@@ -208,8 +218,7 @@
       "gender": "female",
       "aliases": [
         "高氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d18:18-李通畲之妻#1",
@@ -218,8 +227,7 @@
       "gender": "female",
       "aliases": [
         "代氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d18:17-李常安之妻",
@@ -237,8 +245,7 @@
       "gender": "female",
       "aliases": [
         "赵氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d18:18-李道畲之妻#1",
@@ -247,8 +254,7 @@
       "gender": "female",
       "aliases": [
         "乔氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d18:18-李万畲之妻",
@@ -257,8 +263,7 @@
       "gender": "female",
       "aliases": [
         "高氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d18:19-李全瀛之妻",
@@ -267,8 +272,7 @@
       "gender": "female",
       "aliases": [
         "刘氏"
-      ],
-      "living": true
+      ]
     }
   ],
   "relations": [

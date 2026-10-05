@@ -116,7 +116,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常华长子。属前三股。"
     },
     {
@@ -409,8 +411,7 @@
       "gender": "female",
       "aliases": [
         "刘氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d55:18-李如壁之妻#1",
@@ -419,8 +420,7 @@
       "gender": "female",
       "aliases": [
         "杨氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d55:15-李子忠之妻",

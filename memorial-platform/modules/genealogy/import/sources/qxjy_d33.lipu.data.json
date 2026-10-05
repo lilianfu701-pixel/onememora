@@ -101,7 +101,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李扬霞长子。属前三股。"
     },
     {
@@ -114,7 +116,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维新长子。属前三股。"
     },
     {
@@ -155,7 +159,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李扬英长子。属前三股。"
     },
     {
@@ -168,7 +174,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维翰长子。属前三股。"
     },
     {
@@ -207,7 +215,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李扬英次子。属前三股。"
     },
     {
@@ -220,7 +230,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维清长子。属前三股。"
     },
     {
@@ -329,8 +341,7 @@
       "gender": "female",
       "aliases": [
         "宁氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:18-李维新之妻#1",
@@ -339,8 +350,7 @@
       "gender": "female",
       "aliases": [
         "杨氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:18-李维新之妻#2",
@@ -349,8 +359,7 @@
       "gender": "female",
       "aliases": [
         "董氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:19-李茂园之妻",
@@ -359,8 +368,7 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:20-李承恩之妻",
@@ -406,8 +414,7 @@
       "gender": "female",
       "aliases": [
         "乔氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:19-李华国之妻",
@@ -416,8 +423,7 @@
       "gender": "female",
       "aliases": [
         "刘氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:20-李锡恩之妻",
@@ -446,8 +452,7 @@
       "gender": "female",
       "aliases": [
         "董氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:19-李华藻之妻",
@@ -456,8 +461,7 @@
       "gender": "female",
       "aliases": [
         "赵氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:19-李华藻之妻#1",
@@ -466,8 +470,7 @@
       "gender": "female",
       "aliases": [
         "段氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d33:20-李贵恩之妻",

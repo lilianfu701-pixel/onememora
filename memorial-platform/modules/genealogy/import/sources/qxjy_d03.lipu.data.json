@@ -56,7 +56,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常贵长子。属前三股。"
     },
     {
@@ -69,7 +71,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李守畲长子。属前三股。"
     },
     {
@@ -82,7 +86,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常贵三子。属前三股。"
     },
     {
@@ -95,7 +101,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李全畲长子。属前三股。"
     },
     {
@@ -379,8 +387,7 @@
       "gender": "female",
       "aliases": [
         "代氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d03:18-李全畲之妻",
@@ -389,8 +396,7 @@
       "gender": "female",
       "aliases": [
         "段氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d03:18-李修畲之妻",

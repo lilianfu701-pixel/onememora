@@ -329,7 +329,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李云汉次子。属前三股。"
     },
     {
@@ -342,7 +344,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李云汉长子。属前三股。"
     },
     {
@@ -355,7 +359,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李经济长子。属前三股。"
     },
     {
@@ -536,8 +542,7 @@
       "gender": "female",
       "aliases": [
         "郎氏"
-      ],
-      "living": true
+      ]
     }
   ],
   "relations": [

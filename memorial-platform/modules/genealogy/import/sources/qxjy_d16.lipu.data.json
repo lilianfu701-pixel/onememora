@@ -56,7 +56,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常青三子。属前三股；子嗣另见本谱分支。"
     },
     {
@@ -69,7 +71,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李珍畲三子。属前三股；清武生（据谱「明清两代功名录」）。"
     },
     {
@@ -95,7 +99,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李珍畲次子。属前三股；清廪生（据谱「明清两代功名录」）。"
     },
     {
@@ -147,7 +153,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常青次子。属前三股；清叙八品（据谱「明清两代功名录」）；谱收李训昭撰《李安畲先生护村堰功德碑记》（录自清光绪《徐沟县志》）：常青次子，笃信谨守；村人公议伐堰树补亏空，安畲一力阻之，捐钱二百千而止；不忍变卖河地，输资一百五十七千；同治七年退水渠淤塞重修，独力助资三百千；河水吃紧时昼夜在堰上防护。"
     },
     {
@@ -302,8 +310,7 @@
       "gender": "female",
       "aliases": [
         "郭氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d16:19-李连瀛之妻",
@@ -312,8 +319,7 @@
       "gender": "female",
       "aliases": [
         "段氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d16:19-李连瀛之妻#1",
@@ -322,8 +328,7 @@
       "gender": "female",
       "aliases": [
         "吕氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d16:20-李友温之妻",
@@ -342,8 +347,7 @@
       "gender": "female",
       "aliases": [
         "赵氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d16:20-李友韩之妻",
@@ -392,8 +396,7 @@
       "gender": "female",
       "aliases": [
         "郭氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d16:18-李安畲之妻#1",
@@ -402,8 +405,7 @@
       "gender": "female",
       "aliases": [
         "白氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d16:19-李胜瀛之妻",

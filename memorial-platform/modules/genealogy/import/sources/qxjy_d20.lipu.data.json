@@ -101,7 +101,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常龄长子。属前三股。"
     },
     {
@@ -114,7 +116,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常龄次子。属前三股。"
     },
     {
@@ -157,7 +161,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓次子。属前三股。"
     },
     {
@@ -170,7 +176,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓六子。属前三股。"
     },
     {
@@ -183,7 +191,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓八子。属前三股。"
     },
     {
@@ -196,7 +206,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓长子。属前三股。"
     },
     {
@@ -209,7 +221,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓七子。属前三股。"
     },
     {
@@ -222,7 +236,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓五子。属前三股。"
     },
     {
@@ -235,7 +251,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维吉长子。属前三股。"
     },
     {
@@ -248,7 +266,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓三子。属前三股。"
     },
     {
@@ -261,7 +281,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维烈长子。属前三股。"
     },
     {
@@ -274,7 +296,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常毓四子。属前三股。"
     },
     {
@@ -287,7 +311,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维严长子。属前三股。"
     },
     {
@@ -300,7 +326,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维严次子。属前三股。"
     },
     {
@@ -422,8 +450,7 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d20:18-李维芳之妻",
@@ -432,8 +459,7 @@
       "gender": "female",
       "aliases": [
         "要氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d20:19-李茂荣之妻",
@@ -442,8 +468,7 @@
       "gender": "female",
       "aliases": [
         "董氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d20:18-李维烈之妻",
@@ -452,8 +477,7 @@
       "gender": "female",
       "aliases": [
         "刘氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d20:19-李茂来之妻",
@@ -462,8 +486,7 @@
       "gender": "female",
       "aliases": [
         "郭氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d20:18-李维严之妻",
@@ -472,8 +495,7 @@
       "gender": "female",
       "aliases": [
         "李氏"
-      ],
-      "living": true
+      ]
     }
   ],
   "relations": [

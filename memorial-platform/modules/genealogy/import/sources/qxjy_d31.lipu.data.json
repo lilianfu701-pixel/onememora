@@ -71,7 +71,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常净长子。属前三股。"
     },
     {
@@ -84,7 +86,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连鹏长子。属前三股。"
     },
     {
@@ -140,7 +144,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常治次子。属前三股。"
     },
     {
@@ -153,7 +159,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连祥长子。属前三股。"
     },
     {
@@ -166,7 +174,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常治三子。属前三股。"
     },
     {
@@ -179,7 +189,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连顺长子。属前三股。"
     },
     {
@@ -192,7 +204,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常治长子。属前三股。"
     },
     {
@@ -205,7 +219,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连畲长子。属前三股。"
     },
     {
@@ -218,7 +234,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连畲三子。属前三股。"
     },
     {
@@ -231,7 +249,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连畲四子。属前三股。"
     },
     {
@@ -244,7 +264,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李连畲次子。属前三股。"
     },
     {
@@ -325,8 +347,7 @@
       "gender": "female",
       "aliases": [
         "要氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d31:16-李居荣之妻",
@@ -371,8 +392,7 @@
       "gender": "female",
       "aliases": [
         "许氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d31:18-李连顺之妻",
@@ -381,8 +401,7 @@
       "gender": "female",
       "aliases": [
         "杨氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d31:18-李连畲之妻",
@@ -391,8 +410,7 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ],
-      "living": true
+      ]
     }
   ],
   "relations": [

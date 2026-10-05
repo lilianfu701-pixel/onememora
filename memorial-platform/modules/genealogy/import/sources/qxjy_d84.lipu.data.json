@@ -269,7 +269,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李念德长子。属前三股。"
     },
     {
@@ -282,7 +284,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李本郭长子。属前三股。"
     },
     {
@@ -295,7 +299,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李本郭次子。属前三股。"
     },
     {
@@ -308,7 +314,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李本郭三子。属前三股。"
     },
     {
@@ -538,8 +546,7 @@
       "gender": "female",
       "aliases": [
         "侯氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d84:12-李天星之妻",

@@ -41,7 +41,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常福三子。属前三股。"
     },
     {
@@ -54,7 +56,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常福次子。属前三股。"
     },
     {
@@ -334,8 +338,7 @@
       "gender": "female",
       "aliases": [
         "李氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d07:18-李治畲之妻",
@@ -344,8 +347,7 @@
       "gender": "female",
       "aliases": [
         "白氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d07:19-李蓬瀛之妻",

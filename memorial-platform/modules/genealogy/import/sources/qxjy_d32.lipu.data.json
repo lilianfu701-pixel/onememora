@@ -101,7 +101,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李兴盛长子。属前三股。"
     },
     {
@@ -129,7 +131,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李兴茂长子。属前三股。"
     },
     {
@@ -157,7 +161,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李兴隆长子。属前三股。"
     },
     {
@@ -170,7 +176,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维干次子。属前三股。"
     },
     {
@@ -183,7 +191,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维干三子。属前三股。"
     },
     {
@@ -196,7 +206,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李维干长子。属前三股。"
     },
     {
@@ -372,7 +384,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常泰长子。属前三股。"
     },
     {
@@ -445,8 +459,7 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d32:19-李元瑞之妻",
@@ -455,8 +468,7 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d32:15-李子澍之妻",

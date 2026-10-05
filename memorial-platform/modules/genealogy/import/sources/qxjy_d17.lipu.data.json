@@ -71,7 +71,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常培长子。属前三股。"
     },
     {
@@ -84,7 +86,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李经畲长子。属前三股。"
     },
     {
@@ -139,7 +143,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常荣次子。属前三股。"
     },
     {
@@ -152,7 +158,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李和畲长子。属前三股。"
     },
     {
@@ -165,7 +173,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李常荣长子。属前三股；子嗣另见本谱分支；清武庠生，卫守备职衔（据谱「明清两代功名录」）。"
     },
     {
@@ -178,7 +188,9 @@
       "birthPlace": {
         "region": "山西清徐·集义乡集义村"
       },
-      "living": true,
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
       "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李书畲长子。属前三股。"
     },
     {
@@ -326,8 +338,7 @@
       "gender": "female",
       "aliases": [
         "代氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:18-李经畲之妻#1",
@@ -336,8 +347,7 @@
       "gender": "female",
       "aliases": [
         "许氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:19-李联瀛之妻",
@@ -346,8 +356,7 @@
       "gender": "female",
       "aliases": [
         "张氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:19-李联瀛之妻#1",
@@ -356,8 +365,7 @@
       "gender": "female",
       "aliases": [
         "董氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:19-李联瀛之妻#2",
@@ -366,8 +374,7 @@
       "gender": "female",
       "aliases": [
         "李氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:20-李宝贤之妻",
@@ -404,8 +411,7 @@
       "gender": "female",
       "aliases": [
         "代氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:18-李书畲之妻",
@@ -414,8 +420,7 @@
       "gender": "female",
       "aliases": [
         "郭氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:18-李书畲之妻#1",
@@ -424,8 +429,7 @@
       "gender": "female",
       "aliases": [
         "武氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:18-李书畲之妻#2",
@@ -434,8 +438,7 @@
       "gender": "female",
       "aliases": [
         "白氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:19-李化鹏之妻",
@@ -444,8 +447,7 @@
       "gender": "female",
       "aliases": [
         "杨氏"
-      ],
-      "living": true
+      ]
     },
     {
       "externalId": "lipu:qxjy_d17:20-李宝春之妻",

@@ -206,6 +206,11 @@ def build(inter):
                               e.get("death"), e.get("gender"), e.get("bio"),
                               aliases=e.get("aliases"),
                               explicit_id=e.get("externalId"))
+        # Undated but evidently modern (e.g. a full-name wife) — hide even
+        # above presumeLivingFromGen.
+        if e.get("living") and "death" not in people[e["_id"]]:
+            people[e["_id"]]["living"] = True
+            people[e["_id"]].pop("deathPlace", None)
 
     # helper: resolve a father entry-id from (childGen, fatherGivenName)
     def father_id(child_gen, father_name):
