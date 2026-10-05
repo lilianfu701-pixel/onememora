@@ -742,6 +742,25 @@ import lipu_qxjy_d94 from "./qxjy_d94.lipu.data.json";
 import lipu_qxjy_d95 from "./qxjy_d95.lipu.data.json";
 import lipu_qxjy_d96 from "./qxjy_d96.lipu.data.json";
 import lipu_qxjy_d97 from "./qxjy_d97.lipu.data.json";
+import lipu_qxjy_e01 from "./qxjy_e01.lipu.data.json";
+import lipu_qxjy_e02 from "./qxjy_e02.lipu.data.json";
+import lipu_qxjy_e03 from "./qxjy_e03.lipu.data.json";
+import lipu_qxjy_e04 from "./qxjy_e04.lipu.data.json";
+import lipu_qxjy_e05 from "./qxjy_e05.lipu.data.json";
+import lipu_qxjy_e06 from "./qxjy_e06.lipu.data.json";
+import lipu_qxjy_e07 from "./qxjy_e07.lipu.data.json";
+import lipu_qxjy_e08 from "./qxjy_e08.lipu.data.json";
+import lipu_qxjy_e09 from "./qxjy_e09.lipu.data.json";
+import lipu_qxjy_e10 from "./qxjy_e10.lipu.data.json";
+import lipu_qxjy_e11 from "./qxjy_e11.lipu.data.json";
+import lipu_qxjy_e12 from "./qxjy_e12.lipu.data.json";
+import lipu_qxjy_e13 from "./qxjy_e13.lipu.data.json";
+import lipu_qxjy_e14 from "./qxjy_e14.lipu.data.json";
+import lipu_qxjy_e15 from "./qxjy_e15.lipu.data.json";
+import lipu_qxjy_e16 from "./qxjy_e16.lipu.data.json";
+import lipu_qxjy_e17 from "./qxjy_e17.lipu.data.json";
+import lipu_qxjy_e18 from "./qxjy_e18.lipu.data.json";
+import lipu_qxjy_e19 from "./qxjy_e19.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -1479,6 +1498,25 @@ const LABELS: Record<string, string> = {
   qxjy_d95: "清徐集义李氏·前三股·李柱、李永荣、李永官等之后（十一世后前三股，第12-18世）",
   qxjy_d96: "清徐集义李氏·前三股·李兴芳、李永明、李兰芳等之后（十一世后前三股，第12-14世）",
   qxjy_d97: "清徐集义李氏·前三股·李永安、李永元、李永达之后（十一世后前三股，第12-13世）",
+  qxjy_e01: "清徐集义李氏·后三股·李宪沆之后（十一世后后三股，第15-18世）",
+  qxjy_e02: "清徐集义李氏·后三股·李宪斌之后（十一世后后三股，第15-22世）",
+  qxjy_e03: "清徐集义李氏·后三股·李培之后（十一世后后三股，第12-18世）",
+  qxjy_e04: "清徐集义李氏·后三股·李宗瑜之后（十一世后后三股，第13-20世）",
+  qxjy_e05: "清徐集义李氏·后三股·李宗瑜之后（十一世后后三股，第13-18世）",
+  qxjy_e06: "清徐集义李氏·后三股·李宗瑜之后（十一世后后三股，第13-21世）",
+  qxjy_e07: "清徐集义李氏·后三股·李广德之后（十一世后后三股，第15-21世）",
+  qxjy_e08: "清徐集义李氏·后三股·李怀明之后（十一世后后三股，第17-21世）",
+  qxjy_e09: "清徐集义李氏·后三股·李宪顺之后（十一世后后三股，第15-21世）",
+  qxjy_e10: "清徐集义李氏·后三股·李宗冉之后（十一世后后三股，第13-21世）",
+  qxjy_e11: "清徐集义李氏·后三股·李永新之后（十一世后后三股，第12-18世）",
+  qxjy_e12: "清徐集义李氏·后三股·李址之后（十一世后后三股，第12-17世）",
+  qxjy_e13: "清徐集义李氏·后三股·李永妍、李永现之后（十一世后后三股，第12-18世）",
+  qxjy_e14: "清徐集义李氏·后三股·李培、李堪之后（十一世后后三股，第12-18世）",
+  qxjy_e15: "清徐集义李氏·后三股·李堂之后（十一世后后三股，第12-17世）",
+  qxjy_e16: "清徐集义李氏·后三股·李永和、李永泰之后（十一世后后三股，第12-18世）",
+  qxjy_e17: "清徐集义李氏·后三股·李坤、李永印、李增之后（十一世后后三股，第12-17世）",
+  qxjy_e18: "清徐集义李氏·后三股·李永新、李永精、李永成之后（十一世后后三股，第12-16世）",
+  qxjy_e19: "清徐集义李氏·后三股·李永升、李永粹、李墀之后（十一世后后三股，第12-14世）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -2216,6 +2254,25 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["qxjy_d95", lipu_qxjy_d95 as GenealogyDataset],
   ["qxjy_d96", lipu_qxjy_d96 as GenealogyDataset],
   ["qxjy_d97", lipu_qxjy_d97 as GenealogyDataset],
+  ["qxjy_e01", lipu_qxjy_e01 as GenealogyDataset],
+  ["qxjy_e02", lipu_qxjy_e02 as GenealogyDataset],
+  ["qxjy_e03", lipu_qxjy_e03 as GenealogyDataset],
+  ["qxjy_e04", lipu_qxjy_e04 as GenealogyDataset],
+  ["qxjy_e05", lipu_qxjy_e05 as GenealogyDataset],
+  ["qxjy_e06", lipu_qxjy_e06 as GenealogyDataset],
+  ["qxjy_e07", lipu_qxjy_e07 as GenealogyDataset],
+  ["qxjy_e08", lipu_qxjy_e08 as GenealogyDataset],
+  ["qxjy_e09", lipu_qxjy_e09 as GenealogyDataset],
+  ["qxjy_e10", lipu_qxjy_e10 as GenealogyDataset],
+  ["qxjy_e11", lipu_qxjy_e11 as GenealogyDataset],
+  ["qxjy_e12", lipu_qxjy_e12 as GenealogyDataset],
+  ["qxjy_e13", lipu_qxjy_e13 as GenealogyDataset],
+  ["qxjy_e14", lipu_qxjy_e14 as GenealogyDataset],
+  ["qxjy_e15", lipu_qxjy_e15 as GenealogyDataset],
+  ["qxjy_e16", lipu_qxjy_e16 as GenealogyDataset],
+  ["qxjy_e17", lipu_qxjy_e17 as GenealogyDataset],
+  ["qxjy_e18", lipu_qxjy_e18 as GenealogyDataset],
+  ["qxjy_e19", lipu_qxjy_e19 as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {

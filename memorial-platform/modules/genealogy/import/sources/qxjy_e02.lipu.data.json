@@ -1,0 +1,598 @@
+{
+  "key": "lipu:qxjy_e02",
+  "namespace": "zupu-qxjy",
+  "people": [
+    {
+      "externalId": "lipu:qxjy_e03:14-宪斌",
+      "name": "李宪斌",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第14代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:15-泰俊",
+      "name": "李泰俊",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第15代，山西清徐·集义乡集义村，李宪斌长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:16-怀琳",
+      "name": "李怀琳",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第16代，山西清徐·集义乡集义村，李泰俊长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:17-瑞堂",
+      "name": "李瑞堂",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李怀琳长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:18-贵旺",
+      "name": "李贵旺",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李瑞堂长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-佑之",
+      "name": "李佑之",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李贵旺长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-宝智",
+      "name": "李宝智",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李佑之长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-思宾",
+      "name": "李思宾",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李宝智次子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-思忠",
+      "name": "李思忠",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李宝智长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:22-之栋",
+      "name": "李之栋",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第22代，山西清徐·集义乡集义村，李思忠长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:18-贵发",
+      "name": "李贵发",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李瑞堂次子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-绥之",
+      "name": "李绥之",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李贵发长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-成之",
+      "name": "李成之",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李贵发次子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-宝仁",
+      "name": "李宝仁",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李成之长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-思明",
+      "name": "李思明",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李宝仁长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-命之",
+      "name": "李命之",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李贵发三子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-宝义",
+      "name": "李宝义",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李命之长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-思刚",
+      "name": "李思刚",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李宝义长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-宝信",
+      "name": "李宝信",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李命之次子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-艳玲",
+      "name": "李艳玲",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李宝信长女。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-宝全",
+      "name": "李宝全",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李命之三子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-思荣",
+      "name": "李思荣",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第21代，山西清徐·集义乡集义村，李宝全长子。属后三股。"
+    },
+    {
+      "externalId": "lipu:qxjy_e02:15-李泰俊之妻",
+      "name": "李泰俊之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_e02:16-李怀琳之妻",
+      "name": "李怀琳之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "乔氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_e02:17-李瑞堂之妻",
+      "name": "李瑞堂之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_e02:18-李贵旺之妻",
+      "name": "李贵旺之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "张氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-代三兰",
+      "name": "代三兰",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-王引弟",
+      "name": "王引弟",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-张志爱",
+      "name": "张志爱",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:18-李贵发之妻",
+      "name": "李贵发之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "陈氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-张春连",
+      "name": "张春连",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-梁玉玲",
+      "name": "梁玉玲",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:21-赵奋",
+      "name": "赵奋",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:19-丁花只",
+      "name": "丁花只",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-杨保爱",
+      "name": "杨保爱",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-刘桂梅",
+      "name": "刘桂梅",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_e02:20-张小平",
+      "name": "张小平",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e03:14-宪斌",
+      "child": "lipu:qxjy_e02:15-泰俊"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:15-李泰俊之妻",
+      "b": "lipu:qxjy_e02:15-泰俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:15-泰俊",
+      "child": "lipu:qxjy_e02:16-怀琳"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:16-怀琳",
+      "b": "lipu:qxjy_e02:16-李怀琳之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:16-怀琳",
+      "child": "lipu:qxjy_e02:17-瑞堂"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:17-李瑞堂之妻",
+      "b": "lipu:qxjy_e02:17-瑞堂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:17-瑞堂",
+      "child": "lipu:qxjy_e02:18-贵旺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:18-李贵旺之妻",
+      "b": "lipu:qxjy_e02:18-贵旺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:18-贵旺",
+      "child": "lipu:qxjy_e02:19-佑之"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:19-代三兰",
+      "b": "lipu:qxjy_e02:19-佑之"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:19-佑之",
+      "child": "lipu:qxjy_e02:20-宝智"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:20-宝智",
+      "b": "lipu:qxjy_e02:20-王引弟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:20-宝智",
+      "child": "lipu:qxjy_e02:21-思宾"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:20-宝智",
+      "child": "lipu:qxjy_e02:21-思忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:21-张志爱",
+      "b": "lipu:qxjy_e02:21-思忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:21-思忠",
+      "child": "lipu:qxjy_e02:22-之栋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:17-瑞堂",
+      "child": "lipu:qxjy_e02:18-贵发"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:18-李贵发之妻",
+      "b": "lipu:qxjy_e02:18-贵发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:18-贵发",
+      "child": "lipu:qxjy_e02:19-绥之"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:18-贵发",
+      "child": "lipu:qxjy_e02:19-成之"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:19-张春连",
+      "b": "lipu:qxjy_e02:19-成之"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:19-成之",
+      "child": "lipu:qxjy_e02:20-宝仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:20-宝仁",
+      "b": "lipu:qxjy_e02:20-梁玉玲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:20-宝仁",
+      "child": "lipu:qxjy_e02:21-思明"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:21-思明",
+      "b": "lipu:qxjy_e02:21-赵奋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:18-贵发",
+      "child": "lipu:qxjy_e02:19-命之"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:19-丁花只",
+      "b": "lipu:qxjy_e02:19-命之"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:19-命之",
+      "child": "lipu:qxjy_e02:20-宝义"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:20-宝义",
+      "b": "lipu:qxjy_e02:20-杨保爱"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:20-宝义",
+      "child": "lipu:qxjy_e02:21-思刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:19-命之",
+      "child": "lipu:qxjy_e02:20-宝信"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:20-刘桂梅",
+      "b": "lipu:qxjy_e02:20-宝信"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:20-宝信",
+      "child": "lipu:qxjy_e02:21-艳玲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:19-命之",
+      "child": "lipu:qxjy_e02:20-宝全"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_e02:20-宝全",
+      "b": "lipu:qxjy_e02:20-张小平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_e02:20-宝全",
+      "child": "lipu:qxjy_e02:21-思荣"
+    }
+  ]
+}
