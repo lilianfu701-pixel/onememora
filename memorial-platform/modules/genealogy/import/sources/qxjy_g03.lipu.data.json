@@ -1,0 +1,144 @@
+{
+  "key": "lipu:qxjy_g03",
+  "namespace": "zupu-qxjy",
+  "people": [
+    {
+      "externalId": "lipu:qxjy_a31:11-国亮",
+      "name": "李国亮",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_g03:12-忠",
+      "name": "李忠",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李国亮长子。属五股。"
+    },
+    {
+      "externalId": "lipu:qxjy_g03:13-进仁",
+      "name": "李进仁",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第13代，山西清徐·集义乡集义村，李忠长子。属五股；子嗣另见本谱分支。"
+    },
+    {
+      "externalId": "lipu:qxjy_a33:11-国海",
+      "name": "李国海",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第11代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_g03:12-举",
+      "name": "李举",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李国海长子。属五股。"
+    },
+    {
+      "externalId": "lipu:qxjy_g03:12-白",
+      "name": "李白",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第12代，山西清徐·集义乡集义村，李国海次子。属五股。"
+    },
+    {
+      "externalId": "lipu:qxjy_g03:12-李忠之妻",
+      "name": "李忠之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_g03:13-李进仁之妻",
+      "name": "李进仁之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "常氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a31:11-国亮",
+      "child": "lipu:qxjy_g03:12-忠"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_g03:12-忠",
+      "b": "lipu:qxjy_g03:12-李忠之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_g03:12-忠",
+      "child": "lipu:qxjy_g03:13-进仁"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_g03:13-李进仁之妻",
+      "b": "lipu:qxjy_g03:13-进仁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a33:11-国海",
+      "child": "lipu:qxjy_g03:12-举"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_a33:11-国海",
+      "child": "lipu:qxjy_g03:12-白"
+    }
+  ]
+}

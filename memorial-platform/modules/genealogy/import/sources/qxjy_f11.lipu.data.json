@@ -1,0 +1,494 @@
+{
+  "key": "lipu:qxjy_f11",
+  "namespace": "zupu-qxjy",
+  "people": [
+    {
+      "externalId": "lipu:qxjy_f12:14-明发",
+      "name": "李明发",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第14代，山西清徐·集义乡集义村。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:15-万恒",
+      "name": "李万恒",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第15代，山西清徐·集义乡集义村，李明发四子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:16-合锦",
+      "name": "李合锦",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第16代，山西清徐·集义乡集义村，李万恒次子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:17-增铭",
+      "name": "李增铭",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李合锦长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-庆安",
+      "name": "李庆安",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李增铭长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-鸿光",
+      "name": "李鸿光",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李庆安次子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-学林",
+      "name": "李学林",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李庆安长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:20-天利",
+      "name": "李天利",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李学林长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:20-天斌",
+      "name": "李天斌",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第20代，山西清徐·集义乡集义村，李学林次子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:16-合顺",
+      "name": "李合顺",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第16代，山西清徐·集义乡集义村，李万恒长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:17-增荣",
+      "name": "李增荣",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李合顺次子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-庆成",
+      "name": "李庆成",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李增荣长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-庆郭",
+      "name": "李庆郭",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李增荣次子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:17-增章",
+      "name": "李增章",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "deathPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "bio": "清徐集义李氏第17代，山西清徐·集义乡集义村，李合顺长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-庆恩",
+      "name": "李庆恩",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第18代，山西清徐·集义乡集义村，李增章长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-鸿儒",
+      "name": "李鸿儒",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李庆恩长子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-鸿士",
+      "name": "李鸿士",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李庆恩次子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-鸿元",
+      "name": "李鸿元",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李庆恩三子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-鸿奎",
+      "name": "李鸿奎",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "male",
+      "clanName": "清徐集义李氏",
+      "ancestralHometown": "山西清徐·集义乡集义村",
+      "birthPlace": {
+        "region": "山西清徐·集义乡集义村"
+      },
+      "living": true,
+      "bio": "清徐集义李氏第19代，山西清徐·集义乡集义村，李庆恩四子。属四股。"
+    },
+    {
+      "externalId": "lipu:qxjy_f11:15-李万恒之妻",
+      "name": "李万恒之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "刘氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_f11:16-李合锦之妻",
+      "name": "李合锦之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "乔氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_f11:17-李增铭之妻",
+      "name": "李增铭之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "郭氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-温通兰",
+      "name": "温通兰",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-宋玉裳",
+      "name": "宋玉裳",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_f11:19-乔列爱",
+      "name": "乔列爱",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_f11:16-李合顺之妻",
+      "name": "李合顺之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "段氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_f11:17-李增章之妻",
+      "name": "李增章之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "姚氏"
+      ]
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-李庆恩之妻",
+      "name": "李庆恩之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "任氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:qxjy_f11:18-李庆恩之妻#1",
+      "name": "李庆恩之妻",
+      "citation": "《李氏家谱》（山西清徐集义李氏家族编，李中主编）",
+      "gender": "female",
+      "aliases": [
+        "赵氏"
+      ],
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f12:14-明发",
+      "child": "lipu:qxjy_f11:15-万恒"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:15-万恒",
+      "b": "lipu:qxjy_f11:15-李万恒之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:15-万恒",
+      "child": "lipu:qxjy_f11:16-合锦"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:16-合锦",
+      "b": "lipu:qxjy_f11:16-李合锦之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:16-合锦",
+      "child": "lipu:qxjy_f11:17-增铭"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:17-增铭",
+      "b": "lipu:qxjy_f11:17-李增铭之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:17-增铭",
+      "child": "lipu:qxjy_f11:18-庆安"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:18-庆安",
+      "b": "lipu:qxjy_f11:18-温通兰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:18-庆安",
+      "child": "lipu:qxjy_f11:19-鸿光"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:19-宋玉裳",
+      "b": "lipu:qxjy_f11:19-鸿光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:18-庆安",
+      "child": "lipu:qxjy_f11:19-学林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:19-乔列爱",
+      "b": "lipu:qxjy_f11:19-学林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:19-学林",
+      "child": "lipu:qxjy_f11:20-天利"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:19-学林",
+      "child": "lipu:qxjy_f11:20-天斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:15-万恒",
+      "child": "lipu:qxjy_f11:16-合顺"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:16-合顺",
+      "b": "lipu:qxjy_f11:16-李合顺之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:16-合顺",
+      "child": "lipu:qxjy_f11:17-增荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:17-增荣",
+      "child": "lipu:qxjy_f11:18-庆成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:17-增荣",
+      "child": "lipu:qxjy_f11:18-庆郭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:16-合顺",
+      "child": "lipu:qxjy_f11:17-增章"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:17-增章",
+      "b": "lipu:qxjy_f11:17-李增章之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:17-增章",
+      "child": "lipu:qxjy_f11:18-庆恩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:18-庆恩",
+      "b": "lipu:qxjy_f11:18-李庆恩之妻"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:qxjy_f11:18-庆恩",
+      "b": "lipu:qxjy_f11:18-李庆恩之妻#1"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:18-庆恩",
+      "child": "lipu:qxjy_f11:19-鸿儒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:18-庆恩",
+      "child": "lipu:qxjy_f11:19-鸿士"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:18-庆恩",
+      "child": "lipu:qxjy_f11:19-鸿元"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:qxjy_f11:18-庆恩",
+      "child": "lipu:qxjy_f11:19-鸿奎"
+    }
+  ]
+}
