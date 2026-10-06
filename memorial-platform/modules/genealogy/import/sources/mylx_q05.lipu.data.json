@@ -1,0 +1,42 @@
+{
+  "key": "lipu:mylx_q05",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_d02:30-成大",
+      "name": "李成大",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_q05:31-佛魁",
+      "name": "李佛魁",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安。属尤溪佛椿公裔。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_d02:30-成大",
+      "child": "lipu:mylx_q05:31-佛魁"
+    }
+  ]
+}

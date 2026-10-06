@@ -1,0 +1,162 @@
+{
+  "key": "lipu:mylx_p03",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b02:28-张寿",
+      "name": "李张寿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第28代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:29-汝成",
+      "name": "李汝成",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安。属南平长砂久应公裔；印刷页163列为张寿公之子。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:30-景福",
+      "name": "李景福",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李汝成长子。属南平长砂久应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:31-仲茂",
+      "name": "李仲茂",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安，李景福长子。属南平长砂久应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:32-芸升",
+      "name": "李芸升",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李仲茂长子。属南平长砂久应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:33-新杲",
+      "name": "李新杲",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李芸升长子。属南平长砂久应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:34-瑄",
+      "name": "李瑄",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李新杲长子。属南平长砂久应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p03:35-久应",
+      "name": "李久应",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第35代，福建永安，李瑄长子。属南平长砂久应公裔；迁延平长砂。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b02:28-张寿",
+      "child": "lipu:mylx_p03:29-汝成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p03:29-汝成",
+      "child": "lipu:mylx_p03:30-景福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p03:30-景福",
+      "child": "lipu:mylx_p03:31-仲茂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p03:31-仲茂",
+      "child": "lipu:mylx_p03:32-芸升"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p03:32-芸升",
+      "child": "lipu:mylx_p03:33-新杲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p03:33-新杲",
+      "child": "lipu:mylx_p03:34-瑄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p03:34-瑄",
+      "child": "lipu:mylx_p03:35-久应"
+    }
+  ]
+}

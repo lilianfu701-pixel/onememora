@@ -1,0 +1,122 @@
+{
+  "key": "lipu:mylx_j05",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b15:27-铉富",
+      "name": "李铉富",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第27代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_j05:28-发祖",
+      "name": "李发祖",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第28代，福建永安。属三元梅列后洋应龙公裔（洋畲坑头百十二公后裔）。"
+    },
+    {
+      "externalId": "lipu:mylx_j05:29-永宗",
+      "name": "李永宗",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安，李发祖长子。属三元梅列后洋应龙公裔（洋畲坑头百十二公后裔）。"
+    },
+    {
+      "externalId": "lipu:mylx_j05:30-佛寿",
+      "name": "李佛寿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李永宗长子。属三元梅列后洋应龙公裔（洋畲坑头百十二公后裔）。"
+    },
+    {
+      "externalId": "lipu:mylx_j05:31-法良",
+      "name": "李法良",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安，李佛寿长子。属三元梅列后洋应龙公裔（洋畲坑头百十二公后裔）。"
+    },
+    {
+      "externalId": "lipu:mylx_j05:32-应龙",
+      "name": "李应龙",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李法良长子。属三元梅列后洋应龙公裔（洋畲坑头百十二公后裔）；梅列后洋祖。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b15:27-铉富",
+      "child": "lipu:mylx_j05:28-发祖"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j05:28-发祖",
+      "child": "lipu:mylx_j05:29-永宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j05:29-永宗",
+      "child": "lipu:mylx_j05:30-佛寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j05:30-佛寿",
+      "child": "lipu:mylx_j05:31-法良"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j05:31-法良",
+      "child": "lipu:mylx_j05:32-应龙"
+    }
+  ]
+}

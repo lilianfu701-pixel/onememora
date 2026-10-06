@@ -1,0 +1,82 @@
+{
+  "key": "lipu:mylx_p04",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b14:31-木椿",
+      "name": "李木椿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_p04:32-应权",
+      "name": "李应权",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安。属延平蛇溪应权公裔（永安洋畲坑头百十二公后裔）；迁延平蛇溪；印刷页164列应权为木椿公长子、应慈为次子，印刷页32 则作应理、应慈，或应理即应权，谱载不一，两存之。"
+    },
+    {
+      "externalId": "lipu:mylx_p04:33-春滕",
+      "name": "李春滕",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李应权长子。属延平蛇溪应权公裔（永安洋畲坑头百十二公后裔）。"
+    },
+    {
+      "externalId": "lipu:mylx_p04:33-春启",
+      "name": "李春启",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李应权次子。属延平蛇溪应权公裔（永安洋畲坑头百十二公后裔）。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b14:31-木椿",
+      "child": "lipu:mylx_p04:32-应权"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p04:32-应权",
+      "child": "lipu:mylx_p04:33-春滕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p04:32-应权",
+      "child": "lipu:mylx_p04:33-春启"
+    }
+  ]
+}

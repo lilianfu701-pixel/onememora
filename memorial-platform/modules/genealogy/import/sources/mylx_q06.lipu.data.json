@@ -1,0 +1,162 @@
+{
+  "key": "lipu:mylx_q06",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b27:31-福三",
+      "name": "李福三",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:32-缙富",
+      "name": "李缙富",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李福三长子。属尤溪应荣公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:33-佛六",
+      "name": "李佛六",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李缙富长子。属尤溪应荣公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:32-缙金",
+      "name": "李缙金",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李福三次子。属尤溪应荣公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:33-仕福",
+      "name": "李仕福",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李缙金次子。属尤溪应荣公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:33-仕和",
+      "name": "李仕和",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李缙金长子。属尤溪应荣公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:34-如璧",
+      "name": "李如璧",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李仕和长子。属尤溪应荣公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q06:35-应荣",
+      "name": "李应荣",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第35代，福建永安，李如璧长子。属尤溪应荣公裔；迁尤溪。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b27:31-福三",
+      "child": "lipu:mylx_q06:32-缙富"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q06:32-缙富",
+      "child": "lipu:mylx_q06:33-佛六"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b27:31-福三",
+      "child": "lipu:mylx_q06:32-缙金"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q06:32-缙金",
+      "child": "lipu:mylx_q06:33-仕福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q06:32-缙金",
+      "child": "lipu:mylx_q06:33-仕和"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q06:33-仕和",
+      "child": "lipu:mylx_q06:34-如璧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q06:34-如璧",
+      "child": "lipu:mylx_q06:35-应荣"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "key": "lipu:mylx_q12",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_p07:15-英",
+      "name": "李英",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第15代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_q12:16-仁文",
+      "name": "李仁文",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安，李英长子。属永泰县开基始祖英公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q12:16-仁武",
+      "name": "李仁武",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安，李英次子。属永泰县开基始祖英公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q12:16-仁龙",
+      "name": "李仁龙",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安，李英三子。属永泰县开基始祖英公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_q12:16-仁虎",
+      "name": "李仁虎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安，李英四子。属永泰县开基始祖英公裔。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p07:15-英",
+      "child": "lipu:mylx_q12:16-仁文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p07:15-英",
+      "child": "lipu:mylx_q12:16-仁武"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p07:15-英",
+      "child": "lipu:mylx_q12:16-仁龙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p07:15-英",
+      "child": "lipu:mylx_q12:16-仁虎"
+    }
+  ]
+}

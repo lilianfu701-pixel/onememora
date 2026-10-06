@@ -1,0 +1,342 @@
+{
+  "key": "lipu:mylx_q16",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_a08:6-尚芬",
+      "name": "李尚芬",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第6代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:7-邺",
+      "name": "李邺",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第7代，福建永安。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:8-诎",
+      "name": "李诎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第8代，福建永安，李邺长子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:9-伦",
+      "name": "李伦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第9代，福建永安，李诎长子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:9-侁",
+      "name": "李侁",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第9代，福建永安，李诎次子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:9-谅",
+      "name": "李谅",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第9代，福建永安，李诎四子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:9-侗",
+      "name": "李侗",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第9代，福建永安，李诎三子。属将乐梅林村（磨石坑）三十郎公世远祖世系；又名文靖。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:10-友直",
+      "name": "李友直",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第10代，福建永安，李侗长子。属将乐梅林村（磨石坑）三十郎公世远祖世系；居剑南。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:10-信甫",
+      "name": "李信甫",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第10代，福建永安，李侗次子。属将乐梅林村（磨石坑）三十郎公世远祖世系；居永安、砂县。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:10-友闻",
+      "name": "李友闻",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第10代，福建永安，李侗三子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:11-万八",
+      "name": "李万八",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李友闻长子。属将乐梅林村（磨石坑）三十郎公世远祖世系；居顺昌。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:11-六二郎",
+      "name": "李六二郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李友闻三子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:11-三十郎",
+      "name": "李三十郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李友闻次子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:12-念七郎",
+      "name": "李念七郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第12代，福建永安，李三十郎长子。属将乐梅林村（磨石坑）三十郎公世远祖世系；又作义七郎。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:13-受五",
+      "name": "李受五",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第13代，福建永安，李念七郎长子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:12-念八郎",
+      "name": "李念八郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第12代，福建永安，李三十郎次子。属将乐梅林村（磨石坑）三十郎公世远祖世系；又作义八郎。"
+    },
+    {
+      "externalId": "lipu:mylx_q16:13-应明",
+      "name": "李应明",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第13代，福建永安，李念八郎长子。属将乐梅林村（磨石坑）三十郎公世远祖世系。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a08:6-尚芬",
+      "child": "lipu:mylx_q16:7-邺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:7-邺",
+      "child": "lipu:mylx_q16:8-诎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:8-诎",
+      "child": "lipu:mylx_q16:9-伦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:8-诎",
+      "child": "lipu:mylx_q16:9-侁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:8-诎",
+      "child": "lipu:mylx_q16:9-谅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:8-诎",
+      "child": "lipu:mylx_q16:9-侗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:9-侗",
+      "child": "lipu:mylx_q16:10-友直"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:9-侗",
+      "child": "lipu:mylx_q16:10-信甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:9-侗",
+      "child": "lipu:mylx_q16:10-友闻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:10-友闻",
+      "child": "lipu:mylx_q16:11-万八"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:10-友闻",
+      "child": "lipu:mylx_q16:11-六二郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:10-友闻",
+      "child": "lipu:mylx_q16:11-三十郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:11-三十郎",
+      "child": "lipu:mylx_q16:12-念七郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:12-念七郎",
+      "child": "lipu:mylx_q16:13-受五"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:11-三十郎",
+      "child": "lipu:mylx_q16:12-念八郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_q16:12-念八郎",
+      "child": "lipu:mylx_q16:13-应明"
+    }
+  ]
+}

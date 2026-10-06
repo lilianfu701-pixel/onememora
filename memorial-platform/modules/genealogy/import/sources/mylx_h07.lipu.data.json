@@ -1,0 +1,162 @@
+{
+  "key": "lipu:mylx_h07",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b16:28-成留",
+      "name": "李成留",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第28代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:29-德明",
+      "name": "李德明",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安，李成留长子。属永安冲村山竹坑久续公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:30-洊美",
+      "name": "李洊美",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李德明长子。属永安冲村山竹坑久续公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:31-石大",
+      "name": "李石大",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安，李洊美次子。属永安冲村山竹坑久续公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:32-祖成",
+      "name": "李祖成",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李石大长子。属永安冲村山竹坑久续公裔；住东西坑（大田）。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:31-土保",
+      "name": "李土保",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安，李洊美长子。属永安冲村山竹坑久续公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:32-祖德",
+      "name": "李祖德",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李土保长子。属永安冲村山竹坑久续公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_h07:33-久续",
+      "name": "李久续",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李祖德长子。属永安冲村山竹坑久续公裔；住山竹坑。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b16:28-成留",
+      "child": "lipu:mylx_h07:29-德明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_h07:29-德明",
+      "child": "lipu:mylx_h07:30-洊美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_h07:30-洊美",
+      "child": "lipu:mylx_h07:31-石大"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_h07:31-石大",
+      "child": "lipu:mylx_h07:32-祖成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_h07:30-洊美",
+      "child": "lipu:mylx_h07:31-土保"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_h07:31-土保",
+      "child": "lipu:mylx_h07:32-祖德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_h07:32-祖德",
+      "child": "lipu:mylx_h07:33-久续"
+    }
+  ]
+}

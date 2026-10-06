@@ -1,0 +1,142 @@
+{
+  "key": "lipu:mylx_n03",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_m06:32-世祖",
+      "name": "李世祖",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_n03:33-宗寿",
+      "name": "李宗寿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李世祖长子。属同安南山始祖汝谨公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_n03:34-光宠",
+      "name": "李光宠",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李宗寿长子。属同安南山始祖汝谨公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_n03:34-光俊",
+      "name": "李光俊",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李宗寿次子。属同安南山始祖汝谨公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_n03:33-宗瑶",
+      "name": "李宗瑶",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李世祖次子。属同安南山始祖汝谨公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_n03:34-光壁",
+      "name": "李光壁",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李宗瑶长子。属同安南山始祖汝谨公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_n03:34-光桓",
+      "name": "李光桓",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李宗瑶次子。属同安南山始祖汝谨公裔。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_m06:32-世祖",
+      "child": "lipu:mylx_n03:33-宗寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_n03:33-宗寿",
+      "child": "lipu:mylx_n03:34-光宠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_n03:33-宗寿",
+      "child": "lipu:mylx_n03:34-光俊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_m06:32-世祖",
+      "child": "lipu:mylx_n03:33-宗瑶"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_n03:33-宗瑶",
+      "child": "lipu:mylx_n03:34-光壁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_n03:33-宗瑶",
+      "child": "lipu:mylx_n03:34-光桓"
+    }
+  ]
+}

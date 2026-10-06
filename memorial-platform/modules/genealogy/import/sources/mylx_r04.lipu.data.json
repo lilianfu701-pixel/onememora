@@ -1,0 +1,663 @@
+{
+  "key": "lipu:mylx_r04",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_r04:1-君达",
+      "name": "李君达",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第1代，福建安溪·湖头。属安溪湖头派；安溪湖头派一世；据印刷页195–196「增刻泉州湖头谱世系引言」，湖头之谱以君达公为洋畲中房三八公派赤公之裔，居湖头；本谱主干另载诚公之子君达（西山始祖），二者是否一人谱未明，此按湖头本支世次另立。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:2-位千五",
+      "name": "李位千五",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第2代，福建安溪·湖头，李君达长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:3-仲良",
+      "name": "李仲良",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第3代，福建安溪·湖头，李位千五长子。属安溪湖头派；位千六。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:4-则成",
+      "name": "李则成",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第4代，福建安溪·湖头，李仲良长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:5-宗源",
+      "name": "李宗源",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第5代，福建安溪·湖头，李则成长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:5-宗淇",
+      "name": "李宗淇",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第5代，福建安溪·湖头，李则成次子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:5-宗江",
+      "name": "李宗江",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第5代，福建安溪·湖头，李则成三子。属安溪湖头派；子嗣另见本谱分支。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:6-俊茂",
+      "name": "李俊茂",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第6代，福建安溪·湖头，李宗江长子。属安溪湖头派；号朴庄。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:7-秉阳",
+      "name": "李秉阳",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第7代，福建安溪·湖头，李俊茂长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:8-文昭",
+      "name": "李文昭",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第8代，福建安溪·湖头，李秉阳长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:9-时守",
+      "name": "李时守",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第9代，福建安溪·湖头，李文昭四子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:9-时祐",
+      "name": "李时祐",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第9代，福建安溪·湖头，李文昭五子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:9-时宗",
+      "name": "李时宗",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第9代，福建安溪·湖头，李文昭六子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:9-时杰",
+      "name": "李时杰",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第9代，福建安溪·湖头，李文昭长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:10-子丽",
+      "name": "李子丽",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第10代，福建安溪·湖头，李时杰长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:9-时同",
+      "name": "李时同",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第9代，福建安溪·湖头，李文昭次子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:10-子渐",
+      "name": "李子渐",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第10代，福建安溪·湖头，李时同长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:9-时望",
+      "name": "李时望",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第9代，福建安溪·湖头，李文昭三子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:10-子羽",
+      "name": "李子羽",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第10代，福建安溪·湖头，李时望长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:11-克翘",
+      "name": "李克翘",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第11代，福建安溪·湖头，李子羽次子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:11-克苍",
+      "name": "李克苍",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第11代，福建安溪·湖头，李子羽三子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:11-克树",
+      "name": "李克树",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第11代，福建安溪·湖头，李子羽四子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:11-克荣",
+      "name": "李克荣",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第11代，福建安溪·湖头，李子羽长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:12-皜甫",
+      "name": "李皜甫",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第12代，福建安溪·湖头，李克荣次子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:12-韬甫",
+      "name": "李韬甫",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第12代，福建安溪·湖头，李克荣三子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:12-玄甫",
+      "name": "李玄甫",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第12代，福建安溪·湖头，李克荣四子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:12-升甫",
+      "name": "李升甫",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第12代，福建安溪·湖头，李克荣长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:13-稺卿",
+      "name": "李稺卿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第13代，福建安溪·湖头，李升甫次子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:13-畴卿",
+      "name": "李畴卿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第13代，福建安溪·湖头，李升甫三子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:13-瓛卿",
+      "name": "李瓛卿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第13代，福建安溪·湖头，李升甫长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:14-世质",
+      "name": "李世质",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第14代，福建安溪·湖头，李瓛卿次子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:14-世器",
+      "name": "李世器",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第14代，福建安溪·湖头，李瓛卿长子。属安溪湖头派。"
+    },
+    {
+      "externalId": "lipu:mylx_r04:15-乐侯",
+      "name": "李乐侯",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建安溪·湖头",
+      "birthPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "deathPlace": {
+        "region": "福建安溪·湖头"
+      },
+      "bio": "闽越江王李元祥派第15代，福建安溪·湖头，李世器长子。属安溪湖头派。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:1-君达",
+      "child": "lipu:mylx_r04:2-位千五"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:2-位千五",
+      "child": "lipu:mylx_r04:3-仲良"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:3-仲良",
+      "child": "lipu:mylx_r04:4-则成"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:4-则成",
+      "child": "lipu:mylx_r04:5-宗源"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:4-则成",
+      "child": "lipu:mylx_r04:5-宗淇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:4-则成",
+      "child": "lipu:mylx_r04:5-宗江"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:5-宗江",
+      "child": "lipu:mylx_r04:6-俊茂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:6-俊茂",
+      "child": "lipu:mylx_r04:7-秉阳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:7-秉阳",
+      "child": "lipu:mylx_r04:8-文昭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:8-文昭",
+      "child": "lipu:mylx_r04:9-时守"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:8-文昭",
+      "child": "lipu:mylx_r04:9-时祐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:8-文昭",
+      "child": "lipu:mylx_r04:9-时宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:8-文昭",
+      "child": "lipu:mylx_r04:9-时杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:9-时杰",
+      "child": "lipu:mylx_r04:10-子丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:8-文昭",
+      "child": "lipu:mylx_r04:9-时同"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:9-时同",
+      "child": "lipu:mylx_r04:10-子渐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:8-文昭",
+      "child": "lipu:mylx_r04:9-时望"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:9-时望",
+      "child": "lipu:mylx_r04:10-子羽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:10-子羽",
+      "child": "lipu:mylx_r04:11-克翘"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:10-子羽",
+      "child": "lipu:mylx_r04:11-克苍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:10-子羽",
+      "child": "lipu:mylx_r04:11-克树"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:10-子羽",
+      "child": "lipu:mylx_r04:11-克荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:11-克荣",
+      "child": "lipu:mylx_r04:12-皜甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:11-克荣",
+      "child": "lipu:mylx_r04:12-韬甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:11-克荣",
+      "child": "lipu:mylx_r04:12-玄甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:11-克荣",
+      "child": "lipu:mylx_r04:12-升甫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:12-升甫",
+      "child": "lipu:mylx_r04:13-稺卿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:12-升甫",
+      "child": "lipu:mylx_r04:13-畴卿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:12-升甫",
+      "child": "lipu:mylx_r04:13-瓛卿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:13-瓛卿",
+      "child": "lipu:mylx_r04:14-世质"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:13-瓛卿",
+      "child": "lipu:mylx_r04:14-世器"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_r04:14-世器",
+      "child": "lipu:mylx_r04:15-乐侯"
+    }
+  ]
+}

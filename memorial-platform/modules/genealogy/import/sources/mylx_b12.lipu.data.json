@@ -1,0 +1,870 @@
+{
+  "key": "lipu:mylx_b12",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b14:34-翔",
+      "name": "李翔",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安·洋畲（今洋峰）。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:35-文深",
+      "name": "李文深",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第35代，福建永安·洋畲（今洋峰），李翔长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:36-璜",
+      "name": "李璜",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第36代，福建永安·洋畲（今洋峰），李文深次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:36-璥",
+      "name": "李璥",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第36代，福建永安·洋畲（今洋峰），李文深三子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:36-琮",
+      "name": "李琮",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第36代，福建永安·洋畲（今洋峰），李文深长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:37-尚造",
+      "name": "李尚造",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第37代，福建永安·洋畲（今洋峰），李琮次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:38-元敏",
+      "name": "李元敏",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第38代，福建永安·洋畲（今洋峰），李尚造长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:38-元招",
+      "name": "李元招",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第38代，福建永安·洋畲（今洋峰），李尚造三子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:38-元锦",
+      "name": "李元锦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第38代，福建永安·洋畲（今洋峰），李尚造次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时禄",
+      "name": "李时禄",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元锦长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时科",
+      "name": "李时科",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元锦三子。属永安洋畲小三公中房三八公裔；谱注出继，未载所继。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时侃",
+      "name": "李时侃",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元锦次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:40-翔煜",
+      "name": "李翔煜",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第40代，福建永安·洋畲（今洋峰），李时侃继子。属永安洋畲小三公中房三八公裔；承继为嗣。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:40-翔鸽",
+      "name": "李翔鸽",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第40代，福建永安·洋畲（今洋峰），李时侃长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:41-宝裬",
+      "name": "李宝裬",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第41代，福建永安·洋畲（今洋峰），李翔鸽长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:42-贤平",
+      "name": "李贤平",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第42代，福建永安·洋畲（今洋峰），李宝裬长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:37-尚联",
+      "name": "李尚联",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第37代，福建永安·洋畲（今洋峰），李琮长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:38-元有",
+      "name": "李元有",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第38代，福建永安·洋畲（今洋峰），李尚联长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时炤",
+      "name": "李时炤",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元有长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时雅",
+      "name": "李时雅",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元有次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时昌",
+      "name": "李时昌",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元有三子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:38-元存",
+      "name": "李元存",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第38代，福建永安·洋畲（今洋峰），李尚联次子。属永安洋畲小三公中房三八公裔；书宾。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:39-时福",
+      "name": "李时福",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第39代，福建永安·洋畲（今洋峰），李元存长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:40-翔潜",
+      "name": "李翔潜",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第40代，福建永安·洋畲（今洋峰），李时福长子。属永安洋畲小三公中房三八公裔；佾生。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:41-宝润",
+      "name": "李宝润",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第41代，福建永安·洋畲（今洋峰），李翔潜长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:42-贤沼",
+      "name": "李贤沼",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第42代，福建永安·洋畲（今洋峰），李宝润长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:43-绵炜",
+      "name": "李绵炜",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第43代，福建永安·洋畲（今洋峰），李贤沼继子。属永安洋畲小三公中房三八公裔；承继为嗣。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:44-道洲",
+      "name": "李道洲",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第44代，福建永安·洋畲（今洋峰），李绵炜长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:40-翔钦",
+      "name": "李翔钦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第40代，福建永安·洋畲（今洋峰），李时福三子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:41-宝唐",
+      "name": "李宝唐",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第41代，福建永安·洋畲（今洋峰），李翔钦长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:42-贤瀍",
+      "name": "李贤瀍",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第42代，福建永安·洋畲（今洋峰），李宝唐长子。属永安洋畲小三公中房三八公裔；子绵炜出继。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:43-绵梓",
+      "name": "李绵梓",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第43代，福建永安·洋畲（今洋峰），李贤瀍长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:44-道淼",
+      "name": "李道淼",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第44代，福建永安·洋畲（今洋峰），李绵梓长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:43-绵鉴",
+      "name": "李绵鉴",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第43代，福建永安·洋畲（今洋峰），李贤瀍三子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:44-道鹏",
+      "name": "李道鹏",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第44代，福建永安·洋畲（今洋峰），李绵鉴长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:44-道忠",
+      "name": "李道忠",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第44代，福建永安·洋畲（今洋峰），李绵鉴次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:40-翔浪",
+      "name": "李翔浪",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第40代，福建永安·洋畲（今洋峰），李时福次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:41-宝涛",
+      "name": "李宝涛",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第41代，福建永安·洋畲（今洋峰），李翔浪长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:42-贤森",
+      "name": "李贤森",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第42代，福建永安·洋畲（今洋峰），李宝涛长子。属永安洋畲小三公中房三八公裔；以绵金承半继（兼祧）。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:41-宝坤",
+      "name": "李宝坤",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "deathPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "bio": "闽越江王李元祥派第41代，福建永安·洋畲（今洋峰），李翔浪次子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:42-贤进",
+      "name": "李贤进",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第42代，福建永安·洋畲（今洋峰），李宝坤继子。属永安洋畲小三公中房三八公裔；承继为嗣。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:43-绵贵",
+      "name": "李绵贵",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第43代，福建永安·洋畲（今洋峰），李贤进继子。属永安洋畲小三公中房三八公裔；承半继（兼祧）。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:42-贤庚",
+      "name": "李贤庚",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第42代，福建永安·洋畲（今洋峰），李宝坤继子。属永安洋畲小三公中房三八公裔；承继为嗣。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:43-绵耀",
+      "name": "李绵耀",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第43代，福建永安·洋畲（今洋峰），李贤庚长子。属永安洋畲小三公中房三八公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_b12:43-绵建",
+      "name": "李绵建",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安·洋畲（今洋峰）",
+      "birthPlace": {
+        "region": "福建永安·洋畲（今洋峰）"
+      },
+      "living": true,
+      "bio": "闽越江王李元祥派第43代，福建永安·洋畲（今洋峰），李贤庚次子。属永安洋畲小三公中房三八公裔；谱注出继，未载所继。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b14:34-翔",
+      "child": "lipu:mylx_b12:35-文深"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:35-文深",
+      "child": "lipu:mylx_b12:36-璜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:35-文深",
+      "child": "lipu:mylx_b12:36-璥"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:35-文深",
+      "child": "lipu:mylx_b12:36-琮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:36-琮",
+      "child": "lipu:mylx_b12:37-尚造"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:37-尚造",
+      "child": "lipu:mylx_b12:38-元敏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:37-尚造",
+      "child": "lipu:mylx_b12:38-元招"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:37-尚造",
+      "child": "lipu:mylx_b12:38-元锦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元锦",
+      "child": "lipu:mylx_b12:39-时禄"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元锦",
+      "child": "lipu:mylx_b12:39-时科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元锦",
+      "child": "lipu:mylx_b12:39-时侃"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:39-时侃",
+      "child": "lipu:mylx_b12:40-翔煜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:39-时侃",
+      "child": "lipu:mylx_b12:40-翔鸽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:40-翔鸽",
+      "child": "lipu:mylx_b12:41-宝裬"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:41-宝裬",
+      "child": "lipu:mylx_b12:42-贤平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:36-琮",
+      "child": "lipu:mylx_b12:37-尚联"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:37-尚联",
+      "child": "lipu:mylx_b12:38-元有"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元有",
+      "child": "lipu:mylx_b12:39-时炤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元有",
+      "child": "lipu:mylx_b12:39-时雅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元有",
+      "child": "lipu:mylx_b12:39-时昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:37-尚联",
+      "child": "lipu:mylx_b12:38-元存"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:38-元存",
+      "child": "lipu:mylx_b12:39-时福"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:39-时福",
+      "child": "lipu:mylx_b12:40-翔潜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:40-翔潜",
+      "child": "lipu:mylx_b12:41-宝润"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:41-宝润",
+      "child": "lipu:mylx_b12:42-贤沼"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:42-贤沼",
+      "child": "lipu:mylx_b12:43-绵炜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:43-绵炜",
+      "child": "lipu:mylx_b12:44-道洲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:39-时福",
+      "child": "lipu:mylx_b12:40-翔钦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:40-翔钦",
+      "child": "lipu:mylx_b12:41-宝唐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:41-宝唐",
+      "child": "lipu:mylx_b12:42-贤瀍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:42-贤瀍",
+      "child": "lipu:mylx_b12:43-绵梓"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:43-绵梓",
+      "child": "lipu:mylx_b12:44-道淼"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:42-贤瀍",
+      "child": "lipu:mylx_b12:43-绵鉴"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:43-绵鉴",
+      "child": "lipu:mylx_b12:44-道鹏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:43-绵鉴",
+      "child": "lipu:mylx_b12:44-道忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:39-时福",
+      "child": "lipu:mylx_b12:40-翔浪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:40-翔浪",
+      "child": "lipu:mylx_b12:41-宝涛"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:41-宝涛",
+      "child": "lipu:mylx_b12:42-贤森"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:40-翔浪",
+      "child": "lipu:mylx_b12:41-宝坤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:41-宝坤",
+      "child": "lipu:mylx_b12:42-贤进"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:42-贤进",
+      "child": "lipu:mylx_b12:43-绵贵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:41-宝坤",
+      "child": "lipu:mylx_b12:42-贤庚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:42-贤庚",
+      "child": "lipu:mylx_b12:43-绵耀"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b12:42-贤庚",
+      "child": "lipu:mylx_b12:43-绵建"
+    }
+  ]
+}

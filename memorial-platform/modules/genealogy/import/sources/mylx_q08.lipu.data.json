@@ -1,0 +1,156 @@
+{
+  "key": "lipu:mylx_q08",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_a05:25-郭林",
+      "name": "李郭林",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第25代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_q08:26-永康",
+      "name": "李永康",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第26代，福建永安，李郭林长子。属汀州上杭县内东门街朱公世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q08:26-永佑",
+      "name": "李永佑",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第26代，福建永安，李郭林次子。属汀州上杭县内东门街朱公世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q08:26-永朝",
+      "name": "李永朝",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第26代，福建永安，李郭林三子。属汀州上杭县内东门街朱公世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q08:26-永能",
+      "name": "李永能",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第26代，福建永安，李郭林四子。属汀州上杭县内东门街朱公世系。"
+    },
+    {
+      "externalId": "lipu:mylx_a05:25-梅轩",
+      "name": "李梅轩",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第25代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_q08:26-常松",
+      "name": "李常松",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第26代，福建永安，李梅轩长子。属汀州上杭县内东门街朱公世系。"
+    },
+    {
+      "externalId": "lipu:mylx_q08:26-常青",
+      "name": "李常青",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第26代，福建永安，李梅轩次子。属汀州上杭县内东门街朱公世系。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a05:25-郭林",
+      "child": "lipu:mylx_q08:26-永康"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a05:25-郭林",
+      "child": "lipu:mylx_q08:26-永佑"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a05:25-郭林",
+      "child": "lipu:mylx_q08:26-永朝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a05:25-郭林",
+      "child": "lipu:mylx_q08:26-永能"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a05:25-梅轩",
+      "child": "lipu:mylx_q08:26-常松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a05:25-梅轩",
+      "child": "lipu:mylx_q08:26-常青"
+    }
+  ]
+}

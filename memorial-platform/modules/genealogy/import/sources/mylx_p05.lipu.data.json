@@ -1,0 +1,162 @@
+{
+  "key": "lipu:mylx_p05",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_b02:28-成坚",
+      "name": "李成坚",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第28代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:29-汝明",
+      "name": "李汝明",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安，李成坚长子。属南平西芹楚贵公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:30-富德",
+      "name": "李富德",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李汝明长子。属南平西芹楚贵公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:31-正林",
+      "name": "李正林",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第31代，福建永安，李富德长子。属南平西芹楚贵公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:32-万胜",
+      "name": "李万胜",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第32代，福建永安，李正林长子。属南平西芹楚贵公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:33-程卿",
+      "name": "李程卿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安，李万胜长子。属南平西芹楚贵公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:34-太谟",
+      "name": "李太谟",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安，李程卿长子。属南平西芹楚贵公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_p05:35-楚贵",
+      "name": "李楚贵",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第35代，福建永安，李太谟长子。属南平西芹楚贵公裔；迁延平西芹。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_b02:28-成坚",
+      "child": "lipu:mylx_p05:29-汝明"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p05:29-汝明",
+      "child": "lipu:mylx_p05:30-富德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p05:30-富德",
+      "child": "lipu:mylx_p05:31-正林"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p05:31-正林",
+      "child": "lipu:mylx_p05:32-万胜"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p05:32-万胜",
+      "child": "lipu:mylx_p05:33-程卿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p05:33-程卿",
+      "child": "lipu:mylx_p05:34-太谟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_p05:34-太谟",
+      "child": "lipu:mylx_p05:35-楚贵"
+    }
+  ]
+}

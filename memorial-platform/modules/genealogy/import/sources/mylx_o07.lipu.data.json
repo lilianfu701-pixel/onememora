@@ -1,0 +1,142 @@
+{
+  "key": "lipu:mylx_o07",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_a04:28-汝谦",
+      "name": "李汝谦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第28代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_o07:29-致俶",
+      "name": "李致俶",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安，李汝谦三子。属南靖县曲江水头金山始祖汝谦公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_o07:29-致钦",
+      "name": "李致钦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安，李汝谦长子。属南靖县曲江水头金山始祖汝谦公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_o07:30-仲阳",
+      "name": "李仲阳",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李致钦长子。属南靖县曲江水头金山始祖汝谦公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_o07:29-致仰",
+      "name": "李致仰",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第29代，福建永安，李汝谦次子。属南靖县曲江水头金山始祖汝谦公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_o07:30-仲雍",
+      "name": "李仲雍",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李致仰长子。属南靖县曲江水头金山始祖汝谦公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_o07:30-仲隆",
+      "name": "李仲隆",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第30代，福建永安，李致仰次子。属南靖县曲江水头金山始祖汝谦公裔。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a04:28-汝谦",
+      "child": "lipu:mylx_o07:29-致俶"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a04:28-汝谦",
+      "child": "lipu:mylx_o07:29-致钦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_o07:29-致钦",
+      "child": "lipu:mylx_o07:30-仲阳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a04:28-汝谦",
+      "child": "lipu:mylx_o07:29-致仰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_o07:29-致仰",
+      "child": "lipu:mylx_o07:30-仲雍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_o07:29-致仰",
+      "child": "lipu:mylx_o07:30-仲隆"
+    }
+  ]
+}

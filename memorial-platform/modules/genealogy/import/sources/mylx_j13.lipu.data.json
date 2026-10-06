@@ -1,0 +1,102 @@
+{
+  "key": "lipu:mylx_j13",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_d03:33-智聪",
+      "name": "李智聪",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第33代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_j13:34-进中",
+      "name": "李进中",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第34代，福建永安。属三元岩前顺贞金应公裔；谱注景通公「六世孙顺贞迁三元岩前」。"
+    },
+    {
+      "externalId": "lipu:mylx_j13:35-盛宗",
+      "name": "李盛宗",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第35代，福建永安，李进中长子。属三元岩前顺贞金应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_j13:36-贞昌",
+      "name": "李贞昌",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第36代，福建永安，李盛宗长子。属三元岩前顺贞金应公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_j13:37-金应",
+      "name": "李金应",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第37代，福建永安，李贞昌长子。属三元岩前顺贞金应公裔；三元岩前开基始祖。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_d03:33-智聪",
+      "child": "lipu:mylx_j13:34-进中"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j13:34-进中",
+      "child": "lipu:mylx_j13:35-盛宗"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j13:35-盛宗",
+      "child": "lipu:mylx_j13:36-贞昌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_j13:36-贞昌",
+      "child": "lipu:mylx_j13:37-金应"
+    }
+  ]
+}

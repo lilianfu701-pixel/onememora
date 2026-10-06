@@ -1,0 +1,96 @@
+{
+  "key": "lipu:mylx_c05",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_a07:16-常春",
+      "name": "李常春",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_c05:17-石孙",
+      "name": "李石孙",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第17代，福建永安，李常春长子。属其洪公季弟其德公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_c05:18-政通",
+      "name": "李政通",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李石孙长子。属其洪公季弟其德公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_c05:19-富贵",
+      "name": "李富贵",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第19代，福建永安，李政通长子。属其洪公季弟其德公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_a07:16-常禄",
+      "name": "李常禄",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_a07:16-常春",
+      "child": "lipu:mylx_c05:17-石孙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_c05:17-石孙",
+      "child": "lipu:mylx_c05:18-政通"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_c05:18-政通",
+      "child": "lipu:mylx_c05:19-富贵"
+    }
+  ]
+}

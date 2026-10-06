@@ -1,0 +1,582 @@
+{
+  "key": "lipu:mylx_s01",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_s02:1-世民",
+      "name": "李世民",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第1代，福建永安。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:2-恪",
+      "name": "李恪",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第2代，福建永安，李世民次子。属大唐皇派世民公裔；世民公三子。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:3-境",
+      "name": "李境",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第3代，福建永安，李恪长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:4-祧",
+      "name": "李祧",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第4代，福建永安，李境长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:5-嵩",
+      "name": "李嵩",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第5代，福建永安，李祧长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:6-思恭",
+      "name": "李思恭",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第6代，福建永安，李嵩长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:7-钦",
+      "name": "李钦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第7代，福建永安，李思恭长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:8-晟",
+      "name": "李晟",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第8代，福建永安，李钦长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:9-愿",
+      "name": "李愿",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第9代，福建永安，李晟长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:10-宣",
+      "name": "李宣",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第10代，福建永安，李愿长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:11-历",
+      "name": "李历",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李宣长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:12-资",
+      "name": "李资",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第12代，福建永安，李历长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:13-宠",
+      "name": "李宠",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第13代，福建永安，李资长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:14-质",
+      "name": "李质",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第14代，福建永安，李宠长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:15-珏",
+      "name": "李珏",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第15代，福建永安，李质长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:16-鱼",
+      "name": "李鱼",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第16代，福建永安，李珏长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:17-孟金",
+      "name": "李孟金",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第17代，福建永安，李鱼长子。属世民公第三子恪公裔；五郎以下列于次页，连线自前页接续。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-一郎",
+      "name": "李一郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-二郎",
+      "name": "李二郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金次子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-三郎",
+      "name": "李三郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金三子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-五郎",
+      "name": "李五郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金五子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-六郎",
+      "name": "李六郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金六子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-七郎",
+      "name": "李七郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金七子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-八郎",
+      "name": "李八郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金八子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-九郎",
+      "name": "李九郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金九子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:18-四郎",
+      "name": "李四郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第18代，福建永安，李孟金四子。属世民公第三子恪公裔；讳火德，配伍氏、陈氏；本谱主干另载小廿三公之子火德，世次相同，谱载不一，两处分立；三三郎列于次页，连线自前页接续。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:19-三一郎",
+      "name": "李三一郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第19代，福建永安，李四郎长子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:19-三二郎",
+      "name": "李三二郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第19代，福建永安，李四郎次子。属世民公第三子恪公裔。"
+    },
+    {
+      "externalId": "lipu:mylx_s01:19-三三郎",
+      "name": "李三三郎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第19代，福建永安，李四郎三子。属世民公第三子恪公裔。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:1-世民",
+      "child": "lipu:mylx_s01:2-恪"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:2-恪",
+      "child": "lipu:mylx_s01:3-境"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:3-境",
+      "child": "lipu:mylx_s01:4-祧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:4-祧",
+      "child": "lipu:mylx_s01:5-嵩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:5-嵩",
+      "child": "lipu:mylx_s01:6-思恭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:6-思恭",
+      "child": "lipu:mylx_s01:7-钦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:7-钦",
+      "child": "lipu:mylx_s01:8-晟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:8-晟",
+      "child": "lipu:mylx_s01:9-愿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:9-愿",
+      "child": "lipu:mylx_s01:10-宣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:10-宣",
+      "child": "lipu:mylx_s01:11-历"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:11-历",
+      "child": "lipu:mylx_s01:12-资"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:12-资",
+      "child": "lipu:mylx_s01:13-宠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:13-宠",
+      "child": "lipu:mylx_s01:14-质"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:14-质",
+      "child": "lipu:mylx_s01:15-珏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:15-珏",
+      "child": "lipu:mylx_s01:16-鱼"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:16-鱼",
+      "child": "lipu:mylx_s01:17-孟金"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-一郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-二郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-三郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-五郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-六郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-七郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-八郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-九郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:17-孟金",
+      "child": "lipu:mylx_s01:18-四郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:18-四郎",
+      "child": "lipu:mylx_s01:19-三一郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:18-四郎",
+      "child": "lipu:mylx_s01:19-三二郎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s01:18-四郎",
+      "child": "lipu:mylx_s01:19-三三郎"
+    }
+  ]
+}

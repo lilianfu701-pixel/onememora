@@ -1,0 +1,447 @@
+{
+  "key": "lipu:mylx_s02",
+  "namespace": "zupu-mylx",
+  "people": [
+    {
+      "externalId": "lipu:mylx_s02:1-世民",
+      "name": "李世民",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 600
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第1代，福建永安。属大唐皇派世民公裔；李渊次子，即唐太宗；生于公元600年，626年继父帝位，称太宗皇帝，国号贞观，在位23年；崩于649年，享年51岁，葬昭陵（今陕西礼泉县九嵕山）；妣长孙氏生十四子（谱载）；谱注生十四子，图仅列治、恪二人；子嗣另见本谱分支。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:2-治",
+      "name": "李治",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 628
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第2代，福建永安，李世民长子。属大唐皇派世民公裔；世民公第九子；生于贞观二年（628），650年继太宗位，称高宗皇帝，683年十二月病故东都，在位34年，享年56岁，葬乾陵（今陕西乾县）；皇后王氏。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:3-贤",
+      "name": "李贤",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第3代，福建永安，李治长子。属大唐皇派世民公裔；谱载治公次子，684年继父位称中宗皇帝，在位三个月被武后贬庐陵王，705年复帝位，在位五年；谱以「贤」为中宗，谱载如此。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:4-重茂",
+      "name": "李重茂",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第4代，福建永安，李贤长子。属大唐皇派世民公裔；贤公太子；710年继父帝位称少帝，国号唐隆，在位一年让位堂叔旦公为帝。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:3-旦",
+      "name": "李旦",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第3代，福建永安，李治次子。属大唐皇派世民公裔；治公三子；710年继少帝位称睿宗皇帝，在位三年，殁于716年，享年55岁，葬桥陵（今陕西蒲城县峰山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:4-隆基",
+      "name": "李隆基",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 685
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第4代，福建永安，李旦长子。属大唐皇派世民公裔；旦公太子；生于685年，713年继父位称玄宗皇帝，国号开元，在位44年，殁于762年，寿78岁，葬泰陵（今陕西蒲城县金粟山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:5-亨",
+      "name": "李亨",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第5代，福建永安，李隆基长子。属大唐皇派世民公裔；原名屿，756年七月继父位称肃宗皇帝，尊玄宗为太上皇，在位七年，享年52岁，葬建陵（今陕西礼泉县武将山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:6-豫",
+      "name": "李豫",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第6代，福建永安，李亨长子。属大唐皇派世民公裔；名淑，又名俶；758年立为太子，763年即帝位称代宗皇帝，在位17年，殁于779年，享年54岁，葬元陵（今陕西富平县檀山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:7-适",
+      "name": "李适",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 742
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第7代，福建永安，李豫长子。属大唐皇派世民公裔；生于742年，780年即帝位称德宗皇帝，崩于805年，在位26年，寿64岁，葬崇陵（今陕西泾阳县嵯峨山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:8-诵",
+      "name": "李诵",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 761
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第8代，福建永安，李适长子。属大唐皇派世民公裔；生于761年，779年立为皇太子，805年继父位称顺宗皇帝，国号永贞，在位一年，806年让位与太子纯，自称太上皇，享年46岁，葬丰陵（今陕西富平县金瓮山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:9-纯",
+      "name": "李纯",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 778
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第9代，福建永安，李诵长子。属大唐皇派世民公裔；生于778年，806年继帝位称宪宗皇帝，国号元和，820年被宦官陈弘志杀害，在位15年，时年43岁，葬景陵（今陕西蒲城县金炽山）。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:10-恒",
+      "name": "李恒",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第10代，福建永安，李纯长子。属大唐皇派世民公裔；纯公长子；821年继父立帝位，国号长庆，称穆宗皇帝，在位四年。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:11-湛",
+      "name": "李湛",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李恒长子。属大唐皇派世民公裔；恒公长子；825年继父立帝位称敬宗皇帝，国号宝历，在位二年。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:11-昂",
+      "name": "李昂",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李恒次子。属大唐皇派世民公裔；恒公次子；827年继兄位称文宗皇帝，国号大和，840年退位，在位14年。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:11-炎",
+      "name": "李炎",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李恒三子。属大唐皇派世民公裔；恒公三子；841年继兄位称武宗皇帝，国号会昌，846年退位，在位六年。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:10-忱",
+      "name": "李忱",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 810
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第10代，福建永安，李纯次子。属大唐皇派世民公裔；原名怡，纯公次子；生于810年，847年继武宗位称宣宗皇帝，国号大中，859年病故，在位13年，享年50岁，葬贞陵。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:11-漼",
+      "name": "李漼",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 833
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第11代，福建永安，李忱长子。属大唐皇派世民公裔；原名温，生于833年，860年继父位称懿宗皇帝，国号咸通，873年病故，在位14年，时年41岁，葬简陵。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:12-儇",
+      "name": "李儇",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第12代，福建永安，李漼长子。属大唐皇派世民公裔；漼公长子；874年继父位称僖宗皇帝，国号乾符，888年病故，在位15年。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:12-晔",
+      "name": "李晔",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 867
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第12代，福建永安，李漼次子。属大唐皇派世民公裔；漼公次子；生于867年，889年继兄位称昭宗皇帝，904年在洛阳被朱全忠暗杀，在位15年，时年37岁，葬和陵。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:13-祝",
+      "name": "李祝",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "male",
+      "clanName": "闽越江王李元祥派",
+      "birth": {
+        "year": 892
+      },
+      "ancestralHometown": "福建永安",
+      "birthPlace": {
+        "region": "福建永安"
+      },
+      "deathPlace": {
+        "region": "福建永安"
+      },
+      "bio": "闽越江王李元祥派第13代，福建永安，李晔长子。属大唐皇派世民公裔；原名祚，生于892年，904年立为帝称哀帝，在位三年，被朱全忠派人毒死于曹州，时年仅16岁；至此大唐遂亡。"
+    },
+    {
+      "externalId": "lipu:mylx_s02:1-李世民之妻",
+      "name": "李世民之妻",
+      "citation": "《陇西李氏族谱》（闽越江王李元祥四十二世裔孙李贤信编，2004年）",
+      "gender": "female",
+      "aliases": [
+        "长孙氏"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "spouse",
+      "a": "lipu:mylx_s02:1-世民",
+      "b": "lipu:mylx_s02:1-李世民之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:1-世民",
+      "child": "lipu:mylx_s02:2-治"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:2-治",
+      "child": "lipu:mylx_s02:3-贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:3-贤",
+      "child": "lipu:mylx_s02:4-重茂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:2-治",
+      "child": "lipu:mylx_s02:3-旦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:3-旦",
+      "child": "lipu:mylx_s02:4-隆基"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:4-隆基",
+      "child": "lipu:mylx_s02:5-亨"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:5-亨",
+      "child": "lipu:mylx_s02:6-豫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:6-豫",
+      "child": "lipu:mylx_s02:7-适"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:7-适",
+      "child": "lipu:mylx_s02:8-诵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:8-诵",
+      "child": "lipu:mylx_s02:9-纯"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:9-纯",
+      "child": "lipu:mylx_s02:10-恒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:10-恒",
+      "child": "lipu:mylx_s02:11-湛"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:10-恒",
+      "child": "lipu:mylx_s02:11-昂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:10-恒",
+      "child": "lipu:mylx_s02:11-炎"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:9-纯",
+      "child": "lipu:mylx_s02:10-忱"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:10-忱",
+      "child": "lipu:mylx_s02:11-漼"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:11-漼",
+      "child": "lipu:mylx_s02:12-儇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:11-漼",
+      "child": "lipu:mylx_s02:12-晔"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:mylx_s02:12-晔",
+      "child": "lipu:mylx_s02:13-祝"
+    }
+  ]
+}
