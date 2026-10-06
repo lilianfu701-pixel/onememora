@@ -69,6 +69,17 @@ async function callSeed(
 }
 
 /**
+ * A family counts as imported once every deceased person has a page. An
+ * all-living family seeds no pages, so its page count stays 0 forever; it has
+ * nothing to wait for and must not count as pending.
+ */
+function isFamilyDone(f: FamilyMeta, imported: Record<string, number>): boolean {
+  if (f.deceased === 0) return true;
+  const n = imported[f.key] ?? 0;
+  return n > 0 && n >= f.deceased;
+}
+
+/**
  * Runs 族谱 seeds from the admin panel. Idempotent, so the operator can run it
  * again safely; each row shows what was created versus already there. The batch
  * imports one family per request (staying inside the serverless time limit) and
@@ -99,13 +110,7 @@ export function GenealogySeed(props: {
   const sortedFamilies = useMemo(() => {
     const order = new Map(props.families.map((f, i) => [f.key, i]));
     const recency = props.recency ?? {};
-    const isDone = (f: FamilyMeta): boolean => {
-      // An all-living family seeds no pages, so its page count stays 0 forever;
-      // it has nothing to wait for and must not pin itself to the top.
-      if (f.deceased === 0) return true;
-      const n = props.imported[f.key] ?? 0;
-      return n > 0 && n >= f.deceased;
-    };
+    const isDone = (f: FamilyMeta): boolean => isFamilyDone(f, props.imported);
     return [...props.families].sort((a, b) => {
       const da = isDone(a) ? 1 : 0;
       const db = isDone(b) ? 1 : 0;
@@ -221,6 +226,56 @@ export function GenealogySeed(props: {
   const visibleKeys = visibleFamilies.map((f) => f.key);
   const allVisibleSelected =
     visibleKeys.length > 0 && visibleKeys.every((k) => selected.has(k));
+  // 「选择未导入」：当前可见范围内待导入 / 部分导入的家族（替换现有勾选）。
+  const pendingVisibleKeys = visibleFamilies
+    .filter((f) => !isFamilyDone(f, props.imported))
+    .map((f) => f.key);
+
+  function toggleAllVisible(): void {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (allVisibleSelected) visibleKeys.forEach((k) => next.delete(k));
+      else visibleKeys.forEach((k) => next.add(k));
+      return next;
+    });
+  }
+
+  const actionBar = (
+    <div className="adminHeadRow" style={{ flexWrap: "wrap", gap: "0.5rem" }}>
+      <button
+        type="button"
+        className="button"
+        disabled={busy || pendingVisibleKeys.length === 0}
+        onClick={() => setSelected(new Set(pendingVisibleKeys))}
+      >
+        选择未导入（{pendingVisibleKeys.length} 支）
+      </button>
+      <button
+        type="button"
+        className="button buttonQuiet"
+        disabled={busy}
+        onClick={toggleAllVisible}
+      >
+        {allVisibleSelected ? "全不选" : filter ? "全选匹配项" : "全选"}
+      </button>
+      <button
+        type="button"
+        className="button buttonPrimary"
+        disabled={busy || selected.size === 0}
+        onClick={() => runBatch("seed")}
+      >
+        {busy ? "处理中…" : `批量导入所选（${selected.size} 支）`}
+      </button>
+      <button
+        type="button"
+        className="button buttonQuiet"
+        disabled={busy || selected.size === 0}
+        onClick={() => runBatch("rollback")}
+      >
+        回滚所选
+      </button>
+    </div>
+  );
 
   return (
     <div className="stack-lg">
@@ -247,18 +302,13 @@ export function GenealogySeed(props: {
         <label className="avatarTreeToggle">
           <input
             type="checkbox"
-            checked={allVisibleSelected}
-            onChange={() =>
-              setSelected((prev) => {
-                const next = new Set(prev);
-                if (allVisibleSelected) visibleKeys.forEach((k) => next.delete(k));
-                else visibleKeys.forEach((k) => next.add(k));
-                return next;
-              })
-            }
+            checked={skipLiving}
+            onChange={(e) => setSkipLiving(e.target.checked)}
           />
-          <span>{allVisibleSelected ? "全不选" : filter ? "全选匹配项" : "全选"}</span>
+          <span>只灌已故世代（勾选后跳过在世者，不建其页面）</span>
         </label>
+
+        {actionBar}
 
         <ul className="stack">
           {visibleFamilies.map((f) => {
@@ -290,33 +340,7 @@ export function GenealogySeed(props: {
           })}
         </ul>
 
-        <label className="avatarTreeToggle">
-          <input
-            type="checkbox"
-            checked={skipLiving}
-            onChange={(e) => setSkipLiving(e.target.checked)}
-          />
-          <span>只灌已故世代（勾选后跳过在世者，不建其页面）</span>
-        </label>
-
-        <div className="adminHeadRow">
-          <button
-            type="button"
-            className="button buttonPrimary"
-            disabled={busy || selected.size === 0}
-            onClick={() => runBatch("seed")}
-          >
-            {busy ? "处理中…" : `批量导入所选（${selected.size} 支）`}
-          </button>
-          <button
-            type="button"
-            className="button buttonQuiet"
-            disabled={busy || selected.size === 0}
-            onClick={() => runBatch("rollback")}
-          >
-            回滚所选
-          </button>
-        </div>
+        {actionBar}
       </section>
 
       <section className="stack">
