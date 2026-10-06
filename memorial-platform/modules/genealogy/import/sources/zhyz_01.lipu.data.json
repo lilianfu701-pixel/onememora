@@ -1,0 +1,946 @@
+{
+  "key": "lipu:zhyz_01",
+  "namespace": "zupu-zhyz",
+  "people": [
+    {
+      "externalId": "lipu:zhyz_03:2-顺旺",
+      "name": "张顺旺",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "clanName": "原阳斗门大张庄张氏",
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "deathPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第2代，河南原阳·斗门乡大张庄村。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:3-玉岚",
+      "name": "张玉岚",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1888
+      },
+      "death": {
+        "year": 1945
+      },
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "deathPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第3代，河南原阳·斗门乡大张庄村，张顺旺次子。卒于1945年七月初五，享年五十八岁；生二子一女：长子其林，次子其祥，女秀云；配王氏（史张庄人，生于1909年8月28日，卒于1994年正月初七，享年八十五岁）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:4-秀云",
+      "name": "张秀云",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1942
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第4代，河南原阳·斗门乡大张庄村，张玉岚女。适于秋采居惠明秀。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:4-其祥",
+      "name": "张其祥",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1936,
+        "month": 7,
+        "day": 2
+      },
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "deathPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第4代，河南原阳·斗门乡大张庄村，张玉岚次子。1952年从教，1996年退休；生四子二女：长子世贤，次子世功，三子世松，四子新立，长女世青，次女松玲；配田氏（韦滩春青之长女，生于1936年10月初九）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世松",
+      "name": "张世松",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1969,
+        "month": 10,
+        "day": 21
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其祥三子。配偶为巩义市北寺人氏，谱中姓名字迹不清。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世青",
+      "name": "张世青",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1962,
+        "month": 4,
+        "day": 18
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其祥长女。省教院地理专科；适于瓦坡郭金锁。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-松令",
+      "name": "张松令",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1975,
+        "month": 4,
+        "day": 18
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其祥次女。金融学院财会毕业；适于郑庵镇张□彦。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-新立",
+      "name": "张新立",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1972,
+        "month": 1,
+        "day": 15
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其祥四子。；生一子树尧；配韦利敏（韦滩明恩之长女，自考专科毕业）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树尧",
+      "name": "张树尧",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1998,
+        "month": 3,
+        "day": 9
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张新立子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世贤",
+      "name": "张世贤",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1955,
+        "month": 10,
+        "day": 20
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其祥长子。生二子一女：长子树志，次子树磊，女树英；配焦云枝（北堤丙仁之长女）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树志",
+      "name": "张树志",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1981,
+        "month": 7,
+        "day": 16
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世贤长子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树磊",
+      "name": "张树磊",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1983,
+        "month": 1,
+        "day": 3
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世贤次子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树英",
+      "name": "张树英",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1988
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世贤女。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世功",
+      "name": "张世功",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1957,
+        "month": 7,
+        "day": 20
+      },
+      "death": {
+        "year": 2002
+      },
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "deathPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其祥次子。手书「卒于2002年农历六月」；生三子一女：长子树奇，次子树刚，三子树宽，女树静；配曹凤瑞（秋采居曹振之长女）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树奇",
+      "name": "张树奇",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1981
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世功长子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树刚",
+      "name": "张树刚",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1985
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世功次子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树宽",
+      "name": "张树宽",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1987
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世功三子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树静",
+      "name": "张树静",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1990
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世功女。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:4-其林",
+      "name": "张其林",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1933,
+        "month": 7,
+        "day": 15
+      },
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "deathPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第4代，河南原阳·斗门乡大张庄村，张玉岚长子。生三子三女：长子世杰，次子世栋，三子世忠，长女菊香，次女世丽，三女世红；配吴氏（韦城张国之长女，生于1935年4月23日）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-菊香",
+      "name": "张菊香",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1963,
+        "month": 8,
+        "day": 24
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其林长女。适于青谷堆高志。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世丽",
+      "name": "张世丽",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1969
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其林次女。适于韩井门范金叁。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世红",
+      "name": "张世红",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1973,
+        "month": 12,
+        "day": 27
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其林三女。腊月二十七；适于南仁李勇。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世忠",
+      "name": "张世忠",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1960,
+        "month": 3,
+        "day": 23
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其林三子。韦滩春秀之长女，生于1960年2月22；吕福云。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树培",
+      "name": "张树培",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1986,
+        "month": 5,
+        "day": 16
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世忠子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树娟",
+      "name": "张树娟",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1984,
+        "month": 9,
+        "day": 22
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世忠长女。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树果",
+      "name": "张树果",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1987,
+        "month": 8,
+        "day": 17
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世忠次女。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世栋",
+      "name": "张世栋",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1954,
+        "month": 11,
+        "day": 25
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其林次子。生二子一女：长子树涛，次子树鑫，女树瑞；配张爱荣（瓦坡克信之女）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树涛",
+      "name": "张树涛",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1981,
+        "month": 10,
+        "day": 2
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世栋长子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树鑫",
+      "name": "张树鑫",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1990,
+        "month": 2,
+        "day": 8
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世栋次子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树瑞",
+      "name": "张树瑞",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1984,
+        "month": 10,
+        "day": 16
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世栋女。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-世杰",
+      "name": "张世杰",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1951,
+        "month": 7,
+        "day": 21
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第5代，河南原阳·斗门乡大张庄村，张其林长子。信阳师院中文专科；生二子二女：长子树强，次子树斌，长女凤仙，次女树慧；配葛振梅（青谷堆定有之次女）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树斌",
+      "name": "张树斌",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1990,
+        "month": 5,
+        "day": 22
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世杰次子。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-凤仙",
+      "name": "张凤仙",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1975,
+        "month": 11,
+        "day": 12
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世杰长女。适于东张孔二增。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树慧",
+      "name": "张树慧",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1986,
+        "month": 5,
+        "day": 18
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世杰次女。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-树强",
+      "name": "张树强",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "male",
+      "clanName": "原阳斗门大张庄张氏",
+      "birth": {
+        "year": 1977,
+        "month": 12,
+        "day": 26
+      },
+      "living": true,
+      "ancestralHometown": "河南原阳·斗门乡大张庄村",
+      "birthPlace": {
+        "region": "河南原阳·斗门乡大张庄村"
+      },
+      "bio": "原阳斗门大张庄张氏第6代，河南原阳·斗门乡大张庄村，张世杰长子。谱载，配张美霞（开封市郭马庄人）。"
+    },
+    {
+      "externalId": "lipu:zhyz_01:3-张玉岚之妻",
+      "name": "张玉岚之妻",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "aliases": [
+        "王氏"
+      ],
+      "birth": {
+        "year": 1909
+      },
+      "death": {
+        "year": 1994
+      }
+    },
+    {
+      "externalId": "lipu:zhyz_01:4-张其祥之妻",
+      "name": "张其祥之妻",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "aliases": [
+        "田氏"
+      ],
+      "birth": {
+        "year": 1936
+      }
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-韦利敏",
+      "name": "韦利敏",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "birth": {
+        "year": 1976
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-焦云枝",
+      "name": "焦云枝",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "birth": {
+        "year": 1956
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-曹凤瑞",
+      "name": "曹凤瑞",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "birth": {
+        "year": 1957
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:zhyz_01:4-张其林之妻",
+      "name": "张其林之妻",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "aliases": [
+        "吴氏"
+      ],
+      "birth": {
+        "year": 1935
+      }
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-张爱荣",
+      "name": "张爱荣",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "birth": {
+        "year": 1957
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:zhyz_01:5-葛振梅",
+      "name": "葛振梅",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "birth": {
+        "year": 1951
+      },
+      "living": true
+    },
+    {
+      "externalId": "lipu:zhyz_01:6-张美霞",
+      "name": "张美霞",
+      "citation": "《张氏族谱》（张永志主编，2001年）",
+      "gender": "female",
+      "birth": {
+        "year": 1976
+      },
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_03:2-顺旺",
+      "child": "lipu:zhyz_01:3-玉岚"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:3-张玉岚之妻",
+      "b": "lipu:zhyz_01:3-玉岚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:3-玉岚",
+      "child": "lipu:zhyz_01:4-秀云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:3-玉岚",
+      "child": "lipu:zhyz_01:4-其祥"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:4-其祥",
+      "b": "lipu:zhyz_01:4-张其祥之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其祥",
+      "child": "lipu:zhyz_01:5-世松"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其祥",
+      "child": "lipu:zhyz_01:5-世青"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其祥",
+      "child": "lipu:zhyz_01:5-松令"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其祥",
+      "child": "lipu:zhyz_01:5-新立"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:5-新立",
+      "b": "lipu:zhyz_01:5-韦利敏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-新立",
+      "child": "lipu:zhyz_01:6-树尧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其祥",
+      "child": "lipu:zhyz_01:5-世贤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:5-世贤",
+      "b": "lipu:zhyz_01:5-焦云枝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世贤",
+      "child": "lipu:zhyz_01:6-树志"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世贤",
+      "child": "lipu:zhyz_01:6-树磊"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世贤",
+      "child": "lipu:zhyz_01:6-树英"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其祥",
+      "child": "lipu:zhyz_01:5-世功"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:5-世功",
+      "b": "lipu:zhyz_01:5-曹凤瑞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世功",
+      "child": "lipu:zhyz_01:6-树奇"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世功",
+      "child": "lipu:zhyz_01:6-树刚"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世功",
+      "child": "lipu:zhyz_01:6-树宽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世功",
+      "child": "lipu:zhyz_01:6-树静"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:3-玉岚",
+      "child": "lipu:zhyz_01:4-其林"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:4-其林",
+      "b": "lipu:zhyz_01:4-张其林之妻"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其林",
+      "child": "lipu:zhyz_01:5-菊香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其林",
+      "child": "lipu:zhyz_01:5-世丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其林",
+      "child": "lipu:zhyz_01:5-世红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其林",
+      "child": "lipu:zhyz_01:5-世忠"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世忠",
+      "child": "lipu:zhyz_01:6-树培"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世忠",
+      "child": "lipu:zhyz_01:6-树娟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世忠",
+      "child": "lipu:zhyz_01:6-树果"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其林",
+      "child": "lipu:zhyz_01:5-世栋"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:5-世栋",
+      "b": "lipu:zhyz_01:5-张爱荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世栋",
+      "child": "lipu:zhyz_01:6-树涛"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世栋",
+      "child": "lipu:zhyz_01:6-树鑫"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世栋",
+      "child": "lipu:zhyz_01:6-树瑞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:4-其林",
+      "child": "lipu:zhyz_01:5-世杰"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:5-世杰",
+      "b": "lipu:zhyz_01:5-葛振梅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世杰",
+      "child": "lipu:zhyz_01:6-树斌"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世杰",
+      "child": "lipu:zhyz_01:6-凤仙"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世杰",
+      "child": "lipu:zhyz_01:6-树慧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:zhyz_01:5-世杰",
+      "child": "lipu:zhyz_01:6-树强"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:zhyz_01:6-张美霞",
+      "b": "lipu:zhyz_01:6-树强"
+    }
+  ]
+}

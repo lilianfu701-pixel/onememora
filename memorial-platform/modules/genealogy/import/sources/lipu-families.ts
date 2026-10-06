@@ -967,6 +967,10 @@ import lipu_mylx_s07 from "./mylx_s07.lipu.data.json";
 import lipu_mylx_s08 from "./mylx_s08.lipu.data.json";
 import lipu_mylx_t01 from "./mylx_t01.lipu.data.json";
 import lipu_mylx_t02 from "./mylx_t02.lipu.data.json";
+import lipu_zhyz_01 from "./zhyz_01.lipu.data.json";
+import lipu_zhyz_02 from "./zhyz_02.lipu.data.json";
+import lipu_zhyz_03 from "./zhyz_03.lipu.data.json";
+import lipu_zhyz_04 from "./zhyz_04.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -1929,6 +1933,10 @@ const LABELS: Record<string, string> = {
   mylx_s08: "闽越李氏·邵武滕王元婴公五子万五公裔·李元婴（第1-14世）",
   mylx_t01: "闽越李氏·安溪县翰苑李氏始祖伯霄公裔（元祥公后裔）·李伯器之后（第7-18世）",
   mylx_t02: "闽越李氏·安溪县翰苑李氏始祖伯霄公裔（元祥公后裔）·李伯霄（第1-7世）",
+  zhyz_01: "原阳斗门大张庄张氏·张顺旺之后·张玉岚支（第3-6世）",
+  zhyz_02: "原阳斗门大张庄张氏·张顺旺之后·张玉德支（第3-6世）",
+  zhyz_03: "原阳斗门大张庄张氏·张繁兴之后·张顺旺支（第2-6世）",
+  zhyz_04: "原阳斗门大张庄张氏·张繁兴（第1-7世）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -2891,6 +2899,10 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["mylx_s08", lipu_mylx_s08 as GenealogyDataset],
   ["mylx_t01", lipu_mylx_t01 as GenealogyDataset],
   ["mylx_t02", lipu_mylx_t02 as GenealogyDataset],
+  ["zhyz_01", lipu_zhyz_01 as GenealogyDataset],
+  ["zhyz_02", lipu_zhyz_02 as GenealogyDataset],
+  ["zhyz_03", lipu_zhyz_03 as GenealogyDataset],
+  ["zhyz_04", lipu_zhyz_04 as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {
