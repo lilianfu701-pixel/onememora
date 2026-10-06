@@ -1,0 +1,761 @@
+{
+  "key": "lipu:sunx_b36",
+  "namespace": "zupu-sunx",
+  "people": [
+    {
+      "externalId": "lipu:sunx_b36:15-凤先",
+      "name": "孙凤先",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第15代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村；河西东孙庄；谱未载其父。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:16-景然",
+      "name": "孙景然",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第16代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-恩荣",
+      "name": "孙恩荣",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-长恩",
+      "name": "孙长恩",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-国锋",
+      "name": "孙国锋",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-重重",
+      "name": "孙重重",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-紫怡",
+      "name": "孙紫怡",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-红波",
+      "name": "孙红波",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-文强",
+      "name": "孙文强",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-果果",
+      "name": "孙果果",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:16-景则",
+      "name": "孙景则",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第16代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-恩光",
+      "name": "孙恩光",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-大荣",
+      "name": "孙大荣",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-桂荣",
+      "name": "孙桂荣",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "deathPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-长德",
+      "name": "孙长德",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-大平",
+      "name": "孙大平",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-雪华",
+      "name": "孙雪华",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-小燕",
+      "name": "孙小燕",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-国建",
+      "name": "孙国建",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-文文",
+      "name": "孙文文",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-新慧",
+      "name": "孙新慧",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-国旗",
+      "name": "孙国旗",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-文杰",
+      "name": "孙文杰",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-贝贝",
+      "name": "孙贝贝",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-长银",
+      "name": "孙长银",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村；河西东孙庄；谱未载其父；印刷页76重出长银一支（配作「李艳梅」，宜龙妻作「闫俊英」、宜勇妻作「牛花」、付胜妻作「付华丽」），子孙名同，不重录。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-宜勇",
+      "name": "孙宜勇",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-亚东",
+      "name": "孙亚东",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-洁",
+      "name": "孙洁",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-付胜",
+      "name": "孙付胜",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-孟杰",
+      "name": "孙孟杰",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-浩杰",
+      "name": "孙浩杰",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-宜龙",
+      "name": "孙宜龙",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-亚辉",
+      "name": "孙亚辉",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-光辉",
+      "name": "孙光辉",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:20-思婷",
+      "name": "孙思婷",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄。属西华县大王庄乡河西东孙庄行政村。"
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-段秀香",
+      "name": "段秀香",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-毕美红",
+      "name": "毕美红",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-刘春花",
+      "name": "刘春花",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-张桂英",
+      "name": "张桂英",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-王放",
+      "name": "王放",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:17-李彦梅",
+      "name": "李彦梅",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-牛发",
+      "name": "牛发",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-孙华丽",
+      "name": "孙华丽",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:18-闫俊美",
+      "name": "闫俊美",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b36:19-牛亚玲",
+      "name": "牛亚玲",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:15-凤先",
+      "child": "lipu:sunx_b36:16-景然"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:16-景然",
+      "child": "lipu:sunx_b36:17-恩荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:16-景然",
+      "child": "lipu:sunx_b36:17-长恩"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:17-段秀香",
+      "b": "lipu:sunx_b36:17-长恩"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长恩",
+      "child": "lipu:sunx_b36:18-国锋"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:18-国锋",
+      "b": "lipu:sunx_b36:18-毕美红"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-国锋",
+      "child": "lipu:sunx_b36:19-重重"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-国锋",
+      "child": "lipu:sunx_b36:19-紫怡"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长恩",
+      "child": "lipu:sunx_b36:18-红波"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:18-刘春花",
+      "b": "lipu:sunx_b36:18-红波"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-红波",
+      "child": "lipu:sunx_b36:19-文强"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-红波",
+      "child": "lipu:sunx_b36:19-果果"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:15-凤先",
+      "child": "lipu:sunx_b36:16-景则"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:16-景则",
+      "child": "lipu:sunx_b36:17-恩光"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:16-景则",
+      "child": "lipu:sunx_b36:17-大荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:16-景则",
+      "child": "lipu:sunx_b36:17-桂荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:16-景则",
+      "child": "lipu:sunx_b36:17-长德"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:17-张桂英",
+      "b": "lipu:sunx_b36:17-长德"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长德",
+      "child": "lipu:sunx_b36:18-大平"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长德",
+      "child": "lipu:sunx_b36:18-雪华"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长德",
+      "child": "lipu:sunx_b36:18-小燕"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长德",
+      "child": "lipu:sunx_b36:18-国建"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-国建",
+      "child": "lipu:sunx_b36:19-文文"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-国建",
+      "child": "lipu:sunx_b36:19-新慧"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长德",
+      "child": "lipu:sunx_b36:18-国旗"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:18-国旗",
+      "b": "lipu:sunx_b36:18-王放"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-国旗",
+      "child": "lipu:sunx_b36:19-文杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-国旗",
+      "child": "lipu:sunx_b36:19-贝贝"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:17-李彦梅",
+      "b": "lipu:sunx_b36:17-长银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长银",
+      "child": "lipu:sunx_b36:18-宜勇"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:18-宜勇",
+      "b": "lipu:sunx_b36:18-牛发"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-宜勇",
+      "child": "lipu:sunx_b36:19-亚东"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-宜勇",
+      "child": "lipu:sunx_b36:19-洁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长银",
+      "child": "lipu:sunx_b36:18-付胜"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:18-付胜",
+      "b": "lipu:sunx_b36:18-孙华丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-付胜",
+      "child": "lipu:sunx_b36:19-孟杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-付胜",
+      "child": "lipu:sunx_b36:19-浩杰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:17-长银",
+      "child": "lipu:sunx_b36:18-宜龙"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:18-宜龙",
+      "b": "lipu:sunx_b36:18-闫俊美"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-宜龙",
+      "child": "lipu:sunx_b36:19-亚辉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:18-宜龙",
+      "child": "lipu:sunx_b36:19-光辉"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b36:19-光辉",
+      "b": "lipu:sunx_b36:19-牛亚玲"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b36:19-光辉",
+      "child": "lipu:sunx_b36:20-思婷"
+    }
+  ]
+}

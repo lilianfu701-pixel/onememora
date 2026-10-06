@@ -1,0 +1,888 @@
+{
+  "key": "lipu:sunx_a01",
+  "namespace": "zupu-sunx",
+  "people": [
+    {
+      "externalId": "lipu:sunx_a01:1-普政",
+      "name": "孙普政",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第1代，河南淮阳·曹河乡马明寺。属马明寺世系总表；长门始祖。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:2-孙安",
+      "name": "孙安",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第2代，河南淮阳·曹河乡马明寺，孙普政长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:3-孙真",
+      "name": "孙真",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第3代，河南淮阳·曹河乡马明寺，孙孙安长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:4-孟堂",
+      "name": "孙孟堂",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第4代，河南淮阳·曹河乡马明寺，孙孙真长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:5-应试",
+      "name": "孙应试",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第5代，河南淮阳·曹河乡马明寺，孙孟堂长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:6-贻谋",
+      "name": "孙贻谋",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第6代，河南淮阳·曹河乡马明寺，孙应试长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:7-世兰",
+      "name": "孙世兰",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第7代，河南淮阳·曹河乡马明寺，孙贻谋长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:8-治茂",
+      "name": "孙治茂",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第8代，河南淮阳·曹河乡马明寺，孙世兰次子。属马明寺世系总表；移居前马明寺。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大寿",
+      "name": "孙大寿",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙治茂长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-宗儒",
+      "name": "孙宗儒",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙大寿长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:11-俊荣",
+      "name": "孙俊荣",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第11代，河南淮阳·曹河乡马明寺，孙宗儒长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:12-怀先",
+      "name": "孙怀先",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第12代，河南淮阳·曹河乡马明寺，孙俊荣长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:8-时太",
+      "name": "孙时太",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第8代，河南淮阳·曹河乡马明寺，孙世兰长子。属马明寺世系总表；移居前马明寺。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大谦",
+      "name": "孙大谦",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙时太次子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大邦",
+      "name": "孙大邦",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙时太三子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-宗庸",
+      "name": "孙宗庸",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙大邦长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大年",
+      "name": "孙大年",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙时太长子。属马明寺世系总表；谱以斜线连于时太。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-宗夏",
+      "name": "孙宗夏",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙大年长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:11-朝贤",
+      "name": "孙朝贤",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第11代，河南淮阳·曹河乡马明寺，孙宗夏长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:12-奉先",
+      "name": "孙奉先",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第12代，河南淮阳·曹河乡马明寺，孙朝贤长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:7-有兰",
+      "name": "孙有兰",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第7代，河南淮阳·曹河乡马明寺，孙贻谋次子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:8-苞茂",
+      "name": "孙苞茂",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第8代，河南淮阳·曹河乡马明寺，孙有兰长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大本",
+      "name": "孙大本",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙苞茂长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-宗隐",
+      "name": "孙宗隐",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙大本长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:11-俊魁",
+      "name": "孙俊魁",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第11代，河南淮阳·曹河乡马明寺，孙宗隐长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:12-广先",
+      "name": "孙广先",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第12代，河南淮阳·曹河乡马明寺，孙俊魁长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:8-时玉",
+      "name": "孙时玉",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第8代，河南淮阳·曹河乡马明寺，孙有兰次子。属马明寺世系总表；移居后马明寺（谱以斜线连于有兰）。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大庆",
+      "name": "孙大庆",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙时玉长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-荣堂",
+      "name": "孙荣堂",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙大庆长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:11-广智",
+      "name": "孙广智",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第11代，河南淮阳·曹河乡马明寺，孙荣堂长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:12-荣先",
+      "name": "孙荣先",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第12代，河南淮阳·曹河乡马明寺，孙广智长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-大易",
+      "name": "孙大易",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙时玉次子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-荣舒",
+      "name": "孙荣舒",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙大易长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:11-广公",
+      "name": "孙广公",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第11代，河南淮阳·曹河乡马明寺，孙荣舒长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:12-章先",
+      "name": "孙章先",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第12代，河南淮阳·曹河乡马明寺，孙广公长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:6-魁禹",
+      "name": "孙魁禹",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第6代，河南淮阳·曹河乡马明寺。属马明寺世系总表；次门；三至五世谱作「失传」，未载其父。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:7-逸安",
+      "name": "孙逸安",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第7代，河南淮阳·曹河乡马明寺，孙魁禹长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:8-应科",
+      "name": "孙应科",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第8代，河南淮阳·曹河乡马明寺，孙逸安长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:9-善学",
+      "name": "孙善学",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第9代，河南淮阳·曹河乡马明寺，孙应科长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:10-廷重",
+      "name": "孙廷重",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第10代，河南淮阳·曹河乡马明寺，孙善学长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:11-志常",
+      "name": "孙志常",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第11代，河南淮阳·曹河乡马明寺，孙廷重长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:12-福吉",
+      "name": "孙福吉",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第12代，河南淮阳·曹河乡马明寺，孙志常长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:1-普备",
+      "name": "孙普备",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第1代，河南淮阳·曹河乡马明寺。属马明寺世系总表；次门始祖。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:2-长仁",
+      "name": "孙长仁",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第2代，河南淮阳·曹河乡马明寺，孙普备长子。属马明寺世系总表。"
+    },
+    {
+      "externalId": "lipu:sunx_a01:1-普善",
+      "name": "孙普善",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南淮阳·曹河乡马明寺",
+      "birthPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "deathPlace": {
+        "region": "河南淮阳·曹河乡马明寺"
+      },
+      "bio": "淮阳马明寺孙氏第1代，河南淮阳·曹河乡马明寺。属马明寺世系总表；三门始祖；谱未载其后。"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:1-普政",
+      "child": "lipu:sunx_a01:2-孙安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:2-孙安",
+      "child": "lipu:sunx_a01:3-孙真"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:3-孙真",
+      "child": "lipu:sunx_a01:4-孟堂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:4-孟堂",
+      "child": "lipu:sunx_a01:5-应试"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:5-应试",
+      "child": "lipu:sunx_a01:6-贻谋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:6-贻谋",
+      "child": "lipu:sunx_a01:7-世兰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:7-世兰",
+      "child": "lipu:sunx_a01:8-治茂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-治茂",
+      "child": "lipu:sunx_a01:9-大寿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-大寿",
+      "child": "lipu:sunx_a01:10-宗儒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:10-宗儒",
+      "child": "lipu:sunx_a01:11-俊荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:11-俊荣",
+      "child": "lipu:sunx_a01:12-怀先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:7-世兰",
+      "child": "lipu:sunx_a01:8-时太"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-时太",
+      "child": "lipu:sunx_a01:9-大谦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-时太",
+      "child": "lipu:sunx_a01:9-大邦"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-大邦",
+      "child": "lipu:sunx_a01:10-宗庸"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-时太",
+      "child": "lipu:sunx_a01:9-大年"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-大年",
+      "child": "lipu:sunx_a01:10-宗夏"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:10-宗夏",
+      "child": "lipu:sunx_a01:11-朝贤"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:11-朝贤",
+      "child": "lipu:sunx_a01:12-奉先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:6-贻谋",
+      "child": "lipu:sunx_a01:7-有兰"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:7-有兰",
+      "child": "lipu:sunx_a01:8-苞茂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-苞茂",
+      "child": "lipu:sunx_a01:9-大本"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-大本",
+      "child": "lipu:sunx_a01:10-宗隐"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:10-宗隐",
+      "child": "lipu:sunx_a01:11-俊魁"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:11-俊魁",
+      "child": "lipu:sunx_a01:12-广先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:7-有兰",
+      "child": "lipu:sunx_a01:8-时玉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-时玉",
+      "child": "lipu:sunx_a01:9-大庆"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-大庆",
+      "child": "lipu:sunx_a01:10-荣堂"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:10-荣堂",
+      "child": "lipu:sunx_a01:11-广智"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:11-广智",
+      "child": "lipu:sunx_a01:12-荣先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-时玉",
+      "child": "lipu:sunx_a01:9-大易"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-大易",
+      "child": "lipu:sunx_a01:10-荣舒"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:10-荣舒",
+      "child": "lipu:sunx_a01:11-广公"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:11-广公",
+      "child": "lipu:sunx_a01:12-章先"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:6-魁禹",
+      "child": "lipu:sunx_a01:7-逸安"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:7-逸安",
+      "child": "lipu:sunx_a01:8-应科"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:8-应科",
+      "child": "lipu:sunx_a01:9-善学"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:9-善学",
+      "child": "lipu:sunx_a01:10-廷重"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:10-廷重",
+      "child": "lipu:sunx_a01:11-志常"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:11-志常",
+      "child": "lipu:sunx_a01:12-福吉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_a01:1-普备",
+      "child": "lipu:sunx_a01:2-长仁"
+    }
+  ]
+}

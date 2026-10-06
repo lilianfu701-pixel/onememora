@@ -1,0 +1,497 @@
+{
+  "key": "lipu:sunx_b01",
+  "namespace": "zupu-sunx",
+  "people": [
+    {
+      "externalId": "lipu:sunx_b03:16-景泰",
+      "name": "孙景泰",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "bio": "淮阳马明寺孙氏第16代，河南西华·迟营乡孙庄。",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:17-怀治",
+      "name": "孙怀治",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第17代，河南西华·迟营乡孙庄，孙景泰次子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）；海洋为霍桂芝所出。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-美荣",
+      "name": "孙美荣",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄，孙怀治长女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-美旭",
+      "name": "孙美旭",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄，孙怀治次女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-四香",
+      "name": "孙四香",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄，孙怀治三女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-海洋",
+      "name": "孙海洋",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄，孙怀治次子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）；移居龙坡。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-敬伟",
+      "name": "孙敬伟",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙海洋长子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-伟帅",
+      "name": "孙伟帅",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙海洋次子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-伟丽",
+      "name": "孙伟丽",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙海洋长女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-金亮",
+      "name": "孙金亮",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第18代，河南西华·迟营乡孙庄，孙怀治长子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-宏灿",
+      "name": "孙宏灿",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙金亮长女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-宏磊",
+      "name": "孙宏磊",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙金亮三子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-兴可",
+      "name": "孙兴可",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏磊长子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）；妻名谱留空。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-梦涵",
+      "name": "孙梦涵",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏磊长女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-宏坤",
+      "name": "孙宏坤",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙金亮长子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-萍萍",
+      "name": "孙萍萍",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏坤长女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-兴隆",
+      "name": "孙兴隆",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏坤长子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-宏伟",
+      "name": "孙宏伟",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第19代，河南西华·迟营乡孙庄，孙金亮次子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-兴旺",
+      "name": "孙兴旺",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "male",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏伟长子。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）；妻名谱留空。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-婉婉",
+      "name": "孙婉婉",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏伟长女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-姣姣",
+      "name": "孙姣姣",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏伟次女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-宁",
+      "name": "孙宁",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "clanName": "淮阳马明寺孙氏",
+      "ancestralHometown": "河南西华·迟营乡孙庄",
+      "birthPlace": {
+        "region": "河南西华·迟营乡孙庄"
+      },
+      "living": true,
+      "bio": "淮阳马明寺孙氏第20代，河南西华·迟营乡孙庄，孙宏伟三女。属烟台朱村（清光绪年间十四世孙攀自后孙庄移居）。"
+    },
+    {
+      "externalId": "lipu:sunx_b01:17-孙怀治之妻",
+      "name": "孙怀治之妻",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "aliases": [
+        "霍氏"
+      ],
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:17-霍桂芝",
+      "name": "霍桂芝",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-杨银花",
+      "name": "杨银花",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:18-毕云凤",
+      "name": "毕云凤",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-王香银",
+      "name": "王香银",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-方霞云",
+      "name": "方霞云",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:20-朱秀芳",
+      "name": "朱秀芳",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    },
+    {
+      "externalId": "lipu:sunx_b01:19-薛红霞",
+      "name": "薛红霞",
+      "citation": "《孙氏家谱》（孙氏家谱续修理事会编，2009年）",
+      "gender": "female",
+      "living": true
+    }
+  ],
+  "relations": [
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b03:16-景泰",
+      "child": "lipu:sunx_b01:17-怀治"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:17-孙怀治之妻",
+      "b": "lipu:sunx_b01:17-怀治"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:17-怀治",
+      "b": "lipu:sunx_b01:17-霍桂芝"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:17-怀治",
+      "child": "lipu:sunx_b01:18-美荣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:17-怀治",
+      "child": "lipu:sunx_b01:18-美旭"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:17-怀治",
+      "child": "lipu:sunx_b01:18-四香"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:17-怀治",
+      "child": "lipu:sunx_b01:18-海洋"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:18-杨银花",
+      "b": "lipu:sunx_b01:18-海洋"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-海洋",
+      "child": "lipu:sunx_b01:19-敬伟"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-海洋",
+      "child": "lipu:sunx_b01:19-伟帅"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-海洋",
+      "child": "lipu:sunx_b01:19-伟丽"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:17-怀治",
+      "child": "lipu:sunx_b01:18-金亮"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:18-毕云凤",
+      "b": "lipu:sunx_b01:18-金亮"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-金亮",
+      "child": "lipu:sunx_b01:19-宏灿"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-金亮",
+      "child": "lipu:sunx_b01:19-宏磊"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:19-宏磊",
+      "b": "lipu:sunx_b01:19-王香银"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏磊",
+      "child": "lipu:sunx_b01:20-兴可"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏磊",
+      "child": "lipu:sunx_b01:20-梦涵"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-金亮",
+      "child": "lipu:sunx_b01:19-宏坤"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:19-宏坤",
+      "b": "lipu:sunx_b01:19-方霞云"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏坤",
+      "child": "lipu:sunx_b01:20-萍萍"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏坤",
+      "child": "lipu:sunx_b01:20-兴隆"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:20-兴隆",
+      "b": "lipu:sunx_b01:20-朱秀芳"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:18-金亮",
+      "child": "lipu:sunx_b01:19-宏伟"
+    },
+    {
+      "kind": "spouse",
+      "a": "lipu:sunx_b01:19-宏伟",
+      "b": "lipu:sunx_b01:19-薛红霞"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏伟",
+      "child": "lipu:sunx_b01:20-兴旺"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏伟",
+      "child": "lipu:sunx_b01:20-婉婉"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏伟",
+      "child": "lipu:sunx_b01:20-姣姣"
+    },
+    {
+      "kind": "parent",
+      "parent": "lipu:sunx_b01:19-宏伟",
+      "child": "lipu:sunx_b01:20-宁"
+    }
+  ]
+}

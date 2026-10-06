@@ -971,6 +971,71 @@ import lipu_zhyz_01 from "./zhyz_01.lipu.data.json";
 import lipu_zhyz_02 from "./zhyz_02.lipu.data.json";
 import lipu_zhyz_03 from "./zhyz_03.lipu.data.json";
 import lipu_zhyz_04 from "./zhyz_04.lipu.data.json";
+import lipu_sunx_a01 from "./sunx_a01.lipu.data.json";
+import lipu_sunx_a02 from "./sunx_a02.lipu.data.json";
+import lipu_sunx_b01 from "./sunx_b01.lipu.data.json";
+import lipu_sunx_b02 from "./sunx_b02.lipu.data.json";
+import lipu_sunx_b03 from "./sunx_b03.lipu.data.json";
+import lipu_sunx_b04 from "./sunx_b04.lipu.data.json";
+import lipu_sunx_b05 from "./sunx_b05.lipu.data.json";
+import lipu_sunx_b06 from "./sunx_b06.lipu.data.json";
+import lipu_sunx_b07 from "./sunx_b07.lipu.data.json";
+import lipu_sunx_b08 from "./sunx_b08.lipu.data.json";
+import lipu_sunx_b09 from "./sunx_b09.lipu.data.json";
+import lipu_sunx_b10 from "./sunx_b10.lipu.data.json";
+import lipu_sunx_b11 from "./sunx_b11.lipu.data.json";
+import lipu_sunx_b12 from "./sunx_b12.lipu.data.json";
+import lipu_sunx_b13 from "./sunx_b13.lipu.data.json";
+import lipu_sunx_b14 from "./sunx_b14.lipu.data.json";
+import lipu_sunx_b15 from "./sunx_b15.lipu.data.json";
+import lipu_sunx_b16 from "./sunx_b16.lipu.data.json";
+import lipu_sunx_b17 from "./sunx_b17.lipu.data.json";
+import lipu_sunx_b18 from "./sunx_b18.lipu.data.json";
+import lipu_sunx_b19 from "./sunx_b19.lipu.data.json";
+import lipu_sunx_b20 from "./sunx_b20.lipu.data.json";
+import lipu_sunx_b21 from "./sunx_b21.lipu.data.json";
+import lipu_sunx_b22 from "./sunx_b22.lipu.data.json";
+import lipu_sunx_b23 from "./sunx_b23.lipu.data.json";
+import lipu_sunx_b24 from "./sunx_b24.lipu.data.json";
+import lipu_sunx_b25 from "./sunx_b25.lipu.data.json";
+import lipu_sunx_b26 from "./sunx_b26.lipu.data.json";
+import lipu_sunx_b27 from "./sunx_b27.lipu.data.json";
+import lipu_sunx_b28 from "./sunx_b28.lipu.data.json";
+import lipu_sunx_b29 from "./sunx_b29.lipu.data.json";
+import lipu_sunx_b30 from "./sunx_b30.lipu.data.json";
+import lipu_sunx_b31 from "./sunx_b31.lipu.data.json";
+import lipu_sunx_b32 from "./sunx_b32.lipu.data.json";
+import lipu_sunx_b33 from "./sunx_b33.lipu.data.json";
+import lipu_sunx_b34 from "./sunx_b34.lipu.data.json";
+import lipu_sunx_b35 from "./sunx_b35.lipu.data.json";
+import lipu_sunx_b36 from "./sunx_b36.lipu.data.json";
+import lipu_sunx_b37 from "./sunx_b37.lipu.data.json";
+import lipu_sunx_b38 from "./sunx_b38.lipu.data.json";
+import lipu_sunx_b39 from "./sunx_b39.lipu.data.json";
+import lipu_sunx_b40 from "./sunx_b40.lipu.data.json";
+import lipu_sunx_b41 from "./sunx_b41.lipu.data.json";
+import lipu_sunx_b42 from "./sunx_b42.lipu.data.json";
+import lipu_sunx_b43 from "./sunx_b43.lipu.data.json";
+import lipu_sunx_b44 from "./sunx_b44.lipu.data.json";
+import lipu_sunx_b45 from "./sunx_b45.lipu.data.json";
+import lipu_sunx_b46 from "./sunx_b46.lipu.data.json";
+import lipu_sunx_b47 from "./sunx_b47.lipu.data.json";
+import lipu_sunx_b48 from "./sunx_b48.lipu.data.json";
+import lipu_sunx_b49 from "./sunx_b49.lipu.data.json";
+import lipu_sunx_b50 from "./sunx_b50.lipu.data.json";
+import lipu_sunx_b51 from "./sunx_b51.lipu.data.json";
+import lipu_sunx_b52 from "./sunx_b52.lipu.data.json";
+import lipu_sunx_b53 from "./sunx_b53.lipu.data.json";
+import lipu_sunx_b54 from "./sunx_b54.lipu.data.json";
+import lipu_sunx_b55 from "./sunx_b55.lipu.data.json";
+import lipu_sunx_b56 from "./sunx_b56.lipu.data.json";
+import lipu_sunx_b57 from "./sunx_b57.lipu.data.json";
+import lipu_sunx_b58 from "./sunx_b58.lipu.data.json";
+import lipu_sunx_b59 from "./sunx_b59.lipu.data.json";
+import lipu_sunx_b60 from "./sunx_b60.lipu.data.json";
+import lipu_sunx_b61 from "./sunx_b61.lipu.data.json";
+import lipu_sunx_b62 from "./sunx_b62.lipu.data.json";
+import lipu_sunx_b63 from "./sunx_b63.lipu.data.json";
 
 /** 支系键 → 人类可读标签（数据文件本身只存 key）。 */
 const LABELS: Record<string, string> = {
@@ -1937,6 +2002,71 @@ const LABELS: Record<string, string> = {
   zhyz_02: "原阳斗门大张庄张氏·张顺旺之后·张玉德支（第3-6世）",
   zhyz_03: "原阳斗门大张庄张氏·张繁兴之后·张顺旺支（第2-6世）",
   zhyz_04: "原阳斗门大张庄张氏·张繁兴（第1-7世）",
+  sunx_a01: "淮阳孙氏·马明寺世系总表·孙普政、孙普备、孙普善（第1-12世）",
+  sunx_a02: "淮阳孙氏·后孙庄、前孙庄、东张庄等分支（总表印刷页29）·孙时标、孙大成（第8-12世）",
+  sunx_b01: "淮阳孙氏·烟台朱村（清光绪年间十四世孙攀自后孙庄移居）·孙景泰之后（第17-20世）",
+  sunx_b02: "淮阳孙氏·烟台朱村（清光绪年间十四世孙攀自后孙庄移居）·孙永和之后（第16-20世）",
+  sunx_b03: "淮阳孙氏·烟台朱村（清光绪年间十四世孙攀自后孙庄移居）·孙永恒（第15-19世）",
+  sunx_b04: "淮阳孙氏·烟台朱村（清光绪年间十四世孙攀自后孙庄移居）·孙永和（第15-20世）",
+  sunx_b05: "淮阳孙氏·西华县东王营乡孙楼村·孙景仁、孙景安（第16-21世）",
+  sunx_b06: "淮阳孙氏·西华县东王营乡孙楼村·孙合安（第16-20世）",
+  sunx_b07: "淮阳孙氏·西华县东王营乡孙楼村·孙景志、孙景畅（第16-21世）",
+  sunx_b08: "淮阳孙氏·西华县东王营乡孙楼村·孙学安（第16-20世）",
+  sunx_b09: "淮阳孙氏·西华县东王营乡孙营村·孙景福之后（第17-20世）",
+  sunx_b10: "淮阳孙氏·西华县东王营乡孙营村·孙振江（第15-19世）",
+  sunx_b11: "淮阳孙氏·西华县迟营乡安庄村·孙智礼之后（第18-21世）",
+  sunx_b12: "淮阳孙氏·西华县迟营乡安庄村·孙永祥之后（第17-21世）",
+  sunx_b13: "淮阳孙氏·西华县迟营乡安庄村·孙爱礼（第17-20世）",
+  sunx_b14: "淮阳孙氏·西华县迟营乡安庄村·孙永祥（第16-20世）",
+  sunx_b15: "淮阳孙氏·西华县迟营乡安庄村·孙进礼、孙钦礼（第17-20世）",
+  sunx_b16: "淮阳孙氏·西华县迟营乡安庄村·孙悦礼（第17-20世）",
+  sunx_b17: "淮阳孙氏·西华县东王营乡花庄·孙长站之后（第18-21世）",
+  sunx_b18: "淮阳孙氏·西华县东王营乡花庄·孙景会（第16-21世）",
+  sunx_b19: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙永安之后（第16-19世）",
+  sunx_b20: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙永安之后（第16-18世）",
+  sunx_b21: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙永昌、孙永敬（第15-19世）",
+  sunx_b22: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙永安（第15-19世）",
+  sunx_b23: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙三、孙道（第15-20世）",
+  sunx_b24: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙长德、孙长功（第16-19世）",
+  sunx_b25: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙长林（第16-20世）",
+  sunx_b26: "淮阳孙氏·西华县大王庄乡方庄行政村西孙庄·孙永福（第15-19世）",
+  sunx_b27: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙永先之后（第16-19世）",
+  sunx_b28: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景云（第16-20世）",
+  sunx_b29: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙富先（第15-19世）",
+  sunx_b30: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙耀先、孙永昌（第15-19世）",
+  sunx_b31: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景超、孙景文（第16-20世）",
+  sunx_b32: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景明（第16-21世）",
+  sunx_b33: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙永勤（第15-19世）",
+  sunx_b34: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙长山、孙长海（第17-20世）",
+  sunx_b35: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景富、孙景和（第16-20世）",
+  sunx_b36: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙凤先（第15-20世）",
+  sunx_b37: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景春、孙景位（第16-19世）",
+  sunx_b38: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙长荣、孙天军（第17-20世）",
+  sunx_b39: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景贤、孙景福、孙景伦（第16-19世）",
+  sunx_b40: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景祥、孙景俊（第16-20世）",
+  sunx_b41: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙长发、孙长庚（第17-21世）",
+  sunx_b42: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙永莲（第15-19世）",
+  sunx_b43: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙永先（第15-20世）",
+  sunx_b44: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景仕、孙景立（第16-19世）",
+  sunx_b45: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景才（第16-21世）",
+  sunx_b46: "淮阳孙氏·西华县大王庄乡河西东孙庄行政村·孙景龙（第16-19世）",
+  sunx_b47: "淮阳孙氏·迟营乡孙庄自然村·孙廷彦之后（第17-21世）",
+  sunx_b48: "淮阳孙氏·迟营乡孙庄自然村·孙守成之后（第16-21世）",
+  sunx_b49: "淮阳孙氏·迟营乡孙庄自然村·孙舟之后（第16-20世）",
+  sunx_b50: "淮阳孙氏·迟营乡孙庄自然村·孙答拉之后（第17-21世）",
+  sunx_b51: "淮阳孙氏·迟营乡孙庄自然村·孙太之后（第17-21世）",
+  sunx_b52: "淮阳孙氏·迟营乡孙庄自然村·孙守礼之后（第16-19世）",
+  sunx_b53: "淮阳孙氏·迟营乡孙庄自然村·孙付中之后（第18-20世）",
+  sunx_b54: "淮阳孙氏·迟营乡孙庄自然村·孙现忠之后（第18-21世）",
+  sunx_b55: "淮阳孙氏·迟营乡孙庄自然村·孙二卫之后（第17-20世，之一）",
+  sunx_b56: "淮阳孙氏·迟营乡孙庄自然村·孙二卫之后（第17-20世，之二）",
+  sunx_b57: "淮阳孙氏·迟营乡孙庄自然村·孙聚之后（第16-21世）",
+  sunx_b58: "淮阳孙氏·迟营乡孙庄自然村·孙春、孙守成（第15-20世）",
+  sunx_b59: "淮阳孙氏·迟营乡孙庄自然村·孙守申、孙守礼、孙魁（第15-19世）",
+  sunx_b60: "淮阳孙氏·迟营乡孙庄自然村·孙洼头（第15-20世）",
+  sunx_b61: "淮阳孙氏·迟营乡孙庄自然村·孙舒（第15-19世）",
+  sunx_b62: "淮阳孙氏·迟营乡孙庄自然村·孙聚（第15-21世）",
+  sunx_b63: "淮阳孙氏·迟营乡孙庄自然村·孙舟（第15-20世）",
 };
 
 const DATASETS = new Map<string, GenealogyDataset>([
@@ -2903,6 +3033,71 @@ const DATASETS = new Map<string, GenealogyDataset>([
   ["zhyz_02", lipu_zhyz_02 as GenealogyDataset],
   ["zhyz_03", lipu_zhyz_03 as GenealogyDataset],
   ["zhyz_04", lipu_zhyz_04 as GenealogyDataset],
+  ["sunx_a01", lipu_sunx_a01 as GenealogyDataset],
+  ["sunx_a02", lipu_sunx_a02 as GenealogyDataset],
+  ["sunx_b01", lipu_sunx_b01 as GenealogyDataset],
+  ["sunx_b02", lipu_sunx_b02 as GenealogyDataset],
+  ["sunx_b03", lipu_sunx_b03 as GenealogyDataset],
+  ["sunx_b04", lipu_sunx_b04 as GenealogyDataset],
+  ["sunx_b05", lipu_sunx_b05 as GenealogyDataset],
+  ["sunx_b06", lipu_sunx_b06 as GenealogyDataset],
+  ["sunx_b07", lipu_sunx_b07 as GenealogyDataset],
+  ["sunx_b08", lipu_sunx_b08 as GenealogyDataset],
+  ["sunx_b09", lipu_sunx_b09 as GenealogyDataset],
+  ["sunx_b10", lipu_sunx_b10 as GenealogyDataset],
+  ["sunx_b11", lipu_sunx_b11 as GenealogyDataset],
+  ["sunx_b12", lipu_sunx_b12 as GenealogyDataset],
+  ["sunx_b13", lipu_sunx_b13 as GenealogyDataset],
+  ["sunx_b14", lipu_sunx_b14 as GenealogyDataset],
+  ["sunx_b15", lipu_sunx_b15 as GenealogyDataset],
+  ["sunx_b16", lipu_sunx_b16 as GenealogyDataset],
+  ["sunx_b17", lipu_sunx_b17 as GenealogyDataset],
+  ["sunx_b18", lipu_sunx_b18 as GenealogyDataset],
+  ["sunx_b19", lipu_sunx_b19 as GenealogyDataset],
+  ["sunx_b20", lipu_sunx_b20 as GenealogyDataset],
+  ["sunx_b21", lipu_sunx_b21 as GenealogyDataset],
+  ["sunx_b22", lipu_sunx_b22 as GenealogyDataset],
+  ["sunx_b23", lipu_sunx_b23 as GenealogyDataset],
+  ["sunx_b24", lipu_sunx_b24 as GenealogyDataset],
+  ["sunx_b25", lipu_sunx_b25 as GenealogyDataset],
+  ["sunx_b26", lipu_sunx_b26 as GenealogyDataset],
+  ["sunx_b27", lipu_sunx_b27 as GenealogyDataset],
+  ["sunx_b28", lipu_sunx_b28 as GenealogyDataset],
+  ["sunx_b29", lipu_sunx_b29 as GenealogyDataset],
+  ["sunx_b30", lipu_sunx_b30 as GenealogyDataset],
+  ["sunx_b31", lipu_sunx_b31 as GenealogyDataset],
+  ["sunx_b32", lipu_sunx_b32 as GenealogyDataset],
+  ["sunx_b33", lipu_sunx_b33 as GenealogyDataset],
+  ["sunx_b34", lipu_sunx_b34 as GenealogyDataset],
+  ["sunx_b35", lipu_sunx_b35 as GenealogyDataset],
+  ["sunx_b36", lipu_sunx_b36 as GenealogyDataset],
+  ["sunx_b37", lipu_sunx_b37 as GenealogyDataset],
+  ["sunx_b38", lipu_sunx_b38 as GenealogyDataset],
+  ["sunx_b39", lipu_sunx_b39 as GenealogyDataset],
+  ["sunx_b40", lipu_sunx_b40 as GenealogyDataset],
+  ["sunx_b41", lipu_sunx_b41 as GenealogyDataset],
+  ["sunx_b42", lipu_sunx_b42 as GenealogyDataset],
+  ["sunx_b43", lipu_sunx_b43 as GenealogyDataset],
+  ["sunx_b44", lipu_sunx_b44 as GenealogyDataset],
+  ["sunx_b45", lipu_sunx_b45 as GenealogyDataset],
+  ["sunx_b46", lipu_sunx_b46 as GenealogyDataset],
+  ["sunx_b47", lipu_sunx_b47 as GenealogyDataset],
+  ["sunx_b48", lipu_sunx_b48 as GenealogyDataset],
+  ["sunx_b49", lipu_sunx_b49 as GenealogyDataset],
+  ["sunx_b50", lipu_sunx_b50 as GenealogyDataset],
+  ["sunx_b51", lipu_sunx_b51 as GenealogyDataset],
+  ["sunx_b52", lipu_sunx_b52 as GenealogyDataset],
+  ["sunx_b53", lipu_sunx_b53 as GenealogyDataset],
+  ["sunx_b54", lipu_sunx_b54 as GenealogyDataset],
+  ["sunx_b55", lipu_sunx_b55 as GenealogyDataset],
+  ["sunx_b56", lipu_sunx_b56 as GenealogyDataset],
+  ["sunx_b57", lipu_sunx_b57 as GenealogyDataset],
+  ["sunx_b58", lipu_sunx_b58 as GenealogyDataset],
+  ["sunx_b59", lipu_sunx_b59 as GenealogyDataset],
+  ["sunx_b60", lipu_sunx_b60 as GenealogyDataset],
+  ["sunx_b61", lipu_sunx_b61 as GenealogyDataset],
+  ["sunx_b62", lipu_sunx_b62 as GenealogyDataset],
+  ["sunx_b63", lipu_sunx_b63 as GenealogyDataset],
 ]);
 
 export type LipuFamilyMeta = {
