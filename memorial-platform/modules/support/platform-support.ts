@@ -5,6 +5,7 @@ import { env } from "@/lib/env";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
 import { paypalFetch } from "@/lib/paypal";
+import { startStripeCheckout } from "@/lib/stripe";
 import { collectRate } from "@/modules/settings/rates";
 
 /** The `kind` marking an order as a gift to the platform, not to a family. */
@@ -33,32 +34,31 @@ async function usdValueFromCny(cnyMinor: number): Promise<string> {
   return Math.max(0.01, usd).toFixed(2);
 }
 
-/**
- * Starts a PayPal payment that funds the platform itself, and returns the
- * approval URL.
- *
- * The whole amount is the platform's: the order carries no `memorialId` and its
- * `feeMinor` equals the amount, so the family ledgers and payout views never see
- * it and "net owed to families" stays honest. RMB is charged in USD; bookkeeping
- * stays in RMB, like every other order.
- */
-export async function createPlatformSupportOrder(
-  input: PlatformSupportInput,
-): Promise<Result<{ url: string }, PlatformSupportError>> {
-  const e = env();
-  if (!e.PAYPAL_CLIENT_ID || !e.PAYPAL_CLIENT_SECRET) {
-    return err("NOT_CONFIGURED");
-  }
-
-  const amountMinor = Math.trunc(input.amountMinor);
+/** A valid gift amount in minor units, or null when outside the bounds. */
+function validAmount(raw: number): number | null {
+  const amountMinor = Math.trunc(raw);
   if (
     !Number.isFinite(amountMinor) ||
     amountMinor < PLATFORM_SUPPORT_MIN_MINOR ||
     amountMinor > PLATFORM_SUPPORT_MAX_MINOR
   ) {
-    return err("INVALID_AMOUNT");
+    return null;
   }
+  return amountMinor;
+}
 
+/**
+ * Writes the pending order for a platform gift.
+ *
+ * The whole amount is the platform's: the order carries no `memorialId` and its
+ * `feeMinor` equals the amount, so the family ledgers and payout views never see
+ * it and "net owed to families" stays honest.
+ */
+async function insertSupportOrder(
+  input: PlatformSupportInput,
+  amountMinor: number,
+  provider: "paypal" | "stripe",
+): Promise<string> {
   const [order] = await db()
     .insert(orders)
     .values({
@@ -68,15 +68,67 @@ export async function createPlatformSupportOrder(
       currency: "CNY",
       kind: PLATFORM_SUPPORT_KIND,
       memorialId: null,
-      provider: "paypal",
+      provider,
       // The platform keeps all of it — recorded as 100% fee so the family "net"
       // aggregations exclude it without any special-casing.
       feeMinor: amountMinor,
       meta: { kind: PLATFORM_SUPPORT_KIND, locale: input.locale },
     })
     .returning({ id: orders.id });
+  return order!.id;
+}
 
-  const orderId = order!.id;
+/**
+ * Starts a Stripe Checkout (card, Alipay, WeChat Pay) that funds the platform,
+ * and returns its URL. Charged in RMB directly — no conversion.
+ */
+export async function createPlatformSupportStripe(
+  input: PlatformSupportInput,
+): Promise<Result<{ url: string }, PlatformSupportError>> {
+  const e = env();
+  if (!e.STRIPE_SECRET_KEY) return err("NOT_CONFIGURED");
+
+  const amountMinor = validAmount(input.amountMinor);
+  if (amountMinor === null) return err("INVALID_AMOUNT");
+
+  const orderId = await insertSupportOrder(input, amountMinor, "stripe");
+  const base = e.APP_URL.replace(/\/$/, "");
+  const locale = encodeURIComponent(input.locale);
+
+  const session = await startStripeCheckout({
+    orderId,
+    amountMinor,
+    productName: "Support missingu.org",
+    locale: input.locale,
+    cancelUrl: `${base}/${locale}/support?state=cancel`,
+  }).catch(() => null);
+  if (!session) return err("PROVIDER_ERROR");
+
+  await db()
+    .update(orders)
+    .set({ providerSessionId: session.sessionId })
+    .where(eq(orders.id, orderId));
+
+  return ok({ url: session.url });
+}
+
+/**
+ * Starts a PayPal payment that funds the platform itself, and returns the
+ * approval URL. RMB is charged in USD; bookkeeping stays in RMB, like every
+ * other order.
+ */
+export async function createPlatformSupportOrder(
+  input: PlatformSupportInput,
+): Promise<Result<{ url: string }, PlatformSupportError>> {
+  const e = env();
+  if (!e.PAYPAL_CLIENT_ID || !e.PAYPAL_CLIENT_SECRET) {
+    return err("NOT_CONFIGURED");
+  }
+
+  const amountMinor = validAmount(input.amountMinor);
+  if (amountMinor === null) return err("INVALID_AMOUNT");
+
+  const orderId = await insertSupportOrder(input, amountMinor, "paypal");
   const usdValue = await usdValueFromCny(amountMinor);
   const base = e.APP_URL.replace(/\/$/, "");
   const locale = encodeURIComponent(input.locale);

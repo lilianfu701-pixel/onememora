@@ -12,8 +12,9 @@ export const dynamic = "force-dynamic";
 
 /**
  * Starts payment for a paid offering (candle, wreath, donation) and returns a
- * Stripe Checkout URL for the client to redirect to. The offering is not
- * recorded here — the webhook does that once the payment settles.
+ * Stripe Checkout URL (card, Alipay, WeChat Pay) for the client to redirect to.
+ * The offering is not recorded here — `/api/stripe/return` and the webhook do
+ * that once the payment settles.
  */
 const schema = z.object({
   slug: z.enum(["candle", "wreath", "donation"]),
@@ -76,6 +77,10 @@ export async function POST(
       return jsonError("INVALID_INPUT", correlationId, {
         amountMinor: ["invalid"],
       });
+    }
+    // Stripe keys not set on this deployment — distinct from a failed call.
+    if (result.error === "NOT_CONFIGURED") {
+      return jsonError("FEATURE_DISABLED", correlationId);
     }
     return jsonError("CHECKOUT_FAILED", correlationId);
   }

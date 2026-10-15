@@ -2,27 +2,39 @@
 
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import type { PaymentProvider } from "@/lib/payment-providers";
 
 /** ¥9.9 floor, mirrored on the server. */
 const MIN_YUAN = 9.9;
 
 /**
- * Custom-amount input + PayPal button for funding the platform. On success the
- * server returns a PayPal approval URL and we hand the browser to it; the payer
- * comes back to /support?state=thanks.
+ * Custom-amount input + one pay button per configured provider (Stripe for
+ * card/Alipay/WeChat Pay, PayPal) for funding the platform. On success the
+ * server returns the provider's checkout URL and we hand the browser to it;
+ * the payer comes back to /support?state=thanks.
  */
-export function SupportForm({ locale }: { locale: string }) {
+export function SupportForm({
+  locale,
+  providers,
+}: {
+  locale: string;
+  providers: readonly PaymentProvider[];
+}) {
   const t = useTranslations("platformSupport");
   const [amount, setAmount] = useState("");
-  const [sending, setSending] = useState(false);
+  const [sending, setSending] = useState<PaymentProvider | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const yuan = Number.parseFloat(amount);
   const valid = Number.isFinite(yuan) && yuan >= MIN_YUAN;
+  // With nothing configured, keep the PayPal button so the server's
+  // "not enabled" answer is what the visitor sees.
+  const buttons: readonly PaymentProvider[] =
+    providers.length > 0 ? providers : ["paypal"];
 
-  async function pay(): Promise<void> {
+  async function pay(provider: PaymentProvider): Promise<void> {
     if (sending || !valid) return;
-    setSending(true);
+    setSending(provider);
     setError(null);
     try {
       const res = await fetch("/api/platform-support", {
@@ -31,6 +43,7 @@ export function SupportForm({ locale }: { locale: string }) {
         body: JSON.stringify({
           amountMinor: Math.round(yuan * 100),
           locale,
+          provider,
         }),
       });
       const data = await res.json().catch(() => null);
@@ -39,11 +52,11 @@ export function SupportForm({ locale }: { locale: string }) {
         setError(code === "FEATURE_DISABLED" ? t("unavailable") : t("failed"));
         return;
       }
-      window.location.href = data.data.url;
+      window.location.assign(data.data.url);
     } catch {
       setError(t("failed"));
     } finally {
-      setSending(false);
+      setSending(null);
     }
   }
 
@@ -69,15 +82,22 @@ export function SupportForm({ locale }: { locale: string }) {
         <span className="fieldHint">{t("amountHint")}</span>
       </label>
 
-      <div>
-        <button
-          type="button"
-          className="button buttonPrimary"
-          disabled={sending || !valid}
-          onClick={pay}
-        >
-          {sending ? t("redirecting") : t("pay")}
-        </button>
+      <div className="supportPayButtons">
+        {buttons.map((p, i) => (
+          <button
+            key={p}
+            type="button"
+            className={`button ${i === 0 ? "buttonPrimary" : "buttonQuiet"}`}
+            disabled={sending !== null || !valid}
+            onClick={() => pay(p)}
+          >
+            {sending === p
+              ? t("redirecting")
+              : p === "stripe"
+                ? t("payStripe")
+                : t("pay")}
+          </button>
+        ))}
       </div>
 
       {error ? (

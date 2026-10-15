@@ -14,6 +14,7 @@ import {
 } from "@/db/schema";
 import { countryName } from "@/lib/countries";
 import { env, siteUrl } from "@/lib/env";
+import { availablePaymentProviders } from "@/lib/payment-providers";
 import { currentActor } from "@/modules/auth/current-user";
 import {
   publicVisitorStories,
@@ -560,9 +561,7 @@ export default async function MemorialPage(props: {
           portrait={rootPortrait}
           portraitCredit={portraitCredit}
           personName={detail.primaryName}
-          paymentEnabled={Boolean(
-            process.env.PAYPAL_CLIENT_ID && process.env.PAYPAL_CLIENT_SECRET,
-          )}
+          paymentProviders={availablePaymentProviders()}
           awaitingClaim={paidOfferingsClosed(
             offeringFlags?.stewardedByAdminAt,
             offeringFlags?.creationIdempotencyKey,

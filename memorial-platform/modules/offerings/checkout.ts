@@ -4,7 +4,7 @@ import { orders } from "@/db/schema";
 import { env } from "@/lib/env";
 import { err, ok } from "@/lib/result";
 import type { Result } from "@/lib/result";
-import { stripe } from "@/lib/stripe";
+import { startStripeCheckout } from "@/lib/stripe";
 import { OFFERING_CATALOG, PLATFORM_FEE_RATE } from "./catalog";
 import { gateOffering } from "./gating";
 
@@ -13,7 +13,8 @@ export type CheckoutError =
   | "AWAITING_CLAIM"
   | "OFFERING_DISABLED"
   | "INVALID_AMOUNT"
-  | "NOT_CONFIGURED";
+  | "NOT_CONFIGURED"
+  | "PROVIDER_ERROR";
 
 /** The offerings that cost money. Incense is free and never comes here. */
 type PaidSlug = "candle" | "wreath" | "donation";
@@ -32,7 +33,8 @@ export interface CheckoutInput {
   locale: string;
 }
 
-const DONATION_MIN_MINOR = 100; // ¥1
+// Same bounds as the PayPal path, so the altar behaves the same either way.
+const DONATION_MIN_MINOR = 9900; // ¥99
 const DONATION_MAX_MINOR = 100_000_00; // ¥100,000
 
 const PRODUCT_NAME: Record<PaidSlug, string> = {
@@ -42,12 +44,11 @@ const PRODUCT_NAME: Record<PaidSlug, string> = {
 };
 
 /**
- * Starts a Stripe Checkout for a paid offering.
+ * Starts a Stripe Checkout (card, Alipay, WeChat Pay) for a paid offering.
  *
- * A pending `orders` row is written first so a completed payment always has a
- * row to settle against (the webhook reconciles it). The offering itself is
- * only recorded once payment succeeds — never here. Card, Alipay and WeChat Pay
- * are all offered through the one Checkout session.
+ * A pending `orders` row is written first, with the offering intent in `meta`
+ * exactly as the PayPal path stores it, so the same `settleOrderById` records
+ * the offering once payment succeeds — never here.
  */
 export async function createOfferingCheckout(
   input: CheckoutInput,
@@ -72,8 +73,6 @@ export async function createOfferingCheckout(
   if (!gate.ok) return err(gate.error);
   const memorialSlug = gate.value.memorialSlug;
 
-  const feeMinor = Math.round(amountMinor * PLATFORM_FEE_RATE);
-
   const [order] = await db()
     .insert(orders)
     .values({
@@ -84,52 +83,32 @@ export async function createOfferingCheckout(
       kind: `offering:${input.slug}`,
       memorialId: input.memorialId,
       provider: "stripe",
-      feeMinor,
+      feeMinor: Math.round(amountMinor * PLATFORM_FEE_RATE),
+      meta: {
+        slug: input.slug,
+        name: input.name?.trim() || null,
+        masked: Boolean(input.masked),
+        message: input.message?.trim() || null,
+      },
     })
     .returning({ id: orders.id });
 
   const orderId = order!.id;
-
   const base = env().APP_URL.replace(/\/$/, "");
-  const back = `${base}/${encodeURIComponent(input.locale)}/memorials/${memorialSlug}`;
-  const rawName = (input.name?.trim() ?? "").slice(0, 60);
-  const message = (input.message?.trim() ?? "").slice(0, 200);
+  const locale = encodeURIComponent(input.locale);
 
-  const session = await stripe().checkout.sessions.create({
-    mode: "payment",
-    payment_method_types: ["card", "alipay", "wechat_pay"],
-    payment_method_options: { wechat_pay: { client: "web" } },
-    line_items: [
-      {
-        quantity: 1,
-        price_data: {
-          currency: "cny",
-          unit_amount: amountMinor,
-          product_data: { name: PRODUCT_NAME[input.slug] },
-        },
-      },
-    ],
-    client_reference_id: orderId,
-    // Everything the webhook needs to record the offering after payment.
-    metadata: {
-      orderId,
-      memorialId: input.memorialId,
-      slug: input.slug,
-      giverUserId: input.giverUserId,
-      name: rawName,
-      masked: input.masked ? "1" : "0",
-      message,
-      amountMinor: String(amountMinor),
-    },
-    success_url: `${back}?offer=success`,
-    cancel_url: `${back}?offer=cancel`,
-  });
-
-  if (!session.url) return err("NOT_CONFIGURED");
+  const session = await startStripeCheckout({
+    orderId,
+    amountMinor,
+    productName: PRODUCT_NAME[input.slug],
+    locale: input.locale,
+    cancelUrl: `${base}/${locale}/memorials/${memorialSlug}?offer=cancel`,
+  }).catch(() => null);
+  if (!session) return err("PROVIDER_ERROR");
 
   await db()
     .update(orders)
-    .set({ providerSessionId: session.id })
+    .set({ providerSessionId: session.sessionId })
     .where(eq(orders.id, orderId));
 
   return ok({ url: session.url });

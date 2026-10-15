@@ -9,6 +9,7 @@ import { currentActor } from "@/modules/auth/current-user";
 import {
   PLATFORM_SUPPORT_MIN_MINOR,
   createPlatformSupportOrder,
+  createPlatformSupportStripe,
 } from "@/modules/support/platform-support";
 
 export const dynamic = "force-dynamic";
@@ -20,12 +21,13 @@ const schema = z.object({
     .min(PLATFORM_SUPPORT_MIN_MINOR)
     .max(100_000_00),
   locale: z.string().trim().min(2).max(10).optional().default("zh-CN"),
+  provider: z.enum(["stripe", "paypal"]).optional().default("paypal"),
 });
 
 /**
- * Starts a PayPal payment that funds the platform (the "资助追思网平台" box) and
- * returns the approval URL for the client to redirect to. No sign-in required —
- * an anonymous visitor may support the site.
+ * Starts a payment that funds the platform (the "资助追思网平台" box) — Stripe
+ * (card, Alipay, WeChat Pay) or PayPal — and returns the URL for the client to
+ * redirect to. No sign-in required — an anonymous visitor may support the site.
  */
 export async function POST(request: Request): Promise<Response> {
   const correlationId = correlationIdFrom(request);
@@ -37,7 +39,11 @@ export async function POST(request: Request): Promise<Response> {
 
   const actor = await currentActor();
 
-  const result = await createPlatformSupportOrder({
+  const start =
+    body.value.provider === "stripe"
+      ? createPlatformSupportStripe
+      : createPlatformSupportOrder;
+  const result = await start({
     amountMinor: body.value.amountMinor,
     userId: actor.userId ?? null,
     locale: body.value.locale,

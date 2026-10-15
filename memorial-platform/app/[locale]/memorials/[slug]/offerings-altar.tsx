@@ -3,7 +3,14 @@
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import type { PaymentProvider } from "@/lib/payment-providers";
 import type { OfferingSummary } from "@/modules/offerings/display";
+
+/** Where each provider's checkout is started for a paid offering. */
+const CHECKOUT_PATH: Record<PaymentProvider, string> = {
+  stripe: "checkout",
+  paypal: "paypal",
+};
 
 /* ────────────── Prop photos ────────────── */
 
@@ -437,12 +444,13 @@ export function OfferingsAltar(props: {
   /** The details unit (name, dates, creator…), shown under the portrait. */
   details?: React.ReactNode;
   /**
-   * Whether online payment is configured. When false (e.g. before PayPal keys
-   * are set), a paid offering is recorded directly instead of failing, so the
-   * after-offering page can be seen. It switches to real checkout automatically
-   * once payment is enabled.
+   * The payment providers configured on this deployment (Stripe first). When
+   * empty (no keys set yet), a paid offering is recorded directly instead of
+   * failing, so the after-offering page can be seen. It switches to real
+   * checkout automatically once a provider is configured; with two, the payer
+   * picks one in the offering dialog.
    */
-  paymentEnabled: boolean;
+  paymentProviders: readonly PaymentProvider[];
   /**
    * The platform created this page and it is still waiting for a family to
    * claim it. While true, the paid offerings (candle/wreath/donation) are
@@ -462,6 +470,12 @@ export function OfferingsAltar(props: {
   const isOff = (slug: string): boolean =>
     disabledSlugs.includes(slug) ||
     (awaitingClaim && PAID_SLUGS.includes(slug));
+
+  const providers = props.paymentProviders;
+  const paymentEnabled = providers.length > 0;
+  const [provider, setProvider] = useState<PaymentProvider | undefined>(
+    providers[0],
+  );
 
   const [modal, setModal] = useState<OfferKind | null>(null);
   const [name, setName] = useState("");
@@ -546,9 +560,9 @@ export function OfferingsAltar(props: {
   }
 
   /**
-   * Sends a paid offering to PayPal. On success the browser leaves for PayPal;
-   * the offering is only recorded once payment is captured, so nothing is
-   * written here.
+   * Sends a paid offering to the chosen provider (Stripe or PayPal). On success
+   * the browser leaves for the provider's checkout; the offering is only
+   * recorded once payment is confirmed, so nothing is written here.
    *
    * When payment is not enabled yet, the offering is recorded directly through
    * the free path instead, so the after-offering page (altar + merit book) can
@@ -567,7 +581,7 @@ export function OfferingsAltar(props: {
       return;
     }
 
-    if (!props.paymentEnabled) {
+    if (!paymentEnabled || !provider) {
       const recorded = await post(payload, tag);
       if (recorded) setModal(null);
       return;
@@ -577,7 +591,7 @@ export function OfferingsAltar(props: {
     setNotice(null);
     try {
       const res = await fetch(
-        `/api/memorials/${props.memorialId}/offerings/paypal`,
+        `/api/memorials/${props.memorialId}/offerings/${CHECKOUT_PATH[provider]}`,
         {
           method: "POST",
           headers: { "content-type": "application/json" },
@@ -898,8 +912,32 @@ export function OfferingsAltar(props: {
               <span>{t("maskOption")}</span>
             </label>
 
-            {props.paymentEnabled ? (
-              <p className="altarDevNote">{t("payNote")}</p>
+            {providers.length > 1 ? (
+              <fieldset className="altarField altarPayMethods">
+                <legend className="altarFieldLabel">{t("payMethod")}</legend>
+                {providers.map((p) => (
+                  <label key={p} className="altarCheck">
+                    <input
+                      type="radio"
+                      name="payProvider"
+                      value={p}
+                      checked={provider === p}
+                      onChange={() => setProvider(p)}
+                    />
+                    <span>
+                      {p === "stripe"
+                        ? t("payMethodStripe")
+                        : t("payMethodPaypal")}
+                    </span>
+                  </label>
+                ))}
+              </fieldset>
+            ) : null}
+
+            {paymentEnabled ? (
+              <p className="altarDevNote">
+                {provider === "stripe" ? t("payNoteStripe") : t("payNote")}
+              </p>
             ) : null}
 
             {notice === "fail" ? (

@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { normalizeLocale } from "@/lib/locale";
+import { availablePaymentProviders } from "@/lib/payment-providers";
 import { SupportForm } from "./support-form";
 
 export const dynamic = "force-dynamic";
@@ -21,7 +22,8 @@ export async function generateMetadata(props: {
 
 /**
  * "资助追思网平台" — a gift to the platform (not to any family), reached from the
- * footer on every page. Custom amount, ¥9.9 floor, paid via PayPal. Shows a
+ * footer on every page. Custom amount, ¥9.9 floor, paid via Stripe (card,
+ * Alipay, WeChat Pay) or PayPal. Shows a
  * thank-you when the payer returns from a completed payment.
  */
 export default async function SupportPage(props: {
@@ -53,7 +55,10 @@ export default async function SupportPage(props: {
           <p className="muted">{t("cancel")}</p>
         ) : null}
 
-        <SupportForm locale={normalized} />
+        <SupportForm
+          locale={normalized}
+          providers={availablePaymentProviders()}
+        />
 
         <p>
           <Link className="linkButton" href={`/${locale}`}>
