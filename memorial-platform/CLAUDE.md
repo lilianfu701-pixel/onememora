@@ -20,6 +20,7 @@ Global memorial platform for families to create, manage, and share digital memor
 12. **杂项微调** — 花圈挽联飘带间距+上移；创建页各处文案。
 13. **追思管理页统一保存/发布交互** — 生平/人生章节/身后安置/基本信息各板块只保留**一个保存按钮**，保存后置灰、有改动即点亮（脏值追踪）；移除各板块单独发布，改为页面底部**一个「保存并发布」**一次发布已保存的生平+章节草稿（`publish-all.tsx`；身后安置无独立草稿，保存即生效）。`app/[locale]/memorials/[slug]/manage/{manage-forms,chapters-editor,disposition-editor,details-editor,publish-all}.tsx`。
 14. **频道归属 + 首页「最新追思」展示 + 简繁分区搜索** — `memorials.regions`(频道=locale码)+`homepage_display`(**迁移0054**，既有页回填三中文频道)；新页归创建语言频道，中文可勾「两岸三地知名人士」进大陆/台湾/香港三频道，**澳门 zh-mo 经 normalizeLocale 归入香港频道共用**；首页新增「最新追思」按访客频道展示近30天、家属未关闭的追思页（**遗像缩略图卡片**，ISR 每小时刷新，查询失败降级）；管理页「展示与频道」开关+频道勾选(`channels-editor.tsx`，`PATCH /api/memorials/[id]/channels`)；搜索按频道 scope（中文访客限本频道，非中文全局），保留简繁双写扩展。`lib/locale.ts`(chineseChannel/defaultChannelsForLocale)、`modules/memorials/{channels,showcase}.ts`、`app/[locale]/home-showcase.tsx`、`modules/search/query.ts`。见 [[project_missingu_channels_homepage]]。⚠️ 提交迁移必须连 `drizzle/meta/_journal.json`+`NNNN_snapshot.json` 一起提交，否则线上不 migrate（0054 那次漏提交短暂搞挂创建，见 [[project_missingu_deploy]]）。
+15. **Stripe（支付宝/微信支付/银行卡）与 PayPal 并存**（2026-10）— 配了 `STRIPE_SECRET_KEY` 才出现，排在 PayPal 前；供品弹窗两种以上方式时出单选，`/support` 每个 provider 一个按钮。人民币直接计价；支付方式由 Stripe 后台开关决定（代码不写死）。回跳 `/api/stripe/return` 先向 Stripe 核实 session 再结算，`/api/stripe/webhook` 兜底（微信扫码后关页面只能靠它），两者都走 `modules/offerings/settle.ts` 的 `settlePaidOrder`（幂等）。`lib/payment-providers.ts`、`lib/stripe.ts`、`modules/offerings/checkout.ts`、`modules/support/platform-support.ts`。正式密钥是限权 `rk_live_`（仅 Checkout Sessions/Products/Prices 写）；webhook 接收端 `missingu-production`（`checkout.session.completed` + `checkout.session.async_payment_succeeded`）。见 [[project_missingu_payment_stripe]]。
 
 > [[...]] 指向 `~/.claude/.../memory/project_missingu_*.md` 备忘（含每项的踩坑与实现细节）。
 
@@ -203,6 +204,9 @@ Storage adapters: `S3MediaStorage` (production) and `InMemoryMediaStorage` (dev/
 | `PHONE_AUTH_ENABLED` | no | Default: `false` |
 | `PHONE_AUTH_REGIONS` | no | Comma-separated ISO codes |
 | `ANNIVERSARY_NOTIFICATIONS_ENABLED` | no | Default: `false` |
+| `STRIPE_SECRET_KEY` | no | Turns on Stripe checkout (Alipay/WeChat Pay/card); restricted `rk_live_` key in production |
+| `STRIPE_WEBHOOK_SECRET` | no | Signing secret of the `/api/stripe/webhook` destination |
+| `PAYPAL_CLIENT_ID/SECRET/WEBHOOK_ID`, `PAYPAL_ENV` | no | PayPal checkout (`live` in production) |
 
 *S3 vars required in production for media uploads.
 
