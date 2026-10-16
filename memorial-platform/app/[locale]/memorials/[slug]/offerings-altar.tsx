@@ -461,6 +461,7 @@ export function OfferingsAltar(props: {
   disabledSlugs?: readonly string[];
 }) {
   const t = useTranslations("offerings");
+  const nav = useTranslations("nav");
   const router = useRouter();
   const { summary } = props;
 
@@ -936,7 +937,14 @@ export function OfferingsAltar(props: {
 
             {paymentEnabled ? (
               <p className="altarDevNote">
-                {provider === "stripe" ? t("payNoteStripe") : t("payNote")}
+                {provider === "stripe" ? t("payNoteStripe") : t("payNote")}{" "}
+                <a
+                  href={`/${props.locale}/refund`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {nav("refund")}
+                </a>
               </p>
             ) : null}
 

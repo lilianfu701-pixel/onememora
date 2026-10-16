@@ -168,6 +168,9 @@ export default async function LocaleLayout(props: {
                   <Link href={`/${locale}/support`}>{nav("support")}</Link>
                   <Link href={`/${locale}/help`}>{nav("help")}</Link>
                   <Link href={`/${locale}/contact`}>{nav("contact")}</Link>
+                  <Link href={`/${locale}/terms`}>{nav("terms")}</Link>
+                  <Link href={`/${locale}/privacy`}>{nav("privacy")}</Link>
+                  <Link href={`/${locale}/refund`}>{nav("refund")}</Link>
                 </span>
               </div>
 

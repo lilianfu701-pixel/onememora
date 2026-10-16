@@ -1367,6 +1367,27 @@ img {
   line-height: 1.75;
 }
 
+/* Legal pages (terms / privacy / refund): long-form reading text. */
+.legalPage h2 {
+  font-size: var(--text-lg, 1.2rem);
+  margin-block-start: var(--space-6, 2rem);
+}
+
+.legalPage p,
+.legalPage li {
+  color: var(--ink-soft, var(--ink));
+  line-height: 1.8;
+}
+
+.legalPage ul {
+  margin: 0;
+  padding-inline-start: 1.25rem;
+}
+
+.legalPage li + li {
+  margin-block-start: var(--space-2);
+}
+
 /* Obituary guide: element list + the copy-and-adapt template box. */
 .guideList {
   margin: 0;

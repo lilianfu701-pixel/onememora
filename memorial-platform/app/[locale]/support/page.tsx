@@ -35,6 +35,7 @@ export default async function SupportPage(props: {
   const normalized = normalizeLocale(locale);
   const { state } = await props.searchParams;
   const t = await getTranslations("platformSupport");
+  const nav = await getTranslations("nav");
 
   const thanked = state === "thanks";
 
@@ -59,6 +60,12 @@ export default async function SupportPage(props: {
           locale={normalized}
           providers={availablePaymentProviders()}
         />
+
+        <p className="muted">
+          <Link href={`/${locale}/refund`}>{nav("refund")}</Link>
+          {" · "}
+          <Link href={`/${locale}/terms`}>{nav("terms")}</Link>
+        </p>
 
         <p>
           <Link className="linkButton" href={`/${locale}`}>
