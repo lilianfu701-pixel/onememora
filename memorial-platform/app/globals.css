@@ -334,15 +334,6 @@ img {
   user-select: none;
 }
 
-.footerBeian a {
-  color: var(--muted);
-  text-decoration: none;
-}
-
-.footerBeian a:hover {
-  text-decoration: underline;
-}
-
 .footerCopyright {
   color: var(--muted);
 }

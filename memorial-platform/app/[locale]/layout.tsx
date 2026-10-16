@@ -43,9 +43,6 @@ const CN_AGENCIES: readonly { name: string; url: string }[] = [
   { name: "国家档案局", url: "https://www.saac.gov.cn" },
 ];
 
-/** The site's ICP filing, shown only in the Simplified-Chinese footer. */
-const CN_ICP = "京ICP备150395100号";
-
 /**
  * SEO keywords for the Simplified-Chinese site. Led by 讣告 / 讣告格式 (obituary
  * and obituary format) alongside the core memorial terms. Applied site-wide via
@@ -196,15 +193,6 @@ export default async function LocaleLayout(props: {
                         </span>
                       ))}
                     </span>
-                  </div>
-                  <div className="footerBeian">
-                    <a
-                      href="https://beian.miit.gov.cn/"
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                    >
-                      {CN_ICP}
-                    </a>
                   </div>
                 </>
               ) : null}
