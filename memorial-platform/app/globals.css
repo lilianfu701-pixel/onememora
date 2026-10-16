@@ -299,12 +299,6 @@ img {
   font-size: var(--text-base);
 }
 
-.footerAgenciesLabel {
-  font-weight: 600;
-  color: var(--ink-soft, var(--ink));
-  white-space: nowrap;
-}
-
 .footerAgencyLinks {
   display: flex;
   flex-wrap: wrap;

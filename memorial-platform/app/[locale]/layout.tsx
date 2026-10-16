@@ -14,9 +14,11 @@ import { NavSession } from "./nav-session";
 import "../globals.css";
 
 /**
- * Friendly links (友情链接) shown only in the Simplified-Chinese footer:
- * mainland government and sector bodies relevant to bereavement, ageing, law
- * and public records — outbound reference links, not affiliations.
+ * Reference links shown only in the Simplified-Chinese footer: mainland
+ * government and sector bodies relevant to bereavement, ageing, law and public
+ * records — outbound links, not affiliations. Several (民政部, 退役军人事务部,
+ * 中华英烈网, 中国殡葬网) only serve mainland visitors and refuse overseas ones;
+ * that is kept on purpose, since this footer is for the mainland channel.
  */
 const CN_AGENCIES: readonly { name: string; url: string }[] = [
   { name: "中华人民共和国民政部", url: "https://www.mca.gov.cn" },
@@ -26,18 +28,21 @@ const CN_AGENCIES: readonly { name: string; url: string }[] = [
   { name: "退役军人事务部", url: "https://www.mva.gov.cn" },
   { name: "司法部", url: "https://www.moj.gov.cn" },
   { name: "人社部", url: "https://www.mohrss.gov.cn" },
-  { name: "国家医保局", url: "https://www.nhsa.gov.cn" },
+  // http only: its https endpoint times out.
+  { name: "国家医保局", url: "http://www.nhsa.gov.cn" },
   { name: "财政部", url: "https://www.mof.gov.cn" },
   { name: "市场监管总局", url: "https://www.samr.gov.cn" },
   { name: "中华英烈网", url: "https://www.chinamartyrs.gov.cn" },
-  { name: "中国殡葬协会", url: "https://www.chce.org.cn" },
+  // 民政部指导的官方殡葬信息网（2026-04 上线）；仅大陆可访问。
+  { name: "中国殡葬网", url: "https://www.zgbznet.com.cn" },
   { name: "中国红十字会", url: "https://www.redcross.org.cn" },
   { name: "中华慈善总会", url: "https://www.chinacharityfederation.org" },
   { name: "中国残联", url: "https://www.cdpf.org.cn" },
   { name: "中国老龄协会", url: "https://www.cncaprc.gov.cn" },
   { name: "中国人口与发展研究中心", url: "https://www.cpdrc.org.cn" },
   { name: "中国疾控中心", url: "https://www.chinacdc.cn" },
-  { name: "中国老龄科学研究中心", url: "https://www.crca.cn" },
+  // http only: its https endpoint times out.
+  { name: "中国老龄科学研究中心", url: "http://www.crca.cn" },
   { name: "最高人民法院", url: "https://www.court.gov.cn" },
   { name: "中国法律服务网", url: "https://www.12348.gov.cn" },
   { name: "国家档案局", url: "https://www.saac.gov.cn" },
@@ -177,7 +182,6 @@ export default async function LocaleLayout(props: {
               {locale === "zh-CN" ? (
                 <>
                   <div className="footerAgencies">
-                    <span className="footerAgenciesLabel">友情链接</span>
                     <span className="footerAgencyLinks">
                       {CN_AGENCIES.map((a, i) => (
                         <span key={a.url} className="footerAgencyItem">
