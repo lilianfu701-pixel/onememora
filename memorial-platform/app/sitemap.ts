@@ -1,7 +1,7 @@
 import { and, eq, isNull } from "drizzle-orm";
 import type { MetadataRoute } from "next";
 import { db } from "@/db/client";
-import { memorials } from "@/db/schema";
+import { deceasedPeople, memorials } from "@/db/schema";
 import { siteUrl } from "@/lib/env";
 import { DEFAULT_LOCALE, LAUNCH_LOCALES } from "@/lib/locale";
 import { memorialUrl } from "@/modules/memorials/seo";
@@ -46,12 +46,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       publishedAt: memorials.publishedAt,
     })
     .from(memorials)
+    .innerJoin(deceasedPeople, eq(memorials.deceasedPersonId, deceasedPeople.id))
     .where(
       and(
         eq(memorials.visibility, "public"),
         eq(memorials.status, "published"),
         eq(memorials.searchEngineIndexable, true),
         isNull(memorials.deletionRequestedAt),
+        // Genealogy-book pages (with a clan name) are listed in Chinese only,
+        // in /sitemaps/zh-genealogy.xml (see modules/memorials/genealogy-sitemap.ts).
+        isNull(deceasedPeople.clanName),
       ),
     )
     .limit(MAX_ENTRIES);
