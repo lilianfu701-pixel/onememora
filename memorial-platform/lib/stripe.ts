@@ -79,6 +79,9 @@ export async function startStripeCheckout(
 
   const session = await stripe().checkout.sessions.create({
     mode: "payment",
+    // Alipay was never approved on the Stripe account, so offer only WeChat Pay
+    // and cards — listing Alipay left customers at a method that always failed.
+    payment_method_types: ["card", "wechat_pay"],
     payment_method_options: { wechat_pay: { client: "web" } },
     line_items: [
       {
