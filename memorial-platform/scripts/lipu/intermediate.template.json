@@ -1,0 +1,70 @@
+{
+  "_说明": "纸质族谱 OCR 后手搭的中间 JSON 模板。复制本文件改成一支的数据，然后跑 `python scripts/lipu/build_lipu_dataset.py 你的文件.json`（dry-run 看体检报告），确认 0 孤儿后加 --write 生成 {branchKey}.lipu.data.json。构建器会忽略所有以 _ 开头的键。规则详见 docs/genealogy-import-rules.md。",
+
+  "surname": "李",
+  "branchKey": "lizhenghai",
+  "citation": "《李氏族谱·陇西贵州李代龙支系谱》第二卷",
+  "clanName": "陇西李氏·李代龙支系",
+  "hometown": "贵州织金·桂果镇马场村",
+  "livingCutoff": 1940,
+  "presumeLivingFromGen": 18,
+  "generationChars": { "17": "天", "18": "正", "19": "崇", "20": "德" },
+
+  "_people说明": "people 是扁平人员表。每人：gen(第几代,必填) + name(本名,不含姓,必填)。father=父亲本名(按 上一代同名 解析成父子边);spouse=配偶(「某氏」会自动变「{夫}之妻」、某氏留作别名,全名如「张华珍」保留);children=子女本名(没有自己独立条目的,建成叶子);birth/death=写原文,脚本自动抽年份;gender=male/female;aliases=字/号/曾用名;externalId=跨支共祖时锚到另一支已导入节点的 id;extraSpouses=续弦等多配偶。",
+
+  "people": [
+    {
+      "gen": 17,
+      "name": "天位",
+      "birth": "道光十五年",
+      "death": "光绪二十年",
+      "gender": "male",
+      "spouse": "王氏",
+      "children": ["正海", "正江"]
+    },
+    {
+      "gen": 18,
+      "name": "正海",
+      "father": "天位",
+      "birth": "1868",
+      "death": "1931",
+      "gender": "male",
+      "bio": "迁居干河上坝，置田立业。",
+      "spouse": "陈氏",
+      "spouseNote": "生三子",
+      "children": ["崇文", "崇武", "崇德"],
+      "extraSpouses": [
+        { "spouse": "周氏", "children": ["崇贵"] }
+      ]
+    },
+    {
+      "gen": 19,
+      "name": "崇文",
+      "father": "正海",
+      "birth": "1902",
+      "death": "1968",
+      "gender": "male",
+      "aliases": ["焕章"],
+      "spouse": "张华珍",
+      "spouseBirth": "1908",
+      "spouseDeath": "1979",
+      "children": ["德全", "德美"]
+    },
+    {
+      "_注": "德全有自己的条目(gen20),父子边由它的 father 字段建;德美没有独立条目→自动成叶子。",
+      "gen": 20,
+      "name": "德全",
+      "father": "崇文",
+      "birth": "1935",
+      "gender": "male",
+      "spouse": "刘兰英"
+    },
+    {
+      "_注": "跨支共祖示例:此人实为已做的『李世德一支』里的宗保,用 externalId 锚过去,不重复建页。",
+      "gen": 19,
+      "name": "崇保",
+      "father": "正江",
+      "externalId": "lipu:lishide:18-德元"
+    }
+  ]
+}
